@@ -1,0 +1,26 @@
+Pipeline Report - 2026-03-01T18:49:58.370Z
+==================================================
+
+Matched: 128 / 144 conferences
+Deadlines: 147 entries (skipped 629 past)
+
+Unmatched conferences (19):
+  - aacl
+  - case
+  - ccc
+  - er
+  - esa
+  - fase
+  - hri
+  - i3d
+  - icst
+  - interact
+  - isaac
+  - isrr
+  - itcs
+  - lrec
+  - mdm
+  - mfcs
+  - mobilehci
+  - pods
+  - ubicomp
