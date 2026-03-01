@@ -1,8 +1,14 @@
 import { fetchDblpPaperCounts } from "./sources/dblp";
 import { fetchOpenAlexWorksCounts } from "./sources/openalex";
 import {
+  buildLookupMap,
+  fetchCcfDeadlines,
+} from "./sources/ccf-deadlines";
+import {
   getConferenceSlugsAndIds,
   upsertAcceptanceRates,
+  getExistingDeadlineKeys,
+  insertDeadlines,
 } from "./supabase-writer";
 
 async function run() {
@@ -70,6 +76,27 @@ async function run() {
     console.log(`  → Upserted ${count} entries`);
   } else {
     console.log("\nNo new data to upsert.");
+  }
+
+  // ── Phase 2: Deadlines from ccf-deadlines ──
+  console.log("\n── Phase 2: Deadlines ──");
+
+  const lookup = buildLookupMap(conferences);
+  const ccfDeadlines = await fetchCcfDeadlines(lookup);
+
+  if (ccfDeadlines.length > 0) {
+    const existingKeys = await getExistingDeadlineKeys();
+    const newDeadlines = ccfDeadlines.filter(
+      (d) => !existingKeys.has(`${d.conference_id}-${d.year}-${d.cycle}`),
+    );
+
+    if (newDeadlines.length > 0) {
+      console.log(`Inserting ${newDeadlines.length} new deadline entries...`);
+      const count = await insertDeadlines(newDeadlines);
+      console.log(`  → Inserted ${count} entries`);
+    } else {
+      console.log("No new deadlines to insert.");
+    }
   }
 
   console.log("\nPipeline complete!");
