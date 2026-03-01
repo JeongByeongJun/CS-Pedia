@@ -2,10 +2,13 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getConferenceDetail, getConferences } from "@/infrastructure/container";
+import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
+import { getBookmarkStatus, getBookmarkCount } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { FieldBadge } from "@/presentation/components/conferences/field-badge";
 import { DeadlineBadge } from "@/presentation/components/conferences/deadline-badge";
+import { BookmarkButton } from "@/presentation/components/conferences/bookmark-button";
 import { formatDateKr, formatDate } from "@/shared/utils/date";
 import { INSTITUTIONS } from "@/shared/constants/institutions";
 
@@ -52,6 +55,24 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
   const { conference, deadlines, bestPapers, ratings, acceptanceRates } = result;
 
+  const supabase = await createSupabaseServerClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  const [isBookmarked, bookmarkCount] = await Promise.all([
+    getBookmarkStatus(conference.id),
+    getBookmarkCount(),
+  ]);
+
+  const authUser = user
+    ? {
+        email: user.email!,
+        name: user.user_metadata?.full_name ?? user.user_metadata?.name,
+        avatarUrl: user.user_metadata?.avatar_url,
+      }
+    : null;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -81,7 +102,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <SiteHeader upcomingCount={0} totalCount={0} bookmarkCount={0} />
+      <SiteHeader upcomingCount={0} totalCount={0} bookmarkCount={bookmarkCount} user={authUser} />
 
       <main className="max-w-4xl mx-auto px-6 py-8">
         {/* 뒤로가기 */}
@@ -115,6 +136,11 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                 </a>
               )}
             </div>
+            <BookmarkButton
+              conferenceId={conference.id}
+              initialBookmarked={isBookmarked}
+              isLoggedIn={!!user}
+            />
           </div>
         </div>
 

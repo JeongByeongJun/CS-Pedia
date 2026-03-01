@@ -1,5 +1,7 @@
 import { Suspense } from "react";
 import { getConferences } from "@/infrastructure/container";
+import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
+import { getUserBookmarkedIds, getBookmarkCount } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { ConferenceSearch } from "@/presentation/components/conferences/conference-search";
@@ -29,10 +31,30 @@ export default async function HomePage({ searchParams }: HomePageProps) {
   };
   const sort = (params.sort as SortMode) || "deadline";
 
-  const conferences = await getConferences({ filters, sort });
+  const [conferences, supabase] = await Promise.all([
+    getConferences({ filters, sort }),
+    createSupabaseServerClient(),
+  ]);
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  const [bookmarkedIds, bookmarkCount] = await Promise.all([
+    getUserBookmarkedIds(),
+    getBookmarkCount(),
+  ]);
+
   const upcomingCount = conferences.filter(
     (c) => (c.daysUntilDeadline ?? -1) >= 0,
   ).length;
+
+  const authUser = user
+    ? {
+        email: user.email!,
+        name: user.user_metadata?.full_name ?? user.user_metadata?.name,
+        avatarUrl: user.user_metadata?.avatar_url,
+      }
+    : null;
 
   return (
     <div
@@ -45,7 +67,8 @@ export default async function HomePage({ searchParams }: HomePageProps) {
       <SiteHeader
         upcomingCount={upcomingCount}
         totalCount={conferences.length}
-        bookmarkCount={0}
+        bookmarkCount={bookmarkCount}
+        user={authUser}
       />
 
       <main className="max-w-6xl mx-auto px-6 py-6">
@@ -62,7 +85,11 @@ export default async function HomePage({ searchParams }: HomePageProps) {
         </div>
 
         {/* 학회 목록 */}
-        <ConferenceList conferences={conferences} />
+        <ConferenceList
+          conferences={conferences}
+          bookmarkedIds={bookmarkedIds}
+          isLoggedIn={!!user}
+        />
 
         <SiteFooter />
       </main>

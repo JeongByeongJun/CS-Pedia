@@ -1,6 +1,8 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getBestPapers } from "@/infrastructure/container";
+import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
+import { getBookmarkCount } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { BestPaperFilters } from "@/presentation/components/best-papers/best-paper-filters";
@@ -28,7 +30,22 @@ export default async function BestPapersPage({ searchParams }: PageProps) {
     year: params.year ? parseInt(params.year) : undefined,
   };
 
-  const papers = await getBestPapers(filters);
+  const [papers, supabase] = await Promise.all([
+    getBestPapers(filters),
+    createSupabaseServerClient(),
+  ]);
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  const bookmarkCount = await getBookmarkCount();
+
+  const authUser = user
+    ? {
+        email: user.email!,
+        name: user.user_metadata?.full_name ?? user.user_metadata?.name,
+        avatarUrl: user.user_metadata?.avatar_url,
+      }
+    : null;
 
   // 연도 목록 추출
   const years = [...new Set(papers.map((p) => p.year))].sort((a, b) => b - a);
@@ -53,7 +70,8 @@ export default async function BestPapersPage({ searchParams }: PageProps) {
       <SiteHeader
         upcomingCount={0}
         totalCount={0}
-        bookmarkCount={0}
+        bookmarkCount={bookmarkCount}
+        user={authUser}
       />
 
       <main className="max-w-4xl mx-auto px-6 py-8">

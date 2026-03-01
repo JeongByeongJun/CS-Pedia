@@ -3,9 +3,15 @@ import { ConferenceCard } from "./conference-card";
 
 interface ConferenceListProps {
   conferences: ConferenceWithRelations[];
+  bookmarkedIds: string[];
+  isLoggedIn: boolean;
 }
 
-export function ConferenceList({ conferences }: ConferenceListProps) {
+export function ConferenceList({
+  conferences,
+  bookmarkedIds,
+  isLoggedIn,
+}: ConferenceListProps) {
   if (conferences.length === 0) {
     return (
       <div className="text-center py-16 text-zinc-400">
@@ -18,7 +24,12 @@ export function ConferenceList({ conferences }: ConferenceListProps) {
   return (
     <div className="space-y-3">
       {conferences.map((conf) => (
-        <ConferenceCard key={conf.id} conference={conf} />
+        <ConferenceCard
+          key={conf.id}
+          conference={conf}
+          isBookmarked={bookmarkedIds.includes(conf.id)}
+          isLoggedIn={isLoggedIn}
+        />
       ))}
     </div>
   );

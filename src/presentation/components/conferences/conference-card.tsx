@@ -4,14 +4,21 @@ import { DeadlineBadge } from "./deadline-badge";
 import { FieldBadge } from "./field-badge";
 import { InstitutionBadges } from "./institution-badges";
 import { BestPaperAccordion } from "./best-paper-accordion";
+import { BookmarkButton } from "./bookmark-button";
 import { formatDate } from "@/shared/utils/date";
 import { conferenceUrl } from "@/shared/utils/url";
 
 interface ConferenceCardProps {
   conference: ConferenceWithRelations;
+  isBookmarked: boolean;
+  isLoggedIn: boolean;
 }
 
-export function ConferenceCard({ conference }: ConferenceCardProps) {
+export function ConferenceCard({
+  conference,
+  isBookmarked,
+  isLoggedIn,
+}: ConferenceCardProps) {
   const ddays = conference.daysUntilDeadline;
 
   let borderClass = "border-zinc-200/80";
@@ -57,9 +64,14 @@ export function ConferenceCard({ conference }: ConferenceCardProps) {
             </div>
           </div>
 
-          {/* 오른쪽 - 기관 인정 뱃지 */}
+          {/* 오른쪽 - 기관 인정 뱃지 + 북마크 */}
           <div className="flex flex-col items-end gap-2 shrink-0">
             <InstitutionBadges ratings={conference.institutionRatings} />
+            <BookmarkButton
+              conferenceId={conference.id}
+              initialBookmarked={isBookmarked}
+              isLoggedIn={isLoggedIn}
+            />
           </div>
         </div>
 

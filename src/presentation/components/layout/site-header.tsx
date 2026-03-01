@@ -1,15 +1,22 @@
 import Link from "next/link";
+import { AuthButton } from "@/presentation/components/auth/auth-button";
 
 interface SiteHeaderProps {
   upcomingCount: number;
   totalCount: number;
   bookmarkCount: number;
+  user: {
+    email: string;
+    name?: string;
+    avatarUrl?: string;
+  } | null;
 }
 
 export function SiteHeader({
   upcomingCount,
   totalCount,
   bookmarkCount,
+  user,
 }: SiteHeaderProps) {
   return (
     <header
@@ -52,6 +59,7 @@ export function SiteHeader({
             >
               Best Papers
             </Link>
+            <AuthButton user={user} />
           </div>
         </div>
 
