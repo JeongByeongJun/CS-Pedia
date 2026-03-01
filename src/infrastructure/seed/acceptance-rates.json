@@ -1,0 +1,49 @@
+[
+  { "conference_slug": "neurips", "year": 2024, "submitted": 15671, "accepted": 3584, "rate": 22.85 },
+  { "conference_slug": "neurips", "year": 2023, "submitted": 12343, "accepted": 3218, "rate": 26.07 },
+  { "conference_slug": "neurips", "year": 2022, "submitted": 10411, "accepted": 2672, "rate": 25.67 },
+  { "conference_slug": "neurips", "year": 2021, "submitted": 9122, "accepted": 2334, "rate": 25.59 },
+
+  { "conference_slug": "icml", "year": 2024, "submitted": 9473, "accepted": 2609, "rate": 27.54 },
+  { "conference_slug": "icml", "year": 2023, "submitted": 6538, "accepted": 1827, "rate": 27.94 },
+  { "conference_slug": "icml", "year": 2022, "submitted": 5630, "accepted": 1235, "rate": 21.93 },
+
+  { "conference_slug": "iclr", "year": 2024, "submitted": 7262, "accepted": 2260, "rate": 31.12 },
+  { "conference_slug": "iclr", "year": 2023, "submitted": 4966, "accepted": 1566, "rate": 31.53 },
+  { "conference_slug": "iclr", "year": 2022, "submitted": 3391, "accepted": 1095, "rate": 32.30 },
+
+  { "conference_slug": "aaai", "year": 2024, "submitted": 9862, "accepted": 2342, "rate": 23.75 },
+  { "conference_slug": "aaai", "year": 2023, "submitted": 8777, "accepted": 1721, "rate": 19.61 },
+  { "conference_slug": "aaai", "year": 2022, "submitted": 9251, "accepted": 1349, "rate": 14.58 },
+
+  { "conference_slug": "cvpr", "year": 2024, "submitted": 11532, "accepted": 2719, "rate": 23.58 },
+  { "conference_slug": "cvpr", "year": 2023, "submitted": 9155, "accepted": 2360, "rate": 25.78 },
+  { "conference_slug": "cvpr", "year": 2022, "submitted": 8161, "accepted": 2067, "rate": 25.33 },
+
+  { "conference_slug": "iccv", "year": 2023, "submitted": 8068, "accepted": 2160, "rate": 26.77 },
+  { "conference_slug": "iccv", "year": 2021, "submitted": 6236, "accepted": 1617, "rate": 25.93 },
+
+  { "conference_slug": "eccv", "year": 2024, "submitted": 8585, "accepted": 2395, "rate": 27.89 },
+  { "conference_slug": "eccv", "year": 2022, "submitted": 5803, "accepted": 1645, "rate": 28.35 },
+
+  { "conference_slug": "acl", "year": 2024, "submitted": 4386, "accepted": 1044, "rate": 23.80 },
+  { "conference_slug": "acl", "year": 2023, "submitted": 4566, "accepted": 910, "rate": 19.93 },
+
+  { "conference_slug": "emnlp", "year": 2024, "submitted": 5765, "accepted": 1271, "rate": 22.04 },
+  { "conference_slug": "emnlp", "year": 2023, "submitted": 4990, "accepted": 1073, "rate": 21.50 },
+
+  { "conference_slug": "sigmod", "year": 2024, "submitted": 606, "accepted": 130, "rate": 21.45 },
+  { "conference_slug": "sigmod", "year": 2023, "submitted": 554, "accepted": 120, "rate": 21.66 },
+
+  { "conference_slug": "chi", "year": 2024, "submitted": 4028, "accepted": 1060, "rate": 26.31 },
+  { "conference_slug": "chi", "year": 2023, "submitted": 3182, "accepted": 879, "rate": 27.62 },
+
+  { "conference_slug": "icse", "year": 2024, "submitted": 625, "accepted": 134, "rate": 21.44 },
+  { "conference_slug": "icse", "year": 2023, "submitted": 691, "accepted": 150, "rate": 21.71 },
+
+  { "conference_slug": "ccs", "year": 2024, "submitted": 1108, "accepted": 225, "rate": 20.31 },
+  { "conference_slug": "ccs", "year": 2023, "submitted": 1222, "accepted": 234, "rate": 19.15 },
+
+  { "conference_slug": "sp", "year": 2024, "submitted": 1466, "accepted": 171, "rate": 11.66 },
+  { "conference_slug": "sp", "year": 2023, "submitted": 1147, "accepted": 196, "rate": 17.09 }
+]

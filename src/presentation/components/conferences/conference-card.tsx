@@ -1,0 +1,76 @@
+import Link from "next/link";
+import type { ConferenceWithRelations } from "@/domain/repositories/conference-repository";
+import { DeadlineBadge } from "./deadline-badge";
+import { FieldBadge } from "./field-badge";
+import { InstitutionBadges } from "./institution-badges";
+import { BestPaperAccordion } from "./best-paper-accordion";
+import { formatDate } from "@/shared/utils/date";
+import { conferenceUrl } from "@/shared/utils/url";
+
+interface ConferenceCardProps {
+  conference: ConferenceWithRelations;
+}
+
+export function ConferenceCard({ conference }: ConferenceCardProps) {
+  const ddays = conference.daysUntilDeadline;
+
+  let borderClass = "border-zinc-200/80";
+  if (ddays !== null && ddays >= 0 && ddays <= 14) {
+    borderClass = "border-rose-200 shadow-sm shadow-rose-100";
+  } else if (ddays !== null && ddays >= 0 && ddays <= 30) {
+    borderClass = "border-orange-200";
+  }
+
+  return (
+    <div
+      className={`bg-white rounded-2xl border transition-all hover:shadow-md ${borderClass}`}
+    >
+      <div className="p-5">
+        <div className="flex items-start justify-between gap-4">
+          {/* 왼쪽 */}
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+              <Link
+                href={conferenceUrl(conference.slug)}
+                className="text-lg font-bold text-zinc-900 hover:text-indigo-600 transition-colors"
+              >
+                {conference.acronym}
+              </Link>
+              <FieldBadge field={conference.field} />
+              <DeadlineBadge ddays={ddays} />
+            </div>
+            <div className="text-sm text-zinc-500 mb-2 truncate">
+              {conference.nameEn}
+            </div>
+            <div className="flex items-center gap-4 text-xs text-zinc-400 flex-wrap">
+              {conference.conferenceStart && (
+                <span>
+                  📅 {formatDate(conference.conferenceStart)}
+                </span>
+              )}
+              {conference.venue && <span>📍 {conference.venue}</span>}
+              {conference.nextDeadline && (
+                <span>
+                  ⏰ 마감 {formatDate(conference.nextDeadline)}
+                </span>
+              )}
+            </div>
+          </div>
+
+          {/* 오른쪽 - 기관 인정 뱃지 */}
+          <div className="flex flex-col items-end gap-2 shrink-0">
+            <InstitutionBadges ratings={conference.institutionRatings} />
+          </div>
+        </div>
+
+        {/* Best Paper */}
+        {conference.latestBestPaper && (
+          <BestPaperAccordion
+            title={conference.latestBestPaper.title}
+            year={conference.latestBestPaper.year}
+          />
+        )}
+      </div>
+    </div>
+  );
+}

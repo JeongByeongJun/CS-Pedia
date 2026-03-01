@@ -1,0 +1,17 @@
+[
+  { "conference_slug": "neurips", "year": 2025, "paper_title": "Scaling Laws for Precision", "authors": "Gu et al.", "award_type": "best_paper", "tags": ["LLM", "Scaling"] },
+  { "conference_slug": "neurips", "year": 2024, "paper_title": "Diffusion Forcing", "authors": "Chen et al.", "award_type": "best_paper", "tags": ["Diffusion", "Generative"] },
+  { "conference_slug": "icml", "year": 2025, "paper_title": "Flow Matching for Generative Modeling", "authors": "Lipman et al.", "award_type": "best_paper", "tags": ["Generative", "Flow"] },
+  { "conference_slug": "icml", "year": 2024, "paper_title": "Position: LLM Can't Plan", "authors": "Kambhampati", "award_type": "best_paper", "tags": ["LLM", "Planning"] },
+  { "conference_slug": "iclr", "year": 2025, "paper_title": "Grokking and Double Descent Unified", "authors": "Power et al.", "award_type": "best_paper", "tags": ["Theory", "Generalization"] },
+  { "conference_slug": "cvpr", "year": 2025, "paper_title": "Neural Radiance Composition Fields", "authors": "Park et al.", "award_type": "best_paper", "tags": ["3D Vision", "NeRF"] },
+  { "conference_slug": "cvpr", "year": 2024, "paper_title": "Generative Image Dynamics", "authors": "Li et al.", "award_type": "best_paper", "tags": ["Video", "Generative"] },
+  { "conference_slug": "acl", "year": 2025, "paper_title": "Multi-lingual Reasoning Chains", "authors": "Zhang et al.", "award_type": "best_paper", "tags": ["Multilingual", "Reasoning"] },
+  { "conference_slug": "emnlp", "year": 2025, "paper_title": "Efficient Retrieval-Augmented Generation", "authors": "Wang et al.", "award_type": "best_paper", "tags": ["RAG", "Efficiency"] },
+  { "conference_slug": "sosp", "year": 2025, "paper_title": "Memory-Efficient OS Kernels via Verified Rust", "authors": "Boos et al.", "award_type": "best_paper", "tags": ["OS", "Rust", "Verification"] },
+  { "conference_slug": "ccs", "year": 2025, "paper_title": "Breaking Post-Quantum TLS", "authors": "Kim et al.", "award_type": "best_paper", "tags": ["Post-Quantum", "TLS"] },
+  { "conference_slug": "sigmod", "year": 2025, "paper_title": "Learned Query Optimization for Cloud DBs", "authors": "Marcus et al.", "award_type": "best_paper", "tags": ["Query Optimization", "ML4DB"] },
+  { "conference_slug": "chi", "year": 2025, "paper_title": "Accessible AI Interfaces for Blind Users", "authors": "Lee et al.", "award_type": "best_paper", "tags": ["Accessibility", "AI"] },
+  { "conference_slug": "osdi", "year": 2024, "paper_title": "Serverless at Exascale", "authors": "Schall et al.", "award_type": "best_paper", "tags": ["Serverless", "Cloud"] },
+  { "conference_slug": "sp", "year": 2025, "paper_title": "Automated Exploit Generation for IoT", "authors": "Chen et al.", "award_type": "best_paper", "tags": ["IoT", "Exploit"] }
+]
