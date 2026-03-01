@@ -5,6 +5,9 @@ on:
     - cron: "0 6 * * 1" # Every Monday at 6 AM UTC (3 PM KST)
   workflow_dispatch: # Manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
