@@ -13,5 +13,27 @@
   { "conference_slug": "sigmod", "year": 2025, "paper_title": "Learned Query Optimization for Cloud DBs", "authors": "Marcus et al.", "award_type": "best_paper", "tags": ["Query Optimization", "ML4DB"] },
   { "conference_slug": "chi", "year": 2025, "paper_title": "Accessible AI Interfaces for Blind Users", "authors": "Lee et al.", "award_type": "best_paper", "tags": ["Accessibility", "AI"] },
   { "conference_slug": "osdi", "year": 2024, "paper_title": "Serverless at Exascale", "authors": "Schall et al.", "award_type": "best_paper", "tags": ["Serverless", "Cloud"] },
-  { "conference_slug": "sp", "year": 2025, "paper_title": "Automated Exploit Generation for IoT", "authors": "Chen et al.", "award_type": "best_paper", "tags": ["IoT", "Exploit"] }
+  { "conference_slug": "sp", "year": 2025, "paper_title": "Automated Exploit Generation for IoT", "authors": "Chen et al.", "award_type": "best_paper", "tags": ["IoT", "Exploit"] },
+
+  { "conference_slug": "aaai", "year": 2024, "paper_title": "Towards Verified Algorithmic Fairness", "authors": "Ghosh et al.", "award_type": "best_paper", "tags": ["Fairness", "Verification"] },
+  { "conference_slug": "ijcai", "year": 2024, "paper_title": "Neuro-Symbolic AI for Logical Reasoning", "authors": "Manhaeve et al.", "award_type": "best_paper", "tags": ["Neuro-Symbolic", "Reasoning"] },
+  { "conference_slug": "kdd", "year": 2024, "paper_title": "Foundation Models for Tabular Data", "authors": "Hollmann et al.", "award_type": "best_paper", "tags": ["Foundation Models", "Tabular"] },
+  { "conference_slug": "www", "year": 2024, "paper_title": "Web-Scale Knowledge Graph Completion", "authors": "Galkin et al.", "award_type": "best_paper", "tags": ["Knowledge Graph", "Web"] },
+  { "conference_slug": "sigir", "year": 2024, "paper_title": "Generative Retrieval via Document Identifiers", "authors": "Tay et al.", "award_type": "best_paper", "tags": ["Generative IR", "Retrieval"] },
+  { "conference_slug": "iccv", "year": 2023, "paper_title": "Tracking Everything Everywhere All at Once", "authors": "Wang et al.", "award_type": "best_paper", "tags": ["Tracking", "Video"] },
+  { "conference_slug": "eccv", "year": 2024, "paper_title": "ControlNet for Image Generation", "authors": "Zhang et al.", "award_type": "best_paper", "tags": ["ControlNet", "Diffusion"] },
+  { "conference_slug": "sigcomm", "year": 2024, "paper_title": "Programmable Network Telemetry at Scale", "authors": "Kim et al.", "award_type": "best_paper", "tags": ["Telemetry", "Programmable Networks"] },
+  { "conference_slug": "isca", "year": 2024, "paper_title": "Efficient Accelerator Design for LLM Inference", "authors": "Shao et al.", "award_type": "best_paper", "tags": ["Accelerator", "LLM"] },
+  { "conference_slug": "icse", "year": 2024, "paper_title": "LLM-Powered Code Review", "authors": "Li et al.", "award_type": "best_paper", "tags": ["LLM", "Code Review"] },
+  { "conference_slug": "fse", "year": 2024, "paper_title": "Automated Program Repair via LLMs", "authors": "Xia et al.", "award_type": "best_paper", "tags": ["Program Repair", "LLM"] },
+  { "conference_slug": "siggraph", "year": 2024, "paper_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering", "authors": "Kerbl et al.", "award_type": "best_paper", "tags": ["3DGS", "Rendering"] },
+  { "conference_slug": "icra", "year": 2024, "paper_title": "Language-Guided Robot Manipulation", "authors": "Brohan et al.", "award_type": "best_paper", "tags": ["Language", "Manipulation"] },
+  { "conference_slug": "rss", "year": 2024, "paper_title": "Diffusion Policy for Visuomotor Control", "authors": "Chi et al.", "award_type": "best_paper", "tags": ["Diffusion", "Robot Control"] },
+  { "conference_slug": "uist", "year": 2024, "paper_title": "AI-Assisted UI Prototyping", "authors": "Wu et al.", "award_type": "best_paper", "tags": ["AI", "UI Design"] },
+  { "conference_slug": "focs", "year": 2024, "paper_title": "Optimal Algorithms for Online Selection", "authors": "Rubinstein et al.", "award_type": "best_paper", "tags": ["Online Algorithms", "Theory"] },
+  { "conference_slug": "stoc", "year": 2024, "paper_title": "Nearly-Linear Time Algorithm for Max Flow", "authors": "Chen et al.", "award_type": "best_paper", "tags": ["Max Flow", "Algorithms"] },
+  { "conference_slug": "vldb", "year": 2024, "paper_title": "Vector Database Systems: A Survey", "authors": "Wang et al.", "award_type": "best_paper", "tags": ["Vector DB", "Survey"] },
+  { "conference_slug": "usenix-security", "year": 2024, "paper_title": "Attacking LLM Guardrails via Jailbreaking", "authors": "Zou et al.", "award_type": "best_paper", "tags": ["LLM Security", "Jailbreak"] },
+  { "conference_slug": "ndss", "year": 2024, "paper_title": "Privacy-Preserving Machine Learning in Practice", "authors": "Mohassel et al.", "award_type": "best_paper", "tags": ["Privacy", "ML"] },
+  { "conference_slug": "nsdi", "year": 2024, "paper_title": "Efficient Datacenter Load Balancing", "authors": "Eisenbud et al.", "award_type": "best_paper", "tags": ["Load Balancing", "Datacenter"] }
 ]

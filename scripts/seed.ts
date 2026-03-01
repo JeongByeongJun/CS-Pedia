@@ -33,6 +33,19 @@ async function seed() {
     (confData ?? []).map((c) => [c.slug, c.id]),
   );
 
+  // slug 검증
+  const allSlugs = [
+    ...ratings.map((r) => r.conference_slug),
+    ...deadlines.map((d) => d.conference_slug),
+    ...bestPapers.map((bp) => bp.conference_slug),
+    ...acceptanceRates.map((ar) => ar.conference_slug),
+  ];
+  const missingSlugs = [...new Set(allSlugs.filter((s) => !slugToId[s]))];
+  if (missingSlugs.length > 0) {
+    console.error("Missing conference slugs:", missingSlugs);
+    process.exit(1);
+  }
+
   console.log("Seeding institution ratings...");
   const ratingRows = ratings.map((r) => ({
     conference_id: slugToId[r.conference_slug],

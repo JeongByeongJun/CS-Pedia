@@ -9,6 +9,7 @@ import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { FieldBadge } from "@/presentation/components/conferences/field-badge";
 import { DeadlineBadge } from "@/presentation/components/conferences/deadline-badge";
 import { BookmarkButton } from "@/presentation/components/conferences/bookmark-button";
+import { AcceptanceRateChart } from "@/presentation/components/charts/acceptance-rate-chart";
 import { formatDateKr, formatDate } from "@/shared/utils/date";
 import { INSTITUTIONS } from "@/shared/constants/institutions";
 
@@ -209,6 +210,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         {/* Acceptance Rate */}
         {acceptanceRates.length > 0 && (
           <Section title="Acceptance Rate">
+            <AcceptanceRateChart data={acceptanceRates} />
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>

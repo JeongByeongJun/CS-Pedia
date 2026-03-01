@@ -59,6 +59,20 @@ export function SiteHeader({
             >
               Best Papers
             </Link>
+            <Link
+              href="/trends"
+              className="px-4 py-2 text-sm rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
+            >
+              Trends
+            </Link>
+            {user && (
+              <Link
+                href="/mypage"
+                className="px-4 py-2 text-sm rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
+              >
+                마이페이지
+              </Link>
+            )}
             <AuthButton user={user} />
           </div>
         </div>
