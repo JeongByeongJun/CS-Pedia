@@ -223,7 +223,9 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   </tr>
                 </thead>
                 <tbody>
-                  {acceptanceRates.map((ar) => (
+                  {acceptanceRates.map((ar) => {
+                    const computedRate = ar.rate ?? (ar.submitted && ar.accepted ? Math.round((ar.accepted / ar.submitted) * 100 * 10) / 10 : null);
+                    return (
                     <tr key={ar.year} className="border-b border-zinc-50">
                       <td className="py-2.5 font-medium text-zinc-800">{ar.year}</td>
                       <td className="py-2.5 text-right text-zinc-600">
@@ -233,20 +235,21 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                         {ar.accepted?.toLocaleString() ?? "—"}
                       </td>
                       <td className="py-2.5 text-right font-medium text-indigo-600">
-                        {ar.rate != null ? `${ar.rate}%` : "—"}
+                        {computedRate != null ? `${computedRate}%` : "—"}
                       </td>
                       <td className="py-2.5 pl-3">
-                        {ar.rate != null && (
+                        {computedRate != null && (
                           <div className="w-full bg-zinc-100 rounded-full h-2">
                             <div
                               className="bg-indigo-500 h-2 rounded-full transition-all"
-                              style={{ width: `${Math.min(ar.rate, 100)}%` }}
+                              style={{ width: `${Math.min(computedRate, 100)}%` }}
                             />
                           </div>
                         )}
                       </td>
                     </tr>
-                  ))}
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
