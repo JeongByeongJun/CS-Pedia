@@ -54,12 +54,7 @@ export default async function MyPage() {
           "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)",
       }}
     >
-      <SiteHeader
-        upcomingCount={0}
-        totalCount={0}
-        bookmarkCount={bookmarkCount}
-        user={authUser}
-      />
+      <SiteHeader user={authUser} />
 
       <main className="max-w-4xl mx-auto px-6 py-8">
         <h1 className="text-2xl font-bold text-zinc-900 mb-6">마이페이지</h1>

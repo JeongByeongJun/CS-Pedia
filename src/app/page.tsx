@@ -64,12 +64,7 @@ export default async function HomePage({ searchParams }: HomePageProps) {
           "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)",
       }}
     >
-      <SiteHeader
-        upcomingCount={upcomingCount}
-        totalCount={conferences.length}
-        bookmarkCount={bookmarkCount}
-        user={authUser}
-      />
+      <SiteHeader user={authUser} />
 
       <main className="max-w-6xl mx-auto px-6 py-6">
         {/* 필터 영역 */}

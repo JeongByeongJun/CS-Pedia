@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { AuthButton } from "@/presentation/components/auth/auth-button";
+import { getConferences } from "@/infrastructure/container";
+import { getBookmarkCount } from "@/app/actions/bookmark";
+import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 
 interface SiteHeaderProps {
-  upcomingCount: number;
-  totalCount: number;
-  bookmarkCount: number;
   user: {
     email: string;
     name?: string;
@@ -12,86 +12,213 @@ interface SiteHeaderProps {
   } | null;
 }
 
-export function SiteHeader({
-  upcomingCount,
-  totalCount,
-  bookmarkCount,
-  user,
-}: SiteHeaderProps) {
+export async function SiteHeader({ user }: SiteHeaderProps) {
+  const [conferences, bookmarkCount] = await Promise.all([
+    getConferences({}),
+    getBookmarkCount(),
+  ]);
+
+  const upcomingCount = conferences.filter(
+    (c) => (c.daysUntilDeadline ?? -1) >= 0,
+  ).length;
+  const totalCount = conferences.length;
+
   return (
     <header
-      className="text-white"
-      style={{
-        background:
-          "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
-      }}
+      className="relative overflow-hidden"
+      style={{ background: "linear-gradient(180deg, #111118 0%, #18181f 100%)" }}
     >
-      <div className="max-w-6xl mx-auto px-6 py-8">
-        <div className="flex items-center justify-between">
-          <div>
-            <div className="flex items-center gap-3 mb-2">
-              <div
-                className="w-10 h-10 rounded-xl flex items-center justify-center text-lg"
-                style={{
-                  background: "linear-gradient(135deg, #6366f1, #8b5cf6)",
-                }}
-              >
-                🎓
-              </div>
-              <Link href="/">
-                <h1 className="text-2xl font-bold tracking-tight">
-                  ConfKorea
-                </h1>
-              </Link>
-              <span className="text-xs px-2 py-1 rounded-full bg-white/10 text-white/70">
-                Beta
-              </span>
+      {/* Noise texture overlay */}
+      <div
+        className="absolute inset-0 pointer-events-none opacity-[0.3]"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E")`,
+        }}
+      />
+
+      {/* Accent line — top */}
+      <div
+        className="absolute top-0 left-0 right-0"
+        style={{ height: "2px", background: "linear-gradient(90deg, #6366f1, #a855f7, #ec4899, transparent)" }}
+      />
+
+      <div className="relative max-w-6xl mx-auto px-6">
+        {/* Navigation */}
+        <div className="flex items-center justify-between" style={{ height: "56px" }}>
+          <Link href="/" className="flex items-center gap-2.5">
+            <div
+              className="flex items-center justify-center"
+              style={{
+                width: "28px",
+                height: "28px",
+                borderRadius: "8px",
+                background: "linear-gradient(135deg, #6366f1, #8b5cf6)",
+                fontSize: "14px",
+              }}
+            >
+              🎓
             </div>
-            <p className="text-white/60 text-sm">
-              한국 CS 연구자를 위한 학회 일정 · BK21 목록 · Best Paper 통합
-              플랫폼
-            </p>
-          </div>
-          <div className="hidden sm:flex items-center gap-3">
+            <span
+              className="font-bold tracking-tight"
+              style={{ color: "#e4e4e7", fontSize: "16px", fontFamily: "var(--font-geist-mono), monospace", letterSpacing: "-0.02em" }}
+            >
+              conf
+              <span style={{ color: "#818cf8" }}>korea</span>
+            </span>
+          </Link>
+
+          <div className="flex items-center" style={{ gap: "4px" }}>
             <Link
               href="/best-papers"
-              className="px-4 py-2 text-sm rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
+              className="hidden sm:flex items-center nav-link-hover"
+              style={{
+                padding: "6px 12px",
+                fontSize: "13px",
+                color: "#71717a",
+                borderRadius: "6px",
+              }}
             >
               Best Papers
             </Link>
-            <Link
-              href="/trends"
-              className="px-4 py-2 text-sm rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
-            >
-              Trends
-            </Link>
-            {user && (
+            {user ? (
               <Link
                 href="/mypage"
-                className="px-4 py-2 text-sm rounded-lg bg-white/10 hover:bg-white/20 transition-colors"
+                className="hidden sm:flex items-center nav-link-hover"
+                style={{
+                  padding: "6px 12px",
+                  fontSize: "13px",
+                  color: "#71717a",
+                  borderRadius: "6px",
+                }}
               >
-                마이페이지
+                My Page
               </Link>
+            ) : (
+              <div style={{ marginLeft: "4px" }}>
+                <AuthButton user={user} />
+              </div>
             )}
-            <AuthButton user={user} />
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mt-6">
-          <StatBox value={upcomingCount} label="다가오는 데드라인" />
-          <StatBox value={totalCount} label="등록 학회" />
-          <StatBox value={bookmarkCount} label="내 북마크" />
+        {/* Divider */}
+        <div style={{ height: "1px", background: "rgba(255,255,255,0.06)" }} />
+
+        {/* Hero Section */}
+        <div style={{ paddingTop: "32px", paddingBottom: "32px" }}>
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between" style={{ gap: "28px" }}>
+            {/* Left: Title */}
+            <div>
+              <div
+                className="font-medium"
+                style={{
+                  fontSize: "11px",
+                  letterSpacing: "0.15em",
+                  textTransform: "uppercase" as const,
+                  color: "#818cf8",
+                  marginBottom: "12px",
+                  fontFamily: "var(--font-geist-mono), monospace",
+                }}
+              >
+                CS Conference Hub
+              </div>
+              <h1
+                className="font-bold"
+                style={{
+                  fontSize: "clamp(26px, 4vw, 36px)",
+                  lineHeight: 1.2,
+                  letterSpacing: "-0.025em",
+                  color: "#fafafa",
+                  marginBottom: "10px",
+                }}
+              >
+                Deadlines, Rankings
+                <br />
+                <span style={{ color: "#a1a1aa" }}>& Best Papers — all in one.</span>
+              </h1>
+              <p
+                style={{
+                  fontSize: "13px",
+                  color: "#52525b",
+                  lineHeight: 1.6,
+                  maxWidth: "380px",
+                }}
+              >
+                BK21 · KIISE ratings · Acceptance rates · Conference deadlines for Korean CS researchers
+              </p>
+            </div>
+
+            {/* Right: Stat cards */}
+            <div className="grid" style={{ gridTemplateColumns: "repeat(3, 110px)", gap: "10px", flexShrink: 0 }}>
+              <StatCard value={upcomingCount} label="Upcoming" accentColor="#818cf8" />
+              <StatCard value={totalCount} label="Tracked" accentColor="#a78bfa" />
+              <StatCard value={bookmarkCount} label="Saved" accentColor="#f59e0b" />
+            </div>
+          </div>
         </div>
       </div>
+
+      {/* Bottom edge */}
+      <div style={{ height: "1px", background: "rgba(255,255,255,0.05)" }} />
     </header>
   );
 }
 
-function StatBox({ value, label }: { value: number; label: string }) {
+function StatCard({
+  value,
+  label,
+  accentColor,
+}: {
+  value: number;
+  label: string;
+  accentColor: string;
+}) {
   return (
-    <div className="bg-white/5 rounded-xl p-4 border border-white/10">
-      <div className="text-2xl font-bold">{value}</div>
-      <div className="text-white/50 text-xs mt-1">{label}</div>
+    <div
+      style={{
+        padding: "16px 20px",
+        borderRadius: "12px",
+        background: "rgba(255,255,255,0.025)",
+        border: "1px solid rgba(255,255,255,0.05)",
+      }}
+    >
+      <div
+        className="font-bold"
+        style={{
+          fontSize: "28px",
+          lineHeight: 1,
+          color: "#fafafa",
+          fontFamily: "var(--font-geist-mono), monospace",
+          letterSpacing: "-0.03em",
+          fontVariantNumeric: "tabular-nums",
+          minWidth: "48px",
+        }}
+      >
+        {value}
+      </div>
+      <div
+        className="flex items-center"
+        style={{
+          marginTop: "8px",
+          gap: "6px",
+          fontSize: "11px",
+          color: "#71717a",
+          fontFamily: "var(--font-geist-mono), monospace",
+          textTransform: "uppercase" as const,
+          letterSpacing: "0.08em",
+        }}
+      >
+        <span
+          style={{
+            display: "inline-block",
+            width: "6px",
+            height: "6px",
+            borderRadius: "50%",
+            backgroundColor: accentColor,
+          }}
+        />
+        {label}
+      </div>
     </div>
   );
 }

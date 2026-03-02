@@ -124,3 +124,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.nav-link-hover {
+  transition: color 0.2s, background-color 0.2s;
+}
+.nav-link-hover:hover {
+  color: #d4d4d8 !important;
+  background-color: rgba(255, 255, 255, 0.04);
+}
