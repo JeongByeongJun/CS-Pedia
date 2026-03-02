@@ -54,9 +54,9 @@ export function ConferenceCard({
             <div className="flex items-center gap-4 text-xs text-zinc-400 flex-wrap">
               {ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date() ? (
                 <span className="text-zinc-400">
-                  다음 일정이 공개되지 않았습니다
+                  다음 일정이 공개되지 않았습니다.
                 </span>
-              ) : (
+              ) : conference.nextDeadline ? (
                 <>
                   {conference.conferenceStart && (
                     <span>
@@ -64,13 +64,11 @@ export function ConferenceCard({
                     </span>
                   )}
                   {conference.venue && <span>📍 {conference.venue}</span>}
-                  {conference.nextDeadline && (
-                    <span>
-                      ⏰ 마감 {formatDate(conference.nextDeadline)}
-                    </span>
-                  )}
+                  <span>
+                    ⏰ 마감 {formatDate(conference.nextDeadline)}
+                  </span>
                 </>
-              )}
+              ) : null}
             </div>
           </div>
 
