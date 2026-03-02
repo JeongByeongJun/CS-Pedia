@@ -68,7 +68,11 @@ export function ConferenceCard({
                     ⏰ 마감 {formatDate(conference.nextDeadline)}
                   </span>
                 </>
-              ) : null}
+              ) : (
+                <span className="text-zinc-400">
+                  다음 일정이 공개되지 않았습니다.
+                </span>
+              )}
             </div>
           </div>
 
