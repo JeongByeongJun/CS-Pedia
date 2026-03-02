@@ -2,14 +2,13 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getBestPapers } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
-import { getBookmarkCount } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { BestPaperFilters } from "@/presentation/components/best-papers/best-paper-filters";
 import { BestPaperList } from "@/presentation/components/best-papers/best-paper-list";
 
 export const metadata: Metadata = {
-  title: "Best Papers",
+  title: "Best Papers — ConfKorea",
   description:
     "CS 주요 학회 Best Paper 수상작 아카이브. 연도별, 학회별로 확인하세요.",
 };
@@ -37,7 +36,6 @@ export default async function BestPapersPage({ searchParams }: PageProps) {
   const {
     data: { user },
   } = await supabase.auth.getUser();
-  const bookmarkCount = await getBookmarkCount();
 
   const authUser = user
     ? {
@@ -47,14 +45,11 @@ export default async function BestPapersPage({ searchParams }: PageProps) {
       }
     : null;
 
-  // 연도 목록 추출
   const years = [...new Set(papers.map((p) => p.year))].sort((a, b) => b - a);
-  // 학회 목록 추출
   const conferences = [
     ...new Set(papers.map((p) => p.conferenceAcronym)),
   ].sort();
 
-  // 학회 필터 (클라이언트 사이드에서 처리하지 않고 서버에서)
   const filtered = params.conference
     ? papers.filter((p) => p.conferenceAcronym === params.conference)
     : papers;
@@ -69,12 +64,47 @@ export default async function BestPapersPage({ searchParams }: PageProps) {
     >
       <SiteHeader user={authUser} />
 
-      <main className="max-w-4xl mx-auto px-6 py-8">
-        <h1 className="text-2xl font-bold text-zinc-900 mb-6">
-          🏆 Best Paper Archive
-        </h1>
+      <main className="max-w-6xl mx-auto px-6 py-8">
+        {/* Page header */}
+        <div className="mb-6">
+          <div
+            style={{
+              fontSize: "11px",
+              letterSpacing: "0.12em",
+              textTransform: "uppercase",
+              color: "#818cf8",
+              marginBottom: "6px",
+              fontFamily: "var(--font-geist-mono), monospace",
+              fontWeight: 500,
+            }}
+          >
+            Best Papers
+          </div>
+          <h1
+            className="font-bold"
+            style={{
+              fontSize: "24px",
+              letterSpacing: "-0.025em",
+              color: "#18181b",
+            }}
+          >
+            수상작 아카이브
+          </h1>
+          <p style={{ fontSize: "13px", color: "#a1a1aa", marginTop: "4px" }}>
+            {filtered.length}개 논문 · {conferences.length}개 학회 · {years[years.length - 1]}–{years[0]}
+          </p>
+        </div>
 
-        <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-5 mb-6">
+        {/* Filters */}
+        <div
+          style={{
+            background: "white",
+            borderRadius: "16px",
+            border: "1px solid rgba(0,0,0,0.06)",
+            padding: "20px",
+            marginBottom: "24px",
+          }}
+        >
           <Suspense fallback={null}>
             <BestPaperFilters
               years={years}
@@ -85,6 +115,7 @@ export default async function BestPapersPage({ searchParams }: PageProps) {
           </Suspense>
         </div>
 
+        {/* Paper list */}
         <BestPaperList papers={filtered} />
 
         <SiteFooter />

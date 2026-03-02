@@ -142,3 +142,8 @@
   border-color: rgba(239, 68, 68, 0.3) !important;
   color: #ef4444 !important;
 }
+
+.best-paper-card-hover:hover {
+  border-color: rgba(99, 102, 241, 0.2) !important;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.06);
+}
