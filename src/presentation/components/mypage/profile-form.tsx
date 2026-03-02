@@ -28,6 +28,26 @@ const KOREAN_INSTITUTIONS = [
   "기타",
 ] as const;
 
+const inputStyle: React.CSSProperties = {
+  width: "100%",
+  padding: "8px 12px",
+  fontSize: "13px",
+  border: "1px solid rgba(0,0,0,0.08)",
+  borderRadius: "10px",
+  outline: "none",
+  transition: "border-color 0.2s, box-shadow 0.2s",
+  background: "#fafafa",
+  color: "#18181b",
+};
+
+const labelStyle: React.CSSProperties = {
+  display: "block",
+  fontSize: "12px",
+  fontWeight: 500,
+  color: "#71717a",
+  marginBottom: "6px",
+};
+
 export function ProfileForm({ user }: ProfileFormProps) {
   const [isPending, startTransition] = useTransition();
 
@@ -40,38 +60,40 @@ export function ProfileForm({ user }: ProfileFormProps) {
   return (
     <form action={handleSubmit} className="space-y-4">
       <div>
-        <label className="block text-sm font-medium text-zinc-700 mb-1">
-          이름
-        </label>
+        <label style={labelStyle}>이름</label>
         <input
           name="name"
           type="text"
           defaultValue={user.name ?? ""}
-          className="w-full px-3 py-2 text-sm border border-zinc-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+          style={inputStyle}
           placeholder="이름을 입력하세요"
+          className="focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/20"
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-zinc-700 mb-1">
-          이메일
-        </label>
+        <label style={labelStyle}>이메일</label>
         <input
           type="text"
           defaultValue={user.email ?? ""}
           disabled
-          className="w-full px-3 py-2 text-sm border border-zinc-100 rounded-lg bg-zinc-50 text-zinc-400"
+          style={{
+            ...inputStyle,
+            background: "#f4f4f5",
+            color: "#a1a1aa",
+            border: "1px solid rgba(0,0,0,0.04)",
+            cursor: "not-allowed",
+          }}
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-zinc-700 mb-1">
-          소속 기관
-        </label>
+        <label style={labelStyle}>소속 기관</label>
         <select
           name="institution"
           defaultValue={user.institution ?? ""}
-          className="w-full px-3 py-2 text-sm border border-zinc-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+          style={inputStyle}
+          className="focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/20"
         >
           {KOREAN_INSTITUTIONS.map((inst) => (
             <option key={inst} value={inst}>
@@ -82,13 +104,12 @@ export function ProfileForm({ user }: ProfileFormProps) {
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-zinc-700 mb-1">
-          관심 분야
-        </label>
+        <label style={labelStyle}>관심 분야</label>
         <select
           name="researchField"
           defaultValue={user.researchField ?? ""}
-          className="w-full px-3 py-2 text-sm border border-zinc-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+          style={inputStyle}
+          className="focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/20"
         >
           <option value="">선택하세요</option>
           {FIELDS.filter((f) => f !== "전체").map((field) => (
@@ -102,7 +123,19 @@ export function ProfileForm({ user }: ProfileFormProps) {
       <button
         type="submit"
         disabled={isPending}
-        className="w-full px-4 py-2.5 text-sm font-medium rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition-colors disabled:opacity-50"
+        style={{
+          width: "100%",
+          padding: "10px 16px",
+          fontSize: "13px",
+          fontWeight: 600,
+          borderRadius: "10px",
+          border: "none",
+          background: "linear-gradient(135deg, #6366f1, #8b5cf6)",
+          color: "white",
+          cursor: isPending ? "not-allowed" : "pointer",
+          opacity: isPending ? 0.6 : 1,
+          transition: "opacity 0.2s, transform 0.1s",
+        }}
       >
         {isPending ? "저장 중..." : "프로필 저장"}
       </button>

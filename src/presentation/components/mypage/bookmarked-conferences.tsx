@@ -12,12 +12,42 @@ export function BookmarkedConferences({
 }: BookmarkedConferencesProps) {
   if (conferences.length === 0) {
     return (
-      <div className="text-center py-8 text-zinc-400">
-        <div className="text-3xl mb-2">📌</div>
-        <div className="text-sm">북마크한 학회가 없습니다</div>
+      <div
+        className="flex flex-col items-center justify-center"
+        style={{ padding: "48px 20px", textAlign: "center" }}
+      >
+        <div
+          style={{
+            width: "56px",
+            height: "56px",
+            borderRadius: "16px",
+            background: "linear-gradient(135deg, #f0f4ff, #faf0ff)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: "24px",
+            marginBottom: "16px",
+          }}
+        >
+          📌
+        </div>
+        <div
+          style={{
+            fontSize: "14px",
+            color: "#71717a",
+            marginBottom: "12px",
+          }}
+        >
+          북마크한 학회가 없습니다
+        </div>
         <Link
           href="/"
-          className="inline-block mt-3 text-sm text-indigo-600 hover:underline"
+          style={{
+            fontSize: "13px",
+            color: "#6366f1",
+            fontWeight: 500,
+            textDecoration: "none",
+          }}
         >
           학회 둘러보기 →
         </Link>
@@ -26,26 +56,53 @@ export function BookmarkedConferences({
   }
 
   return (
-    <div className="space-y-3">
+    <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
       {conferences.map((conf) => (
         <Link
           key={conf.id}
           href={`/conferences/${conf.slug}`}
-          className="block p-4 rounded-xl border border-zinc-100 hover:border-indigo-200 hover:bg-indigo-50/30 transition-colors"
+          className="bookmark-card-hover"
+          style={{
+            display: "block",
+            padding: "14px 16px",
+            borderRadius: "12px",
+            border: "1px solid rgba(0,0,0,0.05)",
+            textDecoration: "none",
+            transition: "border-color 0.2s, background-color 0.2s",
+          }}
         >
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <span className="font-bold text-zinc-900">
+              <span
+                className="font-bold"
+                style={{ fontSize: "14px", color: "#18181b" }}
+              >
                 {conf.acronym}
               </span>
               <FieldBadge field={conf.field} />
               <DeadlineBadge ddays={conf.daysUntilDeadline} />
             </div>
-            <span className="text-xs text-zinc-400">→</span>
+            <span style={{ fontSize: "12px", color: "#d4d4d8" }}>→</span>
           </div>
-          <div className="text-sm text-zinc-500 mt-1">{conf.nameEn}</div>
+          <div
+            style={{
+              fontSize: "13px",
+              color: "#71717a",
+              marginTop: "4px",
+            }}
+          >
+            {conf.nameEn}
+          </div>
           {conf.venue && (
-            <div className="text-xs text-zinc-400 mt-1">📍 {conf.venue}</div>
+            <div
+              style={{
+                fontSize: "12px",
+                color: "#a1a1aa",
+                marginTop: "4px",
+              }}
+            >
+              📍 {conf.venue}
+            </div>
           )}
         </Link>
       ))}

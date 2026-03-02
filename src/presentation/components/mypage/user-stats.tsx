@@ -10,7 +10,6 @@ export function UserStats({ bookmarkedConferences }: UserStatsProps) {
     (c) => c.daysUntilDeadline != null && c.daysUntilDeadline >= 0,
   ).length;
 
-  // Most common field
   const fieldCounts = new Map<string, number>();
   for (const c of bookmarkedConferences) {
     fieldCounts.set(c.field, (fieldCounts.get(c.field) ?? 0) + 1);
@@ -20,18 +19,79 @@ export function UserStats({ bookmarkedConferences }: UserStatsProps) {
 
   return (
     <div className="grid grid-cols-3 gap-3">
-      <StatCard value={totalBookmarks} label="북마크 학회" />
-      <StatCard value={upcomingDeadlines} label="다가오는 마감" />
-      <StatCard value={topField} label="주요 관심 분야" />
+      <StatCard
+        value={totalBookmarks}
+        label="Bookmarked"
+        accentColor="#818cf8"
+      />
+      <StatCard
+        value={upcomingDeadlines}
+        label="Upcoming"
+        accentColor="#f59e0b"
+      />
+      <StatCard
+        value={topField}
+        label="Top Field"
+        accentColor="#a78bfa"
+      />
     </div>
   );
 }
 
-function StatCard({ value, label }: { value: number | string; label: string }) {
+function StatCard({
+  value,
+  label,
+  accentColor,
+}: {
+  value: number | string;
+  label: string;
+  accentColor: string;
+}) {
   return (
-    <div className="bg-zinc-50 rounded-xl p-4 border border-zinc-100 text-center">
-      <div className="text-xl font-bold text-zinc-900">{value}</div>
-      <div className="text-xs text-zinc-500 mt-1">{label}</div>
+    <div
+      style={{
+        padding: "16px 20px",
+        borderRadius: "14px",
+        background: "white",
+        border: "1px solid rgba(0,0,0,0.06)",
+      }}
+    >
+      <div
+        className="font-bold"
+        style={{
+          fontSize: typeof value === "number" ? "26px" : "16px",
+          lineHeight: 1.2,
+          color: "#18181b",
+          fontFamily: "var(--font-geist-mono), monospace",
+          letterSpacing: "-0.03em",
+          fontVariantNumeric: "tabular-nums",
+        }}
+      >
+        {value}
+      </div>
+      <div
+        className="flex items-center"
+        style={{
+          marginTop: "8px",
+          gap: "6px",
+          fontSize: "11px",
+          color: "#a1a1aa",
+          fontFamily: "var(--font-geist-mono), monospace",
+          textTransform: "uppercase",
+          letterSpacing: "0.08em",
+        }}
+      >
+        <span
+          style={{
+            display: "inline-block",
+            width: "6px",
+            height: "6px",
+            borderRadius: "50%",
+            backgroundColor: accentColor,
+          }}
+        />
+        {label}
+      </div>
     </div>
   );
 }
