@@ -1,14 +1,17 @@
 import { fetchDblpPaperCounts } from "./sources/dblp";
+import { fetchDblpPaperTitles } from "./sources/dblp-titles";
 import { fetchOpenAlexWorksCounts } from "./sources/openalex";
 import {
   buildLookupMap,
   fetchCcfDeadlines,
 } from "./sources/ccf-deadlines";
+import { extractKeywords } from "./keywords";
 import {
   getConferenceSlugsAndIds,
   upsertAcceptanceRates,
   getExistingDeadlineKeys,
   insertDeadlines,
+  upsertKeywordTrends,
 } from "./supabase-writer";
 
 async function run() {
@@ -97,6 +100,61 @@ async function run() {
     } else {
       console.log("No new deadlines to insert.");
     }
+  }
+
+  // ── Phase 3: Keyword Trends from DBLP paper titles ──
+  console.log("\n── Phase 3: Keyword Trends ──");
+
+  const keywordRows: {
+    conference_id: string;
+    year: number;
+    keyword: string;
+    count: number;
+  }[] = [];
+
+  const currentYear = new Date().getFullYear();
+  let kwProcessed = 0;
+
+  for (const [slug, conf] of conferences) {
+    kwProcessed++;
+    if (!conf.dblpKey) continue;
+
+    console.log(`[KW ${kwProcessed}/${total}] ${slug}...`);
+
+    for (let year = 2020; year <= currentYear; year++) {
+      const papers = await fetchDblpPaperTitles(conf.dblpKey, year);
+      if (papers.length === 0) continue;
+
+      // Aggregate keywords for this conference+year
+      const kwCounts = new Map<string, number>();
+      for (const paper of papers) {
+        const kws = extractKeywords(paper.title);
+        for (const kw of kws) {
+          kwCounts.set(kw, (kwCounts.get(kw) ?? 0) + 1);
+        }
+      }
+
+      for (const [keyword, count] of kwCounts) {
+        keywordRows.push({
+          conference_id: conf.id,
+          year,
+          keyword,
+          count,
+        });
+      }
+
+      console.log(
+        `  → ${year}: ${papers.length} papers, ${kwCounts.size} keywords`,
+      );
+    }
+  }
+
+  if (keywordRows.length > 0) {
+    console.log(`\nUpserting ${keywordRows.length} keyword trend entries...`);
+    const kwCount = await upsertKeywordTrends(keywordRows);
+    console.log(`  → Upserted ${kwCount} entries`);
+  } else {
+    console.log("\nNo keyword data to upsert.");
   }
 
   console.log("\nPipeline complete!");

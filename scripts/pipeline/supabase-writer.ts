@@ -98,3 +98,25 @@ export async function insertDeadlines(
   if (error) throw error;
   return rows.length;
 }
+
+export async function upsertKeywordTrends(
+  rows: {
+    conference_id: string;
+    year: number;
+    keyword: string;
+    count: number;
+  }[],
+): Promise<number> {
+  if (rows.length === 0) return 0;
+  const batchSize = 500;
+  let total = 0;
+  for (let i = 0; i < rows.length; i += batchSize) {
+    const batch = rows.slice(i, i + batchSize);
+    const { error } = await supabase
+      .from("keyword_trends")
+      .upsert(batch, { onConflict: "conference_id,year,keyword" });
+    if (error) throw error;
+    total += batch.length;
+  }
+  return total;
+}

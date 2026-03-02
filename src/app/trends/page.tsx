@@ -1,24 +1,34 @@
 import type { Metadata } from "next";
-import { getAllAcceptanceRates } from "@/infrastructure/container";
+import {
+  getAllAcceptanceRates,
+  getAllKeywordTrends,
+  getTopKeywords,
+} from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 import { getBookmarkCount } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { MultiConferenceChart } from "@/presentation/components/charts/multi-conference-chart";
+import { TrendsTabs } from "@/presentation/components/charts/trends-tabs";
+import { KeywordTrendChart } from "@/presentation/components/charts/keyword-trend-chart";
+import { KeywordBarChart } from "@/presentation/components/charts/keyword-bar-chart";
 
 export const metadata: Metadata = {
-  title: "Trends - Acceptance Rate 추이",
+  title: "Trends - 학회 트렌드 분석",
   description:
-    "CS 주요 학회 Acceptance Rate 추이를 비교 분석하세요. 연도별, 분야별 채택률 변화를 한눈에.",
+    "CS 주요 학회 Acceptance Rate 추이와 키워드 트렌드를 비교 분석하세요.",
 };
 
 export const revalidate = 86400;
 
 export default async function TrendsPage() {
-  const [allRates, supabase] = await Promise.all([
-    getAllAcceptanceRates(),
-    createSupabaseServerClient(),
-  ]);
+  const [allRates, allKeywordTrends, topKeywords, supabase] =
+    await Promise.all([
+      getAllAcceptanceRates(),
+      getAllKeywordTrends(),
+      getTopKeywords(30),
+      createSupabaseServerClient(),
+    ]);
   const {
     data: { user },
   } = await supabase.auth.getUser();
@@ -32,7 +42,7 @@ export default async function TrendsPage() {
       }
     : null;
 
-  // Group by conference
+  // --- Acceptance Rate data ---
   const confMap = new Map<
     string,
     {
@@ -55,12 +65,25 @@ export default async function TrendsPage() {
     confMap.get(r.conferenceSlug)!.rates.push({ year: r.year, rate: r.rate });
   }
 
-  // Only conferences with 2+ data points
   const conferences = [...confMap.values()]
     .filter((c) => c.rates.length >= 2)
     .sort((a, b) => a.acronym.localeCompare(b.acronym));
 
-  const fields = [...new Set(conferences.map((c) => c.field))].sort();
+  const arFields = [...new Set(conferences.map((c) => c.field))].sort();
+
+  // --- Keyword Trends data ---
+  const keywordData = allKeywordTrends.map((d) => ({
+    conferenceSlug: d.conferenceSlug,
+    conferenceAcronym: d.conferenceAcronym,
+    conferenceField: d.conferenceField,
+    year: d.year,
+    keyword: d.keyword,
+    count: d.count,
+  }));
+
+  const kwFields = [
+    ...new Set(allKeywordTrends.map((d) => d.conferenceField)),
+  ].sort();
 
   return (
     <div
@@ -72,18 +95,58 @@ export default async function TrendsPage() {
     >
       <SiteHeader user={authUser} />
 
-      <main className="max-w-5xl mx-auto px-6 py-8">
+      <main className="max-w-6xl mx-auto px-6 py-8">
         <h1 className="text-2xl font-bold text-zinc-900 mb-2">
-          Acceptance Rate Trends
+          Trends
         </h1>
         <p className="text-sm text-zinc-500 mb-6">
-          학회별 채택률 추이를 비교하세요. 분야 필터와 학회 토글로 원하는 학회만
-          선택할 수 있습니다.
+          학회별 채택률 추이와 연구 키워드 트렌드를 분석하세요.
         </p>
 
-        <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6">
-          <MultiConferenceChart conferences={conferences} fields={fields} />
-        </div>
+        <TrendsTabs
+          acceptanceRateContent={
+            <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6">
+              <MultiConferenceChart
+                conferences={conferences}
+                fields={arFields}
+              />
+            </div>
+          }
+          keywordTrendContent={
+            <div className="space-y-6">
+              <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6">
+                <h3
+                  className="text-sm font-semibold text-zinc-700 mb-4"
+                  style={{ fontFamily: "var(--font-geist-mono)" }}
+                >
+                  KEYWORD TREND
+                </h3>
+                {keywordData.length > 0 ? (
+                  <KeywordTrendChart
+                    data={keywordData}
+                    topKeywords={topKeywords}
+                    fields={kwFields}
+                  />
+                ) : (
+                  <div className="text-center py-12 text-zinc-400 text-sm">
+                    키워드 데이터가 아직 수집되지 않았습니다. 파이프라인을
+                    실행하세요.
+                  </div>
+                )}
+              </div>
+
+              <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6">
+                <h3
+                  className="text-sm font-semibold text-zinc-700 mb-4"
+                  style={{ fontFamily: "var(--font-geist-mono)" }}
+                >
+                  TOP KEYWORDS (ALL TIME)
+                </h3>
+                <KeywordBarChart topKeywords={topKeywords} />
+              </div>
+            </div>
+          }
+        />
 
         <SiteFooter />
       </main>

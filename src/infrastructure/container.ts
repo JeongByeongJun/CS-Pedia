@@ -5,6 +5,7 @@ import { SupabaseInstitutionRatingRepository } from "./supabase/repositories/sup
 import { SupabaseAcceptanceRateRepository } from "./supabase/repositories/supabase-acceptance-rate-repository";
 import { SupabaseBookmarkRepository } from "./supabase/repositories/supabase-bookmark-repository";
 import { SupabaseUserRepository } from "./supabase/repositories/supabase-user-repository";
+import { SupabaseKeywordTrendRepository } from "./supabase/repositories/supabase-keyword-trend-repository";
 
 import { createGetConferencesUseCase } from "@/domain/use-cases/get-conferences";
 import { createGetConferenceDetailUseCase } from "@/domain/use-cases/get-conference-detail";
@@ -19,6 +20,7 @@ const ratingRepo = new SupabaseInstitutionRatingRepository();
 const acceptanceRateRepo = new SupabaseAcceptanceRateRepository();
 const bookmarkRepo = new SupabaseBookmarkRepository();
 const userRepo = new SupabaseUserRepository();
+const keywordTrendRepo = new SupabaseKeywordTrendRepository();
 
 // Use cases
 export const getConferences = createGetConferencesUseCase(conferenceRepo);
@@ -36,3 +38,6 @@ export const getUpcomingDeadlines =
 // Repository exports (Server Actions에서 직접 사용)
 export { bookmarkRepo, userRepo };
 export const getAllAcceptanceRates = () => acceptanceRateRepo.findAll();
+export const getAllKeywordTrends = () => keywordTrendRepo.findAll();
+export const getTopKeywords = (limit?: number) =>
+  keywordTrendRepo.findTopKeywords(limit);
