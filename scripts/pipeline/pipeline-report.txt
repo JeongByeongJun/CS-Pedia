@@ -1,8 +1,8 @@
-Pipeline Report - 2026-03-01T18:49:58.370Z
+Pipeline Report - 2026-03-02T11:47:30.037Z
 ==================================================
 
 Matched: 128 / 144 conferences
-Deadlines: 147 entries (skipped 629 past)
+Deadlines: 152 entries (skipped 629 past)
 
 Unmatched conferences (19):
   - aacl
