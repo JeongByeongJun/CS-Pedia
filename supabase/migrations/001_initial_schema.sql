@@ -172,8 +172,10 @@ LEFT JOIN LATERAL (
   SELECT *
   FROM deadlines
   WHERE deadlines.conference_id = c.id
-    AND deadlines.paper_deadline >= NOW()
-  ORDER BY deadlines.paper_deadline ASC
+  ORDER BY
+    CASE WHEN deadlines.paper_deadline >= NOW() THEN 0 ELSE 1 END,
+    CASE WHEN deadlines.paper_deadline >= NOW() THEN deadlines.paper_deadline END ASC,
+    CASE WHEN deadlines.paper_deadline < NOW() THEN deadlines.paper_deadline END DESC NULLS LAST
   LIMIT 1
 ) d ON true;
 
