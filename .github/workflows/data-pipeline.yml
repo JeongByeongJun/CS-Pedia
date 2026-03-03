@@ -3,7 +3,12 @@ name: Data Pipeline
 on:
   schedule:
     - cron: "0 6 * * 1" # Every Monday at 6 AM UTC (3 PM KST)
-  workflow_dispatch: # Manual trigger
+  workflow_dispatch:
+    inputs:
+      phase:
+        description: "Which phase to run (all / keywords)"
+        required: false
+        default: "all"
 
 permissions:
   contents: write
@@ -28,13 +33,20 @@ jobs:
       - run: pnpm install --frozen-lockfile
 
       - name: Run data pipeline
-        run: pnpm exec tsx scripts/pipeline/index.ts
+        run: |
+          if [ "${{ github.event.inputs.phase }}" = "keywords" ]; then
+            echo "Running Phase 3 (keywords) only..."
+            pnpm exec tsx scripts/pipeline/keywords-only.ts
+          else
+            echo "Running full pipeline..."
+            pnpm exec tsx scripts/pipeline/index.ts
+          fi
         env:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
       - name: Commit pipeline report
-        if: success()
+        if: success() && github.event.inputs.phase != 'keywords'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
