@@ -105,21 +105,22 @@ async function run() {
   // ── Phase 3: Keyword Trends from DBLP paper titles ──
   console.log("\n── Phase 3: Keyword Trends ──");
 
-  const keywordRows: {
-    conference_id: string;
-    year: number;
-    keyword: string;
-    count: number;
-  }[] = [];
-
   const currentYear = new Date().getFullYear();
   let kwProcessed = 0;
+  let kwTotal = 0;
 
   for (const [slug, conf] of conferences) {
     kwProcessed++;
     if (!conf.dblpKey) continue;
 
     console.log(`[KW ${kwProcessed}/${total}] ${slug}...`);
+
+    const confRows: {
+      conference_id: string;
+      year: number;
+      keyword: string;
+      count: number;
+    }[] = [];
 
     for (let year = 2020; year <= currentYear; year++) {
       const papers = await fetchDblpPaperTitles(conf.dblpKey, year);
@@ -135,27 +136,23 @@ async function run() {
       }
 
       for (const [keyword, count] of kwCounts) {
-        keywordRows.push({
-          conference_id: conf.id,
-          year,
-          keyword,
-          count,
-        });
+        confRows.push({ conference_id: conf.id, year, keyword, count });
       }
 
       console.log(
         `  → ${year}: ${papers.length} papers, ${kwCounts.size} keywords`,
       );
     }
+
+    // Write per-conference immediately so partial progress is saved
+    if (confRows.length > 0) {
+      const n = await upsertKeywordTrends(confRows);
+      kwTotal += n;
+      console.log(`  → Saved ${n} keyword entries`);
+    }
   }
 
-  if (keywordRows.length > 0) {
-    console.log(`\nUpserting ${keywordRows.length} keyword trend entries...`);
-    const kwCount = await upsertKeywordTrends(keywordRows);
-    console.log(`  → Upserted ${kwCount} entries`);
-  } else {
-    console.log("\nNo keyword data to upsert.");
-  }
+  console.log(`\nTotal keyword entries upserted: ${kwTotal}`);
 
   console.log("\nPipeline complete!");
 }
