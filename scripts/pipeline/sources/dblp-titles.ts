@@ -6,50 +6,55 @@ export interface DblpPaper {
 }
 
 /**
- * DBLP에서 학회+연도별 채택 논문 제목을 가져온다.
- * h=1000 페이지네이션으로 대량 학회도 커버.
- * Rate limit: 1 req/sec (1100ms delay).
+ * DBLP에서 학회의 채택 논문 제목을 가져온다 (연도 파라미터 없이).
+ * fromYear 이후 논문만 반환. 최대 5페이지(5000편)까지 fetch.
  */
 export async function fetchDblpPaperTitles(
   dblpKey: string,
-  year: number,
+  fromYear = 2020,
 ): Promise<DblpPaper[]> {
   const results: DblpPaper[] = [];
   const pageSize = 1000;
+  const maxPages = 5;
   let offset = 0;
   let total = Infinity;
 
   const venueShort = dblpKey.replace("conf/", "");
+  const query = encodeURIComponent(`venue:${venueShort}:`);
 
-  while (offset < total) {
+  for (let page = 0; page < maxPages && offset < total; page++) {
     await sleep(DBLP_DELAY_MS);
 
     try {
-      const query = encodeURIComponent(`venue:${venueShort}:`);
-      const url = `${DBLP_API_BASE}?q=${query}&h=${pageSize}&f=${offset}&format=json&y=${year}`;
+      const url = `${DBLP_API_BASE}?q=${query}&h=${pageSize}&f=${offset}&format=json`;
       const res = await fetch(url);
-      if (!res.ok) break;
+      if (!res.ok) {
+        console.warn(`DBLP titles fetch failed for ${dblpKey} (HTTP ${res.status})`);
+        break;
+      }
 
       const data = await res.json();
       total = parseInt(data?.result?.hits?.["@total"] ?? "0");
       if (total === 0) break;
 
       const hits = data?.result?.hits?.hit ?? [];
-      for (const hit of hits) {
+      const arr = Array.isArray(hits) ? hits : [hits];
+
+      for (const hit of arr) {
         const info = hit?.info;
-        if (info?.title) {
+        if (!info?.title || !info?.year) continue;
+        const year = parseInt(info.year);
+        if (year >= fromYear) {
           results.push({
-            title: info.title.replace(/\.$/, ""), // Remove trailing period
-            year: parseInt(info.year) || year,
+            title: info.title.replace(/\.$/, ""),
+            year,
           });
         }
       }
 
       offset += pageSize;
     } catch {
-      console.warn(
-        `DBLP titles fetch failed for ${dblpKey} ${year} (offset=${offset})`,
-      );
+      console.warn(`DBLP titles fetch failed for ${dblpKey} (offset=${offset})`);
       break;
     }
   }

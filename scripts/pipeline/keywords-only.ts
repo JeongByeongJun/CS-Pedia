@@ -8,7 +8,6 @@ async function run() {
   const conferences = await getConferenceSlugsAndIds();
   console.log(`Found ${conferences.size} conferences in DB\n`);
 
-  const currentYear = new Date().getFullYear();
   let kwProcessed = 0;
   let kwTotal = 0;
   const total = conferences.size;
@@ -19,6 +18,17 @@ async function run() {
 
     console.log(`[KW ${kwProcessed}/${total}] ${slug}...`);
 
+    // Fetch all papers since 2020 in one call (no year param = no 500 error)
+    const allPapers = await fetchDblpPaperTitles(conf.dblpKey, 2020);
+    if (allPapers.length === 0) continue;
+
+    // Group by year
+    const byYear = new Map<number, string[]>();
+    for (const p of allPapers) {
+      if (!byYear.has(p.year)) byYear.set(p.year, []);
+      byYear.get(p.year)!.push(p.title);
+    }
+
     const confRows: {
       conference_id: string;
       year: number;
@@ -26,23 +36,17 @@ async function run() {
       count: number;
     }[] = [];
 
-    for (let year = 2020; year <= currentYear; year++) {
-      const papers = await fetchDblpPaperTitles(conf.dblpKey, year);
-      if (papers.length === 0) continue;
-
+    for (const [year, titles] of byYear) {
       const kwCounts = new Map<string, number>();
-      for (const paper of papers) {
-        const kws = extractKeywords(paper.title);
-        for (const kw of kws) {
+      for (const title of titles) {
+        for (const kw of extractKeywords(title)) {
           kwCounts.set(kw, (kwCounts.get(kw) ?? 0) + 1);
         }
       }
-
       for (const [keyword, count] of kwCounts) {
         confRows.push({ conference_id: conf.id, year, keyword, count });
       }
-
-      console.log(`  → ${year}: ${papers.length} papers, ${kwCounts.size} keywords`);
+      console.log(`  → ${year}: ${titles.length} papers, ${kwCounts.size} keywords`);
     }
 
     if (confRows.length > 0) {
