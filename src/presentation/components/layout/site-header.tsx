@@ -2,7 +2,6 @@ import Link from "next/link";
 import { AuthButton } from "@/presentation/components/auth/auth-button";
 import { getConferences } from "@/infrastructure/container";
 import { getBookmarkCount } from "@/app/actions/bookmark";
-import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 
 interface SiteHeaderProps {
   user: {
@@ -68,6 +67,18 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
           </Link>
 
           <div className="flex items-center" style={{ gap: "4px" }}>
+            <Link
+              href="/trends"
+              className="hidden sm:flex items-center nav-link-hover"
+              style={{
+                padding: "6px 12px",
+                fontSize: "13px",
+                color: "#71717a",
+                borderRadius: "6px",
+              }}
+            >
+              Trends
+            </Link>
             <Link
               href="/best-papers"
               className="hidden sm:flex items-center nav-link-hover"
