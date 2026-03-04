@@ -10,8 +10,9 @@ import { FieldBadge } from "@/presentation/components/conferences/field-badge";
 import { DeadlineBadge } from "@/presentation/components/conferences/deadline-badge";
 import { BookmarkButton } from "@/presentation/components/conferences/bookmark-button";
 import { AcceptanceRateChart } from "@/presentation/components/charts/acceptance-rate-chart";
-import { formatDateKr, formatDate } from "@/shared/utils/date";
+import { formatDate } from "@/shared/utils/date";
 import { INSTITUTIONS } from "@/shared/constants/institutions";
+import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -61,7 +62,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const [isBookmarked, bookmarkCount] = await Promise.all([
+  const [isBookmarked] = await Promise.all([
     getBookmarkStatus(conference.id),
     getBookmarkCount(),
   ]);
@@ -209,7 +210,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
         {/* Acceptance Rate */}
         {acceptanceRates.length > 0 && (
-          <Section title="Acceptance Rate">
+          <Section title={<>Acceptance Rate<InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." /></>}>
             <AcceptanceRateChart data={acceptanceRates} />
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
@@ -309,12 +310,12 @@ function Section({
   title,
   children,
 }: {
-  title: string;
+  title: React.ReactNode;
   children: React.ReactNode;
 }) {
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6 mb-6">
-      <h2 className="text-lg font-bold text-zinc-900 mb-4">{title}</h2>
+      <h2 className="text-lg font-bold text-zinc-900 mb-4 flex items-center">{title}</h2>
       {children}
     </div>
   );
