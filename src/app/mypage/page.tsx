@@ -110,6 +110,25 @@ export default async function MyPage() {
               }}
             />
             <div style={{ padding: "24px" }}>
+              {/* Profile incomplete nudge */}
+              {(!profileData.institution || !profileData.researchField) && (
+                <div
+                  style={{
+                    marginBottom: "16px",
+                    padding: "10px 12px",
+                    borderRadius: "10px",
+                    background: "#fffbeb",
+                    border: "1px solid #fde68a",
+                    fontSize: "12px",
+                    color: "#92400e",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  ✏️ <strong>프로필을 완성해주세요.</strong>
+                  <br />
+                  소속 기관과 관심 분야를 입력하면 서비스 개선에 도움이 됩니다.
+                </div>
+              )}
               {/* Avatar + name */}
               <div className="flex items-center gap-3 mb-5">
                 {authUser.avatarUrl ? (
