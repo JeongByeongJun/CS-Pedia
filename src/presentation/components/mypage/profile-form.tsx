@@ -3,6 +3,7 @@
 import { useTransition } from "react";
 import { updateProfile } from "@/app/actions/profile";
 import { FIELDS } from "@/shared/constants/fields";
+import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 
 interface ProfileFormProps {
   user: {
@@ -74,7 +75,10 @@ export function ProfileForm({ user }: ProfileFormProps) {
       </div>
 
       <div>
-        <label style={labelStyle}>소속 기관</label>
+        <label style={{ ...labelStyle, display: "flex", alignItems: "center" }}>
+          소속 기관
+          <InfoTooltip text="사용자 통계 분석에만 활용되며, 외부에 공개되지 않습니다." />
+        </label>
         <input
           name="institution"
           type="text"
@@ -86,7 +90,10 @@ export function ProfileForm({ user }: ProfileFormProps) {
       </div>
 
       <div>
-        <label style={labelStyle}>관심 분야</label>
+        <label style={{ ...labelStyle, display: "flex", alignItems: "center" }}>
+          관심 분야
+          <InfoTooltip text="사용자 통계 분석에만 활용되며, 외부에 공개되지 않습니다." />
+        </label>
         <select
           name="researchField"
           defaultValue={user.researchField ?? ""}
