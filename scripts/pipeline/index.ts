@@ -1,6 +1,6 @@
 import { fetchDblpPaperCounts } from "./sources/dblp";
-import { fetchDblpPaperTitles } from "./sources/dblp-titles";
 import { fetchOpenAlexWorksCounts } from "./sources/openalex";
+import { fetchS2PaperTitles } from "./sources/semantic-scholar-titles";
 import {
   buildLookupMap,
   fetchCcfDeadlines,
@@ -114,17 +114,6 @@ async function run() {
 
     console.log(`[KW ${kwProcessed}/${total}] ${slug}...`);
 
-    // Fetch all papers since 2020 in one call (no y= param)
-    const allPapers = await fetchDblpPaperTitles(conf.dblpKey, 2020);
-    if (allPapers.length === 0) continue;
-
-    // Group by year
-    const byYear = new Map<number, string[]>();
-    for (const p of allPapers) {
-      if (!byYear.has(p.year)) byYear.set(p.year, []);
-      byYear.get(p.year)!.push(p.title);
-    }
-
     const confRows: {
       conference_id: string;
       year: number;
@@ -132,17 +121,20 @@ async function run() {
       count: number;
     }[] = [];
 
-    for (const [year, titles] of byYear) {
+    for (let year = 2020; year <= new Date().getFullYear(); year++) {
+      const papers = await fetchS2PaperTitles(slug, conf.acronym, year);
+      if (papers.length === 0) continue;
+
       const kwCounts = new Map<string, number>();
-      for (const title of titles) {
-        for (const kw of extractKeywords(title)) {
+      for (const p of papers) {
+        for (const kw of extractKeywords(p.title)) {
           kwCounts.set(kw, (kwCounts.get(kw) ?? 0) + 1);
         }
       }
       for (const [keyword, count] of kwCounts) {
         confRows.push({ conference_id: conf.id, year, keyword, count });
       }
-      console.log(`  → ${year}: ${titles.length} papers, ${kwCounts.size} keywords`);
+      console.log(`  → ${year}: ${papers.length} papers, ${kwCounts.size} keywords`);
     }
 
     // Write per-conference immediately
