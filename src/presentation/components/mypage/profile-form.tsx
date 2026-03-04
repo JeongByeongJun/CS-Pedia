@@ -13,20 +13,6 @@ interface ProfileFormProps {
   };
 }
 
-const KOREAN_INSTITUTIONS = [
-  "",
-  "KAIST",
-  "서울대학교",
-  "POSTECH",
-  "고려대학교",
-  "연세대학교",
-  "성균관대학교",
-  "한양대학교",
-  "UNIST",
-  "GIST",
-  "DGIST",
-  "기타",
-] as const;
 
 const inputStyle: React.CSSProperties = {
   width: "100%",
@@ -89,18 +75,14 @@ export function ProfileForm({ user }: ProfileFormProps) {
 
       <div>
         <label style={labelStyle}>소속 기관</label>
-        <select
+        <input
           name="institution"
+          type="text"
           defaultValue={user.institution ?? ""}
           style={inputStyle}
+          placeholder="예: 서울대학교, KAIST, 고려대학교..."
           className="focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/20"
-        >
-          {KOREAN_INSTITUTIONS.map((inst) => (
-            <option key={inst} value={inst}>
-              {inst || "선택하세요"}
-            </option>
-          ))}
-        </select>
+        />
       </div>
 
       <div>
