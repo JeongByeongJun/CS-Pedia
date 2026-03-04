@@ -12,6 +12,7 @@ import { MultiConferenceChart } from "@/presentation/components/charts/multi-con
 import { TrendsTabs } from "@/presentation/components/charts/trends-tabs";
 import { KeywordTrendChart } from "@/presentation/components/charts/keyword-trend-chart";
 import { KeywordBarChart } from "@/presentation/components/charts/keyword-bar-chart";
+import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 
 export const metadata: Metadata = {
   title: "Trends - 학회 트렌드 분석",
@@ -32,7 +33,7 @@ export default async function TrendsPage() {
   const {
     data: { user },
   } = await supabase.auth.getUser();
-  const bookmarkCount = await getBookmarkCount();
+  await getBookmarkCount();
 
   const authUser = user
     ? {
@@ -106,6 +107,15 @@ export default async function TrendsPage() {
         <TrendsTabs
           acceptanceRateContent={
             <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6">
+              <div className="flex items-center gap-1 mb-4">
+                <h3
+                  className="text-sm font-semibold text-zinc-700"
+                  style={{ fontFamily: "var(--font-geist-mono)" }}
+                >
+                  ACCEPTANCE RATE
+                </h3>
+                <InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수를 기반으로 산출합니다. 제출 수 미제공 학회는 채택 수만 표시됩니다." />
+              </div>
               <MultiConferenceChart
                 conferences={conferences}
                 fields={arFields}
@@ -115,12 +125,15 @@ export default async function TrendsPage() {
           keywordTrendContent={
             <div className="space-y-6">
               <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6">
-                <h3
-                  className="text-sm font-semibold text-zinc-700 mb-4"
-                  style={{ fontFamily: "var(--font-geist-mono)" }}
-                >
-                  KEYWORD TREND
-                </h3>
+                <div className="flex items-center gap-1 mb-4">
+                  <h3
+                    className="text-sm font-semibold text-zinc-700"
+                    style={{ fontFamily: "var(--font-geist-mono)" }}
+                  >
+                    KEYWORD TREND
+                  </h3>
+                  <InfoTooltip text="Semantic Scholar에서 수집한 채택 논문 제목에서 CS 키워드를 추출해 연도별 등장 빈도를 집계합니다." />
+                </div>
                 {keywordData.length > 0 ? (
                   <KeywordTrendChart
                     data={keywordData}
@@ -136,12 +149,15 @@ export default async function TrendsPage() {
               </div>
 
               <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6">
-                <h3
-                  className="text-sm font-semibold text-zinc-700 mb-4"
-                  style={{ fontFamily: "var(--font-geist-mono)" }}
-                >
-                  TOP KEYWORDS (ALL TIME)
-                </h3>
+                <div className="flex items-center gap-1 mb-4">
+                  <h3
+                    className="text-sm font-semibold text-zinc-700"
+                    style={{ fontFamily: "var(--font-geist-mono)" }}
+                  >
+                    TOP KEYWORDS (ALL TIME)
+                  </h3>
+                  <InfoTooltip text="2020년 이후 전체 학회 채택 논문에서 키워드별 총 등장 횟수를 기준으로 상위 키워드를 표시합니다." />
+                </div>
                 <KeywordBarChart topKeywords={topKeywords} />
               </div>
             </div>
