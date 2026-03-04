@@ -62,6 +62,13 @@ export class SupabaseBestPaperRepository implements BestPaperRepository {
       .order("year", { ascending: false });
 
     if (error) throw error;
-    return (data ?? []).map(toDomainBestPaper);
+
+    const seen = new Set<string>();
+    return ((data ?? []) as BestPaperRow[]).filter((row) => {
+      const key = `${row.year}|${row.paper_title}|${row.award_type}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    }).map(toDomainBestPaper);
   }
 }

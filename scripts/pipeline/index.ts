@@ -12,6 +12,7 @@ import {
   getExistingDeadlineKeys,
   insertDeadlines,
   upsertKeywordTrends,
+  deduplicateBestPapers,
 } from "./supabase-writer";
 
 async function run() {
@@ -146,6 +147,11 @@ async function run() {
   }
 
   console.log(`\nTotal keyword entries upserted: ${kwTotal}`);
+
+  // ── Phase 4: Deduplicate Best Papers ──
+  console.log("\n── Phase 4: Deduplicate Best Papers ──");
+  const deleted = await deduplicateBestPapers();
+  console.log(deleted > 0 ? `  → Removed ${deleted} duplicate entries` : "  → No duplicates found");
 
   console.log("\nPipeline complete!");
 }

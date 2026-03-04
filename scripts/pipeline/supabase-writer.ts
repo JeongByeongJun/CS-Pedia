@@ -99,6 +99,37 @@ export async function insertDeadlines(
   return rows.length;
 }
 
+export async function deduplicateBestPapers(): Promise<number> {
+  const { data, error } = await supabase
+    .from("best_papers")
+    .select("id, conference_id, year, paper_title, award_type")
+    .order("id");
+
+  if (error) throw error;
+
+  const seen = new Set<string>();
+  const toDelete: string[] = [];
+
+  for (const row of data ?? []) {
+    const key = `${row.conference_id}|${row.year}|${row.paper_title}|${row.award_type}`;
+    if (seen.has(key)) {
+      toDelete.push(row.id);
+    } else {
+      seen.add(key);
+    }
+  }
+
+  if (toDelete.length === 0) return 0;
+
+  const { error: delError } = await supabase
+    .from("best_papers")
+    .delete()
+    .in("id", toDelete);
+
+  if (delError) throw delError;
+  return toDelete.length;
+}
+
 export async function upsertKeywordTrends(
   rows: {
     conference_id: string;
