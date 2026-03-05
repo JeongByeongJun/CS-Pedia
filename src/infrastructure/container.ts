@@ -41,3 +41,5 @@ export const getAllAcceptanceRates = () => acceptanceRateRepo.findAll();
 export const getAllKeywordTrends = () => keywordTrendRepo.findAll();
 export const getTopKeywords = (limit?: number) =>
   keywordTrendRepo.findTopKeywords(limit);
+export const getKeywordTrendsByConference = (conferenceId: string) =>
+  keywordTrendRepo.findByConferenceId(conferenceId);

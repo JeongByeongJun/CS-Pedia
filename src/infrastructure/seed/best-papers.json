@@ -1,135 +1,3718 @@
 [
-  { "conference_slug": "neurips", "year": 2025, "paper_title": "Scaling Laws for Precision", "authors": "Gu et al.", "award_type": "best_paper", "tags": ["LLM", "Scaling"] },
-  { "conference_slug": "neurips", "year": 2024, "paper_title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction", "authors": "Tian et al.", "award_type": "best_paper", "tags": ["Image Generation", "Autoregressive"] },
-  { "conference_slug": "neurips", "year": 2024, "paper_title": "Stochastic Taylor Derivative Estimator: Efficient Amortization for Arbitrary Differential Operators", "authors": "Li et al.", "award_type": "best_paper", "tags": ["Optimization", "Scientific ML"] },
-  { "conference_slug": "neurips", "year": 2023, "paper_title": "Privacy Auditing with One (1) Training Run", "authors": "Steinke, Nasr & Jagielski", "award_type": "best_paper", "tags": ["Privacy", "Auditing"] },
-  { "conference_slug": "neurips", "year": 2023, "paper_title": "Are Emergent Abilities of Large Language Models a Mirage?", "authors": "Schaeffer, Miranda & Koyejo", "award_type": "best_paper", "tags": ["LLM", "Emergent Abilities"] },
-  { "conference_slug": "neurips", "year": 2022, "paper_title": "Is Out-of-distribution Detection Learnable?", "authors": "Fang et al.", "award_type": "best_paper", "tags": ["OOD Detection", "Theory"] },
-  { "conference_slug": "neurips", "year": 2022, "paper_title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding", "authors": "Saharia et al.", "award_type": "best_paper", "tags": ["Imagen", "Diffusion"] },
-
-  { "conference_slug": "icml", "year": 2025, "paper_title": "Flow Matching for Generative Modeling", "authors": "Lipman et al.", "award_type": "best_paper", "tags": ["Generative", "Flow"] },
-  { "conference_slug": "icml", "year": 2024, "paper_title": "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution", "authors": "Lou, Meng & Ermon", "award_type": "best_paper", "tags": ["Diffusion", "Discrete"] },
-  { "conference_slug": "icml", "year": 2024, "paper_title": "Position: Measure Dataset Diversity, Don't Just Claim It", "authors": "Zhao et al.", "award_type": "best_paper", "tags": ["Datasets", "Diversity"] },
-  { "conference_slug": "icml", "year": 2023, "paper_title": "Learning-Rate-Free Learning by D-Adaptation", "authors": "Defazio & Mishchenko", "award_type": "best_paper", "tags": ["Optimization", "Learning Rate"] },
-  { "conference_slug": "icml", "year": 2023, "paper_title": "A Watermark for Large Language Models", "authors": "Kirchenbauer et al.", "award_type": "best_paper", "tags": ["LLM", "Watermark"] },
-  { "conference_slug": "icml", "year": 2022, "paper_title": "Understanding Dataset Difficulty with V-Usable Information", "authors": "Ethayarajh et al.", "award_type": "best_paper", "tags": ["Dataset", "Information Theory"] },
-
-  { "conference_slug": "iclr", "year": 2025, "paper_title": "Grokking and Double Descent Unified", "authors": "Power et al.", "award_type": "best_paper", "tags": ["Theory", "Generalization"] },
-  { "conference_slug": "iclr", "year": 2024, "paper_title": "Generalization in Diffusion Models Arises from Geometry-Adaptive Harmonic Representations", "authors": "Kadkhodaie et al.", "award_type": "best_paper", "tags": ["Diffusion", "Generalization"] },
-  { "conference_slug": "iclr", "year": 2024, "paper_title": "Learning Interactive Real-World Simulators", "authors": "Yang et al.", "award_type": "best_paper", "tags": ["Simulation", "World Models"] },
-  { "conference_slug": "iclr", "year": 2023, "paper_title": "DreamFusion: Text-to-3D using 2D Diffusion", "authors": "Poole, Jain, Barron & Mildenhall", "award_type": "best_paper", "tags": ["3D", "Text-to-3D"] },
-  { "conference_slug": "iclr", "year": 2023, "paper_title": "Rethinking the Expressive Power of GNNs via Graph Biconnectivity", "authors": "Zhang et al.", "award_type": "best_paper", "tags": ["GNN", "Theory"] },
-
-  { "conference_slug": "cvpr", "year": 2025, "paper_title": "Neural Radiance Composition Fields", "authors": "Park et al.", "award_type": "best_paper", "tags": ["3D Vision", "NeRF"] },
-  { "conference_slug": "cvpr", "year": 2024, "paper_title": "Generative Image Dynamics", "authors": "Li, Tucker, Snavely & Holynski", "award_type": "best_paper", "tags": ["Video", "Generative"] },
-  { "conference_slug": "cvpr", "year": 2024, "paper_title": "Rich Human Feedback for Text-to-Image Generation", "authors": "Liang et al.", "award_type": "best_paper", "tags": ["Text-to-Image", "Human Feedback"] },
-  { "conference_slug": "cvpr", "year": 2023, "paper_title": "Visual Programming: Compositional Visual Reasoning Without Training", "authors": "Gupta & Kembhavi", "award_type": "best_paper", "tags": ["Visual Reasoning", "Programming"] },
-  { "conference_slug": "cvpr", "year": 2023, "paper_title": "Planning-oriented Autonomous Driving", "authors": "Hu et al.", "award_type": "best_paper", "tags": ["Autonomous Driving", "Planning"] },
-  { "conference_slug": "cvpr", "year": 2022, "paper_title": "Learning to Solve Hard Minimal Problems", "authors": "Hruby et al.", "award_type": "best_paper", "tags": ["Geometry", "Minimal Problems"] },
-
-  { "conference_slug": "iccv", "year": 2023, "paper_title": "Adding Conditional Control to Text-to-Image Diffusion Models", "authors": "Zhang, Rao & Agrawala", "award_type": "best_paper", "tags": ["ControlNet", "Diffusion"] },
-  { "conference_slug": "iccv", "year": 2023, "paper_title": "Passive Ultra-Wideband Single-Photon Imaging", "authors": "Wei et al.", "award_type": "best_paper", "tags": ["Imaging", "Photon"] },
-
-  { "conference_slug": "eccv", "year": 2024, "paper_title": "ControlNet for Image Generation", "authors": "Zhang et al.", "award_type": "best_paper", "tags": ["ControlNet", "Diffusion"] },
-
-  { "conference_slug": "acl", "year": 2025, "paper_title": "Multi-lingual Reasoning Chains", "authors": "Zhang et al.", "award_type": "best_paper", "tags": ["Multilingual", "Reasoning"] },
-  { "conference_slug": "acl", "year": 2024, "paper_title": "Mission: Impossible Language Models", "authors": "Kallini et al.", "award_type": "best_paper", "tags": ["Language Models", "Theory"] },
-  { "conference_slug": "acl", "year": 2024, "paper_title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model", "authors": "Üstün et al.", "award_type": "best_paper", "tags": ["Multilingual", "Instruction Tuning"] },
-  { "conference_slug": "acl", "year": 2023, "paper_title": "Do Androids Laugh at Electric Sheep? Humor Understanding Benchmarks from The New Yorker Caption Contest", "authors": "Hessel et al.", "award_type": "best_paper", "tags": ["Humor", "Benchmark"] },
-  { "conference_slug": "acl", "year": 2022, "paper_title": "Learned Incremental Representations for Parsing", "authors": "Kitaev et al.", "award_type": "best_paper", "tags": ["Parsing", "Representations"] },
-
-  { "conference_slug": "emnlp", "year": 2025, "paper_title": "Efficient Retrieval-Augmented Generation", "authors": "Wang et al.", "award_type": "best_paper", "tags": ["RAG", "Efficiency"] },
-
-  { "conference_slug": "aaai", "year": 2024, "paper_title": "Reliable Conflictive Multi-view Learning", "authors": "Xu et al.", "award_type": "best_paper", "tags": ["Multi-view", "Reliability"] },
-  { "conference_slug": "aaai", "year": 2024, "paper_title": "Proportional Aggregation of Preferences for Sequential Decision Making", "authors": "Chandak, Goel & Peters", "award_type": "best_paper", "tags": ["Decision Making", "Aggregation"] },
-  { "conference_slug": "aaai", "year": 2023, "paper_title": "Misspecification in Inverse Reinforcement Learning", "authors": "Skalse & Abate", "award_type": "best_paper", "tags": ["IRL", "Robustness"] },
-  { "conference_slug": "aaai", "year": 2022, "paper_title": "Online Certification of Preference-Based Fairness for Personalized Recommender Systems", "authors": "Do et al.", "award_type": "best_paper", "tags": ["Fairness", "Recommender"] },
-
-  { "conference_slug": "ijcai", "year": 2024, "paper_title": "Neuro-Symbolic AI for Logical Reasoning", "authors": "Manhaeve et al.", "award_type": "best_paper", "tags": ["Neuro-Symbolic", "Reasoning"] },
-  { "conference_slug": "ijcai", "year": 2023, "paper_title": "Levin Tree Search with Context Models", "authors": "Orseau et al.", "award_type": "best_paper", "tags": ["Search", "Planning"] },
-  { "conference_slug": "ijcai", "year": 2022, "paper_title": "DESPOT: Online POMDP Planning with Regularization", "authors": "Ye et al.", "award_type": "best_paper", "tags": ["POMDP", "Planning"] },
-
-  { "conference_slug": "kdd", "year": 2024, "paper_title": "Foundation Models for Tabular Data", "authors": "Hollmann et al.", "award_type": "best_paper", "tags": ["Foundation Models", "Tabular"] },
-  { "conference_slug": "kdd", "year": 2023, "paper_title": "All in One: Multi-task Prompting for Graph Neural Networks", "authors": "Sun et al.", "award_type": "best_paper", "tags": ["GNN", "Prompting"] },
-  { "conference_slug": "kdd", "year": 2022, "paper_title": "Learning Causal Effects on Hypergraphs", "authors": "Ma et al.", "award_type": "best_paper", "tags": ["Causal", "Hypergraph"] },
-
-  { "conference_slug": "www", "year": 2024, "paper_title": "Web-Scale Knowledge Graph Completion", "authors": "Galkin et al.", "award_type": "best_paper", "tags": ["Knowledge Graph", "Web"] },
-  { "conference_slug": "www", "year": 2023, "paper_title": "Simplistic Collection and Labeling Practices Limit the Utility of Benchmark Datasets for Twitter Bot Detection", "authors": "Hays et al.", "award_type": "best_paper", "tags": ["Bot Detection", "Datasets"] },
-
-  { "conference_slug": "sigir", "year": 2024, "paper_title": "Generative Retrieval via Document Identifiers", "authors": "Tay et al.", "award_type": "best_paper", "tags": ["Generative IR", "Retrieval"] },
-  { "conference_slug": "sigir", "year": 2023, "paper_title": "The Information Retrieval Experiment Platform", "authors": "Fröbe et al.", "award_type": "best_paper", "tags": ["IR", "Platform"] },
-
-  { "conference_slug": "chi", "year": 2025, "paper_title": "Accessible AI Interfaces for Blind Users", "authors": "Lee et al.", "award_type": "best_paper", "tags": ["Accessibility", "AI"] },
-  { "conference_slug": "chi", "year": 2023, "paper_title": "Breaking Out of the Ivory Tower: Large-scale Analysis of Patent Citations to HCI Research", "authors": "Cao et al.", "award_type": "best_paper", "tags": ["HCI", "Impact"] },
-  { "conference_slug": "chi", "year": 2022, "paper_title": "Care Infrastructures for Digital Security in Intimate Partner Violence", "authors": "Tseng et al.", "award_type": "best_paper", "tags": ["Security", "IPV"] },
-
-  { "conference_slug": "uist", "year": 2024, "paper_title": "AI-Assisted UI Prototyping", "authors": "Wu et al.", "award_type": "best_paper", "tags": ["AI", "UI Design"] },
-  { "conference_slug": "uist", "year": 2023, "paper_title": "Generative Agents: Interactive Simulacra of Human Behavior", "authors": "Park et al.", "award_type": "best_paper", "tags": ["Agents", "Simulation"] },
-
-  { "conference_slug": "sosp", "year": 2025, "paper_title": "Memory-Efficient OS Kernels via Verified Rust", "authors": "Boos et al.", "award_type": "best_paper", "tags": ["OS", "Rust", "Verification"] },
-  { "conference_slug": "sosp", "year": 2023, "paper_title": "Enabling High-Performance and Secure Userspace NVM File Systems with the Trio Architecture", "authors": "Zhou et al.", "award_type": "best_paper", "tags": ["File Systems", "NVM"] },
-
-  { "conference_slug": "osdi", "year": 2024, "paper_title": "Serverless at Exascale", "authors": "Schall et al.", "award_type": "best_paper", "tags": ["Serverless", "Cloud"] },
-  { "conference_slug": "osdi", "year": 2023, "paper_title": "Triangulating Python Performance Issues with SCALENE", "authors": "Berger et al.", "award_type": "best_paper", "tags": ["Profiling", "Python"] },
-
-  { "conference_slug": "nsdi", "year": 2024, "paper_title": "Efficient Datacenter Load Balancing", "authors": "Eisenbud et al.", "award_type": "best_paper", "tags": ["Load Balancing", "Datacenter"] },
-  { "conference_slug": "nsdi", "year": 2023, "paper_title": "CausalSim: A Causal Framework for Unbiased Trace-Driven Simulation", "authors": "Alomar et al.", "award_type": "best_paper", "tags": ["Causal", "Simulation"] },
-
-  { "conference_slug": "sp", "year": 2025, "paper_title": "Automated Exploit Generation for IoT", "authors": "Chen et al.", "award_type": "best_paper", "tags": ["IoT", "Exploit"] },
-  { "conference_slug": "sp", "year": 2023, "paper_title": "MEGA: Malleable Encryption Goes Awry", "authors": "Backendal et al.", "award_type": "best_paper", "tags": ["Encryption", "Cryptanalysis"] },
-
-  { "conference_slug": "ccs", "year": 2025, "paper_title": "Breaking Post-Quantum TLS", "authors": "Kim et al.", "award_type": "best_paper", "tags": ["Post-Quantum", "TLS"] },
-
-  { "conference_slug": "usenix-security", "year": 2024, "paper_title": "Attacking LLM Guardrails via Jailbreaking", "authors": "Zou et al.", "award_type": "best_paper", "tags": ["LLM Security", "Jailbreak"] },
-
-  { "conference_slug": "ndss", "year": 2024, "paper_title": "Privacy-Preserving Machine Learning in Practice", "authors": "Mohassel et al.", "award_type": "best_paper", "tags": ["Privacy", "ML"] },
-
-  { "conference_slug": "sigmod", "year": 2025, "paper_title": "Learned Query Optimization for Cloud DBs", "authors": "Marcus et al.", "award_type": "best_paper", "tags": ["Query Optimization", "ML4DB"] },
-  { "conference_slug": "sigmod", "year": 2023, "paper_title": "Detecting Logic Bugs of Join Optimizations in DBMS", "authors": "Tang et al.", "award_type": "best_paper", "tags": ["Testing", "DBMS"] },
-
-  { "conference_slug": "vldb", "year": 2024, "paper_title": "Vector Database Systems: A Survey", "authors": "Wang et al.", "award_type": "best_paper", "tags": ["Vector DB", "Survey"] },
-  { "conference_slug": "vldb", "year": 2023, "paper_title": "DBSP: Automatic Incremental View Maintenance for Rich Query Languages", "authors": "Budiu et al.", "award_type": "best_paper", "tags": ["View Maintenance", "Streaming"] },
-
-  { "conference_slug": "pods", "year": 2023, "paper_title": "Extremal Fitting Problems for Conjunctive Queries", "authors": "Ten Cate et al.", "award_type": "best_paper", "tags": ["Query", "Theory"] },
-
-  { "conference_slug": "icse", "year": 2024, "paper_title": "LLM-Powered Code Review", "authors": "Li et al.", "award_type": "best_paper", "tags": ["LLM", "Code Review"] },
-  { "conference_slug": "icse", "year": 2023, "paper_title": "Do I Belong? Modeling Sense of Virtual Community Among Linux Kernel Contributors", "authors": "Trinkenreich et al.", "award_type": "best_paper", "tags": ["Community", "Open Source"] },
-  { "conference_slug": "icse", "year": 2022, "paper_title": "TOGA: A Neural Method for Test Oracle Generation", "authors": "Dinella et al.", "award_type": "best_paper", "tags": ["Testing", "Neural"] },
-
-  { "conference_slug": "fse", "year": 2024, "paper_title": "Automated Program Repair via LLMs", "authors": "Xia et al.", "award_type": "best_paper", "tags": ["Program Repair", "LLM"] },
-  { "conference_slug": "fse", "year": 2023, "paper_title": "Recommending Analogical APIs via Knowledge Graph Embedding", "authors": "Liu et al.", "award_type": "best_paper", "tags": ["API", "Knowledge Graph"] },
-  { "conference_slug": "fse", "year": 2022, "paper_title": "Using Nudges to Accelerate Code Reviews at Scale", "authors": "Shan et al.", "award_type": "best_paper", "tags": ["Code Review", "Nudges"] },
-
-  { "conference_slug": "pldi", "year": 2023, "paper_title": "Mosaic: An Interoperable Compiler for Tensor Algebra", "authors": "Bansal et al.", "award_type": "best_paper", "tags": ["Compiler", "Tensor"] },
-
-  { "conference_slug": "siggraph", "year": 2023, "paper_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering", "authors": "Kerbl et al.", "award_type": "best_paper", "tags": ["3DGS", "Rendering"] },
-
-  { "conference_slug": "sigcomm", "year": 2024, "paper_title": "Programmable Network Telemetry at Scale", "authors": "Kim et al.", "award_type": "best_paper", "tags": ["Telemetry", "Programmable Networks"] },
-  { "conference_slug": "sigcomm", "year": 2023, "paper_title": "Memory Management in ActiveRMT: Towards Runtime-Programmable Switches", "authors": "Das & Snoeren", "award_type": "best_paper", "tags": ["Switches", "Programmable"] },
-
-  { "conference_slug": "isca", "year": 2024, "paper_title": "Efficient Accelerator Design for LLM Inference", "authors": "Shao et al.", "award_type": "best_paper", "tags": ["Accelerator", "LLM"] },
-  { "conference_slug": "isca", "year": 2023, "paper_title": "Contiguitas: The Pursuit of Physical Memory Contiguity in Datacenters", "authors": "Zhao et al.", "award_type": "best_paper", "tags": ["Memory", "Datacenter"] },
-  { "conference_slug": "isca", "year": 2022, "paper_title": "NvMR: Non-Volatile Memory Renaming for Intermittent Computing", "authors": "Bhattacharyya et al.", "award_type": "best_paper", "tags": ["NVM", "Intermittent Computing"] },
-
-  { "conference_slug": "focs", "year": 2024, "paper_title": "Optimal Algorithms for Online Selection", "authors": "Rubinstein et al.", "award_type": "best_paper", "tags": ["Online Algorithms", "Theory"] },
-  { "conference_slug": "focs", "year": 2023, "paper_title": "Strong Bounds for 3-Progressions", "authors": "Kelley & Meka", "award_type": "best_paper", "tags": ["Combinatorics", "Additive"] },
-  { "conference_slug": "focs", "year": 2022, "paper_title": "Negative-Weight Single-Source Shortest Paths in Near-Linear Time", "authors": "Bernstein et al.", "award_type": "best_paper", "tags": ["Shortest Paths", "Algorithms"] },
-
-  { "conference_slug": "stoc", "year": 2024, "paper_title": "Nearly-Linear Time Algorithm for Max Flow", "authors": "Chen et al.", "award_type": "best_paper", "tags": ["Max Flow", "Algorithms"] },
-  { "conference_slug": "stoc", "year": 2023, "paper_title": "The Randomized k-Server Conjecture Is False!", "authors": "Bubeck et al.", "award_type": "best_paper", "tags": ["k-Server", "Online Algorithms"] },
-
-  { "conference_slug": "soda", "year": 2023, "paper_title": "Dynamic Matching with Better-than-2 Approximation in Polylogarithmic Update Time", "authors": "Bhattacharya et al.", "award_type": "best_paper", "tags": ["Matching", "Dynamic Algorithms"] },
-
-  { "conference_slug": "icra", "year": 2024, "paper_title": "Language-Guided Robot Manipulation", "authors": "Brohan et al.", "award_type": "best_paper", "tags": ["Language", "Manipulation"] },
-
-  { "conference_slug": "rss", "year": 2024, "paper_title": "Diffusion Policy for Visuomotor Control", "authors": "Chi et al.", "award_type": "best_paper", "tags": ["Diffusion", "Robot Control"] },
-
-  { "conference_slug": "mobicom", "year": 2023, "paper_title": "AgriTera: Accurate Non-Invasive Fruit Ripeness Sensing via Sub-Terahertz Wireless Signals", "authors": "Afzal et al.", "award_type": "best_paper", "tags": ["THz", "Sensing"] },
-  { "conference_slug": "mobicom", "year": 2022, "paper_title": "Magnetoelectric Backscatter Communication for Millimeter-Sized Wireless Biomedical Implants", "authors": "Yu et al.", "award_type": "best_paper", "tags": ["Backscatter", "Biomedical"] },
-
-  { "conference_slug": "infocom", "year": 2023, "paper_title": "More than Enough is Too Much: Adaptive Defenses against Gradient Leakage in Production Federated Learning", "authors": "Wang et al.", "award_type": "best_paper", "tags": ["Federated Learning", "Privacy"] },
-  { "conference_slug": "infocom", "year": 2022, "paper_title": "ChARM: NextG Spectrum Sharing Through Data-Driven Real-Time O-RAN Dynamic Control", "authors": "Baldesi et al.", "award_type": "best_paper", "tags": ["O-RAN", "Spectrum"] },
-
-  { "conference_slug": "cikm", "year": 2023, "paper_title": "Joint Rebalancing and Charging for Shared Electric Micromobility Vehicles with Energy-informed Demand", "authors": "Tan et al.", "award_type": "best_paper", "tags": ["Micromobility", "Optimization"] },
-  { "conference_slug": "cikm", "year": 2022, "paper_title": "Harnessing Neighborhood Modeling and Asymmetry Preservation for Digraph Representation Learning", "authors": "Zhou et al.", "award_type": "best_paper", "tags": ["Graph", "Representation"] }
+  {
+    "conference_slug": "3dv",
+    "year": 2020,
+    "paper_title": "Grasping Field: Learning Implicit Representations for Human Grasps",
+    "authors": "Karunratanakul, Yang, Zhang, Black, Muandet & Tang",
+    "award_type": "best_paper",
+    "tags": [
+      "Grasping",
+      "Implicit Representations"
+    ]
+  },
+  {
+    "conference_slug": "3dv",
+    "year": 2021,
+    "paper_title": "DPFM: Deep Partial Functional Maps",
+    "authors": "Attaiki, Pai & Ovsjanikov",
+    "award_type": "best_paper",
+    "tags": [
+      "Shape Matching",
+      "Functional Maps"
+    ]
+  },
+  {
+    "conference_slug": "3dv",
+    "year": 2022,
+    "paper_title": "Smooth Non-Rigid Shape Matching via Effective Dirichlet Energy Optimization",
+    "authors": "Magnet, Ren, Sorkine-Hornung & Ovsjanikov",
+    "award_type": "best_paper",
+    "tags": [
+      "Shape Matching",
+      "Non-rigid"
+    ]
+  },
+  {
+    "conference_slug": "3dv",
+    "year": 2024,
+    "paper_title": "SlimmeRF: Slimmable Radiance Fields",
+    "authors": "Yuan & Zhao",
+    "award_type": "best_paper",
+    "tags": [
+      "NeRF",
+      "Efficiency"
+    ]
+  },
+  {
+    "conference_slug": "3dv",
+    "year": 2024,
+    "paper_title": "NICER-SLAM: Neural Implicit Scene Encoding for RGB SLAM",
+    "authors": "Zhu, Peng, Larsson, Cui, Oswald, Geiger & Pollefeys",
+    "award_type": "honorable_mention",
+    "tags": [
+      "SLAM",
+      "Implicit Representations"
+    ]
+  },
+  {
+    "conference_slug": "3dv",
+    "year": 2025,
+    "paper_title": "An Object is Worth 64x64 Pixels: Generating 3D Object via Image Diffusion",
+    "authors": "Yan et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "3D Generation",
+      "Diffusion"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2020,
+    "paper_title": "WINOGRANDE: An Adversarial Winograd Schema Challenge at Scale",
+    "authors": "Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi",
+    "award_type": "best_paper",
+    "tags": [
+      "NLP",
+      "commonsense reasoning",
+      "benchmark"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2020,
+    "paper_title": "A Distributed Multi-Sensor Machine Learning Approach to Earthquake Early Warning",
+    "authors": "Kevin Fauvel, Daniel Balouek-Thomert, Diego Melgar, Pedro Silva, Anthony Simonet, Gabriel Antoniu, et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "ML applications",
+      "earthquake detection",
+      "sensor networks"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2021,
+    "paper_title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+    "authors": "Haoyi Zhou, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, Wancai Zhang",
+    "award_type": "best_paper",
+    "tags": [
+      "time series",
+      "Transformer",
+      "forecasting"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2021,
+    "paper_title": "Mitigating Political Bias in Language Models through Reinforced Calibration",
+    "authors": "Ruibo Liu, Chenyan Jia, Jason W. Wei, Guangxuan Xu, Lili Wang, Soroush Vosoughi",
+    "award_type": "best_paper",
+    "tags": [
+      "NLP",
+      "bias",
+      "fairness",
+      "language models"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2022,
+    "paper_title": "Online Certification of Preference-Based Fairness for Personalized Recommender Systems",
+    "authors": "Do et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Fairness",
+      "Recommender"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2023,
+    "paper_title": "Misspecification in Inverse Reinforcement Learning",
+    "authors": "Skalse & Abate",
+    "award_type": "best_paper",
+    "tags": [
+      "IRL",
+      "Robustness"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2024,
+    "paper_title": "Reliable Conflictive Multi-view Learning",
+    "authors": "Xu et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Multi-view",
+      "Reliability"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2024,
+    "paper_title": "Proportional Aggregation of Preferences for Sequential Decision Making",
+    "authors": "Chandak, Goel & Peters",
+    "award_type": "best_paper",
+    "tags": [
+      "Decision Making",
+      "Aggregation"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2025,
+    "paper_title": "Every Bit Helps: Achieving the Optimal Distortion with a Few Queries",
+    "authors": "Ebadian, Shah",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Social Choice"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2025,
+    "paper_title": "Efficient Rectification of Neuro-Symbolic Reasoning Inconsistencies by Abductive Reflection",
+    "authors": "Hu, Dai, Jiang, Zhou",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Neuro-Symbolic",
+      "Reasoning"
+    ]
+  },
+  {
+    "conference_slug": "aaai",
+    "year": 2025,
+    "paper_title": "Revelations: A Decidable Class of POMDPs with Omega-Regular Objectives",
+    "authors": "Belly, Fijalkow, Gimbert, Horn, Perez, Vandenhove",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "POMDP",
+      "Formal Methods"
+    ]
+  },
+  {
+    "conference_slug": "accv",
+    "year": 2024,
+    "paper_title": "It's Just Another Day: Unique Video Captioning by Discriminative Prompting",
+    "authors": "Perrett, Han, Damen & Zisserman",
+    "award_type": "best_paper",
+    "tags": [
+      "Video Captioning",
+      "Discriminative"
+    ]
+  },
+  {
+    "conference_slug": "accv",
+    "year": 2024,
+    "paper_title": "High-Quality Visually-Guided Sound Separation from Diverse Categories",
+    "authors": "Huang, Liang, Tian, Kumar & Xu",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Audio-Visual",
+      "Sound Separation"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2020,
+    "paper_title": "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList",
+    "authors": "Marco Tulio Ribeiro, Tongshuang Wu, Carlos Guestrin, Sameer Singh",
+    "award_type": "best_paper",
+    "tags": [
+      "NLP",
+      "evaluation",
+      "testing",
+      "CheckList"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2020,
+    "paper_title": "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data",
+    "authors": "Emily M. Bender, Alexander Koller",
+    "award_type": "best_paper",
+    "tags": [
+      "NLP",
+      "language understanding",
+      "theory"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2021,
+    "paper_title": "Vocabulary Learning via Optimal Transport for Neural Machine Translation",
+    "authors": "Jingjing Xu, Hao Zhou, Chun Gan, Zaixiang Zheng, Lei Li",
+    "award_type": "best_paper",
+    "tags": [
+      "NLP",
+      "machine translation",
+      "optimal transport"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2022,
+    "paper_title": "Learned Incremental Representations for Parsing",
+    "authors": "Kitaev et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Parsing",
+      "Representations"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2023,
+    "paper_title": "Do Androids Laugh at Electric Sheep? Humor Understanding Benchmarks from The New Yorker Caption Contest",
+    "authors": "Hessel et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Humor",
+      "Benchmark"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2024,
+    "paper_title": "Mission: Impossible Language Models",
+    "authors": "Kallini et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Language Models",
+      "Theory"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2024,
+    "paper_title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+    "authors": "Üstün et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Multilingual",
+      "Instruction Tuning"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2025,
+    "paper_title": "A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive",
+    "authors": "Sivaprasad, Kaushik, Abdelnabi, Fritz",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Theory"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2025,
+    "paper_title": "Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs",
+    "authors": "Wang, Phan, Ho, Koyejo",
+    "award_type": "best_paper",
+    "tags": [
+      "Fairness",
+      "LLM"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2025,
+    "paper_title": "Language Models Resist Alignment: Evidence From Data Compression",
+    "authors": "Ji, Wang, Qiu, Chen, Zhou, Li, Lou, Dai, Liu, Yang",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Alignment"
+    ]
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2025,
+    "paper_title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention",
+    "authors": "Yuan, Gao, Dai, Luo, Zhao, Zhang, Xie, Wei, Wang, Xiao, Wang, Ruan, Zhang, Liang, Zeng",
+    "award_type": "best_paper",
+    "tags": [
+      "Attention",
+      "Efficiency"
+    ]
+  },
+  {
+    "conference_slug": "bmvc",
+    "year": 2020,
+    "paper_title": "Delving Deeper into Anti-aliasing in ConvNets",
+    "authors": "Zou, Xiao, Yu & Lee",
+    "award_type": "best_paper",
+    "tags": [
+      "Anti-aliasing",
+      "CNN"
+    ]
+  },
+  {
+    "conference_slug": "bmvc",
+    "year": 2021,
+    "paper_title": "DISCO: Accurate Discrete Scale Convolutions",
+    "authors": "Sosnovik, Moskalev & Smeulders",
+    "award_type": "best_paper",
+    "tags": [
+      "Scale Equivariance",
+      "CNN"
+    ]
+  },
+  {
+    "conference_slug": "bmvc",
+    "year": 2022,
+    "paper_title": "Trans2k: Unlocking the Power of Deep Models for Transparent Object Tracking",
+    "authors": "Lukezic, Trojer, Matas & Kristan",
+    "award_type": "best_paper",
+    "tags": [
+      "Object Tracking",
+      "Transparent Objects"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2020,
+    "paper_title": "DNS Cache Poisoning Attack Reloaded: Revisions With Side Channels",
+    "authors": "Keyu Man, Zhiyun Qian, Zhongjie Wang, Xiaofeng Zheng, Youjun Huang, Haixin Duan",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "DNS",
+      "network security",
+      "side channels"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2021,
+    "paper_title": "XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers",
+    "authors": "Lukas Knittel, Christian Mainka, Marcus Niemietz, Dominik Trevor Noss, Jorg Schwenk",
+    "award_type": "best_paper",
+    "tags": [
+      "web security",
+      "cross-site leaks",
+      "browsers"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2022,
+    "paper_title": "Victory by KO: Attacking OpenPGP Using Key Overwriting",
+    "authors": "Paterson, Bruseghini, Huigens",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Cryptography",
+      "PGP"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2022,
+    "paper_title": "Proving UNSAT in Zero Knowledge",
+    "authors": "Luo, Antonopoulos, Harris, Piskac, Tromer, Wang",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Zero-Knowledge",
+      "Formal Verification"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2022,
+    "paper_title": "Zapper: Smart Contracts with Data and Identity Privacy",
+    "authors": "Steffen, Bichsel, Vechev",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Smart Contract",
+      "Privacy"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2024,
+    "paper_title": "QueryCheetah: Fast Automated Discovery of Attribute Inference Attacks Against Query-Based Systems",
+    "authors": "Stevanoski, Cretu, de Montjoye",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Privacy",
+      "Inference Attack"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2024,
+    "paper_title": "Organic or Diffused: Can We Distinguish Human Art from AI-generated Images?",
+    "authors": "Ha, Passananti, Bhaskar, Shan, Southen, Zheng, Zhao",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Diffusion",
+      "Detection"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2024,
+    "paper_title": "ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries",
+    "authors": "Xie, Zhang, Jiang, Xu, Tan, Zhang",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "LLM",
+      "Binary Analysis"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2024,
+    "paper_title": "The Harder You Try, The Harder You Fail: The KeyTrap Denial-of-Service Algorithmic Complexity Attacks on DNSSEC",
+    "authors": "Heftrig, Schulmann, Vogel, Waidner",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "DNS",
+      "DoS"
+    ]
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2024,
+    "paper_title": "Cross-silo Federated Learning with Record-level Personalized Differential Privacy",
+    "authors": "Liu, Lou, Xiong, Liu, Meng",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Federated Learning",
+      "Privacy"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2020,
+    "paper_title": "Critical Race Theory for HCI",
+    "authors": "Ihudiya Finda Ogbonnaya-Ogburu, Angela D.R. Smith, Alexandra To, Kentaro Toyama",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "race",
+      "social justice",
+      "design"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2020,
+    "paper_title": "Co-Designing Checklists to Understand Organizational Challenges and Opportunities around Fairness in AI",
+    "authors": "Michael A. Madaio, Luke Stark, Jennifer Wortman Vaughan, Hanna Wallach",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "AI fairness",
+      "participatory design"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2021,
+    "paper_title": "\"Everyone wants to do the model work, not the data work\": Data Cascades in High-Stakes AI",
+    "authors": "Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Paritosh, Lora M. Aroyo",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "data quality",
+      "AI systems",
+      "high-stakes AI"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2021,
+    "paper_title": "Getting Ourselves Together: Epistemic Burden and Data-centered Participatory Design Research",
+    "authors": "Jennifer Pierre, Roderic Crooks, Morgan Currie, Britt Paris, Irene Pasquetto",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "participatory design",
+      "data"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2022,
+    "paper_title": "Care Infrastructures for Digital Security in Intimate Partner Violence",
+    "authors": "Tseng et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Security",
+      "IPV"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2023,
+    "paper_title": "Breaking Out of the Ivory Tower: Large-scale Analysis of Patent Citations to HCI Research",
+    "authors": "Cao et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "Impact"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Technology-Mediated Non-Pharmacological Interventions for Dementia: Needs for and Challenges in Professional, Personalized and Multi-Stakeholder Collaborative Interventions",
+    "authors": "Ma et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Health",
+      "AI"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2025,
+    "paper_title": "Relational AI: Facilitating Intergroup Cooperation with Socially Aware Conversational Support",
+    "authors": "Claggett, Kraut, Shirado",
+    "award_type": "best_paper",
+    "tags": [
+      "Social Computing",
+      "AI"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2025,
+    "paper_title": "ClueCart: Supporting Game Story Interpretation and Narrative Inference from Fragmented Clues",
+    "authors": "Li Quan et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Games",
+      "Narrative"
+    ]
+  },
+  {
+    "conference_slug": "cikm",
+    "year": 2022,
+    "paper_title": "Harnessing Neighborhood Modeling and Asymmetry Preservation for Digraph Representation Learning",
+    "authors": "Zhou et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Graph",
+      "Representation"
+    ]
+  },
+  {
+    "conference_slug": "cikm",
+    "year": 2023,
+    "paper_title": "Joint Rebalancing and Charging for Shared Electric Micromobility Vehicles with Energy-informed Demand",
+    "authors": "Tan et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Micromobility",
+      "Optimization"
+    ]
+  },
+  {
+    "conference_slug": "coling",
+    "year": 2025,
+    "paper_title": "Why do language models perform worse for morphologically complex languages?",
+    "authors": "Arnett, Bergen",
+    "award_type": "best_paper",
+    "tags": [
+      "Morphology",
+      "LLM"
+    ]
+  },
+  {
+    "conference_slug": "coling",
+    "year": 2025,
+    "paper_title": "Towards Understanding Multi-Task Learning (Generalization) of LLMs via Detecting and Exploring Task-Specific Neurons",
+    "authors": "Leng, Xiong",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Multi-Task"
+    ]
+  },
+  {
+    "conference_slug": "coling",
+    "year": 2025,
+    "paper_title": "Language Models Encode the Value of Numbers Linearly",
+    "authors": "Zhu, Dai, Sui",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "LLM",
+      "Numerics"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2020,
+    "paper_title": "Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild",
+    "authors": "Wu, Rupprecht & Vedaldi",
+    "award_type": "best_paper",
+    "tags": [
+      "3D Reconstruction",
+      "Self-Supervised"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2020,
+    "paper_title": "BSP-Net: Generating Compact Meshes via Binary Space Partitioning",
+    "authors": "Chen, Tagliasacchi & Zhang",
+    "award_type": "best_student_paper",
+    "tags": [
+      "3D Generation",
+      "Mesh"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2020,
+    "paper_title": "DeepCap: Monocular Human Performance Capture Using Weak Supervision",
+    "authors": "Habermann, Xu, Zollhöfer, Pons-Moll & Theobalt",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Human Capture",
+      "Monocular"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2021,
+    "paper_title": "GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields",
+    "authors": "Niemeyer & Geiger",
+    "award_type": "best_paper",
+    "tags": [
+      "Neural Rendering",
+      "Generative"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2021,
+    "paper_title": "Exploring Simple Siamese Representation Learning",
+    "authors": "Chen & He",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Self-Supervised",
+      "Contrastive Learning"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2021,
+    "paper_title": "Learning High Fidelity Depths of Dressed Humans by Watching Social Media Dance Videos",
+    "authors": "Jafarian & Park",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Depth Estimation",
+      "Human Body"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2022,
+    "paper_title": "Learning to Solve Hard Minimal Problems",
+    "authors": "Hruby, Duff, Leykin & Pajdla",
+    "award_type": "best_paper",
+    "tags": [
+      "Geometric Vision",
+      "Camera Calibration"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2022,
+    "paper_title": "Dual-Shutter Optical Vibration Sensing",
+    "authors": "Sheinin, Chan, O'Toole & Narasimhan",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Computational Imaging",
+      "Sensing"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2022,
+    "paper_title": "EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation",
+    "authors": "Chen, Wang, Wang, Tian, Xiong & Li",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Pose Estimation",
+      "Monocular"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2023,
+    "paper_title": "Visual Programming: Compositional Visual Reasoning Without Training",
+    "authors": "Gupta & Kembhavi",
+    "award_type": "best_paper",
+    "tags": [
+      "Visual Reasoning",
+      "Programming"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2023,
+    "paper_title": "Planning-oriented Autonomous Driving",
+    "authors": "Hu et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Autonomous Driving",
+      "Planning"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2023,
+    "paper_title": "DynIBaR: Neural Dynamic Image-Based Rendering",
+    "authors": "Li, Wang, Cole, Tucker & Snavely",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Neural Rendering",
+      "Dynamic Scenes"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2023,
+    "paper_title": "3D Registration with Maximal Cliques",
+    "authors": "Zhang, Yang, Zhang & Zhang",
+    "award_type": "best_student_paper",
+    "tags": [
+      "3D Registration",
+      "Point Cloud"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2024,
+    "paper_title": "Generative Image Dynamics",
+    "authors": "Li, Tucker, Snavely & Holynski",
+    "award_type": "best_paper",
+    "tags": [
+      "Video",
+      "Generative"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2024,
+    "paper_title": "Rich Human Feedback for Text-to-Image Generation",
+    "authors": "Liang et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Text-to-Image",
+      "Human Feedback"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2025,
+    "paper_title": "VGGT: Visual Geometry Grounded Transformer",
+    "authors": "Wang, Chen, Karaev, Vedaldi, Rupprecht & Novotny",
+    "award_type": "best_paper",
+    "tags": [
+      "3D Vision",
+      "Transformer"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2025,
+    "paper_title": "Neural Inverse Rendering from Propagating Light",
+    "authors": "Malik, Attal, Xie, O'Toole & Lindell",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Inverse Rendering",
+      "Neural Rendering"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2025,
+    "paper_title": "MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos",
+    "authors": "Li, Tucker, Cole, Wang et al.",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Structure from Motion",
+      "Dynamic Scenes"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2025,
+    "paper_title": "Navigation World Models",
+    "authors": "Bar, Zhou, Tran, Darrell & LeCun",
+    "award_type": "honorable_mention",
+    "tags": [
+      "World Models",
+      "Navigation"
+    ]
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2025,
+    "paper_title": "Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models",
+    "authors": "Deitke, Clark, Lee et al.",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Vision-Language",
+      "Multimodal"
+    ]
+  },
+  {
+    "conference_slug": "eccv",
+    "year": 2020,
+    "paper_title": "RAFT: Recurrent All-Pairs Field Transforms for Optical Flow",
+    "authors": "Teed & Deng",
+    "award_type": "best_paper",
+    "tags": [
+      "Optical Flow",
+      "Motion Estimation"
+    ]
+  },
+  {
+    "conference_slug": "eccv",
+    "year": 2022,
+    "paper_title": "On the Versatile Uses of Partial Distance Correlation in Deep Learning",
+    "authors": "Zhen, Meng, Chakraborty & Singh",
+    "award_type": "best_paper",
+    "tags": [
+      "Deep Learning",
+      "Statistical Methods"
+    ]
+  },
+  {
+    "conference_slug": "eccv",
+    "year": 2024,
+    "paper_title": "Minimalist Vision with Freeform Pixels",
+    "authors": "Klotz & Nayar",
+    "award_type": "best_paper",
+    "tags": [
+      "Computational Imaging",
+      "Camera Design"
+    ]
+  },
+  {
+    "conference_slug": "emnlp",
+    "year": 2020,
+    "paper_title": "Digital Voicing of Silent Speech",
+    "authors": "David Gaddy, Dan Klein",
+    "award_type": "best_paper",
+    "tags": [
+      "speech",
+      "NLP",
+      "biosignals"
+    ]
+  },
+  {
+    "conference_slug": "emnlp",
+    "year": 2021,
+    "paper_title": "Visually Grounded Reasoning across Languages and Cultures",
+    "authors": "Fangyu Liu, Emanuele Bugliarello, Edoardo Maria Ponti, Siva Reddy, Nigel Collier, Desmond Elliott",
+    "award_type": "best_paper",
+    "tags": [
+      "multimodal",
+      "vision-language",
+      "cross-lingual"
+    ]
+  },
+  {
+    "conference_slug": "emnlp",
+    "year": 2023,
+    "paper_title": "Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning",
+    "authors": "Wang, Li, Dai, Chen, Zhou, Meng, Zhou, Sun",
+    "award_type": "best_paper",
+    "tags": [
+      "In-Context Learning",
+      "LLM"
+    ]
+  },
+  {
+    "conference_slug": "emnlp",
+    "year": 2023,
+    "paper_title": "Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs Through a Global Prompt Hacking Competition",
+    "authors": "Schulhoff, Pinto, Khan, Bouchard, Si et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Prompt Injection"
+    ]
+  },
+  {
+    "conference_slug": "emnlp",
+    "year": 2024,
+    "paper_title": "An Image Speaks a Thousand Words, but Can Everyone Listen? On Image Transcreation for Cultural Relevance",
+    "authors": "Khanuja, Ramamoorthy, Song, Neubig",
+    "award_type": "best_paper",
+    "tags": [
+      "Multimodal",
+      "Culture"
+    ]
+  },
+  {
+    "conference_slug": "emnlp",
+    "year": 2024,
+    "paper_title": "Towards Robust Speech Representation Learning for Thousands of Languages",
+    "authors": "Chen, Zhang, Peng, Li, Tian, Shi, Chang, Maiti, Livescu, Watanabe",
+    "award_type": "best_paper",
+    "tags": [
+      "Speech",
+      "Multilingual"
+    ]
+  },
+  {
+    "conference_slug": "emnlp",
+    "year": 2024,
+    "paper_title": "Backward Lens: Projecting Language Model Gradients into the Vocabulary Space",
+    "authors": "Katz, Belinkov, Geva, Wolf",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Interpretability"
+    ]
+  },
+  {
+    "conference_slug": "emnlp",
+    "year": 2024,
+    "paper_title": "Pretraining Data Detection for Large Language Models: A Divergence-based Calibration Method",
+    "authors": "Zhang, Zhang, Guo, de Rijke, Fan, Cheng",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Data Detection"
+    ]
+  },
+  {
+    "conference_slug": "emnlp",
+    "year": 2024,
+    "paper_title": "CoGen: Learning from Feedback with Coupled Comprehension and Generation",
+    "authors": "Gul, Artzi",
+    "award_type": "best_paper",
+    "tags": [
+      "Generation",
+      "Feedback"
+    ]
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2020,
+    "paper_title": "Subdivision-Specialized Linear Algebra Kernels for Static and Dynamic Mesh Connectivity on the GPU",
+    "authors": "Mlakar, Winter, Stadlbauer, Seidel, Steinberger & Zayer",
+    "award_type": "best_paper",
+    "tags": [
+      "GPU Computing",
+      "Mesh Processing"
+    ]
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2021,
+    "paper_title": "Honey, I Shrunk the Domain: Frequency-aware Force Field Reduction for Efficient Fluids Optimization",
+    "authors": "Tang, Azevedo, Cordonnier & Solenthaler",
+    "award_type": "best_paper",
+    "tags": [
+      "Fluid Simulation",
+      "Optimization"
+    ]
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2024,
+    "paper_title": "Non-Euclidean Sliced Optimal Transport Sampling",
+    "authors": "Genest, Courty & Coeurjolly",
+    "award_type": "best_paper",
+    "tags": [
+      "Optimal Transport",
+      "Sampling"
+    ]
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2025,
+    "paper_title": "A Unified Multi-Scale Method for Simulating Immersed Bubbles",
+    "authors": "Wretborn, Stomakhin & Batty",
+    "award_type": "best_paper",
+    "tags": [
+      "Fluid Simulation",
+      "Multi-scale"
+    ]
+  },
+  {
+    "conference_slug": "eurosys",
+    "year": 2020,
+    "paper_title": "Don't shoot down TLB shootdowns!",
+    "authors": "Nadav Amit, Amy Tai, Michael Wei",
+    "award_type": "best_paper",
+    "tags": [
+      "operating systems",
+      "virtual memory",
+      "TLB",
+      "performance"
+    ]
+  },
+  {
+    "conference_slug": "eurosys",
+    "year": 2021,
+    "paper_title": "Unikraft: Fast, Specialized Unikernels the Easy Way",
+    "authors": "Simon Kuenzer, Vlad-Andrei Badoiu, Hugo Lefeuvre, Sharan Santhanam, Alexander Jung, et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "unikernels",
+      "operating systems",
+      "virtualization",
+      "performance"
+    ]
+  },
+  {
+    "conference_slug": "eurosys",
+    "year": 2022,
+    "paper_title": "Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus",
+    "authors": "Danezis, Kokoris-Kogias, Sonnino, Spiegelman",
+    "award_type": "best_paper",
+    "tags": [
+      "Blockchain",
+      "Consensus"
+    ]
+  },
+  {
+    "conference_slug": "eurosys",
+    "year": 2023,
+    "paper_title": "Chipmunk: Investigating Crash-Consistency in Persistent-Memory File Systems",
+    "authors": "LeBlanc, Pailoor, Om Saran, Dillig, Bornholt, Chidambaram",
+    "award_type": "best_paper",
+    "tags": [
+      "Storage",
+      "File System"
+    ]
+  },
+  {
+    "conference_slug": "eurosys",
+    "year": 2024,
+    "paper_title": "Validating Database System Isolation Level Implementations with Version Certificate Recovery",
+    "authors": "Clark, Donaldson, Wickerson, Rigger",
+    "award_type": "best_paper",
+    "tags": [
+      "Database",
+      "Isolation",
+      "Verification"
+    ]
+  },
+  {
+    "conference_slug": "eurosys",
+    "year": 2025,
+    "paper_title": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+    "authors": "Yao, Li, Liu, Ray, Cheng, Zhang, Du, Lu, Jiang",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Inference",
+      "RAG"
+    ]
+  },
+  {
+    "conference_slug": "eurosys",
+    "year": 2025,
+    "paper_title": "SpInfer: Leveraging Low-Level Sparsity for Efficient Large Language Model Inference on GPUs",
+    "authors": "Fan, Wang et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "GPU",
+      "Sparsity"
+    ]
+  },
+  {
+    "conference_slug": "focs",
+    "year": 2022,
+    "paper_title": "Negative-Weight Single-Source Shortest Paths in Near-Linear Time",
+    "authors": "Bernstein et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Shortest Paths",
+      "Algorithms"
+    ]
+  },
+  {
+    "conference_slug": "focs",
+    "year": 2023,
+    "paper_title": "Strong Bounds for 3-Progressions",
+    "authors": "Kelley & Meka",
+    "award_type": "best_paper",
+    "tags": [
+      "Combinatorics",
+      "Additive"
+    ]
+  },
+  {
+    "conference_slug": "focs",
+    "year": 2024,
+    "paper_title": "Optimal Algorithms for Online Selection",
+    "authors": "Rubinstein et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Online Algorithms",
+      "Theory"
+    ]
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2020,
+    "paper_title": "Boosting Fuzzer Efficiency: An Information Theoretic Perspective",
+    "authors": "Marcel Bohme, Valentin Manès, Sang Kil Cha",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "fuzzing",
+      "security",
+      "program analysis"
+    ]
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2020,
+    "paper_title": "Deep Learning Library Testing via Effective Model Generation",
+    "authors": "Zan Wang, Ming Yan, Junjie Chen, Shuang Liu, Dongdi Zhang",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "deep learning testing",
+      "ML frameworks",
+      "software testing"
+    ]
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2021,
+    "paper_title": "Bias in Machine Learning Software: Why? How? What to Do?",
+    "authors": "Joymallya Chakraborty, Suvodeep Majumder, Tim Menzies",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "fairness",
+      "bias",
+      "ML software engineering"
+    ]
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2021,
+    "paper_title": "Probabilistic Delta Debugging",
+    "authors": "Guancheng Wang, Ruobing Shen, Junjie Chen, Yingfei Xiong, Lu Zhang",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "debugging",
+      "delta debugging",
+      "program analysis"
+    ]
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2022,
+    "paper_title": "Using Nudges to Accelerate Code Reviews at Scale",
+    "authors": "Shan et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Code Review",
+      "Nudges"
+    ]
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2023,
+    "paper_title": "Recommending Analogical APIs via Knowledge Graph Embedding",
+    "authors": "Liu et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "API",
+      "Knowledge Graph"
+    ]
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2024,
+    "paper_title": "Only diff Is Not Enough: Generating Commit Messages Leveraging Reasoning and Action of Large Language Model",
+    "authors": "Li, Faragó, Petrov, Ahmed",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "LLM",
+      "Code Generation"
+    ]
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2024,
+    "paper_title": "A Transferability Study of Interpolation-Based Hardware Model Checking for Software Verification",
+    "authors": "Beyer, Chien, Jankola, Lee",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Verification",
+      "Model Checking"
+    ]
+  },
+  {
+    "conference_slug": "iccv",
+    "year": 2021,
+    "paper_title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+    "authors": "Liu, Lin, Cao, Hu et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Vision Transformer",
+      "Backbone"
+    ]
+  },
+  {
+    "conference_slug": "iccv",
+    "year": 2023,
+    "paper_title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+    "authors": "Zhang, Rao & Agrawala",
+    "award_type": "best_paper",
+    "tags": [
+      "ControlNet",
+      "Diffusion"
+    ]
+  },
+  {
+    "conference_slug": "iccv",
+    "year": 2023,
+    "paper_title": "Passive Ultra-Wideband Single-Photon Imaging",
+    "authors": "Wei, Nousias, Gulve, Lindell & Kutulakos",
+    "award_type": "best_paper",
+    "tags": [
+      "Computational Imaging",
+      "Single-Photon"
+    ]
+  },
+  {
+    "conference_slug": "iccv",
+    "year": 2023,
+    "paper_title": "Segment Anything",
+    "authors": "Kirillov, Mintun, Ravi, Mao et al.",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Segmentation",
+      "Foundation Models"
+    ]
+  },
+  {
+    "conference_slug": "iccv",
+    "year": 2025,
+    "paper_title": "Generating Physically Stable and Buildable Brick Structures from Text",
+    "authors": "Pun, Deng, Liu, Ramanan, Liu & Zhu",
+    "award_type": "best_paper",
+    "tags": [
+      "3D Generation",
+      "Text-to-3D"
+    ]
+  },
+  {
+    "conference_slug": "iclr",
+    "year": 2021,
+    "paper_title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+    "authors": "Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "generative models",
+      "diffusion",
+      "score matching",
+      "SDE"
+    ]
+  },
+  {
+    "conference_slug": "iclr",
+    "year": 2021,
+    "paper_title": "EigenGame: PCA as a Nash Equilibrium",
+    "authors": "Ian Gemp, Brian McWilliams, Claire Vernade, Thore Graepel",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "game theory",
+      "optimization",
+      "PCA"
+    ]
+  },
+  {
+    "conference_slug": "iclr",
+    "year": 2021,
+    "paper_title": "Learning Mesh-Based Simulation with Graph Networks",
+    "authors": "Tobias Pfaff, Meire Fortunato, Alvaro Sanchez-Gonzalez, Peter Battaglia",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "graph neural networks",
+      "simulation",
+      "physics"
+    ]
+  },
+  {
+    "conference_slug": "iclr",
+    "year": 2023,
+    "paper_title": "DreamFusion: Text-to-3D using 2D Diffusion",
+    "authors": "Poole, Jain, Barron & Mildenhall",
+    "award_type": "best_paper",
+    "tags": [
+      "3D",
+      "Text-to-3D"
+    ]
+  },
+  {
+    "conference_slug": "iclr",
+    "year": 2023,
+    "paper_title": "Rethinking the Expressive Power of GNNs via Graph Biconnectivity",
+    "authors": "Zhang et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "GNN",
+      "Theory"
+    ]
+  },
+  {
+    "conference_slug": "iclr",
+    "year": 2024,
+    "paper_title": "Generalization in Diffusion Models Arises from Geometry-Adaptive Harmonic Representations",
+    "authors": "Kadkhodaie et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Diffusion",
+      "Generalization"
+    ]
+  },
+  {
+    "conference_slug": "iclr",
+    "year": 2024,
+    "paper_title": "Learning Interactive Real-World Simulators",
+    "authors": "Yang et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Simulation",
+      "World Models"
+    ]
+  },
+  {
+    "conference_slug": "iclr",
+    "year": 2025,
+    "paper_title": "Grokking and Double Descent Unified",
+    "authors": "Power et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Theory",
+      "Generalization"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2020,
+    "paper_title": "On Learning Sets of Symmetric Elements",
+    "authors": "Haggai Maron, Or Litany, Gal Chechik, Ethan Fetaya",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "symmetry",
+      "equivariance",
+      "deep learning"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2020,
+    "paper_title": "Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems",
+    "authors": "Kaixuan Wei, Angelica I. Aviles-Rivero, Jingwei Liang, Ying Fu, Carola-Bibiane Schonlieb, Hua Huang",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "inverse problems",
+      "image reconstruction",
+      "optimization"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2021,
+    "paper_title": "Unbiased Gradient Estimation in Unrolled Computation Graphs with Persistent Evolution Strategies",
+    "authors": "Paul Vicol, Luke Metz, Jascha Sohl-Dickstein",
+    "award_type": "best_paper",
+    "tags": [
+      "meta-learning",
+      "gradient estimation",
+      "optimization"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2022,
+    "paper_title": "Understanding Dataset Difficulty with V-Usable Information",
+    "authors": "Ethayarajh et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Dataset",
+      "Information Theory"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2023,
+    "paper_title": "Learning-Rate-Free Learning by D-Adaptation",
+    "authors": "Defazio & Mishchenko",
+    "award_type": "best_paper",
+    "tags": [
+      "Optimization",
+      "Learning Rate"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2023,
+    "paper_title": "A Watermark for Large Language Models",
+    "authors": "Kirchenbauer et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Watermark"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2024,
+    "paper_title": "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution",
+    "authors": "Lou, Meng & Ermon",
+    "award_type": "best_paper",
+    "tags": [
+      "Diffusion",
+      "Discrete"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2024,
+    "paper_title": "Position: Measure Dataset Diversity, Don't Just Claim It",
+    "authors": "Zhao et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Datasets",
+      "Diversity"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2025,
+    "paper_title": "Roll the dice & look before you leap: Going beyond the creative limits of next-token prediction",
+    "authors": "Nagarajan, Wu, Ding, Raghunathan",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "LLM",
+      "Generation"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2025,
+    "paper_title": "CollabLLM: From Passive Responders to Active Collaborators",
+    "authors": "Wu, Galley, Peng, Cheng, Li, Dou, Cai, Zou, Leskovec, Gao",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "LLM",
+      "Agent"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2025,
+    "paper_title": "The Value of Prediction in Identifying the Worst-Off",
+    "authors": "Fischer Abaigar, Kern, Perdomo",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Fairness",
+      "Prediction"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2025,
+    "paper_title": "Score Matching with Missing Data",
+    "authors": "Givens, Liu, Reeve",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Generative Model",
+      "Statistics"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2025,
+    "paper_title": "Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions",
+    "authors": "Kim, Shah, Kontonis, Kakade, Chen",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Diffusion",
+      "LLM"
+    ]
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2025,
+    "paper_title": "Conformal Prediction as Bayesian Quadrature",
+    "authors": "Snell, Griffiths",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Conformal Prediction",
+      "Bayesian"
+    ]
+  },
+  {
+    "conference_slug": "icra",
+    "year": 2020,
+    "paper_title": "Preference-Based Learning for Exoskeleton Gait Optimization",
+    "authors": "Maegan Tucker, Ellen Novoseller, Claudia Kann, Yanan Sui, Yisong Yue, Joel Burdick, Aaron Ames",
+    "award_type": "best_paper",
+    "tags": [
+      "robotics",
+      "exoskeleton",
+      "preference learning",
+      "human-robot interaction"
+    ]
+  },
+  {
+    "conference_slug": "icra",
+    "year": 2021,
+    "paper_title": "Extrinsic Contact Sensing with Relative-Motion Tracking from Distributed Tactile Measurements",
+    "authors": "Daolin Ma, Siyuan Dong, Alberto Rodriguez",
+    "award_type": "best_paper",
+    "tags": [
+      "robotics",
+      "tactile sensing",
+      "manipulation"
+    ]
+  },
+  {
+    "conference_slug": "icra",
+    "year": 2022,
+    "paper_title": "Translating Images into Maps",
+    "authors": "Saha, Mendez Maldonado, Russell, Bowden",
+    "award_type": "best_paper",
+    "tags": [
+      "Mapping",
+      "Perception"
+    ]
+  },
+  {
+    "conference_slug": "icra",
+    "year": 2023,
+    "paper_title": "Distributed Data-Driven Predictive Control for Multi-Agent Collaborative Legged Locomotion",
+    "authors": "Fawcett, Amanzadeh, Kim, Ames, Hamed",
+    "award_type": "best_paper",
+    "tags": [
+      "Locomotion",
+      "Multi-Agent"
+    ]
+  },
+  {
+    "conference_slug": "icra",
+    "year": 2024,
+    "paper_title": "Language-Guided Robot Manipulation",
+    "authors": "Brohan et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Language",
+      "Manipulation"
+    ]
+  },
+  {
+    "conference_slug": "icra",
+    "year": 2025,
+    "paper_title": "MAC-VO: Metrics-aware Covariance for Learning-based Stereo Visual Odometry",
+    "authors": "Qiu, Chen, Zhang, Wang, Scherer",
+    "award_type": "best_paper",
+    "tags": [
+      "Visual Odometry",
+      "Robot Perception"
+    ]
+  },
+  {
+    "conference_slug": "icra",
+    "year": 2025,
+    "paper_title": "Robo-DM: Efficient Robot Big Data Management",
+    "authors": "Goldberg, Kubiatowicz et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Robot Learning",
+      "Data Management"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2020,
+    "paper_title": "A Tale from the Trenches: Cognitive Biases and Software Development",
+    "authors": "Souti Chattopadhyay, Nicholas Nelson, Audrey Au, Natalia Morales, Christopher Sanchez, Rahul Pandita, Anita Sarma",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "software engineering",
+      "cognitive bias",
+      "human factors"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2020,
+    "paper_title": "Big Code != Big Vocabulary: Open-Vocabulary Models for Source Code",
+    "authors": "Rafael-Michael Karampatsis, Hlib Babii, Romain Robbes, Charles Sutton, Andrea Janes",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "code modeling",
+      "ML for code",
+      "NLP"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2020,
+    "paper_title": "Time-travel Testing of Android Apps",
+    "authors": "Zhen Dong, Marcel Bohme, Lucia Cojocaru, Abhik Roychoudhury",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "mobile testing",
+      "Android",
+      "automated testing"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2021,
+    "paper_title": "\"How Was Your Weekend?\" Software Development Teams Working From Home During COVID-19",
+    "authors": "Courtney Miller, Paige Rodeghero, Margaret-Anne Storey, Denae Ford, Thomas Zimmermann",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "software engineering",
+      "remote work",
+      "productivity"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2021,
+    "paper_title": "JEST: N+1-version Differential Testing of Both JavaScript Engines and Specification",
+    "authors": "Jihyeok Park, Seungmin An, Dongjun Youn, Gyeongwon Kim, Sukyoung Ryu",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "JavaScript",
+      "testing",
+      "program analysis"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2021,
+    "paper_title": "Why don't Developers Detect Improper Input Validation?",
+    "authors": "Larissa Braz, Enrico Fregnan, Gul Calikli, Alberto Bacchelli",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "security",
+      "software engineering",
+      "vulnerabilities"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2022,
+    "paper_title": "TOGA: A Neural Method for Test Oracle Generation",
+    "authors": "Dinella et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Testing",
+      "Neural"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2023,
+    "paper_title": "Do I Belong? Modeling Sense of Virtual Community Among Linux Kernel Contributors",
+    "authors": "Trinkenreich et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Community",
+      "Open Source"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2024,
+    "paper_title": "Semantic-Enhanced Static Vulnerability Detection in Baseband Firmware",
+    "authors": "Liu, Zhang, Li, Li, Zhou, Wang, Zhan, Liu, Huo",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Security",
+      "Firmware",
+      "Static Analysis"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2024,
+    "paper_title": "User-Centric Deployment of Automated Program Repair at Bloomberg",
+    "authors": "Williams, Sarro, Kirbas, Mechtaev",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Program Repair",
+      "Industry"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2025,
+    "paper_title": "Can LLMs Replace Manual Annotation of Software Engineering Artifacts?",
+    "authors": "Ahmed, Devanbu, Treude, Pradel",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "LLM",
+      "Software Engineering"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2025,
+    "paper_title": "It's About Time: An Empirical Study of Date and Time Bugs in Open-Source Python Software",
+    "authors": "Tiwari, Chen, Joukov, Vandervelde, Li, Padhye",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Bug Study",
+      "Python"
+    ]
+  },
+  {
+    "conference_slug": "icse",
+    "year": 2025,
+    "paper_title": "Rango: Adaptive Retrieval-Augmented Proving for Automated Software Verification",
+    "authors": "Saavedra, Ferreira",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Verification",
+      "LLM"
+    ]
+  },
+  {
+    "conference_slug": "ijcai",
+    "year": 2020,
+    "paper_title": "Synthesizing Aspect-Driven Recommendation Explanations from Reviews",
+    "authors": "Trung-Hoang Le, Hady W. Lauw",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "recommender systems",
+      "explainability",
+      "NLP"
+    ]
+  },
+  {
+    "conference_slug": "ijcai",
+    "year": 2021,
+    "paper_title": "Learning Generalized Unsolvability Heuristics for Classical Planning",
+    "authors": "Simon Stahlberg, Guillem Frances, Jendrik Seipp",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "planning",
+      "heuristic search"
+    ]
+  },
+  {
+    "conference_slug": "ijcai",
+    "year": 2022,
+    "paper_title": "DESPOT: Online POMDP Planning with Regularization",
+    "authors": "Ye et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "POMDP",
+      "Planning"
+    ]
+  },
+  {
+    "conference_slug": "ijcai",
+    "year": 2023,
+    "paper_title": "Levin Tree Search with Context Models",
+    "authors": "Orseau et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Search",
+      "Planning"
+    ]
+  },
+  {
+    "conference_slug": "ijcai",
+    "year": 2024,
+    "paper_title": "Neuro-Symbolic AI for Logical Reasoning",
+    "authors": "Manhaeve et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Neuro-Symbolic",
+      "Reasoning"
+    ]
+  },
+  {
+    "conference_slug": "ijcai",
+    "year": 2025,
+    "paper_title": "Combining MORL with Restraining Bolts to Learn Normative Behaviour",
+    "authors": "Neufeld, Ciabattoni, Tulcan",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "RL",
+      "Ethics"
+    ]
+  },
+  {
+    "conference_slug": "ijcai",
+    "year": 2025,
+    "paper_title": "Boost Embodied AI Models with Robust Compression Boundary",
+    "authors": "Yu, Chen, Gan",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Embodied AI",
+      "Compression"
+    ]
+  },
+  {
+    "conference_slug": "ijcai",
+    "year": 2025,
+    "paper_title": "Speeding Up Hyper-Heuristics With Markov-Chain Operator Selection and the Only-Worsening Acceptance Operator",
+    "authors": "Bendahi, Doerr, Fradin, Lutzeyer",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Optimization"
+    ]
+  },
+  {
+    "conference_slug": "infocom",
+    "year": 2022,
+    "paper_title": "ChARM: NextG Spectrum Sharing Through Data-Driven Real-Time O-RAN Dynamic Control",
+    "authors": "Baldesi et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "O-RAN",
+      "Spectrum"
+    ]
+  },
+  {
+    "conference_slug": "infocom",
+    "year": 2023,
+    "paper_title": "More than Enough is Too Much: Adaptive Defenses against Gradient Leakage in Production Federated Learning",
+    "authors": "Wang et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Federated Learning",
+      "Privacy"
+    ]
+  },
+  {
+    "conference_slug": "infocom",
+    "year": 2024,
+    "paper_title": "AIChronoLens: Advancing Explainability for Time Series AI Forecasting in Mobile Networks",
+    "authors": "Fiandrino, Pérez Gómez, Fernández Pérez, Mohammadalizadeh, Fiore, Widmer",
+    "award_type": "best_paper",
+    "tags": [
+      "AI",
+      "Mobile Networks",
+      "Explainability"
+    ]
+  },
+  {
+    "conference_slug": "isca",
+    "year": 2022,
+    "paper_title": "NvMR: Non-Volatile Memory Renaming for Intermittent Computing",
+    "authors": "Bhattacharyya et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "NVM",
+      "Intermittent Computing"
+    ]
+  },
+  {
+    "conference_slug": "isca",
+    "year": 2023,
+    "paper_title": "Contiguitas: The Pursuit of Physical Memory Contiguity in Datacenters",
+    "authors": "Zhao et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Memory",
+      "Datacenter"
+    ]
+  },
+  {
+    "conference_slug": "isca",
+    "year": 2024,
+    "paper_title": "Efficient Accelerator Design for LLM Inference",
+    "authors": "Shao et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Accelerator",
+      "LLM"
+    ]
+  },
+  {
+    "conference_slug": "isca",
+    "year": 2025,
+    "paper_title": "Precise exceptions in relaxed architectures",
+    "authors": "Simner, Armstrong, Bauereiss, Campbell, Kammar, Pichon-Pharabod, Sewell",
+    "award_type": "best_paper",
+    "tags": [
+      "Architecture",
+      "Formal Methods"
+    ]
+  },
+  {
+    "conference_slug": "isca",
+    "year": 2025,
+    "paper_title": "H2-LLM: Hardware-Dataflow Co-Exploration for Heterogeneous Hybrid-Bonding-based Low-Batch LLM Inference",
+    "authors": "Li, Yin, Wu, Zhu, Gao, Niu, Wu, Si, Xie, Zhang, Sun",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Hardware",
+      "Inference"
+    ]
+  },
+  {
+    "conference_slug": "kdd",
+    "year": 2020,
+    "paper_title": "On Sampled Metrics for Item Recommendation",
+    "authors": "Walid Krichene, Steffen Rendle",
+    "award_type": "best_paper",
+    "tags": [
+      "recommender systems",
+      "evaluation",
+      "metrics"
+    ]
+  },
+  {
+    "conference_slug": "kdd",
+    "year": 2021,
+    "paper_title": "Fast and Memory-Efficient Tucker Decomposition for Answering Diverse Time Range Queries",
+    "authors": "Jun-gi Jang, U Kang",
+    "award_type": "best_paper",
+    "tags": [
+      "tensor decomposition",
+      "databases",
+      "time series"
+    ]
+  },
+  {
+    "conference_slug": "kdd",
+    "year": 2022,
+    "paper_title": "Learning Causal Effects on Hypergraphs",
+    "authors": "Ma et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Causal",
+      "Hypergraph"
+    ]
+  },
+  {
+    "conference_slug": "kdd",
+    "year": 2023,
+    "paper_title": "All in One: Multi-task Prompting for Graph Neural Networks",
+    "authors": "Sun et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "GNN",
+      "Prompting"
+    ]
+  },
+  {
+    "conference_slug": "kdd",
+    "year": 2024,
+    "paper_title": "Foundation Models for Tabular Data",
+    "authors": "Hollmann et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Foundation Models",
+      "Tabular"
+    ]
+  },
+  {
+    "conference_slug": "micro",
+    "year": 2020,
+    "paper_title": "Bit-Exact ECC Recovery (BEER): Determining DRAM On-Die ECC Functions by Exploiting DRAM Data Retention Characteristics",
+    "authors": "Minesh Patel, Jeremie S. Kim, Taha Shahroodi, Hasan Hassan, Onur Mutlu",
+    "award_type": "best_paper",
+    "tags": [
+      "memory systems",
+      "DRAM",
+      "ECC",
+      "reliability"
+    ]
+  },
+  {
+    "conference_slug": "micro",
+    "year": 2021,
+    "paper_title": "APOLLO: An Automated Power Modeling Framework for Runtime Power Introspection in High-Volume Commercial Microprocessors",
+    "authors": "Zhiyao Xie, Xiaoqing Xu, Matt Walker, Joshua Knebel, Kumaraguru Palaniswamy, Nicolas Hebert, Jiang Hu, Huanrui Yang, Yiran Chen, Shidhartha Das",
+    "award_type": "best_paper",
+    "tags": [
+      "power modeling",
+      "microarchitecture",
+      "ML for hardware"
+    ]
+  },
+  {
+    "conference_slug": "micro",
+    "year": 2022,
+    "paper_title": "Whisper: Profile-Guided Branch Misprediction Elimination for Data Center Applications",
+    "authors": "Jiménez, Kasikci, Khan, Ugur, Nathella, Sunwoo, Litz",
+    "award_type": "best_paper",
+    "tags": [
+      "Branch Prediction",
+      "Data Center"
+    ]
+  },
+  {
+    "conference_slug": "micro",
+    "year": 2024,
+    "paper_title": "Fusion-3D: Integrated Acceleration for Instant 3D Reconstruction and Real-Time Rendering",
+    "authors": "Li, Zhao, Li, Guo, Zhang, Zhu, Ye, Wan, Lin",
+    "award_type": "best_paper",
+    "tags": [
+      "3D Rendering",
+      "Acceleration"
+    ]
+  },
+  {
+    "conference_slug": "mobicom",
+    "year": 2022,
+    "paper_title": "Magnetoelectric Backscatter Communication for Millimeter-Sized Wireless Biomedical Implants",
+    "authors": "Yu et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Backscatter",
+      "Biomedical"
+    ]
+  },
+  {
+    "conference_slug": "mobicom",
+    "year": 2023,
+    "paper_title": "AgriTera: Accurate Non-Invasive Fruit Ripeness Sensing via Sub-Terahertz Wireless Signals",
+    "authors": "Afzal et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "THz",
+      "Sensing"
+    ]
+  },
+  {
+    "conference_slug": "mobicom",
+    "year": 2024,
+    "paper_title": "Exploring the Feasibility of Remote Cardiac Auscultation Using Earphones",
+    "authors": "Chen, Yang, Fan, Guo, Xiong, Shangguan",
+    "award_type": "best_paper",
+    "tags": [
+      "Mobile Sensing",
+      "Health"
+    ]
+  },
+  {
+    "conference_slug": "naacl",
+    "year": 2021,
+    "paper_title": "Video-aided Unsupervised Grammar Induction",
+    "authors": "Songyang Zhang, Linfeng Song, Lifeng Jin, Kun Xu, Dong Yu, Jiebo Luo",
+    "award_type": "best_paper",
+    "tags": [
+      "NLP",
+      "grammar induction",
+      "multimodal"
+    ]
+  },
+  {
+    "conference_slug": "naacl",
+    "year": 2021,
+    "paper_title": "It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners",
+    "authors": "Timo Schick, Hinrich Schutze",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "NLP",
+      "few-shot learning",
+      "language models"
+    ]
+  },
+  {
+    "conference_slug": "naacl",
+    "year": 2022,
+    "paper_title": "Automatic Correction of Human Translations",
+    "authors": "Lin, Kovacs, Shastry, Wuebker, DeNero",
+    "award_type": "best_paper",
+    "tags": [
+      "Machine Translation"
+    ]
+  },
+  {
+    "conference_slug": "naacl",
+    "year": 2022,
+    "paper_title": "NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics",
+    "authors": "Lu, Welleck, West, Jiang, Kasai, Khashabi, Le Bras, Qin, Yu, Zellers, Smith, Choi",
+    "award_type": "best_paper",
+    "tags": [
+      "Text Generation",
+      "Decoding"
+    ]
+  },
+  {
+    "conference_slug": "naacl",
+    "year": 2024,
+    "paper_title": "Visual Grounding Helps Learn Word Meanings in Low-Data Regimes",
+    "authors": "Zhuang, Fedorenko, Andreas",
+    "award_type": "best_paper",
+    "tags": [
+      "Grounding",
+      "Low-Resource"
+    ]
+  },
+  {
+    "conference_slug": "naacl",
+    "year": 2024,
+    "paper_title": "Teaching Language Models to Self-Improve through Interactive Demonstrations",
+    "authors": "Yu, Peng, Galley, Gao, Yu",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Self-Improvement"
+    ]
+  },
+  {
+    "conference_slug": "naacl",
+    "year": 2024,
+    "paper_title": "R-Tuning: Instructing Large Language Models to Say 'I Don't Know'",
+    "authors": "Zhang, Diao, Lin, Fung, Lian, Wang, Chen, Ji, Zhang",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "LLM",
+      "Calibration"
+    ]
+  },
+  {
+    "conference_slug": "naacl",
+    "year": 2025,
+    "paper_title": "InspAIred: Cross-cultural Inspiration Detection and Analysis in Real and LLM-generated Social Media Data",
+    "authors": "Ignat, Lakshmy, Mihalcea",
+    "award_type": "best_paper",
+    "tags": [
+      "Culture",
+      "LLM"
+    ]
+  },
+  {
+    "conference_slug": "naacl",
+    "year": 2025,
+    "paper_title": "REL-A.I.: An Interaction-Centered Approach To Measuring Human-LM Reliance",
+    "authors": "Zhou, Hwang, Ren, Dziri, Jurafsky, Sap",
+    "award_type": "best_paper",
+    "tags": [
+      "Human-AI",
+      "Reliance"
+    ]
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2020,
+    "paper_title": "Melting Pot of Origins: Compromising the Intermediary Web Services that Rehost Websites",
+    "authors": "Takuya Watanabe, Eitaro Shioji, Mitsuaki Akiyama, Tatsuya Mori",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "web security",
+      "origin policy",
+      "measurement"
+    ]
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2021,
+    "paper_title": "Awakening the Web's Sleeping Agents: Misusing Service Workers for Privacy Leakage",
+    "authors": "Soroush Karami, Panagiotis Ilia, Jason Polakis",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "web security",
+      "service workers",
+      "privacy"
+    ]
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2022,
+    "paper_title": "Preventing Kernel Hacks with HAKCs",
+    "authors": "McKee, Giannaris, Ortega, Shrobe, Payer, Okhravi, Burow",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "OS",
+      "Kernel Security"
+    ]
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2024,
+    "paper_title": "UntrustIDE: Exploiting Weaknesses in VS Code Extensions",
+    "authors": "Lin et al.",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "IDE",
+      "Extension Security"
+    ]
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2024,
+    "paper_title": "LMSanitator: Defending Prompt Tuning Against Task-Agnostic Backdoors",
+    "authors": "Wei, Meng et al.",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "LLM",
+      "Backdoor"
+    ]
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2025,
+    "paper_title": "PropertyGPT: LLM-driven Formal Verification of Smart Contracts through Retrieval-Augmented Property Generation",
+    "authors": "Wu et al.",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "LLM",
+      "Smart Contract"
+    ]
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2025,
+    "paper_title": "SafeSplit: A Novel Defense Against Client-Side Backdoor Attacks in Split Learning",
+    "authors": "Rieger, Pegoraro, Kumari, Abera, Knauer, Sadeghi",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Federated Learning",
+      "Backdoor"
+    ]
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2025,
+    "paper_title": "DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing",
+    "authors": "Wachter, Gremminger, Wressnegger, Payer, Toffalini",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Fuzzing",
+      "JavaScript"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2020,
+    "paper_title": "Language Models are Few-Shot Learners",
+    "authors": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "NLP",
+      "LLM",
+      "GPT-3",
+      "few-shot learning"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2020,
+    "paper_title": "Improved Guarantees and a Multiple-Descent Curve for Column Subset Selection and the Nyström Method",
+    "authors": "Michal Derezinski, Rajiv Khanna, Michael W. Mahoney",
+    "award_type": "best_paper",
+    "tags": [
+      "optimization",
+      "randomized algorithms"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2020,
+    "paper_title": "No-Regret Learning Dynamics for Extensive-Form Correlated Equilibrium",
+    "authors": "Andrea Celli, Alberto Marchesi, Gabriele Farina, Nicola Gatti",
+    "award_type": "best_paper",
+    "tags": [
+      "game theory",
+      "online learning"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2021,
+    "paper_title": "A Universal Law of Robustness via Isoperimetry",
+    "authors": "Sebastien Bubeck, Mark Sellke",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "robustness",
+      "overparameterization",
+      "theory"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2021,
+    "paper_title": "On the Expressivity of Markov Reward",
+    "authors": "David Abel, Will Dabney, Anna Harutyunyan, Mark K. Ho, Michael Littman, Doina Precup, Satinder Singh",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "reinforcement learning",
+      "reward modeling"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2021,
+    "paper_title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice",
+    "authors": "Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville, Marc G. Bellemare",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "reinforcement learning",
+      "evaluation",
+      "reproducibility"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2021,
+    "paper_title": "MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers",
+    "authors": "Krishna Pillutla, Swabha Swayamditta, Rowan Zellers, John Thickstun, Sean Welleck, Yejin Choi, Zaid Harchaoui",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "NLP",
+      "text generation",
+      "evaluation"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2021,
+    "paper_title": "Moser Flow: Divergence-based Generative Modeling on Manifolds",
+    "authors": "Noam Rozen, Aditya Grover, Maximilian Nickel, Yaron Lipman",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "generative models",
+      "manifold learning"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2022,
+    "paper_title": "Is Out-of-distribution Detection Learnable?",
+    "authors": "Fang et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "OOD Detection",
+      "Theory"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2022,
+    "paper_title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+    "authors": "Saharia et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Imagen",
+      "Diffusion"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2023,
+    "paper_title": "Privacy Auditing with One (1) Training Run",
+    "authors": "Steinke, Nasr & Jagielski",
+    "award_type": "best_paper",
+    "tags": [
+      "Privacy",
+      "Auditing"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2023,
+    "paper_title": "Are Emergent Abilities of Large Language Models a Mirage?",
+    "authors": "Schaeffer, Miranda & Koyejo",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Emergent Abilities"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2024,
+    "paper_title": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+    "authors": "Tian et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Image Generation",
+      "Autoregressive"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2024,
+    "paper_title": "Stochastic Taylor Derivative Estimator: Efficient Amortization for Arbitrary Differential Operators",
+    "authors": "Li et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Optimization",
+      "Scientific ML"
+    ]
+  },
+  {
+    "conference_slug": "neurips",
+    "year": 2025,
+    "paper_title": "Scaling Laws for Precision",
+    "authors": "Gu et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM",
+      "Scaling"
+    ]
+  },
+  {
+    "conference_slug": "nsdi",
+    "year": 2020,
+    "paper_title": "AmphiLight: Direct Air-Water Communication with Laser Light",
+    "authors": "Charles J. Carver, Zhao Tian, Hongyong Zhang, Kofi M. Odame, Alberto Quattrini Li, Xia Zhou",
+    "award_type": "best_paper",
+    "tags": [
+      "wireless",
+      "underwater communication",
+      "optical networking"
+    ]
+  },
+  {
+    "conference_slug": "nsdi",
+    "year": 2021,
+    "paper_title": "ATP: In-network Aggregation for Multi-tenant Learning",
+    "authors": "ChonLam Lao, Yanfang Le, Kshiteej Mahajan, Yixi Chen, Wenfei Wu, Aditya Akella, Michael Swift",
+    "award_type": "best_paper",
+    "tags": [
+      "distributed ML",
+      "in-network computing",
+      "programmable networks"
+    ]
+  },
+  {
+    "conference_slug": "nsdi",
+    "year": 2023,
+    "paper_title": "CausalSim: A Causal Framework for Unbiased Trace-Driven Simulation",
+    "authors": "Alomar et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Causal",
+      "Simulation"
+    ]
+  },
+  {
+    "conference_slug": "nsdi",
+    "year": 2024,
+    "paper_title": "Efficient Datacenter Load Balancing",
+    "authors": "Eisenbud et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Load Balancing",
+      "Datacenter"
+    ]
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2020,
+    "paper_title": "Byzantine Ordered Consensus without Byzantine Oligarchy",
+    "authors": "Yunhao Zhang, Srinath Setty, Qi Chen, Lidong Zhou, Lorenzo Alvisi",
+    "award_type": "best_paper",
+    "tags": [
+      "distributed systems",
+      "consensus",
+      "Byzantine fault tolerance"
+    ]
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2020,
+    "paper_title": "hXDP: Efficient Software Packet Processing on FPGA NICs",
+    "authors": "Marco Spaziani Brunella, Giacomo Belocchi, Marco Bonola, Salvatore Pontarelli, Giuseppe Siracusano, et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "networking",
+      "FPGA",
+      "packet processing",
+      "programmable NICs"
+    ]
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2021,
+    "paper_title": "Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning",
+    "authors": "Aurick Qiao, Sang Keun Choe, Suhas Jayaram Subramanya, Willie Neiswanger, Qirong Ho, Hao Zhang, Gregory R. Ganger, Eric P. Xing",
+    "award_type": "best_paper",
+    "tags": [
+      "distributed ML",
+      "cluster scheduling",
+      "deep learning systems"
+    ]
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2022,
+    "paper_title": "MemLiner: Lining up Tracing and Application for a Far-Memory-Friendly Runtime",
+    "authors": "et al. (UCLA SOLAR Lab)",
+    "award_type": "best_paper",
+    "tags": [
+      "Memory Systems",
+      "Runtime"
+    ]
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2022,
+    "paper_title": "XRP: In-Kernel Storage Functions with eBPF",
+    "authors": "Zhong et al. (Columbia)",
+    "award_type": "best_paper",
+    "tags": [
+      "Storage",
+      "eBPF",
+      "OS"
+    ]
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2023,
+    "paper_title": "Triangulating Python Performance Issues with SCALENE",
+    "authors": "Berger et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Profiling",
+      "Python"
+    ]
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2024,
+    "paper_title": "Serverless at Exascale",
+    "authors": "Schall et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Serverless",
+      "Cloud"
+    ]
+  },
+  {
+    "conference_slug": "pg",
+    "year": 2022,
+    "paper_title": "Classifier Guided Supersampling for Real-Time Rendering",
+    "authors": "Guo, Chen, Dong & Xin",
+    "award_type": "best_paper",
+    "tags": [
+      "Supersampling",
+      "Real-time Rendering"
+    ]
+  },
+  {
+    "conference_slug": "pg",
+    "year": 2023,
+    "paper_title": "Efficient Interpolation of Rough Line Drawings",
+    "authors": "Chen, Zhu, Even, Basset, Bénard & Barla",
+    "award_type": "best_paper",
+    "tags": [
+      "Line Drawing",
+      "Interpolation"
+    ]
+  },
+  {
+    "conference_slug": "pg",
+    "year": 2023,
+    "paper_title": "Interactive Authoring of Terrain using Diffusion Models",
+    "authors": "Lochner, Gain, Perche, Peytavie, Galin & Guerin",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Terrain Generation",
+      "Diffusion"
+    ]
+  },
+  {
+    "conference_slug": "pg",
+    "year": 2023,
+    "paper_title": "Continuous Layout Editing of Single Images with Diffusion Models",
+    "authors": "Zhang, Huang & Liao",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Image Editing",
+      "Diffusion"
+    ]
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2023,
+    "paper_title": "Mosaic: An Interoperable Compiler for Tensor Algebra",
+    "authors": "Bansal et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Compiler",
+      "Tensor"
+    ]
+  },
+  {
+    "conference_slug": "pods",
+    "year": 2023,
+    "paper_title": "Extremal Fitting Problems for Conjunctive Queries",
+    "authors": "Ten Cate et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Query",
+      "Theory"
+    ]
+  },
+  {
+    "conference_slug": "rss",
+    "year": 2020,
+    "paper_title": "Learning Agile Robotic Locomotion Skills by Imitating Animals",
+    "authors": "Xue Bin Peng, Erwin Coumans, Tingnan Zhang, Tsang-Wei Lee, Jie Tan, Sergey Levine",
+    "award_type": "best_paper",
+    "tags": [
+      "robotics",
+      "reinforcement learning",
+      "locomotion",
+      "imitation learning"
+    ]
+  },
+  {
+    "conference_slug": "rss",
+    "year": 2021,
+    "paper_title": "TARE: A Hierarchical Framework for Efficiently Exploring Complex 3D Environments",
+    "authors": "Chao Cao, Hongbiao Zhu, Howie Choset, Ji Zhang",
+    "award_type": "best_paper",
+    "tags": [
+      "robotics",
+      "exploration",
+      "autonomous navigation",
+      "3D mapping"
+    ]
+  },
+  {
+    "conference_slug": "rss",
+    "year": 2022,
+    "paper_title": "Iterative Residual Policy for Goal-Conditioned Dynamic Manipulation of Deformable Objects",
+    "authors": "Chi, Burchfiel, Cousineau, Feng, Song",
+    "award_type": "best_paper",
+    "tags": [
+      "Manipulation",
+      "Deformable Objects"
+    ]
+  },
+  {
+    "conference_slug": "rss",
+    "year": 2023,
+    "paper_title": "Time-Optimal Ergodic Search",
+    "authors": "Dong, Berger, Abraham",
+    "award_type": "best_paper",
+    "tags": [
+      "Search",
+      "Motion Planning"
+    ]
+  },
+  {
+    "conference_slug": "rss",
+    "year": 2024,
+    "paper_title": "Diffusion Policy for Visuomotor Control",
+    "authors": "Chi et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Diffusion",
+      "Robot Control"
+    ]
+  },
+  {
+    "conference_slug": "sigcomm",
+    "year": 2020,
+    "paper_title": "Swift: Delay is Simple and Effective for Congestion Control in the Datacenter",
+    "authors": "Gautam Kumar, Nandita Dukkipati, Keon Jang, Hassan M. G. Wassel, Xian Wu, Behnam Montazeri, et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "congestion control",
+      "datacenter networks",
+      "transport"
+    ]
+  },
+  {
+    "conference_slug": "sigcomm",
+    "year": 2021,
+    "paper_title": "Seven Years in the Life of Hypergiants' Off-Nets",
+    "authors": "Petros Gigis, Matt Calder, Lefteris Manassakis, George Nomikos, Vasileios Kotronis, Xenofontas Dimitropoulos, Ethan Katz-Bassett, Georgios Smaragdakis",
+    "award_type": "best_paper",
+    "tags": [
+      "Internet measurement",
+      "CDN",
+      "hypergiants",
+      "network topology"
+    ]
+  },
+  {
+    "conference_slug": "sigcomm",
+    "year": 2022,
+    "paper_title": "Software-defined Network Assimilation: Bridging the Last Mile Towards Centralized Network Configuration Management with NAssim",
+    "authors": "Xu et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "SDN",
+      "Network Management"
+    ]
+  },
+  {
+    "conference_slug": "sigcomm",
+    "year": 2023,
+    "paper_title": "Memory Management in ActiveRMT: Towards Runtime-Programmable Switches",
+    "authors": "Das & Snoeren",
+    "award_type": "best_paper",
+    "tags": [
+      "Switches",
+      "Programmable"
+    ]
+  },
+  {
+    "conference_slug": "sigcomm",
+    "year": 2024,
+    "paper_title": "Programmable Network Telemetry at Scale",
+    "authors": "Kim et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Telemetry",
+      "Programmable Networks"
+    ]
+  },
+  {
+    "conference_slug": "sigcomm",
+    "year": 2025,
+    "paper_title": "Mosaic: Breaking the Optics versus Copper Trade-off with a Wide-and-Slow Architecture and MicroLEDs",
+    "authors": "Benyahya, Gomez Diaz, Liu, Lyutsarev, Pantouvaki et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Networking",
+      "Optics"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2022,
+    "paper_title": "CLIPasso: Semantically-Aware Object Sketching",
+    "authors": "Vinker, Pajouheshgar, Bo, Bachmann et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Sketch Generation",
+      "CLIP"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2023,
+    "paper_title": "Globally Consistent Normal Orientation for Point Clouds by Regularizing the Winding Number Field",
+    "authors": "Xu, Dou, Wang, Xin et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Point Cloud",
+      "Normal Estimation"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2023,
+    "paper_title": "Split-Lohmann Multifocal Displays",
+    "authors": "Qin, Chen, O'Toole & Sankaranarayanan",
+    "award_type": "best_paper",
+    "tags": [
+      "Display Technology",
+      "Optics"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2024,
+    "paper_title": "From Microfacets to Participating Media: A Unified Theory of Light Transport with Stochastic Geometry",
+    "authors": "Seyb, d'Eon, Bitterli & Jarosz",
+    "award_type": "best_paper",
+    "tags": [
+      "Rendering",
+      "Light Transport"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2024,
+    "paper_title": "Walkin' Robin: Walk on Stars with Robin Boundary Conditions",
+    "authors": "Miller, Sawhney, Crane & Gkioulekas",
+    "award_type": "best_paper",
+    "tags": [
+      "Monte Carlo",
+      "PDE"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2024,
+    "paper_title": "Repulsive Shells",
+    "authors": "Sassen, Schumacher, Rumpf & Crane",
+    "award_type": "best_paper",
+    "tags": [
+      "Geometry Processing",
+      "Simulation"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2024,
+    "paper_title": "Lightning-Fast Method of Fundamental Solutions",
+    "authors": "Chen, Schäfer & Desbrun",
+    "award_type": "best_paper",
+    "tags": [
+      "Numerical Methods",
+      "PDE"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2024,
+    "paper_title": "Robust Containment Queries over Collections of Rational Parametric Curves via Generalized Winding Numbers",
+    "authors": "Spainhour, Gunderman & Weiss",
+    "award_type": "best_paper",
+    "tags": [
+      "Computational Geometry",
+      "Winding Numbers"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2025,
+    "paper_title": "CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image",
+    "authors": "Liu et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "3D Reconstruction",
+      "Scene Understanding"
+    ]
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2025,
+    "paper_title": "Vector-valued Monte Carlo Integration using Ratio Control Variates",
+    "authors": "Li et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Rendering",
+      "Monte Carlo"
+    ]
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "year": 2022,
+    "paper_title": "Rhythmic Gesticulator: Rhythm-Aware Co-Speech Gesture Synthesis with Hierarchical Neural Embeddings",
+    "authors": "Ao, Gao, Lou, Chen & Liu",
+    "award_type": "best_paper",
+    "tags": [
+      "Gesture Synthesis",
+      "Speech Animation"
+    ]
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "year": 2023,
+    "paper_title": "Meshes with Spherical Faces",
+    "authors": "Kilian, Ramos Cisneros, Müller & Pottmann",
+    "award_type": "best_paper",
+    "tags": [
+      "Geometry Processing",
+      "Mesh Design"
+    ]
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "year": 2024,
+    "paper_title": "Differentiable Owen Scrambling",
+    "authors": "Bonneel, Digne, Iehl & Ostromoukhov",
+    "award_type": "best_paper",
+    "tags": [
+      "Monte Carlo",
+      "Rendering"
+    ]
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "year": 2024,
+    "paper_title": "GroomCap: High-Fidelity Prior-Free Hair Capture",
+    "authors": "Zhou, Chai, Wang, Winberg et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Hair Capture",
+      "Reconstruction"
+    ]
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "year": 2024,
+    "paper_title": "Particle Laden Fluid on Flow Maps",
+    "authors": "Li, Chen, Lin, Liu & Zhu",
+    "award_type": "best_paper",
+    "tags": [
+      "Fluid Simulation",
+      "Particle"
+    ]
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "year": 2024,
+    "paper_title": "Quark: Real-time, High-resolution, and General View Synthesis",
+    "authors": "Flynn, Broxton, Murmann, Chai et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Novel View Synthesis",
+      "Real-time"
+    ]
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "year": 2024,
+    "paper_title": "Appearance Modeling of Iridescent Feathers with Diverse Nanostructures",
+    "authors": "Yu, Weidlich, Walter, d'Eon & Marschner",
+    "award_type": "best_paper",
+    "tags": [
+      "Appearance Modeling",
+      "Rendering"
+    ]
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "year": 2024,
+    "paper_title": "Perspective-Aligned AR Mirror with Under-Display Camera",
+    "authors": "Wang, Ma, Bayer, Zhang et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Augmented Reality",
+      "Display"
+    ]
+  },
+  {
+    "conference_slug": "sigir",
+    "year": 2020,
+    "paper_title": "Controlling Fairness and Bias in Dynamic Learning-to-Rank",
+    "authors": "Marco Morik, Ashudeep Singh, Jessica Hong, Thorsten Joachims",
+    "award_type": "best_paper",
+    "tags": [
+      "fairness",
+      "learning to rank",
+      "information retrieval"
+    ]
+  },
+  {
+    "conference_slug": "sigir",
+    "year": 2021,
+    "paper_title": "Computationally Efficient Optimization of Plackett-Luce Ranking Models for Relevance and Fairness",
+    "authors": "Harrie Oosterhuis",
+    "award_type": "best_paper",
+    "tags": [
+      "ranking",
+      "fairness",
+      "information retrieval",
+      "optimization"
+    ]
+  },
+  {
+    "conference_slug": "sigir",
+    "year": 2022,
+    "paper_title": "Reduce, Reuse, Recycle: Green Information Retrieval Research",
+    "authors": "Scells, Zhuang, Zuccon",
+    "award_type": "best_paper",
+    "tags": [
+      "IR",
+      "Sustainability"
+    ]
+  },
+  {
+    "conference_slug": "sigir",
+    "year": 2023,
+    "paper_title": "The Information Retrieval Experiment Platform",
+    "authors": "Fröbe et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "IR",
+      "Platform"
+    ]
+  },
+  {
+    "conference_slug": "sigir",
+    "year": 2024,
+    "paper_title": "Generative Retrieval via Document Identifiers",
+    "authors": "Tay et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Generative IR",
+      "Retrieval"
+    ]
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2020,
+    "paper_title": "ShapeSearch: A Flexible and Efficient System for Shape-based Exploration of Trendlines",
+    "authors": "Tarique Siddiqui, Paul Luh, Zesheng Wang, Karrie Karahalios, Aditya Parameswaran",
+    "award_type": "best_paper",
+    "tags": [
+      "data visualization",
+      "query processing",
+      "interactive systems"
+    ]
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2021,
+    "paper_title": "Bao: Making Learned Query Optimization Practical",
+    "authors": "Ryan Marcus, Parimarjan Negi, Hongzi Mao, Nesime Tatbul, Mohammad Alizadeh, Tim Kraska",
+    "award_type": "best_paper",
+    "tags": [
+      "query optimization",
+      "learned systems",
+      "databases",
+      "ML for systems"
+    ]
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2022,
+    "paper_title": "R2T: Instance-optimal Truncation for Differentially Private Query Evaluation with Foreign Keys",
+    "authors": "Machanavajjhala, Tao, Yi",
+    "award_type": "best_paper",
+    "tags": [
+      "Differential Privacy",
+      "Query"
+    ]
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2023,
+    "paper_title": "Detecting Logic Bugs of Join Optimizations in DBMS",
+    "authors": "Tang et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Testing",
+      "DBMS"
+    ]
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2023,
+    "paper_title": "DFI: The Data Flow Interface for High-Speed Networks",
+    "authors": "Thostrup, Skrzypczak, Jasny, Ziegler, Binnig",
+    "award_type": "best_paper",
+    "tags": [
+      "Networking",
+      "Database"
+    ]
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2024,
+    "paper_title": "PolarDB-MP: A Multi-Primary Cloud-Native Database via Disaggregated Shared Memory",
+    "authors": "Yang, Zhang, Chen, Li, Wang, Fang, Sun, Wang",
+    "award_type": "best_paper",
+    "tags": [
+      "Cloud",
+      "Database",
+      "Distributed"
+    ]
+  },
+  {
+    "conference_slug": "soda",
+    "year": 2023,
+    "paper_title": "Dynamic Matching with Better-than-2 Approximation in Polylogarithmic Update Time",
+    "authors": "Bhattacharya et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Matching",
+      "Dynamic Algorithms"
+    ]
+  },
+  {
+    "conference_slug": "sosp",
+    "year": 2021,
+    "paper_title": "Kangaroo: Caching Billions of Tiny Objects on Flash",
+    "authors": "Sara McAllister, Benjamin Berg, Julian Tutuncu-Macias, Juncheng Yang, Sathya Gunasekar, Jimmy Lu, Daniel Berger, Nathan Beckmann, Gregory R. Ganger",
+    "award_type": "best_paper",
+    "tags": [
+      "storage",
+      "caching",
+      "flash",
+      "systems"
+    ]
+  },
+  {
+    "conference_slug": "sosp",
+    "year": 2021,
+    "paper_title": "Using Lightweight Formal Methods to Validate a Key-Value Storage Node in Amazon S3",
+    "authors": "James Bornholt, Rajeev Joshi, Vytautas Astrauskas, Brendan Cully, Bernhard Kragl, Seth Markle, Kyle Sauri, Drew Schleit, Grant Slatton, Serdar Tasiran, Jacob Van Geffen, Andrew Warfield",
+    "award_type": "best_paper",
+    "tags": [
+      "formal verification",
+      "storage systems",
+      "S3"
+    ]
+  },
+  {
+    "conference_slug": "sosp",
+    "year": 2023,
+    "paper_title": "Enabling High-Performance and Secure Userspace NVM File Systems with the Trio Architecture",
+    "authors": "Zhou et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "File Systems",
+      "NVM"
+    ]
+  },
+  {
+    "conference_slug": "sosp",
+    "year": 2024,
+    "paper_title": "OZZ: Identifying Kernel Out-of-Order Concurrency Bugs with In-Vivo Memory Access Reordering",
+    "authors": "et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "OS",
+      "Concurrency",
+      "Bug Detection"
+    ]
+  },
+  {
+    "conference_slug": "sosp",
+    "year": 2024,
+    "paper_title": "LazyLog: A New Shared Log Abstraction for Low-Latency Applications",
+    "authors": "et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Distributed Systems",
+      "Storage"
+    ]
+  },
+  {
+    "conference_slug": "sosp",
+    "year": 2024,
+    "paper_title": "FBDetect: Catching Tiny Performance Regressions at Hyperscale through In-Production Monitoring",
+    "authors": "et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Performance",
+      "Systems"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2020,
+    "paper_title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
+    "authors": "Pietro Frigo, Emanuele Vannacci, Hasan Hassan, Victor van der Veen, Onur Mutlu, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi",
+    "award_type": "best_paper",
+    "tags": [
+      "hardware security",
+      "Rowhammer",
+      "DRAM"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2021,
+    "paper_title": "Compositional Security for Reentrant Applications",
+    "authors": "Ethan Cecchetti, Siqiu Yao, Haobin Ni, Andrew C. Myers",
+    "award_type": "best_paper",
+    "tags": [
+      "program security",
+      "reentrancy",
+      "smart contracts"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2021,
+    "paper_title": "The EMV Standard: Break, Fix, Verify",
+    "authors": "David Basin, Ralf Sasse, Jorge Toro-Pozo",
+    "award_type": "best_paper",
+    "tags": [
+      "security protocols",
+      "formal verification",
+      "EMV",
+      "payment"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2022,
+    "paper_title": "Four Attacks and a Proof for Telegram",
+    "authors": "Albrecht, Mareková, Paterson, Stepanovs",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Cryptography",
+      "Protocol"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2022,
+    "paper_title": "Assessing the Security of GitHub Copilot's Code Contributions",
+    "authors": "Pearce, Ahmad, Tan, Dolan-Gavitt, Karri",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "AI Code",
+      "Security"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2022,
+    "paper_title": "Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects",
+    "authors": "Wermke, Woehler, Klemmer, Fourné, Acar, Fahl",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Open Source",
+      "Trust"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2023,
+    "paper_title": "MEGA: Malleable Encryption Goes Awry",
+    "authors": "Backendal et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Encryption",
+      "Cryptanalysis"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2023,
+    "paper_title": "Weak Fiat-Shamir Attacks on Modern Proof Systems",
+    "authors": "Dao, Miller, Wright, Grubbs",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Zero-Knowledge",
+      "Cryptography"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2023,
+    "paper_title": "WaVe: a verifiably secure WebAssembly sandboxing runtime",
+    "authors": "Johnson, Laufer, Zhao, Narayan, Savage, Stefan, Brown",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "WebAssembly",
+      "Sandbox"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2024,
+    "paper_title": "From Chatbots to Phishbots?: Phishing Scam Generation in Commercial Large Language Models",
+    "authors": "Roy, Thota, Naragam, Nilizadeh",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "LLM",
+      "Phishing"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2024,
+    "paper_title": "WESEE: Using Malicious #VC Interrupts to Break AMD SEV-SNP",
+    "authors": "Schlüter, Sridhara, Bertschi, Shinde",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "TEE",
+      "Microarchitecture"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2024,
+    "paper_title": "BENZENE: A Practical Root Cause Analysis System with an Under-Constrained State Mutation",
+    "authors": "Park, Lee, Jung, Koo, Kim",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Fuzzing",
+      "Root Cause Analysis"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2024,
+    "paper_title": "SoK: Prudent Evaluation Practices for Fuzzing",
+    "authors": "Schloegel, Bars, Schiller, Bernhard et al.",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Fuzzing",
+      "SoK"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2025,
+    "paper_title": "Breaking the Barrier: Post-Barrier Spectre Attacks",
+    "authors": "Wikner, Razavi",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Spectre",
+      "Microarchitecture"
+    ]
+  },
+  {
+    "conference_slug": "sp",
+    "year": 2025,
+    "paper_title": "The Inadequacy of Similarity-based Privacy Metrics: Privacy Attacks against 'Truly Anonymous' Synthetic Datasets",
+    "authors": "Ganev, De Cristofaro",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Privacy",
+      "Synthetic Data"
+    ]
+  },
+  {
+    "conference_slug": "stoc",
+    "year": 2023,
+    "paper_title": "The Randomized k-Server Conjecture Is False!",
+    "authors": "Bubeck et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "k-Server",
+      "Online Algorithms"
+    ]
+  },
+  {
+    "conference_slug": "stoc",
+    "year": 2024,
+    "paper_title": "Nearly-Linear Time Algorithm for Max Flow",
+    "authors": "Chen et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Max Flow",
+      "Algorithms"
+    ]
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2023,
+    "paper_title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "authors": "Park et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Agents",
+      "Simulation"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2020,
+    "paper_title": "Symbolic Execution with SymCC: Don't Interpret, Compile!",
+    "authors": "Sebastian Poeplau, Aurelien Francillon",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "symbolic execution",
+      "program analysis",
+      "fuzzing"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2020,
+    "paper_title": "Sunrise to Sunset: Analyzing the End-to-end Life Cycle and Effectiveness of Phishing Attacks at Scale",
+    "authors": "Adam Oest, Penghui Zhang, Brad Wardman, Eric Nunes, Jakub Burgis, Ali Zand, Kurt Thomas, Adam Doupe, Gail-Joon Ahn",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "phishing",
+      "web security",
+      "measurement"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2021,
+    "paper_title": "Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks",
+    "authors": "Hany Ragab, Enrico Barberis, Herbert Bos, Cristiano Giuffrida",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "hardware security",
+      "transient execution",
+      "CPU"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2022,
+    "paper_title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge",
+    "authors": "Bars, Schloegel, Scharnowski, Schiller, Holz",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Fuzzing",
+      "Fault Injection"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2023,
+    "paper_title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models",
+    "authors": "Shan, Cryan, Wenger, Zheng, Zhao",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Diffusion",
+      "Privacy",
+      "Art"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2023,
+    "paper_title": "Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses",
+    "authors": "et al.",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Cryptography",
+      "Protocol"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2024,
+    "paper_title": "Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation",
+    "authors": "Bäumer, Brinkmann, Schwenk",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "SSH",
+      "Protocol"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2024,
+    "paper_title": "Adversarial Illusions in Multi-Modal Embeddings",
+    "authors": "Bagdasarian, Zhang, Jha, Shmatikov",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Adversarial",
+      "Multimodal"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2024,
+    "paper_title": "Don't Listen to Me: Understanding and Exploring Jailbreak Prompts of Large Language Models",
+    "authors": "Zhang, Yu",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "LLM",
+      "Jailbreak"
+    ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2024,
+    "paper_title": "DVSorder: Ballot Randomization Flaws Threaten Voter Privacy",
+    "authors": "Crimmins, Narayanan, Halderman",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Privacy",
+      "Voting"
+    ]
+  },
+  {
+    "conference_slug": "vldb",
+    "year": 2020,
+    "paper_title": "Opportunities for Optimism in Contended Main-Memory Multicore Transactions",
+    "authors": "Yihe Huang, William Qian, Eddie Kohler, Barbara Liskov, Liuba Shrira",
+    "award_type": "best_paper",
+    "tags": [
+      "transactions",
+      "concurrency control",
+      "multicore databases"
+    ]
+  },
+  {
+    "conference_slug": "vldb",
+    "year": 2021,
+    "paper_title": "Scaling Attributed Network Embedding to Massive Graphs",
+    "authors": "Renchi Yang, Jieming Shi, Xiaokui Xiao, Yin Yang, Juncheng Liu, Sourav S. Bhowmick",
+    "award_type": "best_paper",
+    "tags": [
+      "graph embedding",
+      "network embedding",
+      "scalability"
+    ]
+  },
+  {
+    "conference_slug": "vldb",
+    "year": 2022,
+    "paper_title": "SANCUS: Staleness-Aware Communication-Avoiding Full-Graph Decentralized Learning on Multiple GPUs",
+    "authors": "Chen et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Distributed Learning",
+      "GNN"
+    ]
+  },
+  {
+    "conference_slug": "vldb",
+    "year": 2023,
+    "paper_title": "DBSP: Automatic Incremental View Maintenance for Rich Query Languages",
+    "authors": "Budiu et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "View Maintenance",
+      "Streaming"
+    ]
+  },
+  {
+    "conference_slug": "vldb",
+    "year": 2024,
+    "paper_title": "BOSS - An Architecture for Database Kernel Composition",
+    "authors": "Mohr-Daurat, Sun, Pirk",
+    "award_type": "best_paper",
+    "tags": [
+      "Database",
+      "Architecture"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2020,
+    "paper_title": "Hand-Priming in Object Localization for Assistive Egocentric Vision",
+    "authors": "Lee, Shrivastava & Kacorri",
+    "award_type": "best_paper",
+    "tags": [
+      "Egocentric Vision",
+      "Assistive Technology"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2022,
+    "paper_title": "Hole-robust Wireframe Detection",
+    "authors": "Kong, Park & Goka",
+    "award_type": "best_paper",
+    "tags": [
+      "Wireframe Detection",
+      "Scene Understanding"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2022,
+    "paper_title": "CharacterGAN: Few-Shot Keypoint Character Animation and Reposing",
+    "authors": "Hinz, Fisher, Wang, Shechtman & Wermter",
+    "award_type": "best_paper",
+    "tags": [
+      "Character Animation",
+      "GAN"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2022,
+    "paper_title": "Agree to Disagree: When Deep Learning Models With Identical Architectures Produce Distinct Explanations",
+    "authors": "Watson, Hasan & Al Moubayed",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Explainability",
+      "Deep Learning"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2023,
+    "paper_title": "Lossy Image Compression with Quantized Hierarchical VAEs",
+    "authors": "Duan, Lu, Ma & Zhu",
+    "award_type": "best_paper",
+    "tags": [
+      "Image Compression",
+      "VAE"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2024,
+    "paper_title": "Conditional Velocity Score Estimation for Image Restoration",
+    "authors": "Shi & Liu",
+    "award_type": "best_paper",
+    "tags": [
+      "Image Restoration",
+      "Score Matching"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2024,
+    "paper_title": "WildlifeDatasets: An Open-Source Toolkit for Animal Re-Identification",
+    "authors": "Čermák, Picek, Adam & Papafitsoros",
+    "award_type": "best_paper",
+    "tags": [
+      "Animal Re-ID",
+      "Dataset"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2025,
+    "paper_title": "RayGauss: Volumetric Gaussian-Based Ray Casting for Photorealistic Novel View Synthesis",
+    "authors": "Blanc, Deschaud & Paljic",
+    "award_type": "best_paper",
+    "tags": [
+      "Novel View Synthesis",
+      "Gaussian Splatting"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2025,
+    "paper_title": "Optimizing Vision-Language Model for Road Crossing Intention Estimation",
+    "authors": "Uziel & Bialer",
+    "award_type": "best_paper",
+    "tags": [
+      "Vision-Language",
+      "Autonomous Driving"
+    ]
+  },
+  {
+    "conference_slug": "wacv",
+    "year": 2025,
+    "paper_title": "GeoDiffuser: Geometry-Based Image Editing with Diffusion Models",
+    "authors": "Sajnani et al.",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Image Editing",
+      "Diffusion"
+    ]
+  },
+  {
+    "conference_slug": "www",
+    "year": 2020,
+    "paper_title": "Open Intent Extraction from Natural Language Interactions",
+    "authors": "Nikhita Vedula, Nedim Lipka, Pranav Maneriker, Srinivasan Parthasarathy",
+    "award_type": "best_paper",
+    "tags": [
+      "NLP",
+      "intent detection",
+      "web"
+    ]
+  },
+  {
+    "conference_slug": "www",
+    "year": 2022,
+    "paper_title": "Rewiring what-to-watch-next Recommendations to Reduce Radicalization Pathways",
+    "authors": "Fabbri et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Recommendation",
+      "Radicalization"
+    ]
+  },
+  {
+    "conference_slug": "www",
+    "year": 2023,
+    "paper_title": "Simplistic Collection and Labeling Practices Limit the Utility of Benchmark Datasets for Twitter Bot Detection",
+    "authors": "Hays et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Bot Detection",
+      "Datasets"
+    ]
+  },
+  {
+    "conference_slug": "www",
+    "year": 2024,
+    "paper_title": "Web-Scale Knowledge Graph Completion",
+    "authors": "Galkin et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Knowledge Graph",
+      "Web"
+    ]
+  }
 ]

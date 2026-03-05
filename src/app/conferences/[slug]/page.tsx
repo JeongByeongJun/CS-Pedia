@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getConferenceDetail, getConferences } from "@/infrastructure/container";
+import { getConferenceDetail, getConferences, getKeywordTrendsByConference } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 import { getBookmarkStatus, getBookmarkCount } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
@@ -10,6 +10,7 @@ import { FieldBadge } from "@/presentation/components/conferences/field-badge";
 import { DeadlineBadge } from "@/presentation/components/conferences/deadline-badge";
 import { BookmarkButton } from "@/presentation/components/conferences/bookmark-button";
 import { AcceptanceRateChart } from "@/presentation/components/charts/acceptance-rate-chart";
+import { ConferenceKeywordChart } from "@/presentation/components/charts/conference-keyword-chart";
 import { formatDate } from "@/shared/utils/date";
 import { INSTITUTIONS } from "@/shared/constants/institutions";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
@@ -56,6 +57,8 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
   if (!result) notFound();
 
   const { conference, deadlines, bestPapers, ratings, acceptanceRates } = result;
+
+  const keywordTrends = await getKeywordTrendsByConference(conference.id).catch(() => []);
 
   const supabase = await createSupabaseServerClient();
   const {
@@ -147,7 +150,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         </div>
 
         {/* 기관 인정 현황 */}
-        <Section title="기관 인정 현황">
+        <Section title={<>기관 인정 현황<InfoTooltip text="BK21: 2018년 BK21플러스 IF 기준 (1~4점) · KIISE: 2024년 한국정보과학회 우수학술대회 기준 (최우수/우수) · KAIST·SNU·POSTECH: 각 기관 자체 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>}>
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
             {INSTITUTIONS.map((inst) => {
               const rating = ratings.find((r) => r.institution === inst);
@@ -254,6 +257,13 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                 </tbody>
               </table>
             </div>
+          </Section>
+        )}
+
+        {/* Research Trend */}
+        {keywordTrends.length > 0 && (
+          <Section title={<>Research Trend<InfoTooltip text="Semantic Scholar에서 수집한 채택 논문 제목 기반으로 CS 키워드 빈도를 분석합니다. 2년 이상 데이터가 있을 경우 연도별 추이를 확인할 수 있습니다." /></>}>
+            <ConferenceKeywordChart data={keywordTrends} />
           </Section>
         )}
 

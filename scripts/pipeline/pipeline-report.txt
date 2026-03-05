@@ -24,3 +24,20 @@ Unmatched conferences (19):
   - mobilehci
   - pods
   - ubicomp
+
+---
+
+Manual Update - 2026-03-06
+==================================================
+
+Added deadlines:
+  - mdm (1 entry)
+  - mobilehci (1 entry)
+  - pods (2 cycles: 1st, 2nd)
+  - ubicomp (conference info only, no deadline yet)
+
+Updated deadlines:
+  - sigmod: 2 cycles → 4 cycles, venue fixed (Berlin → Bengaluru, India)
+
+Remaining unmatched without deadlines (1):
+  - mfcs
