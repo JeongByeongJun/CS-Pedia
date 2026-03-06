@@ -61,8 +61,8 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
               className="font-bold tracking-tight"
               style={{ color: "#e4e4e7", fontSize: "16px", fontFamily: "var(--font-geist-mono), monospace", letterSpacing: "-0.02em" }}
             >
-              conf
-              <span style={{ color: "#818cf8" }}>korea</span>
+              CS-
+              <span style={{ color: "#818cf8" }}>Pedia</span>
             </span>
           </Link>
 
