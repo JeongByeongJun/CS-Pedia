@@ -12,7 +12,18 @@ type ViewRow = Database["public"]["Views"]["conference_with_next_deadline"]["Row
 
 interface ViewRowWithRelations extends ViewRow {
   institution_ratings: Array<{ institution: string; tier: string | null }>;
-  best_papers: Array<{ paper_title: string; year: number }>;
+  best_papers: Array<{ paper_title: string; year: number; award_type: string }>;
+}
+
+function extractLatestBestPapers(
+  rows: Array<{ paper_title: string; year: number; award_type: string }>,
+) {
+  const sorted = [...rows].sort((a, b) => b.year - a.year);
+  const latestYear = sorted[0]?.year ?? null;
+  if (!latestYear) return [];
+  return sorted
+    .filter((p) => p.year === latestYear)
+    .map((p) => ({ title: p.paper_title, year: p.year, awardType: p.award_type }));
 }
 
 export class SupabaseConferenceRepository implements ConferenceRepository {
@@ -27,7 +38,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
         `
         *,
         institution_ratings (institution, tier),
-        best_papers (paper_title, year)
+        best_papers (paper_title, year, award_type)
       `,
       )
       .order("acronym");
@@ -54,11 +65,6 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
 
         if (filters?.institution && ratings.length === 0) return null;
 
-        const bestPapers = (row.best_papers ?? []).sort(
-          (a, b) => b.year - a.year,
-        );
-        const latestBestPaper = bestPapers[0] ?? null;
-
         return {
           ...toDomainConference(row),
           nextDeadline: parseOptionalDate(row.next_deadline),
@@ -70,9 +76,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
             institution: r.institution,
             tier: r.tier,
           })),
-          latestBestPaper: latestBestPaper
-            ? { title: latestBestPaper.paper_title, year: latestBestPaper.year }
-            : null,
+          latestBestPapers: extractLatestBestPapers(row.best_papers ?? []),
         };
       })
       .filter(Boolean) as ConferenceWithRelations[];
@@ -87,7 +91,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
         `
         *,
         institution_ratings (institution, tier),
-        best_papers (paper_title, year)
+        best_papers (paper_title, year, award_type)
       `,
       )
       .eq("slug", slug)
@@ -97,16 +101,6 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
 
     const row = data as unknown as ViewRowWithRelations;
 
-    const ratings = (row.institution_ratings ?? []).map((r) => ({
-      institution: r.institution,
-      tier: r.tier,
-    }));
-
-    const bestPapers = (row.best_papers ?? []).sort(
-      (a, b) => b.year - a.year,
-    );
-    const latestBestPaper = bestPapers[0] ?? null;
-
     return {
       ...toDomainConference(row),
       nextDeadline: parseOptionalDate(row.next_deadline),
@@ -114,10 +108,11 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
       venue: row.next_venue,
       conferenceStart: parseOptionalDate(row.conference_start),
       conferenceEnd: parseOptionalDate(row.conference_end),
-      institutionRatings: ratings,
-      latestBestPaper: latestBestPaper
-        ? { title: latestBestPaper.paper_title, year: latestBestPaper.year }
-        : null,
+      institutionRatings: (row.institution_ratings ?? []).map((r) => ({
+        institution: r.institution,
+        tier: r.tier,
+      })),
+      latestBestPapers: extractLatestBestPapers(row.best_papers ?? []),
     };
   }
 

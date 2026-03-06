@@ -1,11 +1,9 @@
-import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getBestPapers } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
-import { BestPaperFilters } from "@/presentation/components/best-papers/best-paper-filters";
-import { BestPaperList } from "@/presentation/components/best-papers/best-paper-list";
+import { BestPaperClientSection } from "@/presentation/components/best-papers/best-paper-client-section";
 
 export const metadata: Metadata = {
   title: "Best Papers — CS-Pedia",
@@ -13,24 +11,11 @@ export const metadata: Metadata = {
     "CS 주요 학회 Best Paper 수상작 아카이브. 연도별, 학회별로 확인하세요.",
 };
 
-interface PageProps {
-  searchParams: Promise<{
-    year?: string;
-    conference?: string;
-  }>;
-}
-
 export const revalidate = 86400;
 
-export default async function BestPapersPage({ searchParams }: PageProps) {
-  const params = await searchParams;
-
-  const filters = {
-    year: params.year ? parseInt(params.year) : undefined,
-  };
-
+export default async function BestPapersPage() {
   const [papers, supabase] = await Promise.all([
-    getBestPapers(filters),
+    getBestPapers({}),
     createSupabaseServerClient(),
   ]);
   const {
@@ -45,15 +30,6 @@ export default async function BestPapersPage({ searchParams }: PageProps) {
       }
     : null;
 
-  const years = [...new Set(papers.map((p) => p.year))].sort((a, b) => b - a);
-  const conferences = [
-    ...new Set(papers.map((p) => p.conferenceAcronym)),
-  ].sort();
-
-  const filtered = params.conference
-    ? papers.filter((p) => p.conferenceAcronym === params.conference)
-    : papers;
-
   return (
     <div
       className="min-h-screen"
@@ -65,7 +41,6 @@ export default async function BestPapersPage({ searchParams }: PageProps) {
       <SiteHeader user={authUser} />
 
       <main className="max-w-6xl mx-auto px-6 py-8">
-        {/* Page header */}
         <div className="mb-6">
           <div
             style={{
@@ -90,33 +65,9 @@ export default async function BestPapersPage({ searchParams }: PageProps) {
           >
             수상작 아카이브
           </h1>
-          <p style={{ fontSize: "13px", color: "#a1a1aa", marginTop: "4px" }}>
-            {filtered.length}개 논문 · {conferences.length}개 학회 · {years[years.length - 1]}–{years[0]}
-          </p>
         </div>
 
-        {/* Filters */}
-        <div
-          style={{
-            background: "white",
-            borderRadius: "16px",
-            border: "1px solid rgba(0,0,0,0.06)",
-            padding: "20px",
-            marginBottom: "24px",
-          }}
-        >
-          <Suspense fallback={null}>
-            <BestPaperFilters
-              years={years}
-              conferences={conferences}
-              selectedYear={params.year}
-              selectedConference={params.conference}
-            />
-          </Suspense>
-        </div>
-
-        {/* Paper list */}
-        <BestPaperList papers={filtered} />
+        <BestPaperClientSection papers={papers} />
 
         <SiteFooter />
       </main>

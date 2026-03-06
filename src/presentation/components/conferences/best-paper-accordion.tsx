@@ -2,13 +2,22 @@
 
 import { useState } from "react";
 
+const AWARD_LABELS: Record<string, string> = {
+  best_paper: "Best Paper",
+  best_paper_runner_up: "Runner-up",
+  best_student_paper: "Best Student Paper",
+  test_of_time: "Test of Time",
+};
+
 interface BestPaperAccordionProps {
-  title: string;
-  year: number;
+  papers: Array<{ title: string; year: number; awardType: string }>;
 }
 
-export function BestPaperAccordion({ title, year }: BestPaperAccordionProps) {
+export function BestPaperAccordion({ papers }: BestPaperAccordionProps) {
   const [open, setOpen] = useState(false);
+  if (papers.length === 0) return null;
+
+  const year = papers[0].year;
 
   return (
     <div className="mt-3 pt-3 border-t border-zinc-100">
@@ -18,7 +27,7 @@ export function BestPaperAccordion({ title, year }: BestPaperAccordionProps) {
       >
         <span>🏆</span>
         <span>
-          {year} Best Paper
+          {year} Best Paper{papers.length > 1 ? ` (${papers.length})` : ""}
         </span>
         <svg
           className={`w-3 h-3 transition-transform ${open ? "rotate-180" : ""}`}
@@ -35,8 +44,17 @@ export function BestPaperAccordion({ title, year }: BestPaperAccordionProps) {
         </svg>
       </button>
       {open && (
-        <div className="mt-2 p-3 bg-indigo-50 rounded-xl text-sm">
-          <div className="font-medium text-zinc-800">{title}</div>
+        <div className="mt-2 space-y-2">
+          {papers.map((p, i) => (
+            <div key={i} className="p-3 bg-indigo-50 rounded-xl text-sm">
+              {papers.length > 1 && (
+                <div className="text-xs text-indigo-400 font-medium mb-1">
+                  {AWARD_LABELS[p.awardType] ?? p.awardType}
+                </div>
+              )}
+              <div className="font-medium text-zinc-800">{p.title}</div>
+            </div>
+          ))}
         </div>
       )}
     </div>

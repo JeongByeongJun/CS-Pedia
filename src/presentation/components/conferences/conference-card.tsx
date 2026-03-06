@@ -88,11 +88,8 @@ export function ConferenceCard({
         </div>
 
         {/* Best Paper */}
-        {conference.latestBestPaper && (
-          <BestPaperAccordion
-            title={conference.latestBestPaper.title}
-            year={conference.latestBestPaper.year}
-          />
+        {conference.latestBestPapers.length > 0 && (
+          <BestPaperAccordion papers={conference.latestBestPapers} />
         )}
       </div>
     </div>
