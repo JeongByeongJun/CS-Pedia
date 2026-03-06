@@ -94,7 +94,7 @@ async function seed() {
   }));
   const { error: bpError } = await supabase
     .from("best_papers")
-    .upsert(bestPaperRows);
+    .upsert(bestPaperRows, { onConflict: "conference_id,year,paper_title,award_type" });
   if (bpError) throw bpError;
   console.log(`  Inserted ${bestPaperRows.length} best papers`);
 
