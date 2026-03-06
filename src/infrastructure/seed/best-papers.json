@@ -2099,6 +2099,18 @@
     ]
   },
   {
+    "conference_slug": "mobicom",
+    "year": 2025,
+    "paper_title": "AquaScan: A Sonar-based Underwater Sensing System for Human Activity Monitoring",
+    "authors": "Haozheng Hou, Bowen Zheng, Sitong Cheng, Xiaoguang Zhao, Peiheng Wu, Lixing He, Yunqi Guo, Guoliang Xing, Zhenyu Yan",
+    "award_type": "best_paper",
+    "tags": [
+      "Underwater Sensing",
+      "Sonar",
+      "Human Activity Recognition"
+    ]
+  },
+  {
     "conference_slug": "naacl",
     "year": 2021,
     "paper_title": "Video-aided Unsupervised Grammar Induction",
