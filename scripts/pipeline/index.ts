@@ -1,18 +1,11 @@
 import { fetchDblpPaperCounts } from "./sources/dblp";
 import { fetchOpenAlexWorksCounts } from "./sources/openalex";
 import { fetchS2PaperTitles } from "./sources/semantic-scholar-titles";
-import {
-  buildLookupMap,
-  fetchCcfDeadlines,
-} from "./sources/ccf-deadlines";
 import { extractKeywords } from "./keywords";
 import {
   getConferenceSlugsAndIds,
   upsertAcceptanceRates,
-  getExistingDeadlineKeys,
-  insertDeadlines,
   upsertKeywordTrends,
-  deduplicateBestPapers,
 } from "./supabase-writer";
 
 async function run() {
@@ -82,29 +75,8 @@ async function run() {
     console.log("\nNo new data to upsert.");
   }
 
-  // ── Phase 2: Deadlines from ccf-deadlines ──
-  console.log("\n── Phase 2: Deadlines ──");
-
-  const lookup = buildLookupMap(conferences);
-  const ccfDeadlines = await fetchCcfDeadlines(lookup);
-
-  if (ccfDeadlines.length > 0) {
-    const existingKeys = await getExistingDeadlineKeys();
-    const newDeadlines = ccfDeadlines.filter(
-      (d) => !existingKeys.has(`${d.conference_id}-${d.year}-${d.cycle}`),
-    );
-
-    if (newDeadlines.length > 0) {
-      console.log(`Inserting ${newDeadlines.length} new deadline entries...`);
-      const count = await insertDeadlines(newDeadlines);
-      console.log(`  → Inserted ${count} entries`);
-    } else {
-      console.log("No new deadlines to insert.");
-    }
-  }
-
-  // ── Phase 3: Keyword Trends from DBLP paper titles ──
-  console.log("\n── Phase 3: Keyword Trends ──");
+  // ── Phase 2: Keyword Trends from DBLP paper titles ──
+  console.log("\n── Phase 2: Keyword Trends ──");
 
   let kwProcessed = 0;
   let kwTotal = 0;
@@ -147,11 +119,6 @@ async function run() {
   }
 
   console.log(`\nTotal keyword entries upserted: ${kwTotal}`);
-
-  // ── Phase 4: Deduplicate Best Papers ──
-  console.log("\n── Phase 4: Deduplicate Best Papers ──");
-  const deleted = await deduplicateBestPapers();
-  console.log(deleted > 0 ? `  → Removed ${deleted} duplicate entries` : "  → No duplicates found");
 
   console.log("\nPipeline complete!");
 }

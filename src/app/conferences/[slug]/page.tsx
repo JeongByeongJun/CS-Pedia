@@ -83,7 +83,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
     "@type": "Event",
     name: `${conference.acronym} - ${conference.nameEn}`,
     description: conference.description ?? `${conference.acronym} computer science conference`,
-    url: conference.websiteUrl ?? `https://confkorea.com/conferences/${slug}`,
+    url: conference.websiteUrl ?? `https://cs-pedia.io/conferences/${slug}`,
     ...(conference.conferenceStart && {
       startDate: conference.conferenceStart.toISOString().split("T")[0],
     }),

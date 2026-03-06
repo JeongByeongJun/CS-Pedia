@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "ConfKorea - 한국 CS 연구자를 위한 학회 통합 플랫폼",
-    template: "%s | ConfKorea",
+    default: "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼",
+    template: "%s | CS-Pedia",
   },
   description:
     "한국 CS 연구자를 위한 학회 일정, BK21 우수학회 목록, Best Paper 통합 플랫폼. 데드라인, 기관 인정, Acceptance Rate를 한눈에.",
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     "ICML",
     "CVPR",
   ],
-  metadataBase: new URL("https://confkorea.com"),
+  metadataBase: new URL("https://cs-pedia.io"),
   openGraph: {
-    title: "ConfKorea - 한국 CS 연구자를 위한 학회 통합 플랫폼",
+    title: "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼",
     description:
       "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에.",
-    url: "https://confkorea.com",
-    siteName: "ConfKorea",
+    url: "https://cs-pedia.io",
+    siteName: "CS-Pedia",
     locale: "ko_KR",
     type: "website",
   },
