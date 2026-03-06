@@ -1,42 +1,13 @@
 "use client";
 
-import { useRouter, useSearchParams, usePathname } from "next/navigation";
-import { useCallback, useTransition, useState, useEffect } from "react";
-
 interface ConferenceSearchProps {
-  defaultValue?: string;
+  value: string;
+  onChange: (value: string) => void;
 }
 
-export function ConferenceSearch({ defaultValue = "" }: ConferenceSearchProps) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const [isPending, startTransition] = useTransition();
-  const [value, setValue] = useState(defaultValue);
-
-  // URL이 변경되면 input 값 동기화
-  useEffect(() => {
-    setValue(defaultValue);
-  }, [defaultValue]);
-
-  const handleSearch = useCallback(
-    (term: string) => {
-      setValue(term);
-      const params = new URLSearchParams(searchParams.toString());
-      if (term) {
-        params.set("search", term);
-      } else {
-        params.delete("search");
-      }
-      startTransition(() => {
-        router.push(`${pathname}?${params.toString()}`, { scroll: false });
-      });
-    },
-    [router, pathname, searchParams, startTransition],
-  );
-
+export function ConferenceSearch({ value, onChange }: ConferenceSearchProps) {
   return (
-    <div className={`relative mb-4 ${isPending ? "opacity-70" : ""}`}>
+    <div className="relative mb-4">
       <svg
         className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400"
         fill="none"
@@ -54,7 +25,7 @@ export function ConferenceSearch({ defaultValue = "" }: ConferenceSearchProps) {
         type="text"
         placeholder="학회명 검색 (예: NeurIPS, CVPR, ACL...)"
         value={value}
-        onChange={(e) => handleSearch(e.target.value)}
+        onChange={(e) => onChange(e.target.value)}
         className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all bg-zinc-50"
       />
     </div>

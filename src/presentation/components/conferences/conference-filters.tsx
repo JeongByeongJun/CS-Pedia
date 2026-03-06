@@ -1,43 +1,27 @@
 "use client";
 
-import { useRouter, useSearchParams, usePathname } from "next/navigation";
-import { useCallback, useTransition } from "react";
 import { FIELDS } from "@/shared/constants/fields";
 import { INSTITUTIONS } from "@/shared/constants/institutions";
 
 interface ConferenceFiltersProps {
-  selectedField?: string;
-  selectedInstitution?: string;
-  selectedSort?: string;
+  selectedField: string;
+  selectedInstitution: string;
+  selectedSort: string;
+  onFieldChange: (field: string) => void;
+  onInstitutionChange: (institution: string) => void;
+  onSortChange: (sort: string) => void;
 }
 
 export function ConferenceFilters({
   selectedField,
   selectedInstitution,
-  selectedSort = "deadline",
+  selectedSort,
+  onFieldChange,
+  onInstitutionChange,
+  onSortChange,
 }: ConferenceFiltersProps) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const [isPending, startTransition] = useTransition();
-
-  const updateParams = useCallback(
-    (key: string, value: string | null) => {
-      const params = new URLSearchParams(searchParams.toString());
-      if (value && value !== "전체") {
-        params.set(key, value);
-      } else {
-        params.delete(key);
-      }
-      startTransition(() => {
-        router.push(`${pathname}?${params.toString()}`, { scroll: false });
-      });
-    },
-    [router, pathname, searchParams, startTransition],
-  );
-
   return (
-    <div className={isPending ? "opacity-70 transition-opacity" : ""}>
+    <div>
       {/* 분야 필터 */}
       <div className="mb-3">
         <div className="text-xs text-zinc-500 mb-2 font-medium">분야</div>
@@ -45,7 +29,7 @@ export function ConferenceFilters({
           {FIELDS.map((f) => (
             <button
               key={f}
-              onClick={() => updateParams("field", f === "전체" ? null : f)}
+              onClick={() => onFieldChange(f === "전체" ? "" : f)}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
                 (f === "전체" && !selectedField) || selectedField === f
                   ? "bg-indigo-600 text-white shadow-sm"
@@ -65,7 +49,7 @@ export function ConferenceFilters({
         </div>
         <div className="flex flex-wrap gap-1.5">
           <button
-            onClick={() => updateParams("institution", null)}
+            onClick={() => onInstitutionChange("")}
             className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
               !selectedInstitution
                 ? "bg-indigo-600 text-white shadow-sm"
@@ -77,7 +61,7 @@ export function ConferenceFilters({
           {INSTITUTIONS.map((inst) => (
             <button
               key={inst}
-              onClick={() => updateParams("institution", inst)}
+              onClick={() => onInstitutionChange(inst)}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
                 selectedInstitution === inst
                   ? "bg-indigo-600 text-white shadow-sm"
@@ -98,9 +82,8 @@ export function ConferenceFilters({
         ].map((tab) => (
           <button
             key={tab.id}
-            onClick={() => updateParams("sort", tab.id)}
+            onClick={() => onSortChange(tab.id)}
             className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${
-              (tab.id === "deadline" && !selectedSort) ||
               selectedSort === tab.id
                 ? "bg-white text-zinc-900 shadow-sm"
                 : "text-zinc-500 hover:text-zinc-700"
