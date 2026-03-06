@@ -11,7 +11,7 @@ import { UserStats } from "@/presentation/components/mypage/user-stats";
 import { LogoutButton } from "@/presentation/components/mypage/logout-button";
 
 export const metadata: Metadata = {
-  title: "My Page — ConfKorea",
+  title: "My Page — CS-Pedia",
   description: "프로필 설정 및 북마크한 학회 관리",
 };
 

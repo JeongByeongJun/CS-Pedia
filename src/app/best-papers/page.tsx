@@ -8,7 +8,7 @@ import { BestPaperFilters } from "@/presentation/components/best-papers/best-pap
 import { BestPaperList } from "@/presentation/components/best-papers/best-paper-list";
 
 export const metadata: Metadata = {
-  title: "Best Papers — ConfKorea",
+  title: "Best Papers — CS-Pedia",
   description:
     "CS 주요 학회 Best Paper 수상작 아카이브. 연도별, 학회별로 확인하세요.",
 };
