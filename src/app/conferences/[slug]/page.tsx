@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getConferenceDetail, getConferences, getKeywordTrendsByConference } from "@/infrastructure/container";
+import { getConferenceDetail, getKeywordTrendsByConference } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 import { getBookmarkStatus, getBookmarkCount } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
@@ -19,14 +19,7 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
-  try {
-    const conferences = await getConferences({});
-    return conferences.map((c) => ({ slug: c.slug }));
-  } catch {
-    return [];
-  }
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
@@ -42,8 +35,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {};
   }
 }
-
-export const revalidate = 86400;
 
 export default async function ConferenceDetailPage({ params }: PageProps) {
   const { slug } = await params;
