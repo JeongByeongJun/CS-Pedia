@@ -45,11 +45,23 @@ export function ConferenceClientSection({
       );
     }
 
+    const acronymRank = (c: ConferenceWithRelations) => {
+      if (!search) return 0;
+      const q = search.toLowerCase();
+      return c.acronym.toLowerCase().includes(q) ? 0 : 1;
+    };
+
     if (sort === "alphabetical") {
-      return [...result].sort((a, b) => a.acronym.localeCompare(b.acronym));
+      return [...result].sort((a, b) => {
+        const rankDiff = acronymRank(a) - acronymRank(b);
+        if (rankDiff !== 0) return rankDiff;
+        return a.acronym.localeCompare(b.acronym);
+      });
     }
 
     return [...result].sort((a, b) => {
+      const rankDiff = acronymRank(a) - acronymRank(b);
+      if (rankDiff !== 0) return rankDiff;
       const aDays = a.daysUntilDeadline ?? Infinity;
       const bDays = b.daysUntilDeadline ?? Infinity;
       if (aDays < 0 && bDays >= 0) return 1;
