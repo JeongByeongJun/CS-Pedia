@@ -133,9 +133,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   </a>
                 )}
                 <a
-                  href={`https://github.com/JeongByeongJun/ConfKorea/issues/new?title=${encodeURIComponent(`[오류 신고] ${conference.acronym}`)}&body=${encodeURIComponent(`**학회**: ${conference.acronym} (${conference.nameEn})\n**페이지**: https://cs-pedia.io/conferences/${slug}\n\n**오류 내용**:\n\n`)}&labels=data-error`}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`mailto:contact@cs-pedia.io?subject=${encodeURIComponent(`[오류 신고] ${conference.acronym}`)}&body=${encodeURIComponent(`학회: ${conference.acronym} (${conference.nameEn})\n페이지: https://cs-pedia.io/conferences/${slug}\n\n오류 내용:\n`)}`}
                   className="text-sm text-zinc-400 hover:text-zinc-600"
                 >
                   ⚠️ 정보 오류 신고
