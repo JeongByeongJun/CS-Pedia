@@ -1,14 +1,18 @@
 import { format } from "date-fns";
 import { ko } from "date-fns/locale";
 
-export function formatDate(date: Date | string, pattern = "yyyy-MM-dd"): string {
+// 날짜를 UTC 기준으로 포맷 (deadlines.json에 AoE = UTC로 저장되어 있음)
+function toUTCDate(date: Date | string): Date {
   const d = typeof date === "string" ? new Date(date) : date;
-  return format(d, pattern, { locale: ko });
+  return new Date(d.getTime() + d.getTimezoneOffset() * 60 * 1000);
+}
+
+export function formatDate(date: Date | string, pattern = "yyyy-MM-dd"): string {
+  return format(toUTCDate(date), pattern, { locale: ko });
 }
 
 export function formatDateKr(date: Date | string): string {
-  const d = typeof date === "string" ? new Date(date) : date;
-  return format(d, "yyyy년 M월 d일", { locale: ko });
+  return format(toUTCDate(date), "yyyy년 M월 d일", { locale: ko });
 }
 
 export function parseOptionalDate(value: string | null): Date | null {
