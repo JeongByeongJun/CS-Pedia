@@ -18,7 +18,7 @@
 - **AACL 2026**: 미발표 (장소 선정 중)
 
 ### 🏆 Best Paper 발표
-- **NDSS 2026** — Distinguished Paper Award 10편 발표 (best-papers.json 추가 필요):
+- **NDSS 2026** — Distinguished Paper Award 10편 발표 ✅ (best-papers.json 추가 완료):
   1. "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel" — Rui Xiao, Sibo Feng, Soundarya Ramesh, Jun Han, Jinsong Han
   2. "One Email, Many Faces: A Deep Dive into Identity Confusion in Email Aliases" — Mengying Wu, Geng Hong, Jiatao Chen, Baojun Liu, Mingxuan Liu, Min Yang
   3. "LOKI: Proactively Discovering Online Scam Websites by Mining Toxic Search Queries" — Pujan Paudel, Gianluca Stringhini
@@ -32,4 +32,4 @@
 - **WSDM 2026**: 미발표
 
 ---
-변경 적용 완료: deadlines.json 수정 → `pnpm seed` 실행 예정
+✅ 모든 변경 적용 완료: deadlines.json + best-papers.json 수정 → `pnpm seed` 실행 → commit & push 완료

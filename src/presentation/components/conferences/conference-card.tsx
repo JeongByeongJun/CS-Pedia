@@ -21,6 +21,11 @@ export function ConferenceCard({
 }: ConferenceCardProps) {
   const ddays = conference.daysUntilDeadline;
 
+  const editionYear =
+    conference.conferenceStart?.getFullYear() ??
+    conference.nextDeadline?.getFullYear() ??
+    null;
+
   let borderClass = "border-zinc-200/80";
   if (ddays !== null && ddays >= 0 && ddays <= 14) {
     borderClass = "border-rose-200 shadow-sm shadow-rose-100";
@@ -44,6 +49,11 @@ export function ConferenceCard({
                 {conference.acronym}
               </Link>
               <FieldBadge field={conference.field} />
+              {editionYear && (
+                <span className="text-xs px-1.5 py-0.5 bg-zinc-100 text-zinc-400 rounded font-medium">
+                  {editionYear}
+                </span>
+              )}
               {!(ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date()) && (
                 <DeadlineBadge ddays={ddays} />
               )}
