@@ -77,7 +77,7 @@ export function ProfileForm({ user }: ProfileFormProps) {
       <div>
         <label style={{ ...labelStyle, display: "flex", alignItems: "center" }}>
           소속 기관
-          <InfoTooltip text="사용자 통계 분석에만 활용되며, 외부에 공개되지 않습니다." />
+          <InfoTooltip text="개인화 추천 및 통계 분석에 활용되며, 외부에 공개되지 않습니다." />
         </label>
         <input
           name="institution"
@@ -92,7 +92,7 @@ export function ProfileForm({ user }: ProfileFormProps) {
       <div>
         <label style={{ ...labelStyle, display: "flex", alignItems: "center" }}>
           관심 분야
-          <InfoTooltip text="사용자 통계 분석에만 활용되며, 외부에 공개되지 않습니다." />
+          <InfoTooltip text="개인화 추천 및 통계 분석에 활용되며, 외부에 공개되지 않습니다." />
         </label>
         <select
           name="researchField"

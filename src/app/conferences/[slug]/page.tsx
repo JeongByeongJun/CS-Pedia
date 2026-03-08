@@ -149,7 +149,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         </div>
 
         {/* 기관 인정 현황 */}
-        <Section title={<>기관 인정 현황<InfoTooltip text="BK21: 2018년 BK21플러스 IF 기준 (1~4점) · KIISE: 2024년 한국정보과학회 우수학술대회 기준 (최우수/우수) · KAIST·SNU·POSTECH: 각 기관 자체 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>}>
+        <Section title={<>기관 인정 현황<InfoTooltip text="BK21: 2018년 BK21플러스 점수 기준 (1~4점) · KIISE: 2024년 한국정보과학회 기준 (최우수/우수) · POSTECH: 2026년 기준 (최우수/우수) · KAIST: 2022년 인정 기준 · SNU: 2024년 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>}>
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
             {INSTITUTIONS.map((inst) => {
               const rating = ratings.find((r) => r.institution === inst);
