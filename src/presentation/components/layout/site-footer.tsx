@@ -7,6 +7,7 @@ export function SiteFooter() {
           데이터 출처: DBLP (CC0), OpenAlex (CC0), aideadlin.es (MIT),
           한국연구재단, 한국정보과학회
         </p>
+        <p>제출 전 데드라인·학회 일정은 공식 웹사이트에서 반드시 확인하세요.</p>
         <p>
           <a
             href="mailto:contact@cs-pedia.io"

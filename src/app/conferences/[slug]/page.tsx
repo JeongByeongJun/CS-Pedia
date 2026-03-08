@@ -207,6 +207,9 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                 </div>
               ))}
             </div>
+            <p className="mt-3 text-xs text-zinc-400">
+              데드라인은 변경될 수 있습니다. 제출 전 공식 웹사이트에서 최종 일정을 확인하세요.
+            </p>
           </Section>
         )}
 
