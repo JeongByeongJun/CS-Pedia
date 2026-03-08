@@ -21,6 +21,9 @@ export function ConferenceClientSection({
   const [field, setField] = useState("");
   const [institution, setInstitution] = useState("");
   const [sort, setSort] = useState("deadline");
+  const [showFilters, setShowFilters] = useState(false);
+
+  const activeFilterCount = [field, institution].filter(Boolean).length;
 
   const filtered = useMemo(() => {
     let result = conferences;
@@ -51,11 +54,24 @@ export function ConferenceClientSection({
       return c.acronym.toLowerCase().includes(q) ? 0 : 1;
     };
 
+    const getBK21Score = (c: ConferenceWithRelations) => {
+      const r = c.institutionRatings.find((r) => r.institution === "BK21");
+      return r ? parseInt(r.tier ?? "0") || 0 : 0;
+    };
+
     if (sort === "alphabetical") {
       return [...result].sort((a, b) => {
         const rankDiff = acronymRank(a) - acronymRank(b);
         if (rankDiff !== 0) return rankDiff;
         return a.acronym.localeCompare(b.acronym);
+      });
+    }
+
+    if (sort === "bk21") {
+      return [...result].sort((a, b) => {
+        const rankDiff = acronymRank(a) - acronymRank(b);
+        if (rankDiff !== 0) return rankDiff;
+        return getBK21Score(b) - getBK21Score(a);
       });
     }
 
@@ -74,15 +90,33 @@ export function ConferenceClientSection({
   return (
     <>
       <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-5 mb-5">
-        <ConferenceSearch value={search} onChange={setSearch} />
-        <ConferenceFilters
-          selectedField={field}
-          selectedInstitution={institution}
-          selectedSort={sort}
-          onFieldChange={setField}
-          onInstitutionChange={setInstitution}
-          onSortChange={setSort}
-        />
+        <div className="flex items-center gap-2 mb-3">
+          <div className="flex-1">
+            <ConferenceSearch value={search} onChange={setSearch} />
+          </div>
+          <button
+            className="md:hidden flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium bg-zinc-100 text-zinc-600 hover:bg-zinc-200 transition-all shrink-0"
+            onClick={() => setShowFilters((v) => !v)}
+          >
+            필터
+            {activeFilterCount > 0 && (
+              <span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-indigo-600 text-white text-[10px]">
+                {activeFilterCount}
+              </span>
+            )}
+            <span className="text-xs">{showFilters ? "▲" : "▼"}</span>
+          </button>
+        </div>
+        <div className={`${showFilters ? "block" : "hidden"} md:block`}>
+          <ConferenceFilters
+            selectedField={field}
+            selectedInstitution={institution}
+            selectedSort={sort}
+            onFieldChange={setField}
+            onInstitutionChange={setInstitution}
+            onSortChange={setSort}
+          />
+        </div>
       </div>
       <ConferenceList
         conferences={filtered}

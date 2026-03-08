@@ -121,16 +121,26 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                 <DeadlineBadge ddays={conference.daysUntilDeadline} />
               </div>
               <p className="text-zinc-500 mb-3">{conference.nameEn}</p>
-              {conference.websiteUrl && (
+              <div className="flex items-center gap-4">
+                {conference.websiteUrl && (
+                  <a
+                    href={conference.websiteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-indigo-600 hover:underline"
+                  >
+                    🌐 공식 웹사이트
+                  </a>
+                )}
                 <a
-                  href={conference.websiteUrl}
+                  href={`https://github.com/JeongByeongJun/ConfKorea/issues/new?title=${encodeURIComponent(`[오류 신고] ${conference.acronym}`)}&body=${encodeURIComponent(`**학회**: ${conference.acronym} (${conference.nameEn})\n**페이지**: https://cs-pedia.io/conferences/${slug}\n\n**오류 내용**:\n\n`)}&labels=data-error`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-indigo-600 hover:underline"
+                  className="text-sm text-zinc-400 hover:text-zinc-600"
                 >
-                  🌐 공식 웹사이트
+                  ⚠️ 정보 오류 신고
                 </a>
-              )}
+              </div>
             </div>
             <BookmarkButton
               conferenceId={conference.id}
@@ -203,6 +213,11 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         )}
 
         {/* Acceptance Rate */}
+        {acceptanceRates.length === 0 && (
+          <Section title={<>Acceptance Rate<InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." /></>}>
+            <p className="text-sm text-zinc-400">채택률 데이터가 없습니다.</p>
+          </Section>
+        )}
         {acceptanceRates.length > 0 && (
           <Section title={<>Acceptance Rate<InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." /></>}>
             <AcceptanceRateChart data={acceptanceRates} />

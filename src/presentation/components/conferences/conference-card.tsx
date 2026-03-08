@@ -54,6 +54,11 @@ export function ConferenceCard({
                   {editionYear}
                 </span>
               )}
+              {conference.nextDeadline === null && (
+                <span className="text-xs px-1.5 py-0.5 bg-zinc-100 text-zinc-400 rounded font-medium border border-zinc-200">
+                  CFP 미발표
+                </span>
+              )}
               {!(ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date()) && (
                 <DeadlineBadge ddays={ddays} />
               )}

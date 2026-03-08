@@ -79,6 +79,7 @@ export function ConferenceFilters({
         {[
           { id: "deadline", label: "⏰ 데드라인순" },
           { id: "alphabetical", label: "🔤 이름순" },
+          { id: "bk21", label: "⭐ BK21순" },
         ].map((tab) => (
           <button
             key={tab.id}
