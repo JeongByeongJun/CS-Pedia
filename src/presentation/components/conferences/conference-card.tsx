@@ -50,7 +50,7 @@ export function ConferenceCard({
               </Link>
               <FieldBadge field={conference.field} />
               {editionYear && (
-                <span className="text-xs px-1.5 py-0.5 bg-zinc-100 text-zinc-400 rounded font-medium">
+                <span className="text-xs px-1.5 py-0.5 bg-indigo-50 text-indigo-400 rounded font-medium">
                   {editionYear}
                 </span>
               )}
