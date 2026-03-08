@@ -200,7 +200,7 @@
       "Raha Moraffah",
       "Huan Liu"
     ],
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": []
   },
   {
@@ -211,7 +211,7 @@
       "Bradley Hauer",
       "Grzegorz Kondrak"
     ],
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": []
   },
   {
@@ -224,7 +224,7 @@
       "Mark Johnson",
       "Mark Steedman"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -237,7 +237,7 @@
       "Peter Morales",
       "Mykel J. Kochenderfer"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -250,7 +250,7 @@
       "Aukkawut Ammartayakun",
       "Carlo Pinciroli"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -264,7 +264,7 @@
       "Katja Hofmann",
       "Shimon Whiteson"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -279,7 +279,7 @@
       "Hu Fu",
       "Pinyan Lu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -298,7 +298,7 @@
       "Anna Koop",
       "Doina Precup"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -455,7 +455,7 @@
     "authors": [
       "Yumou Wei"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "machine-learning"
     ]
@@ -469,7 +469,7 @@
       "Jinhui Xu",
       "Di Wang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "machine-learning"
     ]
@@ -481,7 +481,7 @@
     "authors": [
       "Shin'ya Yamaguchi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -495,7 +495,7 @@
       "Mauro Conti",
       "Alessio Merlo"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -509,7 +509,7 @@
       "Fengjun Li",
       "Bo Luo"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -520,7 +520,7 @@
       "Pallavi Sivakumaran",
       "Jorge Blasco"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -532,7 +532,7 @@
       "Lelin Pan",
       "Mohammad Abdullah Al Faruque"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -544,7 +544,7 @@
       "Yan Zhang",
       "Chenglin Miao"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -561,7 +561,7 @@
       "Jiming Chen",
       "Jianying Zhou"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -574,7 +574,7 @@
       "Michael Franz",
       "Alexios Voulimeneas"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -586,7 +586,7 @@
       "Andreas Mayer",
       "Louis Jannett"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -598,7 +598,7 @@
       "Raunak Kumar",
       "Mark Schmidt"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "machine-learning",
       "statistics"
@@ -614,7 +614,7 @@
       "Theodoros Damoulas",
       "François-Xavier Briol"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "machine-learning",
       "statistics"
@@ -628,7 +628,7 @@
       "Sohail Bahmani",
       "Justin Romberg"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "machine-learning",
       "statistics"
@@ -642,7 +642,7 @@
       "Malte Mues",
       "Falk Howar"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "smt",
       "solver",
@@ -663,7 +663,7 @@
       "Hanzhi Jiang",
       "Qing Wang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "issue tracking",
       "information extraction",
@@ -681,7 +681,7 @@
       "Michael Fu",
       "Patanamon Thongtanunam"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "explainability",
       "defect prediction",
@@ -697,7 +697,7 @@
       "Hui Xu",
       "Yangfan Zhou"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "fuzzing",
       "rust",
@@ -717,7 +717,7 @@
       "Xiwei Xu",
       "Liming Zhu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "bug triage",
       "knowledge graph",
@@ -733,7 +733,7 @@
       "Shuo Jin",
       "Xiaoyuan Xie"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "testing",
       "question answering",
@@ -749,7 +749,7 @@
       "Pengbo Yin",
       "Songqiang Chen"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "deep learning testing",
       "test diversity",
@@ -766,7 +766,7 @@
       "Baishakhi Ray",
       "Rahul Krishna"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "microservices",
       "migration",
@@ -783,7 +783,7 @@
       "Milos Gligoric",
       "August Shi"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "compiler testing",
       "java",
@@ -798,7 +798,7 @@
       "Aryaz Eghbali",
       "Michael Pradel"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "code similarity",
       "evaluation",
@@ -814,7 +814,7 @@
       "Georgian-Vlad Saioc",
       "Anders Møller"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "go",
       "concurrency",
@@ -831,7 +831,7 @@
       "Gregory J. Duck",
       "Abhik Roychoudhury"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "fuzzing",
       "memory errors",
@@ -847,7 +847,7 @@
       "Soomin Kim",
       "Sang Kil Cha"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "fuzzing",
       "benchmarks",
@@ -867,7 +867,7 @@
       "Bihuan Chen",
       "Yang Liu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "semantic versioning",
       "release management",
@@ -884,7 +884,7 @@
       "Arnaud Blouin",
       "Jean-Marc Jézéquel"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "ast",
       "software history",
@@ -902,7 +902,7 @@
       "Junjie Yang",
       "Lingming Zhang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "mutation testing",
       "fault injection",
@@ -921,7 +921,7 @@
       "Zhenyu Chen",
       "Baowen Xu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "fuzzing",
       "question answering",
@@ -941,7 +941,7 @@
       "Liguo Huang",
       "Bin Luo"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "code completion",
       "domain adaptation",
@@ -960,7 +960,7 @@
       "Cen Zhang",
       "Xiaohong Li"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "non-termination",
       "infinite loops",
@@ -976,7 +976,7 @@
       "Chaozheng Wang",
       "Wenxuan Wang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type inference",
       "python",
@@ -992,7 +992,7 @@
       "Dongjie He",
       "Jingling Xue"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "taint analysis",
       "dataflow",
@@ -1007,7 +1007,7 @@
       "Ali Ghanbari",
       "Hridesh Rajan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "deep learning",
       "fault localization",
@@ -1026,7 +1026,7 @@
       "Hongyu Zhang",
       "Michael R. Lyu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "llm",
       "in-context learning",
@@ -1043,7 +1043,7 @@
       "Yuhan Wu",
       "Wei Hu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "code generation",
       "llm",
@@ -1061,7 +1061,7 @@
       "Meng Yan",
       "Sheng Zhang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "coincidental correctness",
       "fault localization",
@@ -1077,7 +1077,7 @@
       "Arie van Deursen",
       "Georgios Gousios"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "agile",
       "sprint planning",
@@ -1096,7 +1096,7 @@
       "Donghao Yang",
       "Xin Tan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "design rationale",
       "issue tracking",
@@ -1114,7 +1114,7 @@
       "Qi Xin",
       "Chenliang Xing"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "fault localization",
       "exceptions",
@@ -1133,7 +1133,7 @@
       "Ruomai Ren",
       "Guangdong Bai"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "chatgpt",
       "app security",
@@ -1152,7 +1152,7 @@
       "Geguang Pu",
       "Zhendong Su"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "android",
       "property-based testing",
@@ -1171,7 +1171,7 @@
       "Qinsheng Hou",
       "Hai Jin"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "android",
       "library detection",
@@ -1190,7 +1190,7 @@
       "Taolue Chen",
       "Xiaoxing Ma"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "llm",
       "model checking",
@@ -1207,7 +1207,7 @@
       "Ahmed Bhayat",
       "Lucas C. Cordeiro"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "llm",
       "model checking",
@@ -1226,7 +1226,7 @@
       "Yuan Zhou",
       "Yinxing Xue"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "autonomous driving",
       "scenario generation",
@@ -1250,7 +1250,7 @@
       "Deqiang Han",
       "Ting Liu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "privacy",
       "mini-programs",
@@ -1271,7 +1271,7 @@
       "Hongjun Choi",
       "Xiangyu Zhang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "autonomous driving",
       "root cause analysis",
@@ -1287,7 +1287,7 @@
       "Abdelrahman Baz",
       "August Shi"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "test optimization",
       "fixtures",
@@ -1305,7 +1305,7 @@
       "Xuanhua Shi",
       "Hai Jin"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "llm",
       "test generation",
@@ -1324,7 +1324,7 @@
       "Yue Liu",
       "David Lo"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "ai assistants",
       "productivity",
@@ -1344,7 +1344,7 @@
       "Shengchao Qin",
       "Mengfei Yang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "requirements",
       "formal specification",
@@ -1363,7 +1363,7 @@
       "Ahmed E. Hassan",
       "Ali Mesbah"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "patch repair",
       "llm",
@@ -1382,7 +1382,7 @@
       "Jianyi Zhou",
       "Junjie Chen"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "unit testing",
       "llm",
@@ -1400,7 +1400,7 @@
       "Yuanyi Li",
       "Yu Jiang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "fuzzing",
       "wifi",
@@ -1416,7 +1416,7 @@
       "Timos Antonopoulos",
       "Ruzica Piskac"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "maxsat",
       "proof logging",
@@ -1433,7 +1433,7 @@
       "Yanzhen Zou",
       "Bing Xie"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "llm",
       "header files",
@@ -1449,7 +1449,7 @@
       "Saikat Dutta",
       "Owolabi Legunsen"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "runtime verification",
       "monitoring",
@@ -1465,7 +1465,7 @@
       "Shan Huang",
       "Ting Su"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "mlir",
       "compiler",
@@ -1482,7 +1482,7 @@
       "August Shi",
       "Peng Liu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "flaky tests",
       "test repair",
@@ -1497,7 +1497,7 @@
       "Doha Nam",
       "Jongmoon Baik"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "vulnerability detection",
       "security",
@@ -1519,7 +1519,7 @@
       "Hailong Yang",
       "Depei Qian"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "log analysis",
       "anomaly detection",
@@ -1538,7 +1538,7 @@
       "Chunying Zhou",
       "Xiaoyuan Xie"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "vulnerability patches",
       "llm",
@@ -1557,7 +1557,7 @@
       "Collin McMillan",
       "Yu Huang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "code summarization",
       "eye tracking",
@@ -1574,7 +1574,7 @@
       "Earl T. Barr",
       "Shane McIntosh"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "continuous integration",
       "empirical study",
@@ -1591,7 +1591,7 @@
       "Xiaofei Xie",
       "Chunyang Chen"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "multimodal llm",
       "bug repair",
@@ -1607,7 +1607,7 @@
       "David Markvica",
       "Stefan Brunthaler"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "fuzzing",
       "evaluation",
@@ -1622,7 +1622,7 @@
       "Islem Bouzenia",
       "Michael Pradel"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "software agents",
       "llm",
@@ -1638,7 +1638,7 @@
       "Wonho Shin",
       "Sukyoung Ryu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "webassembly",
       "test generation",
@@ -1659,7 +1659,7 @@
       "Kwok-Yan Lam",
       "Yang Xiang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "iot",
       "fuzzing",
@@ -1681,7 +1681,7 @@
       "Rui Ren",
       "Michael Lyu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "rag",
       "cloud operations",
@@ -1696,7 +1696,7 @@
       "Alice Pellet-Mary",
       "Damien Stehlé"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -1707,7 +1707,7 @@
       "Hart Montgomery",
       "Mark Zhandry"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -1719,7 +1719,7 @@
       "Alexandre Wallet",
       "Yang Yu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -1733,7 +1733,7 @@
       "Xiaoyang Dong",
       "Siwei Sun"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -1988,7 +1988,7 @@
       "Christina Zhang",
       "Katharina Reinecke"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "accessibility",
       "hci"
@@ -2005,7 +2005,7 @@
       "Jiachen Li",
       "Brian D Jones"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "accessibility",
       "hci"
@@ -2022,7 +2022,7 @@
       "Kazunori Minatani",
       "Koichi Kise"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "accessibility",
       "hci"
@@ -2038,7 +2038,7 @@
       "Peng Huang",
       "Jason Nieh"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "performance debugging",
       "causal tracing",
@@ -2055,7 +2055,7 @@
       "Neeraja J. Yadwadkar",
       "Christos Kozyrakis"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "inference serving",
       "mlops",
@@ -2077,7 +2077,7 @@
       "Chao Li",
       "Tao Guan"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "distributed systems",
       "cluster scheduling",
@@ -2093,7 +2093,7 @@
       "Jim Newsome",
       "Ryan Wails"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "network simulation",
       "linux",
@@ -2108,7 +2108,7 @@
       "Charlie Curtsinger",
       "Daniel W. Barowy"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "build systems",
       "incremental builds",
@@ -2125,7 +2125,7 @@
       "Chris Greenwood",
       "Phil Piwonka"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "serverless",
       "containers",
@@ -2142,7 +2142,7 @@
       "Pierre-Louis Aublin",
       "Kenta Ishiguro"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "system calls",
       "binary rewriting",
@@ -2160,7 +2160,7 @@
       "Shangguang Wang",
       "Mengwei Xu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "rust",
       "linux",
@@ -2177,7 +2177,7 @@
       "Saurabh Kadekodi",
       "Theodore Tso"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "file systems",
       "journaling",
@@ -2210,7 +2210,7 @@
       "Yongqiang Xiong",
       "Lidong Zhou"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "cloud infrastructure",
       "gpu",
@@ -2228,7 +2228,7 @@
       "Shai Aviram Bergman",
       "Mark Silberstein"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "virtualization",
       "hypervisor",
@@ -2249,7 +2249,7 @@
       "Lukas Lazarek",
       "Nikos Vasilakis"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "shell",
       "benchmarks",
@@ -2298,7 +2298,7 @@
       "Cesar Ruiz",
       "Qiang Huang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -2316,7 +2316,7 @@
       "Walter Teitelbaum",
       "Ken Goldberg"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -2327,7 +2327,7 @@
       "Malte Mosbach",
       "Sven Behnke"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -2589,7 +2589,7 @@
       "Julian Shun",
       "Saman Amarasinghe"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -2610,7 +2610,7 @@
       "Yuandong Tian",
       "Hugh Leather"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -2623,7 +2623,7 @@
       "Srinivas Narayana",
       "Santosh Nagarakatte"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -2634,7 +2634,7 @@
       "Ajay Brahmakshatriya",
       "Saman Amarasinghe"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -2647,7 +2647,7 @@
       "Tobias Grosser",
       "Albert Cohen"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3152,7 +3152,7 @@
       "Chuxu Zhang",
       "Yanfang Ye"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3188,7 +3188,7 @@
       "Azza Abouzied",
       "Paolo Papotti"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3232,7 +3232,7 @@
       "Chen-Yu Wei",
       "Haipeng Luo"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3245,7 +3245,7 @@
       "Ohad Shamir",
       "Nathan Srebro"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3258,7 +3258,7 @@
       "Aaron Sidford",
       "Gregory Valiant"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3272,7 +3272,7 @@
       "Raghu Meka",
       "Konstantinos Stavropoulos"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3283,7 +3283,7 @@
       "Yair Carmon",
       "Oliver Hinder"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3297,7 +3297,7 @@
       "Anay Mehrotra",
       "Manolis Zampetakis"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3313,7 +3313,7 @@
       "David Hausheer",
       "Dominik Roos"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3328,7 +3328,7 @@
       "Thomas C. Schmidt",
       "Matthias Wählisch"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3340,7 +3340,7 @@
       "Tommaso Caiazzi",
       "Marco Chiesa"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3353,7 +3353,7 @@
       "Nina Narodytska",
       "Sangeetha Abdu Jyothi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3367,7 +3367,7 @@
       "Adina Williams",
       "Dieuwke Hupkes"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "nlp"
     ]
@@ -3381,7 +3381,7 @@
       "Brian Dillon",
       "Tal Linzen"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3394,7 +3394,7 @@
       "Suzan Verberne",
       "Marco Spruit"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "nlp"
     ]
@@ -3408,7 +3408,7 @@
       "Jie Xu",
       "Pulkit Agrawal"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3420,7 +3420,7 @@
       "Edward Hu",
       "Dinesh Jayaraman"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3435,7 +3435,7 @@
       "Leslie Pack Kaelbling",
       "Phillip Isola"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3453,7 +3453,7 @@
       "Aniruddha Kembhavi",
       "Luca Weihs"
     ],
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": []
   },
   {
@@ -3461,7 +3461,7 @@
     "year": 2021,
     "paper_title": "Efficient Key Recovery for All HFE Signature Variants",
     "authors": "Tao, Petzoldt & Ding",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Post-Quantum Cryptography",
       "Signature Schemes"
@@ -3472,7 +3472,7 @@
     "year": 2021,
     "paper_title": "On the Possibility of Basing Cryptography on EXP ≠ BPP",
     "authors": "Liu & Pass",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Foundations",
       "Complexity Theory"
@@ -3483,7 +3483,7 @@
     "year": 2022,
     "paper_title": "Batch Arguments for NP and More from Standard Assumptions",
     "authors": "Waters & Wu",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Succinct Arguments",
       "Standard Assumptions"
@@ -3494,7 +3494,7 @@
     "year": 2022,
     "paper_title": "Breaking Rainbow Takes a Weekend on a Laptop",
     "authors": "Beullens",
-    "award_type": "Best Paper Award (Early Career)",
+    "award_type": "best_paper_early_career",
     "tags": [
       "Post-Quantum Cryptography",
       "Cryptanalysis"
@@ -3505,7 +3505,7 @@
     "year": 2022,
     "paper_title": "Some Easy Instances of Ideal-SVP and Implications on the Partial Vandermonde Knapsack Problem",
     "authors": "Boudgoust, Gachon & Pellet-Mary",
-    "award_type": "Best Paper Award (Early Career)",
+    "award_type": "best_paper_early_career",
     "tags": [
       "Lattice Cryptography",
       "SVP"
@@ -3516,7 +3516,7 @@
     "year": 2023,
     "paper_title": "Fast Practical Lattice Reduction through Iterated Compression",
     "authors": "Ryan & Heninger",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Lattice Cryptography",
       "LLL Algorithm"
@@ -3527,7 +3527,7 @@
     "year": 2023,
     "paper_title": "Fully Adaptive Schnorr Threshold Signatures",
     "authors": "Crites, Komlo & Maller",
-    "award_type": "Best Paper Award (Early Career)",
+    "award_type": "best_paper_early_career",
     "tags": [
       "Threshold Signatures",
       "Schnorr"
@@ -3538,7 +3538,7 @@
     "year": 2024,
     "paper_title": "Lossy Cryptography from Code-Based Assumptions",
     "authors": "Dao & Jain",
-    "award_type": "Best Paper Award (Early Career)",
+    "award_type": "best_paper_early_career",
     "tags": [
       "Code-Based Cryptography",
       "Post-Quantum"
@@ -3549,7 +3549,7 @@
     "year": 2024,
     "paper_title": "STIR: Reed-Solomon Proximity Testing with Fewer Queries",
     "authors": "Arnon, Chiesa, Fenzi & Yogev",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Zero-Knowledge Proofs",
       "Reed-Solomon"
@@ -3560,7 +3560,7 @@
     "year": 2024,
     "paper_title": "Space-Efficient and Noise-Robust Quantum Factoring",
     "authors": "Ragavan & Vaikuntanathan",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Quantum Cryptography",
       "Factoring"
@@ -3571,7 +3571,7 @@
     "year": 2025,
     "paper_title": "On One-Shot Signatures, Quantum vs Classical Binding, and Obfuscating Permutations",
     "authors": "Shmueli & Zhandry",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Quantum Signatures",
       "Obfuscation"
@@ -3587,7 +3587,7 @@
       "Seyram Avle",
       "Will Sutherland"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3600,7 +3600,7 @@
       "Weilong Wang",
       "Ming Yin"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3613,7 +3613,7 @@
       "Morgan Vigil-Hayes",
       "Ellen Zegura"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3626,7 +3626,7 @@
       "Howard Ziyu Han",
       "Motahhare Eslami"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -3637,7 +3637,7 @@
       "Sebastian Hunt",
       "David Sands"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3654,7 +3654,7 @@
       "Kenji Maillard",
       "Bas Spitters"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3665,7 +3665,7 @@
       "Leslie Lamport",
       "Fred B. Schneider"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3677,7 +3677,7 @@
       "Maximilian Algehed",
       "Owen Arden"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3690,7 +3690,7 @@
       "Adrien Koutsos",
       "Solène Moreau"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3701,7 +3701,7 @@
       "Vincent Cheval",
       "Itsaka Rakotonirina"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3714,7 +3714,7 @@
       "Jana Hofmann",
       "Julia Tillman"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3727,7 +3727,7 @@
       "Rohit Chadha",
       "Mahesh Viswanathan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3739,7 +3739,7 @@
       "Annabelle McIver",
       "Parastoo Sadeghi"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -3987,7 +3987,7 @@
       "Borivoje Nikolic",
       "Yakun Sophia Shao"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4002,7 +4002,7 @@
       "Sudipto Kundu",
       "Sung Kyu Lim"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4016,7 +4016,7 @@
       "Yang-Gon Kim",
       "Lee-Sup Kim"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4030,7 +4030,7 @@
       "Rongjian Liang",
       "Haoxing Ren"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4045,7 +4045,7 @@
       "Minnan Luo",
       "Qinghua Zheng"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4060,7 +4060,7 @@
       "Wenkai Zhang",
       "Zhisong Li"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4072,7 +4072,7 @@
       "Yong Wang",
       "Guoliang Li"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4086,7 +4086,7 @@
       "Yuxiang Zeng",
       "Lei Chen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4102,7 +4102,7 @@
       "Francois Guimbretiere",
       "Cindy Hsin-Liu Kao"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4117,7 +4117,7 @@
       "Jochen Feitsch",
       "Hugo Plácido da Silva"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4131,7 +4131,7 @@
       "Elisabeth Schwartz",
       "Frederic Beliacqua"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4144,7 +4144,7 @@
       "Airi Lampinen",
       "Kristina Höök"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4155,7 +4155,7 @@
       "Anh-Ton Tran",
       "Carl DiSalvo"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4167,7 +4167,7 @@
       "Nassim Parvin",
       "Noura Howell"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4179,7 +4179,7 @@
       "Jacky Bourgeois",
       "Gerd Kortuem"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4194,7 +4194,7 @@
       "Audrey Desjardins",
       "Daniela Rosner"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4210,7 +4210,7 @@
       "David Grist",
       "Rhiannon Sharkey"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4222,7 +4222,7 @@
       "Mafalda Gamboa",
       "Mohammad Obaid"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4236,7 +4236,7 @@
       "Mehdi Karimibiuki",
       "Karthik Pattabiraman"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4248,7 +4248,7 @@
       "Giuliano Casale",
       "Nicholas R. Jennings"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4263,7 +4263,7 @@
       "Xu Yuan",
       "Ning Zhang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4276,7 +4276,7 @@
       "Moinuddin K. Qureshi",
       "Mattan Erez"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4290,7 +4290,7 @@
       "A. Selcuk Uluagac",
       "Laurent Njilla"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4302,7 +4302,7 @@
       "Boris Teabe",
       "Daniel Hagimont"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4315,7 +4315,7 @@
       "Xunchao Hu",
       "Heng Yin"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4326,7 +4326,7 @@
       "Alejandro Ranchal-Pedrosa",
       "Vincent Gramoli"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4337,7 +4337,7 @@
       "Marcel Bollmann",
       "Anders Søgaard"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4348,7 +4348,7 @@
       "Goran Glavaš",
       "Ivan Vulić"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4360,7 +4360,7 @@
       "Philipp Dufter",
       "Hinrich Schütze"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4372,7 +4372,7 @@
       "Pontus Stenetorp",
       "Sebastian Riedel"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4384,7 +4384,7 @@
       "Julia Rayz",
       "Allyson Ettinger"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4397,7 +4397,7 @@
       "Fangyu Liu",
       "William Cohen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4415,7 +4415,7 @@
       "Laure Soulier",
       "Patrick Gallinari"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4428,7 +4428,7 @@
       "Mateusz Lango",
       "Ondrej Dusek"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4443,7 +4443,7 @@
       "Bo Ding",
       "Kenli Li"
     ],
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": [
       "ai",
       "reinforcement-learning"
@@ -4458,7 +4458,7 @@
       "Francisco S. Melo",
       "Pedro A Santos"
     ],
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": [
       "ai",
       "reinforcement-learning"
@@ -4474,7 +4474,7 @@
       "Aymen Boudguiga",
       "Renaud Sirdey"
     ],
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": [
       "ai",
       "fairness"
@@ -4488,7 +4488,7 @@
       "Viacheslav Komisarenko",
       "Meelis Kull"
     ],
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": [
       "ai",
       "machine-learning"
@@ -4502,7 +4502,7 @@
       "Stephen Wissow",
       "Masataro Asai"
     ],
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": [
       "ai",
       "planning"
@@ -4551,7 +4551,7 @@
       "Jiansheng Yang",
       "Zhouchen Lin"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4562,7 +4562,7 @@
       "Dario Simionato",
       "Fabio Vandin"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "machine-learning",
       "data-mining"
@@ -4580,7 +4580,7 @@
       "Stephan Günnemann",
       "David Rügamer"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "machine-learning"
     ]
@@ -4593,7 +4593,7 @@
       "Ari Silvennoinen",
       "Peter-Pike J. Sloan"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4605,7 +4605,7 @@
       "Matthias Hullin",
       "Johannes Hanika"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4619,7 +4619,7 @@
       "Ling-Qi Yan",
       "Andrea Weidlich"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4657,7 +4657,7 @@
       "Alane Suhr",
       "Yoav Artzi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4748,7 +4748,7 @@
       "Noah A. Smith",
       "Hannaneh Hajishirzi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4762,7 +4762,7 @@
       "Frank Elberzhager",
       "Andreas Jedlitschka"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "software-engineering"
     ]
@@ -4777,7 +4777,7 @@
       "Xingliang Yuan",
       "Xun Yi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4789,7 +4789,7 @@
       "Adam Bates",
       "Michael D. Bailey"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4802,7 +4802,7 @@
       "Stéphanie Delaune",
       "José Lopes Esteves"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -4810,7 +4810,7 @@
     "year": 2021,
     "paper_title": "New Representations of the AES Key Schedule",
     "authors": "Leurent & Pernot",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Symmetric Cryptography",
       "AES"
@@ -4821,7 +4821,7 @@
     "year": 2021,
     "paper_title": "Non-Interactive Zero Knowledge from Sub-exponential DDH",
     "authors": "Jain & Jin",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Zero-Knowledge Proofs",
       "DDH"
@@ -4832,7 +4832,7 @@
     "year": 2021,
     "paper_title": "On the (In)security of ROS",
     "authors": "Benhamouda, Lepoint, Loss, Orrù & Raykova",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Blind Signatures",
       "Threshold Signatures"
@@ -4843,7 +4843,7 @@
     "year": 2022,
     "paper_title": "EpiGRAM: Practical Garbled RAM",
     "authors": "Heath, Kolesnikov & Ostrovsky",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Garbled Circuits",
       "RAM"
@@ -4854,7 +4854,7 @@
     "year": 2023,
     "paper_title": "An Efficient Key Recovery Attack on SIDH",
     "authors": "Castryck & Decru",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Isogeny Cryptography",
       "Cryptanalysis"
@@ -4865,7 +4865,7 @@
     "year": 2023,
     "paper_title": "Breaking SIDH in Polynomial Time",
     "authors": "Robert",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Isogeny Cryptography",
       "Post-Quantum"
@@ -4876,7 +4876,7 @@
     "year": 2023,
     "paper_title": "Worst-Case Subexponential Attacks on PRGs of Constant Degree or Constant Locality",
     "authors": "Ünal",
-    "award_type": "Best Paper Award (Early Career)",
+    "award_type": "best_paper_early_career",
     "tags": [
       "Pseudorandom Generators",
       "Cryptanalysis"
@@ -4887,7 +4887,7 @@
     "year": 2024,
     "paper_title": "AprèsSQI: Extra Fast Verification for SQIsign Using Extension-Field Signing",
     "authors": "Corte-Real Santos, Eriksen, Meyer & Reijnders",
-    "award_type": "Best Paper Award (Early Career)",
+    "award_type": "best_paper_early_career",
     "tags": [
       "Isogeny Cryptography",
       "Signature Verification"
@@ -4898,7 +4898,7 @@
     "year": 2024,
     "paper_title": "SQIsignHD: New Dimensions in Cryptography",
     "authors": "Dartois, Leroux, Robert & Wesolowski",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Isogeny Cryptography",
       "Digital Signatures"
@@ -4909,7 +4909,7 @@
     "year": 2025,
     "paper_title": "Polynomial Time Cryptanalytic Extraction of Deep Neural Networks",
     "authors": "Carlini, Chávez-Saab, Hambitzer, Rodríguez-Henríquez & Shamir",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Neural Networks",
       "Cryptanalysis"
@@ -5051,7 +5051,7 @@
       "Richard Schumi",
       "Jun Sun"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5065,7 +5065,7 @@
       "Dejan Nickovic",
       "Ana Oliveira Da Costa"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5081,7 +5081,7 @@
       "Danyang Zhuo",
       "Thomas Anderson"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5093,7 +5093,7 @@
       "Kaveh Mahdaviani",
       "Bianca Schroeder"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5113,7 +5113,7 @@
       "Minglu Li",
       "Jiesheng Wu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5127,7 +5127,7 @@
       "Sang-Hoon Kim",
       "Euiseong Seo"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5163,7 +5163,7 @@
       "Jiaji Zhu",
       "Jiesheng Wu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5181,7 +5181,7 @@
       "Weimin Zheng",
       "Xinran Xu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5193,7 +5193,7 @@
       "Tomer Friedlander",
       "Lior Wolf"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5201,7 +5201,7 @@
     "year": 2021,
     "paper_title": "Superpolynomial Lower Bounds Against Low-Depth Algebraic Circuits",
     "authors": "Limaye, Srinivasan & Tavenas",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Circuit Complexity",
       "Lower Bounds"
@@ -5245,7 +5245,7 @@
     "year": 2025,
     "paper_title": "Breaking a Long-Standing Barrier: 2-ε Approximation for Steiner Forest",
     "authors": "Ahmadi, Gholami, Hajiaghayi, Jabbarzade & Mahdavi",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Approximation Algorithms",
       "Graph Theory"
@@ -5256,7 +5256,7 @@
     "year": 2025,
     "paper_title": "Explicit Lossless Vertex Expanders",
     "authors": "Hsieh, Lubotzky, Mohanty, Reiner & Zhang",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Expander Graphs",
       "Combinatorics"
@@ -5267,7 +5267,7 @@
     "year": 2025,
     "paper_title": "Quasipolynomial Bounds for the Corners Theorem",
     "authors": "Jaber, Liu, Lovett, Ostuni & Sawhney",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Combinatorics",
       "Additive Combinatorics"
@@ -5370,7 +5370,7 @@
     "year": 2025,
     "paper_title": "Demystifying LLM-based Software Engineering Agents",
     "authors": "Xia, Deng, Dunn & Zhang",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "LLM",
       "Software Agents"
@@ -5381,7 +5381,7 @@
     "year": 2025,
     "paper_title": "Hallucination Detection in Large Language Models with Metamorphic Relations",
     "authors": "Yang, Al Mamun, Zhang & Uddin",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "LLM",
       "Hallucination Detection"
@@ -5392,7 +5392,7 @@
     "year": 2025,
     "paper_title": "Less is More: On the Importance of Data Quality for Unit Test Generation",
     "authors": "Zhang, Hu, Gao, Xia, Lo & Li",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Unit Testing",
       "LLM"
@@ -5403,7 +5403,7 @@
     "year": 2025,
     "paper_title": "Mystique: Automated Vulnerability Patch Porting with Semantic and Syntactic-Enhanced LLM",
     "authors": "Wu, Wang, Cao, Chen, Zhou, Huang, Zhao & Peng",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Vulnerability Patching",
       "LLM"
@@ -5414,7 +5414,7 @@
     "year": 2025,
     "paper_title": "Pinning Is Futile: You Need More Than Local Dependency Versioning to Defend Against Supply Chain Attacks",
     "authors": "He, Vasilescu & Kästner",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Supply Chain Security",
       "Software Dependencies"
@@ -5425,7 +5425,7 @@
     "year": 2021,
     "paper_title": "Prodigy: Improving the Memory Latency of Data-Indirect Irregular Workloads Using Hardware-Software Co-Design",
     "authors": "Talati, Behroozi, Yang, Verma, Nguyen, May, Ahmadi, Dreslinski, Mudge, Austin & Mahlke",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Memory Systems",
       "Irregular Workloads"
@@ -5436,7 +5436,7 @@
     "year": 2022,
     "paper_title": "PVCoherence: Designing Flat Coherence Protocols for Scalable Verification",
     "authors": "Zhang, Bingham, Erickson & Sorin",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Cache Coherence",
       "Hardware Verification"
@@ -5447,7 +5447,7 @@
     "year": 2023,
     "paper_title": "DIMM-Link: Enabling Efficient Inter-DIMM Communication for Near-Memory Processing",
     "authors": "Zhou, Li, Yang & Sun",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Near-Memory Computing",
       "DIMM"
@@ -5458,7 +5458,7 @@
     "year": 2023,
     "paper_title": "Scalable and Secure Row-Swap: Efficient and Safe Row Hammer Mitigation in Memory Systems",
     "authors": "Woo, Saileshwar & Nair",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Memory Security",
       "Row Hammer"
@@ -5469,7 +5469,7 @@
     "year": 2024,
     "paper_title": "Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology",
     "authors": "Hyun, Kim, Lee & Rhu",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Processing-in-Memory",
       "Computer Architecture"
@@ -5480,7 +5480,7 @@
     "year": 2025,
     "paper_title": "DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency",
     "authors": "Stojkovic, Zhang, Goiri, Torrellas & Choukse",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "LLM Inference",
       "Energy Efficiency"
@@ -5494,7 +5494,7 @@
       "Staci A. Smith",
       "David K. Lowenthal"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5506,7 +5506,7 @@
       "Xian-He Sun",
       "Jay Lofstead"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5517,7 +5517,7 @@
       "Baolin Li",
       "Devesh Tiwari"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5529,7 +5529,7 @@
       "Salomi Aladia",
       "Bertram F. Malle"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5542,7 +5542,7 @@
       "Ana Paiva",
       "Guy Hoffman"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5554,7 +5554,7 @@
       "Siddhartha Banerjee",
       "Sonia Chernova"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5569,7 +5569,7 @@
       "Olov Engwall",
       "Iolanda Leite"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5581,7 +5581,7 @@
       "Koen Hindriks",
       "Mark Neerincx"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5596,7 +5596,7 @@
       "Maya Cakmak",
       "Siddhartha S. Srinivasa"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5612,7 +5612,7 @@
       "Ericka Johnson",
       "Iolanda Leite"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5628,7 +5628,7 @@
       "Marynel Vázquez",
       "Brian Scassellati"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5642,7 +5642,7 @@
       "Daniel Rakita",
       "Bilge Mutlu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5656,7 +5656,7 @@
       "Nazerke Rakhymbayeva",
       "Anara Sandygulova"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5674,7 +5674,7 @@
       "Leila Takayama",
       "Dorsa Sadigh"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5687,7 +5687,7 @@
       "Hae Won Park",
       "Cynthia Breazeal"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5699,7 +5699,7 @@
       "Michael Wehner",
       "Bilge Mutlu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5711,7 +5711,7 @@
       "Fred Shic",
       "Brian Scassellati"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5724,7 +5724,7 @@
       "Petrik Clarberg",
       "Jacob Munkberg"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5737,7 +5737,7 @@
       "Jonathan Dupuy",
       "Narayanan P. J."
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5749,7 +5749,7 @@
       "Bastian Kuth",
       "Quirin Meyer"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5761,7 +5761,7 @@
       "Peter H. F. Ng",
       "Hong Va Leong"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5772,7 +5772,7 @@
       "Sayan Bhattacharya",
       "Peter Kiss"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5784,7 +5784,7 @@
       "Louis Jachiet",
       "Charles Paperman"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5795,7 +5795,7 @@
       "Ilan Newman",
       "Nithin Varma"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5807,7 +5807,7 @@
       "Fabrizio Grandoni",
       "Afrouz Jabal Ameli"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5821,7 +5821,7 @@
       "Henry Sinclair-Banks",
       "Karol Węgrzycki"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5834,7 +5834,7 @@
       "Pooya Hatami",
       "Kaave Hosseini"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5845,7 +5845,7 @@
       "Yuda Feng",
       "Shi Li"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5857,7 +5857,7 @@
       "Alessio Mansutti",
       "Mikhail Starchak"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5870,7 +5870,7 @@
       "Sebastian Sardina",
       "Hector Geffner"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "planning"
     ]
@@ -5884,7 +5884,7 @@
       "Blai Bonet",
       "Hector Geffner"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "planning",
       "machine-learning"
@@ -5900,7 +5900,7 @@
       "Salomé Eriksson",
       "Malte Helmert"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "planning"
     ]
@@ -5915,7 +5915,7 @@
       "Nestor Evmorfopoulos",
       "Sachin S. Sapatnekar"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5930,7 +5930,7 @@
       "Bei Yu",
       "Martin D.F. Wong"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5943,7 +5943,7 @@
       "Wenjian He",
       "Wei Zhang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5957,7 +5957,7 @@
       "Bodhisatta Pramanik",
       "Zhiang Wang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5971,7 +5971,7 @@
       "X. Sharon Hu",
       "Yiyu Shi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5982,7 +5982,7 @@
       "Mingfei Yu",
       "Giovanni De Micheli"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -5993,7 +5993,7 @@
       "Yue Qian",
       "Lan Chen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6010,7 +6010,7 @@
       "Qi Sun",
       "Cheng Zhuo"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6022,7 +6022,7 @@
       "Hang Yang",
       "Cong Hao"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6037,7 +6037,7 @@
       "Jerry Bai",
       "Bin-Chyi Tseng"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6106,7 +6106,7 @@
       "Rachid Guerraoui",
       "Igor Zablotchi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6122,7 +6122,7 @@
       "Zarko Milosevic",
       "Adi Seredinschi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6137,7 +6137,7 @@
       "Bo Li",
       "Xiaowen Chu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -6152,7 +6152,7 @@
       "Jorge-Arnulfo Quiané-Ruiz",
       "Volker Markl"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6164,7 +6164,7 @@
       "Angela Bonifati",
       "M. Tamer Özsu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6179,7 +6179,7 @@
       "Yunjun Gao",
       "Jilin Hu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6193,7 +6193,7 @@
       "Gul Agha",
       "Myeongjae Jeon"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6204,7 +6204,7 @@
       "Zhikai Wang",
       "Yanyan Shen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6217,7 +6217,7 @@
       "H. V. Jagadish",
       "Min Xie"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6232,7 +6232,7 @@
       "Steffen Zeuch",
       "Volker Markl"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6248,7 +6248,7 @@
       "Rahul Ghosh",
       "Praveen Ravirathinam"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6260,7 +6260,7 @@
       "Honglian Wang",
       "Christian Böhm"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6274,7 +6274,7 @@
       "Geon Lee",
       "Kijung Shin"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6285,7 +6285,7 @@
       "Rajeev Yasarla",
       "Vishal Patel"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "image-processing",
       "computer-vision"
@@ -6301,7 +6301,7 @@
       "Carlos Hinojosa",
       "Henry Arguello"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "image-processing"
     ]
@@ -6316,7 +6316,7 @@
       "Guangzhi Ma",
       "Xiangyang Xu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6578,7 +6578,7 @@
       "Olufemi O. Odegbile",
       "Shigang Chen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6595,7 +6595,7 @@
       "Jiawei Huang",
       "Kai Chen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6608,7 +6608,7 @@
       "Junji Takemasa",
       "Toru Hasegawa"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6621,7 +6621,7 @@
       "Shuangjun Liu",
       "Ramin Ghosh"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "pattern-recognition",
       "computer-vision"
@@ -6716,7 +6716,7 @@
       "Tyler Allen",
       "Rong Ge"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6729,7 +6729,7 @@
       "Charitha Saumya",
       "Milind Kulkarni"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6744,7 +6744,7 @@
       "Andy Pimentel",
       "Zhenlin Wang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6757,7 +6757,7 @@
       "Artem Pelenitsyn",
       "Milind Kulkarni"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -6923,7 +6923,7 @@
       "Yingfei Xiong",
       "Gang Huang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -6936,7 +6936,7 @@
       "Henrik Plate",
       "Antonino Sabetta"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -6948,7 +6948,7 @@
       "Patanamon Thongtanunam",
       "Shanika Karunasekera"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -6965,7 +6965,7 @@
       "Xiaoguang Mao",
       "Tegawendé F. Bissyandé"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -6979,7 +6979,7 @@
       "Mario Concilio Neto",
       "Roberto Araujo"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -6991,7 +6991,7 @@
       "Mieszko Lis",
       "Julia Rubin"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -7091,7 +7091,7 @@
       "Robert Beverly",
       "kc claffy"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7105,7 +7105,7 @@
       "Arpit Gupta",
       "Elizabeth Belding"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7124,7 +7124,7 @@
       "Franziska Roesner",
       "Zubair Shafiq"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7136,7 +7136,7 @@
       "Tadayoshi Kohno",
       "Franziska Roesner"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7144,7 +7144,7 @@
     "year": 2021,
     "paper_title": "Exploiting Simultaneous Communications to Accelerate Data Parallel Distributed Deep Learning",
     "authors": "Shi, Chu & Li",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Distributed Deep Learning",
       "Communication Efficiency"
@@ -7155,7 +7155,7 @@
     "year": 2021,
     "paper_title": "Uplink Multi-User Beamforming on Single RF Chain mmWave WLANs",
     "authors": "Dasala, Knightly & Jornet",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "mmWave",
       "Beamforming"
@@ -7200,7 +7200,7 @@
     "year": 2025,
     "paper_title": "DUNE: Distributed Inference in the User Plane",
     "authors": "Bütün, De Andrés Hernández, Gucciardo & Fiore",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Distributed Inference",
       "Mobile Networks"
@@ -7211,7 +7211,7 @@
     "year": 2025,
     "paper_title": "Safeguarding Wi-Fi 7 and Beyond: Tackling Protocol-Aware Jamming in Multi-AP Coordination",
     "authors": "Talukder et al.",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Wi-Fi 7",
       "Wireless Security"
@@ -7227,7 +7227,7 @@
       "Vassilis Kostakos",
       "Jorge Goncalves"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "hci"
     ]
@@ -7240,7 +7240,7 @@
       "Aletta Smits",
       "Koen van Turnhout"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "hci",
       "recommender-systems"
@@ -7259,7 +7259,7 @@
       "Benjamin Tee",
       "Harold Soh"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7273,7 +7273,7 @@
       "Torsten Kroeger",
       "Ken Goldberg"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7286,7 +7286,7 @@
       "Javier Hidalgo-Carrio",
       "Davide Scaramuzza"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7299,7 +7299,7 @@
       "Federico Tessari",
       "Neville Hogan"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7377,7 +7377,7 @@
       "Yingnong Dang",
       "Dongmei Zhang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "software-engineering",
       "reliability"
@@ -7392,7 +7392,7 @@
       "Pengfei Chen",
       "Tao Huang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "software-engineering",
       "reliability"
@@ -7406,7 +7406,7 @@
       "Clay Stevens",
       "Hamid Bagheri"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -7421,7 +7421,7 @@
       "Yi Li",
       "Yang Liu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -7434,7 +7434,7 @@
       "Shang-Wei Lin",
       "Cyrille Artho"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -7448,7 +7448,7 @@
       "Martin Hirzel",
       "Julian Dolby"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -7460,7 +7460,7 @@
       "Colleen M. Seifert",
       "Hariharan Subramonyam"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7473,7 +7473,7 @@
       "Pierre Thiel",
       "Wendy E. Mackay"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7485,7 +7485,7 @@
       "Sébastien Lambot",
       "Jean Vanderdonckt"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7499,7 +7499,7 @@
       "Andrea Bartos",
       "Gerhard Satzger"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7512,7 +7512,7 @@
       "Joannes Chan",
       "Brad A Myers"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7525,7 +7525,7 @@
       "Kyungok Kim",
       "Uran Oh"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7546,7 +7546,7 @@
       "Hiroyuki Kato",
       "Maheshya Weerasinghe"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7611,7 +7611,7 @@
     "year": 2025,
     "paper_title": "Evaluating Decision Rules Across Many Weak Experiments",
     "authors": "Chou, Gray, Kallus, Bibaut & Ejdemyr",
-    "award_type": "Best Paper Award (Applied Data Science Track)",
+    "award_type": "best_paper_applied_ds",
     "tags": [
       "Causal Inference",
       "Experimentation"
@@ -7622,7 +7622,7 @@
     "year": 2025,
     "paper_title": "Improving Group Robustness on Spurious Correlation via Evidential Alignment",
     "authors": "Ye, Zheng & Zhang",
-    "award_type": "Best Paper Award (Research Track)",
+    "award_type": "best_paper",
     "tags": [
       "Robustness",
       "Spurious Correlation"
@@ -7635,7 +7635,7 @@
     "authors": [
       "John Krumm"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7648,7 +7648,7 @@
       "Siu Hin Fan",
       "Qi Dou"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7663,7 +7663,7 @@
       "Marc Pouly",
       "Alexander Navarini"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "medical-imaging",
       "computer-vision"
@@ -7681,7 +7681,7 @@
       "Yuexin Ma",
       "Rui Zheng"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "medical-imaging",
       "computer-vision"
@@ -7728,7 +7728,7 @@
     "year": 2023,
     "paper_title": "Phantom: Exploiting Decoder-detectable Mispredictions",
     "authors": "Wikner, Trujillo & Razavi",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Microarchitecture Security",
       "Speculative Execution"
@@ -7750,7 +7750,7 @@
     "year": 2025,
     "paper_title": "Flexing RISC-V Instruction Subset Processors to Extreme Edge",
     "authors": "Raisiardali, Iordanou, Kufel, Gudimetla, Myny & Ozer",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "RISC-V",
       "Edge Computing"
@@ -7761,7 +7761,7 @@
     "year": 2025,
     "paper_title": "LLM.265: Video Codecs are Secretly Tensor Codecs",
     "authors": "Xu, Wu, Yang, Chen, Lentz, Zhuo & Wills",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "LLM",
       "Tensor Compression"
@@ -7779,7 +7779,7 @@
       "Chris H Q Ding",
       "Heng Huang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7795,7 +7795,7 @@
       "Tushar Krishna",
       "Umakishore Ramachandran"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7808,7 +7808,7 @@
       "Tom Kaitchuck",
       "Sachin Joshi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7822,7 +7822,7 @@
       "Liting Hu",
       "Dilma Da Silva"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7835,7 +7835,7 @@
       "Massimo Albarello",
       "Roger Wattenhofer"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7850,7 +7850,7 @@
       "Manos Kapritsos",
       "Pramod Bhatotia"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7858,7 +7858,7 @@
     "year": 2021,
     "paper_title": "mSAIL: Milligram-Scale Multi-Modal Sensor Platform for Monarch Butterfly Migration Tracking",
     "authors": "Lee, Hsiao, Carichner, Hsu, Yang, Shoouri, Ernst, Li & Lim",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "IoT",
       "Sensor Platform"
@@ -7919,7 +7919,7 @@
       "Xiaojun Lin",
       "Mung Chiang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7931,7 +7931,7 @@
       "Weina Wang",
       "Gauri Joshi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7945,7 +7945,7 @@
       "Joerg Widmer",
       "Kyle Jamieson"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7958,7 +7958,7 @@
       "Ravi R. Mazumdar",
       "Fabrice M. Guillemin"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7972,7 +7972,7 @@
       "Ness Shroff",
       "Kaushik Chowdhury"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -7986,7 +7986,7 @@
       "Stefan Geisler",
       "Stefan Schneegass"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "hci",
       "mobile"
@@ -8002,7 +8002,7 @@
       "Garreth Tigwell",
       "Roshan Peiris"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "hci",
       "mobile",
@@ -8017,7 +8017,7 @@
       "Adil Rahman",
       "Seongkook Heo"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "hci",
       "mobile"
@@ -8035,7 +8035,7 @@
       "Diego Perino",
       "Nicolas Kourtellis"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8051,7 +8051,7 @@
       "Yuqing Yang",
       "Yunxin Liu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8065,7 +8065,7 @@
       "Kyunghan Lee",
       "Song Chong"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8080,7 +8080,7 @@
       "SungMin Sohn",
       "Song Min Kim"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8095,7 +8095,7 @@
       "Guoliang Xing",
       "Xiaoming Liu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8111,7 +8111,7 @@
       "Xiaofan Jiang",
       "Xia Zhou"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8128,7 +8128,7 @@
       "Inseok Hwang",
       "Jun Han"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8140,7 +8140,7 @@
       "Hankyeol Moon",
       "Song Min Kim"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8155,7 +8155,7 @@
       "Seonghoon Park",
       "Hojung Cha"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8168,7 +8168,7 @@
       "Wei Gao",
       "Chenren Xu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8181,7 +8181,7 @@
       "Davide Di Ruscio",
       "Phuong T. Nguyen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8198,7 +8198,7 @@
       "Beatriz Sanchez Piña",
       "Horacio Hoyos Rodriguez"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8210,7 +8210,7 @@
       "Letian Tang",
       "Yutong Li"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8223,7 +8223,7 @@
       "Rainer Haas",
       "Alexander Egyed"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8235,7 +8235,7 @@
       "Carlos Durá",
       "Jesús Sánchez Cuadrado"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8247,7 +8247,7 @@
       "José Antonio Hernández López",
       "Jesús Sánchez Cuadrado"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -8261,7 +8261,7 @@
       "Yaroslav Golubev",
       "Timofey Bryksin"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8278,7 +8278,7 @@
       "Jon Whittle",
       "Burak Turhan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8289,7 +8289,7 @@
       "Johannes Härtel",
       "Ralf Laemmel"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8301,7 +8301,7 @@
       "Zhenpeng Chen",
       "Minghui Zhou"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8315,7 +8315,7 @@
       "Nicola Zanone",
       "Alexander Serebrenik"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8331,7 +8331,7 @@
       "Bin Luo",
       "Alexander Egyed"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8345,7 +8345,7 @@
       "Jo Atlee",
       "Mei Nagappan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8358,7 +8358,7 @@
       "Christoph Treude",
       "Michael Pradel"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8370,7 +8370,7 @@
       "Stefano Zacchiroli",
       "Théo Zimmermann"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8383,7 +8383,7 @@
       "Sai Sanjna Chintakunta",
       "Santhosh Anitha Boominathan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8395,7 +8395,7 @@
       "Ali Al-Kaswan",
       "Maliheh Izadi"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8410,7 +8410,7 @@
       "Ao Li",
       "Rohan Padhye"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -8602,6 +8602,86 @@
       "Federated Learning",
       "Backdoor"
     ]
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "Decompiling the Synergy: An Empirical Study of Human-LLM Teaming in Software Reverse Engineering",
+    "authors": "Zion Leonahenahe Basque, Samuele Doria, Ananta Soneji, Wil Gibbs, Adam Doupe, Yan Shoshitaishvili, Eleonora Losiouk, Ruoyu \"Fish\" Wang, Simone Aonzo",
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer",
+    "authors": "Johannes Lenzen, Mohamadreza Rostami, Lichao Wu, Ahmad-Reza Sadeghi",
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "Indicator of Benignity: An Industry View of False Positive in Malicious Domain Detection and its Mitigation",
+    "authors": "Daiping Liu, Danyu Sun, Zhenhua Chen, Shu Wang, Zhou Li",
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "LOKI: Proactively Discovering Online Scam Websites by Mining Toxic Search Queries",
+    "authors": "Pujan Paudel, Gianluca Stringhini",
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "OCCUPY+PROBE: Cross-Privilege Branch Target Buffer Side-Channel Attacks at Instruction Granularity",
+    "authors": "Kaiyuan Rong, Junqi Fang, Haixia Wang, Dapeng Ju, Dongsheng Wang",
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "One Email, Many Faces: A Deep Dive into Identity Confusion in Email Aliases",
+    "authors": "Mengying Wu, Geng Hong, Jiatao Chen, Baojun Liu, Mingxuan Liu, Min Yang",
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel",
+    "authors": "Rui Xiao, Sibo Feng, Soundarya Ramesh, Jun Han, Jinsong Han",
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "Phishing in Wonderland: Evaluating Learning-Based Ethereum Phishing Transaction Detection and Pitfalls",
+    "authors": "Ahod Alghuried, David Mohaisen",
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "Should I Trust You? Rethinking the Principle of Zone-Based Isolation DNS Bailiwick Checking",
+    "authors": "Yuxiao Wu, Yunyi Zhang, Chaoyi Lu, Baojun Liu",
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ndss",
+    "year": 2026,
+    "paper_title": "Small Cell, Big Risk: A Security Assessment of 4G LTE Femtocells in the Wild",
+    "authors": "Yaru Yang, Yiming Zhang, Tao Wan, Haixin Duan, Deliang Chang, Yishen Li, Shujun Tang",
+    "award_type": "distinguished_paper",
+    "tags": []
   },
   {
     "conference_slug": "neurips",
@@ -8802,7 +8882,7 @@
     "year": 2022,
     "paper_title": "Graham: Synchronizing Clocks by Leveraging Local Clock Properties",
     "authors": "Najafi & Wei",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Clock Synchronization",
       "Distributed Systems"
@@ -8835,7 +8915,7 @@
     "year": 2025,
     "paper_title": "NDD: A Decision Diagram for Network Verification",
     "authors": "Li, Zhang, Zhang & Yang",
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": [
       "Network Verification",
       "Decision Diagrams"
@@ -8846,7 +8926,7 @@
     "year": 2021,
     "paper_title": "Making Weak Memory Models Fair",
     "authors": "Lahav, Namakonov, Oberhauser, Podkopaev & Vafeiadis",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Concurrency",
       "Memory Models"
@@ -8857,7 +8937,7 @@
     "year": 2021,
     "paper_title": "Study of the Subtyping Machine of Nominal Subtyping with Variance",
     "authors": "Roth",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Type Theory",
       "Subtyping"
@@ -8868,7 +8948,7 @@
     "year": 2022,
     "paper_title": "Complexity-Guided Container Replacement Synthesis",
     "authors": "Wang, Yao, Tang, Shi & Zhang",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Program Synthesis",
       "Complexity"
@@ -8879,7 +8959,7 @@
     "year": 2022,
     "paper_title": "Finding Real Bugs in Big Programs with Incorrectness Logic",
     "authors": "Le, Raad, Villard, Berdine, Dreyer & O'Hearn",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Program Analysis",
       "Bug Detection"
@@ -8890,7 +8970,7 @@
     "year": 2023,
     "paper_title": "Algebro-Geometric Algorithms for Template-Based Synthesis of Polynomial Programs",
     "authors": "Goharshady, Hitarth, Mohammadi & Motwani",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Program Synthesis",
       "Algebraic Geometry"
@@ -8901,7 +8981,7 @@
     "year": 2023,
     "paper_title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
     "authors": "Barke, James & Polikarpova",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "LLM",
       "Code Generation"
@@ -8912,7 +8992,7 @@
     "year": 2024,
     "paper_title": "Minotaur: A SIMD-Oriented Synthesizing Superoptimizer",
     "authors": "Liu, Mada & Regehr",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "SIMD",
       "Superoptimization"
@@ -8923,7 +9003,7 @@
     "year": 2024,
     "paper_title": "VeriEQL: Bounded Equivalence Verification for Complex SQL Queries with Integrity Constraints",
     "authors": "He, Zhao, Wang & Wang",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "SQL Verification",
       "Equivalence Checking"
@@ -8934,7 +9014,7 @@
     "year": 2025,
     "paper_title": "Automatic Linear Resource Bound Analysis for Rust via Prophecy Potentials",
     "authors": "Lian & Wang",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Rust",
       "Resource Analysis"
@@ -8945,7 +9025,7 @@
     "year": 2025,
     "paper_title": "Incremental Bidirectional Typing via Order Maintenance",
     "authors": "Porter, Kirisame, Wei, Panchekha & Omar",
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "Type Systems",
       "Incremental Computation"
@@ -9038,7 +9118,7 @@
     "year": 2025,
     "paper_title": "Basilisk: Using Provenance Invariants to Automate Proofs of Undecidable Protocols",
     "authors": "Zhang et al.",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Formal Verification",
       "Distributed Systems"
@@ -9049,7 +9129,7 @@
     "year": 2025,
     "paper_title": "Building Bridges: Safe Interactions with Foreign Languages through OmniGlot",
     "authors": "Schuermann, Toubes, Potyondy, Pannuto, Milano & Levy",
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "Language Interoperability",
       "Safety"
@@ -9068,7 +9148,7 @@
       "Youngsok Kim",
       "Jinho Lee"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -9081,7 +9161,7 @@
       "Yang Wang",
       "Fang Chen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "data-mining",
       "machine-learning"
@@ -9097,7 +9177,7 @@
       "Yu-Feng Li",
       "Min-Ling Zhang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "data-mining",
       "machine-learning"
@@ -9112,7 +9192,7 @@
       "Josep Domingo-Ferrer",
       "Yiming Li"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "data-mining",
       "security"
@@ -9173,7 +9253,7 @@
       "Zhengyang Liu",
       "John Regehr"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "compilers",
       "translation validation",
@@ -9192,7 +9272,7 @@
       "Reuben N. S. Rowe",
       "Ilya Sergey"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "program synthesis",
       "formal methods",
@@ -9207,7 +9287,7 @@
       "Jay P. Lim",
       "Santosh Nagarakatte"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "numerical computing",
       "floating point",
@@ -9225,7 +9305,7 @@
       "Leonardo de Moura",
       "Daan Leijen"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "memory management",
       "reference counting",
@@ -9240,7 +9320,7 @@
       "Nengkun Yu",
       "Jens Palsberg"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "quantum computing",
       "abstract interpretation",
@@ -9259,7 +9339,7 @@
       "Derek Dreyer",
       "Deepak Garg"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "program verification",
       "c language",
@@ -9277,7 +9357,7 @@
       "Kumar Madhukar",
       "Deepak D'Souza"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "program synthesis",
       "formal methods",
@@ -9296,7 +9376,7 @@
       "Jeff Yu Lei",
       "Li Li"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "compilers",
       "binary analysis",
@@ -9316,7 +9396,7 @@
       "Ben Livshits",
       "Dimitris Mitropoulos"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "compilers",
       "type systems",
@@ -9333,7 +9413,7 @@
       "Ryan Beckett",
       "Eric Campbell"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "formal methods",
       "kleene algebra",
@@ -9349,7 +9429,7 @@
       "Steve Blackburn",
       "Kathryn S McKinley"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "memory management",
       "garbage collection",
@@ -9366,7 +9446,7 @@
       "Jacques-Henri Jourdan",
       "Derek Dreyer"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "program verification",
       "rust",
@@ -9384,7 +9464,7 @@
       "Alvin Cheung",
       "Chenglong Wang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "program synthesis",
       "databases",
@@ -9400,7 +9480,7 @@
       "Xifeng Yan",
       "Yu Feng"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "program synthesis",
       "visualization",
@@ -9427,7 +9507,7 @@
       "Cody Rivera",
       "P. Madhusudan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "program verification",
       "formal methods",
@@ -9442,7 +9522,7 @@
       "Lasse Møldrup",
       "Andreas Pavlogiannis"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "databases",
       "isolation",
@@ -9463,7 +9543,7 @@
       "Peter Müller",
       "Derek Dreyer"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "program verification",
       "separation logic",
@@ -9480,7 +9560,7 @@
       "Han Xu",
       "Ningning Xie"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type systems",
       "type inference",
@@ -9495,7 +9575,7 @@
       "Daan Leijen",
       "Wenjia Ye"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type systems",
       "type inference",
@@ -9513,7 +9593,7 @@
       "Derek Dreyer",
       "Ralf Jung"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "memory safety",
       "rust",
@@ -9532,7 +9612,7 @@
       "Jeho Yeon",
       "Jeehoon Kang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "memory safety",
       "concurrency",
@@ -9551,7 +9631,7 @@
       "Justin Thaler",
       "Pavel Vesely"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -9565,7 +9645,7 @@
       "Dan Suciu",
       "Yisu Remy Wang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -9576,7 +9656,7 @@
       "Jelani Nelson",
       "Huacheng Yu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -9598,7 +9678,7 @@
       "Albert Atserias",
       "Phokion Kolaitis"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -9611,7 +9691,7 @@
       "Michael T. Goodrich",
       "Hanna Komlos"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -9621,7 +9701,7 @@
     "authors": [
       "Xiao Hu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -9634,7 +9714,7 @@
       "Austen Fan",
       "Paraschos Koutris"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -9649,7 +9729,7 @@
       "Joost-Pieter Katoen",
       "Christoph Matheja"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "probabilistic programming",
       "formal methods",
@@ -9667,7 +9747,7 @@
       "Xiaodi Wu",
       "Michael Hicks"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "quantum computing",
       "compilers",
@@ -9683,7 +9763,7 @@
       "Simon Moll",
       "Sebastian Hack"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "abstract interpretation",
       "compilers",
@@ -9704,7 +9784,7 @@
       "Dean Tullsen",
       "Deian Stefan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "security",
       "speculative execution",
@@ -9722,7 +9802,7 @@
       "Ramanathan S. Thinniyam",
       "Georg Zetzsche"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "concurrency",
       "formal verification",
@@ -9738,7 +9818,7 @@
       "Sam Westrick",
       "Umut A. Acar"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "parallel computing",
       "functional programming",
@@ -9757,7 +9837,7 @@
       "Zachary Tatlock",
       "Pavel Panchekha"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "compilers",
       "equality saturation",
@@ -9775,7 +9855,7 @@
       "Swarat Chaudhuri",
       "Işıl Dillig"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "program synthesis",
       "functional programming",
@@ -9790,7 +9870,7 @@
       "Marcelo Fiore",
       "Dmitrij Szamozvancev"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "formal methods",
       "type theory",
@@ -9805,7 +9885,7 @@
       "Paul Krogmeier",
       "P. Madhusudan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "formal methods",
       "machine learning",
@@ -9820,7 +9900,7 @@
       "Loïc Pujet",
       "Nicolas Tabareau"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type theory",
       "equality",
@@ -9835,7 +9915,7 @@
       "Jay P. Lim",
       "Santosh Nagarakatte"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "numerical computing",
       "floating point",
@@ -9850,7 +9930,7 @@
       "Andrew K. Hirsch",
       "Deepak Garg"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type systems",
       "choreographies",
@@ -9871,7 +9951,7 @@
       "Jeehoon Kang",
       "Derek Dreyer"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "concurrency",
       "separation logic",
@@ -9889,7 +9969,7 @@
       "Sam Staton",
       "Vikash K. Mansinghka"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "probabilistic programming",
       "automatic differentiation",
@@ -9904,7 +9984,7 @@
       "Andrei Popescu",
       "Dmitriy Traytel"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type theory",
       "formal methods",
@@ -9924,7 +10004,7 @@
       "Deepak Garg",
       "Derek Dreyer"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "formal methods",
       "multi-language",
@@ -9941,7 +10021,7 @@
       "Umang Mathur",
       "Mahesh Viswanathan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "concurrency",
       "race detection",
@@ -9956,7 +10036,7 @@
       "Jules Jacobs",
       "Stephanie Balzer"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "concurrency",
       "type systems",
@@ -9973,7 +10053,7 @@
       "Yu Gu",
       "Eric Koskinen"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "formal verification",
       "temporal logic",
@@ -9987,7 +10067,7 @@
     "authors": [
       "Matthieu Lemerre"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "compilers",
       "abstract interpretation",
@@ -10003,7 +10083,7 @@
       "Oded Padon",
       "Sharon Shoham"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "formal verification",
       "counterexamples",
@@ -10020,7 +10100,7 @@
       "Mike Rainey",
       "Umut A. Acar"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "parallel computing",
       "programming languages",
@@ -10036,7 +10116,7 @@
       "Anxhelo Xhebraj",
       "Tiark Rompf"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "compilers",
       "datalog",
@@ -10052,7 +10132,7 @@
       "Yash Lad",
       "Pavel Panchekha"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "numerical computing",
       "program synthesis",
@@ -10068,7 +10148,7 @@
       "Amin Timany",
       "Lars Birkedal"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "formal semantics",
       "effects",
@@ -10082,7 +10162,7 @@
     "authors": [
       "Andrei Popescu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type theory",
       "formal methods",
@@ -10099,7 +10179,7 @@
       "Frank Pfenning",
       "Ankush Das"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type systems",
       "subtyping",
@@ -10116,7 +10196,7 @@
       "Sam Lindley",
       "J. Garrett Morris"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type systems",
       "linear types",
@@ -10135,7 +10215,7 @@
       "Zhiyi Pan",
       "Cyrus Omar"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type systems",
       "error recovery",
@@ -10152,7 +10232,7 @@
       "Oded Padon",
       "Sharon Shoham"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "formal verification",
       "algorithms",
@@ -10167,7 +10247,7 @@
       "Orpheas van Rooij",
       "Robbert Krebbers"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "type systems",
       "effects",
@@ -10184,7 +10264,7 @@
       "Andrei Popescu",
       "Dmitriy Traytel"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "formal methods",
       "type theory",
@@ -10206,7 +10286,7 @@
       "François Pottier",
       "Derek Dreyer"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "concurrency",
       "race freedom",
@@ -10222,7 +10302,7 @@
       "Andrzej Murawski",
       "C.-H. Luke Ong"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "probabilistic programming",
       "formal methods",
@@ -10241,7 +10321,7 @@
       "Anton Podkopaev",
       "Soham Chakraborty"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "concurrency",
       "memory models",
@@ -10266,7 +10346,7 @@
       "Amit Sabne",
       "Charith Mendis"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": [
       "machine learning",
       "compilers",
@@ -10287,7 +10367,7 @@
       "Jacob Nelson",
       "Olli Saarikivi"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10299,7 +10379,7 @@
       "Guy E. Blelloch",
       "Yuanhao Wei"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10312,7 +10392,7 @@
       "Yan Gu",
       "Yihan Sun"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10331,7 +10411,7 @@
       "Ting Cao",
       "Mao Yang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10342,7 +10422,7 @@
       "Yuyao Niu",
       "Marc Casas"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -10354,7 +10434,7 @@
       "Pen-Chung Yew",
       "Sanyam Mehta"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -10365,7 +10445,7 @@
       "Ajay Singh",
       "Trevor Brown"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -10376,7 +10456,7 @@
       "Youqian Zhang",
       "Kasper Rasmussen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10388,7 +10468,7 @@
       "Davy Preuveneers",
       "Wouter Joosen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10401,7 +10481,7 @@
       "Chuqi Zhang",
       "Zhenkai Liang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10420,7 +10500,7 @@
       "Juraj Podrouzek",
       "Maria Bielikova"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "recommender-systems"
     ]
@@ -10440,7 +10520,7 @@
       "Fei Wang",
       "Hao Yang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "recommender-systems"
     ]
@@ -10453,7 +10533,7 @@
       "Aleksandr V. Petrov",
       "Craig Macdonald"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "recommender-systems"
     ]
@@ -10526,7 +10606,7 @@
       "Eleni Constantinou",
       "Coen De Roover"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -10539,7 +10619,7 @@
       "Yufei Zhao",
       "Xin Peng"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -10553,7 +10633,7 @@
       "Saad Shafiq",
       "Alexander Egyed"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -10567,7 +10647,7 @@
       "J. Austin Ellis",
       "Feiyi Wang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10581,7 +10661,7 @@
       "Julien Langou",
       "Mathieu Vérité"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10602,7 +10682,7 @@
       "Zhou Jin",
       "Weifeng Liu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10615,7 +10695,7 @@
       "Flavio Vella",
       "Paolo Rech"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10640,7 +10720,7 @@
       "Prasanna Balaprakash",
       "Dan Lu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10655,7 +10735,7 @@
       "Fabian Löschner",
       "Andreas Longva"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10667,7 +10747,7 @@
       "Christopher Batty",
       "Toshiya Hachisuka"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10681,7 +10761,7 @@
       "A. M. Darke",
       "Theodore Kim"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10697,7 +10777,7 @@
       "Samantha K. Oliver",
       "Jordan Read"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10711,7 +10791,7 @@
       "Rahul Ghosh",
       "Jared Willard"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10725,7 +10805,7 @@
       "Xu Liang",
       "Xiaowei Jia"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10741,7 +10821,7 @@
       "Miloš Radovanović",
       "Arthur Zimek"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10760,7 +10840,7 @@
       "Jiliang Wang",
       "Yunhao Liu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10772,7 +10852,7 @@
       "Qing Wang",
       "Jie Xiong"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10785,7 +10865,7 @@
       "Timothy Woodford",
       "Xinyu Zhang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10801,7 +10881,7 @@
       "Li Lu",
       "Hongzi Zhu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -10819,7 +10899,7 @@
       "Hongfei Xue",
       "Lu Su"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11158,7 +11238,7 @@
       "Gustavo Alonso",
       "Omar Khattab"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "information retrieval",
       "vector search",
@@ -11246,7 +11326,7 @@
       "Dong Xie",
       "Tianzheng Wang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "databases",
       "transaction scheduling",
@@ -11265,7 +11345,7 @@
       "Dan Olteanu",
       "Dan Suciu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "databases",
       "cardinality estimation",
@@ -11287,7 +11367,7 @@
       "Jian He",
       "Chengzhong Xu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "cloud-computing",
       "systems"
@@ -11303,7 +11383,7 @@
       "Chetan Bansal",
       "Suman Nath"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "cloud-computing",
       "systems"
@@ -11320,7 +11400,7 @@
       "Guangzhen Chen",
       "Daohe Lu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "cloud-computing",
       "serverless"
@@ -11334,7 +11414,7 @@
       "Peyman Afshani",
       "Pingan Cheng"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11345,7 +11425,7 @@
       "Daniel Rutschmann",
       "Manuel Wettstein"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11357,7 +11437,7 @@
       "Linda Kleist",
       "Tillmann Miltzow"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11368,7 +11448,7 @@
       "Sayan Bandyapadhyay",
       "Jie Xue"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11379,7 +11459,7 @@
       "Richard Peng",
       "Santosh Vempala"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11403,7 +11483,7 @@
       "Kangning Wang",
       "Hongxun Wu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11416,7 +11496,7 @@
       "Satish Rao",
       "Di Wang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11426,7 +11506,7 @@
     "authors": [
       "Shashank Srivastava"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11507,7 +11587,7 @@
       "Hao Sun",
       "Zhendong Su"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "operating systems",
       "formal verification",
@@ -11693,7 +11773,7 @@
       "Nathan Klein",
       "Shayan Oveis Gharan"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "algorithms",
       "approximation",
@@ -11710,7 +11790,7 @@
       "Huijia Lin",
       "Amit Sahai"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "cryptography",
       "obfuscation",
@@ -11727,7 +11807,7 @@
       "Alexandros Hollender",
       "Rahul Savani"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "complexity theory",
       "gradient descent",
@@ -11742,7 +11822,7 @@
       "Pavel Panteleev",
       "Gleb Kalachev"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "quantum computing",
       "coding theory",
@@ -11760,7 +11840,7 @@
       "Alexander Lubotzky",
       "Shahar Mozes"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "coding theory",
       "error-correcting codes",
@@ -11800,7 +11880,7 @@
       "Xinkai Shu",
       "Longhui Yin"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "algorithms",
       "graph algorithms",
@@ -11815,7 +11895,7 @@
       "Yeyuan Chen",
       "Zihan Zhang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "coding theory",
       "error-correcting codes",
@@ -11832,7 +11912,7 @@
       "Nikhil Vyas",
       "Zhiwei Yun"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "complexity theory",
       "pcp",
@@ -11846,7 +11926,7 @@
     "authors": [
       "R. Ryan Williams"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "complexity theory",
       "time-space tradeoff",
@@ -11865,7 +11945,7 @@
       "Shay Solomon",
       "Tianyi Zhang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "algorithms",
       "graph theory",
@@ -11879,7 +11959,7 @@
     "authors": [
       "Fabio Massimo Zennaro"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11892,7 +11972,7 @@
       "Malihe Alikhani",
       "Seong Jae Hwang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11904,7 +11984,7 @@
       "Matthew Robert Wicker",
       "Marta Kwiatkowska"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11915,7 +11995,7 @@
       "Tom Claassen",
       "Joris Mooij"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11927,7 +12007,7 @@
       "Patrick Cannon",
       "Sebastian M Schmon"
     ],
-    "award_type": "Outstanding Paper Award",
+    "award_type": "outstanding_paper",
     "tags": []
   },
   {
@@ -11939,7 +12019,7 @@
       "Jean-Marie Lagniez",
       "Chi Tran"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -11951,7 +12031,7 @@
       "David Ramsay",
       "Joseph A. Paradiso"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -11966,7 +12046,7 @@
       "Tobias Kowatsch",
       "David Kotz"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -11979,7 +12059,7 @@
       "Apostolos Pyrgelis",
       "Jean-Pierre Hubaux"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -11993,7 +12073,7 @@
       "Rosalind W. Picard",
       "Hiroshi Ishii"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12009,7 +12089,7 @@
       "Genevieve F. Dunton",
       "Stephen S. Intille"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12035,7 +12115,7 @@
       "Anind K. Dey",
       "Jennifer Mankoff"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12071,7 +12151,7 @@
       "Laura Schelenz",
       "Daniel Gatica-Perez"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12092,7 +12172,7 @@
       "Paul Kos",
       "Matt Oppenheim"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12109,7 +12189,7 @@
       "Chet W. Hammill",
       "Chenyang Lu"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12124,7 +12204,7 @@
       "Ruofei Du",
       "David Kim"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12141,7 +12221,7 @@
       "Suranga Nanayakkara",
       "Mark Billinghurst"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12159,7 +12239,7 @@
       "Haodong Liu",
       "Wei Wang"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12174,7 +12254,7 @@
       "Simo Hosio",
       "Koji Yatani"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12187,7 +12267,7 @@
       "Alex Mariakakis",
       "Shwetak Patel"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12203,7 +12283,7 @@
       "Chris Harrison",
       "Yuvraj Agarwal"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12224,7 +12304,7 @@
       "Gesche Joost",
       "Paul Lukowicz"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12239,7 +12319,7 @@
       "Alicia Chu",
       "Hsin-Liu Cindy Kao"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12252,7 +12332,7 @@
       "Athena Vakali",
       "Ricardo Baeza-Yates"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12263,7 +12343,7 @@
       "Joonyoung Park",
       "Uichin Lee"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12277,7 +12357,7 @@
       "Daniela Rus",
       "Seung Jun Kim"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12295,7 +12375,7 @@
       "Meghan L. Meyer",
       "Andrew T. Campbell"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12308,7 +12388,7 @@
       "Dongyao Chen",
       "Alanson Sample"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12323,7 +12403,7 @@
       "Azizul Zahid",
       "Sai Swaminathan"
     ],
-    "award_type": "Distinguished Paper Award",
+    "award_type": "distinguished_paper",
     "tags": []
   },
   {
@@ -12337,7 +12417,7 @@
       "Xiang Anthony Chen",
       "Amy Pavel"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12349,7 +12429,7 @@
       "Yi-Hao Peng",
       "Amy Pavel"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12372,7 +12452,7 @@
       "Gonzalo Munilla-Garrido",
       "Dawn Song"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12386,7 +12466,7 @@
       "Buntaro Shizuki",
       "Yuta Sugiura"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12400,7 +12480,7 @@
       "James Smith",
       "Bjoern Hartmann"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12412,7 +12492,7 @@
       "Ruei-Che Chang",
       "Yuxuan Liu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12597,7 +12677,7 @@
       "Viktor Leis",
       "Jana Giceva"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "databases",
       "data compression",
@@ -12613,7 +12693,7 @@
       "Ioana Bercea",
       "Niv Dayan"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "databases",
       "data structures",
@@ -12738,7 +12818,7 @@
       "Harrie Oosterhuis",
       "Maarten de Rijke"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12753,7 +12833,7 @@
       "Min Zhang",
       "Shaoping Ma"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12767,7 +12847,7 @@
       "Sayan Ranu",
       "Ambuj Singh"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12791,7 +12871,7 @@
       "Lexi Baugher",
       "Minmin Chen"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12808,7 +12888,7 @@
       "Chun Chen",
       "Can Wang"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": []
   },
   {
@@ -12865,7 +12945,7 @@
       "Lanqin Yuan",
       "Marian-Andrei Rizoiu"
     ],
-    "award_type": "Best Paper Award",
+    "award_type": "best_paper",
     "tags": [
       "social networks",
       "machine learning",
