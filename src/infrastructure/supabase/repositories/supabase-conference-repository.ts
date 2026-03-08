@@ -12,18 +12,13 @@ type ViewRow = Database["public"]["Views"]["conference_with_next_deadline"]["Row
 
 interface ViewRowWithRelations extends ViewRow {
   institution_ratings: Array<{ institution: string; tier: string | null }>;
-  best_papers: Array<{ paper_title: string; year: number; award_type: string }>;
 }
 
-function extractLatestBestPapers(
-  rows: Array<{ paper_title: string; year: number; award_type: string }>,
-) {
-  const sorted = [...rows].sort((a, b) => b.year - a.year);
-  const latestYear = sorted[0]?.year ?? null;
-  if (!latestYear) return [];
-  return sorted
-    .filter((p) => p.year === latestYear)
-    .map((p) => ({ title: p.paper_title, year: p.year, awardType: p.award_type }));
+interface LatestBestPaperRow {
+  conference_id: string;
+  paper_title: string;
+  year: number;
+  award_type: string;
 }
 
 export class SupabaseConferenceRepository implements ConferenceRepository {
@@ -34,13 +29,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
 
     let query = supabase
       .from("conference_with_next_deadline")
-      .select(
-        `
-        *,
-        institution_ratings (institution, tier),
-        best_papers (paper_title, year, award_type)
-      `,
-      )
+      .select(`*, institution_ratings (institution, tier)`)
       .order("acronym");
 
     if (filters?.field) {
@@ -53,8 +42,23 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
       );
     }
 
-    const { data, error } = await query;
+    const [{ data, error }, { data: latestPapersData }] = await Promise.all([
+      query,
+      supabase
+        .from("conference_latest_best_papers")
+        .select("conference_id, paper_title, year, award_type"),
+    ]);
+
     if (error) throw error;
+
+    // Group latest best papers by conference_id
+    const bestPapersByConf = new Map<string, LatestBestPaperRow[]>();
+    for (const bp of (latestPapersData ?? []) as LatestBestPaperRow[]) {
+      if (!bestPapersByConf.has(bp.conference_id)) {
+        bestPapersByConf.set(bp.conference_id, []);
+      }
+      bestPapersByConf.get(bp.conference_id)!.push(bp);
+    }
 
     return ((data ?? []) as unknown as ViewRowWithRelations[])
       .map((row) => {
@@ -76,7 +80,9 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
             institution: r.institution,
             tier: r.tier,
           })),
-          latestBestPapers: extractLatestBestPapers(row.best_papers ?? []),
+          latestBestPapers: (bestPapersByConf.get(row.id ?? "") ?? []).map(
+            (p) => ({ title: p.paper_title, year: p.year, awardType: p.award_type }),
+          ),
         };
       })
       .filter(Boolean) as ConferenceWithRelations[];
@@ -87,13 +93,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
 
     const { data, error } = await supabase
       .from("conference_with_next_deadline")
-      .select(
-        `
-        *,
-        institution_ratings (institution, tier),
-        best_papers (paper_title, year, award_type)
-      `,
-      )
+      .select(`*, institution_ratings (institution, tier)`)
       .eq("slug", slug)
       .single();
 
@@ -112,7 +112,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
         institution: r.institution,
         tier: r.tier,
       })),
-      latestBestPapers: extractLatestBestPapers(row.best_papers ?? []),
+      latestBestPapers: [],
     };
   }
 

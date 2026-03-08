@@ -1,22 +1,30 @@
-import { getConferences } from "@/infrastructure/container";
+import { unstable_cache } from "next/cache";
+import { getConferences, bookmarkRepo } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
-import { getUserBookmarkedIds } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { ConferenceClientSection } from "@/presentation/components/conferences/conference-client-section";
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
+
+const getCachedConferences = unstable_cache(
+  () => getConferences({}),
+  ["conferences-list"],
+  { revalidate: 3600 },
+);
 
 export default async function HomePage() {
   const [conferences, supabase] = await Promise.all([
-    getConferences({}),
+    getCachedConferences(),
     createSupabaseServerClient(),
   ]);
   const {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const bookmarkedIds = await getUserBookmarkedIds();
+  const bookmarkedIds = user
+    ? (await bookmarkRepo.findByUserId(user.id)).map((b) => b.conferenceId)
+    : [];
 
   const authUser = user
     ? {
