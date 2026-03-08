@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { BestPaperWithConference } from "@/domain/repositories/best-paper-repository";
-import { conferenceUrl } from "@/shared/utils/url";
+import { conferenceUrl, formatAuthors } from "@/shared/utils/url";
 
 interface BestPaperListProps {
   papers: BestPaperWithConference[];
@@ -179,7 +179,7 @@ export function BestPaperList({ papers }: BestPaperListProps) {
                       marginTop: "6px",
                     }}
                   >
-                    {paper.authors}
+                    {formatAuthors(paper.authors)}
                   </div>
                 )}
 

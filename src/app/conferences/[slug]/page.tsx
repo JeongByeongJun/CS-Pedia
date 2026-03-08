@@ -12,6 +12,7 @@ import { BookmarkButton } from "@/presentation/components/conferences/bookmark-b
 import { AcceptanceRateChart } from "@/presentation/components/charts/acceptance-rate-chart";
 import { ConferenceKeywordChart } from "@/presentation/components/charts/conference-keyword-chart";
 import { formatDate } from "@/shared/utils/date";
+import { formatAuthors } from "@/shared/utils/url";
 import { INSTITUTIONS } from "@/shared/constants/institutions";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 
@@ -296,7 +297,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   </div>
                   {bp.authors && (
                     <div className="text-sm text-zinc-500 mt-1">
-                      {bp.authors}
+                      {formatAuthors(bp.authors)}
                     </div>
                   )}
                   {bp.tags.length > 0 && (
