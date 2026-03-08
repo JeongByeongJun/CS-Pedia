@@ -1,13 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
-const AWARD_LABELS: Record<string, string> = {
-  best_paper: "Best Paper",
-  best_paper_runner_up: "Runner-up",
-  best_student_paper: "Best Student Paper",
-  test_of_time: "Test of Time",
-};
+import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 
 interface BestPaperAccordionProps {
   papers: Array<{ title: string; year: number; awardType: string }>;
@@ -49,7 +43,7 @@ export function BestPaperAccordion({ papers }: BestPaperAccordionProps) {
             <div key={i} className="p-3 bg-indigo-50 rounded-xl text-sm">
               {papers.length > 1 && (
                 <div className="text-xs text-indigo-400 font-medium mb-1">
-                  {AWARD_LABELS[p.awardType] ?? p.awardType}
+                  {AWARD_TYPE_LABELS[p.awardType as keyof typeof AWARD_TYPE_LABELS] ?? p.awardType}
                 </div>
               )}
               <div className="font-medium text-zinc-800">{p.title}</div>

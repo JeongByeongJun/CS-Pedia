@@ -13,6 +13,7 @@ import { AcceptanceRateChart } from "@/presentation/components/charts/acceptance
 import { ConferenceKeywordChart } from "@/presentation/components/charts/conference-keyword-chart";
 import { formatDate } from "@/shared/utils/date";
 import { formatAuthors } from "@/shared/utils/url";
+import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 import { INSTITUTIONS } from "@/shared/constants/institutions";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 
@@ -289,7 +290,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                       🏆 {bp.year}
                     </span>
                     <span className="text-xs text-zinc-400">
-                      {bp.awardType.replace(/_/g, " ")}
+                      {AWARD_TYPE_LABELS[bp.awardType as keyof typeof AWARD_TYPE_LABELS] ?? bp.awardType}
                     </span>
                   </div>
                   <div className="font-medium text-zinc-800">

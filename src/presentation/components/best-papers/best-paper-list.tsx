@@ -1,22 +1,21 @@
 import Link from "next/link";
 import type { BestPaperWithConference } from "@/domain/repositories/best-paper-repository";
+import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 import { conferenceUrl, formatAuthors } from "@/shared/utils/url";
 
 interface BestPaperListProps {
   papers: BestPaperWithConference[];
 }
 
-const AWARD_LABELS: Record<string, string> = {
-  best_paper: "Best Paper",
-  best_paper_runner_up: "Runner-up",
-  best_student_paper: "Best Student Paper",
-  test_of_time: "Test of Time",
-};
-
 const AWARD_COLORS: Record<string, string> = {
   best_paper: "#f59e0b",
   best_paper_runner_up: "#a78bfa",
   best_student_paper: "#34d399",
+  best_paper_early_career: "#2dd4bf",
+  best_paper_applied_ds: "#38bdf8",
+  distinguished_paper: "#6366f1",
+  outstanding_paper: "#60a5fa",
+  honorable_mention: "#f472b6",
   test_of_time: "#f97316",
 };
 
@@ -154,7 +153,7 @@ export function BestPaperList({ papers }: BestPaperListProps) {
                           AWARD_COLORS[paper.awardType] ?? "#a1a1aa",
                       }}
                     />
-                    {AWARD_LABELS[paper.awardType] ?? paper.awardType}
+                    {AWARD_TYPE_LABELS[paper.awardType as keyof typeof AWARD_TYPE_LABELS] ?? paper.awardType}
                   </span>
                 </div>
 
