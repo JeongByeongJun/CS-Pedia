@@ -107,7 +107,7 @@ export function ConferenceClientSection({
             <span className="text-xs">{showFilters ? "▲" : "▼"}</span>
           </button>
         </div>
-        <div className={`${showFilters ? "block" : "hidden"} md:block`}>
+        <div className={`${showFilters ? "block" : "hidden"} md:block border-t border-zinc-100 pt-4 mt-1`}>
           <ConferenceFilters
             selectedField={field}
             selectedInstitution={institution}
