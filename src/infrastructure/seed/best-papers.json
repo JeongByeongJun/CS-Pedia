@@ -635,6 +635,42 @@
     ]
   },
   {
+    "conference_slug": "aistats",
+    "year": 2025,
+    "paper_title": "Deeply Supervised Nets",
+    "authors": [
+      "Chen-Yu Lee",
+      "Saining Xie",
+      "Patrick Gallagher",
+      "Zhengyou Zhang",
+      "Zhuowen Tu"
+    ],
+    "award_type": "test_of_time",
+    "tags": []
+  },
+  {
+    "conference_slug": "aistats",
+    "year": 2025,
+    "paper_title": "Variational Inference in Location-Scale Families: Exact Recovery of the Mean and Correlation Matrix",
+    "authors": [
+      "Charles Margossian",
+      "Lawrence Saul"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "aistats",
+    "year": 2025,
+    "paper_title": "Pick-to-Learn and Self-Certified Gaussian Process Approximations",
+    "authors": [
+      "Daniel Marks",
+      "Dario Paccagnan"
+    ],
+    "award_type": "best_student_paper",
+    "tags": []
+  },
+  {
     "conference_slug": "ase",
     "year": 2021,
     "paper_title": "Data-Driven Design and Evaluation of SMT Meta-Solving Strategies",
@@ -4584,6 +4620,77 @@
     "tags": [
       "machine-learning"
     ]
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "year": 2025,
+    "paper_title": "Difference Target Propagation",
+    "authors": [
+      "Dong-Hyun Lee",
+      "Saizheng Zhang",
+      "Asja Fischer",
+      "Yoshua Bengio"
+    ],
+    "award_type": "test_of_time",
+    "tags": []
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "year": 2025,
+    "paper_title": "PAR-AdvGAN: Improving Adversarial Attack Capability with Progressive Auto-Regression AdvGAN",
+    "authors": [
+      "Jiayu Zhang",
+      "Zhiyu Zhu",
+      "Xinyi Wang",
+      "Silin Liao",
+      "Zhibo Jin",
+      "Flora Salim",
+      "Huaming Chen"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "year": 2025,
+    "paper_title": "Fairness-Aware Graph Representation Learning with Limited Demographic Information",
+    "authors": [
+      "Zichong Wang",
+      "Zhipeng Yin",
+      "Liping Yang",
+      "Jun Zhuang",
+      "Rui Yu",
+      "Qingzhao Kong",
+      "Wenbin Zhang"
+    ],
+    "award_type": "best_student_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "year": 2025,
+    "paper_title": "Graph Neural Networks for Jamming Source Localization",
+    "authors": [
+      "Dania Herzalla",
+      "Willian Tessaro",
+      "Martin Andreoni"
+    ],
+    "award_type": "best_paper_applied_ds",
+    "tags": []
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "year": 2025,
+    "paper_title": "WoundAmbit: Bridging the Gap between Semantic Segmentation and Wound Care",
+    "authors": [
+      "Vanessa Borst",
+      "Timo Dittus",
+      "Tassilo Dege",
+      "Astrid Schmieder",
+      "Samuel Kounev"
+    ],
+    "award_type": "best_student_paper",
+    "tags": []
   },
   {
     "conference_slug": "egsr",
@@ -10539,6 +10646,205 @@
     ]
   },
   {
+    "conference_slug": "recsys",
+    "year": 2021,
+    "paper_title": "Pessimistic Reward Models for Off-Policy Learning in Recommendation",
+    "authors": [
+      "Olivier Jeunen",
+      "Bart Goethals"
+    ],
+    "award_type": "best_student_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2022,
+    "paper_title": "Exploring the longitudinal effects of nudging on users' music genre exploration behavior and listening preferences",
+    "authors": [
+      "Yu Liang",
+      "Martijn C. Willemsen"
+    ],
+    "award_type": "best_student_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2022,
+    "paper_title": "Modelling Two-Way Selection Preference for Person-Job Fit",
+    "authors": [
+      "Chen Yang",
+      "Yupeng Hou",
+      "Yang Song",
+      "Tao Zhang",
+      "Ji-Rong Wen",
+      "Wayne Xin Zhao"
+    ],
+    "award_type": "best_paper_runner_up",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2022,
+    "paper_title": "RADio – Rank-Aware Divergence Metrics to Measure Normative Diversity in News Recommendations",
+    "authors": [
+      "Sanne Vrijenhoek",
+      "Gabriel Bénédict",
+      "Mateo Gutierrez",
+      "Daan Odijk",
+      "Maarten de Rijke"
+    ],
+    "award_type": "best_paper_runner_up",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2023,
+    "paper_title": "Going Beyond Local: Global Graph-Enhanced Personalized News Recommendations",
+    "authors": [
+      "Boming Yang",
+      "Dairui Liu",
+      "Toyotaro Suzumura",
+      "Ruihai Dong",
+      "Irene Li"
+    ],
+    "award_type": "best_paper_runner_up",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2023,
+    "paper_title": "Pairwise Intent Graph Embedding Learning for Context-Aware Recommendation",
+    "authors": [
+      "Dugang Liu",
+      "Yuhao Wu",
+      "Weixin Li",
+      "Xiaolian Zhang",
+      "Hao Wang",
+      "Qinjuan Yang",
+      "Zhong Ming"
+    ],
+    "award_type": "best_paper_runner_up",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2023,
+    "paper_title": "Interpretable User Retention Modeling in Recommendation",
+    "authors": [
+      "Rui Ding",
+      "Ruobing Xie",
+      "Xiaobo Hao",
+      "Xiaochun Yang",
+      "Kaikai Ge",
+      "Xu Zhang",
+      "Jie Zhou",
+      "Leyu Lin"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2023,
+    "paper_title": "Scalable Approximate NonSymmetric Autoencoder for Collaborative Filtering",
+    "authors": [
+      "Martin Spišák",
+      "Radek Bartyzal",
+      "Antonín Hoskovec",
+      "Ladislav Peška",
+      "Miroslav Tůma"
+    ],
+    "award_type": "best_paper_runner_up",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2023,
+    "paper_title": "Of Spiky SVDs and Music Recommendation",
+    "authors": [
+      "Darius Afchar",
+      "Romain Hennequin",
+      "Vincent Guigue"
+    ],
+    "award_type": "best_paper_runner_up",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2024,
+    "paper_title": "Towards Empathetic Conversational Recommender Systems",
+    "authors": [
+      "Xiaoyu Zhang",
+      "Ruobing Xie",
+      "Yougang Lyu",
+      "Xin Xin",
+      "Pengjie Ren",
+      "Mingfei Liang",
+      "Bo Zhang",
+      "Zhanhui Kang",
+      "Maarten de Rijke",
+      "Zhaochun Ren"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2024,
+    "paper_title": "The MovieLens Beliefs Dataset: Collecting Pre-Choice Data for Online Recommender Systems",
+    "authors": [
+      "Guy Aridor",
+      "Duarte Goncalves",
+      "Ruoyan Kong",
+      "Daniel Kluver",
+      "Joseph Konstan"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2024,
+    "paper_title": "Unlocking the Hidden Treasures: Enhancing Recommendations with Unlabeled Data",
+    "authors": [
+      "Yuhan Zhao",
+      "Rui Chen",
+      "Qilong Han",
+      "Hongtao Song",
+      "Li Chen"
+    ],
+    "award_type": "best_student_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2025,
+    "paper_title": "You Don't Bring Me Flowers: Mitigating Unwanted Recommendations Through Conformal Risk Control",
+    "authors": [
+      "Giovanni De Toni",
+      "Erasmo Purificato",
+      "Emilia Gomez",
+      "Andrea Passerini",
+      "Bruno Lepri",
+      "Cristian Consonni"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2025,
+    "paper_title": "Beyond Top-1: Addressing Inconsistencies in Evaluating Counterfactual Explanations for Recommender Systems",
+    "authors": [
+      "Amir Reza Mohammadi",
+      "Andreas Peintner",
+      "Michael Müller",
+      "Eva Zangerle"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
     "conference_slug": "rss",
     "year": 2020,
     "paper_title": "Learning Agile Robotic Locomotion Skills by Imitating Animals",
@@ -12496,6 +12802,254 @@
     "tags": []
   },
   {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "Computational Scaffolding of Composition, Value, and Color for Disciplined Drawing",
+    "authors": [
+      "Jiaju Ma",
+      "Chau Vu",
+      "Asya Lyubavina",
+      "Catherine Liu",
+      "Jingyi Li"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "DissolvPCB: Fully Recyclable 3D-Printed Electronics with Liquid Metal Conductors and PVA Substrates",
+    "authors": [
+      "Zeyu Yan",
+      "Su Hwan Hong",
+      "Josiah Hester",
+      "Tingyu Cheng",
+      "Huaishu Peng"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "Graffiti: Enabling an Ecosystem of Personalized and Interoperable Social Applications",
+    "authors": [
+      "Theia Henderson",
+      "David R Karger",
+      "David D Clark"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "MorphingSkin: A Skin-like Platform that Integrates Multimodal Hydraulic Actuators Based on Flexible Electroosmotic Pumps",
+    "authors": [
+      "Tianyu Yu",
+      "Peisheng He",
+      "Bob Tianqi Wei",
+      "Chenyuheng Wang",
+      "Xueqing Li",
+      "Xuezhu Wang",
+      "Yao Lu",
+      "Wei Yue",
+      "Megan Teng",
+      "Zihan Wang",
+      "Liwei Lin",
+      "Haipeng Mi",
+      "Qi Lu",
+      "Lining Yao"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "ProForm: Solder-Free Circuit Assembly Using Thermoforming",
+    "authors": [
+      "Narjes Pourjafarian",
+      "Zhenming Yang",
+      "Jeffrey Ian Lipton",
+      "Benyamin Davaji",
+      "Gregory D. Abowd"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "Reality Promises: Virtual-Physical Decoupling Illusions in Mixed Reality via Invisible Mobile Robots",
+    "authors": [
+      "Mohamed Kari",
+      "Parastoo Abtahi"
+    ],
+    "award_type": "best_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "Creating General User Models from Computer Use",
+    "authors": [
+      "Omar Shaikh",
+      "Shardul Sapkota",
+      "Shan Rizvi",
+      "Eric Horvitz",
+      "Joon Sung Park",
+      "Diyi Yang",
+      "Michael S. Bernstein"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "HeatFlow: A Thermal-Tactile Display for Dynamic 2D Thermal Movements",
+    "authors": [
+      "Yatharth Singhal",
+      "Daniel Honrales",
+      "Jin Ryong Kim"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "HydroHaptics: High-Fidelity Force-Feedback on Soft Deformable Interfaces using Hydrostatic Transmission",
+    "authors": [
+      "James David Nash",
+      "Kim Sauvé",
+      "Catharina Maria van Riet",
+      "Anke van Oosterhout",
+      "Adwait Sharma",
+      "Christopher Clarke",
+      "Jason Alexander"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "ImaginationVellum: Generative-AI Ideation Canvas with Spatial Prompts, Generative Strokes, and Ideation History",
+    "authors": [
+      "Nicolai Marquardt",
+      "Asta Roseway",
+      "Hugo Romat",
+      "Payod Panda",
+      "Michel Pahud",
+      "Gonzalo A Ramos",
+      "Steven M. Drucker",
+      "Andrew D Wilson",
+      "Ken Hinckley",
+      "Nathalie Riche"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "MagTex: Machine-Knitted Magnetoactive Textiles for Bidirectional Human-Machine Interface",
+    "authors": [
+      "Sen Zhang",
+      "Yuxuan Miao",
+      "Jazlin Taylor",
+      "Yiyue Luo"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "Move with Style! Enhancing Avatar Embodiment in Virtual Reality through Proprioceptive Motion Feedback",
+    "authors": [
+      "David Wagmann",
+      "Marie Muehlhaus",
+      "Jürgen Steimle"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification",
+    "authors": [
+      "Wenshuo Zhang",
+      "Leixian Shen",
+      "Shuchang Xu",
+      "Jindu Wang",
+      "Jian Zhao",
+      "Huamin Qu",
+      "Lin-Ping Yuan"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "Squidgets: Sketch-based Widget Design for Scene Manipulation",
+    "authors": [
+      "Joonho Kim",
+      "Fanny Chevalier",
+      "Karan Singh"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "Steering Semantic Data Processing With DocWrangler",
+    "authors": [
+      "Shreya Shankar",
+      "Bhavya Chopra",
+      "Mawil Hasan",
+      "Stephen Lee",
+      "Bjoern Hartmann",
+      "Joseph Hellerstein",
+      "Aditya Parameswaran",
+      "Eugene Wu"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "TwinSpin: A Virtual Ball in a VR Controller Enabling In-Hand 3DoF Rotation",
+    "authors": [
+      "Changsung Lim",
+      "Taejun Kim",
+      "Geehyuk Lee"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
+    "conference_slug": "uist",
+    "year": 2025,
+    "paper_title": "eTactileKit: A Toolkit for Design Exploration and Rapid Prototyping of Electro-Tactile Interfaces",
+    "authors": [
+      "Praneeth Bimsara Perera",
+      "Ravindu Madhushan Pushpakumara",
+      "Hiroyuki Kajimoto",
+      "Arata Jingu",
+      "Jürgen Steimle",
+      "Anusha Withana"
+    ],
+    "award_type": "honorable_mention",
+    "tags": []
+  },
+  {
     "conference_slug": "usenix-security",
     "year": 2020,
     "paper_title": "Sunrise to Sunset: Analyzing the End-to-end Life Cycle and Effectiveness of Phishing Attacks at Scale",
@@ -12608,6 +13162,126 @@
       "SSH",
       "Protocol"
     ]
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2025,
+    "paper_title": "Fuzzing the PHP Interpreter via Dataflow Fusion",
+    "authors": [
+      "Yuancheng Jiang",
+      "Chuqi Zhang",
+      "Bonan Ruan",
+      "Jiahao Liu",
+      "Manuel Rigger",
+      "Roland H. C. Yap",
+      "Zhenkai Liang"
+    ],
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2025,
+    "paper_title": "Confusing Value with Enumeration: Studying the Use of CVEs in Academia",
+    "authors": [
+      "Moritz Schloegel",
+      "Daniel Klischies",
+      "Simon Koch",
+      "David Klein",
+      "Lukas Gerlach",
+      "Malte Wessels",
+      "Leon Trampert",
+      "Martin Johns",
+      "Mathy Vanhoef",
+      "Michael Schwarz",
+      "Thorsten Holz",
+      "Jo Van Bulck"
+    ],
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2025,
+    "paper_title": "Characterizing and Detecting Propaganda-Spreading Accounts on Telegram",
+    "authors": [
+      "Klim Kireev",
+      "Yevhen Mykhno",
+      "Carmela Troncoso",
+      "Rebekah Overdorf"
+    ],
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2025,
+    "paper_title": "My ZIP isn't your ZIP: Identifying and Exploiting Semantic Gaps Between ZIP Parsers",
+    "authors": [
+      "Yufan You",
+      "Jianjun Chen",
+      "Qi Wang",
+      "Haixin Duan"
+    ],
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2025,
+    "paper_title": "How Transparent is Usable Privacy and Security Research? A Meta-Study on Current Research Transparency Practices",
+    "authors": [
+      "Jan H. Klemmer",
+      "Juliane Schmüser",
+      "Fabian Fischer",
+      "Jacques Suray",
+      "Jan-Ulrich Holtgrave",
+      "Simon Lenau",
+      "Byron M. Lowens",
+      "Florian Schaub",
+      "Sascha Fahl"
+    ],
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2025,
+    "paper_title": "Catch-22: Uncovering Compromised Hosts using SSH Public Keys",
+    "authors": [
+      "Cristian Munteanu",
+      "Georgios Smaragdakis",
+      "Anja Feldmann",
+      "Tobias Fiebig"
+    ],
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2025,
+    "paper_title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs",
+    "authors": [
+      "Joseph Spracklen",
+      "Raveen Wijewickrama",
+      "A H M Nazmus Sakib",
+      "Anindya Maiti",
+      "Bimal Viswanath"
+    ],
+    "award_type": "distinguished_paper",
+    "tags": []
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2025,
+    "paper_title": "Branch Privilege Injection: Compromising Spectre v2 Hardware Mitigations by Exploiting Branch Predictor Race Conditions",
+    "authors": [
+      "Sandro Rüegge",
+      "Johannes Wikner",
+      "Kaveh Razavi"
+    ],
+    "award_type": "distinguished_paper",
+    "tags": []
   },
   {
     "conference_slug": "vldb",

@@ -630,1611 +630,2373 @@
     "year": 2025
   },
   {
+    "conference_slug": "fse",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fse",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fse",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "fse",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "usenix-security",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "usenix-security",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "usenix-security",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "usenix-security",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ndss",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ndss",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ndss",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ndss",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "pldi",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pldi",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pldi",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "pldi",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "popl",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "popl",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "popl",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "popl",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "emnlp",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "emnlp",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "emnlp",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "www",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "www",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "www",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "wsdm",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "wsdm",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "wsdm",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sigir",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sigir",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sigir",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "aistats",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "aistats",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "aistats",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "uai",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "uai",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "uai",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "colt",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "colt",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "colt",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "aamas",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "aamas",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icaps",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icaps",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "coling",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "coling",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "coling",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "wacv",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "wacv",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "wacv",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurosys",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurosys",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurosys",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "atc",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "atc",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "atc",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asplos",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asplos",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asplos",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "nsdi",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "nsdi",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "nsdi",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ppopp",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ppopp",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fast",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fast",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "crypto",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "crypto",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurocrypt",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurocrypt",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icde",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icde",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cikm",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cikm",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "uist",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "uist",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cscw",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cscw",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ubicomp",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ubicomp",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ase",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ase",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "issta",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "issta",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "msr",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "msr",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "soda",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "soda",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icalp",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icalp",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobicom",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobicom",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "infocom",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "infocom",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "micro",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "micro",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hpca",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hpca",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dac",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dac",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iros",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iros",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "rss",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "rss",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "imc",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "imc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "oopsla",
+    "institution": "BK21",
+    "tier": "4",
+    "year": 2025
+  },
+  {
+    "conference_slug": "oopsla",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "itcs",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "itcs",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pods",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pods",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "naacl",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "naacl",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eccv",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eccv",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecai",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecai",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "recsys",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "recsys",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eacl",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eacl",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "aacl",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "aacl",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "accv",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "accv",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "bmvc",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "bmvc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "3dv",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "3dv",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "socc",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "socc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hpdc",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hpdc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sc",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sc",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asiacrypt",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asiacrypt",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "acsac",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "acsac",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esorics",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esorics",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "edbt",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "edbt",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dasfaa",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dasfaa",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iui",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iui",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dis",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dis",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "saner",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "saner",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icsme",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icsme",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esa",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esa",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "isaac",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "isaac",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "conext",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "conext",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobisys",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobisys",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "date",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "date",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccad",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccad",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurographics",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurographics",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "corl",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "corl",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hri",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hri",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icnp",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icnp",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cgo",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cgo",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pact",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pact",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pg",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pg",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "conll",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "conll",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "lrec",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "lrec",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "miccai",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "miccai",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icip",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icip",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icpr",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icpr",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fg",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fg",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "acml",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "acml",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pakdd",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pakdd",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "gecco",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "gecco",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "bigdata",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "bigdata",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icdm",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icdm",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sdm",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sdm",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "middleware",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "middleware",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icdcs",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icdcs",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cluster",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cluster",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ics",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ics",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pets",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pets",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "raid",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "raid",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dsn",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dsn",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "csf",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "csf",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mdm",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mdm",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "er",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "er",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobilehci",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobilehci",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "assets",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "assets",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "interact",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "interact",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esem",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esem",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "issre",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "issre",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icst",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icst",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "models",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "models",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fase",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fase",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccc",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "socg",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "socg",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mfcs",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mfcs",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sensys",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sensys",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobihoc",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobihoc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "i3d",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "i3d",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sca",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sca",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "egsr",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "egsr",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "case",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "case",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "isrr",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "isrr",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cscw",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sensys",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cikm",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobicom",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobisys",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ics",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "wsdm",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ubicomp",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobihoc",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sigir",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ppopp",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "pods",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "uist",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "soda",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sc",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "colt",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "asplos",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "oopsla",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "uai",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "dac",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "emnlp",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurosys",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "eccv",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "gecco",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "infocom",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icde",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icdm",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icdcs",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hpdc",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hpca",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ase",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccad",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "micro",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "miccai",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "pact",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "conext",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurocrypt",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "crypto",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "www",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "atc",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "fast",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "nsdi",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "socg",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "stoc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "focs",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "soda",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "pods",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "eccv",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "oopsla",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "crypto",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "icde",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "siggraph",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "dac",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "chi",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "uist",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "hpca",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "sc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "popl",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "pact",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "eurocrypt",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "icse",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "fse",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "icdm",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "conext",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "fast",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "ndss",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "usenix-security",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "isca",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "pldi",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "ase",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "micro",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "cikm",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "mobisys",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "ppopp",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "hpdc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "sigcomm",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "mobicom",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "miccai",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "naacl",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "issta",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "ubicomp",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "infocom",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "sensys",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "eurographics",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "edbt",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "isaac",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "cluster",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "imc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "icalp",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "cgo",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "csf",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "sdm",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "eacl",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "dsn",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "iccad",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "esa",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "iui",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "ics",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "raid",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "esorics",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "icnp",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "socc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "pg",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "acsac",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "mobihoc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "accv",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "icdcs",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "bigdata",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "bmvc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "conll",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "cscw",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "fase",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "i3d",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
     "conference_slug": "icra",
-    "institution": "SNU",
+    "institution": "POSTECH",
     "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "fse",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "fse",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "fse",
-    "institution": "KAIST",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "fse",
-    "institution": "SNU",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "usenix-security",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "usenix-security",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "usenix-security",
-    "institution": "KAIST",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "usenix-security",
-    "institution": "SNU",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "ndss",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ndss",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ndss",
-    "institution": "KAIST",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "ndss",
-    "institution": "SNU",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "pldi",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pldi",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pldi",
-    "institution": "KAIST",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "pldi",
-    "institution": "SNU",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "popl",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "popl",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "popl",
-    "institution": "KAIST",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "popl",
-    "institution": "SNU",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "emnlp",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "emnlp",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "emnlp",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "www",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "www",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "www",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "wsdm",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "wsdm",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "wsdm",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "sigir",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "sigir",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "sigir",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "aistats",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "aistats",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "aistats",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "uai",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "uai",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "uai",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "colt",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "colt",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "colt",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "aamas",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "aamas",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "aamas",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icaps",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icaps",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icaps",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "coling",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "coling",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "coling",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "wacv",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "wacv",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "wacv",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eurosys",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eurosys",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eurosys",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "atc",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "atc",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "atc",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "asplos",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "asplos",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "asplos",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "nsdi",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "nsdi",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "nsdi",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ppopp",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ppopp",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "fast",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "fast",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "crypto",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "crypto",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eurocrypt",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eurocrypt",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icde",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icde",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cikm",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cikm",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "uist",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "uist",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cscw",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cscw",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ubicomp",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ubicomp",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ase",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ase",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "issta",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "issta",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "msr",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "msr",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "soda",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "soda",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icalp",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icalp",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mobicom",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mobicom",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "infocom",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "infocom",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "micro",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "micro",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "hpca",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "hpca",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "dac",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "dac",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "siggraph-asia",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "siggraph-asia",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "iros",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "iros",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "rss",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "rss",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "imc",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "imc",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "oopsla",
-    "institution": "BK21",
-    "tier": "4",
-    "year": 2025
-  },
-  {
-    "conference_slug": "oopsla",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "itcs",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "itcs",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pods",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pods",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "naacl",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "naacl",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eccv",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eccv",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ecai",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ecai",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "recsys",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "recsys",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eacl",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eacl",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "aacl",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "aacl",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "accv",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "accv",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "bmvc",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "bmvc",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "3dv",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "3dv",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "socc",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "socc",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "hpdc",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "hpdc",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "sc",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "sc",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "asiacrypt",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "asiacrypt",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "acsac",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "acsac",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "esorics",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "esorics",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "edbt",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "edbt",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "dasfaa",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "dasfaa",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "iui",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "iui",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "dis",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "dis",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "saner",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "saner",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
+    "year": 2026
   },
   {
     "conference_slug": "icsme",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icsme",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "esa",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "esa",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "isaac",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "isaac",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "conext",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "conext",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mobisys",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mobisys",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "date",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "date",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "iccad",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "iccad",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eurographics",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "eurographics",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "corl",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "corl",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "hri",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "hri",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icnp",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icnp",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cgo",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cgo",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pact",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pact",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pg",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pg",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "conll",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "conll",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "lrec",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "lrec",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "miccai",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "miccai",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icip",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icip",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icpr",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icpr",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "fg",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "fg",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "acml",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "acml",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pakdd",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pakdd",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ecml-pkdd",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ecml-pkdd",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "gecco",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "gecco",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "bigdata",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "bigdata",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icdm",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icdm",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "sdm",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "sdm",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "middleware",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "middleware",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icdcs",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "icdcs",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cluster",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cluster",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ics",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ics",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pets",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "pets",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "raid",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "raid",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "dsn",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "dsn",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "csf",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "csf",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mdm",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mdm",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "er",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "er",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mobilehci",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mobilehci",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "assets",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "assets",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "interact",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "interact",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "esem",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "esem",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "issre",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "issre",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
     "conference_slug": "icst",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
-    "conference_slug": "icst",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
+    "conference_slug": "issre",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
+  },
+  {
+    "conference_slug": "middleware",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
     "conference_slug": "models",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
-    "conference_slug": "models",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
+    "conference_slug": "msr",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
-    "conference_slug": "fase",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
+    "conference_slug": "pets",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
-    "conference_slug": "fase",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ccc",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ccc",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "socg",
-    "institution": "BK21",
-    "tier": "2",
-    "year": 2025
-  },
-  {
-    "conference_slug": "socg",
-    "institution": "KIISE",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mfcs",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mfcs",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "sensys",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "sensys",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mobihoc",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "mobihoc",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "i3d",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "i3d",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
+    "conference_slug": "recsys",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
     "conference_slug": "sca",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
-    "conference_slug": "sca",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
+    "conference_slug": "date",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
-    "conference_slug": "egsr",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
+    "conference_slug": "mfcs",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
-    "conference_slug": "egsr",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
+    "conference_slug": "mobilehci",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
-    "conference_slug": "case",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
+    "conference_slug": "iros",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   },
   {
-    "conference_slug": "case",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "isrr",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "isrr",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
+    "conference_slug": "lrec",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2026
   }
 ]
