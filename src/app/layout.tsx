@@ -41,6 +41,21 @@ export const metadata: Metadata = {
     siteName: "CS-Pedia",
     locale: "ko_KR",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼",
+    description:
+      "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에.",
+    images: ["/og-image.png"],
   },
 };
 
