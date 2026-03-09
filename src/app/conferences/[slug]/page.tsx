@@ -30,8 +30,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     if (!result) return {};
     const { conference } = result;
     return {
-      title: `${conference.acronym} - ${conference.nameEn}`,
-      description: `${conference.acronym} 학회 정보: BK21/KIISE 인정, 데드라인, Acceptance Rate, Best Paper`,
+      title: `${conference.acronym} ${new Date().getFullYear()} - ${conference.nameEn}`,
+      description: `${conference.acronym} ${new Date().getFullYear()} deadline, acceptance rate, best paper awards. ${conference.nameEn} — 학회 데드라인, BK21/KIISE 인정, Acceptance Rate 정보.`,
+      keywords: [
+        `${conference.acronym} deadline`,
+        `${conference.acronym} ${new Date().getFullYear()} deadline`,
+        `${conference.acronym} acceptance rate`,
+        `${conference.acronym} best paper`,
+        `${conference.acronym} call for papers`,
+        `${conference.acronym} CFP`,
+        conference.nameEn,
+      ],
     };
   } catch {
     return {};
