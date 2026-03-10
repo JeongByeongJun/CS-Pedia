@@ -5,8 +5,12 @@ import {
   TooltipTrigger,
   TooltipContent,
 } from "@/components/ui/tooltip";
+import { useLocale } from "@/presentation/hooks/use-locale";
 
-export function InfoTooltip({ text }: { text: string }) {
+export function InfoTooltip({ text, textEn }: { text: string; textEn?: string }) {
+  const { isKorean } = useLocale();
+  const displayText = (!isKorean && textEn) ? textEn : text;
+
   return (
     <Tooltip>
       <TooltipTrigger asChild>
@@ -14,7 +18,7 @@ export function InfoTooltip({ text }: { text: string }) {
           ?
         </span>
       </TooltipTrigger>
-      <TooltipContent>{text}</TooltipContent>
+      <TooltipContent>{displayText}</TooltipContent>
     </Tooltip>
   );
 }

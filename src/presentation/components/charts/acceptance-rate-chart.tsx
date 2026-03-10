@@ -1,5 +1,6 @@
 "use client";
 
+import { useLocale } from "@/presentation/hooks/use-locale";
 import {
   AreaChart,
   Area,
@@ -22,6 +23,7 @@ interface AcceptanceRateChartProps {
 }
 
 export function AcceptanceRateChart({ data }: AcceptanceRateChartProps) {
+  const { isKorean } = useLocale();
   const chartData = [...data]
     .filter((d) => d.rate != null)
     .sort((a, b) => a.year - b.year);
@@ -50,8 +52,8 @@ export function AcceptanceRateChart({ data }: AcceptanceRateChartProps) {
               border: "1px solid #e4e4e7",
               fontSize: 13,
             }}
-            formatter={(value) => [`${value}%`, "채택률"]}
-            labelFormatter={(label) => `${label}년`}
+            formatter={(value) => [`${value}%`, isKorean ? "채택률" : "Acceptance Rate"]}
+            labelFormatter={(label) => isKorean ? `${label}년` : String(label)}
           />
           <Area
             type="monotone"

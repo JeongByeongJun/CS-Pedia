@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { LogIn, LogOut, ChevronDown } from "lucide-react";
 import { signInWithGoogle, signInWithGithub, signOut } from "@/app/actions/auth";
+import { useLocale } from "@/presentation/hooks/use-locale";
 
 interface AuthButtonProps {
   user: {
@@ -13,6 +14,7 @@ interface AuthButtonProps {
 }
 
 export function AuthButton({ user }: AuthButtonProps) {
+  const { isKorean } = useLocale();
   const [open, setOpen] = useState(false);
 
   if (user) {
@@ -27,7 +29,7 @@ export function AuthButton({ user }: AuthButtonProps) {
             className="px-3 py-2 text-sm rounded-lg bg-white/10 hover:bg-white/20 transition-colors flex items-center gap-1.5"
           >
             <LogOut className="w-4 h-4" />
-            <span className="hidden sm:inline">로그아웃</span>
+            <span className="hidden sm:inline">{isKorean ? "로그아웃" : "Sign out"}</span>
           </button>
         </form>
       </div>
@@ -41,7 +43,7 @@ export function AuthButton({ user }: AuthButtonProps) {
         className="px-4 py-2 text-sm rounded-lg bg-white/10 hover:bg-white/20 transition-colors flex items-center gap-1.5"
       >
         <LogIn className="w-4 h-4" />
-        로그인
+        {isKorean ? "로그인" : "Sign in"}
         <ChevronDown className="w-3 h-3" />
       </button>
 
@@ -63,7 +65,7 @@ export function AuthButton({ user }: AuthButtonProps) {
                 style={{ color: "#374151" }}
               >
                 <GoogleIcon />
-                Google로 계속하기
+                {isKorean ? "Google로 계속하기" : "Continue with Google"}
               </button>
             </form>
             <form action={signInWithGithub}>
@@ -73,7 +75,7 @@ export function AuthButton({ user }: AuthButtonProps) {
                 style={{ color: "#374151" }}
               >
                 <GitHubIcon />
-                GitHub로 계속하기
+                {isKorean ? "GitHub로 계속하기" : "Continue with GitHub"}
               </button>
             </form>
           </div>

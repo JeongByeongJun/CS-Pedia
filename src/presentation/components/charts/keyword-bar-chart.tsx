@@ -1,5 +1,6 @@
 "use client";
 
+import { useLocale } from "@/presentation/hooks/use-locale";
 import {
   BarChart,
   Bar,
@@ -30,12 +31,13 @@ const BAR_COLORS = [
 ];
 
 export function KeywordBarChart({ topKeywords }: KeywordBarChartProps) {
+  const { isKorean } = useLocale();
   const data = topKeywords.slice(0, 15);
 
   if (data.length === 0) {
     return (
       <div className="text-center py-12 text-zinc-400 text-sm">
-        키워드 데이터가 없습니다
+        {isKorean ? "키워드 데이터가 없습니다" : "No keyword data available"}
       </div>
     );
   }
@@ -66,7 +68,7 @@ export function KeywordBarChart({ topKeywords }: KeywordBarChartProps) {
               border: "1px solid #e4e4e7",
               fontSize: 13,
             }}
-            formatter={(value) => [`${Number(value).toLocaleString()}건`, "총 등장 수"]}
+            formatter={(value) => [`${Number(value).toLocaleString()}`, isKorean ? "총 등장 수" : "Total occurrences"]}
           />
           <Bar dataKey="totalCount" radius={[0, 6, 6, 0]} barSize={20}>
             {data.map((_, i) => (

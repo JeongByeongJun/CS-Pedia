@@ -5,6 +5,7 @@ import type { ConferenceWithRelations } from "@/domain/repositories/conference-r
 import { ConferenceSearch } from "./conference-search";
 import { ConferenceFilters } from "./conference-filters";
 import { ConferenceList } from "./conference-list";
+import { useLocale } from "@/presentation/hooks/use-locale";
 
 interface ConferenceClientSectionProps {
   conferences: ConferenceWithRelations[];
@@ -17,6 +18,7 @@ export function ConferenceClientSection({
   bookmarkedIds,
   isLoggedIn,
 }: ConferenceClientSectionProps) {
+  const { isKorean } = useLocale();
   const [search, setSearch] = useState("");
   const [field, setField] = useState("");
   const [institution, setInstitution] = useState("");
@@ -98,7 +100,7 @@ export function ConferenceClientSection({
             className="md:hidden flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium bg-zinc-100 text-zinc-600 hover:bg-zinc-200 transition-all shrink-0"
             onClick={() => setShowFilters((v) => !v)}
           >
-            필터
+            {isKorean ? "필터" : "Filter"}
             {activeFilterCount > 0 && (
               <span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-indigo-600 text-white text-[10px]">
                 {activeFilterCount}

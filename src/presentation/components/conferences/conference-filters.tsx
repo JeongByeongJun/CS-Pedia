@@ -2,6 +2,7 @@
 
 import { FIELDS } from "@/shared/constants/fields";
 import { INSTITUTIONS } from "@/shared/constants/institutions";
+import { useLocale } from "@/presentation/hooks/use-locale";
 
 interface ConferenceFiltersProps {
   selectedField: string;
@@ -20,11 +21,24 @@ export function ConferenceFilters({
   onInstitutionChange,
   onSortChange,
 }: ConferenceFiltersProps) {
+  const { isKorean } = useLocale();
+
+  const sortOptions = isKorean
+    ? [
+        { id: "deadline", label: "데드라인순" },
+        { id: "alphabetical", label: "이름순" },
+        { id: "bk21", label: "BK21순" },
+      ]
+    : [
+        { id: "deadline", label: "By Deadline" },
+        { id: "alphabetical", label: "Alphabetical" },
+      ];
+
   return (
     <div className="space-y-4">
-      {/* 분야 필터 */}
+      {/* 분야 / Field 필터 */}
       <div>
-        <div className="text-xs text-zinc-400 mb-2 font-medium">분야</div>
+        <div className="text-xs text-zinc-400 mb-2 font-medium">{isKorean ? "분야" : "Field"}</div>
         <div className="flex flex-wrap gap-1.5">
           {FIELDS.map((f) => (
             <button
@@ -42,45 +56,43 @@ export function ConferenceFilters({
         </div>
       </div>
 
-      {/* 기관 필터 */}
-      <div>
-        <div className="text-xs text-zinc-400 mb-2 font-medium">기관 인정</div>
-        <div className="flex flex-wrap gap-1.5">
-          <button
-            onClick={() => onInstitutionChange("")}
-            className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-              !selectedInstitution
-                ? "bg-indigo-600 text-white shadow-sm"
-                : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
-            }`}
-          >
-            전체
-          </button>
-          {INSTITUTIONS.map((inst) => (
+      {/* 기관 필터 — KR only */}
+      {isKorean && (
+        <div>
+          <div className="text-xs text-zinc-400 mb-2 font-medium">기관 인정</div>
+          <div className="flex flex-wrap gap-1.5">
             <button
-              key={inst}
-              onClick={() => onInstitutionChange(inst)}
+              onClick={() => onInstitutionChange("")}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                selectedInstitution === inst
+                !selectedInstitution
                   ? "bg-indigo-600 text-white shadow-sm"
                   : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
               }`}
             >
-              {inst}
+              전체
             </button>
-          ))}
+            {INSTITUTIONS.map((inst) => (
+              <button
+                key={inst}
+                onClick={() => onInstitutionChange(inst)}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  selectedInstitution === inst
+                    ? "bg-indigo-600 text-white shadow-sm"
+                    : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
+                }`}
+              >
+                {inst}
+              </button>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
-      {/* 정렬 */}
+      {/* 정렬 / Sort */}
       <div>
-        <div className="text-xs text-zinc-400 mb-2 font-medium">정렬</div>
+        <div className="text-xs text-zinc-400 mb-2 font-medium">{isKorean ? "정렬" : "Sort"}</div>
         <div className="flex gap-1 bg-zinc-100 rounded-xl p-1 w-fit">
-          {[
-            { id: "deadline", label: "데드라인순" },
-            { id: "alphabetical", label: "이름순" },
-            { id: "bk21", label: "BK21순" },
-          ].map((tab) => (
+          {sortOptions.map((tab) => (
             <button
               key={tab.id}
               onClick={() => onSortChange(tab.id)}

@@ -101,7 +101,7 @@ export default async function TrendsPage() {
           Trends
         </h1>
         <p className="text-sm text-zinc-500 mb-6">
-          학회별 채택률 추이와 연구 키워드 트렌드를 분석하세요.
+          Acceptance rates &amp; keyword trends across top CS venues.
         </p>
 
         <TrendsTabs
@@ -114,7 +114,7 @@ export default async function TrendsPage() {
                 >
                   ACCEPTANCE RATE
                 </h3>
-                <InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수를 기반으로 산출합니다. 제출 수 미제공 학회는 채택 수만 표시됩니다." />
+                <InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수를 기반으로 산출합니다. 제출 수 미제공 학회는 채택 수만 표시됩니다." textEn="Calculated from accepted paper counts collected from DBLP / OpenAlex. Conferences without submission counts show accepted count only." />
               </div>
               <MultiConferenceChart
                 conferences={conferences}
@@ -132,7 +132,7 @@ export default async function TrendsPage() {
                   >
                     KEYWORD TREND
                   </h3>
-                  <InfoTooltip text="Semantic Scholar에서 수집한 채택 논문 제목에서 CS 키워드를 추출해 연도별 등장 빈도를 집계합니다." />
+                  <InfoTooltip text="Semantic Scholar에서 수집한 채택 논문 제목에서 CS 키워드를 추출해 연도별 등장 빈도를 집계합니다." textEn="Extracts CS keywords from accepted paper titles collected via Semantic Scholar and aggregates annual frequency." />
                 </div>
                 {keywordData.length > 0 ? (
                   <KeywordTrendChart
@@ -156,7 +156,7 @@ export default async function TrendsPage() {
                   >
                     TOP KEYWORDS (ALL TIME)
                   </h3>
-                  <InfoTooltip text="2020년 이후 전체 학회 채택 논문에서 키워드별 총 등장 횟수를 기준으로 상위 키워드를 표시합니다." />
+                  <InfoTooltip text="2020년 이후 전체 학회 채택 논문에서 키워드별 총 등장 횟수를 기준으로 상위 키워드를 표시합니다." textEn="Shows top keywords ranked by total occurrences across all accepted papers since 2020." />
                 </div>
                 <KeywordBarChart topKeywords={topKeywords} />
               </div>

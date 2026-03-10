@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useLocale } from "@/presentation/hooks/use-locale";
 import {
   LineChart,
   Line,
@@ -34,6 +35,7 @@ export function MultiConferenceChart({
   conferences,
   fields,
 }: MultiConferenceChartProps) {
+  const { isKorean } = useLocale();
   const [selectedField, setSelectedField] = useState<string>("전체");
   const [selectedSlugs, setSelectedSlugs] = useState<Set<string>>(() => {
     const top = conferences.slice(0, 6).map((c) => c.slug);
@@ -88,7 +90,7 @@ export function MultiConferenceChart({
                 : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
             }`}
           >
-            {f}
+            {f === "전체" ? (isKorean ? "전체" : "All") : f}
           </button>
         ))}
       </div>
@@ -137,7 +139,7 @@ export function MultiConferenceChart({
                   const conf = active.find((c) => c.slug === slug);
                   return [`${value}%`, conf?.acronym ?? slug];
                 }}
-                labelFormatter={(label) => `${label}년`}
+                labelFormatter={(label) => isKorean ? `${label}년` : String(label)}
               />
               <Legend
                 formatter={(slug) => {
@@ -161,7 +163,7 @@ export function MultiConferenceChart({
         </div>
       ) : (
         <div className="text-center py-12 text-zinc-400 text-sm">
-          학회를 선택하면 차트가 표시됩니다
+          {isKorean ? "학회를 선택하면 차트가 표시됩니다" : "Select conferences to display chart"}
         </div>
       )}
     </div>

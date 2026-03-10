@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import type { ConferenceWithRelations } from "@/domain/repositories/conference-repository";
 import { DeadlineBadge } from "./deadline-badge";
@@ -7,6 +9,7 @@ import { BestPaperAccordion } from "./best-paper-accordion";
 import { BookmarkButton } from "./bookmark-button";
 import { formatDate } from "@/shared/utils/date";
 import { conferenceUrl } from "@/shared/utils/url";
+import { useLocale } from "@/presentation/hooks/use-locale";
 
 interface ConferenceCardProps {
   conference: ConferenceWithRelations;
@@ -19,6 +22,7 @@ export function ConferenceCard({
   isBookmarked,
   isLoggedIn,
 }: ConferenceCardProps) {
+  const { isKorean } = useLocale();
   const ddays = conference.daysUntilDeadline;
 
   const editionYear =
@@ -56,7 +60,7 @@ export function ConferenceCard({
               )}
               {conference.nextDeadline === null && (
                 <span className="text-xs px-1.5 py-0.5 bg-zinc-100 text-zinc-400 rounded font-medium border border-zinc-200">
-                  CFP 미발표
+                  {isKorean ? "CFP 미발표" : "CFP TBA"}
                 </span>
               )}
               {!(ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date()) && (
@@ -69,7 +73,7 @@ export function ConferenceCard({
             <div className="flex items-center gap-4 text-xs text-zinc-400 flex-wrap">
               {ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date() ? (
                 <span className="text-zinc-400">
-                  다음 일정이 공개되지 않았습니다.
+                  {isKorean ? "다음 일정이 공개되지 않았습니다." : "Next schedule not announced."}
                 </span>
               ) : conference.nextDeadline ? (
                 <>
@@ -80,12 +84,12 @@ export function ConferenceCard({
                   )}
                   {conference.venue && <span>📍 {conference.venue}</span>}
                   <span>
-                    ⏰ 마감 {formatDate(conference.nextDeadline)}
+                    {isKorean ? `⏰ 마감 ${formatDate(conference.nextDeadline)}` : `⏰ Deadline ${formatDate(conference.nextDeadline)}`}
                   </span>
                 </>
               ) : (
                 <span className="text-zinc-400">
-                  다음 일정이 공개되지 않았습니다.
+                  {isKorean ? "다음 일정이 공개되지 않았습니다." : "Next schedule not announced."}
                 </span>
               )}
             </div>

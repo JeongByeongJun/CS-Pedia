@@ -1,7 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import type { BestPaperWithConference } from "@/domain/repositories/best-paper-repository";
 import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 import { conferenceUrl, formatAuthors } from "@/shared/utils/url";
+import { useLocale } from "@/presentation/hooks/use-locale";
 
 interface BestPaperListProps {
   papers: BestPaperWithConference[];
@@ -20,6 +23,8 @@ const AWARD_COLORS: Record<string, string> = {
 };
 
 export function BestPaperList({ papers }: BestPaperListProps) {
+  const { isKorean } = useLocale();
+
   if (papers.length === 0) {
     return (
       <div
@@ -42,7 +47,7 @@ export function BestPaperList({ papers }: BestPaperListProps) {
           🏆
         </div>
         <div style={{ fontSize: "14px", color: "#71717a" }}>
-          해당 조건의 Best Paper가 없습니다
+          {isKorean ? "해당 조건의 Best Paper가 없습니다" : "No Best Papers match the selected filters"}
         </div>
       </div>
     );

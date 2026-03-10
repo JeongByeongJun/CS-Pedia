@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { getConferenceDetail, getKeywordTrendsByConference } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 import { getBookmarkStatus, getBookmarkCount } from "@/app/actions/bookmark";
@@ -60,6 +61,9 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
   const { conference, deadlines, bestPapers, ratings, acceptanceRates } = result;
 
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
+
   const keywordTrends = await getKeywordTrendsByConference(conference.id).catch(() => []);
 
   const supabase = await createSupabaseServerClient();
@@ -117,7 +121,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
           href="/"
           className="inline-flex items-center gap-1 text-sm text-zinc-500 hover:text-zinc-700 mb-6"
         >
-          ← 학회 목록으로
+          {isKorean ? "← 학회 목록으로" : "← Back to list"}
         </Link>
 
         {/* 학회 헤더 */}
@@ -140,14 +144,14 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                     rel="noopener noreferrer"
                     className="text-sm text-indigo-600 hover:underline"
                   >
-                    🌐 공식 웹사이트
+                    {isKorean ? "🌐 공식 웹사이트" : "🌐 Official Website"}
                   </a>
                 )}
                 <a
                   href={`mailto:contact@cs-pedia.io?subject=${encodeURIComponent(`[오류 신고] ${conference.acronym}`)}&body=${encodeURIComponent(`학회: ${conference.acronym} (${conference.nameEn})\n페이지: https://cs-pedia.io/conferences/${slug}\n\n오류 내용:\n`)}`}
                   className="text-sm text-zinc-400 hover:text-zinc-600"
                 >
-                  ⚠️ 정보 오류 신고
+                  {isKorean ? "⚠️ 정보 오류 신고" : "⚠️ Report an error"}
                 </a>
               </div>
             </div>
@@ -159,8 +163,8 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* 기관 인정 현황 */}
-        <Section title={<>기관 인정 현황<InfoTooltip text="BK21: 2018년 BK21플러스 점수 기준 (1~4점) · KIISE: 2024년 한국정보과학회 기준 (최우수/우수) · POSTECH: 2026년 기준 (최우수/우수) · KAIST: 2022년 인정 기준 · SNU: 2024년 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>}>
+        {/* 기관 인정 현황 — KR only */}
+        {isKorean && <Section title={<>기관 인정 현황<InfoTooltip text="BK21: 2018년 BK21플러스 점수 기준 (1~4점) · KIISE: 2024년 한국정보과학회 기준 (최우수/우수) · POSTECH: 2026년 기준 (최우수/우수) · KAIST: 2022년 인정 기준 · SNU: 2024년 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>}>
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
             {INSTITUTIONS.map((inst) => {
               const rating = ratings.find((r) => r.institution === inst);
@@ -188,11 +192,11 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
               );
             })}
           </div>
-        </Section>
+        </Section>}
 
         {/* 데드라인 이력 */}
         {deadlines.length > 0 && (
-          <Section title="데드라인">
+          <Section title={isKorean ? "데드라인" : "Deadlines"}>
             <div className="space-y-3">
               {deadlines.map((d) => (
                 <div
@@ -209,38 +213,40 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   </div>
                   <div className="text-right text-xs text-zinc-500">
                     {d.paperDeadline && (
-                      <div>📝 마감: {formatDate(d.paperDeadline)}</div>
+                      <div>📝 {isKorean ? "마감" : "Deadline"}: {formatDate(d.paperDeadline)}</div>
                     )}
                     {d.conferenceStart && (
-                      <div>📅 학회: {formatDate(d.conferenceStart)}</div>
+                      <div>📅 {isKorean ? "학회" : "Conference"}: {formatDate(d.conferenceStart)}</div>
                     )}
                   </div>
                 </div>
               ))}
             </div>
             <p className="mt-3 text-xs text-zinc-400">
-              데드라인은 변경될 수 있습니다. 제출 전 공식 웹사이트에서 최종 일정을 확인하세요.
+              {isKorean
+                ? "데드라인은 변경될 수 있습니다. 제출 전 공식 웹사이트에서 최종 일정을 확인하세요."
+                : "Deadlines may change. Always verify on the official website before submitting."}
             </p>
           </Section>
         )}
 
         {/* Acceptance Rate */}
         {acceptanceRates.length === 0 && (
-          <Section title={<>Acceptance Rate<InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." /></>}>
-            <p className="text-sm text-zinc-400">채택률 데이터가 없습니다.</p>
+          <Section title={<>Acceptance Rate<InfoTooltip text={isKorean ? "DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." : "Calculated from accepted paper counts collected from DBLP / OpenAlex. Rate = accepted ÷ submitted. If submission count is unavailable, only accepted count is shown."} /></>}>
+            <p className="text-sm text-zinc-400">{isKorean ? "채택률 데이터가 없습니다." : "No acceptance rate data available."}</p>
           </Section>
         )}
         {acceptanceRates.length > 0 && (
-          <Section title={<>Acceptance Rate<InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." /></>}>
+          <Section title={<>Acceptance Rate<InfoTooltip text={isKorean ? "DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." : "Calculated from accepted paper counts collected from DBLP / OpenAlex. Rate = accepted ÷ submitted. If submission count is unavailable, only accepted count is shown."} /></>}>
             <AcceptanceRateChart data={acceptanceRates} />
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="text-left text-zinc-500 border-b border-zinc-100">
-                    <th className="pb-2 font-medium">연도</th>
-                    <th className="pb-2 font-medium text-right">제출</th>
-                    <th className="pb-2 font-medium text-right">채택</th>
-                    <th className="pb-2 font-medium text-right">채택률</th>
+                    <th className="pb-2 font-medium">{isKorean ? "연도" : "Year"}</th>
+                    <th className="pb-2 font-medium text-right">{isKorean ? "제출" : "Submitted"}</th>
+                    <th className="pb-2 font-medium text-right">{isKorean ? "채택" : "Accepted"}</th>
+                    <th className="pb-2 font-medium text-right">{isKorean ? "채택률" : "Rate"}</th>
                     <th className="pb-2 font-medium" style={{ width: "40%" }}></th>
                   </tr>
                 </thead>
@@ -280,7 +286,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
         {/* Research Trend */}
         {keywordTrends.length > 0 && (
-          <Section title={<>Research Trend<InfoTooltip text="Semantic Scholar에서 수집한 채택 논문 제목 기반으로 CS 키워드 빈도를 분석합니다. 2년 이상 데이터가 있을 경우 연도별 추이를 확인할 수 있습니다." /></>}>
+          <Section title={<>Research Trend<InfoTooltip text={isKorean ? "Semantic Scholar에서 수집한 채택 논문 제목 기반으로 CS 키워드 빈도를 분석합니다. 2년 이상 데이터가 있을 경우 연도별 추이를 확인할 수 있습니다." : "Analyzes CS keyword frequency from accepted paper titles collected via Semantic Scholar. Year-over-year trends are shown when data spans 2+ years."} /></>}>
             <ConferenceKeywordChart data={keywordTrends} />
           </Section>
         )}

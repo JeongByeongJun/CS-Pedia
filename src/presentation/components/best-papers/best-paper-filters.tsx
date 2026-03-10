@@ -1,5 +1,7 @@
 "use client";
 
+import { useLocale } from "@/presentation/hooks/use-locale";
+
 interface BestPaperFiltersProps {
   years: number[];
   conferences: string[];
@@ -17,11 +19,13 @@ export function BestPaperFilters({
   onYearChange,
   onConferenceChange,
 }: BestPaperFiltersProps) {
+  const { isKorean } = useLocale();
+
   return (
     <div>
       {/* 연도 필터 */}
       <div className="mb-3">
-        <div className="text-xs text-zinc-500 mb-2 font-medium">연도</div>
+        <div className="text-xs text-zinc-500 mb-2 font-medium">{isKorean ? "연도" : "Year"}</div>
         <div className="flex flex-wrap gap-1.5">
           <button
             onClick={() => onYearChange(null)}
@@ -31,7 +35,7 @@ export function BestPaperFilters({
                 : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
             }`}
           >
-            전체
+            {isKorean ? "전체" : "All"}
           </button>
           {years.map((y) => (
             <button
@@ -51,7 +55,7 @@ export function BestPaperFilters({
 
       {/* 학회 필터 */}
       <div>
-        <div className="text-xs text-zinc-500 mb-2 font-medium">학회</div>
+        <div className="text-xs text-zinc-500 mb-2 font-medium">{isKorean ? "학회" : "Conference"}</div>
         <div className="flex flex-wrap gap-1.5">
           <button
             onClick={() => onConferenceChange("")}
@@ -61,7 +65,7 @@ export function BestPaperFilters({
                 : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
             }`}
           >
-            전체
+            {isKorean ? "전체" : "All"}
           </button>
           {conferences.map((c) => (
             <button

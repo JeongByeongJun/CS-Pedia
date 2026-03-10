@@ -4,12 +4,14 @@ import { useState, useMemo } from "react";
 import type { BestPaperWithConference } from "@/domain/repositories/best-paper-repository";
 import { BestPaperFilters } from "./best-paper-filters";
 import { BestPaperList } from "./best-paper-list";
+import { useLocale } from "@/presentation/hooks/use-locale";
 
 interface BestPaperClientSectionProps {
   papers: BestPaperWithConference[];
 }
 
 export function BestPaperClientSection({ papers }: BestPaperClientSectionProps) {
+  const { isKorean } = useLocale();
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [selectedConference, setSelectedConference] = useState("");
 
@@ -33,7 +35,9 @@ export function BestPaperClientSection({ papers }: BestPaperClientSectionProps) 
     <>
       <div className="mb-6">
         <p style={{ fontSize: "13px", color: "#a1a1aa", marginTop: "4px" }}>
-          {filtered.length}개 논문 · {conferences.length}개 학회
+          {isKorean
+            ? `${filtered.length}개 논문 · ${conferences.length}개 학회`
+            : `${filtered.length} papers · ${conferences.length} conferences`}
           {years.length > 0 && ` · ${years[years.length - 1]}–${years[0]}`}
         </p>
       </div>

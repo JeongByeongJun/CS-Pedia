@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useLocale } from "@/presentation/hooks/use-locale";
 import {
   LineChart,
   Line,
@@ -43,6 +44,7 @@ export function KeywordTrendChart({
   topKeywords,
   fields,
 }: KeywordTrendChartProps) {
+  const { isKorean } = useLocale();
   const [selectedField, setSelectedField] = useState<string>("전체");
   const [selectedKeywords, setSelectedKeywords] = useState<Set<string>>(() => {
     return new Set(topKeywords.slice(0, 6).map((k) => k.keyword));
@@ -112,7 +114,7 @@ export function KeywordTrendChart({
                 : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
             }`}
           >
-            {f}
+            {f === "전체" ? (isKorean ? "전체" : "All") : f}
           </button>
         ))}
       </div>
@@ -153,7 +155,7 @@ export function KeywordTrendChart({
                 tick={{ fontSize: 12, fill: "#71717a" }}
                 tickLine={false}
                 label={{
-                  value: "논문 수",
+                  value: isKorean ? "논문 수" : "Papers",
                   angle: -90,
                   position: "insideLeft",
                   offset: 30,
@@ -166,7 +168,7 @@ export function KeywordTrendChart({
                   border: "1px solid #e4e4e7",
                   fontSize: 13,
                 }}
-                labelFormatter={(label) => `${label}년`}
+                labelFormatter={(label) => isKorean ? `${label}년` : String(label)}
               />
               <Legend />
               {activeKeywords.map((k, i) => (
@@ -185,7 +187,7 @@ export function KeywordTrendChart({
         </div>
       ) : (
         <div className="text-center py-12 text-zinc-400 text-sm">
-          키워드를 선택하면 트렌드 차트가 표시됩니다
+          {isKorean ? "키워드를 선택하면 트렌드 차트가 표시됩니다" : "Select keywords to display trend chart"}
         </div>
       )}
     </div>

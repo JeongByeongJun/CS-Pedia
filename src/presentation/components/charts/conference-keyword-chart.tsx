@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useLocale } from "@/presentation/hooks/use-locale";
 import {
   LineChart,
   Line,
@@ -26,6 +27,7 @@ interface ConferenceKeywordChartProps {
 }
 
 export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
+  const { isKorean } = useLocale();
   const topKeywords = useMemo(() => {
     const map = new Map<string, number>();
     for (const d of data) {
@@ -57,7 +59,7 @@ export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
   if (topKeywords.length === 0) {
     return (
       <div className="text-center py-10 text-zinc-400 text-sm">
-        키워드 데이터가 없습니다
+        {isKorean ? "키워드 데이터가 없습니다" : "No keyword data available"}
       </div>
     );
   }
@@ -66,7 +68,7 @@ export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
   if (years.length === 1) {
     return (
       <div>
-        <p className="text-xs text-zinc-400 mb-4">{years[0]}년 채택 논문 키워드 빈도</p>
+        <p className="text-xs text-zinc-400 mb-4">{isKorean ? `${years[0]}년 채택 논문 키워드 빈도` : `Keyword frequency from ${years[0]} accepted papers`}</p>
         <div style={{ width: "100%", height: 400 }}>
           <ResponsiveContainer width="100%" height="100%">
             <BarChart
@@ -88,7 +90,7 @@ export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
               />
               <Tooltip
                 contentStyle={{ borderRadius: 12, border: "1px solid #e4e4e7", fontSize: 13 }}
-                formatter={(value) => [`${Number(value).toLocaleString()}건`, "논문 수"]}
+                formatter={(value) => [`${Number(value).toLocaleString()}`, isKorean ? "논문 수" : "Papers"]}
               />
               <Bar dataKey="totalCount" radius={[0, 6, 6, 0]} barSize={18}>
                 {topKeywords.map((_, i) => (
@@ -146,11 +148,11 @@ export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
               <YAxis
                 tick={{ fontSize: 12, fill: "#71717a" }}
                 tickLine={false}
-                label={{ value: "논문 수", angle: -90, position: "insideLeft", offset: 30, style: { fontSize: 11, fill: "#a1a1aa" } }}
+                label={{ value: isKorean ? "논문 수" : "Papers", angle: -90, position: "insideLeft", offset: 30, style: { fontSize: 11, fill: "#a1a1aa" } }}
               />
               <Tooltip
                 contentStyle={{ borderRadius: 12, border: "1px solid #e4e4e7", fontSize: 13 }}
-                labelFormatter={(label) => `${label}년`}
+                labelFormatter={(label) => isKorean ? `${label}년` : String(label)}
               />
               {activeKeywords.map((k, i) => (
                 <Line
@@ -168,7 +170,7 @@ export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
         </div>
       ) : (
         <div className="text-center py-10 text-zinc-400 text-sm">
-          키워드를 선택하면 트렌드 차트가 표시됩니다
+          {isKorean ? "키워드를 선택하면 트렌드 차트가 표시됩니다" : "Select keywords to display trend chart"}
         </div>
       )}
     </div>
