@@ -302,9 +302,20 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                       {AWARD_TYPE_LABELS[bp.awardType as keyof typeof AWARD_TYPE_LABELS] ?? bp.awardType}
                     </span>
                   </div>
-                  <div className="font-medium text-zinc-800">
-                    {bp.paperTitle}
-                  </div>
+                  {bp.paperUrl ? (
+                    <a
+                      href={bp.paperUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-zinc-800 hover:text-indigo-600 transition-colors"
+                    >
+                      {bp.paperTitle}
+                    </a>
+                  ) : (
+                    <div className="font-medium text-zinc-800">
+                      {bp.paperTitle}
+                    </div>
+                  )}
                   {bp.authors && (
                     <div className="text-sm text-zinc-500 mt-1">
                       {formatAuthors(bp.authors)}

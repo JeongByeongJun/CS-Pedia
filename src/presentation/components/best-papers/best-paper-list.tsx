@@ -158,16 +158,34 @@ export function BestPaperList({ papers }: BestPaperListProps) {
                 </div>
 
                 {/* Title */}
-                <div
-                  className="font-medium"
-                  style={{
-                    fontSize: "14px",
-                    color: "#18181b",
-                    lineHeight: 1.5,
-                  }}
-                >
-                  {paper.paperTitle}
-                </div>
+                {paper.paperUrl ? (
+                  <a
+                    href={paper.paperUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium hover:text-indigo-600 transition-colors"
+                    style={{
+                      fontSize: "14px",
+                      color: "#18181b",
+                      lineHeight: 1.5,
+                      display: "block",
+                      textDecoration: "none",
+                    }}
+                  >
+                    {paper.paperTitle}
+                  </a>
+                ) : (
+                  <div
+                    className="font-medium"
+                    style={{
+                      fontSize: "14px",
+                      color: "#18181b",
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    {paper.paperTitle}
+                  </div>
+                )}
 
                 {/* Authors */}
                 {paper.authors && (

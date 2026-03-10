@@ -91,6 +91,7 @@ async function seed() {
     authors: bp.authors,
     award_type: bp.award_type,
     tags: bp.tags,
+    paper_url: (bp as Record<string, unknown>).paper_url ?? null,
   }));
   const { error: bpError } = await supabase
     .from("best_papers")
