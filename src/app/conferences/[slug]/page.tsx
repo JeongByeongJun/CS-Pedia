@@ -26,22 +26,36 @@ export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
   try {
     const result = await getConferenceDetail(slug);
     if (!result) return {};
     const { conference } = result;
+    const year = new Date().getFullYear();
     return {
-      title: `${conference.acronym} ${new Date().getFullYear()} - ${conference.nameEn}`,
-      description: `${conference.acronym} ${new Date().getFullYear()} deadline, acceptance rate, best paper awards. ${conference.nameEn} — 학회 데드라인, BK21/KIISE 인정, Acceptance Rate 정보.`,
-      keywords: [
-        `${conference.acronym} deadline`,
-        `${conference.acronym} ${new Date().getFullYear()} deadline`,
-        `${conference.acronym} acceptance rate`,
-        `${conference.acronym} best paper`,
-        `${conference.acronym} call for papers`,
-        `${conference.acronym} CFP`,
-        conference.nameEn,
-      ],
+      title: `${conference.acronym} ${year} - ${conference.nameEn}`,
+      description: isKorean
+        ? `${conference.acronym} ${year} 데드라인, 채택률, Best Paper 수상작. BK21/KIISE 인정 여부 포함. ${conference.nameEn}`
+        : `${conference.acronym} ${year} deadline, acceptance rate, best paper awards. ${conference.nameEn}`,
+      keywords: isKorean
+        ? [
+            `${conference.acronym} 데드라인`,
+            `${conference.acronym} ${year} 마감`,
+            `${conference.acronym} 채택률`,
+            `${conference.acronym} best paper`,
+            `${conference.acronym} CFP`,
+            conference.nameEn,
+          ]
+        : [
+            `${conference.acronym} deadline`,
+            `${conference.acronym} ${year} deadline`,
+            `${conference.acronym} acceptance rate`,
+            `${conference.acronym} best paper`,
+            `${conference.acronym} call for papers`,
+            `${conference.acronym} CFP`,
+            conference.nameEn,
+          ],
     };
   } catch {
     return {};
