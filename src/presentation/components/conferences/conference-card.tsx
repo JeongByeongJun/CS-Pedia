@@ -70,10 +70,6 @@ export function ConferenceCard({
             <div className="text-sm text-zinc-500 mb-2 truncate">
               {conference.nameEn}
             </div>
-            {/* 기관 배지 - 모바일에서만 여기 표시 */}
-            <div className="sm:hidden mt-1.5 mb-1">
-              <InstitutionBadges ratings={conference.institutionRatings} />
-            </div>
             <div className="flex items-center gap-4 text-xs text-zinc-400 flex-wrap">
               {ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date() ? (
                 <span className="text-zinc-400">
