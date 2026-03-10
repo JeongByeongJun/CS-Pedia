@@ -14538,5 +14538,484 @@
       "homophily"
     ],
     "paper_url": "http://arxiv.org/abs/2502.02943v1"
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Computing and the Stigmatized: Trust, Surveillance, and Spatial Politics with the Sex Workers in Bangladesh",
+    "authors": "Pratyasha Saha, Nadira Nowsher, Ayien Utshob Baidya, Nusrat Jahan Mim, Syed Ishtiaque Ahmed, S M Taiabul Haque",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "social justice",
+      "privacy",
+      "surveillance"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Constrained Highlighting in a Document Reader can Improve Reading Comprehension",
+    "authors": "Nikhita Joshi, Daniel Vogel",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "reading",
+      "UI"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Cooking With Agents: Designing Context-aware Voice Interaction",
+    "authors": "Razan Jaber, Sabrina Zhong, Sanna Kuoppamäki, Aida Hosseini, Iona Gessinger, Duncan P Brumby, Benjamin R. Cowan, Donald McMillan",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "voice interaction",
+      "conversational AI"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Cosmovision Of Data: An Indigenous Approach to Technologies for Self-Determination",
+    "authors": "Carlos Guerrero Millan, Bettina Nissen, Larissa Pschetz",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "participatory design",
+      "social justice"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Debate Chatbots to Facilitate Critical Thinking on YouTube: Social Identity and Conversational Style Make A Difference",
+    "authors": "Thitaree Tanprasert, Sidney S Fels, Luanne Sinnamon, Dongwook Yoon",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "chatbot",
+      "critical thinking"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks",
+    "authors": "Hao-Ping (Hank) Lee, Yu-Ju Yang, Thomas Serban von Davier, Jodi Forlizzi, Sauvik Das",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "privacy",
+      "AI",
+      "deepfakes"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Designing a Card-Based Design Tool to Bridge Academic Research & Design Practice For Societal Resilience",
+    "authors": "Novia Nurain, Chia-Fang Chung, Clara Caldeira, Kay Connelly",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "design tools",
+      "participatory design"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Designing for Caregiver-facing Values Elicitation Tools",
+    "authors": "Pin Sym Foong, Natasha Ureyang, Charisse Foo, Sajeban Antonyrex, Gerald Huat Choon Koh",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "values",
+      "caregiving"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Designing for Harm Reduction: Communication Repair for Multicultural Users’ Voice Interactions",
+    "authors": "Kimi Wenzel, Geoff Kaufman",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "voice interaction",
+      "harm reduction"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Designing Multispecies Worlds for Robots, Cats, and Humans",
+    "authors": "Eike Schneiders, Steven David Benford, Alan Chamberlain, Clara Mancini, Simon D Castle-Green, Victor Zhi Heung Ngo, Ju Row Farr, Matt Adams, Nick Tandavanitj, Joel E Fischer",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "human-robot interaction",
+      "multispecies"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "DynaVis: Dynamically Synthesized UI Widgets for Visualization Editing",
+    "authors": "Priyan Vaithilingam, Elena L. Glassman, Jeevana Priya Inala, Chenglong Wang",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "visualization",
+      "LLM",
+      "UI"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Engaging recently incarcerated and gang affiliated Black and Latino/a young adults in designing social collocated applications for mixed reality smart glasses through community-based participatory design workshops",
+    "authors": "Richard Martinez, Kurt Squire",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "participatory design",
+      "mixed reality",
+      "social justice"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "From Disorientation to Harmony: Autoethnographic Insights into Transformative Videogame Experiences",
+    "authors": "Jaakko Väkevä, Elisa D. Mekler, Janne Lindqvist",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "games",
+      "player experience"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "From Exploration to End of Life: Unpacking Sustainability in Physicalization Practices",
+    "authors": "Luiz Morais, Georgia Panagiotidou, Sarah Hayes, Tatiana Losev, Rebecca Noonan, Uta Hinrichs",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "sustainability",
+      "data physicalization"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "From Text to Self: Users’ Perception of AIMC Tools on Interpersonal Communication and Self",
+    "authors": "Yue Fu, Sami Foell, Xuhai \"Orson\" Xu, Alexis Hiniker",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "AI communication",
+      "interpersonal communication"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking",
+    "authors": "Nikhil Sharma, Q. Vera Liao, Ziang Xiao",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "LLM",
+      "search",
+      "information seeking"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "In Dice We Trust: Uncertainty Displays for Maintaining Trust in Election Forecasts Over Time",
+    "authors": "Fumeng Yang, Chloe Rose Mortenson, Erik Nisbet, Nicholas Diakopoulos, Matthew Kay",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "uncertainty visualization",
+      "trust"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "JupyterLab in Retrograde: Contextual Notifications That Highlight Fairness and Bias Issues for Data Scientists",
+    "authors": "Galen Harrison, Kevin Bryson, Ahmad Emmanuel Balla Bamba, Luca Dovichi, Aleksander Herrmann Binion, Arthur Borem, Blase Ur",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "AI fairness",
+      "data science"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "MigraineTracker: Examining Patient Experiences with Goal-Directed Self-Tracking for a Chronic Health Condition",
+    "authors": "Yasaman S. Sefidgar, Carla L. Castillo, Shaan Chopra, Liwei Jiang, Tae Jones, Anant Mittal, Hyeyoung Ryu, Jessica Schroeder, Allison Cole, Natalia Murinova, Sean A. Munson, James Fogarty",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "health tracking",
+      "chronic conditions"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Mindfulness-based Embodied Tangible Interactions for Stroke Rehabilitation at Home",
+    "authors": "Preetham Madapura Nagaraj, Wen Mo, Catherine Holloway",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "tangible interaction",
+      "rehabilitation"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Mitigating Barriers to Public Social Interaction with Meronymous Communication",
+    "authors": "Nouran Soliman, Hyeonsu B Kang, Matt Latzke, Jonathan Bragg, Joseph Chee Chang, Amy X. Zhang, David R Karger",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "social interaction",
+      "privacy"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Piet: Facilitating Color Authoring for Motion Graphics Video",
+    "authors": "Xinyu Shi, Yinghou Wang, Yun Wang, Jian Zhao",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "motion graphics",
+      "creative tools"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Products of Positionality: How Tech Workers Shape Identity Concepts in Computer Vision",
+    "authors": "Morgan Klaus Scheuerman, Jed R. Brubaker",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "computer vision",
+      "identity",
+      "social justice"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "PsiNet: Toward Understanding the Design of Brain-to-Brain Interfaces for Augmenting Inter-Brain Synchrony",
+    "authors": "Nathan Semertzidis, Michaela Jayne Vranic-Peters, Xiao Zoe Fang, Rakesh Patibanda, Aryan Saini, Don Samitha Elvitigala, Florian Floyd Mueller",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "brain-computer interface",
+      "BCI"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "rTisane: Externalizing conceptual models for data analysis increases engagement with domain knowledge and improves statistical model quality",
+    "authors": "Eunice Jun, Edward Misback, Jeffrey Heer, Rene Just",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "data analysis",
+      "statistics"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Seated-WIP: Enabling Walking-in-Place Locomotion for Stationary Chairs in Confined Spaces",
+    "authors": "Liwei Chan, Tzu-Wei Mi, Zhung Hao Hsueh, Yi-Ci Huang, Ming Yun Hsu",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "VR locomotion",
+      "virtual reality"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Sensible and Sensitive AI for Worker Wellbeing: Factors that Inform Adoption and Resistance for Information Workers",
+    "authors": "Vedant Das Swain, Lan Gao, Abhirup Mondal, Gregory D. Abowd, Munmun De Choudhury",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "AI",
+      "worker wellbeing"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "SketchPath: Using Digital Drawing to Integrate the Gestural Qualities of Craft in CAM-Based Clay 3D Printing",
+    "authors": "Devon Frost, Raina Lee, Eun-Ha Paek, Jennifer Jacobs",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "creative tools",
+      "3D printing",
+      "craft"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "SplitBody: Reducing Mental Workload while Multitasking via Muscle Stimulation",
+    "authors": "Romain Nith, Yun Ho, Pedro Lopes",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "muscle stimulation",
+      "multitasking"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "The Metacognitive Demands and Opportunities of Generative AI",
+    "authors": "Lev Tankelevitch, Viktor Kewenig, Auste Simkute, Ava Elizabeth Scott, Advait Sarkar, Abigail Sellen, Sean Rintel",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "generative AI",
+      "metacognition"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Throwing Out Conventions: Reimagining Craft-Centered CNC Tool Design through the Digital Pottery Wheel",
+    "authors": "Ilan E Moyer, Sam Bourgault, Devon Frost, Jennifer Jacobs",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "fabrication",
+      "creative tools",
+      "craft"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Time-Turner: A Bichronous Learning Environment to Support Positive In-class Multitasking of Online Learners",
+    "authors": "Sahar Mavali, Dongwook Yoon, Luanne Sinnamon, Sidney S Fels",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "learning",
+      "education",
+      "multitasking"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Touching the Moon: Leveraging Passive Haptics, Embodiment and Presence for Operational Assessments in Virtual Reality",
+    "authors": "Florian Dufresne, Tommy Nilsson, Geoffrey Gorisse, Enrico Guerra, André Zenner, Olivier Christmann, Leonie Bensch, Nikolai Anton Callus, Aidan Cowley",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "haptics",
+      "virtual reality",
+      "embodiment"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Towards Robotic Companions: Understanding Handler-Guide Dog Interactions for Informed Guide Dog Robot Design",
+    "authors": "Hochul Hwang, Hee-Tae Jung, Nicholas A Giudice, Joydeep Biswas, Sunghoon Ivan Lee, Donghyun Kim",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "human-robot interaction",
+      "assistive technology"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "Understanding Feedback in Rhythmic Gymnastics Training: An Ethnographic-Informed Study of a Competition Class",
+    "authors": "Leonor Portugal da Fonseca, Francisco Nunes, Paula Alexandra Silva",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "sports",
+      "feedback",
+      "ethnography"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "What Counts as Creative Work? Articulating Four Epistemic Positions in Creativity-Oriented HCI Research",
+    "authors": "Stacy Hsueh, Marianela Ciolfi Felice, Sarah Fdili Alaoui, Wendy E. Mackay",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "creativity",
+      "research methods"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "We Do Not Have the Capacity to Monitor All Media: A Design Case Study on Cyber Situational Awareness in Computer Emergency Response Teams",
+    "authors": "Marc-André Kaufhold, Thea Riebe, Markus Bayer, Christian Reuter",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "cybersecurity",
+      "situational awareness"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "I know I have this till my Last Breath: Unmasking the Gaps in Chronic Obstructive Pulmonary Disease (COPD) Care in India",
+    "authors": "Gautami Tripathi, Medhavi Sabherwal, Pushpendra Singh",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "healthcare",
+      "chronic illness"
+    ]
+  },
+  {
+    "conference_slug": "chi",
+    "year": 2024,
+    "paper_title": "This app said I had severe depression, and now I do not know what to do: the unintentional harms of mental health applications",
+    "authors": "Rachael M Kang, Tera L. Reynolds",
+    "award_type": "best_paper",
+    "tags": [
+      "HCI",
+      "mental health",
+      "mobile apps"
+    ]
   }
 ]
