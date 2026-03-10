@@ -242,7 +242,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <FeedbackButton />
+        <FeedbackButton isKorean={lang === "ko"} />
         <Analytics />
         <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7036136026593965"
