@@ -27,6 +27,22 @@ export default async function HomePage() {
       }
     : null;
 
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "CS-Pedia",
+    url: "https://cs-pedia.io",
+    description: "한국 CS 연구자를 위한 학회 통합 플랫폼",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: "https://cs-pedia.io/?q={search_term_string}",
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <div
       className="min-h-screen"
@@ -35,6 +51,10 @@ export default async function HomePage() {
           "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)",
       }}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
       <SiteHeader user={authUser} />
 
       <main className="max-w-6xl mx-auto px-6 py-6">

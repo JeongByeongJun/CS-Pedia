@@ -115,6 +115,25 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
     }),
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "CS-Pedia",
+        item: "https://cs-pedia.io",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: conference.acronym,
+        item: `https://cs-pedia.io/conferences/${slug}`,
+      },
+    ],
+  };
+
   return (
     <div
       className="min-h-screen"
@@ -126,6 +145,10 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <SiteHeader user={authUser} />
 
