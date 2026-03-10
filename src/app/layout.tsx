@@ -184,6 +184,9 @@ export const metadata: Metadata = {
     "WWW deadline",
   ],
   metadataBase: new URL("https://cs-pedia.io"),
+  other: {
+    "google-adsense-account": "ca-pub-7036136026593965",
+  },
   openGraph: {
     title: "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼",
     description:
