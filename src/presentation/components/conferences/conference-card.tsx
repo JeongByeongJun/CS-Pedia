@@ -48,7 +48,7 @@ export function ConferenceCard({
             <div className="flex items-center gap-2 mb-1.5 flex-wrap">
               <Link
                 href={conferenceUrl(conference.slug)}
-                className="text-lg font-bold text-zinc-900 hover:text-indigo-600 transition-colors"
+                className="text-lg font-bold text-zinc-900 hover:text-indigo-600 transition-colors whitespace-nowrap"
               >
                 {conference.acronym}
               </Link>
@@ -70,6 +70,10 @@ export function ConferenceCard({
             <div className="text-sm text-zinc-500 mb-2 truncate">
               {conference.nameEn}
             </div>
+            {/* 기관 배지 - 모바일에서만 여기 표시 */}
+            <div className="sm:hidden mt-1.5 mb-1">
+              <InstitutionBadges ratings={conference.institutionRatings} />
+            </div>
             <div className="flex items-center gap-4 text-xs text-zinc-400 flex-wrap">
               {ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date() ? (
                 <span className="text-zinc-400">
@@ -78,12 +82,12 @@ export function ConferenceCard({
               ) : conference.nextDeadline ? (
                 <>
                   {conference.conferenceStart && (
-                    <span>
+                    <span className="whitespace-nowrap">
                       📅 {formatDate(conference.conferenceStart)}
                     </span>
                   )}
-                  {conference.venue && <span>📍 {conference.venue}</span>}
-                  <span>
+                  {conference.venue && <span className="whitespace-nowrap">📍 {conference.venue}</span>}
+                  <span className="whitespace-nowrap">
                     {isKorean ? `⏰ 마감 ${formatDate(conference.nextDeadline)}` : `⏰ Deadline ${formatDate(conference.nextDeadline)}`}
                   </span>
                 </>
@@ -95,9 +99,11 @@ export function ConferenceCard({
             </div>
           </div>
 
-          {/* 오른쪽 - 기관 인정 뱃지 + 북마크 */}
+          {/* 오른쪽 - 기관 인정 뱃지(데스크탑) + 북마크 */}
           <div className="flex flex-col items-end gap-2 shrink-0">
-            <InstitutionBadges ratings={conference.institutionRatings} />
+            <div className="hidden sm:block">
+              <InstitutionBadges ratings={conference.institutionRatings} />
+            </div>
             <BookmarkButton
               conferenceId={conference.id}
               initialBookmarked={isBookmarked}
