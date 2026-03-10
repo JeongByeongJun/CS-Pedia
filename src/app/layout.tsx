@@ -4,6 +4,7 @@ import "./globals.css";
 import { FeedbackButton } from "@/presentation/components/layout/feedback-button";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
+import { headers } from "next/headers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,13 +16,20 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export async function generateMetadata(): Promise<Metadata> {
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
+
+  return {
   title: {
-    default: "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼",
+    default: isKorean
+      ? "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼"
+      : "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
     template: "%s | CS-Pedia",
   },
-  description:
-    "한국 CS 연구자를 위한 학회 일정, BK21 우수학회 목록, Best Paper 통합 플랫폼. 데드라인, 기관 인정, Acceptance Rate를 한눈에.",
+  description: isKorean
+    ? "한국 CS 연구자를 위한 학회 일정, BK21 우수학회 목록, Best Paper 통합 플랫폼. 데드라인, 기관 인정, Acceptance Rate를 한눈에."
+    : "Track CS conference deadlines, acceptance rates, and best paper awards. Includes BK21/KIISE recognition ratings for Korean CS researchers.",
   keywords: [
     "CS 학회",
     "BK21",
@@ -188,38 +196,48 @@ export const metadata: Metadata = {
     "google-adsense-account": "ca-pub-7036136026593965",
   },
   openGraph: {
-    title: "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼",
-    description:
-      "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에.",
+    title: isKorean
+      ? "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼"
+      : "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
+    description: isKorean
+      ? "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에."
+      : "Track CS conference deadlines, acceptance rates, and best paper awards.",
     url: "https://cs-pedia.io",
     siteName: "CS-Pedia",
-    locale: "ko_KR",
+    locale: isKorean ? "ko_KR" : "en_US",
     type: "website",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼",
+        alt: "CS-Pedia",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼",
-    description:
-      "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에.",
+    title: isKorean
+      ? "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼"
+      : "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
+    description: isKorean
+      ? "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에."
+      : "Track CS conference deadlines, acceptance rates, and best paper awards.",
     images: ["/og-image.png"],
   },
-};
+  };
+}
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const country = (await headers()).get("x-vercel-ip-country");
+  const lang = !country || country === "KR" ? "ko" : "en";
+
   return (
-    <html lang="ko">
+    <html lang={lang}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
