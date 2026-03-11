@@ -17668,5 +17668,14 @@
     "award_type": "test_of_time",
     "tags": [],
     "paper_url": null
+  },
+  {
+    "conference_slug": "interact",
+    "year": 2025,
+    "paper_title": "Guided by the light: Design Journey of a Navigation Support Tool for Ships",
+    "authors": "[\"Felix Petermann\", \"Ole Andreas Alsos\"]",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
   }
 ]

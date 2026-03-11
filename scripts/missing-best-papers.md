@@ -54,7 +54,7 @@ jeffhuang.com이 커버하는 학회지만 24/25 데이터 아직 미등록. jef
 | fase | 2024, 2025 | | 2021-2022만 있음 |
 | i3d | 2024, 2025 | | |
 | icst | 2024, 2025 | | 2021만 있음 |
-| interact | 2025 | | 홀수년 개최, 2024 N/A |
+| interact | 2025 | ✅ | Brian Shackel Award → best_paper 추가 완료 |
 | mdm | 2025 | | 2024 추가 완료 (PDF) / 2025 winner 미발표 |
 | mobilehci | 2024 | ✅ | 2024 데이터 없음 / 2025 추가 완료 |
 
