@@ -2428,7 +2428,9 @@
       "Paolo Rocco"
     ],
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Robotics"
+    ],
     "paper_url": "https://ieeexplore.ieee.org/document/10711794"
   },
   {
@@ -14504,7 +14506,9 @@
     "paper_title": "From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models",
     "authors": "Shangbin Feng, Chan Young Park, Yuhan Liu, Yulia Tsvetkov",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Object Tracking"
+    ],
     "paper_url": null
   },
   {
@@ -14513,7 +14517,9 @@
     "paper_title": "Breaking Out of the Ivory Tower: A Large-scale Analysis of Patent Citations to HCI Research",
     "authors": "Hancheng Cao, Yujie Lu, Yuting Deng, Daniel Mcfarland, Michael S. Bernstein",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Scalability"
+    ],
     "paper_url": null
   },
   {
@@ -14558,7 +14564,9 @@
     "paper_title": "Contestable Camera Cars: A Speculative Design Exploration of Public AI That Is Open and Responsive to Dispute",
     "authors": "Kars Alfrink, Ianus Keller, Neelke Doorn, Gerd Kortuem",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Exploration"
+    ],
     "paper_url": null
   },
   {
@@ -14567,7 +14575,9 @@
     "paper_title": "DataParticles: Block-based and Language-oriented Authoring of Animated Unit Visualization",
     "authors": "Yining Cao, Jane L E, Zhutian Chen, Haijun Xia",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Data Visualization"
+    ],
     "paper_url": null
   },
   {
@@ -14585,7 +14595,9 @@
     "paper_title": "Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability",
     "authors": "Mireia Yurrita, Tim Draws, Agathe Balayn, Dave Murray-Rust, Nava Tintarev, Alessandro Bozzon",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Fairness"
+    ],
     "paper_url": null
   },
   {
@@ -14594,7 +14606,9 @@
     "paper_title": "Envisioning the (In)Visibility of Discreet and Wearable AAC Devices",
     "authors": "Humphrey Curtis, Zihao You, William Deary, Miruna-Ioana Tudoreanu, Timothy Neate",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Wearable Computing"
+    ],
     "paper_url": null
   },
   {
@@ -14603,7 +14617,9 @@
     "paper_title": "Evaluating Large Language Models in Generating Synthetic HCI Research Data: a Case Study",
     "authors": "Perttu Hämäläinen, Mikke Tavast, Anton Kunnari",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "LLM"
+    ],
     "paper_url": null
   },
   {
@@ -14630,7 +14646,10 @@
     "paper_title": "Going, Going, Gone: Exploring Intention Communication for Multi-User Locomotion in Virtual Reality",
     "authors": "Julian Rasch, Vladislav Dmitrievic Rusakov, Martin Schmitz, Florian Müller",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Virtual Reality",
+      "Robot Locomotion"
+    ],
     "paper_url": null
   },
   {
@@ -14639,7 +14658,9 @@
     "paper_title": "Infrastructuring Care: How Trans and Non-Binary People Meet Health and Well-Being Needs through Technology",
     "authors": "Lauren Wilcox, Renee Shelby, Rajesh Veeraraghavan, Oliver L. Haimson, Gabriela Cruz Erickson, Michael Turken, Rebecca Gulotta",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Health Informatics"
+    ],
     "paper_url": null
   },
   {
@@ -14648,7 +14669,9 @@
     "paper_title": "Investigating the Role of Context in the Delivery of Text Messages for Supporting Psychological Wellbeing",
     "authors": "Ananya Bhattacharjee, Joseph Jay Williams, Jonah Meyerhoff, Harsh Kumar, Alex Mariakakis, Rachel Kornfield",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Wellbeing"
+    ],
     "paper_url": null
   },
   {
@@ -14657,7 +14680,9 @@
     "paper_title": "Kaleidoscope: A Reflective Documentation Tool for a User Interface Design Course",
     "authors": "Sarah Sterman, Molly Jane Nicholas, Janaki Vivrekar, Jessica R Mindel, Eric Paulos",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "HCI"
+    ],
     "paper_url": null
   },
   {
@@ -14675,7 +14700,9 @@
     "paper_title": "Paying the Price: When Intimate Partners Use Technology for Financial Harm",
     "authors": "Rosanna Bellini",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Financial Computing"
+    ],
     "paper_url": null
   },
   {
@@ -14693,7 +14720,10 @@
     "paper_title": "Probing a Community-Based Conversational Storytelling Agent to Document Digital Stories of Housing Insecurity",
     "authors": "Brett A. Halperin, Gary Hsieh, Erin McElroy, James Pierce, Daniela K. Rosner",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "AI Agents",
+      "Design Probes"
+    ],
     "paper_url": null
   },
   {
@@ -14702,7 +14732,9 @@
     "paper_title": "Rethinking \"Risk\" in Algorithmic Systems Through A Computational Narrative Analysis of Casenotes in Child Welfare",
     "authors": "Devansh Saxena, Erina Seh-Young Moon, Aryan Chaurasia, Yixin Guan, Shion Guha",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Child-Computer Interaction"
+    ],
     "paper_url": null
   },
   {
@@ -14747,7 +14779,9 @@
     "paper_title": "The Nuanced Nature of Trust and Privacy Control Adoption in the Context of Google",
     "authors": "Ehsan Ul Haque, Mohammad Maifi Hasan Khan, Md Abdullah Al Fahim",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Privacy"
+    ],
     "paper_url": null
   },
   {
@@ -14765,7 +14799,9 @@
     "paper_title": "Understanding Context to Capture when Reconstructing Meaningful Spaces for Remote Instruction and Connecting in XR",
     "authors": "Hanuma Teja Maddali & Amanda Lazar",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Extended Reality"
+    ],
     "paper_url": null
   },
   {
@@ -14783,7 +14819,10 @@
     "paper_title": "Understanding the Benefits and Challenges of Deploying Conversational AI Leveraging Large Language Models for Public Health Intervention",
     "authors": "Eunkyung Jo, Daniel A. Epstein, Hyunhoon Jung, Young-Ho Kim",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "LLM",
+      "Health Informatics"
+    ],
     "paper_url": null
   },
   {
@@ -14792,7 +14831,9 @@
     "paper_title": "What Do We Mean When We Talk about Trust in Social Media? A Systematic Review",
     "authors": "Yixuan Zhang, Joseph D Gaggiano, Nutchanon Yongsatianchot, Nurul M Suhaimi, Miso Kim, Yifan Sun, Jacqueline Griffin, Andrea G Parker",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Social Networks"
+    ],
     "paper_url": null
   },
   {
@@ -14801,7 +14842,9 @@
     "paper_title": "Who Do We Mean When We Talk About Visualization Novices?",
     "authors": "Alyxander Burns, Christiana Lee, Ria Chawla, Evan Peck, Narges Mahyar",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Data Visualization"
+    ],
     "paper_url": null
   },
   {
@@ -14810,7 +14853,9 @@
     "paper_title": "'Treat me as your friend, not a number in your database': Co-designing with Children to Cope with Datafication Online",
     "authors": "Ge Wang, Jun Zhao, Max Van Kleek, Nigel Shadbolt",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Child-Computer Interaction"
+    ],
     "paper_url": null
   },
   {
@@ -14837,7 +14882,10 @@
     "paper_title": "TransRacer: Function Dependence-Guided Transaction Race Detection for Smart Contracts",
     "authors": "Chenyang Ma, Wei Song, Jeff Huang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Transactions",
+      "Detection"
+    ],
     "paper_url": null
   },
   {
@@ -14864,7 +14912,10 @@
     "paper_title": "Benchmarking Robustness of AI-Enabled Multi-sensor Fusion Systems: Challenges and Opportunities",
     "authors": "Xinyu Gao, Zhijie Wang, Yang Feng, Lei Ma, Zhenyu Chen, Baowen Xu",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Robustness",
+      "Sensors"
+    ],
     "paper_url": null
   },
   {
@@ -14873,7 +14924,9 @@
     "paper_title": "NeuRI: Diversifying DNN Generation via Inductive Rule Inference",
     "authors": "Jiawei Liu, Jinjun Peng, Yuyao Wang, Lingming Zhang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Generative Models"
+    ],
     "paper_url": null
   },
   {
@@ -14900,7 +14953,10 @@
     "paper_title": "A Highly Scalable, Hybrid, Cross-Platform Timing Analysis Framework Providing Accurate Differential Throughput Estimation via Instruction-Level Tracing",
     "authors": "Min-Yih Hsu, Felicitas Hetzelt, David Gens, Michael Maitland, Michael Franz",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Network Performance",
+      "Tracing"
+    ],
     "paper_url": null
   },
   {
@@ -14909,7 +14965,11 @@
     "paper_title": "Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors",
     "authors": "Ruoxi Sun, Minhui Xue, Gareth Tyson, Tian Dong, Shaofeng Li, Shuo Wang, Haojin Zhu, Seyit Camtepe",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Robustness",
+      "Malware Detection",
+      "Explainable AI"
+    ],
     "paper_url": null
   },
   {
@@ -14918,7 +14978,11 @@
     "paper_title": "Speeding up SMT Solving via Compiler Optimization",
     "authors": "Benjamin Mikek & Qirun Zhang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Optimization",
+      "Compilers",
+      "SMT Solving"
+    ],
     "paper_url": null
   },
   {
@@ -14927,7 +14991,10 @@
     "paper_title": "Baldur: Whole-Proof Generation and Repair with Large Language Models",
     "authors": "Emily First, Markus Rabe, Talia Ringer, Yuriy Brun",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "LLM",
+      "Generative Models"
+    ],
     "paper_url": null
   },
   {
@@ -14936,7 +15003,10 @@
     "paper_title": "Generalization on the Unseen, Logic Reasoning and Degree Curriculum",
     "authors": "Emmanuel Abbe, Samy Bengio, Aryo Lotfi, Kevin Rizk",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Reasoning",
+      "Logic"
+    ],
     "paper_url": null
   },
   {
@@ -14954,7 +15024,10 @@
     "paper_title": "Self-Repellent Random Walks on General Graphs - Achieving Minimal Sampling Variance via Nonlinear Markov Chains",
     "authors": "Vishwaraj Doshi, Jie Hu, Do Young Eun",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Randomized Algorithms",
+      "Markov Models"
+    ],
     "paper_url": null
   },
   {
@@ -14963,7 +15036,9 @@
     "paper_title": "Bayesian Design Principles for Frequentist Sequential Learning",
     "authors": "Yunbei Xu & Assaf Zeevi",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Bayesian Methods"
+    ],
     "paper_url": null
   },
   {
@@ -14972,7 +15047,9 @@
     "paper_title": "Do I Belong? Modeling Sense of Virtual Community Among Linux Kernel",
     "authors": "Bianca Trinkenreich, Klaas-Jan Stol, Anita Sarma, Daniel M German, Marco Gerosa, Igor Steinmacher",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Operating Systems"
+    ],
     "paper_url": null
   },
   {
@@ -14990,7 +15067,9 @@
     "paper_title": "A Qualitative Study on the Implementation Design Decisions of Developers",
     "authors": "Jenny T. Liang, Maryam Arab, Minhyuk Ko, Amy J. Ko, Thomas D. LaToza",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Qualitative Research"
+    ],
     "paper_url": null
   },
   {
@@ -15026,7 +15105,9 @@
     "paper_title": "Sibyl: Improving Software Engineering Tools with SMT Selection",
     "authors": "Will Leeson, Matthew B Dwyer, Antonio Filieri",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "SMT Solving"
+    ],
     "paper_url": null
   },
   {
@@ -15035,7 +15116,9 @@
     "paper_title": "Lejacon: A Lightweight and Efficient Approach to Java Confidential Computing on SGX",
     "authors": "Xinyuan Miao, Ziyi Lin, Shaojun Wang, Lei Yu, Sanhong Li, Zihan Wang, Pengbo Nie, Yuting Chen",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -15053,7 +15136,9 @@
     "paper_title": "Rete: Learning Namespace Representation for Program Repair",
     "authors": "Nikhil Parasaram, Earl Barr, Sergey Mechtaev",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Program Repair"
+    ],
     "paper_url": null
   },
   {
@@ -15062,7 +15147,9 @@
     "paper_title": "SAT-Based PAC Learning of Description Logic Concepts",
     "authors": "Balder ten Cate, Maurice Funk, Jean Christoph Jung, Carsten Lutz",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Logic"
+    ],
     "paper_url": null
   },
   {
@@ -15071,7 +15158,10 @@
     "paper_title": "Safe Reinforcement Learning via Probabilistic Logic Shields",
     "authors": "Wen-Chi Yang, Giuseppe Marra, Gavin Rens, Luc De Raedt",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Reinforcement Learning",
+      "Logic"
+    ],
     "paper_url": null
   },
   {
@@ -15080,7 +15170,9 @@
     "paper_title": "Scalable Real-Time Bandwidth Fairness in Switches",
     "authors": "Robert MacDavid, Xiaoqi Chen, Jennifer Rexford",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Fairness"
+    ],
     "paper_url": null
   },
   {
@@ -15089,7 +15181,9 @@
     "paper_title": "SCALO: An Accelerator-Rich Distributed System for Scalable Brain-Computer Interfacing",
     "authors": "Karthik Sriram, Raghavendra Pradyumna Pothukuchi, Michał Gerasimiuk, Muhammed Ugur, Oliver Ye, Rajit Manohar, Anurag Khandelwal, Abhishek Bhattacharjee",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Distributed Systems"
+    ],
     "paper_url": null
   },
   {
@@ -15107,7 +15201,9 @@
     "paper_title": "Building Flexible, Low-Cost Wireless Access Networks With Magma",
     "authors": "Shaddi Hasan, Amar Padmanabhan, Bruce Davie, Jennifer Rexford, Ulas Kozat, Hunter Gatewood, Shruti Sanadhya, Nick Yurchenko",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Wireless Networks"
+    ],
     "paper_url": null
   },
   {
@@ -15143,7 +15239,10 @@
     "paper_title": "CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives",
     "authors": "Joel Kuepper, Andres Erbsen, Jason Gross, Owen Conoly, Chuyue Sun, Samuel Tian, David Wu, Adam Chlipala",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Randomized Algorithms",
+      "Search Algorithms"
+    ],
     "paper_url": null
   },
   {
@@ -15152,7 +15251,11 @@
     "paper_title": "Synthesizing MILP Constraints for Efficient and Robust Optimization",
     "authors": "Jingbo Wang, Aarti Gupta, Chao Wang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Optimization",
+      "Robustness",
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -15161,7 +15264,9 @@
     "paper_title": "An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits",
     "authors": "Yu-Fang Chen, Kai-Min Chung, Ondřej Lengál, Jyun-Ao Lin, Wei-Lun Tsai, Di-De Yen",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Quantum Computing"
+    ],
     "paper_url": null
   },
   {
@@ -15233,7 +15338,9 @@
     "paper_title": "TreeSLS: A Whole-system Persistent Microkernel with Tree-structured State Checkpoint on NVM",
     "authors": "Fangnuo Wu, Mingkai Dong, Gequan Mo, Haibo Chen",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Checkpointing"
+    ],
     "paper_url": null
   },
   {
@@ -15242,7 +15349,10 @@
     "paper_title": "Validating JIT Compilers via Compilation Space Exploration",
     "authors": "Cong Li, Yanyan Jiang, Chang Xu, Zhendong Su",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Exploration",
+      "JIT Compilation"
+    ],
     "paper_url": null
   },
   {
@@ -15251,7 +15361,11 @@
     "paper_title": "Doubly Efficient Private Information Retrieval and Fully Homomorphic RAM Computation from Ring LWE",
     "authors": "Wei Kai Lin, Ethan Mook, Daniel Wichs",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Information Retrieval",
+      "Efficiency",
+      "Homomorphic Encryption"
+    ],
     "paper_url": null
   },
   {
@@ -15269,7 +15383,10 @@
     "paper_title": "Requirements and Motivations of Low-Resource Speech Synthesis for Language Revitalization",
     "authors": "Aidan Pine, Dan Wells, Nathan Brinklow, Patrick William Littell, Korin Richmond",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Speech Synthesis",
+      "Synthesis"
+    ],
     "paper_url": null
   },
   {
@@ -15278,7 +15395,11 @@
     "paper_title": "DiBiMT: A Novel Benchmark for Measuring Word Sense Disambiguation Biases in Machine Translation",
     "authors": "Niccolò Campolungo, Federico Martelli, Francesco Saina, Roberto Navigli",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Machine Translation",
+      "Benchmarking",
+      "Word Sense Disambiguation"
+    ],
     "paper_url": null
   },
   {
@@ -15287,7 +15408,9 @@
     "paper_title": "KinyaBERT: a Morphology-aware Kinyarwanda Language Model",
     "authors": "Antoine Nzeyimana, Andre Niyongabo Rubung",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Language Models"
+    ],
     "paper_url": null
   },
   {
@@ -15314,7 +15437,9 @@
     "paper_title": "Designing for the Bittersweet: Improving Sensitive Experiences with Recommender Systems",
     "authors": "Caitlin Lustig, Artie Konrad, Jed R. Brubaker",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Recommender Systems"
+    ],
     "paper_url": null
   },
   {
@@ -15350,7 +15475,9 @@
     "paper_title": "Investigating Daily Practices of Self-care to Inform the Design of Supportive Health Technologies for Living and Ageing Well with HIV",
     "authors": "Caroline Claisse, Bakita Kasadha, Simone Stumpf, Abigail C Durrant",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Health Informatics"
+    ],
     "paper_url": null
   },
   {
@@ -15386,7 +15513,13 @@
     "paper_title": "Meander Coil++: A Body-scale Wireless Power Transmission Using Safe-to-body and Energy-efficient Transmitter Coil",
     "authors": "Ryo Takahashi, Wakako Yukita, Tomoyuki Yokota, Takao Someya, Yoshihiro Kawahara",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Energy Efficiency",
+      "Wireless Networks",
+      "Scalability",
+      "Efficiency",
+      "Energy Systems"
+    ],
     "paper_url": null
   },
   {
@@ -15413,7 +15546,9 @@
     "paper_title": "Neo: Generalizing Confusion Matrix Visualization to Hierarchical and Multi-Output Labels",
     "authors": "Jochen Görtler, Fred Hohman, Dominik Moritz, Kanit Wongsuphasawat, Donghao Ren, Rahul Nair, Marc Kirchner, Kayur Patel",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Data Visualization"
+    ],
     "paper_url": null
   },
   {
@@ -15422,7 +15557,9 @@
     "paper_title": "Squeezy-Feely: Investigating Lateral Thumb-Index Pinching as an Input Modality",
     "authors": "Martin Schmitz, Sebastian Günther, Dominik Schön, Florian Müller",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Indexing"
+    ],
     "paper_url": null
   },
   {
@@ -15440,7 +15577,9 @@
     "paper_title": "The TAC Toolkit: Supporting Design for User Acceptance of Health Technologies from a Macro-Temporal Perspective",
     "authors": "Camille Nadal, Shane McCully, Kevin Doherty, Corina Sas, Gavin Doherty",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Health Informatics"
+    ],
     "paper_url": null
   },
   {
@@ -15449,7 +15588,9 @@
     "paper_title": "Towards Relatable Explainable AI with the Perceptual Process",
     "authors": "Wencan Zhang & Brian Y Lim",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Explainable AI"
+    ],
     "paper_url": null
   },
   {
@@ -15494,7 +15635,10 @@
     "paper_title": "\"I Wanted to See How Bad It Was\": Online Self-screening as a Critical Transition Point Among Young Adults with Common Mental Health Conditions",
     "authors": "Kaylee Payne Kruzan, Jonah Meyerhoff, Theresa Nguyen, Madhu Reddy, David C. Mohr, Rachel Kornfield",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Mental Health Technology",
+      "Health Informatics"
+    ],
     "paper_url": null
   },
   {
@@ -15503,7 +15647,9 @@
     "paper_title": "\"It's Kind of Like Code-Switching\": Black Older Adults' Experiences with a Voice Assistant for Health Information Seeking",
     "authors": "Christina Harrington, Radhika Garg, Amanda Woodward, Dimitri Williams",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Health Informatics"
+    ],
     "paper_url": null
   },
   {
@@ -15521,7 +15667,9 @@
     "paper_title": "Minerva: Browser API Fuzzing with Dynamic Mod-Ref Analysis",
     "authors": "Chijin Zhou, Quan Zhang, Mingzhe Wang, Lihua Guo, Jie Liang, Zhe Liu, Mathias Payer, Yu Jiang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Fuzzing"
+    ],
     "paper_url": null
   },
   {
@@ -15557,7 +15705,9 @@
     "paper_title": "SPINE: A Scalable Log Parser with Feedback Guidance",
     "authors": "Xuheng Wang, Xu Zhang, Liqun Li, Shilin He, Hongyu Zhang, Yudong Liu, Lingling Zheng, Yu Kang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Logging"
+    ],
     "paper_url": null
   },
   {
@@ -15566,7 +15716,9 @@
     "paper_title": "First Come First Served: The Impact of File Position on Code Review",
     "authors": "Enrico Fregnan, Larissa Braz, Marco D'Ambros, Gül Calikli, Alberto Bacchelli",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Code Review"
+    ],
     "paper_url": null
   },
   {
@@ -15584,7 +15736,9 @@
     "paper_title": "The Importance of Non-Markovianity in Maximum State Entropy Exploration",
     "authors": "Mirco Mutti, Riccardo De Santi, Marcello Restelli",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Exploration"
+    ],
     "paper_url": null
   },
   {
@@ -15593,7 +15747,9 @@
     "paper_title": "G-Mixup: Graph Data Augmentation for Graph Classification",
     "authors": "Xiaotian Han, Zhimeng Jiang, Ninghao Liu, Xia Hu",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Classification"
+    ],
     "paper_url": null
   },
   {
@@ -15602,7 +15758,9 @@
     "paper_title": "Privacy for Free: How does Dataset Condensation Help Privacy?",
     "authors": "Tian Dong, Bo Zhao, Lingjuan Lyu",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Privacy"
+    ],
     "paper_url": null
   },
   {
@@ -15620,7 +15778,9 @@
     "paper_title": "Bayesian Model Selection, the Marginal Likelihood, and Generalization",
     "authors": "Sanae Lotfi, Pavel Izmailov, Gregory Benton, Micah Goldblum, Andrew Wilson",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Bayesian Methods"
+    ],
     "paper_url": null
   },
   {
@@ -15647,7 +15807,9 @@
     "paper_title": "Causal Conceptions of Fairness and their Consequences",
     "authors": "Hamed Nilforoshan, Johann Gaebler, Ravi Shroff, Sharad Goel",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Fairness"
+    ],
     "paper_url": null
   },
   {
@@ -15683,7 +15845,9 @@
     "paper_title": "Did You Miss My Comment or What?\" Understanding Toxicity in Open Source Discussions",
     "authors": "Courtney Miller, Sophie Cohen, Daniel Klug, Bogdan Vasilescu, Christian Kästner",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Open Source"
+    ],
     "paper_url": null
   },
   {
@@ -15692,7 +15856,9 @@
     "paper_title": "\"This Is Damn Slick!\" Estimating the Impact of Tweets on Open Source Project Popularity and New Contributors",
     "authors": "Hongbo Fang, Hemank Lamba, Jim Herbsleb, Bogdan Vasilescu",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Open Source"
+    ],
     "paper_url": null
   },
   {
@@ -15701,7 +15867,10 @@
     "paper_title": "Efficient Online Testing for DNN-Enabled Systems using Surrogate-Assisted and Many-Objective Optimization",
     "authors": "Fitash Ul Haq, Donghwan Shin, Lionel Briand",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Optimization",
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -15710,7 +15879,9 @@
     "paper_title": "PUS: A Fast and Highly Efficient Solver for Inclusion-based Pointer Analysis",
     "authors": "Peiming Liu, Yanze Li, Bradley Swain, Jeff Huang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -15728,7 +15899,9 @@
     "paper_title": "PreGAN: Preemptive Migration Prediction Network for Proactive Fault-Tolerant Edge Computing",
     "authors": "Shreshth Tuli, Giuliano Casale, Nicholas Jennings",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Edge Computing"
+    ],
     "paper_url": null
   },
   {
@@ -15737,7 +15910,9 @@
     "paper_title": "Elucidating the Design Space of Diffusion-Based Generative Models",
     "authors": "Tero Karras, Miika Aittala, Timo Aila, Samuli Laine",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Generative Models"
+    ],
     "paper_url": null
   },
   {
@@ -15746,7 +15921,11 @@
     "paper_title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
     "authors": "Matt Deitke, Eli VanderBilt, Alvaro Herrasti, Luca Weihs, Jordi Salvador, Kiana Ehsani, Winson Han, Eric Kolve",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Generative Models",
+      "Scalability",
+      "Embodied Interaction"
+    ],
     "paper_url": null
   },
   {
@@ -15773,7 +15952,9 @@
     "paper_title": "High-dimensional limit theorems for SGD: Effective dynamics and critical scaling",
     "authors": "Gerard Ben Arous, Reza Gheissari, Aukosh Jagannath",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Scalability"
+    ],
     "paper_url": null
   },
   {
@@ -15782,7 +15963,10 @@
     "paper_title": "Riemannian Score-Based Generative Modelling",
     "authors": "Valentin De Bortoli, Emile Mathieu, Michael John Hutchinson, James Thornton, Yee Whye Teh, Arnaud Doucet",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Diffusion Models",
+      "Generative Models"
+    ],
     "paper_url": null
   },
   {
@@ -15791,7 +15975,9 @@
     "paper_title": "Gradient Estimation with Discrete Stein Operators",
     "authors": "Jiaxin Shi, Yuhao Zhou, Jessica Hwang, Michalis Titsias, Lester Mackey",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Optimization"
+    ],
     "paper_url": null
   },
   {
@@ -15800,7 +15986,10 @@
     "paper_title": "An empirical analysis of compute-optimal large language model training",
     "authors": "Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de las Casas, Lisa Anne Hendricks",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "LLM",
+      "Language Models"
+    ],
     "paper_url": null
   },
   {
@@ -15809,7 +15998,10 @@
     "paper_title": "Beyond neural scaling laws: beating power law scaling via data pruning",
     "authors": "Ben Sorscher, Robert Geirhos, Shashank Shekhar, Surya Ganguli, Ari S. Morcos",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Scalability",
+      "Model Pruning"
+    ],
     "paper_url": null
   },
   {
@@ -15845,7 +16037,9 @@
     "paper_title": "Image Features Influence Reaction Time: A Learned Probabilistic Perceptual Model for Saccade Latency",
     "authors": "Budmonde Duinkharjav, Praneeth Chakravarthula, Rachel Brown, Anjul Patney, Qi Sun",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Latency Optimization"
+    ],
     "paper_url": null
   },
   {
@@ -15908,7 +16102,9 @@
     "paper_title": "Grid-Coding: An Accessible, Efficient, and Structured Coding Paradigm for Blind and Low-Vision Programmers",
     "authors": "Md Ehtesham-Ul-Haque, Syed Mostofa Monsur, Syed Masum Billah",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -15926,7 +16122,11 @@
     "paper_title": "Sancus: Staleness-Aware Communication-Avoiding Full-Graph Decentralized Training in Large-Scale Graph Neural Networks",
     "authors": "Jingshu Peng, Zhao Chen, Yingxia Shao, Yanyan Shen, Lei Chen, Jiannong Cao",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Graph Neural Networks",
+      "Scalability",
+      "Decentralized Systems"
+    ],
     "paper_url": null
   },
   {
@@ -15944,7 +16144,11 @@
     "paper_title": "HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework",
     "authors": "Xupeng Miao, Hailin Zhang, Yining Shi, Xiaonan Nie, Zhi Yang, Yangyu Tao, Bin Cui",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Embeddings",
+      "Caching",
+      "Scalability"
+    ],
     "paper_url": null
   },
   {
@@ -15953,7 +16157,10 @@
     "paper_title": "Hardware Acceleration of Compression and Encryption in SAP HANA",
     "authors": "Monica Chiosa, Fabio Maschi, Ingo Müller, Gustavo Alonso, Norman May",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Hardware",
+      "Model Compression"
+    ],
     "paper_url": null
   },
   {
@@ -15962,7 +16169,10 @@
     "paper_title": "PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm",
     "authors": "Wentao Zhang, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Graph Neural Networks",
+      "Search Algorithms"
+    ],
     "paper_url": null
   },
   {
@@ -15971,7 +16181,11 @@
     "paper_title": "Exploration-Exploitation in Multi-Agent Learning: Catastrophe Theory Meets Game Theory",
     "authors": "Stefanos Leonardos & Georgios Piliouras",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Multi-Agent Systems",
+      "AI Agents",
+      "Exploration"
+    ],
     "paper_url": null
   },
   {
@@ -15989,7 +16203,10 @@
     "paper_title": "Falx: Synthesis-Powered Visualization Authoring",
     "authors": "Chenglong Wang, Yu Feng, Rastislav Bodik, Isil Dillig, Alvin Cheung, Amy J Ko",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Data Visualization",
+      "Synthesis"
+    ],
     "paper_url": null
   },
   {
@@ -15998,7 +16215,10 @@
     "paper_title": "\"Can I Not Be Suicidal on a Sunday?\": Understanding Technology-Mediated Pathways to Mental Health Support",
     "authors": "Sachin R Pendse, Amit Sharma, Aditya Vashistha, Munmun De Choudhury, Neha Kumar",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Mental Health Technology",
+      "Health Informatics"
+    ],
     "paper_url": null
   },
   {
@@ -16016,7 +16236,10 @@
     "paper_title": "RadarNet: Efficient Gesture Recognition Technique Utilizing a Miniaturized Radar Sensor",
     "authors": "Eiji Hayashi, Jaime Lien, Nicholas Gillian, Leonardo Giusti, Dave Weber, Jin Yamanaka, Lauren Bedal, Ivan Poupyrev",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Efficiency",
+      "Sensors"
+    ],
     "paper_url": null
   },
   {
@@ -16034,7 +16257,9 @@
     "paper_title": "LGBTQ Persons' Pregnancy Loss Disclosures to Known Ties on Social Media: Disclosure Decisions and Ideal Disclosure Environments",
     "authors": "Cassidy Pyle, Lee Roosevelt, Ashley Lacombe-Duncan, Nazanin Andalibi",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Social Networks"
+    ],
     "paper_url": null
   },
   {
@@ -16061,7 +16286,10 @@
     "paper_title": "The Show Must Go On: A conceptual model of conducting synchronous participatory design with children online",
     "authors": "Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran Kaur Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin Ha Lee",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Child-Computer Interaction",
+      "Participatory Design"
+    ],
     "paper_url": null
   },
   {
@@ -16079,7 +16307,9 @@
     "paper_title": "Oh, Snap! A Fabrication Pipeline to Magnetically Connect Conventional and 3D-Printed Electronics",
     "authors": "Martin Schmitz, Jan Riemann, Florian Müller, Steffen Kreis, Max Mühlhäuser",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Fabrication"
+    ],
     "paper_url": null
   },
   {
@@ -16088,7 +16318,9 @@
     "paper_title": "Getting Ourselves Together: Data-centered participatory design research & epistemic burden",
     "authors": "Jennifer Pierre, Roderic Crooks, Morgan Currie, Britt Paris, Irene Pasquetto",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Participatory Design"
+    ],
     "paper_url": null
   },
   {
@@ -16133,7 +16365,9 @@
     "paper_title": "The Ethics of Multiplayer Game Design and Community Management: Industry Perspectives and Challenges",
     "authors": "Lucy A. Sparrow, Martin Gibbs, Michael Arnold",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Game Design"
+    ],
     "paper_url": null
   },
   {
@@ -16142,7 +16376,10 @@
     "paper_title": "Coupling Simulation and Hardware for Interactive Circuit Debugging",
     "authors": "Evan Strasnick, Maneesh Agrawala, Sean Follmer",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Hardware",
+      "Debugging"
+    ],
     "paper_url": null
   },
   {
@@ -16151,7 +16388,9 @@
     "paper_title": "Impact of Task on Attentional Tunneling in Handheld Augmented Reality",
     "authors": "Brandon Victor Syiem, Ryan M. Kelly, Jorge Goncalves, Eduardo Velloso, Tilman Dingler",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Augmented Reality"
+    ],
     "paper_url": null
   },
   {
@@ -16187,7 +16426,10 @@
     "paper_title": "The Landscape and Gaps in Open Source Fairness Toolkits",
     "authors": "Michelle Seng Ah Lee & Jatinder Singh",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Open Source",
+      "Fairness"
+    ],
     "paper_url": null
   },
   {
@@ -16214,7 +16456,9 @@
     "paper_title": "Designing Interactive Transfer Learning Tools for ML Non-Experts",
     "authors": "Swati Mishra & Jeffrey M Rzeszotarski",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Transfer Learning"
+    ],
     "paper_url": null
   },
   {
@@ -16232,7 +16476,9 @@
     "paper_title": "AlloyMax: bringing maximum satisfaction to relational specifications",
     "authors": "Changjian Zhang, Ryan Wagner, Pedro Orvalho, David Garlan, Vasco Manquinho, Ruben Martins, Eunsuk Kang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Relational Databases"
+    ],
     "paper_url": null
   },
   {
@@ -16241,7 +16487,9 @@
     "paper_title": "Efficient Module-Level Dynamic Analysis for Dynamic Languages with Module Recontextualization",
     "authors": "Nikos Vasilakis, Grigoris Ntousakis, Veit Heller, Martin C. Rinard",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -16268,7 +16516,10 @@
     "paper_title": "Vet: Identifying and Avoiding UI Exploration Tarpits",
     "authors": "Wenyu Wang, Wei Yang, Tianyin Xu, Tao Xie",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "HCI",
+      "Exploration"
+    ],
     "paper_url": null
   },
   {
@@ -16277,7 +16528,10 @@
     "paper_title": "ATVHunter: Reliable Version Detection of Third-Party Libraries for Vulnerability Identification in Android Apps",
     "authors": "Xian Zhan, Lingling Fan, Sen Chen, Feng Wu, Tianming Liu, Xiapu Luo, Yang Liu",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Detection",
+      "Android Security"
+    ],
     "paper_url": null
   },
   {
@@ -16286,7 +16540,10 @@
     "paper_title": "Automated Query Reformulation for Efficient Search Based on Query Logs from Stack Overflow",
     "authors": "Kaibo Cao, Chunyang Chen, Sebastian Baltes, Christoph Treude, Xiang Chen",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Search Algorithms",
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -16313,7 +16570,9 @@
     "paper_title": "Improving Fault Localization by Integrating Value and Predicate Based Causal Inference Techniques",
     "authors": "Yigit Kucuk, Tim A. D. Henderson, Andy Podgurski",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Localization"
+    ],
     "paper_url": null
   },
   {
@@ -16349,7 +16608,9 @@
     "paper_title": "Traceability Transformed: Generating more Accurate Links with Pre-Trained BERT Models",
     "authors": "Jinfeng Lin, Yalin Liu, Qingkai Zeng, Meng Jiang, Jane Cleland-Huang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Pre-Training"
+    ],
     "paper_url": null
   },
   {
@@ -16358,7 +16619,9 @@
     "paper_title": "What Makes a Great Maintainer of Open Source Projects?",
     "authors": "Edson Dias, Paulo Meirelles, Fernando Castor, Igor Steinmacher, Igor Wiese, Gustavo Pinto",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Open Source"
+    ],
     "paper_url": null
   },
   {
@@ -16394,7 +16657,10 @@
     "paper_title": "mCore: Achieving Sub-millisecond Scheduling for 5G MU-MIMO Systems",
     "authors": "Yongce Chen, Yubo Wu, Thomas Hou, Wenjing Lou",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Scheduling",
+      "5G"
+    ],
     "paper_url": null
   },
   {
@@ -16403,7 +16669,9 @@
     "paper_title": "Continuized Accelerations of Deterministic and Stochastic Gradient Descents, and of Gossip Algorithms",
     "authors": "Mathieu Even, Raphaël Berthier, Francis Bach, Nicolas Flammarion, Pierre Gaillard, Hadrien Hendrikx, Laurent Massoulié, Adrien Taylor",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Optimization"
+    ],
     "paper_url": null
   },
   {
@@ -16430,7 +16698,10 @@
     "paper_title": "Segcache: a memory-efficient and scalable in-memory key-value cache for small objects",
     "authors": "Juncheng Yang, Yao Yue, Rashmi Vinayak",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Caching",
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -16439,7 +16710,9 @@
     "paper_title": "MAGE: Nearly Zero-Cost Virtual Memory for Secure Computation",
     "authors": "Sam Kumar, David E. Culler, Raluca Ada Popa",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Secure Computation"
+    ],
     "paper_url": null
   },
   {
@@ -16466,7 +16739,11 @@
     "paper_title": "LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism",
     "authors": "Jongyul Kim, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Parallel Computing",
+      "File Systems",
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -16484,7 +16761,11 @@
     "paper_title": "SoundsRide: Affordance-Synchronized Music Mixing for In-Car Audio Augmented Reality",
     "authors": "Mohamed Kari, Tobias Grosse-Puppendahl, Alexander Jagaciak, David Bethge, Reinhard Schütte, Christian Holz",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Augmented Reality",
+      "Audio Processing",
+      "Music Generation"
+    ],
     "paper_url": null
   },
   {
@@ -16502,7 +16783,12 @@
     "paper_title": "Towards Facilitating Empathic Conversations in Online Mental Health Support: A Reinforcement Learning Approach",
     "authors": "Ashish Sharma, Inna W. Lin, Adam S. Miner, David C. Atkins, Tim Althoff",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Reinforcement Learning",
+      "HCI",
+      "Mental Health Technology",
+      "Health Informatics"
+    ],
     "paper_url": null
   },
   {
@@ -16529,7 +16815,10 @@
     "paper_title": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations",
     "authors": "Endres Puschner, Thorben Moos, Christian Kison, Steffen Becker, Amir Moradi, Christof Paar",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Hardware",
+      "Detection"
+    ],
     "paper_url": null
   },
   {
@@ -16556,7 +16845,9 @@
     "paper_title": "Characterizing Everyday Misuse of Smart Home Devices",
     "authors": "Phoebe Moh, Pubali Datta, Noel Warford, Adam Bates, Nathan Malkin, Michelle Mazurek",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Smart Home"
+    ],
     "paper_url": null
   },
   {
@@ -16565,7 +16856,9 @@
     "paper_title": "Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution",
     "authors": "Boya Wang, Wouter Lueks, Justinas Sukaitis, Vincent Graf Narbel, Carmela Troncoso",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Privacy"
+    ],
     "paper_url": null
   },
   {
@@ -16574,7 +16867,9 @@
     "paper_title": "\"In Eighty Percent of the Cases, I Select the Password for Them\": Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
     "authors": "Collins W. Munyendo, Yasemin Acar, Adam J. Aviv",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Privacy"
+    ],
     "paper_url": null
   },
   {
@@ -16601,7 +16896,9 @@
     "paper_title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
     "authors": "Haoqi Shan, Boyi Zhang, Zihao Zhan, Dean Sullivan, Shuo Wang, Yier Jin",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Touch Interfaces"
+    ],
     "paper_url": null
   },
   {
@@ -16610,7 +16907,9 @@
     "paper_title": "Hardware-Software Contracts for Secure Speculation",
     "authors": "Marco Guarnieri, Boris Köpf, Jan Reineke, Pepe Vila",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Hardware"
+    ],
     "paper_url": null
   },
   {
@@ -16637,7 +16936,10 @@
     "paper_title": "Subdivision-Specialized Linear Algebra Kernels for Static and Dynamic Mesh Connectivity on the GPU",
     "authors": "Daniel Mlakar, Martin Winter, Pascal Stadlbauer, Hans-Peter Seidel, Markus Steinberger, Rhaleb Zayer",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "GPU Computing",
+      "3D Vision"
+    ],
     "paper_url": null
   },
   {
@@ -16646,7 +16948,9 @@
     "paper_title": "Style-Controllable Speech-Driven Gesture Synthesis Using Normalising Flows",
     "authors": "Simon Alexanderson, Gustav Eje Henter, Taras Kucherenko, Jonas Beskow",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Synthesis"
+    ],
     "paper_url": null
   },
   {
@@ -16664,7 +16968,9 @@
     "paper_title": "An Efficient Transport Estimator for Complex Layered Materials",
     "authors": "Luis E. Gamboa, Adrien Gruson, Derek Nowrouzezahrai",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -16682,7 +16988,10 @@
     "paper_title": "Layout Embedding via Combinatorial Optimization",
     "authors": "Janis Born, Patrick Schmidt, Leif Kobbelt",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Embeddings",
+      "Optimization"
+    ],
     "paper_url": null
   },
   {
@@ -16745,7 +17054,9 @@
     "paper_title": "Lipschitz Pruning: Hierarchical Simplification of Primitive-Based SDFs",
     "authors": "Wilhem Barbier, Mathieu Sanchez, Axel Paris, Élie Michel, Thibaud Lambert, Tamy Boubekeur, Mathias Paulin, Théo Thonat",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Model Pruning"
+    ],
     "paper_url": null
   },
   {
@@ -16754,7 +17065,9 @@
     "paper_title": "WINOGRANDE: An Adversarial Winograd Schema Challenge at Scale",
     "authors": "Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Scalability"
+    ],
     "paper_url": null
   },
   {
@@ -16790,7 +17103,10 @@
     "paper_title": "Beyond the Prototype: Understanding the Challenge of Scaling Hardware Device Production",
     "authors": "Rushil Khurana, Steve Hodges",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Hardware",
+      "Scalability"
+    ],
     "paper_url": null
   },
   {
@@ -16808,7 +17124,9 @@
     "paper_title": "Co-Designing Checklists to Understand Organizational Challenges and Opportunities around Fairness in AI",
     "authors": "Michael A. Madaio, Luke Stark, Jennifer Wortman Vaughan, Hanna Wallach",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Fairness"
+    ],
     "paper_url": null
   },
   {
@@ -16835,7 +17153,9 @@
     "paper_title": "Creating Augmented and Virtual Reality Applications: Current Practices, Challenges, and Opportunities",
     "authors": "Narges Ashtari, Andrea Bunt, Joanna McGrenere, Michael Nebeling, Parmit K. Chilana",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Virtual Reality"
+    ],
     "paper_url": null
   },
   {
@@ -16853,7 +17173,9 @@
     "paper_title": "Design Study \"Lite\" Methodology: Expediting Design Studies and Enabling the Synergy of Visualization Pedagogy and Social Good",
     "authors": "Uzma Haque Syeda, Prasanth Murali, Lisa Roe, Becca Berkey, Michelle A. Borkin",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Data Visualization"
+    ],
     "paper_url": null
   },
   {
@@ -16925,7 +17247,9 @@
     "paper_title": "Mental Models of AI Agents in a Cooperative Game Setting",
     "authors": "Katy Ilonka Gero, Zahra Ashktorab, Casey Dugan, Qian Pan, James Johnson, Werner Geyer, Maria Ruiz, Sarah Miller",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Cooperative Systems"
+    ],
     "paper_url": null
   },
   {
@@ -16970,7 +17294,9 @@
     "paper_title": "Robots for Inclusive Play: Co-designing an Educational Game With Visually Impaired and Sighted Children",
     "authors": "Oussama Metatla, Sandra Bardot, Clare Cullen, Marcos Serrano, Christophe Jouffrais",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Child-Computer Interaction"
+    ],
     "paper_url": null
   },
   {
@@ -16979,7 +17305,9 @@
     "paper_title": "Techniques for Flexible Responsive Visualization Design",
     "authors": "Jane Hoffswell, Wilmot Li, Zhicheng Liu",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Data Visualization"
+    ],
     "paper_url": null
   },
   {
@@ -17006,7 +17334,9 @@
     "paper_title": "Touching and Being in Touch with the Menstruating Body",
     "authors": "Nadia Campo Woytuk, Marie Louise Juul Søndergaard, Marianela Ciolfi Felice, Madeline Balaam",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Touch Interfaces"
+    ],
     "paper_url": null
   },
   {
@@ -17033,7 +17363,10 @@
     "paper_title": "Wireality: Enabling Complex Tangible Geometries in Virtual Reality with Worn Multi-String Haptics",
     "authors": "Cathy Fang, Yang Zhang, Matthew Dworman, Chris Harrison",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Virtual Reality",
+      "Tangible Interfaces"
+    ],
     "paper_url": null
   },
   {
@@ -17051,7 +17384,9 @@
     "paper_title": "Do People and Neural Nets Pay Attention to the Same Words: Studying Eye-tracking Data for Non-factoid QA Evaluation",
     "authors": "Valeria Bolotova, Vladislav Blinov, Yukun Zheng, W Bruce Croft, Falk Scholer, Mark Sanderson",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Object Tracking"
+    ],
     "paper_url": null
   },
   {
@@ -17060,7 +17395,9 @@
     "paper_title": "FANG: Leveraging Social Context for Fake News Detection Using Graph Representation",
     "authors": "Van Hoang Nguyen, Kazunari Sugiyama, Preslav Nakov, Min Yen Kan",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Detection"
+    ],
     "paper_url": null
   },
   {
@@ -17069,7 +17406,10 @@
     "paper_title": "Unsupervised Learning of Probably Symmetric Deformable 3D Objects from Images in the Wild",
     "authors": "Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Unsupervised Learning",
+      "Deformable Objects"
+    ],
     "paper_url": null
   },
   {
@@ -17078,7 +17418,9 @@
     "paper_title": "An Equivalence Between Private Classification and Online Prediction",
     "authors": "Mark Bun, Roi Livni, Shay Moran",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Classification"
+    ],
     "paper_url": null
   },
   {
@@ -17096,7 +17438,9 @@
     "paper_title": "A New Minimax Theorem for Randomized Algorithms",
     "authors": "Shalev Ben-David & Eric Blais",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Randomized Algorithms"
+    ],
     "paper_url": null
   },
   {
@@ -17132,7 +17476,10 @@
     "paper_title": "Deep learning library testing via effective model generation",
     "authors": "Zan Wang, Ming Yan, Junjie Chen, Shuang Liu, Dongdi Zhang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Deep Learning",
+      "Generative Models"
+    ],
     "paper_url": null
   },
   {
@@ -17141,7 +17488,9 @@
     "paper_title": "Detecting numerical bugs in neural network architectures",
     "authors": "Yuhao Zhang, Luyao Ren, Liqian Chen, Yingfei Xiong, S. C. Cheung, Tao Xie",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Neural Networks"
+    ],
     "paper_url": null
   },
   {
@@ -17150,7 +17499,9 @@
     "paper_title": "On decomposing a deep neural network into modules",
     "authors": "Rangeet Pan & Hridesh Rajan",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Neural Networks"
+    ],
     "paper_url": null
   },
   {
@@ -17213,7 +17564,9 @@
     "paper_title": "White Box Fairness Testing through Adversarial Sampling",
     "authors": "Peixin Zhang, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jin Song Dong, Dai Ting",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Fairness"
+    ],
     "paper_url": null
   },
   {
@@ -17222,7 +17575,9 @@
     "paper_title": "An Empirical Study on Program Failures of Deep Learning Jobs",
     "authors": "Ru Zhang, Wencong Xiao, Hongyu Zhang, Yu Liu, Haoxiang Lin, Mao Yang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Deep Learning"
+    ],
     "paper_url": null
   },
   {
@@ -17249,7 +17604,9 @@
     "paper_title": "Time-travel Testing of Android Apps",
     "authors": "Zhen Dong, Marcel Bohme, Lucia Cojocaru, Abhik Roychoudhury",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Android Security"
+    ],
     "paper_url": null
   },
   {
@@ -17258,7 +17615,9 @@
     "paper_title": "Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?",
     "authors": "Nischal Shrestha, Colton Botta, Titus Barik, Chris Parnin",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Programming Languages"
+    ],
     "paper_url": null
   },
   {
@@ -17276,7 +17635,9 @@
     "paper_title": "Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning",
     "authors": "Jieshan Chen, Chunyang Chen, Zhenchang Xing, Xiwei Xu, Liming Zhu, Guoqiang Li, Jinshui Wang",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Deep Learning"
+    ],
     "paper_url": null
   },
   {
@@ -17285,7 +17646,9 @@
     "paper_title": "Translating Video Recordings of Mobile App Usages into Replayable Scenarios",
     "authors": "Carlos Bernal-Cardenas, Nathan Cooper, Kevin Moran, Oscar Chaparro, Adrian Marcus, Denys Poshyvanyk",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Mobile Security"
+    ],
     "paper_url": null
   },
   {
@@ -17294,7 +17657,9 @@
     "paper_title": "Synthesizing Aspect-Driven Recommendation Explanations from Reviews",
     "authors": "Trung-Hoang Le & Hady W. Lauw",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Recommender Systems"
+    ],
     "paper_url": null
   },
   {
@@ -17321,7 +17686,10 @@
     "paper_title": "On the Power of Randomization for Scheduling Real-Time Traffic in Wireless Networks",
     "authors": "Christos Tsanikidis & Javad Ghaderi",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Scheduling",
+      "Wireless Networks"
+    ],
     "paper_url": null
   },
   {
@@ -17339,7 +17707,9 @@
     "paper_title": "On Sampled Metrics for Item Recommendation",
     "authors": "Walid Krichene & Steffen Rendle",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Recommender Systems"
+    ],
     "paper_url": null
   },
   {
@@ -17348,7 +17718,11 @@
     "paper_title": "Hummingbird: Energy Efficient GPS Receiver for Small Satellites",
     "authors": "Sujay Narayana, R Venkatesha Prasad, Vijay S Rao, Luca Mottola, T Venkata Prabhakar",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Energy Efficiency",
+      "Efficiency",
+      "Energy Systems"
+    ],
     "paper_url": null
   },
   {
@@ -17384,7 +17758,9 @@
     "paper_title": "Language Models are Few-Shot Learners",
     "authors": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D. Kaplan",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Few-Shot Learning"
+    ],
     "paper_url": null
   },
   {
@@ -17411,7 +17787,10 @@
     "paper_title": "hXDP: Efficient Software Packet Processing on FPGA NICs",
     "authors": "Marco Spaziani Brunella, Giacomo Belocchi, Marco Bonola, Salvatore Pontarelli, Giuseppe Siracusano, Giuseppe Bianchi, Aniello Cammarano, Alessandro Palumbo",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "FPGA",
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -17447,7 +17826,9 @@
     "paper_title": "Armada: Low-Effort Verification of High-Performance Concurrent Programs",
     "authors": "Jacob R. Lorch, Yixuan Chen, Manos Kapritsos, Bryan Parno, Shaz Qadeer, Upamanyu Sharma, James R. Wilcox, Xueyuan Zhao",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Concurrency"
+    ],
     "paper_url": null
   },
   {
@@ -17456,7 +17837,9 @@
     "paper_title": "Validating SMT Solvers via Semantic Fusion",
     "authors": "Dominik Winterer, Chengyu Zhang, Zhendong Su",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "SMT Solving"
+    ],
     "paper_url": null
   },
   {
@@ -17483,7 +17866,9 @@
     "paper_title": "A Framework for Adversarially Robust Streaming Algorithms",
     "authors": "Omri Ben-Eliezer, Rajesh Jayaram, David P. Woodruff, Eylon Yogev",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Robustness"
+    ],
     "paper_url": null
   },
   {
@@ -17501,7 +17886,9 @@
     "paper_title": "Routing on Multiple Optimality Criteria",
     "authors": "João Luís Sobrinho & Miguel Alves Ferreira",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Network Routing"
+    ],
     "paper_url": null
   },
   {
@@ -17510,7 +17897,10 @@
     "paper_title": "Controlling Fairness and Bias in Dynamic Learning-to-rank",
     "authors": "Marco Morik, Ashudeep Singh, Jessica Hong, Thorsten Joachims",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Fairness",
+      "Bias"
+    ],
     "paper_url": null
   },
   {
@@ -17519,7 +17909,10 @@
     "paper_title": "ShapeSearch: A Flexible and Efficient System for Shape-based Exploration of Trendlines",
     "authors": "Tarique Siddiqui, Paul Luh, Zesheng Wang, Karrie Karahalios, Aditya Parameswaran",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Exploration",
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -17591,7 +17984,9 @@
     "paper_title": "Contextra: Detecting Object Grasps With Low-Power Cameras and Sensor Fusion On the Wrist",
     "authors": "[\"Nathan DeVrio\", \"Roger Boldu\", \"Eric Whitmire\", \"Wolf Kienzle\"]",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Sensors"
+    ],
     "paper_url": null
   },
   {
@@ -17600,7 +17995,9 @@
     "paper_title": "European Users' In-Depth Privacy Concerns with Smartphone Data Collection",
     "authors": "[\"Florian Bemmann\", \"Maximiliane Windl\", \"Tobias Knobloch\", \"Sven Mayer\"]",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Privacy"
+    ],
     "paper_url": null
   },
   {
@@ -17609,7 +18006,9 @@
     "paper_title": "Give and Take: Perceptions of a Conversational Coach Agent in Fitness Trackers",
     "authors": "[\"Meagan B. Loerakker\", \"Evropi Stefanidi\", \"Jasmin Niess\", \"Thomas Essmeyer\", \"Pawe\\u0142 W. Wo\\u017aniak\"]",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "AI Agents"
+    ],
     "paper_url": null
   },
   {
@@ -17636,7 +18035,9 @@
     "paper_title": "Understanding the Experiences of People With and Without Vision Impairments When Using Mobile User Interface Alternative Color Modes",
     "authors": "[\"Sarah Andrew\", \"Garreth W. Tigwell\"]",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "HCI"
+    ],
     "paper_url": null
   },
   {
@@ -17645,7 +18046,9 @@
     "paper_title": "You're making things AR-kward: Exploring Augmented Reality In-the-Wild",
     "authors": "[\"Helen Stefanidi\", \"Jan-Hendrik S\\u00fcnderkamp\", \"Markus Tatzgern\", \"Alina Itzlinger\", \"Alexander Meschtscherjakov\"]",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Augmented Reality"
+    ],
     "paper_url": null
   },
   {
@@ -17654,7 +18057,9 @@
     "paper_title": "Efficient Shortest Path Queries on 3D Weighted Terrain Surfaces for Moving Objects",
     "authors": "[\"Yinzhao Yan\", \"Raymond Chi-Wing Wong\"]",
     "award_type": "best_paper",
-    "tags": [],
+    "tags": [
+      "Efficiency"
+    ],
     "paper_url": null
   },
   {
@@ -17672,7 +18077,10 @@
     "paper_title": "CLEAR: Ranked Multi-Positive Contrastive Representation Learning for Robust Trajectory Similarity Computation",
     "authors": "[\"Jialiang Li\", \"Hua Lu\", \"Tiantian Liu\"]",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Representation Learning",
+      "Robustness"
+    ],
     "paper_url": null
   },
   {
@@ -17699,7 +18107,9 @@
     "paper_title": "Reformulating Branch Coverage as a Many-Objective Optimization Problem",
     "authors": "[\"Annibale Panichella\", \"Fitsum Meshesha Kifetew\", \"Paolo Tonella\"]",
     "award_type": "test_of_time",
-    "tags": [],
+    "tags": [
+      "Optimization"
+    ],
     "paper_url": null
   },
   {
@@ -17708,7 +18118,9 @@
     "paper_title": "Understanding and Enhancing Attribute Prioritization in Fixing Broken Web UI Tests",
     "authors": "[\"Zhuolin Xu\", \"Qiushi Li\", \"Shin Hwei Tan\"]",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "HCI"
+    ],
     "paper_url": null
   },
   {
@@ -17726,7 +18138,10 @@
     "paper_title": "Benchmarking Generative AI Models for Deep Learning Test Input Generation",
     "authors": "[\"Maryam\", \"Matteo Biagiola\", \"Andrea Stocco\", \"Vincenzo Riccio\"]",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Deep Learning",
+      "Generative Models"
+    ],
     "paper_url": null
   },
   {
@@ -17735,7 +18150,9 @@
     "paper_title": "Ask the Mutants: Mutating Faulty Programs for Fault Localization",
     "authors": "[\"Seokhyeon Moon\", \"Yunho Kim\", \"Moonzoo Kim\", \"Shin Yoo\"]",
     "award_type": "test_of_time",
-    "tags": [],
+    "tags": [
+      "Localization"
+    ],
     "paper_url": null
   },
   {
@@ -17762,7 +18179,9 @@
     "paper_title": "Transforming a Non-Differentiable Rasterizer into a Differentiable One with Stochastic Gradient Estimation",
     "authors": "[\"Thomas Deliot\", \"Eric Heitz\", \"Laurent Belcour\"]",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Optimization"
+    ],
     "paper_url": null
   },
   {
@@ -17771,7 +18190,9 @@
     "paper_title": "FaceFolds: Meshed Radiance Manifolds for Efficient Volumetric Rendering of Dynamic Faces",
     "authors": "[\"Safa Medin\", \"Gengyan Li\", \"Ruofei Du\", \"Stephan Garbin\", \"Philip Davidson\", \"Gregory Wornell\", \"Thabo Beeler\", \"Abhimitra Meka\"]",
     "award_type": "honorable_mention",
-    "tags": [],
+    "tags": [
+      "Efficiency"
+    ],
     "paper_url": null
   }
 ]
