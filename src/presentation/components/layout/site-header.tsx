@@ -73,7 +73,7 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
               style={{
                 padding: "6px 12px",
                 fontSize: "13px",
-                color: "#71717a",
+                color: "#d4d4d8",
                 borderRadius: "6px",
               }}
             >
@@ -85,7 +85,7 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
               style={{
                 padding: "6px 12px",
                 fontSize: "13px",
-                color: "#71717a",
+                color: "#d4d4d8",
                 borderRadius: "6px",
               }}
             >
@@ -98,7 +98,7 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
                 style={{
                   padding: "6px 12px",
                   fontSize: "13px",
-                  color: "#71717a",
+                  color: "#d4d4d8",
                   borderRadius: "6px",
                 }}
               >
