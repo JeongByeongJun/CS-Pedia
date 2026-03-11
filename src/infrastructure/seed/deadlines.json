@@ -1066,5 +1066,17 @@
     "conference_end": "2026-10-15",
     "venue": "Shanghai, China",
     "timezone": "AoE"
+  },
+  {
+    "conference_slug": "cikm",
+    "year": 2026,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2026-10-26",
+    "conference_end": "2026-10-30",
+    "venue": "Rome, Italy",
+    "timezone": "AoE"
   }
 ]
