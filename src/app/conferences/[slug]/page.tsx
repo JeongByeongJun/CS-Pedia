@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { getConferenceDetail, getKeywordTrendsByConference } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 import { getBookmarkStatus } from "@/app/actions/bookmark";
@@ -25,18 +26,20 @@ export const revalidate = 86400;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
   const acronym = slug.toUpperCase();
   const year = new Date().getFullYear();
   return {
-    title: `${acronym} ${year} - 데드라인, 채택률, Best Paper`,
-    description: `${acronym} ${year} 데드라인, 채택률, Best Paper 수상작. BK21/KIISE 인정 여부 포함.`,
-    keywords: [
-      `${acronym} 데드라인`,
-      `${acronym} ${year} 마감`,
-      `${acronym} 채택률`,
-      `${acronym} best paper`,
-      `${acronym} CFP`,
-    ],
+    title: isKorean
+      ? `${acronym} ${year} - 데드라인, 채택률, Best Paper`
+      : `${acronym} ${year} - Deadline, Acceptance Rate, Best Paper`,
+    description: isKorean
+      ? `${acronym} ${year} 데드라인, 채택률, Best Paper 수상작. BK21/KIISE 인정 여부 포함.`
+      : `${acronym} ${year} deadline, acceptance rate, best paper awards. Includes BK21/KIISE recognition.`,
+    keywords: isKorean
+      ? [`${acronym} 데드라인`, `${acronym} ${year} 마감`, `${acronym} 채택률`, `${acronym} best paper`, `${acronym} CFP`]
+      : [`${acronym} deadline`, `${acronym} ${year} deadline`, `${acronym} acceptance rate`, `${acronym} best paper`, `${acronym} CFP`],
   };
 }
 
@@ -53,7 +56,8 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
   const { conference, deadlines, bestPapers, ratings, acceptanceRates } = result;
 
-  const isKorean = true;
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
 
   const [keywordTrends, supabase] = await Promise.all([
     getKeywordTrendsByConference(conference.id).catch(() => []),
