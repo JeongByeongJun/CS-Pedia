@@ -98,22 +98,32 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
       }
     : null;
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    name: `${conference.acronym} - ${conference.nameEn}`,
-    description: conference.description ?? `${conference.acronym} computer science conference`,
-    url: conference.websiteUrl ?? `https://cs-pedia.io/conferences/${slug}`,
-    ...(conference.conferenceStart && {
-      startDate: conference.conferenceStart.toISOString().split("T")[0],
-    }),
-    ...(conference.conferenceEnd && {
-      endDate: conference.conferenceEnd.toISOString().split("T")[0],
-    }),
-    ...(conference.venue && {
-      location: { "@type": "Place", name: conference.venue },
-    }),
-  };
+  const upcomingDeadline = deadlines.find((d) => d.conferenceStart);
+  const resolvedStartDate =
+    conference.conferenceStart ??
+    upcomingDeadline?.conferenceStart ??
+    null;
+  const resolvedVenue =
+    conference.venue ??
+    upcomingDeadline?.venue ??
+    null;
+
+  const jsonLd = resolvedStartDate
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        name: `${conference.acronym} - ${conference.nameEn}`,
+        description: conference.description ?? `${conference.acronym} computer science conference`,
+        url: conference.websiteUrl ?? `https://cs-pedia.io/conferences/${slug}`,
+        startDate: resolvedStartDate.toISOString().split("T")[0],
+        ...(conference.conferenceEnd && {
+          endDate: conference.conferenceEnd.toISOString().split("T")[0],
+        }),
+        location: resolvedVenue
+          ? { "@type": "Place", name: resolvedVenue }
+          : { "@type": "VirtualLocation", url: conference.websiteUrl ?? `https://cs-pedia.io/conferences/${slug}` },
+      }
+    : null;
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
@@ -142,10 +152,12 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
           "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)",
       }}
     >
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}

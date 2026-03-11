@@ -2417,6 +2417,21 @@
     "paper_url": "http://arxiv.org/abs/2307.16499v2"
   },
   {
+    "conference_slug": "case",
+    "year": 2024,
+    "paper_title": "Semantic Behaviour Tree Learning through Kinesthetic Demonstrations for Position-Force Controlled Robotic Applications",
+    "authors": [
+      "Lorenzo Fratini",
+      "Niccolo Lucci",
+      "Matteo Malavenda",
+      "Andrea Maria Zanchettin",
+      "Paolo Rocco"
+    ],
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://ieeexplore.ieee.org/document/10711794"
+  },
+  {
     "conference_slug": "ccs",
     "year": 2021,
     "paper_title": "XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers",
