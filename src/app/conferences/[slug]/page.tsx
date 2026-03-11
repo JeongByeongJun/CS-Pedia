@@ -261,11 +261,11 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                     </div>
                   </div>
                   <div className="text-right text-xs text-zinc-500">
-                    {d.paperDeadline && (
-                      <div>📝 {isKorean ? "마감" : "Deadline"}: {formatDate(d.paperDeadline)}</div>
-                    )}
-                    {d.conferenceStart && (
-                      <div>📅 {isKorean ? "학회" : "Conference"}: {formatDate(d.conferenceStart)}</div>
+                    {(d.paperDeadline || d.conferenceStart) && (
+                      <>
+                        <div>📝 {isKorean ? "마감" : "Deadline"}: {d.paperDeadline ? formatDate(d.paperDeadline) : "TBD"}</div>
+                        <div>📅 {isKorean ? "학회" : "Conference"}: {d.conferenceStart ? formatDate(d.conferenceStart) : "TBD"}</div>
+                      </>
                     )}
                   </div>
                 </div>
