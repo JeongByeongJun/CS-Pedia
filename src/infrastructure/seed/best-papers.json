@@ -17713,5 +17713,50 @@
     "award_type": "honorable_mention",
     "tags": [],
     "paper_url": null
+  },
+  {
+    "conference_slug": "icst",
+    "year": 2024,
+    "paper_title": "Ask the Mutants: Mutating Faulty Programs for Fault Localization",
+    "authors": "[\"Seokhyeon Moon\", \"Yunho Kim\", \"Moonzoo Kim\", \"Shin Yoo\"]",
+    "award_type": "test_of_time",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "i3d",
+    "year": 2024,
+    "paper_title": "Filtering After Shading With Stochastic Texture Filtering",
+    "authors": "[\"Matt Pharr\", \"Bartlomiej Wronski\", \"Marco Salvi\", \"Marcos Fajardo\"]",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "i3d",
+    "year": 2024,
+    "paper_title": "ZH3: Quadratic Zonal Harmonics",
+    "authors": "[\"Thomas Roughton\", \"Peter-Pike Sloan\", \"Ari Silvennoinen\", \"Michal Iwanicki\", \"Peter Shirley\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "i3d",
+    "year": 2024,
+    "paper_title": "Transforming a Non-Differentiable Rasterizer into a Differentiable One with Stochastic Gradient Estimation",
+    "authors": "[\"Thomas Deliot\", \"Eric Heitz\", \"Laurent Belcour\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "i3d",
+    "year": 2024,
+    "paper_title": "FaceFolds: Meshed Radiance Manifolds for Efficient Volumetric Rendering of Dynamic Faces",
+    "authors": "[\"Safa Medin\", \"Gengyan Li\", \"Ruofei Du\", \"Stephan Garbin\", \"Philip Davidson\", \"Gregory Wornell\", \"Thabo Beeler\", \"Abhimitra Meka\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
   }
 ]
