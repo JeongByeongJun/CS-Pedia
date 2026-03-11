@@ -155,7 +155,7 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
                   maxWidth: "380px",
                 }}
               >
-                BK21 · KIISE ratings · Acceptance rates · Conference deadlines for Korean CS researchers
+                BK21 · KIISE ratings · Acceptance rates · Conference deadlines for CS researchers
               </p>
             </div>
 
