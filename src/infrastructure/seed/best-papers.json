@@ -17677,5 +17677,41 @@
     "award_type": "best_paper",
     "tags": [],
     "paper_url": null
+  },
+  {
+    "conference_slug": "icst",
+    "year": 2025,
+    "paper_title": "Reformulating Branch Coverage as a Many-Objective Optimization Problem",
+    "authors": "[\"Annibale Panichella\", \"Fitsum Meshesha Kifetew\", \"Paolo Tonella\"]",
+    "award_type": "test_of_time",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icst",
+    "year": 2025,
+    "paper_title": "Understanding and Enhancing Attribute Prioritization in Fixing Broken Web UI Tests",
+    "authors": "[\"Zhuolin Xu\", \"Qiushi Li\", \"Shin Hwei Tan\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icst",
+    "year": 2025,
+    "paper_title": "Benchmarking Image Perturbations for Testing Automated Driving Assistance Systems",
+    "authors": "[\"Stefano Carlo Lambertenghi\", \"Hannes Leonhard\", \"Andrea Stocco\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icst",
+    "year": 2025,
+    "paper_title": "Benchmarking Generative AI Models for Deep Learning Test Input Generation",
+    "authors": "[\"Maryam\", \"Matteo Biagiola\", \"Andrea Stocco\", \"Vincenzo Riccio\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
   }
 ]
