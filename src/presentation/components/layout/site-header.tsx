@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { headers } from "next/headers";
 import { AuthButton } from "@/presentation/components/auth/auth-button";
 import { getConferences } from "@/infrastructure/container";
 import { getBookmarkCount } from "@/app/actions/bookmark";
@@ -12,6 +13,9 @@ interface SiteHeaderProps {
 }
 
 export async function SiteHeader({ user }: SiteHeaderProps) {
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
+
   const [conferences, bookmarkCount] = await Promise.all([
     getConferences({}),
     getBookmarkCount(),
@@ -155,7 +159,9 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
                   maxWidth: "380px",
                 }}
               >
-                BK21 · KIISE ratings · Acceptance rates · Conference deadlines for CS researchers
+                {isKorean
+                  ? "BK21 · KIISE ratings · Acceptance rates · Conference deadlines for CS researchers"
+                  : "Acceptance rates · Best papers · Conference deadlines for CS researchers"}
               </p>
             </div>
 
