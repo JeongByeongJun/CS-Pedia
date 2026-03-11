@@ -16597,5 +16597,140 @@
     "award_type": "best_paper",
     "tags": [],
     "paper_url": null
+  },
+  {
+    "conference_slug": "pg",
+    "year": 2021,
+    "paper_title": "Adjustable Constrained Soft-Tissue Dynamics",
+    "authors": "Bohan Wang, Mianlun Zheng, Jernej Barbic",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "pg",
+    "year": 2021,
+    "paper_title": "Neural Screen Space Rendering of Direct Illumination",
+    "authors": "Christian Suppan, Andrew Chalmers, Junhong Zhao, Alex Doronin, Taehun Rhee",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2020,
+    "paper_title": "Subdivision-Specialized Linear Algebra Kernels for Static and Dynamic Mesh Connectivity on the GPU",
+    "authors": "Daniel Mlakar, Martin Winter, Pascal Stadlbauer, Hans-Peter Seidel, Markus Steinberger, Rhaleb Zayer",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2020,
+    "paper_title": "Style-Controllable Speech-Driven Gesture Synthesis Using Normalising Flows",
+    "authors": "Simon Alexanderson, Gustav Eje Henter, Taras Kucherenko, Jonas Beskow",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2020,
+    "paper_title": "Combinatorial Construction of Seamless Parameter Domains",
+    "authors": "Jiaran Zhou, Changhe Tu, Denis Zorin, Marcel Campen",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2020,
+    "paper_title": "An Efficient Transport Estimator for Complex Layered Materials",
+    "authors": "Luis E. Gamboa, Adrien Gruson, Derek Nowrouzezahrai",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2021,
+    "paper_title": "Deep Detail Enhancement for Any Garment",
+    "authors": "Meng Zhang, Tuanfeng Wang, Duygu Ceylan, Niloy Mitra",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2021,
+    "paper_title": "Layout Embedding via Combinatorial Optimization",
+    "authors": "Janis Born, Patrick Schmidt, Leif Kobbelt",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2021,
+    "paper_title": "Velocity Skinning for Real-time Stylized Skeletal Animation",
+    "authors": "Damien Rohmer, Marco Tarini, Niranjan Kalyanasundaram, Faezeh Moshfeghifar, Marie-Paule Cani, Victor Zordan",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2024,
+    "paper_title": "The Impulse Particle-In-Cell Method",
+    "authors": "Sergio Sancho, Jingwei Tang, Christopher Batty, Vinicius C. Azevedo",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2024,
+    "paper_title": "DivaTrack: Diverse Bodies and Motions from Acceleration-Enhanced 3-Point Trackers",
+    "authors": "Dongseok Yang, Jiho Kang, Lingni Ma, Joseph Greer, Yuting Ye, Sung-Hee Lee",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2024,
+    "paper_title": "SENS: Part-Aware Sketch-based Implicit Neural Shape Modeling",
+    "authors": "Alexandre Binninger, Amir Hertz, Olga Sorkine-Hornung, Daniel Cohen-Or, Raja Giryes",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2025,
+    "paper_title": "ReConForM: Real-time Contact-aware Motion Retargeting for more Diverse Character Morphologies",
+    "authors": "Théo Cheynel, Thomas Rossi, Baptiste Bellot-Gurlet, Damien Rohmer, Marie-Paule Cani",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2025,
+    "paper_title": "Neural Two-Level Monte Carlo Real-Time Rendering",
+    "authors": "Mikhail Dereviannykh, Dmitrii Klepikov, Johannes Hanika, Carsten Dachsbacher",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "eurographics",
+    "year": 2025,
+    "paper_title": "Lipschitz Pruning: Hierarchical Simplification of Primitive-Based SDFs",
+    "authors": "Wilhem Barbier, Mathieu Sanchez, Axel Paris, Élie Michel, Thibaud Lambert, Tamy Boubekeur, Mathias Paulin, Théo Thonat",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
   }
 ]
