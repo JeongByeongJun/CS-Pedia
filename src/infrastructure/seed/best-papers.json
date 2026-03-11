@@ -17632,5 +17632,41 @@
     "award_type": "honorable_mention",
     "tags": [],
     "paper_url": null
+  },
+  {
+    "conference_slug": "mdm",
+    "year": 2024,
+    "paper_title": "Efficient Shortest Path Queries on 3D Weighted Terrain Surfaces for Moving Objects",
+    "authors": "[\"Yinzhao Yan\", \"Raymond Chi-Wing Wong\"]",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "mdm",
+    "year": 2024,
+    "paper_title": "BiasBuster: A Neural Approach for Accurate Estimation of Population Statistics using Biased Location Data",
+    "authors": "[\"Sepanta Zeighami\", \"Cyrus Shahabi\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "mdm",
+    "year": 2024,
+    "paper_title": "CLEAR: Ranked Multi-Positive Contrastive Representation Learning for Robust Trajectory Similarity Computation",
+    "authors": "[\"Jialiang Li\", \"Hua Lu\", \"Tiantian Liu\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "mdm",
+    "year": 2024,
+    "paper_title": "MD-HBase: A Scalable Multi-dimensional Data Infrastructure for Location-aware Services",
+    "authors": "[\"Shoji Nishimura\", \"Sudipto Das\", \"Divyakant Agrawal\", \"Amr El Abbadi\"]",
+    "award_type": "test_of_time",
+    "tags": [],
+    "paper_url": null
   }
 ]
