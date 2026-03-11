@@ -51,8 +51,8 @@ jeffhuang.com이 커버하는 학회지만 24/25 데이터 아직 미등록. jef
 |------|-----------|------|------|
 | aacl | 2024 | | 짝수년 개최, 2025 N/A |
 | case | 2024, 2025 | | |
-| fase | 2024, 2025 | | 2021-2022만 있음 |
-| i3d | 2025 | | 2024 추가 완료 |
+| fase | 2024, 2025 | ✅ | ETAPS umbrella award만 존재, FASE 자체 best paper award 없음 |
+| i3d | 2025 | | 2024 추가 완료 / 2025 미발표 |
 | icst | - | ✅ | 2024 test_of_time 추가 완료 / 2025 추가 완료 |
 | interact | 2025 | ✅ | Brian Shackel Award → best_paper 추가 완료 |
 | mdm | 2025 | | 2024 추가 완료 (PDF) / 2025 winner 미발표 |
