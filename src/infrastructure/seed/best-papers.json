@@ -17569,5 +17569,68 @@
     "award_type": "best_paper",
     "tags": [],
     "paper_url": null
+  },
+  {
+    "conference_slug": "mobilehci",
+    "year": 2025,
+    "paper_title": "Contextra: Detecting Object Grasps With Low-Power Cameras and Sensor Fusion On the Wrist",
+    "authors": "[\"Nathan DeVrio\", \"Roger Boldu\", \"Eric Whitmire\", \"Wolf Kienzle\"]",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "mobilehci",
+    "year": 2025,
+    "paper_title": "European Users' In-Depth Privacy Concerns with Smartphone Data Collection",
+    "authors": "[\"Florian Bemmann\", \"Maximiliane Windl\", \"Tobias Knobloch\", \"Sven Mayer\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "mobilehci",
+    "year": 2025,
+    "paper_title": "Give and Take: Perceptions of a Conversational Coach Agent in Fitness Trackers",
+    "authors": "[\"Meagan B. Loerakker\", \"Evropi Stefanidi\", \"Jasmin Niess\", \"Thomas Essmeyer\", \"Pawe\\u0142 W. Wo\\u017aniak\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "mobilehci",
+    "year": 2025,
+    "paper_title": "ThumbSwype: Thumb-to-Finger Gesture Based Text-Entry for Head Mounted Displays",
+    "authors": "[\"Rishav Banerjee\", \"Shariff AM Faleel\", \"Omang Baheti\", \"Khalad Hasan\", \"Pourang Irani\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "mobilehci",
+    "year": 2025,
+    "paper_title": "Two-Point Discrimination of Vibrotactile Stimuli on the Forearm",
+    "authors": "[\"Jan Willms\", \"Adrien Chaffangeon Caillet\", \"Marco Kurzweg\", \"Katrin Wolf\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "mobilehci",
+    "year": 2025,
+    "paper_title": "Understanding the Experiences of People With and Without Vision Impairments When Using Mobile User Interface Alternative Color Modes",
+    "authors": "[\"Sarah Andrew\", \"Garreth W. Tigwell\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "mobilehci",
+    "year": 2025,
+    "paper_title": "You're making things AR-kward: Exploring Augmented Reality In-the-Wild",
+    "authors": "[\"Helen Stefanidi\", \"Jan-Hendrik S\\u00fcnderkamp\", \"Markus Tatzgern\", \"Alina Itzlinger\", \"Alexander Meschtscherjakov\"]",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
   }
 ]
