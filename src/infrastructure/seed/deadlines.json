@@ -432,6 +432,18 @@
     "timezone": "AoE"
   },
   {
+    "conference_slug": "icse",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": "2026-06-23T23:59:00Z",
+    "paper_deadline": "2026-06-30T23:59:00Z",
+    "notification_date": "2026-10-20T00:00:00Z",
+    "conference_start": "2027-04-25",
+    "conference_end": "2027-05-01",
+    "venue": "Dublin, Ireland",
+    "timezone": "AoE"
+  },
+  {
     "conference_slug": "icst",
     "year": 2026,
     "cycle": "main",
