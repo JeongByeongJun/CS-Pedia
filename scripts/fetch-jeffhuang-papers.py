@@ -119,8 +119,12 @@ def main():
     skipped = 0
     unmapped = set()
 
+    MIN_YEAR = 2020
+
     for table in tables:
         year = int(table['id'])
+        if year < MIN_YEAR:
+            continue
 
         rows = table.find_all('tr')
         current_conf_slug = None

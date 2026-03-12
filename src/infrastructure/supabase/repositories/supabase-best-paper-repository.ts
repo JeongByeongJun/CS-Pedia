@@ -28,6 +28,7 @@ export class SupabaseBestPaperRepository implements BestPaperRepository {
         conferences!inner (acronym, slug)
       `,
       )
+      .gte("year", 2020)
       .order("year", { ascending: false });
 
     if (filters?.conferenceId) {
@@ -59,6 +60,7 @@ export class SupabaseBestPaperRepository implements BestPaperRepository {
       .from("best_papers")
       .select("*")
       .eq("conference_id", conferenceId)
+      .gte("year", 2020)
       .order("year", { ascending: false });
 
     if (error) throw error;

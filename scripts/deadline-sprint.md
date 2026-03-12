@@ -14,36 +14,36 @@
 
 | 학회 | 현재 최신 | 조사할 연도 | 상태 | 비고 |
 |------|-----------|------------|------|------|
-| 3dv | - | 2026 | 🔍 | |
+| 3dv | - | 2026 | ✅ | paper Aug 18 2025 (마감), Mar 20-23 Vancouver |
 | aaai | 2027 | - | ✅ | |
-| aacl | 2025 | 2026 | 🔍 | 짝수년 개최 |
-| aamas | - | 2026 | 🔍 | |
-| accv | - | 2026 | 🔍 | 짝수년 개최 |
-| acl | 2026 | 2027 | 🔍 | |
-| acml | - | 2026 | 🔍 | |
-| acsac | - | 2026 | 🔍 | |
-| aistats | - | 2026 | 🔍 | |
-| ase | 2026 | 2027 | 🔍 | |
-| asiacrypt | - | 2026 | 🔍 | |
-| asplos | 2026 | 2027 | 🔍 | |
-| assets | - | 2026 | 🔍 | |
-| atc | - | 2026 | 🔍 | |
-| bigdata | - | 2026 | 🔍 | |
-| bmvc | - | 2026 | 🔍 | |
-| case | 2026 | 2027 | 🔍 | |
-| ccc | 2026 | 2027 | 🔍 | |
-| ccs | 2026 | 2027 | 🔍 | |
-| cgo | - | 2026 | 🔍 | |
-| chi | 2026 | 2027 | 🔍 | |
-| cikm | 2026 | 2027 | 🔍 | |
-| cluster | - | 2026 | 🔍 | |
-| coling | - | 2026 | 🔍 | |
-| colt | - | 2026 | 🔍 | |
-| conext | - | 2026 | 🔍 | |
-| conll | - | 2026 | 🔍 | |
-| corl | - | 2026 | 🔍 | |
-| crypto | 2026 | 2027 | 🔍 | |
-| cscw | 2026 | 2027 | 🔍 | |
+| aacl | 2025 | 2026 | ❌ | 짝수년 개최, 2026 CFP 미발표 (host city 결정 중) |
+| aamas | - | 2026 | ✅ | paper Oct 8 2025 (마감), May 25-29 Paphos Cyprus |
+| accv | - | 2026 | ✅ | paper Jul 5 2026, Dec 16-18 Osaka |
+| acl | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| acml | - | 2026 | ❌ | 2026 CFP 미발표, Dec Melbourne 확정 |
+| acsac | - | 2026 | ❌ | 2026 CFP 미발표, Dec 7-11 LA 확정 |
+| aistats | - | 2026 | ✅ | paper Oct 2 2025 (마감), May 2-5 Tangier Morocco |
+| ase | 2026 | 2027 | ❌ | 2027 미발표. ASE 2026 paper Mar 26 ← 2주 후! |
+| asiacrypt | - | 2026 | ❌ | 2026 CFP 미발표 |
+| asplos | 2026 | 2027 | ✅ | Cycle1 paper Apr 15, Cycle2 paper Sep 9; Mar 22-26 Pittsburgh |
+| assets | - | 2026 | ✅ | paper Apr 22 ← 임박, Oct 25-28 Porto |
+| atc | - | - | ❌ | ⚠️ ATC 영구 폐지 (ATC '25 마지막) |
+| bigdata | - | 2026 | ✅ | paper Aug 21, Dec 14-17 Phoenix AZ |
+| bmvc | - | 2026 | ✅ | abstract May 22, paper May 29, Nov 23-26 Lancaster UK |
+| case | 2026 | 2027 | ❌ | 2027 CFP 미발표 (CASE 2026 paper Mar 15 마감) |
+| ccc | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| ccs | 2026 | 2027 | ❌ | 2027 미발표. CCS 2026 Cycle2 abstract Apr 22, paper Apr 29 |
+| cgo | - | 2026 | ❌ | CGO 2026 Jan 31-Feb 4 종료, 2027 미발표 |
+| chi | 2026 | 2027 | ❌ | 2027 CFP 미발표, 학회 May 10-14 Pittsburgh 확정 |
+| cikm | 2026 | 2027 | ❌ | 2027 CFP 미발표, Sydney Oct 25-29 2027 예정 |
+| cluster | - | 2026 | ✅ | paper 4월 말 (정확한 날짜 미정), Sep 22-25 Alexandria VA |
+| coling | - | 2027 | ❌ | 홀수년 개최, 2027 Macau 확정 / CFP 미발표 |
+| colt | - | 2026 | ✅ | paper Feb 4 (마감), Jun 29-Jul 3 San Diego |
+| conext | - | 2026 | ✅ | paper Dec 12 2025 (마감), Dec 7-11 Utrecht |
+| conll | - | 2026 | ✅ | paper Feb 19 (마감), Jul 3-4 San Diego (co-located ACL) |
+| corl | - | 2026 | ✅ | abstract May 26, paper May 29, Nov 9-12 Austin TX |
+| crypto | 2026 | 2027 | ❌ | 2027 CFP 미발표 (보통 Feb 개방) |
+| cscw | 2026 | 2027 | ❌ | rolling review 전환, 2027 CFP 미발표 |
 
 ---
 
@@ -51,36 +51,36 @@
 
 | 학회 | 현재 최신 | 조사할 연도 | 상태 | 비고 |
 |------|-----------|------------|------|------|
-| csf | - | 2026 | 🔍 | |
-| cvpr | 2026 | 2027 | 🔍 | |
-| dac | 2026 | 2027 | 🔍 | |
-| dasfaa | - | 2026 | 🔍 | |
-| date | - | 2026 | 🔍 | |
-| dis | - | 2026 | 🔍 | |
-| dsn | - | 2026 | 🔍 | |
-| eacl | - | 2026 | 🔍 | 홀수년 개최 |
-| ecai | - | 2026 | 🔍 | |
-| eccv | 2026 | 2028 | 🔍 | 짝수년 개최 |
-| ecml-pkdd | - | 2026 | 🔍 | |
-| edbt | - | 2026 | 🔍 | |
-| egsr | - | 2026 | 🔍 | |
-| emnlp | 2026 | 2027 | 🔍 | |
-| er | 2026 | 2027 | 🔍 | |
-| esa | 2026 | 2027 | 🔍 | |
-| esem | - | 2026 | 🔍 | |
-| esorics | - | 2026 | 🔍 | |
-| eurocrypt | 2026 | 2027 | 🔍 | |
-| eurographics | - | 2026 | 🔍 | |
-| eurosys | 2026 | 2027 | 🔍 | |
-| fase | 2026 | 2027 | 🔍 | |
-| fast | - | 2026 | 🔍 | |
-| fg | - | 2027 | 🔍 | 홀수년 개최 |
-| focs | 2026 | 2027 | 🔍 | |
-| fse | 2026 | 2027 | 🔍 | |
-| gecco | - | 2026 | 🔍 | |
-| hpca | 2026 | 2027 | 🔍 | |
-| hpdc | - | 2026 | 🔍 | |
-| hri | 2026 | 2027 | 🔍 | |
+| csf | - | 2026 | ✅ | paper Jan 29 (마감), Jul 26-29 Lisbon |
+| cvpr | 2026 | 2027 | ❌ | 2027 학회 Jun 19-26 Seattle, CFP 미발표 |
+| dac | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| dasfaa | - | 2026 | ✅ | paper Oct 27 2025 (마감), Apr 27-30 Jeju |
+| date | - | 2026 | ✅ | paper Sep 14 2025 (마감), Apr 20-22 Verona |
+| dis | - | 2026 | ✅ | paper Jan 19 (마감), Jun 13-17 Singapore |
+| dsn | - | 2026 | ✅ | paper Dec 4 2025 (마감), Jun 22-25 Charlotte NC |
+| eacl | - | 2026 | ❌ | 홀수년 개최, 2027 host 미선정 |
+| ecai | - | 2026 | ✅ | paper Jan 19 (마감), Aug 18-21 Bremen (joint IJCAI-ECAI) |
+| eccv | 2026 | 2028 | ❌ | 짝수년 개최, 2028 CFP 미발표 |
+| ecml-pkdd | - | 2026 | ✅ | abstract Mar 5 (마감), paper Mar 12 ← 오늘!, Sep 7-11 Naples |
+| edbt | - | 2026 | ✅ | paper Oct 8 2025 (마감), Mar 24-27 Tampere |
+| egsr | - | 2026 | ✅ | abstract Apr 8, paper Apr 15 ← 임박, Jul 1-3 Bordeaux |
+| emnlp | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| er | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| esa | 2026 | 2027 | ✅ | 이미 DB에 있음 |
+| esem | - | 2026 | ✅ | abstract Apr 22, paper Apr 29 ← 임박, Oct 4-9 Munich |
+| esorics | - | 2026 | ✅ | abstract+paper Apr 21 ← 임박, Sep 14-18 Rome |
+| eurocrypt | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| eurographics | - | 2026 | ✅ | paper Sep 26 2025 (마감), May 4-8 Aachen |
+| eurosys | 2026 | 2027 | ✅ | spring: abstract May 7, paper May 14; fall: abstract Sep 17, paper Sep 24; Apr 19-24 Rabat |
+| fase | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| fast | - | 2027 | ✅ | spring: paper Mar 17 ← 5일 후!; fall: paper Sep 15; Feb 23-25 2027 Renton WA |
+| fg | - | 2027 | ❌ | 홀수년 개최, 2027 CFP 미발표 |
+| focs | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| fse | 2026 | 2027 | ✅ | paper Oct 9 2026, Jul 12-16 2027 Shenzhen |
+| gecco | - | 2026 | ✅ | paper Jan 26 (마감), Jul 13-17 Costa Rica |
+| hpca | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| hpdc | - | 2026 | ✅ | paper Feb 5 (마감), Jul 13-16 Cleveland OH |
+| hri | 2026 | 2027 | ❌ | 2027 학회 Mar 8-12 San Jose, CFP 미발표 |
 
 ---
 
@@ -88,36 +88,36 @@
 
 | 학회 | 현재 최신 | 조사할 연도 | 상태 | 비고 |
 |------|-----------|------------|------|------|
-| i3d | 2026 | 2027 | 🔍 | |
-| icalp | - | 2026 | 🔍 | |
-| icaps | - | 2026 | 🔍 | |
-| iccad | - | 2026 | 🔍 | |
-| iccv | 2025 | 2027 | 🔍 | 홀수년 개최 |
-| icdcs | - | 2026 | 🔍 | |
-| icde | 2026 | 2027 | 🔍 | |
-| icdm | - | 2026 | 🔍 | |
-| icip | - | 2026 | 🔍 | |
-| iclr | 2026 | 2027 | 🔍 | |
-| icml | 2026 | 2027 | 🔍 | |
-| icnp | - | 2026 | 🔍 | |
-| icpr | - | 2026 | 🔍 | 짝수년 개최 |
-| icra | 2026 | 2027 | 🔍 | |
-| ics | - | 2026 | 🔍 | |
+| i3d | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| icalp | - | 2026 | ✅ | paper Feb 6 2026 (마감), Jul 7-10 Royal Holloway UK |
+| icaps | - | 2026 | ✅ | paper Dec 8 2025 (마감), Jun 27-Jul 2 Dublin |
+| iccad | - | 2026 | ✅ | abstract Apr 7, paper Apr 14 ← 임박, Nov 8-12 San Jose |
+| iccv | 2025 | 2027 | ❌ | 홀수년, 2027 CFP 미발표 |
+| icdcs | - | 2026 | ✅ | paper Jan 21 (마감), Jun 22-25 Seoul |
+| icde | 2026 | 2027 | ✅ | R1 paper Jun 11, notify Sep 10, May 17-21 Copenhagen |
+| icdm | - | 2026 | ✅ | abstract May 30, paper Jun 6, notify Aug 16, Nov 12-15 Shenyang |
+| icip | - | 2026 | ✅ | paper Feb 4 (마감), notify Apr 22, Sep 13-17 Tampere Finland |
+| iclr | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| icml | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| icnp | - | 2026 | ✅ | abstract May 15, paper May 22, notify Jul 21, Oct 5-8 Tempe AZ |
+| icpr | - | 2026 | ✅ | paper Jan 10 (마감), notify Mar 31, Aug 17-22 Lyon France |
+| icra | 2026 | 2027 | ❌ | 2027 학회 May 24-28 Seoul, CFP 미발표 |
+| ics | - | 2026 | ✅ | paper Feb 9 (마감), notify Apr 6, Jul 6-9 Belfast |
 | icse | 2027 | - | ✅ | |
-| icsme | - | 2026 | 🔍 | |
-| icst | 2026 | 2027 | 🔍 | |
-| ijcai | 2026 | 2027 | 🔍 | |
-| imc | - | 2026 | 🔍 | |
-| infocom | 2026 | 2027 | 🔍 | |
+| icsme | - | 2026 | ✅ | paper Mar 6 (마감), notify May 29, Sep 14-18 Benevento Italy |
+| icst | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| ijcai | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| imc | - | 2026 | ✅ | cycle2 abstract Apr 22, paper Apr 29, Oct 12-16 Karlsruhe |
+| infocom | 2026 | 2027 | ✅ | abstract Jul 17, paper Jul 24, notify Dec 1, May 17-20 Honolulu |
 | interact | 2027 | - | ✅ | 홀수년 개최 |
-| iros | 2026 | 2027 | 🔍 | |
-| isaac | - | 2026 | 🔍 | |
-| isca | 2026 | 2027 | 🔍 | |
-| isrr | 2026 | 2027 | 🔍 | 홀수년 개최 |
-| issre | - | 2026 | 🔍 | |
-| issta | - | 2026 | 🔍 | |
-| itcs | 2026 | 2027 | 🔍 | |
-| iui | - | 2026 | 🔍 | |
+| iros | 2026 | 2027 | ❌ | 2027 CFP 미발표 (2026 이미 DB) |
+| isaac | - | 2026 | ❌ | 2026 CFP 미발표, 보통 12월 아시아 개최 |
+| isca | 2026 | 2027 | ❌ | 2027 CFP 미발표 (2026 이미 DB) |
+| isrr | 2026 | 2027 | ❌ | 홀수년 개최, 2027 CFP 미발표 |
+| issre | - | 2026 | ✅ | abstract Apr 10, paper Apr 17, notify Jul 8, Oct 20-23 Limassol |
+| issta | - | 2026 | ✅ | paper Jan 29 (마감), notify Apr 16, Oct 3-9 Oakland CA |
+| itcs | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| iui | - | 2026 | ✅ | paper Oct 10 2025 (마감), Jul 13-16 Limassol (장소 변경) |
 
 ---
 
