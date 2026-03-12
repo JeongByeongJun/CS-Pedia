@@ -537,7 +537,7 @@
     "conference_start": "2026-01-27",
     "conference_end": "2026-01-30",
     "venue": "Milan, Italy",
-    "timezone": "PDT"
+    "timezone": "AoE"
   },
   {
     "conference_slug": "kdd",
@@ -1466,7 +1466,7 @@
   {
     "conference_slug": "pods",
     "year": 2027,
-    "cycle": "Round1",
+    "cycle": "round1",
     "abstract_deadline": "2026-05-23T23:59:00Z",
     "paper_deadline": "2026-05-30T23:59:00Z",
     "notification_date": "2026-09-01T00:00:00Z",
@@ -1478,7 +1478,7 @@
   {
     "conference_slug": "pods",
     "year": 2027,
-    "cycle": "Round2",
+    "cycle": "round2",
     "abstract_deadline": "2026-12-03T23:59:00Z",
     "paper_deadline": "2026-12-10T23:59:00Z",
     "notification_date": "2027-03-01T00:00:00Z",
