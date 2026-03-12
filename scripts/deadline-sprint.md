@@ -125,36 +125,36 @@
 
 | 학회 | 현재 최신 | 조사할 연도 | 상태 | 비고 |
 |------|-----------|------------|------|------|
-| kdd | 2026 | 2027 | 🔍 | |
-| lrec | 2026 | 2027 | 🔍 | |
-| mdm | 2026 | 2027 | 🔍 | |
-| mfcs | - | 2026 | 🔍 | |
-| miccai | - | 2026 | 🔍 | |
-| micro | 2026 | 2027 | 🔍 | |
-| middleware | - | 2026 | 🔍 | |
-| mobicom | 2026 | 2027 | 🔍 | |
-| mobihoc | - | 2026 | 🔍 | |
-| mobilehci | 2026 | 2027 | 🔍 | |
-| mobisys | - | 2026 | 🔍 | |
-| models | - | 2026 | 🔍 | |
-| msr | - | 2026 | 🔍 | |
-| naacl | - | 2026 | 🔍 | |
+| kdd | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| lrec | 2026 | 2027 | ❌ | COLING 2027 Macau 확정, CFP 미발표. ⚠️ LREC/COLING 분리됨 |
+| mdm | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| mfcs | 2026 | - | ✅ | paper Apr 24 2026 ← 임박 |
+| miccai | 2026 | - | ✅ | 마감 (Feb 26 2026), Oct 5-7 Abu Dhabi |
+| micro | 2026 | 2027 | ❌ | 2027 CFP 미발표 (2026 abstract Mar 31 ← 임박\!) |
+| middleware | 2026 | - | ✅ | summer: paper Jun 5 2026 ← 임박 |
+| mobicom | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| mobihoc | 2026 | - | ✅ | paper Apr 6 2026 ← 임박 |
+| mobilehci | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| mobisys | 2026 | - | ✅ | 마감 (Dec 2025), Jun 21-25 Cambridge |
+| models | 2026 | - | ✅ | abstract Mar 20 ← 8일 후\! |
+| msr | 2026 | - | ✅ | 마감 (Oct 2025), Apr 13-14 Rio |
+| naacl | - | - | ❌ | 2026 미개최 (홀수년만), 2027 예정 |
 | ndss | 2027 | - | ✅ | |
-| neurips | 2026 | 2027 | 🔍 | |
-| nsdi | 2026 | 2027 | 🔍 | |
-| oopsla | 2026 | 2027 | 🔍 | |
-| osdi | 2026 | 2027 | 🔍 | |
-| pact | - | 2026 | 🔍 | |
-| pakdd | - | 2026 | 🔍 | |
-| pets | - | 2026 | 🔍 | |
-| pg | - | 2026 | 🔍 | |
-| pldi | 2026 | 2027 | 🔍 | |
-| pods | 2026 | 2027 | 🔍 | |
+| neurips | 2026 | 2027 | ❌ | 2027 미발표. 2026 paper May 7 ← 임박 |
+| nsdi | 2027 | - | ✅ | spring Apr 23, fall Sep 17 2026 |
+| oopsla | 2026 | - | ✅ | Round2 Mar 17 ← 5일 후\! |
+| osdi | 2026 | 2027 | ❌ | 2027 venue: Baltimore Jul 7-9, CFP 미발표 |
+| pact | 2026 | - | ✅ | paper Apr 24 2026 ← 임박 |
+| pakdd | 2026 | - | ✅ | 마감 (Nov 2025), Jun 9-12 Hong Kong |
+| pets | 2026 | - | ✅ | Q1-Q4 모두 마감, Jul 20-25 Calgary |
+| pg | 2026 | - | ✅ | paper Jun 8 2026 ← 임박 |
+| pldi | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
+| pods | 2027 | - | ✅ | R1 May 30, R2 Dec 10 2026 |
 | popl | 2027 | - | ✅ | |
-| ppopp | - | 2026 | 🔍 | |
-| raid | - | 2026 | 🔍 | |
-| recsys | - | 2026 | 🔍 | |
-| rss | 2026 | 2027 | 🔍 | |
+| ppopp | 2026 | - | ✅ | 마감 (Sep 2025), Jan 31 Sydney |
+| raid | 2026 | - | ✅ | paper Apr 16 2026 ← 임박 |
+| recsys | 2026 | - | ✅ | abstract Apr 14, paper Apr 21 ← 임박 |
+| rss | 2026 | 2027 | ❌ | 2027 CFP 미발표 |
 
 ---
 
