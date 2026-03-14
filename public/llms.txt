@@ -1,0 +1,33 @@
+# CS-Pedia
+> CS conference information platform for Korean CS researchers
+
+CS-Pedia (cs-pedia.io) is a comprehensive platform that tracks 144 CS conferences with deadline information, institutional recognition ratings (BK21, KIISE, KAIST, SNU, POSTECH), best paper awards (1400+ papers from 2020-2026), and acceptance rate trends.
+
+## Key Data
+
+- 144 CS conferences across all major fields (AI/ML, Systems, Theory, HCI, Security, etc.)
+- Conference deadlines with D-day countdown (176 deadline entries)
+- Institutional recognition: BK21 (Korean government), KIISE (Korean CS society), KAIST/SNU/POSTECH tier ratings
+- Best paper awards archive: 1400+ papers from 2020-2026 with tags and paper links
+- Acceptance rate trends from DBLP and OpenAlex
+- Keyword trends from Semantic Scholar paper titles
+
+## Pages
+
+- / : Conference listing with filters by field, institution recognition, and search
+- /conferences/[slug] : Individual conference detail (deadlines, acceptance rates, best papers, keyword trends)
+- /best-papers : Best paper awards archive with filtering by conference, year, and award type
+- /trends : Acceptance rate and keyword trend visualizations
+
+## Data Sources
+
+- DBLP (CC0) - publication counts and acceptance rates
+- OpenAlex (CC0) - acceptance rate data
+- jeffhuang.com - best paper awards data
+- Semantic Scholar - keyword trend analysis
+- NRF Korea (한국연구재단) - BK21 recognized conference list
+- KIISE (한국정보과학회) - KIISE recognized conference list
+
+## Contact
+
+contact@cs-pedia.io
