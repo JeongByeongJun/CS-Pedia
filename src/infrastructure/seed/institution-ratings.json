@@ -20,7 +20,7 @@
   {
     "conference_slug": "neurips",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -50,7 +50,7 @@
   {
     "conference_slug": "icml",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -74,7 +74,7 @@
   {
     "conference_slug": "iclr",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -104,7 +104,7 @@
   {
     "conference_slug": "aaai",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -134,7 +134,7 @@
   {
     "conference_slug": "ijcai",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -164,7 +164,7 @@
   {
     "conference_slug": "kdd",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -194,7 +194,7 @@
   {
     "conference_slug": "acl",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -224,7 +224,7 @@
   {
     "conference_slug": "cvpr",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -254,7 +254,7 @@
   {
     "conference_slug": "iccv",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -284,7 +284,7 @@
   {
     "conference_slug": "sosp",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -314,7 +314,7 @@
   {
     "conference_slug": "osdi",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -344,7 +344,7 @@
   {
     "conference_slug": "ccs",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -374,7 +374,7 @@
   {
     "conference_slug": "sp",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -404,7 +404,7 @@
   {
     "conference_slug": "sigmod",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -434,7 +434,7 @@
   {
     "conference_slug": "vldb",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -464,7 +464,7 @@
   {
     "conference_slug": "chi",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -488,7 +488,7 @@
   {
     "conference_slug": "icse",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -512,7 +512,7 @@
   {
     "conference_slug": "focs",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -536,7 +536,7 @@
   {
     "conference_slug": "stoc",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -560,7 +560,7 @@
   {
     "conference_slug": "sigcomm",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -584,7 +584,7 @@
   {
     "conference_slug": "isca",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -608,7 +608,7 @@
   {
     "conference_slug": "siggraph",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -650,7 +650,7 @@
   {
     "conference_slug": "fse",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -674,7 +674,7 @@
   {
     "conference_slug": "usenix-security",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -698,7 +698,7 @@
   {
     "conference_slug": "ndss",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -722,7 +722,7 @@
   {
     "conference_slug": "pldi",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -746,7 +746,7 @@
   {
     "conference_slug": "popl",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -2222,241 +2222,241 @@
   {
     "conference_slug": "cscw",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "sensys",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "cikm",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "mobicom",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "mobisys",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "ics",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "wsdm",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "ubicomp",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "mobihoc",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "siggraph-asia",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "sigir",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "ppopp",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "pods",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "uist",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "soda",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "sc",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "colt",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "asplos",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "oopsla",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "uai",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "dac",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "emnlp",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "eurosys",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "eccv",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "gecco",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "infocom",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "icde",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "icdm",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "icdcs",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "hpdc",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "hpca",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "ase",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "iccad",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "micro",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "miccai",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "pact",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "conext",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "eurocrypt",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "crypto",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "www",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -2468,13 +2468,13 @@
   {
     "conference_slug": "fast",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
     "conference_slug": "nsdi",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -3020,7 +3020,7 @@
   {
     "conference_slug": "lics",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -3050,7 +3050,7 @@
   {
     "conference_slug": "ieee-vis",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -3080,7 +3080,7 @@
   {
     "conference_slug": "rtss",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -3110,7 +3110,7 @@
   {
     "conference_slug": "rtas",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -3140,7 +3140,7 @@
   {
     "conference_slug": "sigmetrics",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -3170,7 +3170,7 @@
   {
     "conference_slug": "icfp",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -3200,7 +3200,7 @@
   {
     "conference_slug": "cav",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -3290,7 +3290,7 @@
   {
     "conference_slug": "ecrts",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
