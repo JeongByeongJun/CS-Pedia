@@ -896,7 +896,7 @@
   {
     "conference_slug": "icaps",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -962,7 +962,7 @@
   {
     "conference_slug": "atc",
     "institution": "KIISE",
-    "tier": "최우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1304,7 +1304,7 @@
   {
     "conference_slug": "itcs",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1352,7 +1352,7 @@
   {
     "conference_slug": "ecai",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1388,7 +1388,7 @@
   {
     "conference_slug": "aacl",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1424,7 +1424,7 @@
   {
     "conference_slug": "3dv",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1544,7 +1544,7 @@
   {
     "conference_slug": "dis",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1676,7 +1676,7 @@
   {
     "conference_slug": "hri",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1748,7 +1748,7 @@
   {
     "conference_slug": "lrec",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1772,7 +1772,7 @@
   {
     "conference_slug": "icip",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1784,7 +1784,7 @@
   {
     "conference_slug": "icpr",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1796,7 +1796,7 @@
   {
     "conference_slug": "fg",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1808,7 +1808,7 @@
   {
     "conference_slug": "acml",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1988,7 +1988,7 @@
   {
     "conference_slug": "mdm",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2000,7 +2000,7 @@
   {
     "conference_slug": "er",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2012,7 +2012,7 @@
   {
     "conference_slug": "mobilehci",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2024,7 +2024,7 @@
   {
     "conference_slug": "assets",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2036,7 +2036,7 @@
   {
     "conference_slug": "interact",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2048,7 +2048,7 @@
   {
     "conference_slug": "esem",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2192,7 +2192,7 @@
   {
     "conference_slug": "egsr",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2204,7 +2204,7 @@
   {
     "conference_slug": "case",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2216,7 +2216,7 @@
   {
     "conference_slug": "isrr",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -3188,7 +3188,7 @@
   {
     "conference_slug": "cav",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3218,7 +3218,7 @@
   {
     "conference_slug": "ieee-vr",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": "최우수",
     "year": 2025
   },
   {
