@@ -120,12 +120,12 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
         <div style={{ height: "1px", background: "rgba(255,255,255,0.06)" }} />
 
         {/* Hero Section */}
-        <div style={{ paddingTop: "32px", paddingBottom: "32px" }}>
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between" style={{ gap: "28px" }}>
+        <div className="pt-4 pb-4 sm:pt-8 sm:pb-8">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 sm:gap-7">
             {/* Left: Title */}
             <div>
               <div
-                className="font-medium"
+                className="font-medium hidden sm:block"
                 style={{
                   fontSize: "11px",
                   letterSpacing: "0.15em",
@@ -138,13 +138,12 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
                 CS Conference Hub
               </div>
               <h1
-                className="font-bold"
+                className="font-bold text-[22px] sm:text-[clamp(26px,4vw,36px)]"
                 style={{
-                  fontSize: "clamp(26px, 4vw, 36px)",
                   lineHeight: 1.2,
                   letterSpacing: "-0.025em",
                   color: "#fafafa",
-                  marginBottom: "10px",
+                  marginBottom: "6px",
                 }}
               >
                 Deadlines, Rankings
@@ -152,6 +151,7 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
                 <span style={{ color: "#a1a1aa" }}>& Best Papers — all in one.</span>
               </h1>
               <p
+                className="hidden sm:block"
                 style={{
                   fontSize: "13px",
                   color: "#52525b",
@@ -166,7 +166,7 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
             </div>
 
             {/* Right: Stat cards */}
-            <div className="grid" style={{ gridTemplateColumns: "repeat(3, 110px)", gap: "10px", flexShrink: 0 }}>
+            <div className="grid grid-cols-3 w-full sm:w-auto" style={{ gap: "8px", flexShrink: 0 }}>
               <StatCard value={upcomingCount} label="Upcoming" accentColor="#818cf8" />
               <StatCard value={totalCount} label="Tracked" accentColor="#a78bfa" />
               <StatCard value={bookmarkCount} label="Saved" accentColor="#f59e0b" />
@@ -192,33 +192,30 @@ function StatCard({
 }) {
   return (
     <div
+      className="px-3 py-2.5 sm:px-5 sm:py-4"
       style={{
-        padding: "16px 20px",
         borderRadius: "12px",
         background: "rgba(255,255,255,0.025)",
         border: "1px solid rgba(255,255,255,0.05)",
       }}
     >
       <div
-        className="font-bold"
+        className="font-bold text-xl sm:text-[28px]"
         style={{
-          fontSize: "28px",
           lineHeight: 1,
           color: "#fafafa",
           fontFamily: "var(--font-geist-mono), monospace",
           letterSpacing: "-0.03em",
           fontVariantNumeric: "tabular-nums",
-          minWidth: "48px",
         }}
       >
         {value}
       </div>
       <div
-        className="flex items-center"
+        className="flex items-center mt-1 sm:mt-2"
         style={{
-          marginTop: "8px",
           gap: "6px",
-          fontSize: "11px",
+          fontSize: "10px",
           color: "#71717a",
           fontFamily: "var(--font-geist-mono), monospace",
           textTransform: "uppercase" as const,

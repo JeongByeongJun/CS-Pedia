@@ -91,8 +91,8 @@ export function ConferenceClientSection({
 
   return (
     <>
-      <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-5 mb-5">
-        <div className="flex items-center gap-2 mb-3">
+      <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-3 sm:p-5 mb-4 sm:mb-5">
+        <div className="flex items-center gap-2 mb-2 sm:mb-3">
           <div className="flex-1">
             <ConferenceSearch value={search} onChange={setSearch} />
           </div>
@@ -109,7 +109,7 @@ export function ConferenceClientSection({
             <span className="text-xs">{showFilters ? "▲" : "▼"}</span>
           </button>
         </div>
-        <div className={`${showFilters ? "block" : "hidden"} md:block border-t border-zinc-100 pt-4 mt-1`}>
+        <div className={`${showFilters ? "block" : "hidden"} md:block border-t border-zinc-100 pt-3 sm:pt-4 mt-1`}>
           <ConferenceFilters
             selectedField={field}
             selectedInstitution={institution}

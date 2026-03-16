@@ -230,17 +230,17 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
               {deadlines.map((d) => (
                 <div
                   key={d.id}
-                  className="flex items-center justify-between p-3 rounded-xl bg-zinc-50 border border-zinc-100"
+                  className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5 sm:gap-0 p-3 rounded-xl bg-zinc-50 border border-zinc-100"
                 >
                   <div>
                     <div className="text-sm font-medium text-zinc-800">
                       {d.year} {d.cycle && `(${d.cycle})`}
                     </div>
-                    <div className="text-xs text-zinc-400 mt-1">
+                    <div className="text-xs text-zinc-400 mt-0.5">
                       {d.venue && `📍 ${d.venue}`}
                     </div>
                   </div>
-                  <div className="text-right text-xs text-zinc-500">
+                  <div className="text-xs text-zinc-500 sm:text-right">
                     {(d.paperDeadline || d.conferenceStart) && (
                       <>
                         <div>📝 {isKorean ? "마감" : "Deadline"}: {d.paperDeadline ? formatDate(d.paperDeadline) : "TBD"}</div>
