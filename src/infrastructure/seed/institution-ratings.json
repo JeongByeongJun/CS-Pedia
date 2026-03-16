@@ -3298,5 +3298,2777 @@
     "institution": "POSTECH",
     "tier": null,
     "year": 2025
+  },
+  {
+    "conference_slug": "3dv",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "3dv",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "3dv",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "aaai",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "aaai",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "aaai",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "aacl",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "aacl",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "aacl",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "aamas",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "aamas",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "aamas",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "accv",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "accv",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "accv",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "acl",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "acl",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "acl",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "acml",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "acml",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "acml",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "acsac",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "acsac",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "acsac",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "aistats",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "aistats",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "aistats",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ase",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ase",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ase",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asiacrypt",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "asiacrypt",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "asiacrypt",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "asplos",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "asplos",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "asplos",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "assets",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "assets",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "assets",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "atc",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "atc",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "atc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "bigdata",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "bigdata",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "bigdata",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "bmvc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "bmvc",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "bmvc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "case",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "case",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "case",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cav",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cav",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cav",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ccc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ccc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccs",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ccs",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ccs",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cgo",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cgo",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cgo",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "chi",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "chi",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "chi",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cikm",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cikm",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cikm",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cluster",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cluster",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cluster",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "coling",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "coling",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "coling",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "colt",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "colt",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "colt",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "conext",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "conext",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "conext",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "conll",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "conll",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "conll",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "corl",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "corl",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "corl",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "crypto",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "crypto",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "crypto",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cscw",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cscw",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cscw",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "csf",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "csf",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "csf",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cvpr",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cvpr",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cvpr",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dac",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "dac",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "dac",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "dasfaa",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "dasfaa",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "dasfaa",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "date",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "date",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "date",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "dis",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "dis",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "dis",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "dsn",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "dsn",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "dsn",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "eacl",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "eacl",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "eacl",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecai",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ecai",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ecai",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "eccv",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "eccv",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "eccv",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecrts",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ecrts",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "ecrts",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "edbt",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "edbt",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "edbt",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "egsr",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "egsr",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "egsr",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "emnlp",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "emnlp",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "emnlp",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "er",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "er",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "er",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "esa",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "esa",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "esa",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "esem",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "esem",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "esem",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "esorics",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "esorics",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "esorics",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurocrypt",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "eurocrypt",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "eurocrypt",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurographics",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "eurographics",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "eurographics",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "eurosys",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "eurosys",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "eurosys",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fase",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "fase",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "fase",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "fast",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "fast",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "fast",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fg",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "fg",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "fg",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "focs",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "focs",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "focs",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fse",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "fse",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "fse",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "gecco",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "gecco",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "gecco",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hpca",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "hpca",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "hpca",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hpdc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "hpdc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "hpdc",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hri",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "hri",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "hri",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "i3d",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "i3d",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "i3d",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icalp",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icalp",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icalp",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icaps",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icaps",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icaps",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccad",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "iccad",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "iccad",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccv",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "iccv",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "iccv",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icdcs",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icdcs",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icdcs",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icde",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icde",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icde",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icdm",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icdm",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icdm",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icfp",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icfp",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icfp",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icip",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icip",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icip",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iclr",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "iclr",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "iclr",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icml",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icml",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icml",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icnp",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icnp",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icnp",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icpr",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icpr",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icpr",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icra",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icra",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icra",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ics",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ics",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ics",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icse",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icse",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icse",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icsme",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icsme",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icsme",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icst",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icst",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icst",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ijcai",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ijcai",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ijcai",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "imc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "imc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "imc",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "infocom",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "infocom",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "infocom",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "interact",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "interact",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "interact",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iros",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "iros",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "iros",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "isaac",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "isaac",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "isaac",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "isca",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "isca",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "isca",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "isrr",
+    "institution": "CORE",
+    "tier": "C",
+    "year": 2023
+  },
+  {
+    "conference_slug": "isrr",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "isrr",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "issre",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "issre",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "issre",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "issta",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "issta",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "issta",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iswc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "iswc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "iswc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "itcs",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "itcs",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "itcs",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iui",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "iui",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "iui",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "kdd",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "kdd",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "kdd",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "lics",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "lics",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "lics",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "lrec",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "lrec",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "lrec",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mdm",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "mdm",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "mdm",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mfcs",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "mfcs",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "mfcs",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "miccai",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "miccai",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "miccai",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "micro",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "micro",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "micro",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "middleware",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "middleware",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "middleware",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobicom",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "mobicom",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "mobicom",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobihoc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "mobihoc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "mobihoc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobilehci",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "mobilehci",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "mobilehci",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mobisys",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "mobisys",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "mobisys",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "models",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "models",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "models",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "msr",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "msr",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "msr",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "naacl",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "naacl",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "naacl",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ndss",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ndss",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ndss",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "neurips",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "neurips",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "neurips",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "nsdi",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "nsdi",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "nsdi",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "oopsla",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "oopsla",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "oopsla",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "osdi",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "osdi",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "osdi",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pact",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "pact",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "pact",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "pakdd",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "pakdd",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "pakdd",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "pets",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "pets",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "pets",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "pg",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "pg",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "pg",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "pldi",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "pldi",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "pldi",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "pods",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "pods",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "pods",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "popl",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "popl",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "popl",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ppopp",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ppopp",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ppopp",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "raid",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "raid",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "raid",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "recsys",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "recsys",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "recsys",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "rss",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "rss",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "rss",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "rtas",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "rtas",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "rtas",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "rtss",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "rtss",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "rtss",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "saner",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "saner",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "saner",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sc",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sc",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sca",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sca",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sca",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sdm",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sdm",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sdm",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sensys",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sensys",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sensys",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sigcomm",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sigcomm",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sigcomm",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "siggraph",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "siggraph",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "siggraph",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "siggraph-asia",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sigir",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sigir",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sigir",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sigmod",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sigmod",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sigmod",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "socc",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "socc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "socc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "socg",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "socg",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "socg",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "soda",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "soda",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "soda",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sosp",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sosp",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sosp",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sp",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sp",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sp",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "stoc",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "stoc",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "stoc",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "uai",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "uai",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "uai",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ubicomp",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "ubicomp",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ubicomp",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "uist",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "uist",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "uist",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "usenix-security",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "usenix-security",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "usenix-security",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "vldb",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "vldb",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "vldb",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "wacv",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "wacv",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "wacv",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "wsdm",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "wsdm",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "wsdm",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "www",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "www",
+    "institution": "CCF",
+    "tier": "A",
+    "year": 2022
+  },
+  {
+    "conference_slug": "www",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
   }
 ]

@@ -63,7 +63,7 @@ export function ConferenceClientSection({
 
     if (institution) {
       result = result.filter((c) =>
-        c.institutionRatings.some((r) => r.institution === institution),
+        c.institutionRatings.some((r) => r.institution === institution && r.tier != null),
       );
     }
 
@@ -88,6 +88,16 @@ export function ConferenceClientSection({
       return r ? parseInt(r.tier ?? "0") || 0 : 0;
     };
 
+    const getCOREScore = (c: ConferenceWithRelations) => {
+      const r = c.institutionRatings.find((r) => r.institution === "CORE");
+      const tier = r?.tier;
+      if (tier === "A*") return 4;
+      if (tier === "A") return 3;
+      if (tier === "B") return 2;
+      if (tier === "C") return 1;
+      return 0;
+    };
+
     if (sort === "alphabetical") {
       return [...result].sort((a, b) => {
         const rankDiff = acronymRank(a) - acronymRank(b);
@@ -97,10 +107,11 @@ export function ConferenceClientSection({
     }
 
     if (sort === "bk21") {
+      const scoreFn = isKorean ? getBK21Score : getCOREScore;
       return [...result].sort((a, b) => {
         const rankDiff = acronymRank(a) - acronymRank(b);
         if (rankDiff !== 0) return rankDiff;
-        return getBK21Score(b) - getBK21Score(a);
+        return scoreFn(b) - scoreFn(a);
       });
     }
 

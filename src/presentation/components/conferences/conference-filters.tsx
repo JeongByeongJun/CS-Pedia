@@ -1,7 +1,7 @@
 "use client";
 
 import { FIELDS } from "@/shared/constants/fields";
-import { INSTITUTIONS } from "@/shared/constants/institutions";
+import { INSTITUTIONS_KR, INSTITUTIONS_INTL } from "@/shared/constants/institutions";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
 interface ConferenceFiltersProps {
@@ -32,6 +32,7 @@ export function ConferenceFilters({
     : [
         { id: "deadline", label: "By Deadline" },
         { id: "alphabetical", label: "Alphabetical" },
+        { id: "bk21", label: "CORE Rank" },
       ];
 
   return (
@@ -56,37 +57,35 @@ export function ConferenceFilters({
         </div>
       </div>
 
-      {/* 기관 필터 — KR only */}
-      {isKorean && (
-        <div>
-          <div className="text-xs text-zinc-400 mb-2 font-medium">기관 인정</div>
-          <div className="flex flex-wrap gap-1.5">
+      {/* 기관 필터 */}
+      <div>
+        <div className="text-xs text-zinc-400 mb-2 font-medium">{isKorean ? "기관 인정" : "Rankings"}</div>
+        <div className="flex flex-wrap gap-1.5">
+          <button
+            onClick={() => onInstitutionChange("")}
+            className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+              !selectedInstitution
+                ? "bg-indigo-600 text-white shadow-sm"
+                : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
+            }`}
+          >
+            {isKorean ? "전체" : "All"}
+          </button>
+          {(isKorean ? INSTITUTIONS_KR : INSTITUTIONS_INTL).map((inst) => (
             <button
-              onClick={() => onInstitutionChange("")}
+              key={inst}
+              onClick={() => onInstitutionChange(inst)}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                !selectedInstitution
+                selectedInstitution === inst
                   ? "bg-indigo-600 text-white shadow-sm"
                   : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
               }`}
             >
-              전체
+              {inst}
             </button>
-            {INSTITUTIONS.map((inst) => (
-              <button
-                key={inst}
-                onClick={() => onInstitutionChange(inst)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                  selectedInstitution === inst
-                    ? "bg-indigo-600 text-white shadow-sm"
-                    : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
-                }`}
-              >
-                {inst}
-              </button>
-            ))}
-          </div>
+          ))}
         </div>
-      )}
+      </div>
 
       {/* 정렬 / Sort */}
       <div>

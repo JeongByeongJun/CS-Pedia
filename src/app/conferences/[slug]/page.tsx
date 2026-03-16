@@ -15,7 +15,7 @@ import { ConferenceKeywordChart } from "@/presentation/components/charts/confere
 import { formatDate } from "@/shared/utils/date";
 import { formatAuthors } from "@/shared/utils/url";
 import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
-import { INSTITUTIONS } from "@/shared/constants/institutions";
+import { INSTITUTIONS_KR, INSTITUTIONS_INTL } from "@/shared/constants/institutions";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 
 interface PageProps {
@@ -192,28 +192,34 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* 기관 인정 현황 — KR only */}
-        {isKorean && <Section title={<>기관 인정 현황<InfoTooltip text="BK21: 2018년 BK21플러스 점수 기준 (1~4점) · KIISE: 2024년 한국정보과학회 기준 (최우수/우수) · POSTECH: 2026년 기준 (최우수/우수) · KAIST: 2022년 인정 기준 · SNU: 2024년 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>}>
+        {/* 기관 인정 현황 / Rankings */}
+        <Section title={isKorean
+          ? <>{`기관 인정 현황`}<InfoTooltip text="BK21: 2018년 BK21플러스 점수 기준 (1~4점) · KIISE: 2024년 한국정보과학회 기준 (최우수/우수) · POSTECH: 2026년 기준 (최우수/우수) · KAIST: 2022년 인정 기준 · SNU: 2024년 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>
+          : <>{`Rankings`}<InfoTooltip text="CORE: Australian Research Council 2023 ranking (A*/A/B/C) · CCF: China Computer Federation 2022 ranking (A/B/C) · CSRankings: Included in csrankings.org venue list for university rankings." /></>
+        }>
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
-            {INSTITUTIONS.map((inst) => {
+            {(isKorean ? INSTITUTIONS_KR : INSTITUTIONS_INTL).map((inst) => {
               const rating = ratings.find((r) => r.institution === inst);
               const displayTier = rating
                 ? inst === "BK21" && rating.tier
                   ? `${rating.tier}점`
-                  : rating.tier ?? "✓"
+                  : inst === "CSRankings" && rating.tier
+                    ? "✓"
+                    : rating.tier ?? "—"
                 : "—";
+              const hasRating = rating?.tier != null;
               return (
                 <div
                   key={inst}
                   className={`rounded-xl p-3 text-center border ${
-                    rating
+                    hasRating
                       ? "bg-emerald-50 border-emerald-200"
                       : "bg-zinc-50 border-zinc-200"
                   }`}
                 >
                   <div className="text-xs text-zinc-500 mb-1">{inst}</div>
                   <div
-                    className={`text-lg font-bold ${rating ? "text-emerald-700" : "text-zinc-300"}`}
+                    className={`text-lg font-bold ${hasRating ? "text-emerald-700" : "text-zinc-300"}`}
                   >
                     {displayTier}
                   </div>
@@ -221,7 +227,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
               );
             })}
           </div>
-        </Section>}
+        </Section>
 
         {/* 데드라인 이력 */}
         {deadlines.length > 0 && (
