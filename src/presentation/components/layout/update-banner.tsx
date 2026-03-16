@@ -1,0 +1,54 @@
+"use client";
+
+import { useState } from "react";
+import { useLocale } from "@/presentation/hooks/use-locale";
+
+const UPDATES = [
+  {
+    date: "2026.03.16",
+    kr: "CORE / CCF / CSRankings 등급 추가 — 해외 유저를 위한 국제 학회 랭킹 지원",
+    en: "Added CORE / CCF / CSRankings — international conference rankings for global users",
+  },
+  {
+    date: "2026.03.16",
+    kr: "신규 학회 10개 추가 (LICS, VIS, RTSS, RTAS, SIGMETRICS, ICFP, CAV, VR, ISWC, ECRTS)",
+    en: "10 new conferences added (LICS, VIS, RTSS, RTAS, SIGMETRICS, ICFP, CAV, VR, ISWC, ECRTS)",
+  },
+  {
+    date: "2026.03.16",
+    kr: "데드라인 전수 검증 완료 (154개 학회, 29건 수정)",
+    en: "Full deadline audit complete (154 conferences, 29 corrections)",
+  },
+];
+
+export function UpdateBanner() {
+  const { isKorean } = useLocale();
+  const [dismissed, setDismissed] = useState(false);
+
+  if (dismissed) return null;
+
+  return (
+    <div className="relative bg-white/80 backdrop-blur-sm border border-zinc-200/60 rounded-xl px-4 py-3 mb-4 sm:mb-5">
+      <button
+        onClick={() => setDismissed(true)}
+        className="absolute top-2.5 right-3 text-zinc-300 hover:text-zinc-500 transition-colors text-sm leading-none"
+        aria-label="Close"
+      >
+        ✕
+      </button>
+      <div className="flex items-center gap-2 mb-1.5">
+        <span className="text-[10px] font-semibold tracking-wider uppercase text-indigo-500" style={{ fontFamily: "var(--font-geist-mono), monospace" }}>
+          {isKorean ? "최근 업데이트" : "What's New"}
+        </span>
+      </div>
+      <ul className="space-y-0.5 pr-6">
+        {UPDATES.map((u, i) => (
+          <li key={i} className="flex items-start gap-2 text-xs text-zinc-500 leading-relaxed">
+            <span className="text-zinc-300 shrink-0">{u.date}</span>
+            <span>{isKorean ? u.kr : u.en}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}

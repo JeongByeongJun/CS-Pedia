@@ -2,6 +2,7 @@ import { getConferences, bookmarkRepo } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
+import { UpdateBanner } from "@/presentation/components/layout/update-banner";
 import { ConferenceClientSection } from "@/presentation/components/conferences/conference-client-section";
 
 export const revalidate = 3600;
@@ -58,6 +59,7 @@ export default async function HomePage() {
       <SiteHeader user={authUser} />
 
       <main className="max-w-6xl mx-auto px-4 py-4 sm:px-6 sm:py-6">
+        <UpdateBanner />
         <ConferenceClientSection
           conferences={conferences}
           bookmarkedIds={bookmarkedIds}
