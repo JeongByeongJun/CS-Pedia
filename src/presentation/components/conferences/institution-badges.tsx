@@ -72,7 +72,11 @@ function getTierDisplay(institution: string, tier: string | null): { text: strin
     return { text: "✓", style: RECOGNIZED_STYLE };
   }
 
-  // KAIST, SNU: binary
+  if (institution === "KAIST") {
+    return { text: tier, style: NAMED_TIER_STYLES[tier] ?? RECOGNIZED_STYLE };
+  }
+
+  // SNU: 인정 only
   return { text: "✓", style: RECOGNIZED_STYLE };
 }
 

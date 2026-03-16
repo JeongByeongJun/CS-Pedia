@@ -200,27 +200,47 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
             {(isKorean ? INSTITUTIONS_KR : INSTITUTIONS_INTL).map((inst) => {
               const rating = ratings.find((r) => r.institution === inst);
-              const displayTier = rating
-                ? inst === "BK21" && rating.tier
-                  ? `${rating.tier}점`
-                  : inst === "CSRankings" && rating.tier
-                    ? "✓"
-                    : rating.tier ?? "—"
-                : "—";
-              const hasRating = rating?.tier != null;
+              const tier = rating?.tier as string | null;
+              const hasTier = tier != null;
+
+              // Display text
+              let displayTier = "—";
+              if (hasTier) {
+                if (inst === "BK21") displayTier = `${tier}점`;
+                else if (inst === "CSRankings" || inst === "SNU") displayTier = "✓";
+                else displayTier = tier;
+              }
+
+              // Color: gold(최우수/A*/A/4점) > blue(우수/A/B/3점) > violet(B/C/2점) > gray
+              const label = inst === "POSTECH" ? "POST" : inst;
+              let cardStyle = "bg-zinc-50 border-zinc-200";
+              let textStyle = "text-zinc-300";
+              if (hasTier) {
+                const isTop = tier === "최우수" || tier === "A*" || tier === "4" || (inst === "CCF" && tier === "A");
+                const isMid = tier === "우수" || tier === "3" || (inst === "CCF" && tier === "B") || (inst === "CORE" && tier === "A");
+                const isLow = tier === "B" || tier === "C" || tier === "2" || tier === "1";
+                if (isTop) {
+                  cardStyle = "bg-amber-50 border-amber-200";
+                  textStyle = "text-amber-700";
+                } else if (isMid) {
+                  cardStyle = "bg-sky-50 border-sky-200";
+                  textStyle = "text-sky-700";
+                } else if (isLow) {
+                  cardStyle = "bg-violet-50 border-violet-200";
+                  textStyle = "text-violet-600";
+                } else {
+                  cardStyle = "bg-emerald-50 border-emerald-200";
+                  textStyle = "text-emerald-700";
+                }
+              }
+
               return (
                 <div
                   key={inst}
-                  className={`rounded-xl p-3 text-center border ${
-                    hasRating
-                      ? "bg-emerald-50 border-emerald-200"
-                      : "bg-zinc-50 border-zinc-200"
-                  }`}
+                  className={`rounded-xl p-3 text-center border ${cardStyle}`}
                 >
-                  <div className="text-xs text-zinc-500 mb-1">{inst}</div>
-                  <div
-                    className={`text-lg font-bold ${hasRating ? "text-emerald-700" : "text-zinc-300"}`}
-                  >
+                  <div className="text-xs text-zinc-500 mb-1">{label}</div>
+                  <div className={`text-lg font-bold ${textStyle}`}>
                     {displayTier}
                   </div>
                 </div>
