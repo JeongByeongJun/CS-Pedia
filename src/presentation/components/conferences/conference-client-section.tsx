@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import type { ConferenceWithRelations } from "@/domain/repositories/conference-repository";
 import { ConferenceSearch } from "./conference-search";
@@ -27,9 +27,12 @@ export function ConferenceClientSection({
   const field = searchParams.get("field") ?? "";
   const institution = searchParams.get("institution") ?? "";
   const sort = searchParams.get("sort") ?? "deadline";
-  const search = searchParams.get("q") ?? "";
+  const urlSearch = searchParams.get("q") ?? "";
 
+  // 검색은 로컬 state로 즉시 반영, URL은 디바운스
+  const [search, setSearchLocal] = useState(urlSearch);
   const [showFilters, setShowFilters] = useState(false);
+  const debounceRef = useRef<ReturnType<typeof setTimeout>>(null);
 
   const activeFilterCount = [field, institution].filter(Boolean).length;
 
@@ -50,10 +53,21 @@ export function ConferenceClientSection({
     [searchParams, router],
   );
 
+  // 검색: 로컬 즉시 반영 + URL 디바운스 300ms
   const setSearch = useCallback(
-    (v: string) => updateParams({ q: v }),
+    (v: string) => {
+      setSearchLocal(v);
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+      debounceRef.current = setTimeout(() => updateParams({ q: v }), 300);
+    },
     [updateParams],
   );
+
+  // URL에서 뒤로가기로 돌아왔을 때 로컬 state 동기화
+  useEffect(() => {
+    setSearchLocal(urlSearch);
+  }, [urlSearch]);
+
   const setField = useCallback(
     (v: string) => updateParams({ field: v }),
     [updateParams],
