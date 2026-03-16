@@ -920,7 +920,7 @@
   {
     "conference_slug": "wacv",
     "institution": "BK21",
-    "tier": "3",
+    "tier": null,
     "year": 2025
   },
   {
@@ -956,7 +956,7 @@
   {
     "conference_slug": "atc",
     "institution": "BK21",
-    "tier": "3",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1142,7 +1142,7 @@
   {
     "conference_slug": "msr",
     "institution": "BK21",
-    "tier": "3",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1238,7 +1238,7 @@
   {
     "conference_slug": "siggraph-asia",
     "institution": "BK21",
-    "tier": "3",
+    "tier": "1",
     "year": 2025
   },
   {
@@ -1250,7 +1250,7 @@
   {
     "conference_slug": "iros",
     "institution": "BK21",
-    "tier": "3",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1298,7 +1298,7 @@
   {
     "conference_slug": "itcs",
     "institution": "BK21",
-    "tier": "3",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1382,7 +1382,7 @@
   {
     "conference_slug": "aacl",
     "institution": "BK21",
-    "tier": "2",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1406,7 +1406,7 @@
   {
     "conference_slug": "bmvc",
     "institution": "BK21",
-    "tier": "2",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1418,7 +1418,7 @@
   {
     "conference_slug": "3dv",
     "institution": "BK21",
-    "tier": "2",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1538,7 +1538,7 @@
   {
     "conference_slug": "dis",
     "institution": "BK21",
-    "tier": "2",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1550,7 +1550,7 @@
   {
     "conference_slug": "saner",
     "institution": "BK21",
-    "tier": "2",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1658,7 +1658,7 @@
   {
     "conference_slug": "corl",
     "institution": "BK21",
-    "tier": "2",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1670,7 +1670,7 @@
   {
     "conference_slug": "hri",
     "institution": "BK21",
-    "tier": "2",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1730,7 +1730,7 @@
   {
     "conference_slug": "conll",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1742,7 +1742,7 @@
   {
     "conference_slug": "lrec",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1766,7 +1766,7 @@
   {
     "conference_slug": "icip",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1790,7 +1790,7 @@
   {
     "conference_slug": "fg",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1802,7 +1802,7 @@
   {
     "conference_slug": "acml",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1826,7 +1826,7 @@
   {
     "conference_slug": "ecml-pkdd",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1850,7 +1850,7 @@
   {
     "conference_slug": "bigdata",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1934,7 +1934,7 @@
   {
     "conference_slug": "pets",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1982,7 +1982,7 @@
   {
     "conference_slug": "mdm",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1994,7 +1994,7 @@
   {
     "conference_slug": "er",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2006,7 +2006,7 @@
   {
     "conference_slug": "mobilehci",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2018,7 +2018,7 @@
   {
     "conference_slug": "assets",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2030,7 +2030,7 @@
   {
     "conference_slug": "interact",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2042,7 +2042,7 @@
   {
     "conference_slug": "esem",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2126,7 +2126,7 @@
   {
     "conference_slug": "mfcs",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2174,7 +2174,7 @@
   {
     "conference_slug": "sca",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2186,7 +2186,7 @@
   {
     "conference_slug": "egsr",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2198,7 +2198,7 @@
   {
     "conference_slug": "case",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2210,7 +2210,7 @@
   {
     "conference_slug": "isrr",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -3122,7 +3122,7 @@
   {
     "conference_slug": "sigmetrics",
     "institution": "BK21",
-    "tier": null,
+    "tier": "3",
     "year": 2025
   },
   {
@@ -3152,7 +3152,7 @@
   {
     "conference_slug": "icfp",
     "institution": "BK21",
-    "tier": null,
+    "tier": "2",
     "year": 2025
   },
   {
@@ -3182,7 +3182,7 @@
   {
     "conference_slug": "cav",
     "institution": "BK21",
-    "tier": null,
+    "tier": "4",
     "year": 2025
   },
   {
@@ -3212,7 +3212,7 @@
   {
     "conference_slug": "ieee-vr",
     "institution": "BK21",
-    "tier": null,
+    "tier": "2",
     "year": 2025
   },
   {
@@ -3242,7 +3242,7 @@
   {
     "conference_slug": "iswc",
     "institution": "BK21",
-    "tier": null,
+    "tier": "2",
     "year": 2025
   },
   {
@@ -3272,7 +3272,7 @@
   {
     "conference_slug": "ecrts",
     "institution": "BK21",
-    "tier": null,
+    "tier": "1",
     "year": 2025
   },
   {
