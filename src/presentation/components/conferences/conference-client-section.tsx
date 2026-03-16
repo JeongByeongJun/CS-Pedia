@@ -120,6 +120,16 @@ export function ConferenceClientSection({
           />
         </div>
       </div>
+      <div className="flex items-center justify-between mb-3 px-1">
+        <p className="text-xs text-zinc-400">
+          {isKorean
+            ? `${filtered.length}개 학회`
+            : `${filtered.length} conferences`}
+        </p>
+        <p className="text-xs text-zinc-400">
+          {isKorean ? "데이터 업데이트: 2026.03.16" : "Updated: 2026.03.16"}
+        </p>
+      </div>
       <ConferenceList
         conferences={filtered}
         bookmarkedIds={bookmarkedIds}
