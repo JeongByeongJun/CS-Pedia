@@ -33,6 +33,7 @@ export function ConferenceClientSection({
   const [search, setSearchLocal] = useState(urlSearch);
   const [showFilters, setShowFilters] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(null);
+  const lastSyncedRef = useRef(urlSearch);
 
   const activeFilterCount = [field, institution].filter(Boolean).length;
 
@@ -58,14 +59,20 @@ export function ConferenceClientSection({
     (v: string) => {
       setSearchLocal(v);
       if (debounceRef.current) clearTimeout(debounceRef.current);
-      debounceRef.current = setTimeout(() => updateParams({ q: v }), 300);
+      debounceRef.current = setTimeout(() => {
+        lastSyncedRef.current = v;
+        updateParams({ q: v });
+      }, 300);
     },
     [updateParams],
   );
 
-  // URL에서 뒤로가기로 돌아왔을 때 로컬 state 동기화
+  // 뒤로가기로 URL이 외부에서 바뀔 때만 로컬 state 동기화
   useEffect(() => {
-    setSearchLocal(urlSearch);
+    if (urlSearch !== lastSyncedRef.current) {
+      setSearchLocal(urlSearch);
+      lastSyncedRef.current = urlSearch;
+    }
   }, [urlSearch]);
 
   const setField = useCallback(
