@@ -68,7 +68,7 @@
   {
     "conference_slug": "iclr",
     "institution": "KAIST",
-    "tier": "최우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -128,7 +128,7 @@
   {
     "conference_slug": "ijcai",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -140,7 +140,7 @@
   {
     "conference_slug": "ijcai",
     "institution": "POSTECH",
-    "tier": "최우수",
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -2486,13 +2486,13 @@
   {
     "conference_slug": "stoc",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
     "conference_slug": "focs",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
@@ -2534,7 +2534,7 @@
   {
     "conference_slug": "siggraph",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
@@ -2546,7 +2546,7 @@
   {
     "conference_slug": "chi",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
@@ -2570,7 +2570,7 @@
   {
     "conference_slug": "popl",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
@@ -2588,13 +2588,13 @@
   {
     "conference_slug": "icse",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
     "conference_slug": "fse",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
@@ -2618,25 +2618,25 @@
   {
     "conference_slug": "ndss",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
     "conference_slug": "usenix-security",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
     "conference_slug": "isca",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
     "conference_slug": "pldi",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
@@ -2678,7 +2678,7 @@
   {
     "conference_slug": "sigcomm",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2026
   },
   {
@@ -2912,7 +2912,7 @@
   {
     "conference_slug": "icra",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2026
   },
   {
@@ -3026,7 +3026,7 @@
   {
     "conference_slug": "lics",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3056,7 +3056,7 @@
   {
     "conference_slug": "ieee-vis",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3086,7 +3086,7 @@
   {
     "conference_slug": "rtss",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3116,7 +3116,7 @@
   {
     "conference_slug": "rtas",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3146,7 +3146,7 @@
   {
     "conference_slug": "sigmetrics",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3176,7 +3176,7 @@
   {
     "conference_slug": "icfp",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3194,7 +3194,7 @@
   {
     "conference_slug": "cav",
     "institution": "KAIST",
-    "tier": "최우수",
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -3206,7 +3206,7 @@
   {
     "conference_slug": "cav",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3224,7 +3224,7 @@
   {
     "conference_slug": "ieee-vr",
     "institution": "KAIST",
-    "tier": "최우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -3236,7 +3236,7 @@
   {
     "conference_slug": "ieee-vr",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3254,7 +3254,7 @@
   {
     "conference_slug": "iswc",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3266,7 +3266,7 @@
   {
     "conference_slug": "iswc",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -3296,7 +3296,7 @@
   {
     "conference_slug": "ecrts",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
