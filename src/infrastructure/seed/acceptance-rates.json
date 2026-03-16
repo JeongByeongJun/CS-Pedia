@@ -1384,5 +1384,47 @@
     "submitted": 376,
     "accepted": 71,
     "rate": 18.9
+  },
+  {
+    "conference_slug": "iswc",
+    "year": 2020,
+    "submitted": 170,
+    "accepted": 38,
+    "rate": 22.4
+  },
+  {
+    "conference_slug": "iswc",
+    "year": 2021,
+    "submitted": 133,
+    "accepted": 24,
+    "rate": 18.0
+  },
+  {
+    "conference_slug": "iswc",
+    "year": 2022,
+    "submitted": 156,
+    "accepted": 30,
+    "rate": 19.2
+  },
+  {
+    "conference_slug": "iswc",
+    "year": 2023,
+    "submitted": 170,
+    "accepted": 33,
+    "rate": 19.4
+  },
+  {
+    "conference_slug": "iswc",
+    "year": 2024,
+    "submitted": 111,
+    "accepted": 26,
+    "rate": 23.4
+  },
+  {
+    "conference_slug": "lics",
+    "year": 2020,
+    "submitted": 174,
+    "accepted": 69,
+    "rate": 39.7
   }
 ]

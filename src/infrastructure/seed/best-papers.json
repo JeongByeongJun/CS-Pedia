@@ -18194,5 +18194,473 @@
       "Efficiency"
     ],
     "paper_url": null
+  },
+  {
+    "conference_slug": "lics",
+    "year": 2020,
+    "paper_title": "Successor-Invariant First-Order Logic on Classes of Bounded Degree",
+    "authors": "Julien Grange",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Logic"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "lics",
+    "year": 2021,
+    "paper_title": "Separating Rank Logic from Polynomial Time",
+    "authors": "Moritz Lichter",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Logic"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "lics",
+    "year": 2022,
+    "paper_title": "Monoidal Streams for Dataflow Programming",
+    "authors": "Elena Di Lavore",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Dataflow"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "lics",
+    "year": 2023,
+    "paper_title": "The Identity Problem in the special affine group of Z^2",
+    "authors": "Ruiwen Dong",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Algebra"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "lics",
+    "year": 2024,
+    "paper_title": "Relevant S is Undecidable",
+    "authors": "Soren Brinck Knudstorp",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Logic"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "lics",
+    "year": 2025,
+    "paper_title": "The Steenrod squares via unordered joins",
+    "authors": "Axel Ljungstrom, David Warn",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Topology"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "rtss",
+    "year": 2020,
+    "paper_title": "On Removing Algorithmic Priority Inversion from Mission-critical Machine Inference Pipelines",
+    "authors": "Liu, Yao, Fu, Tabish, Yu, Bansal, Yun, Sha, Abdelzaher",
+    "award_type": "best_paper",
+    "tags": [
+      "Real-Time",
+      "ML"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "rtss",
+    "year": 2021,
+    "paper_title": "Monte Carlo Response-Time Analysis",
+    "authors": "Sergey Bozhko, Georg von der Bruggen, Bjorn Brandenburg",
+    "award_type": "best_paper",
+    "tags": [
+      "Scheduling"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "rtss",
+    "year": 2022,
+    "paper_title": "In-ConcReTeS: Interactive Consistency meets Distributed Real-Time Systems, Again!",
+    "authors": "Arpan Gujarati, Ningfeng Yang, Bjorn Brandenburg",
+    "award_type": "best_paper",
+    "tags": [
+      "Distributed Systems"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "rtss",
+    "year": 2023,
+    "paper_title": "SEAM: An Optimal Message Synchronizer in ROS with Well-Bounded Time Disparity",
+    "authors": "Jinghao Sun, Tianyi Wang, Yang Li, Nan Guan, Zhishan Guo, Qingxu Deng, Guozhen Tan",
+    "award_type": "best_paper",
+    "tags": [
+      "ROS",
+      "Synchronization"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "rtss",
+    "year": 2024,
+    "paper_title": "Coherence-Aided Memory Bandwidth Regulation",
+    "authors": "Ivan Izhbirdeev, Denis Hoornaert, Weifan Chen, Alexander Zuepke, Youssef Hammad, Marco Caccamo, Renato Mancuso",
+    "award_type": "best_paper",
+    "tags": [
+      "Memory"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "rtss",
+    "year": 2025,
+    "paper_title": "Requirement-Based Analysis of Self-Suspending Tasks under EDF",
+    "authors": "Mario Gunzel, Federico Aromolo, Alessandro Biondi, Jian-Jia Chen",
+    "award_type": "best_paper",
+    "tags": [
+      "Scheduling"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "rtas",
+    "year": 2021,
+    "paper_title": "No Crash, No Exploit: Automated Verification of Embedded Kernels",
+    "authors": "Olivier Nicole, Matthieu Lemerre, Sebastien Bardin, Xavier Rival",
+    "award_type": "best_paper",
+    "tags": [
+      "Verification"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "rtas",
+    "year": 2022,
+    "paper_title": "Partial-Order Reduction for Schedule-Abstraction-based Response-Time Analyses of Non-Preemptive Tasks",
+    "authors": "Sayra Ranjha, Geoffrey Nelissen, Mitra Nasri",
+    "award_type": "best_paper",
+    "tags": [
+      "Scheduling"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "rtas",
+    "year": 2023,
+    "paper_title": "G(IP)2C: Temporally Isolated Multiprocessor Real-Time IPC with Server-to-Server Invocations",
+    "authors": "Cedric Courtaud, Bjorn Brandenburg",
+    "award_type": "best_paper",
+    "tags": [
+      "IPC"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "year": 2020,
+    "paper_title": "Rateless Codes for Near-Perfect Load Balancing in Distributed Matrix-Vector Multiplication",
+    "authors": "Ankur Mallick, Malhar Chaudhari, Utsav Sheth, Ganesh Palanikumar, Gauri Joshi",
+    "award_type": "best_paper",
+    "tags": [
+      "Load Balancing"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "year": 2021,
+    "paper_title": "Nudge: Stochastically Improving upon FCFS",
+    "authors": "Isaac Grosof, Kunhe Yang, Ziv Scully, Mor Harchol-Balter",
+    "award_type": "best_paper",
+    "tags": [
+      "Scheduling"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "year": 2022,
+    "paper_title": "WISEFUSE: Workload Characterization and DAG Transformation for Serverless Workflows",
+    "authors": "Ashraf Mahgoub, Edgardo Barsallo Yi, Karthick Shankar, Eshaan Minocha, Somali Chaterji, Sameh Elnikety, Saurabh Bagchi",
+    "award_type": "best_paper",
+    "tags": [
+      "Serverless"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "year": 2023,
+    "paper_title": "Mean-field Analysis for Load Balancing on Spatial Graphs",
+    "authors": "Daan Rutten, Debankur Mukherjee",
+    "award_type": "best_paper",
+    "tags": [
+      "Load Balancing"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "year": 2024,
+    "paper_title": "Agents of Autonomy: A Systematic Study of Robotics on Modern Hardware",
+    "authors": "Mohammad Bakhshalipour, Phillip B. Gibbons",
+    "award_type": "best_paper",
+    "tags": [
+      "Robotics",
+      "Systems"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "year": 2024,
+    "paper_title": "Strongly Tail-Optimal Scheduling in the Light-Tailed M/G/1",
+    "authors": "George Yu, Ziv Scully",
+    "award_type": "best_paper",
+    "tags": [
+      "Scheduling"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sigmetrics",
+    "year": 2025,
+    "paper_title": "Adversarial Network Optimization under Bandit Feedback: Maximizing Utility in Non-Stationary Multi-Hop Networks",
+    "authors": "Yan Dai, Longbo Huang",
+    "award_type": "best_paper",
+    "tags": [
+      "Networks"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icfp",
+    "year": 2020,
+    "paper_title": "Retrofitting Parallelism onto OCaml",
+    "authors": "KC Sivaramakrishnan, Stephen Dolan, Leo White, Sadiq Jaffer, Tom Kelly, Anmol Sahoo, Sudha Parimala, Atul Dhiman, Anil Madhavapeddy",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "OCaml",
+      "Parallelism"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icfp",
+    "year": 2020,
+    "paper_title": "Liquid Information Flow Control",
+    "authors": "Nadia Polikarpova, Deian Stefan, Jean Yang, Shachar Itzhaky, Travis Hance, Armando Solar-Lezama",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Security",
+      "Types"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icfp",
+    "year": 2020,
+    "paper_title": "A Quick Look at Impredicativity",
+    "authors": "Alejandro Serrano, Jurriaan Hage, Simon Peyton Jones, Dimitrios Vytiniotis",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Type Inference"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icfp",
+    "year": 2021,
+    "paper_title": "Getting to the Point: Index Sets and Parallelism-Preserving Autodiff for Pointful Array Programming",
+    "authors": "Adam Paszke, Daniel D. Johnson, David Duvenaud, Dimitrios Vytiniotis, Alexey Radul, Matthew J. Johnson, Jonathan Ragan-Kelley, Dougal Maclaurin",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Autodiff"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icfp",
+    "year": 2022,
+    "paper_title": "Entanglement Detection With Near-Zero Cost",
+    "authors": "Sam Westrick, Jatin Arora, Umut A. Acar",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Parallelism"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icfp",
+    "year": 2023,
+    "paper_title": "HasChor: Functional Choreographic Programming for All",
+    "authors": "Gan Shen, Shun Kashiwa, Lindsey Kuper",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Choreography"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icfp",
+    "year": 2023,
+    "paper_title": "The Verse Calculus: A Core Calculus for Deterministic Functional Logic Programming",
+    "authors": "Lennart Augustsson, Joachim Breitner, Koen Claessen, Ranjit Jhala, Simon Peyton Jones, Olin Shivers, Guy L. Steele Jr., Tim Sweeney",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Functional Logic"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icfp",
+    "year": 2024,
+    "paper_title": "Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs",
+    "authors": "Alejandro Aguirre, Philipp G. Haselwarter, Markus de Medeiros, Kwing Hei Li, Simon Oddershede Gregersen, Joseph Tassarotti, Lars Birkedal",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Probabilistic Programming"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icfp",
+    "year": 2025,
+    "paper_title": "First-Order Laziness",
+    "authors": "Anton Lorenzen, Daan Leijen, Wouter Swierstra, Sam Lindley",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Laziness"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "iswc",
+    "year": 2020,
+    "paper_title": "Tentris - A Tensor-Based Triple Store",
+    "authors": "Alexander Bigerl, Felix Conrads, Charlotte Behning, Mohamed Ahmed Sherif, Muhammad Saleem, Axel-Cyrille Ngonga Ngomo",
+    "award_type": "best_paper",
+    "tags": [
+      "Triple Store"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "iswc",
+    "year": 2021,
+    "paper_title": "Improving Inductive Link Prediction Using Hyper-Relational Facts",
+    "authors": "Mehdi Ali, Max Berrendorf, Mikhail Galkin, Veronika Thost, Tengfei Ma, Volker Tresp, Jens Lehmann",
+    "award_type": "best_paper",
+    "tags": [
+      "Link Prediction"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "iswc",
+    "year": 2022,
+    "paper_title": "Efficient Dependency Analysis for Rule-Based Ontologies",
+    "authors": "Larry Gonzalez, Alex Ivliev, Markus Krotzsch, Stephan Mennicke",
+    "award_type": "best_paper",
+    "tags": [
+      "Ontology"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "iswc",
+    "year": 2024,
+    "paper_title": "Relationships are Complicated! An Analysis of Relationships Between Datasets on the Web",
+    "authors": "Kate Lin, Tarfah Alrashed, Natasha Noy",
+    "award_type": "best_paper",
+    "tags": [
+      "Linked Data"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ecrts",
+    "year": 2020,
+    "paper_title": "Abstract Response-Time Analysis: A Formal Foundation for the Busy-Window Principle",
+    "authors": "Sergey Bozhko, Bjorn Brandenburg",
+    "award_type": "best_paper",
+    "tags": [
+      "Scheduling"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ecrts",
+    "year": 2021,
+    "paper_title": "Stability and Performance Analysis of Control Systems Subject to Bursts of Deadline Misses",
+    "authors": "Nils Vreman, Anton Cervin, Martina Maggio",
+    "award_type": "best_paper",
+    "tags": [
+      "Control Systems"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ecrts",
+    "year": 2022,
+    "paper_title": "Foundational Response-Time Analysis as Explainable Evidence of Timeliness",
+    "authors": "Marco Maida, Sergey Bozhko, Bjorn Brandenburg",
+    "award_type": "best_paper",
+    "tags": [
+      "Scheduling"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ecrts",
+    "year": 2023,
+    "paper_title": "Tight Tardiness Bounds for Pseudo-Harmonic Tasks under Global-EDF-Like Schedulers",
+    "authors": "Shareef Ahmed, James Anderson",
+    "award_type": "best_paper",
+    "tags": [
+      "Scheduling"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ecrts",
+    "year": 2024,
+    "paper_title": "Hardware Compute Partitioning on NVIDIA GPUs for Composable Systems",
+    "authors": "Joshua Bakita, James Anderson",
+    "award_type": "best_paper",
+    "tags": [
+      "GPU"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cav",
+    "year": 2025,
+    "paper_title": "Introducing Certificates to the Hardware Model Checking Competition",
+    "authors": "Nils Froleyks, Emily Yu, Mathias Preiner, Armin Biere, Keijo Heljanko",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Model Checking"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cav",
+    "year": 2025,
+    "paper_title": "A Misconception-Driven Adaptive Tutor for Linear Temporal Logic",
+    "authors": "Siddhartha Prasad, Ben Greenman, Tim Nelson, Shriram Krishnamurthi",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Education",
+      "LTL"
+    ],
+    "paper_url": null
   }
 ]
