@@ -76,6 +76,10 @@ function getTierDisplay(institution: string, tier: string | null): { text: strin
   return { text: "✓", style: RECOGNIZED_STYLE };
 }
 
+const SHORT_LABELS: Record<string, string> = {
+  POSTECH: "POST",
+};
+
 export function InstitutionBadges({ ratings, isKorean }: InstitutionBadgesProps) {
   const institutions = isKorean ? INSTITUTIONS_KR : INSTITUTIONS_INTL;
   const ratingMap = new Map(
@@ -87,11 +91,12 @@ export function InstitutionBadges({ ratings, isKorean }: InstitutionBadgesProps)
       {institutions.map((inst) => {
         const tier = ratingMap.get(inst) ?? null;
         const { text, style } = getTierDisplay(inst, tier);
+        const label = SHORT_LABELS[inst] ?? inst;
 
         return (
           <div key={inst} className="text-center">
             <div className="text-[10px] text-zinc-400 mb-0.5">
-              {inst}
+              {label}
             </div>
             <span
               className={`inline-flex items-center justify-center px-2 py-0.5 rounded-md text-xs font-medium min-w-[28px] ${style}`}
