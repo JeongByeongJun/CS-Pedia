@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import type { ConferenceWithRelations } from "@/domain/repositories/conference-repository";
 import { ConferenceSearch } from "./conference-search";
 import { ConferenceFilters } from "./conference-filters";
@@ -19,13 +20,52 @@ export function ConferenceClientSection({
   isLoggedIn,
 }: ConferenceClientSectionProps) {
   const { isKorean } = useLocale();
-  const [search, setSearch] = useState("");
-  const [field, setField] = useState("");
-  const [institution, setInstitution] = useState("");
-  const [sort, setSort] = useState("deadline");
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // URL에서 필터 상태 읽기
+  const field = searchParams.get("field") ?? "";
+  const institution = searchParams.get("institution") ?? "";
+  const sort = searchParams.get("sort") ?? "deadline";
+  const search = searchParams.get("q") ?? "";
+
   const [showFilters, setShowFilters] = useState(false);
 
   const activeFilterCount = [field, institution].filter(Boolean).length;
+
+  // URL 쿼리 파라미터 업데이트
+  const updateParams = useCallback(
+    (updates: Record<string, string>) => {
+      const params = new URLSearchParams(searchParams.toString());
+      for (const [key, value] of Object.entries(updates)) {
+        if (value && value !== getDefault(key)) {
+          params.set(key, value);
+        } else {
+          params.delete(key);
+        }
+      }
+      const qs = params.toString();
+      router.replace(qs ? `/?${qs}` : "/", { scroll: false });
+    },
+    [searchParams, router],
+  );
+
+  const setSearch = useCallback(
+    (v: string) => updateParams({ q: v }),
+    [updateParams],
+  );
+  const setField = useCallback(
+    (v: string) => updateParams({ field: v }),
+    [updateParams],
+  );
+  const setInstitution = useCallback(
+    (v: string) => updateParams({ institution: v }),
+    [updateParams],
+  );
+  const setSort = useCallback(
+    (v: string) => updateParams({ sort: v }),
+    [updateParams],
+  );
 
   const filtered = useMemo(() => {
     let result = conferences;
@@ -137,4 +177,9 @@ export function ConferenceClientSection({
       />
     </>
   );
+}
+
+function getDefault(key: string): string {
+  if (key === "sort") return "deadline";
+  return "";
 }

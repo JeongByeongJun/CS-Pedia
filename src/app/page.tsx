@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { getConferences, bookmarkRepo } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
@@ -58,11 +59,13 @@ export default async function HomePage() {
       <SiteHeader user={authUser} />
 
       <main className="max-w-6xl mx-auto px-4 py-4 sm:px-6 sm:py-6">
-        <ConferenceClientSection
-          conferences={conferences}
-          bookmarkedIds={bookmarkedIds}
-          isLoggedIn={!!user}
-        />
+        <Suspense>
+          <ConferenceClientSection
+            conferences={conferences}
+            bookmarkedIds={bookmarkedIds}
+            isLoggedIn={!!user}
+          />
+        </Suspense>
         <SiteFooter />
       </main>
     </div>
