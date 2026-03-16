@@ -97,11 +97,9 @@ export function ConferenceCard({
 
           {/* 오른쪽 - 기관 인정 뱃지(데스크탑) + 북마크 */}
           <div className="flex flex-col items-end gap-2 shrink-0">
-            {isKorean && (
-              <div className="hidden sm:block">
-                <InstitutionBadges ratings={conference.institutionRatings} />
-              </div>
-            )}
+            <div className="hidden sm:block">
+              <InstitutionBadges ratings={conference.institutionRatings} isKorean={isKorean} />
+            </div>
             <BookmarkButton
               conferenceId={conference.id}
               initialBookmarked={isBookmarked}
