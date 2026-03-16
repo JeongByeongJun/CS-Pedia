@@ -11,6 +11,7 @@ const UPDATES_KR = [
 const UPDATES_EN = [
   { date: "2026.03.16", text: "Added CORE / CCF / CSRankings — international conference rankings" },
   { date: "2026.03.16", text: "10 new conferences added (LICS, VIS, RTSS, RTAS, SIGMETRICS, ICFP, CAV, VR, ISWC, ECRTS)" },
+  { date: "2026.03.16", text: "Full deadline audit complete across all 154 conferences" },
 ];
 
 export function UpdateBanner() {
