@@ -27,6 +27,7 @@ export function ConferenceSearch({ value, onChange }: ConferenceSearchProps) {
       </svg>
       <input
         type="text"
+        autoComplete="off"
         placeholder={isKorean ? "학회명 검색 (예: NeurIPS, CVPR, ACL...)" : "Search conferences (e.g. NeurIPS, CVPR, ACL...)"}
         value={value}
         onChange={(e) => onChange(e.target.value)}
