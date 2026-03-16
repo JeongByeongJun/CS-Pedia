@@ -7,6 +7,33 @@ import { ConferenceFilters } from "./conference-filters";
 import { ConferenceList } from "./conference-list";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
+const STORAGE_KEY = "cs-pedia-filters";
+
+function usePersistedState<T>(key: string, defaultValue: T): [T, (v: T) => void] {
+  const [value, setValue] = useState<T>(() => {
+    if (typeof window === "undefined") return defaultValue;
+    try {
+      const stored = sessionStorage.getItem(STORAGE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        return parsed[key] ?? defaultValue;
+      }
+    } catch {}
+    return defaultValue;
+  });
+
+  const setPersisted = (v: T) => {
+    setValue(v);
+    try {
+      const stored = JSON.parse(sessionStorage.getItem(STORAGE_KEY) ?? "{}");
+      stored[key] = v;
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(stored));
+    } catch {}
+  };
+
+  return [value, setPersisted];
+}
+
 interface ConferenceClientSectionProps {
   conferences: ConferenceWithRelations[];
   bookmarkedIds: string[];
@@ -19,10 +46,10 @@ export function ConferenceClientSection({
   isLoggedIn,
 }: ConferenceClientSectionProps) {
   const { isKorean } = useLocale();
-  const [search, setSearch] = useState("");
-  const [field, setField] = useState("");
-  const [institution, setInstitution] = useState("");
-  const [sort, setSort] = useState("deadline");
+  const [search, setSearch] = usePersistedState("q", "");
+  const [field, setField] = usePersistedState("field", "");
+  const [institution, setInstitution] = usePersistedState("institution", "");
+  const [sort, setSort] = usePersistedState("sort", "deadline");
   const [showFilters, setShowFilters] = useState(false);
 
   const activeFilterCount = [field, institution].filter(Boolean).length;
