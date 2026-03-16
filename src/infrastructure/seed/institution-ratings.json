@@ -14,7 +14,7 @@
   {
     "conference_slug": "neurips",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -44,7 +44,7 @@
   {
     "conference_slug": "icml",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -68,7 +68,7 @@
   {
     "conference_slug": "iclr",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -98,7 +98,7 @@
   {
     "conference_slug": "aaai",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -128,7 +128,7 @@
   {
     "conference_slug": "ijcai",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -158,7 +158,7 @@
   {
     "conference_slug": "kdd",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -188,7 +188,7 @@
   {
     "conference_slug": "acl",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -218,7 +218,7 @@
   {
     "conference_slug": "cvpr",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -248,7 +248,7 @@
   {
     "conference_slug": "iccv",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -278,7 +278,7 @@
   {
     "conference_slug": "sosp",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -308,7 +308,7 @@
   {
     "conference_slug": "osdi",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -338,7 +338,7 @@
   {
     "conference_slug": "ccs",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -368,7 +368,7 @@
   {
     "conference_slug": "sp",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -398,7 +398,7 @@
   {
     "conference_slug": "sigmod",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -428,7 +428,7 @@
   {
     "conference_slug": "vldb",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -458,7 +458,7 @@
   {
     "conference_slug": "chi",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -482,7 +482,7 @@
   {
     "conference_slug": "icse",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -506,7 +506,7 @@
   {
     "conference_slug": "focs",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -530,7 +530,7 @@
   {
     "conference_slug": "stoc",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -554,7 +554,7 @@
   {
     "conference_slug": "sigcomm",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -578,7 +578,7 @@
   {
     "conference_slug": "isca",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -602,7 +602,7 @@
   {
     "conference_slug": "siggraph",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -626,7 +626,7 @@
   {
     "conference_slug": "icra",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -644,7 +644,7 @@
   {
     "conference_slug": "fse",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -668,7 +668,7 @@
   {
     "conference_slug": "usenix-security",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -692,7 +692,7 @@
   {
     "conference_slug": "ndss",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -716,7 +716,7 @@
   {
     "conference_slug": "pldi",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -740,7 +740,7 @@
   {
     "conference_slug": "popl",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3014,7 +3014,7 @@
   {
     "conference_slug": "lics",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3044,7 +3044,7 @@
   {
     "conference_slug": "ieee-vis",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3074,7 +3074,7 @@
   {
     "conference_slug": "rtss",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3104,7 +3104,7 @@
   {
     "conference_slug": "rtas",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3134,7 +3134,7 @@
   {
     "conference_slug": "sigmetrics",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3164,7 +3164,7 @@
   {
     "conference_slug": "icfp",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3194,7 +3194,7 @@
   {
     "conference_slug": "cav",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3224,7 +3224,7 @@
   {
     "conference_slug": "ieee-vr",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -3254,7 +3254,7 @@
   {
     "conference_slug": "iswc",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -3284,7 +3284,7 @@
   {
     "conference_slug": "ecrts",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
