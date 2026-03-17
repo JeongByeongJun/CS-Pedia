@@ -19,8 +19,7 @@ export async function fetchDblpPaperTitles(
   let offset = 0;
   let total = Infinity;
 
-  const venueShort = dblpKey.replace("conf/", "");
-  const query = encodeURIComponent(`venue:${venueShort}:`);
+  const query = encodeURIComponent(`stream:${dblpKey}:`);
 
   for (let page = 0; page < maxPages && offset < total; page++) {
     await sleep(DBLP_DELAY_MS);
