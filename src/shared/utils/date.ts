@@ -74,9 +74,21 @@ export function formatDeadlineLocal(deadline: Date | string, timezone: string): 
     hour12: false,
   }).format(utcDate);
 
-  const tzAbbr = new Intl.DateTimeFormat("en-US", {
-    timeZoneName: "short",
-  }).formatToParts(utcDate).find(p => p.type === "timeZoneName")?.value ?? "Local";
+  // Map GMT offset → readable abbreviation
+  const offsetMin = -utcDate.getTimezoneOffset();
+  const tzMap: Record<number, string> = {
+    540: "KST",    // UTC+9
+    330: "IST",    // UTC+5:30
+    60: "CET",     // UTC+1
+    0: "UTC",
+    [-300]: "EST", // UTC-5
+    [-240]: "EDT", // UTC-4
+    [-360]: "CST", // UTC-6
+    [-420]: "PDT", // UTC-7
+    [-480]: "PST", // UTC-8
+    [-600]: "HST", // UTC-10
+  };
+  const tzAbbr = tzMap[offsetMin] ?? `UTC${offsetMin >= 0 ? "+" : ""}${offsetMin / 60}`;
 
   return { dateTime: `${datePart} ${timePart}`, tzAbbr };
 }

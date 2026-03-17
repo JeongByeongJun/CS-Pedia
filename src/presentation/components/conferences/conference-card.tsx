@@ -7,6 +7,7 @@ import { FieldBadge } from "./field-badge";
 import { InstitutionBadges } from "./institution-badges";
 import { BestPaperAccordion } from "./best-paper-accordion";
 import { BookmarkButton } from "./bookmark-button";
+import { useState, useEffect } from "react";
 import { formatDate, formatDeadlineLocal } from "@/shared/utils/date";
 import { conferenceUrl } from "@/shared/utils/url";
 import { useLocale } from "@/presentation/hooks/use-locale";
@@ -83,12 +84,7 @@ export function ConferenceCard({
                     </span>
                   )}
                   {conference.venue && <span className="whitespace-nowrap">📍 {conference.venue}</span>}
-                  <span className="whitespace-nowrap">
-                    {(() => {
-                      const { dateTime, tzAbbr } = formatDeadlineLocal(conference.nextDeadline!, conference.deadlineTimezone);
-                      return <>⏰ {dateTime} <span className="font-bold">{tzAbbr}</span></>;
-                    })()}
-                  </span>
+                  <DeadlineTime deadline={conference.nextDeadline!} timezone={conference.deadlineTimezone} />
                 </>
               ) : (
                 <span className="text-zinc-400">
@@ -117,5 +113,24 @@ export function ConferenceCard({
         )}
       </div>
     </div>
+  );
+}
+
+function DeadlineTime({ deadline, timezone }: { deadline: Date; timezone: string }) {
+  const [local, setLocal] = useState<{ dateTime: string; tzAbbr: string } | null>(null);
+
+  useEffect(() => {
+    setLocal(formatDeadlineLocal(deadline, timezone));
+  }, [deadline, timezone]);
+
+  if (!local) {
+    // SSR fallback: show date only
+    return <span className="whitespace-nowrap">⏰ {formatDate(deadline)}</span>;
+  }
+
+  return (
+    <span className="whitespace-nowrap">
+      ⏰ {local.dateTime} <span className="font-bold">{local.tzAbbr}</span>
+    </span>
   );
 }
