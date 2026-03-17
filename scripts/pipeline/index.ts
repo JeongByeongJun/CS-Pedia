@@ -1,6 +1,6 @@
 import { fetchDblpPaperCounts } from "./sources/dblp";
 import { fetchOpenAlexWorksCounts } from "./sources/openalex";
-import { fetchS2PaperTitles } from "./sources/semantic-scholar-titles";
+import { fetchDblpPaperTitles } from "./sources/dblp-titles";
 import { extractKeywords } from "./keywords";
 import {
   getConferenceSlugsAndIds,
@@ -94,8 +94,15 @@ async function run() {
       count: number;
     }[] = [];
 
-    for (let year = 2020; year <= new Date().getFullYear(); year++) {
-      const papers = await fetchS2PaperTitles(slug, conf.acronym, year);
+    const allPapers = await fetchDblpPaperTitles(conf.dblpKey, 2020);
+    // Group by year
+    const papersByYear = new Map<number, typeof allPapers>();
+    for (const p of allPapers) {
+      if (!papersByYear.has(p.year)) papersByYear.set(p.year, []);
+      papersByYear.get(p.year)!.push(p);
+    }
+
+    for (const [year, papers] of papersByYear) {
       if (papers.length === 0) continue;
 
       const kwCounts = new Map<string, number>();
@@ -107,7 +114,9 @@ async function run() {
       for (const [keyword, count] of kwCounts) {
         confRows.push({ conference_id: conf.id, year, keyword, count });
       }
-      console.log(`  → ${year}: ${papers.length} papers, ${kwCounts.size} keywords`);
+      if (kwCounts.size > 0) {
+        console.log(`  → ${year}: ${papers.length} papers, ${kwCounts.size} keywords`);
+      }
     }
 
     // Write per-conference immediately
