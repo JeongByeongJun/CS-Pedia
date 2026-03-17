@@ -4,14 +4,15 @@ import { useState } from "react";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
 const UPDATES_KR = [
+  { date: "2026.03.17", text: "마감 시간이 한국 시간(KST)으로 표시됩니다" },
   { date: "2026.03.16", text: "신규 학회 10개 추가 (LICS, VIS, RTSS, RTAS, SIGMETRICS, ICFP, CAV, VR, ISWC, ECRTS)" },
   { date: "2026.03.16", text: "154개 학회 데드라인 전수 검증 완료" },
 ];
 
 const UPDATES_EN = [
+  { date: "2026.03.17", text: "Deadlines now shown in your local timezone" },
   { date: "2026.03.16", text: "Added CORE / CCF / CSRankings — international conference rankings" },
   { date: "2026.03.16", text: "10 new conferences added (LICS, VIS, RTSS, RTAS, SIGMETRICS, ICFP, CAV, VR, ISWC, ECRTS)" },
-  { date: "2026.03.16", text: "Full deadline audit complete across all 154 conferences" },
 ];
 
 export function UpdateBanner() {
