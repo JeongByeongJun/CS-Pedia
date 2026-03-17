@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { getConferenceDetail, getKeywordTrendsByConference } from "@/infrastructure/container";
+import { getConferenceDetail, getKeywordTrendsByConference, getConferences } from "@/infrastructure/container";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
 import { getBookmarkStatus } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
@@ -23,6 +23,11 @@ interface PageProps {
 }
 
 export const revalidate = 86400;
+
+export async function generateStaticParams() {
+  const conferences = await getConferences();
+  return conferences.map((c) => ({ slug: c.slug }));
+}
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
