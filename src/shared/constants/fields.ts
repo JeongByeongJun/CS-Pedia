@@ -12,6 +12,7 @@ export const FIELDS = [
   "Networks",
   "Architecture",
   "Graphics",
+  "PL",
   "Robotics",
 ] as const;
 
