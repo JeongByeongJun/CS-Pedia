@@ -3,6 +3,317 @@
 
 ---
 
+## Timezone 검증 (2026-03-17)
+
+> 목표: 각 학회의 실제 마감 시간 + timezone 확인. AoE 아닌 학회 식별.
+
+### Phase 1 결과
+
+| 학회 | DB tz | 실제 timezone | 시간 | 소스 | 수정 필요 |
+|------|-------|-------------|------|------|---------|
+| 3dv | AoE | **PT (UTC-7)** | 23:59 | 공식 사이트 명시 | ⚠️ |
+| aaai | AoE | AoE | 23:59 | 과거 패턴 | - |
+| aacl | AoE | AoE | 23:59 | ARR 기준 | - |
+| aamas | AoE | AoE | 23:59 | ccfddl | - |
+| accv | AoE | **GMT (UTC+0)** | 23:59 | 공식 사이트 명시 | ⚠️ |
+| acl | AoE | AoE | 23:59 | 공식 CFP 명시 | - |
+| acml | — | **PDT (UTC-7)** | — | 2024 기준 | ⚠️ 신규 |
+| acsac | — | AoE | 23:59 | 2025 기준 | - |
+| aistats | AoE | AoE | — | 공식 확인 | - |
+| ase | AoE | AoE (관례) | — | timezone 미명시 | - |
+| asiacrypt | — | **UTC** | 11:59 | MPC Hub | ⚠️ 신규 |
+| asplos | AoE | AoE | — | CFP 명시 | - |
+| assets | AoE | AoE | 23:59 | CFP 명시 | - |
+| atc | — | — | — | 영구 폐지 | - |
+| bigdata | AoE | AoE | — | 2025 기준 | - |
+| bmvc | AoE | AoE | 23:59 | CFP 명시 | - |
+| case | AoE | AoE (추정) | — | timezone 미명시 | - |
+| ccc | AoE | AoE | 23:59 | CFP 명시 | - |
+| ccs | AoE | AoE | 23:59 | CFP 명시 "UTC-12" | - |
+| cgo | — | — | — | 2027 미발표 | - |
+| chi | AoE | AoE | — | "day ends AoE" | - |
+| cikm | AoE | — | — | 사이트 다운 | ❓ |
+| cluster | AoE | AoE | — | 공식 확인 | - |
+| coling | — | — | — | 2027 미발표 | - |
+| colt | AoE | AoE | — | "Anywhere on Earth" | - |
+| conext | AoE | AoE | 24:00 | — | - |
+| conll | AoE | AoE | 23:59 | CFP 명시 "UTC-12h" | - |
+| corl | AoE | **UTC** | 11:59 | 공식 사이트 | ⚠️ |
+| crypto | AoE | **US Pacific** | 23:59 | 공식 사이트 | ⚠️ |
+| cscw | AoE | AoE | 23:59 | X/트위터 확인 | - |
+
+### ⚠️ AoE 아닌 학회 (Phase 1)
+
+| 학회 | 실제 timezone | AoE 대비 차이 | 비고 |
+|------|-------------|-------------|------|
+| 3dv | PT (UTC-7) | 5시간 빠름 | 공식: "All dates are 23:59 PT" |
+| accv | GMT (UTC+0) | 12시간 빠름 | 공식: "All deadlines at 23:59 GMT" |
+| acml | PDT (UTC-7) | 5시간 빠름 | 2024 기준, 2026 미발표 |
+| asiacrypt | UTC | 12시간 빠름 (11:59 UTC) | IACR |
+| corl | UTC | 12시간 빠름 (11:59 UTC) | OpenReview |
+| crypto | US Pacific | 5시간 빠름 | IACR |
+
+### 기타 수정 필요
+
+| 학회 | 항목 | 현재 DB | 수정 값 |
+|------|------|--------|--------|
+| asplos | venue (2027) | Pittsburgh, USA | **Crete, Greece** |
+
+---
+
+### Phase 2 결과
+
+| 학회 | DB tz | 실제 timezone | 시간 | 소스 | 수정 필요 |
+|------|-------|-------------|------|------|---------|
+| csf | AoE | AoE | 23:59 | CFP "AoE (UTC-12h)" | - |
+| cvpr | AoE | AoE | 23:59 | 공식 "Anywhere on Earth" | - |
+| dac | AoE | AoE (추정) | — | 사이트 404 | - |
+| dasfaa | AoE | AoE (추정) | — | timezone 미표기 | - |
+| date | AoE | AoE | — | CFP "anywhere on earth" | - |
+| dis | AoE | AoE | — | 공식 확인 | - |
+| dsn | AoE | AoE | — | CFP "All dates refer to AoE" | - |
+| eacl | — | AoE | 23:59 | ARR | - |
+| ecai | AoE | — | — | 사이트 다운 | ❓ |
+| eccv | AoE | **CET** | 23:00 | 공식 "11:00 PM CET" | ⚠️ |
+| ecml-pkdd | AoE | AoE | 23:59 | 공식 확인 | - |
+| edbt | AoE | AoE | 23:59 | 공식 확인 | - |
+| egsr | AoE | AoE | 23:59 | CFP 확인 | - |
+| emnlp | AoE | AoE | 23:59 | "11:59PM UTC-12:00" | - |
+| er | AoE | AoE | — | "EoD AoE" | - |
+| esa | AoE | AoE | 23:59 | 2025 기준 | - |
+| esem | AoE | AoE | 23:59 | CFP "AoE (UTC-12h)" | - |
+| esorics | AoE | AoE | 23:59 | "anywhere on earth" | - |
+| eurocrypt | AoE | AoE | 23:59 | CFP "23:59 AoE" | - |
+| eurographics | AoE | **UTC** | 23:59 | CFP "23:59 UTC" | ⚠️ |
+| eurosys | AoE | AoE | 23:59 | — | - |
+| fase | AoE | AoE | 23:59 | ETAPS "All dates AoE" | - |
+| fast | AoE | AoE | 23:59 | — | - |
+| fg | — | AoE | — | 마감됨 | - |
+| focs | AoE | **EDT** | 17:00 | 공식 "5:00 PM EDT" | ⚠️ |
+| fse | AoE | AoE | 23:59 | 패턴 기준 | - |
+| gecco | AoE | AoE | 23:59 | ccf-deadlines | - |
+| hpca | AoE | **UTC** | 23:59 | 공식 "23:59 UTC" | ⚠️ |
+| hpdc | AoE | AoE | 23:59 | ccf-deadlines | - |
+| hri | AoE | AoE | 23:59 | 공식 "11:59 pm AoE" | - |
+
+### ⚠️ AoE 아닌 학회 (Phase 2)
+
+| 학회 | 실제 timezone | AoE 대비 차이 | 비고 |
+|------|-------------|-------------|------|
+| eccv | CET (UTC+1) | 13시간 빠름 (23:00 CET) | 공식 명시 |
+| eurographics | UTC | 12시간 빠름 | 공식 명시 |
+| focs | EDT (UTC-4) | 8시간 빠름 (17:00 EDT) | 공식 명시 |
+| hpca | UTC | 12시간 빠름 | 공식 명시 |
+
+---
+
+### Phase 3 결과
+
+| 학회 | DB tz | 실제 timezone | 시간 | 소스 | 수정 필요 |
+|------|-------|-------------|------|------|---------|
+| i3d | AoE | **PT (UTC-7)** | 23:59 | 공식 "23:59 Pacific Time" | ⚠️ |
+| icalp | AoE | AoE | — | 공식 확인 | - |
+| icaps | AoE | AoE | — | "UTC-12 (AoE)" | - |
+| iccad | AoE | AoE (추정) | — | timezone 미명시 | - |
+| iccv | AoE | **HST (UTC-10)** | 23:59 | 공식 "11:59 PM HST" | ⚠️ |
+| icdcs | AoE | AoE | — | 공식 확인 | - |
+| icde | AoE | **PT** | 17:00 | 공식 "5:00PM Pacific Time" | ⚠️ |
+| icdm | AoE | — | — | 사이트 다운 | ❓ |
+| icip | AoE | AoE | — | CFP 확인 | - |
+| iclr | AoE | AoE | 23:59 | "UTC-12h, aka AoE" | - |
+| icml | AoE | AoE | 23:59 | "Anywhere on Earth" | - |
+| icnp | AoE | AoE | — | 공식 "(AoE)" | - |
+| icpr | AoE | AoE | — | "AoE (UTC-12)" | - |
+| icra | AoE | **PST** | 23:59 | 공식+트위터 확인 | ⚠️ |
+| ics | AoE | AoE (추정) | — | timezone 미명시 | - |
+| icse | AoE | AoE | 23:59 | "23:59:59 AoE" | - |
+| icsme | AoE | AoE | 23:59 | "23:59 AoE" | - |
+| icst | AoE | AoE | — | "AoE (UTC-12h)" | - |
+| ijcai | AoE | AoE (관례) | — | timezone 미명시 | - |
+| imc | AoE | AoE (추정) | — | timezone 미명시 | - |
+| infocom | AoE | AoE | 23:59 | 2026 CFP 확인 | - |
+| interact | AoE | — | — | CFP 미공개 | - |
+| iros | AoE | **PST (가능성)** | 23:59 | video deadline PST 명시 | ⚠️? |
+| isaac | — | — | — | CFP 미공개 | - |
+| isca | AoE | AoE | 23:59 | "11:59 PM AoE" 명시 | - |
+| isrr | AoE | AoE (추정) | — | timezone 미명시 | - |
+| issre | AoE | AoE | — | 관례 | - |
+| issta | AoE | AoE | — | "AoE (UTC-12h)" | - |
+| itcs | AoE | **EDT** | 19:59 | HotCRP 확인 | ⚠️ |
+| iui | AoE | AoE | — | CFP "AoE" 명시 | - |
+
+### ⚠️ AoE 아닌 학회 (Phase 3)
+
+| 학회 | 실제 timezone | AoE 대비 차이 | 비고 |
+|------|-------------|-------------|------|
+| i3d | PT (UTC-7) | 5시간 빠름 | SIGGRAPH 계열, PT 공식 |
+| iccv | HST (UTC-10) | 2시간 빠름 | 공식 "11:59 PM HST" |
+| icde | PT | 5시간+시간차 (17:00 PT) | IEEE |
+| icra | PST | 5시간 빠름 | IEEE Robotics |
+| iros | PST (추정) | 5시간 빠름 | video deadline PST, paper도 동일 추정 |
+| itcs | EDT | 8시간 빠름 (19:59 EDT) | HotCRP |
+
+---
+
+### Phase 4 결과
+
+| 학회 | DB tz | 실제 timezone | 시간 | 소스 | 수정 필요 |
+|------|-------|-------------|------|------|---------|
+| kdd | AoE | AoE | — | CFP 확인 | - |
+| lrec | AoE | AoE | 23:59 | "UTC-12:00" | - |
+| mdm | AoE | AoE | 23:59 | "23:59 AoE" | - |
+| mfcs | AoE | AoE | — | 확인 | - |
+| miccai | PT | PT | 23:59 | CFP 확인 (맞음) | - |
+| micro | AoE | **EDT** | 23:59 | "11:59 PM EDT" | ⚠️ |
+| middleware | AoE | — | — | CFP 미공개 | - |
+| mobicom | AoE | AoE | 23:59 | CFP 확인 | - |
+| mobihoc | AoE | AoE | 23:59 | "11:59pm AoE" | - |
+| mobilehci | AoE | AoE | 23:59 | 확인 | - |
+| mobisys | AoE | AoE | 23:59 | 확인 | - |
+| models | AoE | AoE | 23:59 | 확인 | - |
+| msr | AoE | AoE (추정) | — | 미명시 | - |
+| naacl | — | — | — | 2026 미개최 | - |
+| ndss | AoE | — | — | 2027 미공개 | - |
+| neurips | AoE | AoE | — | 확인 | - |
+| nsdi | AoE | **EDT** | 23:59 | "11:59pm EDT" | ⚠️ |
+| oopsla | AoE | AoE | — | "AoE (UTC-12h)" | - |
+| osdi | AoE | **EST** | 17:59 | "5:59pm EST" | ⚠️ |
+| pact | AoE | AoE (추정) | — | 미명시 | - |
+| pakdd | AoE | **PST** | 23:59 | "23:59 PST" | ⚠️ |
+| pets | AoE | AoE | 23:59 | "UTC-12" | - |
+| pg | AoE | — | — | 사이트 미공개 | ❓ |
+| pldi | AoE | AoE | 23:59 | 확인 | - |
+| pods | AoE | AoE | 23:59 | "11:59 PM AoE" | - |
+| popl | AoE | AoE | 23:59 | 확인 | - |
+| ppopp | AoE | AoE (추정) | — | 관례 | - |
+| raid | AoE | AoE (추정) | — | 사이트 불가 | - |
+| recsys | AoE | AoE | 23:59 | 확인 | - |
+| rss | AoE | AoE | 23:59 | "11:59pm AoE" | - |
+
+### ⚠️ AoE 아닌 학회 (Phase 4)
+
+| 학회 | 실제 timezone | AoE 대비 차이 | 비고 |
+|------|-------------|-------------|------|
+| micro | EDT (UTC-4) | 8시간 빠름 | 공식 CFP |
+| nsdi | EDT (UTC-4) | 8시간 빠름 | USENIX |
+| osdi | EST (UTC-5) | 7시간+시간차 (17:59) | USENIX |
+| pakdd | PST (UTC-8) | 4시간 빠름 | 공식 CFP |
+
+---
+
+## 전체 요약: AoE 아닌 학회 (Phase 1-4, MICCAI 제외)
+
+| 학회 | 실제 timezone | 시간 | Phase |
+|------|-------------|------|-------|
+| 3dv | PT (UTC-7) | 23:59 | 1 |
+| accv | GMT (UTC+0) | 23:59 | 1 |
+| acml | PDT (UTC-7) | — | 1 |
+| asiacrypt | UTC | 11:59 | 1 |
+| corl | UTC | 11:59 | 1 |
+| crypto | US Pacific | 23:59 | 1 |
+| eccv | CET (UTC+1) | 23:00 | 2 |
+| eurographics | UTC | 23:59 | 2 |
+| focs | EDT (UTC-4) | 17:00 | 2 |
+| hpca | UTC | 23:59 | 2 |
+| i3d | PT (UTC-7) | 23:59 | 3 |
+| iccv | HST (UTC-10) | 23:59 | 3 |
+| icde | PT | 17:00 | 3 |
+| icra | PST | 23:59 | 3 |
+| iros | PST (추정) | 23:59 | 3 |
+| itcs | EDT | 19:59 | 3 |
+| micro | EDT | 23:59 | 4 |
+| nsdi | EDT | 23:59 | 4 |
+| osdi | EST | 17:59 | 4 |
+| pakdd | PST | 23:59 | 4 |
+
+---
+
+### Phase 5 결과
+
+| 학회 | DB tz | 실제 timezone | 시간 | 소스 | 수정 필요 |
+|------|-------|-------------|------|------|---------|
+| saner | AoE | AoE | 23:59 | "23:59h AoE" | - |
+| sc | AoE | AoE | 23:59 | "11:59 PM AoE" | - |
+| sca | — | — | — | CFP 미공개 | - |
+| sdm | — | AoE | 23:59 | 신규 확인 | - |
+| sensys | AoE | AoE | 23:59 | "23:59 AoE" | - |
+| sigcomm | AoE | AoE | — | "AoE" | - |
+| siggraph | AoE | **UTC** | 22:00 | "22:00 UTC/GMT" | ⚠️ |
+| siggraph-asia | AoE | AoE | 23:59 | 확인 | - |
+| sigir | AoE | AoE (추정) | — | 2025 패턴 | - |
+| sigmod | AoE | AoE | 23:59 | "11:59 PM AoE" | - |
+| socc | AoE | AoE | — | "AoE timezone" | - |
+| socg | AoE | AoE | — | 확인 | - |
+| soda | AoE | AoE | 23:59 | "UTC-12" | - |
+| sosp | AoE | AoE | — | CFP 확인 | - |
+| sp | AoE | AoE | 23:59 | "23:59:59 AoE" | - |
+| stoc | AoE | **EST** | 16:59 | "4:59pm EST" | ⚠️ |
+| uai | AoE | AoE | 23:59 | "23:59 AoE" | - |
+| ubicomp | AoE | AoE (추정) | — | 관례 | - |
+| uist | AoE | AoE | 23:59 | "11:59pm AoE" | - |
+| usenix-security | AoE | AoE | 23:59 | '26 CFP "11:59 pm AoE" | - |
+| vldb | PT | PT | 17:00 | "5 p.m. PT" (맞음) | - |
+| wacv | AoE | AoE (추정) | — | 사이트 불가 | - |
+| wsdm | AoE | AoE (추정) | — | 사이트 불가 | - |
+| www | AoE | AoE | — | "AoE" 확인 | - |
+
+### 신규 10개 학회 (Phase 5 추가분)
+
+| 학회 | DB tz | 실제 timezone | 시간 | 소스 | 수정 필요 |
+|------|-------|-------------|------|------|---------|
+| cav | AoE | AoE | — | "All deadlines are AoE" | - |
+| ecrts | AoE | AoE | — | "UTC-12 (AoE)" | - |
+| icfp | AoE | AoE | — | "AoE (UTC-12h)" | - |
+| ieee-vis | AoE | AoE | 23:59 | "11:59pm AoE" | - |
+| ieee-vr | AoE | AoE | 23:59 | "23:59:59 AoE" | - |
+| iswc | AoE | AoE | — | X 확인 | - |
+| lics | AoE | AoE | — | "anywhere on earth" | - |
+| rtas | AoE | AoE | — | "UTC-12, anywhere on earth" | - |
+| rtss | AoE | AoE | — | "anywhere on Earth" | - |
+| sigmetrics | AoE | AoE | 23:59 | "23:59 pm AoE" | - |
+
+### ⚠️ AoE 아닌 학회 (Phase 5)
+
+| 학회 | 실제 timezone | AoE 대비 차이 | 비고 |
+|------|-------------|-------------|------|
+| siggraph | UTC | 12시간 빠름 (22:00 UTC) | 공식 명시 |
+| stoc | EST (UTC-5) | 7시간+시간차 (16:59 EST) | 공식 명시 |
+
+---
+
+## 전체 최종 요약: AoE 아닌 학회 (Phase 1-5)
+
+| # | 학회 | timezone | 시간 | Phase |
+|---|------|---------|------|-------|
+| 1 | 3dv | PT (UTC-7) | 23:59 | 1 |
+| 2 | accv | GMT (UTC+0) | 23:59 | 1 |
+| 3 | acml | PDT (UTC-7) | — | 1 |
+| 4 | asiacrypt | UTC | 11:59 | 1 |
+| 5 | corl | UTC | 11:59 | 1 |
+| 6 | crypto | US Pacific | 23:59 | 1 |
+| 7 | eccv | CET (UTC+1) | 23:00 | 2 |
+| 8 | eurographics | UTC | 23:59 | 2 |
+| 9 | focs | EDT (UTC-4) | 17:00 | 2 |
+| 10 | hpca | UTC | 23:59 | 2 |
+| 11 | i3d | PT (UTC-7) | 23:59 | 3 |
+| 12 | iccv | HST (UTC-10) | 23:59 | 3 |
+| 13 | icde | PT | 17:00 | 3 |
+| 14 | icra | PST | 23:59 | 3 |
+| 15 | iros | PST (추정) | 23:59 | 3 |
+| 16 | itcs | EDT | 19:59 | 3 |
+| 17 | micro | EDT | 23:59 | 4 |
+| 18 | nsdi | EDT | 23:59 | 4 |
+| 19 | osdi | EST | 17:59 | 4 |
+| 20 | pakdd | PST | 23:59 | 4 |
+| 21 | siggraph | UTC | 22:00 | 5 |
+| 22 | stoc | EST | 16:59 | 5 |
+
+**이미 맞게 저장된 것**: miccai (PT), vldb (PT)
+
+**총 22개 AoE 아닌 학회** (DB에 이미 맞는 2개 제외 → 20개 수정 필요)
+
+---
+
 ## Phase 1 결과 (2026-03-16)
 
 | 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
