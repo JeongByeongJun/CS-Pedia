@@ -55,27 +55,28 @@ export function deadlineToUTC(deadline: Date | string, timezone: string): Date {
  * deadline을 사용자 로컬 시간 문자열로 변환.
  * 서버에서는 KST(UTC+9) 기준, 클라이언트에서는 브라우저 로컬 시간.
  */
-export function formatDeadlineLocal(deadline: Date | string, timezone: string): string {
+/**
+ * deadline을 사용자 로컬 시간으로 변환.
+ * 반환: { dateTime: "2026-03-18 20:59", tzAbbr: "KST" }
+ */
+export function formatDeadlineLocal(deadline: Date | string, timezone: string): { dateTime: string; tzAbbr: string } {
   const utcDate = deadlineToUTC(deadline, timezone);
-  // format in user's local timezone
-  return new Intl.DateTimeFormat("ko-KR", {
-    month: "numeric",
-    day: "numeric",
-    weekday: "short",
+
+  const datePart = new Intl.DateTimeFormat("sv-SE", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(utcDate);
+
+  const timePart = new Intl.DateTimeFormat("en-GB", {
     hour: "2-digit",
     minute: "2-digit",
     hour12: false,
   }).format(utcDate);
-}
 
-export function formatDeadlineLocalEn(deadline: Date | string, timezone: string): string {
-  const utcDate = deadlineToUTC(deadline, timezone);
-  return new Intl.DateTimeFormat("en-US", {
-    month: "short",
-    day: "numeric",
-    weekday: "short",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: true,
-  }).format(utcDate);
+  const tzAbbr = new Intl.DateTimeFormat("en-US", {
+    timeZoneName: "short",
+  }).formatToParts(utcDate).find(p => p.type === "timeZoneName")?.value ?? "Local";
+
+  return { dateTime: `${datePart} ${timePart}`, tzAbbr };
 }
