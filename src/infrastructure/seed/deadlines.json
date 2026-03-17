@@ -153,7 +153,7 @@
     "conference_start": "2026-08-17",
     "conference_end": "2026-08-20",
     "venue": "Santa Barbara, USA",
-    "timezone": "AoE"
+    "timezone": "PT"
   },
   {
     "conference_slug": "cscw",
@@ -201,7 +201,7 @@
     "conference_start": "2026-09-08",
     "conference_end": "2026-09-13",
     "venue": "Malmö, Sweden",
-    "timezone": "AoE"
+    "timezone": "CET"
   },
   {
     "conference_slug": "emnlp",
@@ -292,12 +292,12 @@
     "year": 2026,
     "cycle": "main",
     "abstract_deadline": null,
-    "paper_deadline": "2026-04-01T23:59:00Z",
+    "paper_deadline": "2026-04-01T21:00:00Z",
     "notification_date": "2026-07-03T00:00:00Z",
     "conference_start": "2026-11-08",
     "conference_end": "2026-11-11",
     "venue": "New York City, USA",
-    "timezone": "AoE"
+    "timezone": "EDT"
   },
   {
     "conference_slug": "fse",
@@ -321,7 +321,7 @@
     "conference_start": "2026-01-31",
     "conference_end": "2026-02-04",
     "venue": "Sydney, Australia",
-    "timezone": "AoE"
+    "timezone": "UTC"
   },
   {
     "conference_slug": "hri",
@@ -345,7 +345,7 @@
     "conference_start": "2026-05-13",
     "conference_end": "2026-05-15",
     "venue": "San Francisco, CA, USA",
-    "timezone": "AoE"
+    "timezone": "PT"
   },
   {
     "conference_slug": "iccv",
@@ -357,7 +357,7 @@
     "conference_start": "2025-10-19",
     "conference_end": "2025-10-23",
     "venue": "Honolulu, USA",
-    "timezone": "AoE"
+    "timezone": "HST"
   },
   {
     "conference_slug": "icde",
@@ -369,7 +369,7 @@
     "conference_start": "2026-05-04",
     "conference_end": "2026-05-08",
     "venue": "Montreal, Canada",
-    "timezone": "AoE"
+    "timezone": "PT"
   },
   {
     "conference_slug": "iclr",
@@ -405,7 +405,7 @@
     "conference_start": "2026-06-01",
     "conference_end": "2026-06-05",
     "venue": "Vienna, Austria",
-    "timezone": "AoE"
+    "timezone": "PST"
   },
   {
     "conference_slug": "icse",
@@ -501,7 +501,7 @@
     "conference_start": "2026-09-27",
     "conference_end": "2026-10-01",
     "venue": "Pittsburgh, PA, USA",
-    "timezone": "AoE"
+    "timezone": "PST"
   },
   {
     "conference_slug": "isca",
@@ -537,7 +537,7 @@
     "conference_start": "2026-01-27",
     "conference_end": "2026-01-30",
     "venue": "Milan, Italy",
-    "timezone": "AoE"
+    "timezone": "EDT"
   },
   {
     "conference_slug": "kdd",
@@ -597,7 +597,7 @@
     "conference_start": "2026-10-31",
     "conference_end": "2026-11-04",
     "venue": "Athens, Greece",
-    "timezone": "AoE"
+    "timezone": "EDT"
   },
   {
     "conference_slug": "mobicom",
@@ -693,7 +693,7 @@
     "conference_start": "2026-05-04",
     "conference_end": "2026-05-06",
     "venue": "Renton, WA, USA",
-    "timezone": "AoE"
+    "timezone": "EDT"
   },
   {
     "conference_slug": "nsdi",
@@ -705,7 +705,7 @@
     "conference_start": "2026-05-04",
     "conference_end": "2026-05-06",
     "venue": "Renton, WA, USA",
-    "timezone": "AoE"
+    "timezone": "EDT"
   },
   {
     "conference_slug": "oopsla",
@@ -741,7 +741,7 @@
     "conference_start": "2026-07-13",
     "conference_end": "2026-07-15",
     "venue": "Seattle, WA, USA",
-    "timezone": "AoE"
+    "timezone": "EST"
   },
   {
     "conference_slug": "pldi",
@@ -837,7 +837,7 @@
     "conference_start": "2026-07-19",
     "conference_end": "2026-07-23",
     "venue": "Los Angeles, CA, USA",
-    "timezone": "AoE"
+    "timezone": "UTC"
   },
   {
     "conference_slug": "sigir",
@@ -969,7 +969,7 @@
     "conference_start": "2026-06-22",
     "conference_end": "2026-06-26",
     "venue": "Salt Lake City, UT, USA",
-    "timezone": "AoE"
+    "timezone": "EST"
   },
   {
     "conference_slug": "uist",
@@ -1365,7 +1365,7 @@
     "conference_start": "2027-05-11",
     "conference_end": "2027-05-13",
     "venue": "Providence, RI, USA",
-    "timezone": "AoE"
+    "timezone": "EDT"
   },
   {
     "conference_slug": "nsdi",
@@ -1377,7 +1377,7 @@
     "conference_start": "2027-05-11",
     "conference_end": "2027-05-13",
     "venue": "Providence, RI, USA",
-    "timezone": "AoE"
+    "timezone": "EDT"
   },
   {
     "conference_slug": "pact",
@@ -1401,7 +1401,7 @@
     "conference_start": "2026-06-09",
     "conference_end": "2026-06-12",
     "venue": "Hong Kong, China",
-    "timezone": "AoE"
+    "timezone": "PST"
   },
   {
     "conference_slug": "pets",
@@ -1533,7 +1533,7 @@
     "conference_start": "2026-03-20",
     "conference_end": "2026-03-23",
     "venue": "Vancouver, Canada",
-    "timezone": "AoE"
+    "timezone": "PT"
   },
   {
     "conference_slug": "aamas",
@@ -1557,7 +1557,7 @@
     "conference_start": "2026-12-16",
     "conference_end": "2026-12-18",
     "venue": "Osaka, Japan",
-    "timezone": "AoE"
+    "timezone": "GMT"
   },
   {
     "conference_slug": "aistats",
@@ -1689,7 +1689,7 @@
     "conference_start": "2026-11-09",
     "conference_end": "2026-11-12",
     "venue": "Austin, TX, USA",
-    "timezone": "AoE"
+    "timezone": "UTC"
   },
   {
     "conference_slug": "csf",
@@ -1833,7 +1833,7 @@
     "conference_start": "2026-05-04",
     "conference_end": "2026-05-08",
     "venue": "Aachen, Germany",
-    "timezone": "AoE"
+    "timezone": "UTC"
   },
   {
     "conference_slug": "eurosys",
@@ -1977,7 +1977,7 @@
     "conference_start": "2027-05-17",
     "conference_end": "2027-05-21",
     "venue": "Copenhagen, Denmark",
-    "timezone": "AoE"
+    "timezone": "PT"
   },
   {
     "conference_slug": "icdm",
