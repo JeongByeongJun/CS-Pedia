@@ -56,7 +56,14 @@ export default async function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
-      <SiteHeader user={authUser} />
+      <SiteHeader
+        user={authUser}
+        stats={{
+          upcomingCount: conferences.filter((c) => (c.daysUntilDeadline ?? -1) >= 0).length,
+          totalCount: conferences.length,
+          bookmarkCount: bookmarkedIds.length,
+        }}
+      />
 
       <main className="max-w-6xl mx-auto px-4 py-4 sm:px-6 sm:py-6">
         <UpdateBanner />

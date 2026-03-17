@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { headers } from "next/headers";
 import { AuthButton } from "@/presentation/components/auth/auth-button";
-import { getConferences } from "@/infrastructure/container";
-import { getBookmarkCount } from "@/app/actions/bookmark";
 
 interface SiteHeaderProps {
   user: {
@@ -10,21 +8,16 @@ interface SiteHeaderProps {
     name?: string;
     avatarUrl?: string;
   } | null;
+  stats?: {
+    upcomingCount: number;
+    totalCount: number;
+    bookmarkCount: number;
+  };
 }
 
-export async function SiteHeader({ user }: SiteHeaderProps) {
+export async function SiteHeader({ user, stats }: SiteHeaderProps) {
   const country = (await headers()).get("x-vercel-ip-country");
   const isKorean = !country || country === "KR";
-
-  const [conferences, bookmarkCount] = await Promise.all([
-    getConferences({}),
-    getBookmarkCount(),
-  ]);
-
-  const upcomingCount = conferences.filter(
-    (c) => (c.daysUntilDeadline ?? -1) >= 0,
-  ).length;
-  const totalCount = conferences.length;
 
   return (
     <header
@@ -166,11 +159,13 @@ export async function SiteHeader({ user }: SiteHeaderProps) {
             </div>
 
             {/* Right: Stat cards */}
-            <div className="grid grid-cols-3 w-full sm:w-auto" style={{ gap: "8px", flexShrink: 0 }}>
-              <StatCard value={upcomingCount} label="Upcoming" accentColor="#818cf8" />
-              <StatCard value={totalCount} label="Tracked" accentColor="#a78bfa" />
-              <StatCard value={bookmarkCount} label="Saved" accentColor="#f59e0b" />
-            </div>
+            {stats && (
+              <div className="grid grid-cols-3 w-full sm:w-auto" style={{ gap: "8px", flexShrink: 0 }}>
+                <StatCard value={stats.upcomingCount} label="Upcoming" accentColor="#818cf8" />
+                <StatCard value={stats.totalCount} label="Tracked" accentColor="#a78bfa" />
+                <StatCard value={stats.bookmarkCount} label="Saved" accentColor="#f59e0b" />
+              </div>
+            )}
           </div>
         </div>
       </div>
