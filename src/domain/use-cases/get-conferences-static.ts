@@ -2,6 +2,7 @@ import type { ConferenceWithRelations } from "../repositories/conference-reposit
 import type { Conference } from "../entities/conference";
 
 interface StaticConference {
+  id: string;
   slug: string;
   nameEn: string;
   nameKr: string | null;
@@ -43,7 +44,7 @@ export function createGetConferencesFromStatic() {
     const items: StaticConference[] = JSON.parse(raw);
 
     return items.map((c) => ({
-      id: c.slug,
+      id: c.id,
       slug: c.slug,
       nameEn: c.nameEn,
       nameKr: c.nameKr,

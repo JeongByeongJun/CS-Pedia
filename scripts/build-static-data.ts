@@ -7,9 +7,13 @@
 
 import fs from "fs";
 import path from "path";
+import { createClient } from "@supabase/supabase-js";
 
 const SEED_DIR = path.join(__dirname, "../src/infrastructure/seed");
 const OUT_DIR = path.join(__dirname, "../public/data");
+
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 interface Deadline {
   conference_slug: string;
@@ -24,7 +28,18 @@ interface Deadline {
   timezone: string;
 }
 
-function main() {
+async function main() {
+  // Get slug → UUID mapping from Supabase
+  let slugToId: Record<string, string> = {};
+  if (supabaseUrl && serviceRoleKey) {
+    const supabase = createClient(supabaseUrl, serviceRoleKey);
+    const { data } = await supabase.from("conferences").select("id, slug");
+    slugToId = Object.fromEntries((data ?? []).map((c) => [c.slug, c.id]));
+    console.log(`Loaded ${Object.keys(slugToId).length} conference UUIDs from Supabase`);
+  } else {
+    console.warn("No Supabase credentials, using slug as id");
+  }
+
   const conferences = JSON.parse(fs.readFileSync(path.join(SEED_DIR, "conferences.json"), "utf8"));
   const deadlines: Deadline[] = JSON.parse(fs.readFileSync(path.join(SEED_DIR, "deadlines.json"), "utf8"));
   const ratings = JSON.parse(fs.readFileSync(path.join(SEED_DIR, "institution-ratings.json"), "utf8"));
@@ -82,14 +97,16 @@ function main() {
 
   // Build output
   const result = conferences.map((c: Record<string, unknown>) => {
-    const dl = deadlineBySlug.get(c.slug as string);
+    const slug = c.slug as string;
+    const dl = deadlineBySlug.get(slug);
     const paperDeadline = dl?.paper_deadline ?? null;
     const daysUntil = paperDeadline
       ? Math.floor((new Date(paperDeadline).getTime() - now.getTime()) / (1000 * 60 * 60 * 24))
       : null;
 
     return {
-      slug: c.slug,
+      id: slugToId[slug] ?? slug,
+      slug,
       nameEn: c.name_en,
       nameKr: c.name_kr,
       acronym: c.acronym,
@@ -114,4 +131,4 @@ function main() {
   console.log(`Built static data: ${result.length} conferences → public/data/conferences.json`);
 }
 
-main();
+main().catch(console.error);

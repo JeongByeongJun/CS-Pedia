@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "seed": "tsx --env-file=.env.local scripts/seed.ts && tsx scripts/build-static-data.ts",
-    "build-data": "tsx scripts/build-static-data.ts",
+    "seed": "tsx --env-file=.env.local scripts/seed.ts && tsx --env-file=.env.local scripts/build-static-data.ts",
+    "build-data": "tsx --env-file=.env.local scripts/build-static-data.ts",
     "pipeline": "tsx scripts/pipeline/index.ts"
   },
   "dependencies": {
