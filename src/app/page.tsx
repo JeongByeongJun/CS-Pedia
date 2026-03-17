@@ -9,7 +9,7 @@ export const revalidate = 3600;
 
 export default async function HomePage() {
   const [conferences, supabase] = await Promise.all([
-    getConferences({}),
+    getConferences(),
     createSupabaseServerClient(),
   ]);
   const {

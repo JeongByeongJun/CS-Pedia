@@ -8,6 +8,7 @@ import { SupabaseUserRepository } from "./supabase/repositories/supabase-user-re
 import { SupabaseKeywordTrendRepository } from "./supabase/repositories/supabase-keyword-trend-repository";
 
 import { createGetConferencesUseCase } from "@/domain/use-cases/get-conferences";
+import { createGetConferencesFromStatic } from "@/domain/use-cases/get-conferences-static";
 import { createGetConferenceDetailUseCase } from "@/domain/use-cases/get-conference-detail";
 import { createGetBestPapersUseCase } from "@/domain/use-cases/get-best-papers";
 import { createGetUpcomingDeadlinesUseCase } from "@/domain/use-cases/get-upcoming-deadlines";
@@ -23,7 +24,8 @@ const userRepo = new SupabaseUserRepository();
 const keywordTrendRepo = new SupabaseKeywordTrendRepository();
 
 // Use cases
-export const getConferences = createGetConferencesUseCase(conferenceRepo);
+export const getConferences = createGetConferencesFromStatic();
+export const getConferencesFromDB = createGetConferencesUseCase(conferenceRepo);
 export const getConferenceDetail = createGetConferenceDetailUseCase(
   conferenceRepo,
   deadlineRepo,

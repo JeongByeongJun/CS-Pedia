@@ -25,7 +25,7 @@ export default async function MyPage() {
   const [profile, bookmarkedIds, allConferences] = await Promise.all([
     userRepo.findById(user.id),
     getUserBookmarkedIds(),
-    getConferences({}),
+    getConferences(),
   ]);
 
   const authUser = {

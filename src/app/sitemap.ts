@@ -3,7 +3,7 @@ import { getConferences } from "@/infrastructure/container";
 import { SITE } from "@/shared/constants/site";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const conferences = await getConferences({});
+  const conferences = await getConferences();
 
   const conferenceUrls = conferences.map((c) => ({
     url: `${SITE.url}/conferences/${c.slug}`,

@@ -13,6 +13,7 @@ export const ConferenceFieldEnum = z.enum([
   "Networks",
   "Architecture",
   "Graphics",
+  "PL",
   "Robotics",
   "Other",
 ]);
