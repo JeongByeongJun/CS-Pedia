@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
 export function SiteFooter() {
@@ -17,14 +18,26 @@ export function SiteFooter() {
           )}
         </p>
         <p>{isKorean ? "제출 전 데드라인·학회 일정은 공식 웹사이트에서 반드시 확인하세요." : "Always verify deadlines on the official website before submitting."}</p>
-        <p>
+        <div className="flex items-center justify-center gap-3 pt-1">
+          <Link href="/about" className="underline underline-offset-2 hover:text-zinc-600 transition-colors">
+            {isKorean ? "소개" : "About"}
+          </Link>
+          <span className="text-zinc-300">·</span>
+          <Link href="/privacy" className="underline underline-offset-2 hover:text-zinc-600 transition-colors">
+            {isKorean ? "개인정보 처리방침" : "Privacy"}
+          </Link>
+          <span className="text-zinc-300">·</span>
+          <Link href="/terms" className="underline underline-offset-2 hover:text-zinc-600 transition-colors">
+            {isKorean ? "이용약관" : "Terms"}
+          </Link>
+          <span className="text-zinc-300">·</span>
           <a
             href="mailto:contact@cs-pedia.io"
             className="underline underline-offset-2 hover:text-zinc-600 transition-colors"
           >
-            {isKorean ? "피드백 보내기" : "Send feedback"}
+            {isKorean ? "문의" : "Contact"}
           </a>
-        </p>
+        </div>
       </div>
     </footer>
   );
