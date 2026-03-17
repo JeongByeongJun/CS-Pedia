@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { FeedbackButton } from "@/presentation/components/layout/feedback-button";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from "next/script";
 import { headers } from "next/headers";
 
@@ -244,6 +245,7 @@ export default async function RootLayout({
         {children}
         <FeedbackButton isKorean={lang === "ko"} />
         <Analytics />
+        <SpeedInsights />
         <Script
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7036136026593965"
           strategy="afterInteractive"
