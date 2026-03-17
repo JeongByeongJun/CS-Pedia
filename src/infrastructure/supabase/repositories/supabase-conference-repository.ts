@@ -10,10 +10,6 @@ import { parseOptionalDate } from "@/shared/utils/date";
 
 type ViewRow = Database["public"]["Views"]["conference_with_next_deadline"]["Row"];
 
-interface ViewRowWithRelations extends ViewRow {
-  institution_ratings: Array<{ institution: string; tier: string | null }>;
-}
-
 interface LatestBestPaperRow {
   conference_id: string;
   paper_title: string;
@@ -29,7 +25,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
 
     let query = supabase
       .from("conference_with_next_deadline")
-      .select(`*, institution_ratings (institution, tier)`)
+      .select(`id, slug, name_en, name_kr, acronym, field, sub_field, dblp_key, website_url, next_deadline, deadline_year, next_venue, conference_start, conference_end, days_until_deadline`)
       .order("acronym");
 
     if (filters?.field) {
@@ -42,14 +38,26 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
       );
     }
 
-    const [{ data, error }, { data: latestPapersData }] = await Promise.all([
+    const [{ data, error }, { data: ratingsData }, { data: latestPapersData }] = await Promise.all([
       query,
+      supabase
+        .from("institution_ratings")
+        .select("conference_id, institution, tier"),
       supabase
         .from("conference_latest_best_papers")
         .select("conference_id, paper_title, year, award_type"),
     ]);
 
     if (error) throw error;
+
+    // Group ratings by conference_id
+    const ratingsByConf = new Map<string, Array<{ institution: string; tier: string | null }>>();
+    for (const r of (ratingsData ?? []) as Array<{ conference_id: string; institution: string; tier: string | null }>) {
+      if (!ratingsByConf.has(r.conference_id)) {
+        ratingsByConf.set(r.conference_id, []);
+      }
+      ratingsByConf.get(r.conference_id)!.push({ institution: r.institution, tier: r.tier });
+    }
 
     // Group latest best papers by conference_id
     const bestPapersByConf = new Map<string, LatestBestPaperRow[]>();
@@ -60,12 +68,12 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
       bestPapersByConf.get(bp.conference_id)!.push(bp);
     }
 
-    return ((data ?? []) as unknown as ViewRowWithRelations[])
+    return ((data ?? []) as unknown as ViewRow[])
       .map((row) => {
-        const ratings = (row.institution_ratings ?? []).filter((r) => {
-          if (filters?.institution) return r.institution === filters.institution;
-          return true;
-        });
+        const allRatings = ratingsByConf.get(row.id ?? "") ?? [];
+        const ratings = filters?.institution
+          ? allRatings.filter((r) => r.institution === filters.institution)
+          : allRatings;
 
         if (filters?.institution && ratings.length === 0) return null;
 
@@ -93,13 +101,18 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
 
     const { data, error } = await supabase
       .from("conference_with_next_deadline")
-      .select(`*, institution_ratings (institution, tier)`)
+      .select(`id, slug, name_en, name_kr, acronym, field, sub_field, dblp_key, website_url, next_deadline, deadline_year, next_venue, conference_start, conference_end, days_until_deadline`)
       .eq("slug", slug)
       .single();
 
     if (error || !data) return null;
 
-    const row = data as unknown as ViewRowWithRelations;
+    const row = data as unknown as ViewRow;
+
+    const { data: ratingsData } = await supabase
+      .from("institution_ratings")
+      .select("institution, tier")
+      .eq("conference_id", row.id!);
 
     return {
       ...toDomainConference(row),
@@ -108,7 +121,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
       venue: row.next_venue,
       conferenceStart: parseOptionalDate(row.conference_start),
       conferenceEnd: parseOptionalDate(row.conference_end),
-      institutionRatings: (row.institution_ratings ?? []).map((r) => ({
+      institutionRatings: ((ratingsData ?? []) as Array<{ institution: string; tier: string | null }>).map((r) => ({
         institution: r.institution,
         tier: r.tier,
       })),
