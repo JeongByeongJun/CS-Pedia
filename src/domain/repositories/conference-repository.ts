@@ -10,6 +10,7 @@ export interface ConferenceFilters {
 export interface ConferenceWithRelations extends Conference {
   nextDeadline: Date | null;
   daysUntilDeadline: number | null;
+  deadlineTimezone: string;
   venue: string | null;
   conferenceStart: Date | null;
   conferenceEnd: Date | null;

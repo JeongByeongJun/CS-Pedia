@@ -38,7 +38,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
       );
     }
 
-    const [{ data, error }, { data: ratingsData }, { data: latestPapersData }] = await Promise.all([
+    const [{ data, error }, { data: ratingsData }, { data: latestPapersData }, { data: deadlineTzData }] = await Promise.all([
       query,
       supabase
         .from("institution_ratings")
@@ -46,9 +46,22 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
       supabase
         .from("conference_latest_best_papers")
         .select("conference_id, paper_title, year, award_type"),
+      supabase
+        .from("deadlines")
+        .select("conference_id, timezone, paper_deadline")
+        .not("paper_deadline", "is", null)
+        .order("paper_deadline", { ascending: false }),
     ]);
 
     if (error) throw error;
+
+    // Map conference_id → timezone (from the nearest deadline)
+    const tzByConf = new Map<string, string>();
+    for (const d of (deadlineTzData ?? []) as Array<{ conference_id: string; timezone: string; paper_deadline: string }>) {
+      if (!tzByConf.has(d.conference_id)) {
+        tzByConf.set(d.conference_id, d.timezone ?? "AoE");
+      }
+    }
 
     // Group ratings by conference_id
     const ratingsByConf = new Map<string, Array<{ institution: string; tier: string | null }>>();
@@ -81,6 +94,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
           ...toDomainConference(row),
           nextDeadline: parseOptionalDate(row.next_deadline),
           daysUntilDeadline: row.days_until_deadline,
+          deadlineTimezone: tzByConf.get(row.id ?? "") ?? "AoE",
           venue: row.next_venue,
           conferenceStart: parseOptionalDate(row.conference_start),
           conferenceEnd: parseOptionalDate(row.conference_end),
@@ -109,15 +123,27 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
 
     const row = data as unknown as ViewRow;
 
-    const { data: ratingsData } = await supabase
-      .from("institution_ratings")
-      .select("institution, tier")
-      .eq("conference_id", row.id!);
+    const [{ data: ratingsData }, { data: tzData }] = await Promise.all([
+      supabase
+        .from("institution_ratings")
+        .select("institution, tier")
+        .eq("conference_id", row.id!),
+      supabase
+        .from("deadlines")
+        .select("timezone")
+        .eq("conference_id", row.id!)
+        .not("paper_deadline", "is", null)
+        .order("paper_deadline", { ascending: false })
+        .limit(1),
+    ]);
+
+    const tz = ((tzData ?? []) as Array<{ timezone: string }>)[0]?.timezone ?? "AoE";
 
     return {
       ...toDomainConference(row),
       nextDeadline: parseOptionalDate(row.next_deadline),
       daysUntilDeadline: row.days_until_deadline,
+      deadlineTimezone: tz,
       venue: row.next_venue,
       conferenceStart: parseOptionalDate(row.conference_start),
       conferenceEnd: parseOptionalDate(row.conference_end),

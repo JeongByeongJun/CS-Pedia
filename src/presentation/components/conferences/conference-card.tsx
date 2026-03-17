@@ -7,7 +7,7 @@ import { FieldBadge } from "./field-badge";
 import { InstitutionBadges } from "./institution-badges";
 import { BestPaperAccordion } from "./best-paper-accordion";
 import { BookmarkButton } from "./bookmark-button";
-import { formatDate } from "@/shared/utils/date";
+import { formatDate, formatDeadlineLocal, formatDeadlineLocalEn } from "@/shared/utils/date";
 import { conferenceUrl } from "@/shared/utils/url";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
@@ -84,7 +84,9 @@ export function ConferenceCard({
                   )}
                   {conference.venue && <span className="whitespace-nowrap">📍 {conference.venue}</span>}
                   <span className="whitespace-nowrap">
-                    {isKorean ? `⏰ 마감 ${formatDate(conference.nextDeadline)}` : `⏰ Deadline ${formatDate(conference.nextDeadline)}`}
+                    {isKorean
+                      ? `⏰ 마감 ${formatDeadlineLocal(conference.nextDeadline, conference.deadlineTimezone)}`
+                      : `⏰ ${formatDeadlineLocalEn(conference.nextDeadline, conference.deadlineTimezone)}`}
                   </span>
                 </>
               ) : (
