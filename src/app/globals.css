@@ -123,6 +123,12 @@
   body {
     @apply bg-background text-foreground;
   }
+  button, [role="button"] {
+    cursor: pointer;
+  }
+  a {
+    cursor: pointer;
+  }
 }
 
 .nav-link-hover {
