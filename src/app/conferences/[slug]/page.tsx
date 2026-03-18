@@ -176,9 +176,9 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                     href={conference.websiteUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-indigo-600 hover:underline"
+                    className="inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg border border-indigo-200 text-indigo-500 hover:text-indigo-700 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
                   >
-                    {isKorean ? "🌐 공식 웹사이트" : "🌐 Official Website"}
+                    🌐 {isKorean ? "공식 웹사이트" : "Official Website"}
                   </a>
                 )}
                 <a
