@@ -1,10 +1,14 @@
+"use client";
+
 import { getDdayStatus, formatDday } from "@/domain/value-objects/d-day";
+import { useLocale } from "@/presentation/hooks/use-locale";
 
 export function DeadlineBadge({ ddays }: { ddays: number | null }) {
+  const { isKorean } = useLocale();
   if (ddays === null) return null;
 
   const status = getDdayStatus(ddays);
-  const text = formatDday(ddays);
+  const text = formatDday(ddays, isKorean);
 
   const styles: Record<string, string> = {
     passed: "bg-zinc-100 text-zinc-400 border border-zinc-200",

@@ -27,11 +27,22 @@ export function ConferenceSearch({ value, onChange }: ConferenceSearchProps) {
       </svg>
       <input
         type="text"
+        autoComplete="off"
+        aria-label={isKorean ? "학회 검색" : "Search conferences"}
         placeholder={isKorean ? "학회명 검색 (예: NeurIPS, CVPR, ACL...)" : "Search conferences (e.g. NeurIPS, CVPR, ACL...)"}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all bg-zinc-50"
+        className="w-full pl-10 pr-9 py-2.5 rounded-xl border border-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all bg-zinc-50"
       />
+      {value && (
+        <button
+          onClick={() => onChange("")}
+          className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-300 hover:text-zinc-500 text-sm"
+          aria-label="Clear search"
+        >
+          ✕
+        </button>
+      )}
     </div>
   );
 }

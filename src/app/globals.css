@@ -129,6 +129,11 @@
   a {
     cursor: pointer;
   }
+  @media (max-width: 639px) {
+    body {
+      padding-bottom: 3.5rem;
+    }
+  }
 }
 
 .nav-link-hover {

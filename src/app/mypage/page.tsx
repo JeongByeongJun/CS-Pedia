@@ -1,8 +1,7 @@
 import { redirect } from "next/navigation";
 import type { Metadata } from "next";
 import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
-import { getConferences, userRepo } from "@/infrastructure/container";
-import { getUserBookmarkedIds } from "@/app/actions/bookmark";
+import { getConferences, userRepo, bookmarkRepo } from "@/infrastructure/container";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { ProfileForm } from "@/presentation/components/mypage/profile-form";
@@ -22,11 +21,12 @@ export default async function MyPage() {
   } = await supabase.auth.getUser();
   if (!user) redirect("/");
 
-  const [profile, bookmarkedIds, allConferences] = await Promise.all([
+  const [profile, bookmarks, allConferences] = await Promise.all([
     userRepo.findById(user.id),
-    getUserBookmarkedIds(),
+    bookmarkRepo.findByUserId(user.id),
     getConferences(),
   ]);
+  const bookmarkedIds = bookmarks.map((b) => b.conferenceId);
 
   const authUser = {
     email: user.email!,

@@ -36,16 +36,23 @@ export function MultiConferenceChart({
   fields,
 }: MultiConferenceChartProps) {
   const { isKorean } = useLocale();
-  const [selectedField, setSelectedField] = useState<string>("전체");
+  const [selectedField, setSelectedField] = useState<string>("__all__");
   const [selectedSlugs, setSelectedSlugs] = useState<Set<string>>(() => {
     const top = conferences.slice(0, 6).map((c) => c.slug);
     return new Set(top);
   });
 
   const filtered = useMemo(() => {
-    if (selectedField === "전체") return conferences;
+    if (selectedField === "__all__") return conferences;
     return conferences.filter((c) => c.field === selectedField);
   }, [conferences, selectedField]);
+
+  // Reset selected slugs when field changes
+  const handleFieldChange = (field: string) => {
+    setSelectedField(field);
+    const items = field === "__all__" ? conferences : conferences.filter((c) => c.field === field);
+    setSelectedSlugs(new Set(items.slice(0, 6).map((c) => c.slug)));
+  };
 
   const active = filtered.filter((c) => selectedSlugs.has(c.slug));
 
@@ -80,17 +87,17 @@ export function MultiConferenceChart({
     <div>
       {/* Field filter */}
       <div className="flex flex-wrap gap-2 mb-4">
-        {["전체", ...fields].map((f) => (
+        {["__all__", ...fields].map((f) => (
           <button
             key={f}
-            onClick={() => setSelectedField(f)}
+            onClick={() => handleFieldChange(f)}
             className={`px-3 py-1.5 text-xs rounded-lg transition-colors ${
               selectedField === f
                 ? "bg-indigo-600 text-white"
                 : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
             }`}
           >
-            {f === "전체" ? (isKorean ? "전체" : "All") : f}
+            {f === "__all__" ? (isKorean ? "전체" : "All") : f}
           </button>
         ))}
       </div>

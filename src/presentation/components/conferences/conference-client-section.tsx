@@ -125,7 +125,7 @@ export function ConferenceClientSection({
       if (aDays < 0 && bDays < 0) return bDays - aDays;
       return aDays - bDays;
     });
-  }, [conferences, field, institution, search, sort]);
+  }, [conferences, field, institution, search, sort, isKorean]);
 
   return (
     <>

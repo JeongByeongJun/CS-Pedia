@@ -17,14 +17,22 @@ const UPDATES_EN = [
 
 export function UpdateBanner() {
   const { isKorean } = useLocale();
-  const [dismissed, setDismissed] = useState(false);
+  const [dismissed, setDismissed] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return sessionStorage.getItem("cs-pedia-banner-dismissed") === "1";
+  });
 
   if (dismissed) return null;
+
+  const handleDismiss = () => {
+    setDismissed(true);
+    sessionStorage.setItem("cs-pedia-banner-dismissed", "1");
+  };
 
   return (
     <div className="relative bg-white/80 backdrop-blur-sm border border-zinc-200/60 rounded-xl px-4 py-3 mb-4 sm:mb-5">
       <button
-        onClick={() => setDismissed(true)}
+        onClick={handleDismiss}
         className="absolute top-2.5 right-3 text-zinc-300 hover:text-zinc-500 transition-colors text-sm leading-none"
         aria-label="Close"
       >

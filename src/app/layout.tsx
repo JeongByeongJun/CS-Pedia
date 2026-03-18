@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { FeedbackButton } from "@/presentation/components/layout/feedback-button";
+import { MobileNav } from "@/presentation/components/layout/mobile-nav";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from "next/script";
@@ -243,6 +244,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <MobileNav />
         <FeedbackButton isKorean={lang === "ko"} />
         <Analytics />
         <SpeedInsights />

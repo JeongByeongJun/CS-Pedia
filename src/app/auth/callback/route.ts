@@ -5,7 +5,11 @@ import type { Database } from "@/infrastructure/supabase/types/database.types";
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);
   const code = searchParams.get("code");
-  const next = searchParams.get("next") ?? "/";
+  let next = searchParams.get("next") ?? "/";
+  // Prevent open redirect: only allow relative paths
+  if (!next.startsWith("/") || next.startsWith("//")) {
+    next = "/";
+  }
 
   if (code) {
     const response = NextResponse.redirect(`${origin}${next}`);

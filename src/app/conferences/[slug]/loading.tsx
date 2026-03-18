@@ -4,7 +4,7 @@ export default function Loading() {
       {/* Header skeleton */}
       <div style={{ background: "linear-gradient(180deg, #111118 0%, #18181f 100%)", height: "56px" }} />
 
-      <main className="max-w-6xl mx-auto px-4 py-6 sm:px-6">
+      <main className="max-w-4xl mx-auto px-4 py-6 sm:px-6">
         {/* Back link */}
         <div className="h-4 w-24 bg-zinc-100 rounded animate-pulse mb-4" />
 

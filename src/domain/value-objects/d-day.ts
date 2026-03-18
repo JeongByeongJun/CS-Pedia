@@ -17,7 +17,8 @@ export function getDdayStatus(ddays: number): DdayStatus {
   return "far";
 }
 
-export function formatDday(ddays: number): string {
-  if (ddays < 0) return "마감";
+export function formatDday(ddays: number, isKorean = true): string {
+  if (ddays < 0) return isKorean ? "마감" : "Closed";
+  if (ddays === 0) return "D-Day";
   return `D-${ddays}`;
 }
