@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
 
-export const metadata: Metadata = {
-  title: "Terms of Service",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
+  return {
+    title: isKorean ? "이용약관 — CS-Pedia" : "Terms of Service — CS-Pedia",
+    description: isKorean
+      ? "CS-Pedia 이용약관"
+      : "CS-Pedia Terms of Service",
+  };
+}
 
 export default async function TermsPage() {
   const country = (await headers()).get("x-vercel-ip-country");

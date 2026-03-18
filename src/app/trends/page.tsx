@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import {
   getAllAcceptanceRates,
   getAllKeywordTrends,
@@ -14,15 +15,23 @@ import { KeywordTrendChart } from "@/presentation/components/charts/keyword-tren
 import { KeywordBarChart } from "@/presentation/components/charts/keyword-bar-chart";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 
-export const metadata: Metadata = {
-  title: "Trends - 학회 트렌드 분석",
-  description:
-    "CS 주요 학회 Acceptance Rate 추이와 키워드 트렌드를 비교 분석하세요.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
+  return {
+    title: isKorean ? "Trends — 학회 트렌드 분석 | CS-Pedia" : "Trends — CS-Pedia",
+    description: isKorean
+      ? "CS 주요 학회 Acceptance Rate 추이와 키워드 트렌드를 비교 분석하세요."
+      : "Compare acceptance rate trends and research keyword trends across top CS conferences.",
+  };
+}
 
 export const revalidate = 86400;
 
 export default async function TrendsPage() {
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
+
   const [allRates, allKeywordTrends, topKeywords, supabase] =
     await Promise.all([
       getAllAcceptanceRates(),
@@ -142,8 +151,7 @@ export default async function TrendsPage() {
                   />
                 ) : (
                   <div className="text-center py-12 text-zinc-400 text-sm">
-                    키워드 데이터가 아직 수집되지 않았습니다. 파이프라인을
-                    실행하세요.
+                    {isKorean ? "키워드 데이터가 아직 수집되지 않았습니다." : "No keyword data available yet."}
                   </div>
                 )}
               </div>

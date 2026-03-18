@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
+  return {
+    title: isKorean ? "개인정보 처리방침 — CS-Pedia" : "Privacy Policy — CS-Pedia",
+    description: isKorean
+      ? "CS-Pedia 개인정보 처리방침"
+      : "CS-Pedia Privacy Policy",
+  };
+}
 
 export default async function PrivacyPage() {
   const country = (await headers()).get("x-vercel-ip-country");

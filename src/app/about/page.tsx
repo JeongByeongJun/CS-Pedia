@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
 
-export const metadata: Metadata = {
-  title: "About",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = !country || country === "KR";
+  return {
+    title: isKorean ? "소개 — CS-Pedia" : "About — CS-Pedia",
+    description: isKorean
+      ? "CS-Pedia는 컴퓨터과학 연구자를 위한 학회 정보 통합 플랫폼입니다."
+      : "CS-Pedia is a comprehensive conference information platform for CS researchers.",
+  };
+}
 
 export default async function AboutPage() {
   const country = (await headers()).get("x-vercel-ip-country");
