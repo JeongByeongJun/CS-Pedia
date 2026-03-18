@@ -178,7 +178,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg border border-indigo-200 text-indigo-500 hover:text-indigo-700 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
                   >
-                    🌐 {isKorean ? "공식 웹사이트" : "Official Website"}
+                    {isKorean ? "공식 웹사이트" : "Official Website"}
                   </a>
                 )}
                 <a
@@ -187,7 +187,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg border border-red-200 text-red-400 hover:text-red-600 hover:border-red-300 hover:bg-red-50 transition-all"
                 >
-                  ⚠️ {isKorean ? "정보 오류 신고" : "Report Error"}
+                  {isKorean ? "정보 오류 신고" : "Report Error"}
                 </a>
               </div>
             </div>
