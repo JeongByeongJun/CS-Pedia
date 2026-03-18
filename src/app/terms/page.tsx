@@ -62,7 +62,7 @@ export default async function TermsPage() {
             <p>약관이 변경되는 경우 서비스 내 공지를 통해 안내합니다.</p>
 
             <h2>8. 문의</h2>
-            <p>이용약관 관련 문의: <a href="mailto:contact@cs-pedia.io">contact@cs-pedia.io</a></p>
+            <p>이용약관 관련 문의: <a href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer">contact@cs-pedia.io</a></p>
           </article>
         ) : (
           <article className="prose prose-zinc prose-sm max-w-none">
@@ -109,7 +109,7 @@ export default async function TermsPage() {
             <p>Any changes to these terms will be announced through the Service.</p>
 
             <h2>8. Contact</h2>
-            <p>For inquiries: <a href="mailto:contact@cs-pedia.io">contact@cs-pedia.io</a></p>
+            <p>For inquiries: <a href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer">contact@cs-pedia.io</a></p>
           </article>
         )}
       </div>

@@ -65,7 +65,7 @@ export default async function PrivacyPage() {
             <p>이용자는 언제든지 자신의 개인정보에 대해 열람, 수정, 삭제를 요청할 수 있습니다.</p>
 
             <h2>7. 문의</h2>
-            <p>개인정보 관련 문의: <a href="mailto:contact@cs-pedia.io">contact@cs-pedia.io</a></p>
+            <p>개인정보 관련 문의: <a href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer">contact@cs-pedia.io</a></p>
           </article>
         ) : (
           <article className="prose prose-zinc prose-sm max-w-none">
@@ -112,7 +112,7 @@ export default async function PrivacyPage() {
             <p>You may request access, correction, or deletion of your personal data at any time.</p>
 
             <h2>7. Contact</h2>
-            <p>For privacy inquiries: <a href="mailto:contact@cs-pedia.io">contact@cs-pedia.io</a></p>
+            <p>For privacy inquiries: <a href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer">contact@cs-pedia.io</a></p>
           </article>
         )}
       </div>

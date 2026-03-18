@@ -45,7 +45,7 @@ export default async function AboutPage() {
             </ul>
 
             <h2>문의</h2>
-            <p>오류 신고, 학회 추가 요청, 기타 문의: <a href="mailto:contact@cs-pedia.io">contact@cs-pedia.io</a></p>
+            <p>오류 신고, 학회 추가 요청, 기타 문의: <a href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer">contact@cs-pedia.io</a></p>
           </article>
         ) : (
           <article className="prose prose-zinc prose-sm max-w-none">
@@ -77,7 +77,7 @@ export default async function AboutPage() {
             </ul>
 
             <h2>Contact</h2>
-            <p>Bug reports, conference requests, or general inquiries: <a href="mailto:contact@cs-pedia.io">contact@cs-pedia.io</a></p>
+            <p>Bug reports, conference requests, or general inquiries: <a href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer">contact@cs-pedia.io</a></p>
           </article>
         )}
       </div>

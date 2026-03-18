@@ -182,10 +182,12 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   </a>
                 )}
                 <a
-                  href={`mailto:contact@cs-pedia.io?subject=${encodeURIComponent(`[오류 신고] ${conference.acronym}`)}&body=${encodeURIComponent(`학회: ${conference.acronym} (${conference.nameEn})\n페이지: https://cs-pedia.io/conferences/${slug}\n\n오류 내용:\n`)}`}
-                  className="text-sm text-zinc-400 hover:text-zinc-600"
+                  href={`https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io&su=${encodeURIComponent(`[Error Report] ${conference.acronym}`)}&body=${encodeURIComponent(`Conference: ${conference.acronym} (${conference.nameEn})\nPage: https://cs-pedia.io/conferences/${slug}\n\nError details:\n`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg border border-zinc-200 text-zinc-400 hover:text-red-500 hover:border-red-200 hover:bg-red-50 transition-all"
                 >
-                  {isKorean ? "⚠️ 정보 오류 신고" : "⚠️ Report an error"}
+                  ⚠️ {isKorean ? "정보 오류 신고" : "Report Error"}
                 </a>
               </div>
             </div>

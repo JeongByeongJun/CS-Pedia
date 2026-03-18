@@ -32,7 +32,7 @@ export function SiteFooter() {
           </Link>
           <span className="text-zinc-300">·</span>
           <a
-            href="mailto:contact@cs-pedia.io"
+            href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer"
             className="underline underline-offset-2 hover:text-zinc-600 transition-colors"
           >
             {isKorean ? "문의" : "Contact"}
