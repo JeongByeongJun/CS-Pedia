@@ -1,8 +1,8 @@
 export default function Loading() {
   return (
-    <div className="min-h-screen" style={{ background: "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)" }}>
+    <div className="min-h-screen bg-page-gradient">
       {/* Header skeleton */}
-      <div style={{ background: "linear-gradient(180deg, #111118 0%, #18181f 100%)", height: "56px" }} />
+      <div className="bg-header-gradient h-14" />
 
       <main className="max-w-4xl mx-auto px-4 py-6 sm:px-6">
         {/* Back link */}

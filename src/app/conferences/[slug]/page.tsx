@@ -131,11 +131,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
   return (
     <div
-      className="min-h-screen"
-      style={{
-        background:
-          "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)",
-      }}
+      className="min-h-screen bg-page-gradient"
     >
       {jsonLd && (
         <script

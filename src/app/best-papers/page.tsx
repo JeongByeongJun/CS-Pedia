@@ -37,38 +37,15 @@ export default async function BestPapersPage() {
     : null;
 
   return (
-    <div
-      className="min-h-screen"
-      style={{
-        background:
-          "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)",
-      }}
-    >
+    <div className="min-h-screen bg-page-gradient">
       <SiteHeader user={authUser} />
 
       <main className="max-w-6xl mx-auto px-6 py-8">
         <div className="mb-6">
-          <div
-            style={{
-              fontSize: "11px",
-              letterSpacing: "0.12em",
-              textTransform: "uppercase",
-              color: "#818cf8",
-              marginBottom: "6px",
-              fontFamily: "var(--font-geist-mono), monospace",
-              fontWeight: 500,
-            }}
-          >
+          <div className="text-[11px] tracking-[0.12em] uppercase text-indigo-400 mb-1.5 font-mono font-medium">
             Best Papers
           </div>
-          <h1
-            className="font-bold"
-            style={{
-              fontSize: "24px",
-              letterSpacing: "-0.025em",
-              color: "#18181b",
-            }}
-          >
+          <h1 className="font-bold text-2xl tracking-[-0.025em] text-zinc-900">
             수상작 아카이브
           </h1>
         </div>

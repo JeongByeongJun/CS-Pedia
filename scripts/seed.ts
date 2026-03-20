@@ -4,6 +4,9 @@ import ratings from "../src/infrastructure/seed/institution-ratings.json";
 import deadlines from "../src/infrastructure/seed/deadlines.json";
 import bestPapers from "../src/infrastructure/seed/best-papers.json";
 import acceptanceRates from "../src/infrastructure/seed/acceptance-rates.json";
+import { ConferenceFieldEnum } from "../src/domain/entities/conference";
+import { AwardTypeEnum } from "../src/domain/entities/best-paper";
+import { InstitutionEnum, TierEnum } from "../src/domain/entities/institution-rating";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -18,6 +21,36 @@ if (!supabaseUrl || !serviceRoleKey) {
 const supabase = createClient(supabaseUrl, serviceRoleKey);
 
 async function seed() {
+  // Validate seed data before upserting
+  console.log("Validating seed data...");
+  const errors: string[] = [];
+
+  for (const c of conferences) {
+    try { ConferenceFieldEnum.parse(c.field); }
+    catch { errors.push(`conferences: ${c.slug} has invalid field "${c.field}"`); }
+  }
+
+  for (const bp of bestPapers) {
+    try { AwardTypeEnum.parse(bp.award_type); }
+    catch { errors.push(`best-papers: ${bp.conference_slug}/${bp.year} has invalid award_type "${bp.award_type}"`); }
+  }
+
+  for (const r of ratings) {
+    try { InstitutionEnum.parse(r.institution); }
+    catch { errors.push(`institution-ratings: ${r.conference_slug}/${r.institution} has invalid institution "${r.institution}"`); }
+    if (r.tier !== null) {
+      try { TierEnum.parse(r.tier); }
+      catch { errors.push(`institution-ratings: ${r.conference_slug}/${r.institution} has invalid tier "${r.tier}"`); }
+    }
+  }
+
+  if (errors.length > 0) {
+    console.error("Seed data validation failed:");
+    errors.forEach((e) => console.error(`  ❌ ${e}`));
+    process.exit(1);
+  }
+  console.log("  ✅ All seed data valid");
+
   console.log("Seeding conferences...");
   const { error: confError } = await supabase
     .from("conferences")

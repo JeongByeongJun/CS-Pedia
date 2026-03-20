@@ -46,40 +46,17 @@ export default async function MyPage() {
   };
 
   return (
-    <div
-      className="min-h-screen"
-      style={{
-        background:
-          "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)",
-      }}
-    >
+    <div className="min-h-screen bg-page-gradient">
       <SiteHeader user={authUser} />
 
       <main className="max-w-6xl mx-auto px-6 py-8">
         {/* Page header */}
         <div className="flex items-center justify-between mb-8">
           <div>
-            <div
-              style={{
-                fontSize: "11px",
-                letterSpacing: "0.12em",
-                textTransform: "uppercase",
-                color: "#818cf8",
-                marginBottom: "6px",
-                fontFamily: "var(--font-geist-mono), monospace",
-                fontWeight: 500,
-              }}
-            >
+            <div className="text-[11px] tracking-[0.12em] uppercase text-indigo-400 mb-1.5 font-mono font-medium">
               My Page
             </div>
-            <h1
-              className="font-bold"
-              style={{
-                fontSize: "24px",
-                letterSpacing: "-0.025em",
-                color: "#18181b",
-              }}
-            >
+            <h1 className="font-bold text-2xl tracking-[-0.025em] text-zinc-900">
               {authUser.name ?? "연구자"}님, 안녕하세요
             </h1>
           </div>
@@ -93,37 +70,13 @@ export default async function MyPage() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
           {/* Profile */}
-          <div
-            className="lg:col-span-1"
-            style={{
-              background: "white",
-              borderRadius: "16px",
-              border: "1px solid rgba(0,0,0,0.06)",
-              overflow: "hidden",
-            }}
-          >
+          <div className="lg:col-span-1 bg-white rounded-2xl border border-black/[0.06] overflow-hidden">
             {/* Profile header accent */}
-            <div
-              style={{
-                height: "3px",
-                background: "linear-gradient(90deg, #6366f1, #a855f7)",
-              }}
-            />
-            <div style={{ padding: "24px" }}>
+            <div className="h-[3px] bg-[linear-gradient(90deg,#6366f1,#a855f7)]" />
+            <div className="p-6">
               {/* Profile incomplete nudge */}
               {(!profileData.institution || !profileData.researchField) && (
-                <div
-                  style={{
-                    marginBottom: "16px",
-                    padding: "10px 12px",
-                    borderRadius: "10px",
-                    background: "#fffbeb",
-                    border: "1px solid #fde68a",
-                    fontSize: "12px",
-                    color: "#92400e",
-                    lineHeight: 1.5,
-                  }}
-                >
+                <div className="mb-4 px-3 py-2.5 rounded-[10px] bg-amber-50 border border-amber-200 text-xs text-amber-800 leading-normal">
                   ✏️ <strong>프로필을 완성해주세요.</strong>
                   <br />
                   소속 기관과 관심 분야를 입력하면 서비스 개선에 도움이 됩니다.
@@ -135,58 +88,26 @@ export default async function MyPage() {
                   <img
                     src={authUser.avatarUrl}
                     alt=""
-                    style={{
-                      width: "44px",
-                      height: "44px",
-                      borderRadius: "12px",
-                      objectFit: "cover",
-                    }}
+                    className="w-11 h-11 rounded-xl object-cover"
                   />
                 ) : (
-                  <div
-                    className="flex items-center justify-center font-bold"
-                    style={{
-                      width: "44px",
-                      height: "44px",
-                      borderRadius: "12px",
-                      background: "linear-gradient(135deg, #6366f1, #8b5cf6)",
-                      color: "white",
-                      fontSize: "18px",
-                    }}
-                  >
+                  <div className="flex items-center justify-center font-bold w-11 h-11 rounded-xl bg-[linear-gradient(135deg,#6366f1,#8b5cf6)] text-white text-lg">
                     {(authUser.name ?? authUser.email)[0].toUpperCase()}
                   </div>
                 )}
                 <div>
-                  <div
-                    className="font-semibold"
-                    style={{ fontSize: "15px", color: "#18181b" }}
-                  >
+                  <div className="font-semibold text-[15px] text-zinc-900">
                     {authUser.name ?? "이름 미설정"}
                   </div>
-                  <div style={{ fontSize: "12px", color: "#a1a1aa" }}>
+                  <div className="text-xs text-zinc-400">
                     {authUser.email}
                   </div>
                 </div>
               </div>
 
-              <div
-                style={{
-                  height: "1px",
-                  background: "rgba(0,0,0,0.05)",
-                  marginBottom: "20px",
-                }}
-              />
+              <div className="h-px bg-black/[0.05] mb-5" />
 
-              <h2
-                className="font-semibold"
-                style={{
-                  fontSize: "13px",
-                  color: "#71717a",
-                  marginBottom: "16px",
-                  letterSpacing: "0.02em",
-                }}
-              >
+              <h2 className="font-semibold text-[13px] text-zinc-500 mb-4 tracking-[0.02em]">
                 프로필 설정
               </h2>
               <ProfileForm user={profileData} />
@@ -194,36 +115,14 @@ export default async function MyPage() {
           </div>
 
           {/* Bookmarked Conferences */}
-          <div
-            className="lg:col-span-2"
-            style={{
-              background: "white",
-              borderRadius: "16px",
-              border: "1px solid rgba(0,0,0,0.06)",
-              overflow: "hidden",
-            }}
-          >
-            <div
-              style={{
-                height: "3px",
-                background: "linear-gradient(90deg, #f59e0b, #f97316)",
-              }}
-            />
-            <div style={{ padding: "24px" }}>
+          <div className="lg:col-span-2 bg-white rounded-2xl border border-black/[0.06] overflow-hidden">
+            <div className="h-[3px] bg-[linear-gradient(90deg,#f59e0b,#f97316)]" />
+            <div className="p-6">
               <div className="flex items-center justify-between mb-5">
-                <h2
-                  className="font-semibold"
-                  style={{ fontSize: "15px", color: "#18181b" }}
-                >
+                <h2 className="font-semibold text-[15px] text-zinc-900">
                   북마크한 학회
                 </h2>
-                <span
-                  style={{
-                    fontSize: "12px",
-                    color: "#a1a1aa",
-                    fontFamily: "var(--font-geist-mono), monospace",
-                  }}
-                >
+                <span className="text-xs text-zinc-400 font-mono">
                   {bookmarkedConferences.length}건
                 </span>
               </div>

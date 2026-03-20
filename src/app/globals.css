@@ -136,6 +136,14 @@
   }
 }
 
+.bg-page-gradient {
+  background: linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%);
+}
+
+.bg-header-gradient {
+  background: linear-gradient(180deg, #111118 0%, #18181f 100%);
+}
+
 .nav-link-hover {
   transition: color 0.2s, background-color 0.2s;
 }

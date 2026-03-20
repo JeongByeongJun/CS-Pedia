@@ -22,33 +22,26 @@ export function TrendsTabs({
 
   return (
     <div>
-      <div className="flex gap-1 mb-6" style={{ background: "#f4f4f5", borderRadius: 10, padding: 3, display: "inline-flex" }}>
+      <div className="inline-flex gap-1 mb-6 bg-zinc-100 rounded-[10px] p-[3px]">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActive(tab.id)}
-            style={{
-              padding: "7px 16px",
-              fontSize: 13,
-              fontWeight: active === tab.id ? 600 : 400,
-              borderRadius: 8,
-              border: "none",
-              cursor: "pointer",
-              transition: "all 0.15s",
-              background: active === tab.id ? "white" : "transparent",
-              color: active === tab.id ? "#18181b" : "#71717a",
-              boxShadow: active === tab.id ? "0 1px 3px rgba(0,0,0,0.08)" : "none",
-            }}
+            className={`px-4 py-[7px] text-[13px] rounded-lg border-none cursor-pointer transition-all duration-150 ${
+              active === tab.id
+                ? "font-semibold bg-white text-zinc-900 shadow-[0_1px_3px_rgba(0,0,0,0.08)]"
+                : "font-normal bg-transparent text-zinc-500"
+            }`}
           >
             {tab.label}
           </button>
         ))}
       </div>
 
-      <div style={{ display: active === "acceptance" ? "block" : "none" }}>
+      <div className={active === "acceptance" ? "block" : "hidden"}>
         {acceptanceRateContent}
       </div>
-      <div style={{ display: active === "keyword" ? "block" : "none" }}>
+      <div className={active === "keyword" ? "block" : "hidden"}>
         {keywordTrendContent}
       </div>
     </div>

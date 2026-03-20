@@ -96,13 +96,7 @@ export default async function TrendsPage() {
   ].sort();
 
   return (
-    <div
-      className="min-h-screen"
-      style={{
-        background:
-          "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)",
-      }}
-    >
+    <div className="min-h-screen bg-page-gradient">
       <SiteHeader user={authUser} />
 
       <main className="max-w-6xl mx-auto px-6 py-8">
@@ -118,8 +112,7 @@ export default async function TrendsPage() {
             <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6">
               <div className="flex items-center gap-1 mb-4">
                 <h3
-                  className="text-sm font-semibold text-zinc-700"
-                  style={{ fontFamily: "var(--font-geist-mono)" }}
+                  className="text-sm font-semibold text-zinc-700 font-mono"
                 >
                   ACCEPTANCE RATE
                 </h3>

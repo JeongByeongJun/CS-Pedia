@@ -18,7 +18,7 @@ export default async function PrivacyPage() {
   const isKorean = !country || country === "KR";
 
   return (
-    <div className="min-h-screen" style={{ background: "linear-gradient(135deg, #fafafa 0%, #f0f4ff 50%, #faf0ff 100%)" }}>
+    <div className="min-h-screen bg-page-gradient">
       <div className="max-w-3xl mx-auto px-6 py-12">
         <Link href="/" className="text-sm text-zinc-400 hover:text-zinc-600 mb-6 inline-block">← {isKorean ? "홈으로" : "Back to Home"}</Link>
 
