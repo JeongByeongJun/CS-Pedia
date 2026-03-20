@@ -647,3 +647,267 @@
 - **WSDM 2027**: 아시아/오세아니아 개최 확정, host city 미발표.
 
 *deadlines.json 업데이트: ⚠️ 수정 5건 + ➕ 보완 1건 반영 후 `npm run seed`*
+
+---
+
+## Phase 1 결과 (2026-03-20)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| 3dv | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 오늘 개최 시작, 2027 미발표 |
+| aaai | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | DB 데드라인은 추정치, 공식 CFP 미발표 |
+| aacl | 2025 | ✅ OK | 2026 | ❌ | - | - | - | bid 단계, CFP 미발표 |
+| aamas | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| accv | 2026 | ✅ OK | 2028 | ❌ | - | - | - | 짝수년만, 2028 미발표 |
+| acl | 2026 | ✅ OK | 2027 | ❌ | - | - | - | ARR rolling, 2027 commitment 미발표 |
+| acml | (없음) | - | 2026 | ❌ | - | - | - | 2026 미발표 |
+| acsac | (없음) | - | 2026 | ❌ | - | - | Dec 7-11, LA | 장소만 확정, CFP 미발표 |
+| aistats | 2026 | ✅ OK | 2027 | ❌ | - | - | May 16-21, Toronto | 장소 확정, CFP 미발표 |
+| ase | 2026 | ✅ OK | 2027 | ❌ | - | - | - | paper 3/26 AoE ← 임박 |
+| asiacrypt | (없음) | - | 2026 | ❌ | - | - | - | 2026 미발표 |
+| asplos | 2027c1 | ✅ OK | 2027c2 | ✅ | - | 2026-09-09 | Crete, Greece | cycle2 추가 대상 |
+| assets | 2026 | ✅ OK | 2027 | ❌ | - | - | - | paper 4/22 AoE |
+| atc | (없음) | - | 2026 | ✅ | - | 2026-06-10 | Nov 15-18, Hong Kong | ⚠️ 폐지 아님! SIGOPS 인수 |
+| bigdata | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| bmvc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| case | 2026 | ✅ OK | 2027 | ❌ | - | - | - | paper 3/15 마감 |
+| ccc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| ccs | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2nd cycle abs=4/22, pa=4/29 |
+| cgo | (없음) | - | 2027 | ❌ | - | - | - | 2026 이미 종료, 2027 미발표 |
+| chi | 2026 | ✅ OK | 2027 | ❌ | - | - | May 10-14, Pittsburgh | 장소 확정, CFP 미발표 |
+| cikm | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 5/18, pa 5/25 |
+| cluster | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 4/23, pa 4/30 |
+| coling | (없음) | - | 2027 | ❌ | - | - | 2027, Macau | 격년, CFP 미발표 |
+| colt | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| conext | 2026 | ✅ OK | 2027 | ❌ | - | - | - | June revision cycle 존재 |
+| conll | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| corl | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 5/26, pa 5/29 UTC |
+| crypto | 2026 | ✅ OK | 2027 | ❌ | - | - | - | PC Chair 선임, CFP 미발표 |
+| cscw | 2026 | ✅ OK | 2027 | ❌ | - | - | - | ⚠️ 2026~ rolling review 전환 |
+
+**✅ 추가 대상 (2개):** asplos 2027 cycle2 (paper 9/9), atc 2026 (paper 6/10, Hong Kong)
+**⚠️ 재검증 필요 (1개):** aaai 2027 (데드라인 추정치, 공식 CFP 발표 시 확인)
+**❌ 미발표 (27개):** 대부분 2027 CFP 미발표
+
+*deadlines.json 업데이트: ✅ asplos cycle2 + atc 2026 추가, aaai 2027 CFP 발표 시 재검증 후 `npm run seed`*
+
+---
+
+## Phase 2 결과 (2026-03-20)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| csf | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Winter cycle, 2027 미발표 |
+| cvpr | 2026 | ✅ OK | 2027 | ❌ | - | - | Jun 19-26 (비공식) | 2027 미발표 |
+| dac | 2026 | ⚠️ 수정 | 2027 | ❌ | - | - | - | **tz: AoE → PT (5PM PST)** |
+| dasfaa | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 제주도, 2027 미발표 |
+| date | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Verona, 2027 미발표 |
+| dis | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| dsn | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Charlotte, 2027 미발표 |
+| eacl | (없음) | - | 2026 | ✅ | - | 2025-10-06 (마감) | Mar 24-29, Rabat | ARR 기반, 이미 마감 |
+| ecai | 2026 | ✅ OK | 2027 | ❌ | - | - | Athens (ECAI 단독) | IJCAI와 분리, CFP 미발표 |
+| eccv | 2026 | ✅ OK | 2028 | ❌ | - | - | - | tz=CET, 23:00 CET 확인 |
+| ecml-pkdd | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Naples, 2027 미발표 |
+| edbt | 2026 | ✅ OK | 2027 | ✅ | - | R1: 2026-02-04 (마감) | Apr 6-9, Lille | **2027 found, tz AoE→PT 변경** |
+| egsr | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 4/8, paper 4/15 ← 임박 |
+| emnlp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | ARR 5/25, Budapest |
+| er | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 5/5, paper 5/12 |
+| esa | 2026 | ✅ OK | 2027 | ❌ | - | - | - | L'Aquila, 2027 미발표 |
+| esem | 2026 | ⚠️ 수정 | 2027 | ❌ | - | - | - | **abs 5/8→5/11, paper 5/14→5/18** |
+| esorics | 2026 | ❓ 미확인 | 2027 | ❌ | - | - | - | Google Sites 크롤링 불가 |
+| eurocrypt | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Rome, 2027 미발표 |
+| eurographics | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Aachen, 2027 미발표 |
+| eurosys | 2027sp | ✅ OK | 2027fall | ✅ | 2026-09-17 | 2026-09-24 | Apr 19-24, Rabat | **fall 사이클 추가 대상** |
+| fase | 2026 | ✅ OK | 2027 | ❌ | - | - | - | ETAPS Turin, 2027 미발표 |
+| fast | 2027sp | ✅ OK | 2027fall | ✅ | - | 2026-09-15 | Feb 23-25, Renton WA | **fall 사이클 추가 대상** |
+| fg | (없음) | - | 2026 | ✅ | - | 2026-01-15 (마감) | May 25-29, Kyoto | 이미 마감 |
+| focs | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 5PM EDT, NYC |
+| fse | 2027 | ✅ OK | 2028 | ❌ | - | - | - | Shenzhen, 2028 미발표 |
+| gecco | 2026 | ✅ OK | 2027 | ❌ | - | - | - | San Jose CR, 2027 미발표 |
+| hpca | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Sydney, 2027 미발표 |
+| hpdc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Cleveland, 2027 미발표 |
+| hri | 2026 | ✅ OK | 2027 | ❌ | - | - | Mar 8-12, Santa Clara | 날짜/장소 확정, CFP TBD |
+
+**✅ 추가 대상 (4개):** eurosys 2027 fall (paper 9/24), fast 2027 fall (paper 9/15), edbt 2027 R1 (paper 2/4 마감), eacl 2026 (마감)
+**⚠️ DB 수정 필요 (2개):** dac (tz AoE→PT), esem (abs 5/8→5/11, paper 5/14→5/18)
+**❓ 수동 확인 필요 (1개):** esorics (Google Sites 크롤링 불가)
+**❌ 미발표 (23개):** 대부분 2027 CFP 미발표
+
+*deadlines.json 업데이트: ⚠️ dac tz수정 + esem 날짜수정, ✅ eurosys/fast fall 사이클 추가 후 `npm run seed`*
+
+---
+
+## Phase 3 결과 (2026-03-20)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| i3d | 2026 | ✅ OK | 2027 | ❌ | - | - | - | tz=PT, 2027 미발표 |
+| icalp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Royal Holloway UK |
+| icaps | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Dublin, 2027 미발표 |
+| iccad | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 4/7, paper 4/14 ← 임박 |
+| iccv | 2025 | ✅ OK | 2027 | ❌ | - | - | Oct 2027, Hong Kong | 홀수년, CFP 미발표 |
+| icdcs | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| icde | 2027r1 | ✅ OK | 2027r2 | ✅ | - | 2026-11-11 | May 17-21, Copenhagen | **round2 추가 대상, 5PM PT** |
+| icdm | 2026 | ❓ 미확인 | 2027 | ❌ | - | - | - | 사이트 다운, 재검증 필요 |
+| icfp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Indianapolis |
+| icip | 2026 | ✅ OK | 2027 | ❌ | - | - | Nov 29-Dec 3, Singapore | 장소 확정, CFP 미발표 |
+| iclr | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| icml | 2026 | ✅ OK | 2027 | ❌ | - | - | South America (도시 미정) | 2027 미발표 |
+| icnp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 5/15, paper 5/22 |
+| icpr | 2026 | ✅ OK | 2028 | ❌ | - | - | Sydney (날짜 미정) | 격년, icpr2028.org 존재 |
+| icra | 2026 | ⚠️ 수정 | 2027 | ❌ | - | - | May 24-28, Seoul | **paper 09-15→09-16 (PST 연장)** |
+| ics | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Belfast, Cycle 2 |
+| icse | 2027 | ✅ OK | 2028 | ❌ | - | - | Apr 2028, Hawaii | 장소 확정 |
+| icsme | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Benevento Italy |
+| icst | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 대전 |
+| ijcai | 2026 | ✅ OK | 2027 | ❌ | - | - | - | IJCAI-ECAI Bremen |
+| imc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 4/22, paper 4/29 |
+| infocom | 2027 | ⚠️ 확인 | 2028 | ❌ | - | - | - | **conf 5/17 vs 5/24 불일치** |
+| interact | 2027 | ➕ 보완 | 2029 | ❌ | - | - | Tallinn, Estonia | 데드라인 미발표 |
+| iros | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Pittsburgh, tz PST 유지 |
+| isaac | (없음) | - | 2026 | ❌ | - | - | - | 2026 미발표 |
+| isca | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Raleigh NC |
+| isrr | 2026 | ✅ OK | 2028 | ❌ | - | - | - | Malacca Malaysia |
+| issre | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 4/10, paper 4/17 ← 임박 |
+| issta | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Oakland CA |
+| itcs | 2026 | ✅ OK | 2027 | ❌ | - | - | - | tz=EDT |
+| iui | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 07-13 Limassol 확정 (Paphos→변경) |
+
+**✅ 추가 대상 (1개):** icde 2027 round2 (paper 11/11, 5PM PT)
+**⚠️ DB 수정 필요 (1개):** icra (paper 09-15→09-16)
+**⚠️ 확인 필요 (1개):** infocom 2027 (conf_date 5/17 vs 5/24)
+**❓ 미확인 (1개):** icdm (사이트 다운)
+**❌ 미발표 (26개):** 대부분 2027 CFP 미발표
+
+*deadlines.json 업데이트: ⚠️ icra paper수정, ✅ icde round2 추가 후 `npm run seed`*
+
+---
+
+## Phase 4 결과 (2026-03-20)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| kdd | 2026 1st | ✅ OK | 2026 2nd | ✅ | 2026-02-01 (마감) | 2026-02-08 (마감) | Aug 9-13, 제주 | **2nd cycle 추가 대상** |
+| lrec | 2026 | ✅ OK | 2028 | ❌ | - | - | - | 격년, 2028 미발표 |
+| mdm | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Athens, 2027 미발표 |
+| mfcs | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Paris, paper 4/24 |
+| miccai | 2026 | ✅ OK | 2027 | ❌ | - | - | Sep 27-Oct 1, Auckland | tz=PT, CFP 미발표 |
+| micro | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 3/31, paper 4/7 ← 임박 |
+| middleware | 2026 | ❓ 미확인 | 2027 | ❌ | - | - | - | 데드라인 미게시 |
+| mobicom | 2026 sum | ✅ OK | 2026 win | ✅ | 2026-03-06 | 2026-03-13 (마감) | Oct 26-30, Austin | **winter 추가 대상** |
+| mobihoc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 3/30, paper 4/6 ← 임박 |
+| mobilehci | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Swansea |
+| mobisys | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Cambridge UK |
+| models | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 3/20(오늘!), paper 3/27 |
+| msr | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Rio, ICSE co-located |
+| naacl | (없음) | - | 2027 | ❌ | - | - | - | 2026 로테이션 없음, 2027 확정 |
+| ndss | 2027 1st | ✅ OK | 2027 2nd | ✅ | 2026-07-30 | 2026-08-06 | Feb 23-27, San Diego | **2nd cycle 추가 대상** |
+| neurips | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 5/4, paper 5/6, Sydney |
+| nsdi | 2027sp | ✅ OK | 2028 | ❌ | - | - | - | Providence, tz=EDT |
+| oopsla | 2026 1st | ✅ OK | 2027 | ❌ | - | - | - | notification 확인 필요 |
+| osdi | 2026 | ⚠️ 수정 | 2027 | ❌ | - | - | - | **시간 23:59→22:59 UTC (5:59PM EST)** |
+| pact | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 4/17, paper 4/24 |
+| pakdd | 2026 | ✅ OK | 2027 | ❌ | - | - | - | tz=PST |
+| pets | 2026 | ✅ OK | 2027 | ❌ | - | - | - | rolling 4-issue, Calgary |
+| pg | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 6/1, paper 6/8, Singapore |
+| pldi | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Boulder CO |
+| pods | 2027r1 | ✅ OK | 2028 | ❌ | - | - | - | Huntington Beach |
+| popl | 2027 | ✅ OK | 2028 | ❌ | - | - | - | paper 7/9 |
+| ppopp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Sydney |
+| raid | 2026 | ✅ OK | 2027 | ❌ | - | - | - | paper 4/16, Lancaster UK |
+| recsys | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 4/14, paper 4/21 |
+| rss | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Sydney |
+
+**✅ 추가 대상 (3개):** kdd 2nd cycle (마감), mobicom winter (마감), ndss 2nd cycle (abs 7/30, paper 8/6)
+**⚠️ DB 수정 필요 (1개):** osdi (시간 23:59→22:59 UTC)
+**❓ 미확인 (1개):** middleware (데드라인 미게시)
+**❌ 미발표 (25개):** 대부분 2027 CFP 미발표
+
+*deadlines.json 업데이트: ⚠️ osdi 시간수정, ✅ kdd 2nd + mobicom winter + ndss 2nd 추가 후 `npm run seed`*
+
+---
+
+## Phase 5 결과 (2026-03-20)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| cav | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Lisbon FLoC |
+| ecrts | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Lund Sweden |
+| ieee-vis | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 3/21(내일!), paper 3/31 |
+| ieee-vr | 2026 | ✅ OK | 2027 | ❌ | - | - | Feb 27-Mar 3, Melbourne | 날짜 확정, CFP TBD |
+| iswc | 2026 | ❓ 미확인 | 2027 | ❌ | - | - | - | CFP 페이지 미게시 |
+| lics | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Lisbon FLoC |
+| rtas | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Saint-Malo |
+| rtss | 2026 | ✅ OK | 2027 | ❌ | - | - | - | paper 5/21 |
+| saner | 2026 | ✅ OK | 2027 | ❌ | - | - | Mar 9-12, Richmond VA | 날짜 확정, CFP TBD |
+| sc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 4/1, paper 4/8 |
+| sca | (없음) | - | 2026 | ✅ | 2026-04-10 | 2026-04-17 | Jul 8-10, Barcelona | **신규, tz=UTC (21:59)** |
+| sdm | (없음) | - | 2026 | ❓ | - | - | - | SIAM 사이트 403 차단 |
+| sensys | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Saint-Malo, 통합학회 |
+| sigcomm | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Denver, wild-card year |
+| siggraph | 2026 | ✅ OK | 2027 | ❌ | - | - | Aug 8-12, Anaheim | 날짜 확정, CFP TBD |
+| siggraph-asia | 2026 | ✅ OK | 2027 | ❌ | - | - | - | KL Malaysia |
+| sigir | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Melbourne |
+| sigmetrics | 2026w | ✅ OK | 2027 | ❌ | - | - | - | Ann Arbor, Atlanta 예정 |
+| sigmod | 2027 3rd | ✅ OK | 2028 | ❌ | - | - | - | Huntington Beach |
+| socc | 2026 r1 | ✅ OK | 2026 r2 | ✅ | 2026-07-07 | 2026-07-14 | Nov 18-20, Singapore | **round2 추가 대상** |
+| socg | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Rutgers NJ |
+| soda | 2027 | ✅ OK | 2028 | ❌ | - | - | - | Philadelphia |
+| sosp | 2026 | ⚠️ 확인 | 2027 | ❌ | - | - | - | **conf 9/29 vs 9/30 확인 필요** |
+| sp | 2026 1st | ✅ OK | 2027 | ❌ | - | - | - | SF, 2027 미발표 |
+| stoc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Salt Lake City |
+| uai | 2026 | ✅ OK | 2027 | ❌ | - | - | - | Amsterdam |
+| ubicomp | 2026 R1 | ✅ OK | 2027 | ❌ | - | - | - | Shanghai |
+| uist | 2026 | ✅ OK | 2027 | ❌ | - | - | - | abs 3/24, paper 3/31 ← 임박 |
+| usenix-sec | 2027 c1 | ✅ OK | 2028 | ❌ | - | - | - | Denver |
+| vldb | 2027 | ✅ OK | 2028 | ❌ | - | - | - | Athens, tz=PT |
+| wacv | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 이미 종료 |
+| wsdm | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 이미 종료 |
+| www | 2026 | ⚠️ 수정 | 2027 | ❌ | - | - | Dublin (날짜 미정) | **conf 4/13→6/29 대폭 변경!** |
+
+**✅ 추가 대상 (2개):** sca 2026 (abs 4/10, paper 4/17, Barcelona), socc round2 (abs 7/7, paper 7/14)
+**⚠️ DB 수정 필요 (1개):** www (conf 2026-04-13→2026-06-29 변경)
+**⚠️ 확인 필요 (1개):** sosp (conf 9/29 vs 9/30)
+**❓ 미확인 (2개):** iswc (CFP 미게시), sdm (사이트 차단)
+**❌ 미발표 (27개):** 대부분 2027 CFP 미발표
+
+*deadlines.json 업데이트: ⚠️ www conf 긴급수정, ✅ socc r2 + sca 신규 추가 후 `npm run seed`*
+
+---
+
+## 전체 요약 (Phase 1~5, 2026-03-20)
+
+### ⚠️ 긴급 수정
+| 학회 | 항목 | 현재 DB | 수정 값 |
+|------|------|--------|--------|
+| **www** | conf_start | 2026-04-13 | **2026-06-29** |
+
+### ⚠️ DB 수정 필요
+| 학회 | 항목 | 현재 DB | 수정 값 |
+|------|------|--------|--------|
+| dac | timezone | AoE | **PT (5PM PST)** |
+| esem | abs/paper | 5/8, 5/14 | **5/11, 5/18** |
+| icra | paper | 2025-09-15 | **2025-09-16** |
+| osdi | 시간 | 23:59 UTC | **22:59 UTC (5:59PM EST)** |
+
+### ✅ 추가 대상 (신규 사이클/학회)
+| 학회 | cycle | Abstract | Paper | Conf | TZ |
+|------|-------|----------|-------|------|----|
+| asplos 2027 | cycle2 | - | 2026-09-09 | Crete, Greece | AoE |
+| atc 2026 | main | - | 2026-06-10 | Nov 15-18, Hong Kong | TBD |
+| eurosys 2027 | fall | 2026-09-17 | 2026-09-24 | Apr 19-24, Rabat | AoE |
+| fast 2027 | fall | - | 2026-09-15 | Feb 23-25, Renton | AoE |
+| icde 2027 | round2 | - | 2026-11-11 | May 17-21, Copenhagen | PT |
+| kdd 2026 | second | 2026-02-01 | 2026-02-08 | Aug 9-13, 제주 | AoE |
+| mobicom 2026 | winter | 2026-03-06 | 2026-03-13 | Oct 26-30, Austin | AoE |
+| ndss 2027 | second | 2026-07-30 | 2026-08-06 | Feb 23-27, SD | AoE |
+| socc 2026 | round2 | 2026-07-07 | 2026-07-14 | Nov 18-20, Singapore | AoE |
+| sca 2026 | main | 2026-04-10 | 2026-04-17 | Jul 8-10, Barcelona | UTC |
+
+### ⚠️ 확인 필요
+- **infocom 2027**: conf_date 5/17 vs 5/24
+- **sosp 2026**: conf_date 9/29 vs 9/30
+- **aaai 2027**: 데드라인 추정치, 공식 CFP 발표 시 재검증
+
+### ❓ 미확인 (사이트 다운/차단)
+- icdm, esorics, iswc, sdm, middleware
