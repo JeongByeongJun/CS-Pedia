@@ -18,7 +18,7 @@ interface ProfileFormProps {
 const inputStyle: React.CSSProperties = {
   width: "100%",
   padding: "8px 12px",
-  fontSize: "13px",
+  fontSize: "16px",
   border: "1px solid rgba(0,0,0,0.08)",
   borderRadius: "10px",
   outline: "none",

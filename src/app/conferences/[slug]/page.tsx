@@ -145,7 +145,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
       />
       <SiteHeader user={authUser} />
 
-      <main className="max-w-4xl mx-auto px-6 py-8">
+      <main className="max-w-4xl mx-auto px-4 py-8 sm:px-6">
         {/* 뒤로가기 */}
         <Link
           href="/"

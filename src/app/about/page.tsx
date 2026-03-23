@@ -19,7 +19,7 @@ export default async function AboutPage() {
 
   return (
     <div className="min-h-screen bg-page-gradient">
-      <div className="max-w-3xl mx-auto px-6 py-12">
+      <div className="max-w-3xl mx-auto px-4 py-12 sm:px-6">
         <Link href="/" className="text-sm text-zinc-400 hover:text-zinc-600 mb-6 inline-block">← {isKorean ? "홈으로" : "Back to Home"}</Link>
 
         {isKorean ? (

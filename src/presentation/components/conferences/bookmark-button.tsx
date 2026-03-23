@@ -39,7 +39,7 @@ export function BookmarkButton({
     <button
       onClick={handleClick}
       disabled={isPending}
-      className={`p-1.5 rounded-lg transition-colors ${
+      className={`relative p-2.5 rounded-lg transition-colors before:absolute before:-inset-1 before:content-[''] ${
         optimisticBookmarked
           ? "text-indigo-600 hover:bg-indigo-50"
           : "text-zinc-300 hover:text-zinc-500 hover:bg-zinc-50"

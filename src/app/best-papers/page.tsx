@@ -40,7 +40,7 @@ export default async function BestPapersPage() {
     <div className="min-h-screen bg-page-gradient">
       <SiteHeader user={authUser} />
 
-      <main className="max-w-6xl mx-auto px-6 py-8">
+      <main className="max-w-6xl mx-auto px-4 py-8 sm:px-6">
         <div className="mb-6">
           <div className="text-[11px] tracking-[0.12em] uppercase text-indigo-400 mb-1.5 font-mono font-medium">
             Best Papers

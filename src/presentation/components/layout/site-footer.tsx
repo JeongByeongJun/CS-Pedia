@@ -7,7 +7,7 @@ export function SiteFooter() {
   const { isKorean } = useLocale();
 
   return (
-    <footer className="mt-12 pt-8 border-t border-zinc-200 pb-8">
+    <footer className="mt-12 pt-8 border-t border-zinc-200 pb-24 sm:pb-8">
       <div className="text-center text-xs text-zinc-400 space-y-2">
         <p>CS-Pedia — {isKorean ? "한국 CS 연구자를 위한 학회 통합 플랫폼" : "CS conference platform for researchers"}</p>
         <p>

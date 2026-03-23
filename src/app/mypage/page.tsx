@@ -49,7 +49,7 @@ export default async function MyPage() {
     <div className="min-h-screen bg-page-gradient">
       <SiteHeader user={authUser} />
 
-      <main className="max-w-6xl mx-auto px-6 py-8">
+      <main className="max-w-6xl mx-auto px-4 py-8 sm:px-6">
         {/* Page header */}
         <div className="flex items-center justify-between mb-8">
           <div>
