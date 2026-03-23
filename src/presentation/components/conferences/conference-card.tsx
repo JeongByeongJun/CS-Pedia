@@ -83,7 +83,7 @@ export function ConferenceCard({
                       📅 {formatDate(conference.conferenceStart)}
                     </span>
                   )}
-                  {conference.venue && <span className="whitespace-nowrap">📍 {conference.venue}</span>}
+                  {conference.venue && <span className="truncate max-w-[200px] sm:max-w-none sm:whitespace-nowrap">📍 {conference.venue}</span>}
                   <DeadlineTime deadline={conference.nextDeadline!} timezone={conference.deadlineTimezone} />
                 </>
               ) : (

@@ -158,15 +158,15 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6 mb-6">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <div className="flex items-center gap-3 mb-2">
-                <h1 className="text-3xl font-bold text-zinc-900">
+              <div className="flex items-center gap-3 mb-2 flex-wrap">
+                <h1 className="text-2xl sm:text-3xl font-bold text-zinc-900">
                   {conference.acronym}
                 </h1>
                 <FieldBadge field={conference.field} />
                 <DeadlineBadge ddays={conference.daysUntilDeadline} />
               </div>
               <p className="text-zinc-500 mb-3">{conference.nameEn}</p>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-3 flex-wrap">
                 {conference.websiteUrl && (
                   <a
                     href={conference.websiteUrl}

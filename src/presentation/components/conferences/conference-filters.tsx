@@ -40,7 +40,7 @@ export function ConferenceFilters({
       {/* 분야 / Field 필터 */}
       <div>
         <div className="text-xs text-zinc-400 mb-2 font-medium">{isKorean ? "분야" : "Field"}</div>
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex flex-wrap gap-2">
           {FIELDS.map((f) => (
             <button
               key={f}
@@ -60,7 +60,7 @@ export function ConferenceFilters({
       {/* 기관 필터 */}
       <div>
         <div className="text-xs text-zinc-400 mb-2 font-medium">{isKorean ? "기관 인정" : "Rankings"}</div>
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex flex-wrap gap-2">
           <button
             onClick={() => onInstitutionChange("")}
             className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${

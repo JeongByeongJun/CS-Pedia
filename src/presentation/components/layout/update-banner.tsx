@@ -33,7 +33,7 @@ export function UpdateBanner() {
     <div className="relative bg-white/80 backdrop-blur-sm border border-zinc-200/60 rounded-xl px-4 py-3 mb-4 sm:mb-5">
       <button
         onClick={handleDismiss}
-        className="absolute top-2.5 right-3 text-zinc-300 hover:text-zinc-500 transition-colors text-sm leading-none"
+        className="absolute top-1 right-1 text-zinc-300 hover:text-zinc-500 transition-colors text-sm leading-none w-9 h-9 flex items-center justify-center"
         aria-label="Close"
       >
         ✕

@@ -17,7 +17,7 @@ export function BestPaperAccordion({ papers }: BestPaperAccordionProps) {
     <div className="mt-3 pt-3 border-t border-zinc-100">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 text-xs text-indigo-600 hover:text-indigo-700 font-medium transition-colors"
+        className="flex items-center gap-2 text-xs text-indigo-600 hover:text-indigo-700 font-medium transition-colors py-2"
       >
         <span>🏆</span>
         <span>
