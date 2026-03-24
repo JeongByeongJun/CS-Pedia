@@ -1538,5 +1538,565 @@
     "sub_field": "Real-Time Systems",
     "dblp_key": "conf/ecrts",
     "website_url": "https://www.ecrts.org"
+  },
+  {
+    "slug": "ipsn",
+    "name_en": "International Conference on Information Processing in Sensor Networks",
+    "name_kr": null,
+    "acronym": "IPSN",
+    "field": "Networks",
+    "sub_field": "Sensor Networks",
+    "dblp_key": "conf/ipsn",
+    "website_url": "https://ipsn.acm.org/"
+  },
+  {
+    "slug": "kr",
+    "name_en": "International Conference on Principles of Knowledge Representation and Reasoning",
+    "name_kr": null,
+    "acronym": "KR",
+    "field": "AI/ML",
+    "sub_field": "Knowledge Representation",
+    "dblp_key": "conf/kr",
+    "website_url": "https://kr.org/KR2026/"
+  },
+  {
+    "slug": "percom",
+    "name_en": "IEEE International Conference on Pervasive Computing and Communications",
+    "name_kr": null,
+    "acronym": "PerCom",
+    "field": "Networks",
+    "sub_field": "Pervasive Computing",
+    "dblp_key": "conf/percom",
+    "website_url": "https://percom.org/"
+  },
+  {
+    "slug": "podc",
+    "name_en": "ACM Symposium on Principles of Distributed Computing",
+    "name_kr": null,
+    "acronym": "PODC",
+    "field": "Theory",
+    "sub_field": "Distributed Computing",
+    "dblp_key": "conf/podc",
+    "website_url": "https://www.podc.org/podc2026/"
+  },
+  {
+    "slug": "spaa",
+    "name_en": "ACM Symposium on Parallelism in Algorithms and Architectures",
+    "name_kr": null,
+    "acronym": "SPAA",
+    "field": "Theory",
+    "sub_field": "Parallel Algorithms",
+    "dblp_key": "conf/spaa",
+    "website_url": "https://spaa.acm.org/"
+  },
+  {
+    "slug": "cases",
+    "name_en": "International Conference on Compilers, Architecture, and Synthesis for Embedded Systems",
+    "name_kr": null,
+    "acronym": "CASES",
+    "field": "Architecture",
+    "sub_field": "Embedded Systems",
+    "dblp_key": "conf/cases",
+    "website_url": "https://esweek.org/cases/"
+  },
+  {
+    "slug": "cc",
+    "name_en": "International Conference on Compiler Construction",
+    "name_kr": null,
+    "acronym": "CC",
+    "field": "PL",
+    "sub_field": "Compiler Construction",
+    "dblp_key": "conf/cc",
+    "website_url": "https://conf.researchr.org/home/CC-2026"
+  },
+  {
+    "slug": "codes-isss",
+    "name_en": "International Conference on Hardware/Software Codesign and System Synthesis",
+    "name_kr": null,
+    "acronym": "CODES+ISSS",
+    "field": "Architecture",
+    "sub_field": "Hardware/Software Codesign",
+    "dblp_key": "conf/codesisss",
+    "website_url": "https://esweek.org/codes-isss/"
+  },
+  {
+    "slug": "cogsci",
+    "name_en": "Annual Meeting of the Cognitive Science Society",
+    "name_kr": null,
+    "acronym": "CogSci",
+    "field": "AI/ML",
+    "sub_field": "Cognitive Science",
+    "dblp_key": "conf/cogsci",
+    "website_url": "https://cognitivesciencesociety.org/cogsci-2026/"
+  },
+  {
+    "slug": "disc",
+    "name_en": "International Symposium on Distributed Computing",
+    "name_kr": null,
+    "acronym": "DISC",
+    "field": "Theory",
+    "sub_field": "Distributed Computing",
+    "dblp_key": "conf/wdag",
+    "website_url": "https://www.disc-conference.org/wp/disc2026/"
+  },
+  {
+    "slug": "ecoop",
+    "name_en": "European Conference on Object-Oriented Programming",
+    "name_kr": null,
+    "acronym": "ECOOP",
+    "field": "PL",
+    "sub_field": "Object-Oriented Programming",
+    "dblp_key": "conf/ecoop",
+    "website_url": "https://2026.ecoop.org/"
+  },
+  {
+    "slug": "emsoft",
+    "name_en": "International Conference on Embedded Software",
+    "name_kr": null,
+    "acronym": "EMSOFT",
+    "field": "Systems",
+    "sub_field": "Embedded Software",
+    "dblp_key": "conf/emsoft",
+    "website_url": "https://esweek.org/emsoft/"
+  },
+  {
+    "slug": "esop",
+    "name_en": "European Symposium on Programming",
+    "name_kr": null,
+    "acronym": "ESOP",
+    "field": "PL",
+    "sub_field": "Programming Languages Theory",
+    "dblp_key": "conf/esop",
+    "website_url": "https://etaps.org/2026/conferences/esop/"
+  },
+  {
+    "slug": "icpp",
+    "name_en": "International Conference on Parallel Processing",
+    "name_kr": null,
+    "acronym": "ICPP",
+    "field": "Architecture",
+    "sub_field": "Parallel Processing",
+    "dblp_key": "conf/icpp",
+    "website_url": "https://icpp2026.github.io/"
+  },
+  {
+    "slug": "icws",
+    "name_en": "IEEE International Conference on Web Services",
+    "name_kr": null,
+    "acronym": "ICWS",
+    "field": "SE",
+    "sub_field": "Web Services",
+    "dblp_key": "conf/icws",
+    "website_url": "https://services.conferences.computer.org/2026/icws/"
+  },
+  {
+    "slug": "ipdps",
+    "name_en": "IEEE International Parallel and Distributed Processing Symposium",
+    "name_kr": null,
+    "acronym": "IPDPS",
+    "field": "Architecture",
+    "sub_field": "Parallel & Distributed Processing",
+    "dblp_key": "conf/ipps",
+    "website_url": "https://www.ipdps.org/"
+  },
+  {
+    "slug": "lctes",
+    "name_en": "ACM SIGPLAN Conference on Languages, Compilers, and Tools for Embedded Systems",
+    "name_kr": null,
+    "acronym": "LCTES",
+    "field": "PL",
+    "sub_field": "Embedded Compilers",
+    "dblp_key": "conf/lctrts",
+    "website_url": "https://pldi26.sigplan.org/home/LCTES-2026"
+  },
+  {
+    "slug": "mascots",
+    "name_en": "IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
+    "name_kr": null,
+    "acronym": "MASCOTS",
+    "field": "Architecture",
+    "sub_field": "Modeling & Simulation",
+    "dblp_key": "conf/mascots",
+    "website_url": "https://mascots26.iitis.pl/"
+  },
+  {
+    "slug": "performance",
+    "name_en": "IFIP International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+    "name_kr": null,
+    "acronym": "PERFORMANCE",
+    "field": "Architecture",
+    "sub_field": "Performance Evaluation",
+    "dblp_key": "conf/performance",
+    "website_url": "https://performance2025.sciencesconf.org/"
+  },
+  {
+    "slug": "re",
+    "name_en": "IEEE International Requirements Engineering Conference",
+    "name_kr": null,
+    "acronym": "RE",
+    "field": "SE",
+    "sub_field": "Requirements Engineering",
+    "dblp_key": "conf/re",
+    "website_url": "https://conf.researchr.org/home/RE-2026"
+  },
+  {
+    "slug": "tacas",
+    "name_en": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems",
+    "name_kr": null,
+    "acronym": "TACAS",
+    "field": "SE",
+    "sub_field": "Software Verification",
+    "dblp_key": "conf/tacas",
+    "website_url": "https://etaps.org/2026/conferences/tacas/"
+  },
+  {
+    "slug": "asiaccs",
+    "name_en": "ACM Asia Conference on Computer and Communications Security",
+    "name_kr": null,
+    "acronym": "ASIACCS",
+    "field": "Security",
+    "sub_field": "Systems Security",
+    "dblp_key": "conf/asiaccs",
+    "website_url": "https://asiaccs2026.cse.iitkgp.ac.in/"
+  },
+  {
+    "slug": "avss",
+    "name_en": "IEEE International Conference on Advanced Video and Signal-Based Surveillance",
+    "name_kr": null,
+    "acronym": "AVSS",
+    "field": "CV",
+    "sub_field": "Video Surveillance",
+    "dblp_key": "conf/avss",
+    "website_url": "https://www.avss2026.org/"
+  },
+  {
+    "slug": "bibm",
+    "name_en": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "name_kr": null,
+    "acronym": "BIBM",
+    "field": "AI/ML",
+    "sub_field": "Bioinformatics",
+    "dblp_key": "conf/bibm",
+    "website_url": "https://ieeebibm.org/BIBM2026/"
+  },
+  {
+    "slug": "ccgrid",
+    "name_en": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",
+    "name_kr": null,
+    "acronym": "CCGrid",
+    "field": "Systems",
+    "sub_field": "Cluster/Cloud Computing",
+    "dblp_key": "conf/ccgrid",
+    "website_url": "https://ccgrid2026.org/"
+  },
+  {
+    "slug": "cloud",
+    "name_en": "IEEE International Conference on Cloud Computing",
+    "name_kr": null,
+    "acronym": "CLOUD",
+    "field": "Systems",
+    "sub_field": "Cloud Computing",
+    "dblp_key": "conf/IEEEcloud",
+    "website_url": "https://services.conferences.computer.org/2026/cloud/"
+  },
+  {
+    "slug": "concur",
+    "name_en": "International Conference on Concurrency Theory",
+    "name_kr": null,
+    "acronym": "CONCUR",
+    "field": "Theory",
+    "sub_field": "Concurrency Theory",
+    "dblp_key": "conf/concur",
+    "website_url": "https://confest-2026.github.io/"
+  },
+  {
+    "slug": "cseet",
+    "name_en": "IEEE Conference on Software Engineering Education and Training",
+    "name_kr": null,
+    "acronym": "CSEET",
+    "field": "SE",
+    "sub_field": "SE Education",
+    "dblp_key": "conf/cseet",
+    "website_url": "https://cseet26.techconf.org/"
+  },
+  {
+    "slug": "fc",
+    "name_en": "International Conference on Financial Cryptography and Data Security",
+    "name_kr": null,
+    "acronym": "FC",
+    "field": "Security",
+    "sub_field": "Financial Cryptography",
+    "dblp_key": "conf/fc",
+    "website_url": "https://ifca.ai/fc26/"
+  },
+  {
+    "slug": "hipc",
+    "name_en": "IEEE International Conference on High Performance Computing, Data, and Analytics",
+    "name_kr": null,
+    "acronym": "HiPC",
+    "field": "Systems",
+    "sub_field": "High Performance Computing",
+    "dblp_key": "conf/hipc",
+    "website_url": "https://hipc.org/"
+  },
+  {
+    "slug": "hipeac",
+    "name_en": "International Conference on High Performance Embedded Architectures and Compilers",
+    "name_kr": null,
+    "acronym": "HiPEAC",
+    "field": "Architecture",
+    "sub_field": "Embedded Architecture",
+    "dblp_key": "conf/hipeac",
+    "website_url": "https://www.hipeac.net/"
+  },
+  {
+    "slug": "iccd",
+    "name_en": "IEEE International Conference on Computer Design",
+    "name_kr": null,
+    "acronym": "ICCD",
+    "field": "Architecture",
+    "sub_field": "Computer Design",
+    "dblp_key": "conf/iccd",
+    "website_url": "http://www.iccd-conf.com/"
+  },
+  {
+    "slug": "iclp",
+    "name_en": "International Conference on Logic Programming",
+    "name_kr": null,
+    "acronym": "ICLP",
+    "field": "PL",
+    "sub_field": "Logic Programming",
+    "dblp_key": "conf/iclp",
+    "website_url": "https://www.semsys.aau.at/events/iclp2026/"
+  },
+  {
+    "slug": "icmr",
+    "name_en": "ACM International Conference on Multimedia Retrieval",
+    "name_kr": null,
+    "acronym": "ICMR",
+    "field": "CV",
+    "sub_field": "Multimedia Retrieval",
+    "dblp_key": "conf/mir",
+    "website_url": "https://icmr2026.org/"
+  },
+  {
+    "slug": "icsoc",
+    "name_en": "International Conference on Service-Oriented Computing",
+    "name_kr": null,
+    "acronym": "ICSOC",
+    "field": "SE",
+    "sub_field": "Service-Oriented Computing",
+    "dblp_key": "conf/icsoc",
+    "website_url": null
+  },
+  {
+    "slug": "ijcar",
+    "name_en": "International Joint Conference on Automated Reasoning",
+    "name_kr": null,
+    "acronym": "IJCAR",
+    "field": "Theory",
+    "sub_field": "Automated Reasoning",
+    "dblp_key": "conf/cade",
+    "website_url": "https://www.floc26.org/ijcar"
+  },
+  {
+    "slug": "iiswc",
+    "name_en": "IEEE International Symposium on Workload Characterization",
+    "name_kr": null,
+    "acronym": "IISWC",
+    "field": "Architecture",
+    "sub_field": "Workload Characterization",
+    "dblp_key": "conf/iiswc",
+    "website_url": "https://iiswc.org/iiswc2026/"
+  },
+  {
+    "slug": "ismar",
+    "name_en": "IEEE International Symposium on Mixed and Augmented Reality",
+    "name_kr": null,
+    "acronym": "ISMAR",
+    "field": "HCI",
+    "sub_field": "Mixed/Augmented Reality",
+    "dblp_key": "conf/ismar",
+    "website_url": "https://www.ieeeismar.net/2026/"
+  },
+  {
+    "slug": "ismb",
+    "name_en": "Intelligent Systems for Molecular Biology",
+    "name_kr": null,
+    "acronym": "ISMB",
+    "field": "AI/ML",
+    "sub_field": "Computational Biology",
+    "dblp_key": "conf/ismb",
+    "website_url": "https://www.iscb.org/ismb2026/home"
+  },
+  {
+    "slug": "ispass",
+    "name_en": "IEEE International Symposium on Performance Analysis of Systems and Software",
+    "name_kr": null,
+    "acronym": "ISPASS",
+    "field": "Architecture",
+    "sub_field": "Performance Analysis",
+    "dblp_key": "conf/ispass",
+    "website_url": "https://ispass.org/ispass2026/"
+  },
+  {
+    "slug": "its",
+    "name_en": "International Conference on Intelligent Tutoring Systems",
+    "name_kr": null,
+    "acronym": "ITS",
+    "field": "AI/ML",
+    "sub_field": "Intelligent Tutoring",
+    "dblp_key": "conf/its",
+    "website_url": "https://iis-international.org/its2026/"
+  },
+  {
+    "slug": "mass",
+    "name_en": "IEEE International Conference on Mobile Ad-Hoc and Smart Systems",
+    "name_kr": null,
+    "acronym": "MASS",
+    "field": "Networks",
+    "sub_field": "Mobile Ad-Hoc Networks",
+    "dblp_key": "conf/mass",
+    "website_url": null
+  },
+  {
+    "slug": "msst",
+    "name_en": "IEEE Conference on Mass Storage Systems and Technologies",
+    "name_kr": null,
+    "acronym": "MSST",
+    "field": "Systems",
+    "sub_field": "Storage Systems",
+    "dblp_key": "conf/mss",
+    "website_url": "https://www.msstconference.org/"
+  },
+  {
+    "slug": "noms",
+    "name_en": "IEEE/IFIP Network Operations and Management Symposium",
+    "name_kr": null,
+    "acronym": "NOMS",
+    "field": "Networks",
+    "sub_field": "Network Management",
+    "dblp_key": "conf/noms",
+    "website_url": "https://noms2026.ieee-noms.org/"
+  },
+  {
+    "slug": "nossdav",
+    "name_en": "ACM Workshop on Network and Operating System Support for Digital Audio and Video",
+    "name_kr": null,
+    "acronym": "NOSSDAV",
+    "field": "Networks",
+    "sub_field": "Multimedia Networking",
+    "dblp_key": "conf/nossdav",
+    "website_url": "https://nossdav.org/2026/"
+  },
+  {
+    "slug": "recomb",
+    "name_en": "International Conference on Research in Computational Molecular Biology",
+    "name_kr": null,
+    "acronym": "RECOMB",
+    "field": "AI/ML",
+    "sub_field": "Computational Biology",
+    "dblp_key": "conf/recomb",
+    "website_url": "https://recomb.org/recomb2026/"
+  },
+  {
+    "slug": "sac",
+    "name_en": "ACM/SIGAPP Symposium on Applied Computing",
+    "name_kr": null,
+    "acronym": "SAC",
+    "field": "SE",
+    "sub_field": "Applied Computing",
+    "dblp_key": "conf/sac",
+    "website_url": "https://www.sigapp.org/sac/sac2026/"
+  },
+  {
+    "slug": "sas",
+    "name_en": "International Static Analysis Symposium",
+    "name_kr": null,
+    "acronym": "SAS",
+    "field": "PL",
+    "sub_field": "Static Analysis",
+    "dblp_key": "conf/sas",
+    "website_url": "https://staticanalysis.org/"
+  },
+  {
+    "slug": "sec",
+    "name_en": "IFIP International Information Security and Privacy Conference",
+    "name_kr": null,
+    "acronym": "SEC",
+    "field": "Security",
+    "sub_field": "Information Security",
+    "dblp_key": "conf/sec",
+    "website_url": "https://ifipsec.org/"
+  },
+  {
+    "slug": "secon",
+    "name_en": "IEEE International Conference on Sensing, Communication, and Networking",
+    "name_kr": null,
+    "acronym": "SECON",
+    "field": "Networks",
+    "sub_field": "Sensor Networks",
+    "dblp_key": "conf/secon",
+    "website_url": "https://secon2026.ieee-secon.org/"
+  },
+  {
+    "slug": "sgp",
+    "name_en": "Eurographics Symposium on Geometry Processing",
+    "name_kr": null,
+    "acronym": "SGP",
+    "field": "Graphics",
+    "sub_field": "Geometry Processing",
+    "dblp_key": "conf/sgp",
+    "website_url": "https://sgp26.org/"
+  },
+  {
+    "slug": "soups",
+    "name_en": "Symposium on Usable Privacy and Security",
+    "name_kr": null,
+    "acronym": "SOUPS",
+    "field": "Security",
+    "sub_field": "Usable Security",
+    "dblp_key": "conf/soups",
+    "website_url": "https://soups.page/"
+  },
+  {
+    "slug": "srds",
+    "name_en": "IEEE International Symposium on Reliable Distributed Systems",
+    "name_kr": null,
+    "acronym": "SRDS",
+    "field": "Systems",
+    "sub_field": "Reliable Distributed Systems",
+    "dblp_key": "conf/srds",
+    "website_url": "https://srds-conference.org/"
+  },
+  {
+    "slug": "stacs",
+    "name_en": "International Symposium on Theoretical Aspects of Computer Science",
+    "name_kr": null,
+    "acronym": "STACS",
+    "field": "Theory",
+    "sub_field": "Theoretical CS",
+    "dblp_key": "conf/stacs",
+    "website_url": "https://www.stacs-conf.org/"
+  },
+  {
+    "slug": "tcc",
+    "name_en": "Theory of Cryptography Conference",
+    "name_kr": null,
+    "acronym": "TCC",
+    "field": "Security",
+    "sub_field": "Cryptography Theory",
+    "dblp_key": "conf/tcc",
+    "website_url": "https://iacr.org/meetings/tcc/"
+  },
+  {
+    "slug": "vrst",
+    "name_en": "ACM Symposium on Virtual Reality Software and Technology",
+    "name_kr": null,
+    "acronym": "VRST",
+    "field": "HCI",
+    "sub_field": "Virtual Reality",
+    "dblp_key": "conf/vrst",
+    "website_url": "https://vrst.acm.org/vrst2026/"
   }
 ]

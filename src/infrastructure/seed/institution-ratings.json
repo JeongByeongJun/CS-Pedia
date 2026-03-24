@@ -956,7 +956,7 @@
   {
     "conference_slug": "atc",
     "institution": "BK21",
-    "tier": null,
+    "tier": "3",
     "year": 2025
   },
   {
@@ -7389,6 +7389,2694 @@
     "conference_slug": "www",
     "institution": "KAIST",
     "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipsn",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipsn",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipsn",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipsn",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipsn",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipsn",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ipsn",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ipsn",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "kr",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "kr",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "kr",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "kr",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "kr",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "kr",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "kr",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "kr",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "percom",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "percom",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "percom",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "percom",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "percom",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "percom",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "percom",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "percom",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "podc",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "podc",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "podc",
+    "institution": "KAIST",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "podc",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "podc",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "podc",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "podc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "podc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "spaa",
+    "institution": "BK21",
+    "tier": "3",
+    "year": 2025
+  },
+  {
+    "conference_slug": "spaa",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "spaa",
+    "institution": "KAIST",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "spaa",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "spaa",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "spaa",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "spaa",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "spaa",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cases",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cases",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cases",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cases",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cases",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cases",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "cases",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cases",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cc",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cc",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cc",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cc",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cc",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "codes-isss",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "codes-isss",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "codes-isss",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "codes-isss",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "codes-isss",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "codes-isss",
+    "institution": "CORE",
+    "tier": "C",
+    "year": 2023
+  },
+  {
+    "conference_slug": "codes-isss",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "codes-isss",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cogsci",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cogsci",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cogsci",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cogsci",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cogsci",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cogsci",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cogsci",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cogsci",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "disc",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "disc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "disc",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "disc",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "disc",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "disc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "disc",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "disc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecoop",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecoop",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecoop",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecoop",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecoop",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ecoop",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ecoop",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ecoop",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "emsoft",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "emsoft",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "emsoft",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "emsoft",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "emsoft",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "emsoft",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "emsoft",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "emsoft",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esop",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esop",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esop",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esop",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "esop",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "esop",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "esop",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "esop",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icpp",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icpp",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icpp",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icpp",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icpp",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icpp",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icpp",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icpp",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icws",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icws",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icws",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icws",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icws",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icws",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icws",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icws",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipdps",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipdps",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipdps",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipdps",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipdps",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ipdps",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ipdps",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ipdps",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "lctes",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "lctes",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "lctes",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "lctes",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "lctes",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "lctes",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "lctes",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "lctes",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mascots",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mascots",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mascots",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mascots",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mascots",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mascots",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "mascots",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "mascots",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "performance",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "performance",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "performance",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "performance",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "performance",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "performance",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "performance",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "performance",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "re",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "re",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "re",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "re",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "re",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "re",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "re",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "re",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "BK21",
+    "tier": "2",
+    "year": 2025
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "KAIST",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "POSTECH",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "asiaccs",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asiaccs",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asiaccs",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asiaccs",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "asiaccs",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "asiaccs",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "asiaccs",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "asiaccs",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "avss",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "avss",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "avss",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "avss",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "avss",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "avss",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "avss",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "avss",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "bibm",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "bibm",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "bibm",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "bibm",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "bibm",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "bibm",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "bibm",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "bibm",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccgrid",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccgrid",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccgrid",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccgrid",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccgrid",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ccgrid",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ccgrid",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ccgrid",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "concur",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "concur",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "concur",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "concur",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "concur",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "concur",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "concur",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "concur",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cseet",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cseet",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cseet",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cseet",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cseet",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cseet",
+    "institution": "CORE",
+    "tier": "C",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cseet",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "cseet",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "fc",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fc",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fc",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "fc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "fc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "fc",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "fc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipc",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipc",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipc",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipc",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipc",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "hipc",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "hipc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipeac",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipeac",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipeac",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipeac",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipeac",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "hipeac",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "hipeac",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "hipeac",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccd",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccd",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccd",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccd",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccd",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iccd",
+    "institution": "CORE",
+    "tier": "C",
+    "year": 2023
+  },
+  {
+    "conference_slug": "iccd",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "iccd",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iclp",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iclp",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iclp",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iclp",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iclp",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iclp",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "iclp",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "iclp",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icmr",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icmr",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icmr",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icmr",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icmr",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icmr",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icmr",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icmr",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icsoc",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icsoc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icsoc",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "icsoc",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icsoc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "icsoc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "icsoc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "icsoc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ijcar",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ijcar",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ijcar",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ijcar",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ijcar",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ijcar",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ijcar",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ijcar",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iiswc",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iiswc",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iiswc",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "iiswc",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iiswc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "iiswc",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "iiswc",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "iiswc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismar",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismar",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismar",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismar",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismar",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismar",
+    "institution": "CORE",
+    "tier": "A*",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ismar",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ismar",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismb",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismb",
+    "institution": "KIISE",
+    "tier": "최우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismb",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismb",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismb",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "ismb",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ismb",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "ismb",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ispass",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ispass",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ispass",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ispass",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ispass",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "ispass",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "ispass",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "ispass",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "its",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "its",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "its",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "its",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "its",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "its",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "its",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "its",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "mass",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mass",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mass",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mass",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mass",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "mass",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "mass",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "mass",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "CSRankings",
+    "tier": "Included",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sac",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sac",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sac",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sac",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sac",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sac",
+    "institution": "CORE",
+    "tier": null,
+    "year": 2023
+  },
+  {
+    "conference_slug": "sac",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sac",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sas",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sas",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sas",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sas",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sas",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sas",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sas",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sas",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sec",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sec",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sec",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sec",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sec",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sec",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sec",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sec",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "secon",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "secon",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "secon",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "secon",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "secon",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "secon",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "secon",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "secon",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "sgp",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sgp",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sgp",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sgp",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sgp",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "sgp",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "sgp",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "sgp",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "soups",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "soups",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "soups",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "soups",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "soups",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "soups",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "soups",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "soups",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "srds",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "srds",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "srds",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "srds",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "srds",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "srds",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "srds",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "srds",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "stacs",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "stacs",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "stacs",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "stacs",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "stacs",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "stacs",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "stacs",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "stacs",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "tcc",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "tcc",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "tcc",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "tcc",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "tcc",
+    "institution": "POSTECH",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "tcc",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "tcc",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "tcc",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "vrst",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "vrst",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "vrst",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "vrst",
+    "institution": "SNU",
+    "tier": "인정",
+    "year": 2025
+  },
+  {
+    "conference_slug": "vrst",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "vrst",
+    "institution": "CORE",
+    "tier": "A",
+    "year": 2023
+  },
+  {
+    "conference_slug": "vrst",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
+    "conference_slug": "vrst",
+    "institution": "CSRankings",
+    "tier": null,
     "year": 2025
   }
 ]
