@@ -12,6 +12,7 @@ const FIELD_COLORS: Record<string, string> = {
   Architecture: "bg-indigo-100 text-indigo-700 border-indigo-200",
   Graphics: "bg-fuchsia-100 text-fuchsia-700 border-fuchsia-200",
   Robotics: "bg-lime-100 text-lime-700 border-lime-200",
+  PL: "bg-sky-100 text-sky-700 border-sky-200",
 };
 
 export function FieldBadge({ field }: { field: string }) {

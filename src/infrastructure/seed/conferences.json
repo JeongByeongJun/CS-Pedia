@@ -1626,7 +1626,7 @@
     "acronym": "DISC",
     "field": "Theory",
     "sub_field": "Distributed Computing",
-    "dblp_key": "conf/wdag",
+    "dblp_key": "conf/disc",
     "website_url": "https://www.disc-conference.org/wp/disc2026/"
   },
   {
@@ -1686,7 +1686,7 @@
     "acronym": "IPDPS",
     "field": "Architecture",
     "sub_field": "Parallel & Distributed Processing",
-    "dblp_key": "conf/ipps",
+    "dblp_key": "conf/ipdps",
     "website_url": "https://www.ipdps.org/"
   },
   {
@@ -1696,7 +1696,7 @@
     "acronym": "LCTES",
     "field": "PL",
     "sub_field": "Embedded Compilers",
-    "dblp_key": "conf/lctrts",
+    "dblp_key": "conf/lctes",
     "website_url": "https://pldi26.sigplan.org/home/LCTES-2026"
   },
   {
