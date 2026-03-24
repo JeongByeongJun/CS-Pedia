@@ -2268,18 +2268,6 @@
     "timezone": "AoE"
   },
   {
-    "conference_slug": "ipsn",
-    "year": 2026,
-    "cycle": "main",
-    "abstract_deadline": "2025-11-06T23:59:00Z",
-    "paper_deadline": "2025-11-13T23:59:00Z",
-    "notification_date": "2026-01-22T00:00:00Z",
-    "conference_start": "2026-05-11",
-    "conference_end": "2026-05-14",
-    "venue": "Saint-Malo, France",
-    "timezone": "AoE"
-  },
-  {
     "conference_slug": "kr",
     "year": 2026,
     "cycle": "main",
@@ -2670,7 +2658,7 @@
     "abstract_deadline": "2026-03-09T23:59:00Z",
     "paper_deadline": "2026-03-16T23:59:00Z",
     "notification_date": null,
-    "conference_start": "2026-10-04",
+    "conference_start": "2026-10-05",
     "conference_end": "2026-10-09",
     "venue": "Bari, Italy",
     "timezone": "AoE"
@@ -2721,7 +2709,7 @@
     "conference_start": "2026-06-01",
     "conference_end": "2026-06-05",
     "venue": "Santa Clara, CA, USA",
-    "timezone": "PT"
+    "timezone": "AoE"
   },
   {
     "conference_slug": "noms",

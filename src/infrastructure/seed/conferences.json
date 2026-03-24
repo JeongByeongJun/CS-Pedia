@@ -1540,16 +1540,6 @@
     "website_url": "https://www.ecrts.org"
   },
   {
-    "slug": "ipsn",
-    "name_en": "International Conference on Information Processing in Sensor Networks",
-    "name_kr": null,
-    "acronym": "IPSN",
-    "field": "Networks",
-    "sub_field": "Sensor Networks",
-    "dblp_key": "conf/ipsn",
-    "website_url": "https://ipsn.acm.org/"
-  },
-  {
     "slug": "kr",
     "name_en": "International Conference on Principles of Knowledge Representation and Reasoning",
     "name_kr": null,

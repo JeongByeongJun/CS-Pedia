@@ -7392,54 +7392,6 @@
     "year": 2025
   },
   {
-    "conference_slug": "ipsn",
-    "institution": "BK21",
-    "tier": "3",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ipsn",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ipsn",
-    "institution": "KAIST",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ipsn",
-    "institution": "SNU",
-    "tier": "인정",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ipsn",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "ipsn",
-    "institution": "CORE",
-    "tier": "A*",
-    "year": 2023
-  },
-  {
-    "conference_slug": "ipsn",
-    "institution": "CCF",
-    "tier": "B",
-    "year": 2022
-  },
-  {
-    "conference_slug": "ipsn",
-    "institution": "CSRankings",
-    "tier": null,
-    "year": 2025
-  },
-  {
     "conference_slug": "kr",
     "institution": "BK21",
     "tier": "3",
