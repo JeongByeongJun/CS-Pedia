@@ -1,12 +1,12 @@
 /**
  * Fill missing paper_url in best-papers.json using Semantic Scholar API.
- * Searches by title, matches, and writes back the URL (arxiv > doi > S2).
- * No API key needed — uses public endpoint with 1 req/sec rate.
+ * Uses /paper/search/match endpoint (title matching, more lenient rate limit).
+ * No API key needed.
  */
 import * as fs from "fs";
 import * as path from "path";
 
-const S2_SEARCH = "https://api.semanticscholar.org/graph/v1/paper/search";
+const S2_MATCH = "https://api.semanticscholar.org/graph/v1/paper/search/match";
 const DELAY_MS = 2000;
 
 function sleep(ms: number) {
@@ -28,41 +28,51 @@ async function searchPaperUrl(title: string): Promise<string | null> {
     const params = new URLSearchParams({
       query: title,
       fields: "title,externalIds,url",
-      limit: "3",
     });
 
-    const res = await fetch(`${S2_SEARCH}?${params}`, {
+    const res = await fetch(`${S2_MATCH}?${params}`, {
       signal: AbortSignal.timeout(15000),
     });
+
     if (!res.ok) {
       if (res.status === 429) {
-        console.warn("  Rate limited, waiting 30s...");
-        await sleep(30000);
+        console.warn("  Rate limited, waiting 60s...");
+        await sleep(60000);
+        // Retry once
+        const retry = await fetch(`${S2_MATCH}?${params}`, {
+          signal: AbortSignal.timeout(15000),
+        });
+        if (!retry.ok) return null;
+        const retryData = await retry.json();
+        return extractUrl(title, retryData?.data ?? []);
       }
       return null;
     }
 
     const data = await res.json();
-    const papers = data?.data ?? [];
-
-    for (const p of papers) {
-      const normQuery = normalize(title);
-      const normResult = normalize(p.title ?? "");
-      // Require high similarity
-      if (normResult !== normQuery && !normResult.startsWith(normQuery.slice(0, 60))) {
-        continue;
-      }
-
-      const ids = p.externalIds ?? {};
-      // Prefer arxiv > DOI > S2 URL
-      if (ids.ArXiv) return `https://arxiv.org/abs/${ids.ArXiv}`;
-      if (ids.DOI) return `https://doi.org/${ids.DOI}`;
-      if (p.url) return p.url;
-    }
-    return null;
+    return extractUrl(title, data?.data ?? []);
   } catch {
     return null;
   }
+}
+
+function extractUrl(title: string, papers: Array<{ title?: string; externalIds?: Record<string, string>; url?: string }>): string | null {
+  if (papers.length === 0) return null;
+
+  const p = papers[0]; // match endpoint returns best match first
+  const normQuery = normalize(title);
+  const normResult = normalize(p.title ?? "");
+
+  // Require reasonable match
+  if (normResult !== normQuery && !normResult.startsWith(normQuery.slice(0, 50)) && !normQuery.startsWith(normResult.slice(0, 50))) {
+    return null;
+  }
+
+  const ids = p.externalIds ?? {};
+  if (ids.ArXiv) return `https://arxiv.org/abs/${ids.ArXiv}`;
+  if (ids.DOI) return `https://doi.org/${ids.DOI}`;
+  if (p.url) return p.url;
+  return null;
 }
 
 async function run() {
