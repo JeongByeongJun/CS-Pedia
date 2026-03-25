@@ -10,7 +10,7 @@ const UPDATES_KR = [
 ];
 
 const UPDATES_EN = [
-  { date: "2026.03.25", text: "55 new BK21 conferences added — now tracking 209 venues (PODC, ECOOP, IPDPS, TACAS, etc.)" },
+  { date: "2026.03.25", text: "55 new conferences added — now tracking 209 venues (PODC, ECOOP, IPDPS, TACAS, etc.)" },
   { date: "2026.03.25", text: "Best Paper titles now link to the original paper (1,500+ papers)" },
   { date: "2026.03.17", text: "Deadlines now shown in your local timezone" },
 ];
