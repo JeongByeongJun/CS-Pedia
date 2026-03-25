@@ -18,7 +18,7 @@ export async function fetchOpenAlexWorksCounts(
   try {
     // Search for the source/venue
     const searchUrl = `${OPENALEX_API_BASE}/sources?search=${encodeURIComponent(conferenceName)}&mailto=${OPENALEX_MAILTO}`;
-    const res = await fetch(searchUrl);
+    const res = await fetch(searchUrl, { signal: AbortSignal.timeout(30000) });
     if (!res.ok) return [];
 
     const data = await res.json();

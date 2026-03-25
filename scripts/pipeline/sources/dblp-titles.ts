@@ -41,14 +41,14 @@ async function fetchDblpPaperTitlesByYear(
 
     try {
       const url = `${DBLP_API_BASE}?q=${query}&h=${pageSize}&f=${offset}&format=json`;
-      const res = await fetch(url);
+      const res = await fetch(url, { signal: AbortSignal.timeout(30000) });
       if (!res.ok) {
         console.warn(`DBLP titles fetch failed for ${dblpKey} ${year} (HTTP ${res.status})`);
         // If rate limited, wait longer and retry once
         if (res.status === 429) {
           console.warn(`  Rate limited, waiting 30s...`);
           await sleep(30000);
-          const retry = await fetch(url);
+          const retry = await fetch(url, { signal: AbortSignal.timeout(30000) });
           if (!retry.ok) break;
           const retryData = await retry.json();
           total = parseInt(retryData?.result?.hits?.["@total"] ?? "0");

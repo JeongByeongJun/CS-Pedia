@@ -20,7 +20,7 @@ export async function fetchDblpPaperCounts(
         `venue:${dblpKey.replace("conf/", "")}:`,
       );
       const url = `${DBLP_API_BASE}?q=${query}&h=0&f=0&format=json&y=${year}`;
-      const res = await fetch(url);
+      const res = await fetch(url, { signal: AbortSignal.timeout(30000) });
       if (!res.ok) continue;
 
       const data = await res.json();
