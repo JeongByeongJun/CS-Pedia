@@ -1,10 +1,6 @@
-"use client";
-
 import Link from "next/link";
-import { useLocale } from "@/presentation/hooks/use-locale";
 
-export function SiteFooter() {
-  const { isKorean } = useLocale();
+export function SiteFooter({ isKorean = true }: { isKorean?: boolean }) {
 
   return (
     <footer className="mt-12 pt-8 border-t border-zinc-200 pb-24 sm:pb-8">

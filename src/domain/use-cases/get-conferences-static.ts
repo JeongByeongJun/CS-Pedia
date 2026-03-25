@@ -34,14 +34,18 @@ function recalcDaysUntil(deadline: string | null): number | null {
   return Math.floor((d.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
 }
 
+let cachedItems: StaticConference[] | null = null;
+
 export function createGetConferencesFromStatic() {
   return async (): Promise<ConferenceWithRelations[]> => {
-    // Dynamic import to read from public/data at runtime
-    const fs = await import("fs");
-    const path = await import("path");
-    const filePath = path.join(process.cwd(), "public/data/conferences.json");
-    const raw = fs.readFileSync(filePath, "utf8");
-    const items: StaticConference[] = JSON.parse(raw);
+    if (!cachedItems) {
+      const fs = await import("fs/promises");
+      const path = await import("path");
+      const filePath = path.join(process.cwd(), "public/data/conferences.json");
+      const raw = await fs.readFile(filePath, "utf8");
+      cachedItems = JSON.parse(raw);
+    }
+    const items = cachedItems!;
 
     return items.map((c) => ({
       id: c.id,

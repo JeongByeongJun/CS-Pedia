@@ -1,14 +1,21 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useSyncExternalStore } from "react";
+
+function subscribe() {
+  // lang attribute doesn't change after initial render
+  return () => {};
+}
+
+function getSnapshot() {
+  return document.documentElement.lang;
+}
+
+function getServerSnapshot() {
+  return "ko";
+}
 
 export function useLocale() {
-  const [isKorean, setIsKorean] = useState(true); // default to Korean to avoid flash
-
-  useEffect(() => {
-    const lang = navigator.language || "";
-    setIsKorean(lang.startsWith("ko"));
-  }, []);
-
-  return { isKorean };
+  const lang = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  return { isKorean: lang === "ko" };
 }
