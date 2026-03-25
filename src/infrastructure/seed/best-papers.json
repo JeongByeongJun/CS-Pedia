@@ -18662,5 +18662,965 @@
       "LTL"
     ],
     "paper_url": null
+  },
+  {
+    "conference_slug": "kr",
+    "year": 2024,
+    "paper_title": "Contractions Based on Optimal Repairs",
+    "authors": "Baader & Wassermann",
+    "award_type": "best_paper",
+    "tags": [
+      "Belief Revision",
+      "Ontologies"
+    ],
+    "paper_url": "https://proceedings.kr.org/2024/9/"
+  },
+  {
+    "conference_slug": "kr",
+    "year": 2024,
+    "paper_title": "Nemo: Your Friendly and Versatile Rule Reasoning Toolkit",
+    "authors": "Ivliev, Gerlach, Meusel, Steinberg & Krötzsch",
+    "award_type": "best_paper",
+    "tags": [
+      "Rule Reasoning",
+      "Knowledge Graphs"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "kr",
+    "year": 2025,
+    "paper_title": "Finite Axiomatizability by Disjunctive Existential Rules",
+    "authors": "Calautti, Console & Pieris",
+    "award_type": "best_paper",
+    "tags": [
+      "Existential Rules",
+      "Ontologies"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "percom",
+    "year": 2024,
+    "paper_title": "DiTMoS: Delving into Diverse Tiny-Model Selection on Microcontrollers",
+    "authors": "Ma, He, Qiao & Ma",
+    "award_type": "best_paper",
+    "tags": [
+      "TinyML",
+      "Microcontrollers"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "percom",
+    "year": 2025,
+    "paper_title": "RespEar: Earable-Based Robust Respiratory Rate Monitoring",
+    "authors": "Liu, Butkow, Stuchbury-Wass, Pullin, Ma & Mascolo",
+    "award_type": "best_paper",
+    "tags": [
+      "Earables",
+      "Wearables"
+    ],
+    "paper_url": "https://arxiv.org/abs/2407.06901"
+  },
+  {
+    "conference_slug": "podc",
+    "year": 2024,
+    "paper_title": "Determining Recoverable Consensus Numbers",
+    "authors": "Ovens",
+    "award_type": "best_paper",
+    "tags": [
+      "Consensus",
+      "Fault Tolerance"
+    ],
+    "paper_url": "https://arxiv.org/abs/2405.04775"
+  },
+  {
+    "conference_slug": "podc",
+    "year": 2025,
+    "paper_title": "Improved Byzantine Agreement under an Adaptive Adversary",
+    "authors": "Dufoulon & Pandurangan",
+    "award_type": "best_paper",
+    "tags": [
+      "Byzantine Agreement",
+      "Distributed Algorithms"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "spaa",
+    "year": 2024,
+    "paper_title": "Expediting Hazard Pointers with Bounded RCU Critical Sections",
+    "authors": "Kim, Jung & Kang",
+    "award_type": "best_paper",
+    "tags": [
+      "Memory Reclamation",
+      "Concurrency"
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3626183.3659941"
+  },
+  {
+    "conference_slug": "ecoop",
+    "year": 2024,
+    "paper_title": "Mover Logic: A Concurrent Program Logic for Reduction and Rely-Guarantee Reasoning",
+    "authors": "Freund & Flanagan",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Concurrent Programming",
+      "Verification"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ecoop",
+    "year": 2024,
+    "paper_title": "Compiling with Arrays",
+    "authors": "Richter, Böhler, Weisenburger & Mezini",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Compilers",
+      "Programming Languages"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "disc",
+    "year": 2024,
+    "paper_title": "Lock-Free Augmented Trees",
+    "authors": "Fatourou & Ruppert",
+    "award_type": "best_paper",
+    "tags": [
+      "Lock-Free Algorithms",
+      "Data Structures"
+    ],
+    "paper_url": "https://arxiv.org/abs/2405.10506"
+  },
+  {
+    "conference_slug": "disc",
+    "year": 2025,
+    "paper_title": "Complexity landscape for local certification",
+    "authors": "Bousquet, Feuilloley & Zeitoun",
+    "award_type": "best_paper",
+    "tags": [
+      "Local Certification",
+      "Distributed Computing"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ipdps",
+    "year": 2024,
+    "paper_title": "Performance-Portable Multiphase Flow Solutions with Discontinuous Galerkin Methods",
+    "authors": "Flynn, Mudalige & Manson-Sawko",
+    "award_type": "best_paper",
+    "tags": [
+      "HPC",
+      "Scientific Computing"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ipdps",
+    "year": 2025,
+    "paper_title": "Enabling Efficient Error-controlled Lossy Compression for Unstructured Scientific Data",
+    "authors": "Wu, Di, Ren, Jiao, Xia, Wang, Guo, Liang & Cappello",
+    "award_type": "best_paper",
+    "tags": [
+      "Data Compression",
+      "HPC"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "tacas",
+    "year": 2024,
+    "paper_title": "Scalable Tree-based Register Automata Learning",
+    "authors": "Fiterau-Brostean, Dierl, Howar, Jonsson, Sagonas & Tåquist",
+    "award_type": "best_paper",
+    "tags": [
+      "Automata Learning",
+      "Formal Methods"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "tacas",
+    "year": 2025,
+    "paper_title": "Unsatisfiability Proofs for Horn Solving",
+    "authors": "Otoni, Blicha, Barandiaran Rivera, Eugster, Kofroň & Sharygina",
+    "award_type": "best_paper",
+    "tags": [
+      "SMT Solving",
+      "Formal Verification"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ismar",
+    "year": 2024,
+    "paper_title": "Spatial Affordance-aware Interactable Subspace Allocation for Mixed Reality Telepresence",
+    "authors": "Kim, Kim, Choi & Woo",
+    "award_type": "best_paper",
+    "tags": [
+      "Mixed Reality",
+      "Telepresence"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ismar",
+    "year": 2025,
+    "paper_title": "Negotiated User-to-Group Teleportations in Social VR",
+    "authors": "Shu, Li, Yang, Han, Steinicke & Wang",
+    "award_type": "best_paper",
+    "tags": [
+      "Social VR",
+      "Virtual Reality"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "recomb",
+    "year": 2024,
+    "paper_title": "Centrifuger: lossless compression of microbial genomes for efficient and accurate metagenomic sequence classification",
+    "authors": "Song & Langmead",
+    "award_type": "best_paper",
+    "tags": [
+      "Metagenomics",
+      "Genome Compression"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "recomb",
+    "year": 2025,
+    "paper_title": "ralphi: a deep reinforcement learning framework for haplotype assembly",
+    "authors": "Battistella, Maheshwari, Ekim, Berger & Popic",
+    "award_type": "best_paper",
+    "tags": [
+      "Genomics",
+      "Reinforcement Learning"
+    ],
+    "paper_url": "https://www.biorxiv.org/content/10.1101/2025.02.17.638151v1"
+  },
+  {
+    "conference_slug": "sgp",
+    "year": 2024,
+    "paper_title": "1-Lipschitz Neural Distance Fields",
+    "authors": "Coiffier & Bethune",
+    "award_type": "best_paper",
+    "tags": [
+      "Neural Distance Fields",
+      "Geometry Processing"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sgp",
+    "year": 2025,
+    "paper_title": "The Affine Heat Method",
+    "authors": "Soliman & Sharp",
+    "award_type": "best_paper",
+    "tags": [
+      "Heat Method",
+      "Geometry Processing"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "re",
+    "year": 2024,
+    "paper_title": "ReqCompletion: Domain-Enhanced Automatic Completion for Software Requirements",
+    "authors": "Lian, Ma, Lv & Zhang",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Requirements",
+      "NLP"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "asiaccs",
+    "year": 2025,
+    "paper_title": "Breaking Bad: How Compilers Break Constant-Time Implementations",
+    "authors": "Schneider, Lain, Puddu, Dutly & Capkun",
+    "award_type": "best_paper",
+    "tags": [
+      "Compiler Security",
+      "Side-Channel"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "concur",
+    "year": 2025,
+    "paper_title": "Compositional Active Learning of Synchronizing Systems Through Automated Alphabet Refinement",
+    "authors": "Henry, Mousavi, Neele & Sammartino",
+    "award_type": "best_paper",
+    "tags": [
+      "Active Learning",
+      "Automata"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icpp",
+    "year": 2025,
+    "paper_title": "Efficient Construction of Large Search Spaces for Auto-Tuning",
+    "authors": "Willemsen, van Nieuwpoort & van Werkhoven",
+    "award_type": "best_paper",
+    "tags": [
+      "Auto-Tuning",
+      "HPC"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "emsoft",
+    "year": 2024,
+    "paper_title": "Thread Carefully: Preventing Starvation in the ROS 2 Multithreaded Executor",
+    "authors": "Teper, Kuhse, Günzel, von der Brüggen, Howar & Chen",
+    "award_type": "best_paper",
+    "tags": [
+      "ROS 2",
+      "Real-Time"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "emsoft",
+    "year": 2025,
+    "paper_title": "Cumulative-Time Signal Temporal Logic",
+    "authors": "Chen, Zhang, Roy, Bartocci, Smolka, Stoller & Lin",
+    "award_type": "best_paper",
+    "tags": [
+      "Temporal Logic",
+      "CPS"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cases",
+    "year": 2024,
+    "paper_title": "A Dataflow-aware Network-on-Interposer for CNN Inferencing in the Presence of Defective Chiplets",
+    "authors": "Sharma, Ogras, Kalyanraman & Pande",
+    "award_type": "best_paper",
+    "tags": [
+      "CNN Inference",
+      "Chiplet"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cases",
+    "year": 2025,
+    "paper_title": "Large or Small: Harnessing the Erase Duality of Emerging Bit-Alterable NAND Flash to Suppress Tail Latency",
+    "authors": "Yao, Yang, Wang, Chen & Yang",
+    "award_type": "best_paper",
+    "tags": [
+      "NAND Flash",
+      "Storage"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "codes-isss",
+    "year": 2024,
+    "paper_title": "Reliable, Versatile, and Efficient Data Matching in SSD's NAND Flash Memory Chip for Data Indexing Acceleration",
+    "authors": "Chen, Chang & Kuo",
+    "award_type": "best_paper",
+    "tags": [
+      "SSD",
+      "Data Indexing"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "codes-isss",
+    "year": 2025,
+    "paper_title": "Re-Thinking Memory-Bound Limitations in CGRAs",
+    "authors": "Liu, Jiang, Zhu, Han, Lyu, Deng & Guan",
+    "award_type": "best_paper",
+    "tags": [
+      "CGRA",
+      "Memory Architecture"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "esop",
+    "year": 2024,
+    "paper_title": "Accurately Computing Expected Visiting Times and Stationary Distributions in Markov Chains",
+    "authors": "Mertens, Katoen, Quatmann & Winkler",
+    "award_type": "best_paper",
+    "tags": [
+      "Markov Chains",
+      "Probabilistic Verification"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "esop",
+    "year": 2025,
+    "paper_title": "First-Person Choreographic Programming with Continuation-Passing Communications",
+    "authors": "Jongmans",
+    "award_type": "best_paper",
+    "tags": [
+      "Choreographic Programming",
+      "Concurrency"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "lctes",
+    "year": 2024,
+    "paper_title": "TinySeg: Model Optimizing Framework for Image Segmentation on Tiny Embedded Systems",
+    "authors": "Chae, Kim & Heo",
+    "award_type": "best_paper",
+    "tags": [
+      "Embedded AI",
+      "Segmentation"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "lctes",
+    "year": 2025,
+    "paper_title": "Modeling and Verification of Sigma Delta Neural Networks using Satisfiability Modulo Theory",
+    "authors": "Das, Banerjee & Mohalik",
+    "award_type": "best_paper",
+    "tags": [
+      "Neural Networks",
+      "SMT"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "vrst",
+    "year": 2024,
+    "paper_title": "Stand Alone or Stay Together: An In-situ Experiment of Mixed-Reality Applications in Embryonic Anatomy Education",
+    "authors": "Schott, Kunz, Heinrich, Mandel, Albrecht, Braun-Dullaeus & Hansen",
+    "award_type": "best_paper",
+    "tags": [
+      "Mixed Reality",
+      "Medical Education"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "vrst",
+    "year": 2025,
+    "paper_title": "See It and Hear It: Multimodal Guidance in MR-Based Neurosurgical Simulation for Skill Retention",
+    "authors": "Cascarano, Loretti, Zanuttini, Giunchi, Bovo, Hajahmadi, Vallasciani, Martinoni & Marfia",
+    "award_type": "best_paper",
+    "tags": [
+      "Neurosurgical Simulation",
+      "Mixed Reality"
+    ],
+    "paper_url": "https://doi.org/10.1145/3756884.3766034"
+  },
+  {
+    "conference_slug": "soups",
+    "year": 2024,
+    "paper_title": "Beyond Fear and Frustration - Towards a Holistic Understanding of Emotions in Cybersecurity",
+    "authors": "von Preuschen, Schuhmacher & Zimmermann",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Cybersecurity",
+      "User Study"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "soups",
+    "year": 2025,
+    "paper_title": "I never reuse passwords! Development and Validation of a Security and Privacy Social Desirability Scale",
+    "authors": "Abels, Smith & Ortloff",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Password Security",
+      "Psychology"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ismb",
+    "year": 2024,
+    "paper_title": "Extracting Clinical Significance for Drug-Gene Interactions using FDA Label Packages",
+    "authors": "Cannon",
+    "award_type": "best_paper",
+    "tags": [
+      "Drug-Gene Interaction",
+      "Biomedical NLP"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icmr",
+    "year": 2024,
+    "paper_title": "Identification of Speaker Roles and Situation Types in News Videos",
+    "authors": "Cheema, Arafat, Tseng, Bateman, Ewerth & Müller-Budack",
+    "award_type": "best_paper",
+    "tags": [
+      "News Video",
+      "Multimodal"
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3652583.3658101"
+  },
+  {
+    "conference_slug": "icmr",
+    "year": 2025,
+    "paper_title": "TourMLLM: A Retrieval-Augmented Multimodal Large Language Model for Multitask Learning in the Tourism Domain",
+    "authors": "Yamanishi, Xiao & Yamasaki",
+    "award_type": "best_paper",
+    "tags": [
+      "Multimodal LLM",
+      "Tourism"
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3731715.3733450"
+  },
+  {
+    "conference_slug": "icsoc",
+    "year": 2024,
+    "paper_title": "Cost-Aware Dynamic Cloud Workflow Scheduling using Self-Attention and Evolutionary Reinforcement Learning",
+    "authors": "Shen, Chen, Ma & Zhang",
+    "award_type": "best_paper",
+    "tags": [
+      "Workflow Scheduling",
+      "Cloud"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icsoc",
+    "year": 2025,
+    "paper_title": "Optimal Subset Oracle-based Web API Composition Recommendation for Mashup Creation",
+    "authors": "Yan, Yan, Dong, Yan, Qi & Zhong",
+    "award_type": "best_paper",
+    "tags": [
+      "API Composition",
+      "Mashup"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ijcar",
+    "year": 2024,
+    "paper_title": "Mechanised uniform interpolation for modal logics K, GL and ISL",
+    "authors": "Férée, van der Giessen, van Gool & Shillito",
+    "award_type": "best_paper",
+    "tags": [
+      "Modal Logic",
+      "Proof Mechanization"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "date",
+    "year": 2024,
+    "paper_title": "FusionArch: A Fusion-Based Accelerator for Point-Based Point Cloud Neural Networks",
+    "authors": "Liu, Song, Dai, Li, Xiao, Xiang, Kong, Xu & Liang",
+    "award_type": "best_paper",
+    "tags": [
+      "Point Cloud",
+      "Accelerator"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "date",
+    "year": 2025,
+    "paper_title": "Timing Driven Global Placement by Efficient Critical Path Extraction",
+    "authors": "Shi, Xu, Kai, Lin, Xue, Yuan & Qian",
+    "award_type": "best_paper",
+    "tags": [
+      "Placement",
+      "EDA"
+    ],
+    "paper_url": "https://arxiv.org/abs/2503.11674"
+  },
+  {
+    "conference_slug": "edbt",
+    "year": 2025,
+    "paper_title": "Partition Constraints for Conjunctive Queries: Bounds and Worst-Case Optimal Joins",
+    "authors": "Merkl & Deeds",
+    "award_type": "best_paper",
+    "tags": [
+      "Query Optimization",
+      "Database"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "year": 2024,
+    "paper_title": "Entanglements for Visualization: Changing Research Outcomes through Feminist Theory",
+    "authors": "Akbaba, Klein & Meyer",
+    "award_type": "best_paper",
+    "tags": [
+      "Visualization",
+      "Research Methodology"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "year": 2025,
+    "paper_title": "ReVISit 2: A Full Experiment Life Cycle User Study Framework",
+    "authors": "Cutler, Wilburn, Shrestha, Ding, Bollen, Nadib, He, McNutt, Harrison & Lex",
+    "award_type": "best_paper",
+    "tags": [
+      "User Study",
+      "Visualization"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "year": 2024,
+    "paper_title": "VR.net: A Real-world Large-scale Dataset for Virtual Reality Motion Sickness Research",
+    "authors": "Wen, Gupta, Sasikumar, Billinghurst, Wilmott, Skow, Dey & Nanayakkara",
+    "award_type": "best_paper",
+    "tags": [
+      "Motion Sickness",
+      "VR Dataset"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "year": 2025,
+    "paper_title": "Seeing is not Thinking: Testing Capabilities of VR to Promote Perspective-Taking",
+    "authors": "Kukshinov, Gini, Mishra, Bowman, Rooney & Nacke",
+    "award_type": "best_paper",
+    "tags": [
+      "Social VR",
+      "Empathy"
+    ],
+    "paper_url": "https://ieeexplore.ieee.org/document/10916980/"
+  },
+  {
+    "conference_slug": "ccgrid",
+    "year": 2024,
+    "paper_title": "Characterizing and Filtering Timing Fluctuations in Short-Interval Performance Measurements",
+    "authors": "Liao & Lin",
+    "award_type": "best_paper",
+    "tags": [
+      "Performance",
+      "Benchmarking"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "gecco",
+    "year": 2024,
+    "paper_title": "Quality with Just Enough Diversity in Evolutionary Policy Search",
+    "authors": "Templier, Grillotti, Rachelson, Wilson & Cully",
+    "award_type": "best_paper",
+    "tags": [
+      "Quality Diversity",
+      "Evolutionary Policy"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "gecco",
+    "year": 2025,
+    "paper_title": "When Does Neuroevolution Outcompete Reinforcement Learning in Transfer Learning Tasks?",
+    "authors": "Nisioti, Plantec, Llera Montero, Winther Pedersen & Risi",
+    "award_type": "best_paper",
+    "tags": [
+      "Neuroevolution",
+      "Transfer Learning"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "pets",
+    "year": 2024,
+    "paper_title": "The Discrete Gaussian for Differential Privacy",
+    "authors": "Canonne, Kamath & Steinke",
+    "award_type": "best_paper",
+    "tags": [
+      "Differential Privacy",
+      "Privacy Theory"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "pets",
+    "year": 2025,
+    "paper_title": "Surveilling the Masses with Wi-Fi-Based Positioning Systems",
+    "authors": "Rye & Levin",
+    "award_type": "best_paper",
+    "tags": [
+      "Wi-Fi Positioning",
+      "Surveillance"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cloud",
+    "year": 2024,
+    "paper_title": "TraceMesh: Scalable and Streaming Sampling for Distributed Traces",
+    "authors": "Chen, Jiang, Su, Lyu & Zheng",
+    "award_type": "best_paper",
+    "tags": [
+      "Distributed Tracing",
+      "Cloud"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cloud",
+    "year": 2025,
+    "paper_title": "Dynamic In-node Group-aware Scheduling for Multi-tenant Machine Learning Services on Kubernetes",
+    "authors": "Liu & Guitart",
+    "award_type": "best_paper",
+    "tags": [
+      "Kubernetes",
+      "ML Serving"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ispass",
+    "year": 2024,
+    "paper_title": "CiMLoop: A Fast, Flexible, and Accurate Compute-In-Memory Modeling Framework",
+    "authors": "Andrulis, Emer & Sze",
+    "award_type": "best_paper",
+    "tags": [
+      "Compute-In-Memory",
+      "Hardware"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ispass",
+    "year": 2025,
+    "paper_title": "Understanding the Performance Horizon of the Latest ML Workloads with NonGEMM Workloads",
+    "authors": "Karami, Kao & Kwon",
+    "award_type": "best_paper",
+    "tags": [
+      "ML Workloads",
+      "Performance"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "noms",
+    "year": 2024,
+    "paper_title": "Exploring the Benefit of Path Plausibility Algorithms in BGP",
+    "authors": "Rodday, Dreo Rodosek, Pras & van Rijswijk-Deij",
+    "award_type": "best_paper",
+    "tags": [
+      "BGP Security",
+      "Routing"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "noms",
+    "year": 2025,
+    "paper_title": "RNA: Automating IDS/IPS Event Detection Offload into Programmable Forwarding Devices",
+    "authors": "Hagen, Ilha, Parizotto & Gaspary",
+    "award_type": "best_paper",
+    "tags": [
+      "IDS/IPS",
+      "Programmable Networks"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sac",
+    "year": 2025,
+    "paper_title": "RAGCol: RAG-Based Automatic Video Colorization Through Text Caption Generation and Knowledge Enrichment",
+    "authors": "Ward, Dalal, Buitelaar & Breslin",
+    "award_type": "best_paper",
+    "tags": [
+      "RAG",
+      "Video Colorization"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "srds",
+    "year": 2025,
+    "paper_title": "Robust Fingerprinting of Graphs with FinG",
+    "authors": "Drosis, Garcia Bourrée, Kermarrec, Safsafi & Le Merrer",
+    "award_type": "best_paper",
+    "tags": [
+      "Graph Fingerprinting",
+      "Security"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cluster",
+    "year": 2024,
+    "paper_title": "GPU Reliability Assessment: Insights Across the Abstraction Layers",
+    "authors": "Yang, Papadimitriou, Sartzetakis, Jog, Smirni & Gizopoulos",
+    "award_type": "best_paper",
+    "tags": [
+      "GPU Reliability",
+      "Hardware"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ccc",
+    "year": 2024,
+    "paper_title": "Low-Depth Algebraic Circuit Lower Bounds over Any Field",
+    "authors": "Forbes",
+    "award_type": "best_paper",
+    "tags": [
+      "Circuit Complexity",
+      "Algebraic"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ccc",
+    "year": 2025,
+    "paper_title": "Quantum Threshold Is Powerful",
+    "authors": "Grier & Morris",
+    "award_type": "best_paper",
+    "tags": [
+      "Quantum Circuits",
+      "Complexity"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "isaac",
+    "year": 2024,
+    "paper_title": "Complexity Framework for Forbidden Subgraphs II: Edge Subdivision and the H-Graphs",
+    "authors": "Smith & van Leeuwen",
+    "award_type": "best_paper",
+    "tags": [
+      "Graph Algorithms",
+      "Complexity"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "performance",
+    "year": 2024,
+    "paper_title": "Agents of Autonomy: A Systematic Study of Robotics on Modern Hardware",
+    "authors": "Bakhshalipour & Gibbons",
+    "award_type": "best_paper",
+    "tags": [
+      "Robotics",
+      "Performance"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sas",
+    "year": 2024,
+    "paper_title": "Quantitative Static Timing Analysis",
+    "authors": "Mazzucato, Campion & Urban",
+    "award_type": "best_paper",
+    "tags": [
+      "Timing Analysis",
+      "Static Analysis"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sas",
+    "year": 2025,
+    "paper_title": "Relating Distances and Abstractions: An Abstract Interpretation Perspective",
+    "authors": "Campion, Mastroeni & Urban",
+    "award_type": "best_paper",
+    "tags": [
+      "Abstract Interpretation",
+      "Program Analysis"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "sec",
+    "year": 2025,
+    "paper_title": "Post-Processing in Local Differential Privacy: An Extensive Evaluation and Benchmark Platform",
+    "authors": "Khodaie, Balioglu & Gursoy",
+    "award_type": "best_paper",
+    "tags": [
+      "Differential Privacy",
+      "Benchmark"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "iclp",
+    "year": 2024,
+    "paper_title": "On Lower Bounding Minimal Model Count",
+    "authors": "Kabir & Meel",
+    "award_type": "best_paper",
+    "tags": [
+      "Model Counting",
+      "Logic Programming"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "iclp",
+    "year": 2025,
+    "paper_title": "ANTHEM: Answer Set Programming and Automated Theorem Proving",
+    "authors": "Fandinno, Glinzer, Hansen, Heuer, Lierler, Lifschitz, Schaub & Stolzmann",
+    "award_type": "best_paper",
+    "tags": [
+      "Answer Set Programming",
+      "Theorem Proving"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "iccd",
+    "year": 2025,
+    "paper_title": "DHeLlam: General-Purpose, Automatic Micro-batch Co-execution for Distributed LLM Training",
+    "authors": "Wang, Ruan, He, Ruan, Tang, Ma & Li",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM Training",
+      "Distributed Systems"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "msst",
+    "year": 2024,
+    "paper_title": "Revisiting HDD Rules of Thumb: 1/3 Is Not (Quite) the Average Seek Distance",
+    "authors": "Olmez, Bent, Arpaci-Dusseau & Dai",
+    "award_type": "best_paper",
+    "tags": [
+      "HDD",
+      "Storage Systems"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "avss",
+    "year": 2024,
+    "paper_title": "AREST: Attention-Based Red-Light Violation Detection for Safety Technology",
+    "authors": "Kim, Kim, Kim, Cho & Hong",
+    "award_type": "best_paper",
+    "tags": [
+      "Traffic Surveillance",
+      "Object Detection"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "avss",
+    "year": 2025,
+    "paper_title": "Occlusion-Robust Multi-Object Tracking with Adaptive Feature Management and Motion Compensation",
+    "authors": "Hong, Han & Kwon",
+    "award_type": "best_paper",
+    "tags": [
+      "Multi-Object Tracking",
+      "Surveillance"
+    ],
+    "paper_url": null
   }
 ]
