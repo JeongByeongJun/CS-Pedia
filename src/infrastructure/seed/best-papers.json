@@ -7492,20 +7492,6 @@
   {
     "conference_slug": "icsme",
     "year": 2021,
-    "paper_title": "The Used, the Bloated, and the Vulnerable: Reducing the Attack Surface of an Industrial Application",
-    "authors": [
-      "Serena Elisa Ponta",
-      "Wolfram Fischer",
-      "Henrik Plate",
-      "Antonino Sabetta"
-    ],
-    "award_type": "distinguished_paper",
-    "tags": [],
-    "paper_url": "https://arxiv.org/abs/2108.05115"
-  },
-  {
-    "conference_slug": "icsme",
-    "year": 2021,
     "paper_title": "Towards Just-Enough Documentation for Agile Effort Estimation: What Information Should Be Documented?",
     "authors": [
       "Jirat Pasuksmit",
@@ -7581,7 +7567,7 @@
     "year": 2022,
     "paper_title": "DESPOT: Online POMDP Planning with Regularization",
     "authors": "Ye et al.",
-    "award_type": "best_paper",
+    "award_type": "test_of_time",
     "tags": [
       "POMDP",
       "Planning"
@@ -7865,20 +7851,6 @@
       "Autonomous Systems"
     ],
     "paper_url": "https://arxiv.org/abs/2304.00959"
-  },
-  {
-    "conference_slug": "iros",
-    "year": 2024,
-    "paper_title": "On the Modularity of Elementary Dynamic Actions",
-    "authors": [
-      "Moses Nah",
-      "Johannes Lachner",
-      "Federico Tessari",
-      "Neville Hogan"
-    ],
-    "award_type": "best_paper",
-    "tags": [],
-    "paper_url": "https://doi.org/10.1109/IROS58592.2024.10801502"
   },
   {
     "conference_slug": "isca",
