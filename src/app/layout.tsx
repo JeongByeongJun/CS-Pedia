@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from "next/script";
 import { headers } from "next/headers";
+import { LocaleProvider } from "@/presentation/providers/locale-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -241,15 +242,17 @@ export default async function RootLayout({
   return (
     <html lang={lang}>
       <head>
-        <link rel="preconnect" href="https://tacydbrkzoquiprjabkc.supabase.co" />
+        <link rel="preconnect" href={process.env.NEXT_PUBLIC_SUPABASE_URL!} />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
-        <MobileNav />
+        <LocaleProvider lang={lang}>
+          {children}
+          <MobileNav />
         <FeedbackButton isKorean={lang === "ko"} />
+        </LocaleProvider>
         <Analytics />
         <SpeedInsights />
         <Script

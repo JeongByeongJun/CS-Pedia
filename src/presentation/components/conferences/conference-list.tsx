@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import type { ConferenceWithRelations } from "@/domain/repositories/conference-repository";
 import { ConferenceCard } from "./conference-card";
 import { useLocale } from "@/presentation/hooks/use-locale";
@@ -20,6 +20,10 @@ export function ConferenceList({
 }: ConferenceListProps) {
   const { isKorean } = useLocale();
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [conferences]);
 
   const showMore = useCallback(() => {
     setVisibleCount((prev) => prev + PAGE_SIZE);
