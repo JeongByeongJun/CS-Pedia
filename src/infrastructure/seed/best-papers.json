@@ -2264,22 +2264,6 @@
   },
   {
     "conference_slug": "atc",
-    "year": 2022,
-    "paper_title": "Riker: Always-Correct and Fast Incremental Builds from Simple Specifications",
-    "authors": [
-      "Charlie Curtsinger",
-      "Daniel W. Barowy"
-    ],
-    "award_type": "best_paper",
-    "tags": [
-      "build systems",
-      "incremental builds",
-      "correctness"
-    ],
-    "paper_url": "https://www.semanticscholar.org/paper/aabe569e98dc74ae4e9ab9384288b66e09d65523"
-  },
-  {
-    "conference_slug": "atc",
     "year": 2023,
     "paper_title": "On-demand Container Loading in AWS Lambda",
     "authors": [
@@ -2775,7 +2759,7 @@
   {
     "conference_slug": "cgo",
     "year": 2021,
-    "paper_title": "Compiler Graph Applications for GPUs with GraphIt",
+    "paper_title": "Compiling Graph Applications for GPUs with GraphIt",
     "authors": [
       "Ajay Brahmakshatriya",
       "Yunming Zhang",
@@ -3380,17 +3364,6 @@
   {
     "conference_slug": "chi",
     "year": 2025,
-    "paper_title": "Tracing Change in Social Media Use: A Qualitative Longitudinal Study",
-    "authors": "Beata Jungselius, Alexandra Weilenmann",
-    "award_type": "best_paper",
-    "tags": [
-      "Social Networks"
-    ],
-    "paper_url": "https://doi.org/10.1145/3706598.3713813"
-  },
-  {
-    "conference_slug": "chi",
-    "year": 2025,
     "paper_title": "Tracking and its Potential for Older Adults with Memory Concerns",
     "authors": "Amelia Short, Norman Makoto Su, Ruipu Hu, Eun Kyoung Choe, Hernisa Kacorri, Margaret Danilovich, David E. Conroy, Shannon Jette, Beth Barnett, Amanda Lazar",
     "award_type": "best_paper",
@@ -3629,7 +3602,7 @@
   {
     "conference_slug": "conext",
     "year": 2021,
-    "paper_title": "Deployment and scalability of an inter-domain multi-path routing infrastructure",
+    "paper_title": "Deployment and Scalability of an Inter-Domain Multi-Path Routing Infrastructure",
     "authors": [
       "Cyrill Krähenbühl",
       "Seyedali Tabaeiaghdaei",
