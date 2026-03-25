@@ -6053,18 +6053,6 @@
   },
   {
     "conference_slug": "hpdc",
-    "year": 2022,
-    "paper_title": "Labios: A Label-Based I/O System",
-    "authors": [
-      "Hariharan Devarajan",
-      "Xian-He Sun",
-      "Jay Lofstead"
-    ],
-    "award_type": "best_paper",
-    "tags": []
-  },
-  {
-    "conference_slug": "hpdc",
     "year": 2023,
     "paper_title": "Kairos: Building Cost-Efficient Machine Learning Inference Systems with Heterogeneous Cloud Resources",
     "authors": [
@@ -12978,17 +12966,6 @@
   },
   {
     "conference_slug": "stoc",
-    "year": 2024,
-    "paper_title": "Nearly-Linear Time Algorithm for Max Flow",
-    "authors": "Chen et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Max Flow",
-      "Algorithms"
-    ]
-  },
-  {
-    "conference_slug": "stoc",
     "year": 2025,
     "paper_title": "Breaking the Sorting Barrier for Directed Single-Source Shortest Paths",
     "authors": [
@@ -18665,7 +18642,7 @@
     "authors": "[\"Felix Petermann\", \"Ole Andreas Alsos\"]",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://link.springer.com/chapter/10.1007/978-3-032-04999-5_32"
   },
   {
     "conference_slug": "icst",
@@ -20139,7 +20116,7 @@
       "Answer Set Programming",
       "Theorem Proving"
     ],
-    "paper_url": null
+    "paper_url": "https://doi.org/10.1017/S1471068425100112"
   },
   {
     "conference_slug": "iccd",
@@ -20212,5 +20189,41 @@
       "Load Optimization"
     ],
     "paper_url": "https://arxiv.org/abs/2406.18786"
+  },
+  {
+    "conference_slug": "stoc",
+    "year": 2024,
+    "paper_title": "Single-Source Shortest Paths with Negative Real Weights in Õ(mn^{8/9}) Time",
+    "authors": "Fineman",
+    "award_type": "best_paper",
+    "tags": [
+      "Shortest Paths",
+      "Graph Algorithms"
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3618260.3649615"
+  },
+  {
+    "conference_slug": "stoc",
+    "year": 2024,
+    "paper_title": "Near Optimal Alphabet-Soundness Tradeoff PCPs",
+    "authors": "Minzer & Zheng",
+    "award_type": "best_paper",
+    "tags": [
+      "PCP",
+      "Complexity Theory"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "stoc",
+    "year": 2024,
+    "paper_title": "Parameterized Inapproximability Hypothesis under Exponential Time Hypothesis",
+    "authors": "Guruswami, Lin, Ren, Sun & Wu",
+    "award_type": "best_paper",
+    "tags": [
+      "Parameterized Complexity",
+      "Inapproximability"
+    ],
+    "paper_url": null
   }
 ]
