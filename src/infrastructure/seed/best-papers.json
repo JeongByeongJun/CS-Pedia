@@ -8804,26 +8804,6 @@
   },
   {
     "conference_slug": "models",
-    "year": 2021,
-    "paper_title": "Model-Based Development of Engine Control Systems: Experiences and Lessons Learnt",
-    "authors": [
-      "Justin Cooper",
-      "Alfonso de la Vega",
-      "Richard Paige",
-      "Dimitris Kolovos",
-      "Michael Bennett",
-      "Caroline Brown",
-      "Beatriz Sanchez Piña",
-      "Horacio Hoyos Rodriguez"
-    ],
-    "award_type": "best_paper",
-    "tags": [
-      "Model-Based Methods"
-    ],
-    "paper_url": "https://doi.org/10.1109/MODELS50736.2021.00038"
-  },
-  {
-    "conference_slug": "models",
     "year": 2022,
     "paper_title": "Accelerating Similarity-Based Model Matching Using On-The-Fly Similarity Preserving Hashing",
     "authors": [
@@ -9502,18 +9482,6 @@
     "paper_url": "http://arxiv.org/abs/2404.02905v2"
   },
   {
-    "conference_slug": "neurips",
-    "year": 2025,
-    "paper_title": "Scaling Laws for Precision",
-    "authors": "Gu et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "LLM",
-      "Scaling"
-    ],
-    "paper_url": "https://arxiv.org/abs/2411.04330"
-  },
-  {
     "conference_slug": "nsdi",
     "year": 2021,
     "paper_title": "ATP: In-network Aggregation for Multi-tenant Learning",
@@ -9549,18 +9517,6 @@
       "Simulation"
     ],
     "paper_url": "http://arxiv.org/abs/2201.01811v4"
-  },
-  {
-    "conference_slug": "nsdi",
-    "year": 2024,
-    "paper_title": "Efficient Datacenter Load Balancing",
-    "authors": "Eisenbud et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Load Balancing",
-      "Datacenter"
-    ],
-    "paper_url": "https://www.semanticscholar.org/paper/56f259a026d4349660ff21cca4a3fd1dd4f5898f"
   },
   {
     "conference_slug": "nsdi",
@@ -10153,23 +10109,6 @@
       "Tensor"
     ],
     "paper_url": "https://doi.org/10.1145/3591236"
-  },
-  {
-    "conference_slug": "pldi",
-    "year": 2024,
-    "paper_title": "Predictable Verification using Intrinsic Definitions",
-    "authors": [
-      "Adithya Murali",
-      "Cody Rivera",
-      "P. Madhusudan"
-    ],
-    "award_type": "distinguished_paper",
-    "tags": [
-      "program verification",
-      "formal methods",
-      "decidable logics"
-    ],
-    "paper_url": "http://arxiv.org/abs/2404.04515v2"
   },
   {
     "conference_slug": "pldi",
@@ -11114,40 +11053,6 @@
   },
   {
     "conference_slug": "ppopp",
-    "year": 2024,
-    "paper_title": "ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores",
-    "authors": [
-      "Yuetao Chen",
-      "Kun Li",
-      "Yuhao Wang",
-      "Donglin Bai",
-      "Lei Wang",
-      "Lingxiao Ma",
-      "Liang Yuan",
-      "Yunquan Zhang",
-      "Ting Cao",
-      "Mao Yang"
-    ],
-    "award_type": "best_paper",
-    "tags": [],
-    "paper_url": "https://doi.org/10.1145/3627535.3638476"
-  },
-  {
-    "conference_slug": "ppopp",
-    "year": 2025,
-    "paper_title": "BerryBees: Breadth First Search by Bit-Tensor-Cores",
-    "authors": [
-      "Yuyao Niu",
-      "Marc Casas"
-    ],
-    "award_type": "distinguished_paper",
-    "tags": [
-      "Search Algorithms"
-    ],
-    "paper_url": "https://doi.org/10.1145/3710848.3710859"
-  },
-  {
-    "conference_slug": "ppopp",
     "year": 2025,
     "paper_title": "EVeREST: An Effective and Versatile Runtime Energy Saving Tool for GPUs",
     "authors": [
@@ -11160,20 +11065,6 @@
       "Energy Systems"
     ],
     "paper_url": "https://doi.org/10.1145/3710848.3710875"
-  },
-  {
-    "conference_slug": "ppopp",
-    "year": 2025,
-    "paper_title": "Publish on Ping: A Better Way to Publish Reservations in Memory Reclamation for Concurrent Data Structures",
-    "authors": [
-      "Ajay Singh",
-      "Trevor Brown"
-    ],
-    "award_type": "distinguished_paper",
-    "tags": [
-      "Concurrency"
-    ],
-    "paper_url": "http://arxiv.org/abs/2501.04250v2"
   },
   {
     "conference_slug": "raid",
@@ -11673,7 +11564,7 @@
       "Flavio Vella",
       "Paolo Rech"
     ],
-    "award_type": "best_paper",
+    "award_type": "best_student_paper",
     "tags": [],
     "paper_url": "http://arxiv.org/abs/2407.10841v1"
   },
