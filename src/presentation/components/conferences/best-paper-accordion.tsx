@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 
 interface BestPaperAccordionProps {
-  papers: Array<{ title: string; year: number; awardType: string }>;
+  papers: Array<{ title: string; year: number; awardType: string; paperUrl: string | null }>;
 }
 
 export function BestPaperAccordion({ papers }: BestPaperAccordionProps) {
@@ -46,7 +46,13 @@ export function BestPaperAccordion({ papers }: BestPaperAccordionProps) {
                   {AWARD_TYPE_LABELS[p.awardType as keyof typeof AWARD_TYPE_LABELS] ?? p.awardType}
                 </div>
               )}
-              <div className="font-medium text-zinc-800">{p.title}</div>
+              {p.paperUrl ? (
+                <a href={p.paperUrl} target="_blank" rel="noopener noreferrer" className="font-medium text-zinc-800 hover:text-indigo-600 transition-colors">
+                  {p.title}
+                </a>
+              ) : (
+                <div className="font-medium text-zinc-800">{p.title}</div>
+              )}
             </div>
           ))}
         </div>

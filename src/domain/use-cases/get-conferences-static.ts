@@ -18,7 +18,7 @@ interface StaticConference {
   conferenceStart: string | null;
   conferenceEnd: string | null;
   institutionRatings: Array<{ institution: string; tier: string | null }>;
-  latestBestPapers: Array<{ title: string; year: number; awardType: string }>;
+  latestBestPapers: Array<{ title: string; year: number; awardType: string; paperUrl: string | null }>;
 }
 
 function toDate(v: string | null): Date | null {

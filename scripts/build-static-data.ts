@@ -76,7 +76,7 @@ async function main() {
   }
 
   // Group best papers by slug → latest year only
-  const bestPapersBySlug = new Map<string, Array<{ title: string; year: number; awardType: string }>>();
+  const bestPapersBySlug = new Map<string, Array<{ title: string; year: number; awardType: string; paperUrl: string | null }>>();
   const maxYearBySlug = new Map<string, number>();
   for (const bp of bestPapers) {
     const cur = maxYearBySlug.get(bp.conference_slug) ?? 0;
@@ -91,6 +91,7 @@ async function main() {
         title: bp.paper_title,
         year: bp.year,
         awardType: bp.award_type,
+        paperUrl: bp.paper_url ?? null,
       });
     }
   }

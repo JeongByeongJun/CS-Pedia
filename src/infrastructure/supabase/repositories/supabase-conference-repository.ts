@@ -15,6 +15,7 @@ interface LatestBestPaperRow {
   paper_title: string;
   year: number;
   award_type: string;
+  paper_url: string | null;
 }
 
 export class SupabaseConferenceRepository implements ConferenceRepository {
@@ -45,7 +46,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
         .select("conference_id, institution, tier"),
       supabase
         .from("conference_latest_best_papers")
-        .select("conference_id, paper_title, year, award_type"),
+        .select("conference_id, paper_title, year, award_type, paper_url"),
       supabase
         .from("deadlines")
         .select("conference_id, timezone, paper_deadline")
@@ -103,7 +104,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
             tier: r.tier,
           })),
           latestBestPapers: (bestPapersByConf.get(row.id ?? "") ?? []).map(
-            (p) => ({ title: p.paper_title, year: p.year, awardType: p.award_type }),
+            (p) => ({ title: p.paper_title, year: p.year, awardType: p.award_type, paperUrl: p.paper_url ?? null }),
           ),
         };
       })

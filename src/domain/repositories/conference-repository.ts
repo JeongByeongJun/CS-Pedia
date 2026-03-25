@@ -15,7 +15,7 @@ export interface ConferenceWithRelations extends Conference {
   conferenceStart: Date | null;
   conferenceEnd: Date | null;
   institutionRatings: Array<{ institution: string; tier: string | null }>;
-  latestBestPapers: Array<{ title: string; year: number; awardType: string }>;
+  latestBestPapers: Array<{ title: string; year: number; awardType: string; paperUrl: string | null }>;
 }
 
 export interface ConferenceRepository {
