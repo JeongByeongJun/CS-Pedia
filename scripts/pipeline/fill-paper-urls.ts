@@ -7,7 +7,7 @@ import * as fs from "fs";
 import * as path from "path";
 
 const S2_MATCH = "https://api.semanticscholar.org/graph/v1/paper/search/match";
-const DELAY_MS = 2000;
+const DELAY_MS = 5000;
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
