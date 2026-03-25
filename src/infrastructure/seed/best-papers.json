@@ -667,7 +667,8 @@
       "Zhuowen Tu"
     ],
     "award_type": "test_of_time",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/1409.5185"
   },
   {
     "conference_slug": "aistats",
@@ -1096,7 +1097,8 @@
       "deep learning",
       "fault localization",
       "mutation testing"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2309.05067"
   },
   {
     "conference_slug": "ase",
@@ -2128,7 +2130,8 @@
     "tags": [
       "OS",
       "Architecture"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/abs/10.1145/3676641.3716028"
   },
   {
     "conference_slug": "assets",
@@ -2784,7 +2787,8 @@
     "award_type": "best_paper",
     "tags": [
       "Compilers"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2012.07990"
   },
   {
     "conference_slug": "cgo",
@@ -2882,7 +2886,8 @@
       "HCI",
       "participatory design",
       "data"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3411764.3445103"
   },
   {
     "conference_slug": "chi",
@@ -2905,7 +2910,8 @@
     "tags": [
       "HCI",
       "Impact"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2301.13431"
   },
   {
     "conference_slug": "chi",
@@ -3773,7 +3779,8 @@
     "award_type": "best_paper",
     "tags": [
       "Few-Shot Learning"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2308.07931"
   },
   {
     "conference_slug": "corl",
@@ -3817,7 +3824,8 @@
     "tags": [
       "Foundations",
       "Complexity Theory"
-    ]
+    ],
+    "paper_url": "https://eprint.iacr.org/2021/535"
   },
   {
     "conference_slug": "crypto",
@@ -3828,7 +3836,8 @@
     "tags": [
       "Succinct Arguments",
       "Standard Assumptions"
-    ]
+    ],
+    "paper_url": "https://eprint.iacr.org/2022/336"
   },
   {
     "conference_slug": "crypto",
@@ -4568,7 +4577,8 @@
       "Gerd Kortuem"
     ],
     "award_type": "best_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3643834.3661503"
   },
   {
     "conference_slug": "dis",
@@ -4679,7 +4689,8 @@
       "Mattan Erez"
     ],
     "award_type": "best_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2209.00685"
   },
   {
     "conference_slug": "dsn",
@@ -5032,7 +5043,8 @@
       "Yoshua Bengio"
     ],
     "award_type": "test_of_time",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/1412.7525"
   },
   {
     "conference_slug": "ecml-pkdd",
@@ -5103,7 +5115,8 @@
     "award_type": "best_student_paper",
     "tags": [
       "Image Segmentation"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2504.06185"
   },
   {
     "conference_slug": "egsr",
@@ -5383,7 +5396,8 @@
     "tags": [
       "Garbled Circuits",
       "RAM"
-    ]
+    ],
+    "paper_url": "https://eprint.iacr.org/2021/1519"
   },
   {
     "conference_slug": "eurocrypt",
@@ -5418,7 +5432,8 @@
     "tags": [
       "Pseudorandom Generators",
       "Cryptanalysis"
-    ]
+    ],
+    "paper_url": "https://eprint.iacr.org/2023/119"
   },
   {
     "conference_slug": "eurocrypt",
@@ -5595,7 +5610,8 @@
       "Ana Oliveira Da Costa"
     ],
     "award_type": "best_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2002.06465"
   },
   {
     "conference_slug": "fast",
@@ -5778,17 +5794,6 @@
       "Additive"
     ],
     "paper_url": "http://arxiv.org/abs/2302.05537v6"
-  },
-  {
-    "conference_slug": "focs",
-    "year": 2024,
-    "paper_title": "Optimal Algorithms for Online Selection",
-    "authors": "Rubinstein et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Online Algorithms",
-      "Theory"
-    ]
   },
   {
     "conference_slug": "focs",
@@ -6188,7 +6193,8 @@
     "tags": [
       "Human-Robot Interaction",
       "Robotics"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3568162.3576973"
   },
   {
     "conference_slug": "hri",
@@ -6366,7 +6372,8 @@
       "Hong Va Leong"
     ],
     "award_type": "best_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3585512"
   },
   {
     "conference_slug": "icalp",
@@ -6750,7 +6757,8 @@
       "Igor Zablotchi"
     ],
     "award_type": "best_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://ieeexplore.ieee.org/document/9546485"
   },
   {
     "conference_slug": "icdcs",
@@ -7082,17 +7090,6 @@
     "paper_url": "https://arxiv.org/abs/2310.06114"
   },
   {
-    "conference_slug": "iclr",
-    "year": 2025,
-    "paper_title": "Grokking and Double Descent Unified",
-    "authors": "Power et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Theory",
-      "Generalization"
-    ]
-  },
-  {
     "conference_slug": "icml",
     "year": 2021,
     "paper_title": "Unbiased Gradient Estimation in Unrolled Computation Graphs with Persistent Evolution Strategies",
@@ -7341,17 +7338,6 @@
   },
   {
     "conference_slug": "icra",
-    "year": 2024,
-    "paper_title": "Language-Guided Robot Manipulation",
-    "authors": "Brohan et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Language",
-      "Manipulation"
-    ]
-  },
-  {
-    "conference_slug": "icra",
     "year": 2025,
     "paper_title": "MAC-VO: Metrics-aware Covariance for Learning-based Stereo Visual Odometry",
     "authors": "Qiu, Chen, Zhang, Wang, Scherer",
@@ -7371,7 +7357,8 @@
     "tags": [
       "Robot Learning",
       "Data Management"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2505.15558"
   },
   {
     "conference_slug": "ics",
@@ -7542,17 +7529,6 @@
   {
     "conference_slug": "icse",
     "year": 2025,
-    "paper_title": "It's About Time: An Empirical Study of Date and Time Bugs in Open-Source Python Software",
-    "authors": "Tiwari, Chen, Joukov, Vandervelde, Li, Padhye",
-    "award_type": "distinguished_paper",
-    "tags": [
-      "Bug Study",
-      "Python"
-    ]
-  },
-  {
-    "conference_slug": "icse",
-    "year": 2025,
     "paper_title": "Rango: Adaptive Retrieval-Augmented Proving for Automated Software Verification",
     "authors": "Saavedra, Ferreira",
     "award_type": "distinguished_paper",
@@ -7691,17 +7667,6 @@
       "Planning"
     ],
     "paper_url": "https://arxiv.org/abs/2305.16945"
-  },
-  {
-    "conference_slug": "ijcai",
-    "year": 2024,
-    "paper_title": "Neuro-Symbolic AI for Logical Reasoning",
-    "authors": "Manhaeve et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Neuro-Symbolic",
-      "Reasoning"
-    ]
   },
   {
     "conference_slug": "ijcai",
@@ -8004,18 +7969,8 @@
     "tags": [
       "Memory",
       "Datacenter"
-    ]
-  },
-  {
-    "conference_slug": "isca",
-    "year": 2024,
-    "paper_title": "Efficient Accelerator Design for LLM Inference",
-    "authors": "Shao et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Accelerator",
-      "LLM"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3579371.3589079"
   },
   {
     "conference_slug": "isca",
@@ -8115,7 +8070,8 @@
       "Transfer Learning",
       "Cross-Lingual",
       "Type Systems"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2107.00157"
   },
   {
     "conference_slug": "issta",
@@ -8295,17 +8251,6 @@
       "Prompting"
     ],
     "paper_url": "https://arxiv.org/abs/2307.01504"
-  },
-  {
-    "conference_slug": "kdd",
-    "year": 2024,
-    "paper_title": "Foundation Models for Tabular Data",
-    "authors": "Hollmann et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Foundation Models",
-      "Tabular"
-    ]
   },
   {
     "conference_slug": "kdd",
@@ -9217,7 +9162,8 @@
       "Rohan Padhye"
     ],
     "award_type": "distinguished_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://ieeexplore.ieee.org/document/11025657/"
   },
   {
     "conference_slug": "naacl",
@@ -9338,7 +9284,8 @@
       "web security",
       "service workers",
       "privacy"
-    ]
+    ],
+    "paper_url": "https://www.ndss-symposium.org/ndss-paper/awakening-the-webs-sleeper-agents-misusing-service-workers-for-privacy-leakage/"
   },
   {
     "conference_slug": "ndss",
@@ -9361,7 +9308,8 @@
     "tags": [
       "LLM",
       "Backdoor"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2308.13904"
   },
   {
     "conference_slug": "ndss",
@@ -9894,17 +9842,6 @@
   },
   {
     "conference_slug": "osdi",
-    "year": 2024,
-    "paper_title": "Serverless at Exascale",
-    "authors": "Schall et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Serverless",
-      "Cloud"
-    ]
-  },
-  {
-    "conference_slug": "osdi",
     "year": 2025,
     "paper_title": "Basilisk: Using Provenance Invariants to Automate Proofs of Undecidable Protocols",
     "authors": "Zhang et al.",
@@ -9924,7 +9861,8 @@
     "tags": [
       "Language Interoperability",
       "Safety"
-    ]
+    ],
+    "paper_url": "https://www.usenix.org/conference/osdi25/presentation/schuermann"
   },
   {
     "conference_slug": "pact",
@@ -10002,7 +9940,8 @@
     "tags": [
       "Supersampling",
       "Real-time Rendering"
-    ]
+    ],
+    "paper_url": "https://diglib.eg.org/items/c4ee97f2-ba2a-4d1b-b334-c0a41e218cee"
   },
   {
     "conference_slug": "pg",
@@ -10364,7 +10303,8 @@
       "separation logic",
       "formal methods",
       "iris"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3729284"
   },
   {
     "conference_slug": "pldi",
@@ -10416,7 +10356,8 @@
       "rust",
       "aliasing",
       "formal methods"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3735592"
   },
   {
     "conference_slug": "pldi",
@@ -10658,7 +10599,8 @@
       "parallel computing",
       "functional programming",
       "space efficiency"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3434299"
   },
   {
     "conference_slug": "popl",
@@ -11353,7 +11295,8 @@
       "Wouter Joosen"
     ],
     "award_type": "best_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://dl.acm.org/doi/abs/10.1145/3545948.3545955"
   },
   {
     "conference_slug": "raid",
@@ -11697,7 +11640,8 @@
     "tags": [
       "Search",
       "Motion Planning"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2305.11643"
   },
   {
     "conference_slug": "rss",
@@ -11708,7 +11652,8 @@
     "tags": [
       "Diffusion",
       "Robot Control"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2303.04137"
   },
   {
     "conference_slug": "saner",
@@ -11899,7 +11844,8 @@
       "Theodore Kim"
     ],
     "award_type": "best_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3606920"
   },
   {
     "conference_slug": "sdm",
@@ -12106,17 +12052,6 @@
   },
   {
     "conference_slug": "sigcomm",
-    "year": 2024,
-    "paper_title": "Programmable Network Telemetry at Scale",
-    "authors": "Kim et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Telemetry",
-      "Programmable Networks"
-    ]
-  },
-  {
-    "conference_slug": "sigcomm",
     "year": 2025,
     "paper_title": "Mosaic: Breaking the Optics versus Copper Trade-off with a Wide-and-Slow Architecture and MicroLEDs",
     "authors": "Benyahya, Gomez Diaz, Liu, Lyutsarev, Pantouvaki et al.",
@@ -12268,7 +12203,8 @@
     "tags": [
       "Geometry Processing",
       "Mesh Design"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3618345"
   },
   {
     "conference_slug": "siggraph-asia",
@@ -12339,7 +12275,8 @@
     "tags": [
       "Novel View Synthesis",
       "Real-time"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2411.16680"
   },
   {
     "conference_slug": "sigir",
@@ -12378,17 +12315,6 @@
       "Platform"
     ],
     "paper_url": "http://arxiv.org/abs/2305.18932v1"
-  },
-  {
-    "conference_slug": "sigir",
-    "year": 2024,
-    "paper_title": "Generative Retrieval via Document Identifiers",
-    "authors": "Tay et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Generative IR",
-      "Retrieval"
-    ]
   },
   {
     "conference_slug": "sigir",
@@ -12508,7 +12434,8 @@
       "databases",
       "cardinality estimation",
       "query optimization"
-    ]
+    ],
+    "paper_url": "https://arxiv.org/abs/2502.05912"
   },
   {
     "conference_slug": "socc",
@@ -13335,7 +13262,8 @@
       "Jennifer Mankoff"
     ],
     "award_type": "distinguished_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3569485"
   },
   {
     "conference_slug": "ubicomp",
@@ -13411,7 +13339,8 @@
       "Chenyang Lu"
     ],
     "award_type": "distinguished_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3534578"
   },
   {
     "conference_slug": "ubicomp",
@@ -13429,7 +13358,8 @@
     "tags": [
       "Object Tracking",
       "Augmented Reality"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3569479"
   },
   {
     "conference_slug": "ubicomp",
@@ -13448,7 +13378,8 @@
     "award_type": "distinguished_paper",
     "tags": [
       "Virtual Reality"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3534615"
   },
   {
     "conference_slug": "ubicomp",
@@ -13468,7 +13399,8 @@
     "award_type": "distinguished_paper",
     "tags": [
       "Monitoring"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3550336"
   },
   {
     "conference_slug": "ubicomp",
@@ -13501,7 +13433,8 @@
     "award_type": "distinguished_paper",
     "tags": [
       "Monitoring"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3580850"
   },
   {
     "conference_slug": "ubicomp",
@@ -13517,7 +13450,8 @@
       "Yuvraj Agarwal"
     ],
     "award_type": "distinguished_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3580865"
   },
   {
     "conference_slug": "ubicomp",
@@ -13538,7 +13472,8 @@
       "Paul Lukowicz"
     ],
     "award_type": "distinguished_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3580883"
   },
   {
     "conference_slug": "ubicomp",
@@ -13598,7 +13533,8 @@
       "Seung Jun Kim"
     ],
     "award_type": "distinguished_paper",
-    "tags": []
+    "tags": [],
+    "paper_url": "https://dl.acm.org/doi/abs/10.1145/3610886"
   },
   {
     "conference_slug": "ubicomp",
@@ -13620,7 +13556,8 @@
       "Resilience",
       "Mental Health Technology",
       "Health Informatics"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.1145/3643501"
   },
   {
     "conference_slug": "ubicomp",
@@ -14293,7 +14230,8 @@
     "tags": [
       "Distributed Learning",
       "GNN"
-    ]
+    ],
+    "paper_url": "https://dl.acm.org/doi/10.14778/3538598.3538614"
   },
   {
     "conference_slug": "vldb",
@@ -14582,17 +14520,6 @@
       "Datasets"
     ],
     "paper_url": "https://arxiv.org/abs/2301.07015"
-  },
-  {
-    "conference_slug": "www",
-    "year": 2024,
-    "paper_title": "Web-Scale Knowledge Graph Completion",
-    "authors": "Galkin et al.",
-    "award_type": "best_paper",
-    "tags": [
-      "Knowledge Graph",
-      "Web"
-    ]
   },
   {
     "conference_slug": "www",
@@ -15870,7 +15797,7 @@
     "authors": "Hugo Sadok, Nirav Atre, Zhipeng Zhao, Daniel S. Berger, James C. Hoe, Aurojit Panda, Justine Sherry, Ren Wang",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://www.usenix.org/conference/osdi23/presentation/sadok"
   },
   {
     "conference_slug": "pldi",
@@ -16208,7 +16135,7 @@
     "authors": "John S. Seberger, Irina Shklovski, Emily Swiatek, Sameer Patil",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://dl.acm.org/doi/10.1145/3491102.3502112"
   },
   {
     "conference_slug": "chi",
@@ -16606,7 +16533,7 @@
       "Diffusion Models",
       "Generative Models"
     ],
-    "paper_url": null
+    "paper_url": "https://arxiv.org/abs/2202.02763"
   },
   {
     "conference_slug": "neurips",
@@ -16668,7 +16595,7 @@
     "authors": "Kai Geissdoerfer & Marco Zimmerling",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://www.usenix.org/conference/nsdi22/presentation/geissdoerfer"
   },
   {
     "conference_slug": "siggraph",
@@ -16679,7 +16606,7 @@
     "tags": [
       "Latency Optimization"
     ],
-    "paper_url": null
+    "paper_url": "https://dl.acm.org/doi/abs/10.1145/3528223.3530055"
   },
   {
     "conference_slug": "siggraph",
@@ -16688,7 +16615,7 @@
     "authors": "Yael Vinker, Ehsan Pajouheshgar, Jessica Y. Bo, Roman Christian Bachmann, Amit Bermano, Daniel Cohen-Or, Amir Zamir, Ariel Shamir",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://arxiv.org/abs/2202.05822"
   },
   {
     "conference_slug": "siggraph",
@@ -16706,7 +16633,7 @@
     "authors": "Nicholas Sharp & Alec Jacobson",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://arxiv.org/abs/2202.02444"
   },
   {
     "conference_slug": "siggraph",
@@ -16715,7 +16642,7 @@
     "authors": "Sebastian Starke, Ian Mason, Taku Komura",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://dl.acm.org/doi/10.1145/3528223.3530178"
   },
   {
     "conference_slug": "sigir",
@@ -16987,7 +16914,7 @@
     "authors": "Juan Carlos Alvarez de la Vega, Marta E. Cecchinato, John Rooksby",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://dl.acm.org/doi/10.1145/3411764.3445305"
   },
   {
     "conference_slug": "chi",
@@ -17057,7 +16984,7 @@
     "authors": "Arthur Capozzi, Gianmarco De Francisci Morales, Yelena Mejova, Corrado Monti, André Panisson, Daniela Paolotti",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://arxiv.org/abs/2103.09224"
   },
   {
     "conference_slug": "chi",
@@ -17707,7 +17634,7 @@
     "tags": [
       "Scalability"
     ],
-    "paper_url": null
+    "paper_url": "https://arxiv.org/abs/1907.10641"
   },
   {
     "conference_slug": "acl",
@@ -17842,7 +17769,7 @@
     "authors": "Ryan Colin Gibson, Mark D. Dunlop, Matt-Mouley Bouamrane, Revathy Nayar",
     "award_type": "best_paper",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://dl.acm.org/doi/abs/10.1145/3313831.3376159"
   },
   {
     "conference_slug": "chi",
@@ -18206,7 +18133,7 @@
     "tags": [
       "Fairness"
     ],
-    "paper_url": null
+    "paper_url": "https://ieeexplore.ieee.org/document/9283952"
   },
   {
     "conference_slug": "icse",
@@ -18430,7 +18357,7 @@
       "FPGA",
       "Efficiency"
     ],
-    "paper_url": null
+    "paper_url": "https://arxiv.org/abs/2010.14145"
   },
   {
     "conference_slug": "osdi",
@@ -18999,7 +18926,7 @@
     "tags": [
       "IPC"
     ],
-    "paper_url": null
+    "paper_url": "https://ieeexplore.ieee.org/document/10155708/"
   },
   {
     "conference_slug": "sigmetrics",
@@ -19032,7 +18959,7 @@
     "tags": [
       "Serverless"
     ],
-    "paper_url": null
+    "paper_url": "https://dl.acm.org/doi/abs/10.1145/3530892"
   },
   {
     "conference_slug": "sigmetrics",
@@ -19600,7 +19527,7 @@
       "Active Learning",
       "Automata"
     ],
-    "paper_url": null
+    "paper_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2025.20"
   },
   {
     "conference_slug": "icpp",
@@ -19672,7 +19599,7 @@
       "SSD",
       "Data Indexing"
     ],
-    "paper_url": null
+    "paper_url": "https://arxiv.org/abs/2408.00327"
   },
   {
     "conference_slug": "codes-isss",
@@ -19924,7 +19851,7 @@
       "Motion Sickness",
       "VR Dataset"
     ],
-    "paper_url": null
+    "paper_url": "https://arxiv.org/abs/2306.03381"
   },
   {
     "conference_slug": "ieee-vr",
@@ -19948,7 +19875,7 @@
       "Performance",
       "Benchmarking"
     ],
-    "paper_url": null
+    "paper_url": "https://ieeexplore.ieee.org/document/10701384/"
   },
   {
     "conference_slug": "gecco",
@@ -20032,7 +19959,7 @@
       "Compute-In-Memory",
       "Hardware"
     ],
-    "paper_url": null
+    "paper_url": "https://arxiv.org/abs/2405.07259"
   },
   {
     "conference_slug": "ispass",
@@ -20261,5 +20188,29 @@
       "Surveillance"
     ],
     "paper_url": "https://doi.org/10.1109/AVSS65446.2025.11149928"
+  },
+  {
+    "conference_slug": "icra",
+    "year": 2024,
+    "paper_title": "SARA-RT: Scaling up Robotics Transformers with Self-Adaptive Robust Attention",
+    "authors": "Leal, Ichter, Sermanet & Tompson",
+    "award_type": "best_paper",
+    "tags": [
+      "Robotics",
+      "Transformer"
+    ],
+    "paper_url": "https://arxiv.org/abs/2312.01990"
+  },
+  {
+    "conference_slug": "isca",
+    "year": 2024,
+    "paper_title": "Constable: Improving Performance and Power Efficiency by Safely Eliminating Load Instruction Execution",
+    "authors": "Orosa, Sadrosadati, Luo, Yağlıkçı, Giannoula, Ghiasi, Patel, Kim, Ausavarungnirun & Mutlu",
+    "award_type": "best_paper",
+    "tags": [
+      "Microarchitecture",
+      "Load Optimization"
+    ],
+    "paper_url": "https://arxiv.org/abs/2406.18786"
   }
 ]
