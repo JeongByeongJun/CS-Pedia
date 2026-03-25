@@ -1087,7 +1087,7 @@
   {
     "conference_slug": "ase",
     "year": 2023,
-    "paper_title": "Mutation-based Fault Localization of DNNs",
+    "paper_title": "Mutation-based Fault Localization of Deep Neural Networks",
     "authors": [
       "Ali Ghanbari",
       "Hridesh Rajan"
