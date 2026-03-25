@@ -5387,18 +5387,6 @@
   {
     "conference_slug": "eurocrypt",
     "year": 2023,
-    "paper_title": "Breaking SIDH in Polynomial Time",
-    "authors": "Robert",
-    "award_type": "best_paper",
-    "tags": [
-      "Isogeny Cryptography",
-      "Post-Quantum"
-    ],
-    "paper_url": "https://doi.org/10.1007/978-3-031-30589-4_17"
-  },
-  {
-    "conference_slug": "eurocrypt",
-    "year": 2023,
     "paper_title": "Worst-Case Subexponential Attacks on PRGs of Constant Degree or Constant Locality",
     "authors": "Ünal",
     "award_type": "best_paper_early_career",
@@ -6804,23 +6792,6 @@
       "Clustering"
     ],
     "paper_url": "https://doi.org/10.1109/icde53745.2022.00225"
-  },
-  {
-    "conference_slug": "icde",
-    "year": 2022,
-    "paper_title": "Jarvis: Large-scale Server Monitoring with Adaptive Near-data Processing",
-    "authors": [
-      "Atul Sandur",
-      "ChanHo Park",
-      "Stavros Volos",
-      "Gul Agha",
-      "Myeongjae Jeon"
-    ],
-    "award_type": "best_paper",
-    "tags": [
-      "Scalability"
-    ],
-    "paper_url": "http://arxiv.org/abs/2202.06021v2"
   },
   {
     "conference_slug": "icde",
