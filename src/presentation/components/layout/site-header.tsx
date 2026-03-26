@@ -26,7 +26,7 @@ export function SiteHeader({ stats }: SiteHeaderProps) {
         className="absolute top-0 left-0 right-0 h-[2px] bg-[linear-gradient(90deg,#6366f1,#a855f7,#ec4899,transparent)]"
       />
 
-      <div className="relative max-w-6xl mx-auto px-6">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         {/* Navigation */}
         <div className="flex items-center justify-between h-14">
           <Link href="/" className="flex items-center gap-2.5">
