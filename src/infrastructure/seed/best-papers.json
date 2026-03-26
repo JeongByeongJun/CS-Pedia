@@ -19081,18 +19081,6 @@
     "paper_url": "https://doi.org/10.1111/cgf.70205"
   },
   {
-    "conference_slug": "re",
-    "year": 2024,
-    "paper_title": "ReqCompletion: Domain-Enhanced Automatic Completion for Software Requirements",
-    "authors": "Lian, Ma, Lv & Zhang",
-    "award_type": "distinguished_paper",
-    "tags": [
-      "Requirements",
-      "NLP"
-    ],
-    "paper_url": "https://doi.org/10.1007/s00766-025-00441-w"
-  },
-  {
     "conference_slug": "asiaccs",
     "year": 2025,
     "paper_title": "Breaking Bad: How Compilers Break Constant-Time Implementations",
@@ -19199,18 +19187,6 @@
       "Memory Architecture"
     ],
     "paper_url": "https://arxiv.org/abs/2508.09570"
-  },
-  {
-    "conference_slug": "esop",
-    "year": 2024,
-    "paper_title": "Accurately Computing Expected Visiting Times and Stationary Distributions in Markov Chains",
-    "authors": "Mertens, Katoen, Quatmann & Winkler",
-    "award_type": "best_paper",
-    "tags": [
-      "Markov Chains",
-      "Probabilistic Verification"
-    ],
-    "paper_url": "https://arxiv.org/abs/2401.10638"
   },
   {
     "conference_slug": "esop",
@@ -19493,7 +19469,7 @@
     "year": 2024,
     "paper_title": "The Discrete Gaussian for Differential Privacy",
     "authors": "Canonne, Kamath & Steinke",
-    "award_type": "best_paper",
+    "award_type": "test_of_time",
     "tags": [
       "Differential Privacy",
       "Privacy Theory"
@@ -19505,7 +19481,7 @@
     "year": 2025,
     "paper_title": "Surveilling the Masses with Wi-Fi-Based Positioning Systems",
     "authors": "Rye & Levin",
-    "award_type": "best_paper",
+    "award_type": "test_of_time",
     "tags": [
       "Wi-Fi Positioning",
       "Surveillance"
