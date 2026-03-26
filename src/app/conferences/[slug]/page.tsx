@@ -160,7 +160,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                     href={conference.websiteUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg border border-indigo-200 text-indigo-500 hover:text-indigo-700 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
+                    className="inline-flex items-center gap-1 text-xs px-3 py-2 rounded-lg border border-indigo-200 text-indigo-500 hover:text-indigo-700 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
                   >
                     {isKorean ? "공식 웹사이트" : "Official Website"}
                   </a>
@@ -169,7 +169,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   href={`https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io&su=${encodeURIComponent(`[Error Report] ${conference.acronym}`)}&body=${encodeURIComponent(`Conference: ${conference.acronym} (${conference.nameEn})\nPage: https://cs-pedia.io/conferences/${slug}\n\nError details:\n`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg border border-red-200 text-red-400 hover:text-red-600 hover:border-red-300 hover:bg-red-50 transition-all"
+                  className="inline-flex items-center gap-1 text-xs px-3 py-2 rounded-lg border border-red-200 text-red-400 hover:text-red-600 hover:border-red-300 hover:bg-red-50 transition-all"
                 >
                   {isKorean ? "정보 오류 신고" : "Report Error"}
                 </a>

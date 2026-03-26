@@ -45,7 +45,7 @@ export function ConferenceFilters({
             <button
               key={f}
               onClick={() => onFieldChange(f === "전체" ? "" : f)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+              className={`px-3 py-2 rounded-lg text-xs font-medium transition-all ${
                 (f === "전체" && !selectedField) || selectedField === f
                   ? "bg-indigo-600 text-white shadow-sm"
                   : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
@@ -63,7 +63,7 @@ export function ConferenceFilters({
         <div className="flex flex-wrap gap-2">
           <button
             onClick={() => onInstitutionChange("")}
-            className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+            className={`px-3 py-2 rounded-lg text-xs font-medium transition-all ${
               !selectedInstitution
                 ? "bg-indigo-600 text-white shadow-sm"
                 : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
@@ -75,7 +75,7 @@ export function ConferenceFilters({
             <button
               key={inst}
               onClick={() => onInstitutionChange(inst)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+              className={`px-3 py-2 rounded-lg text-xs font-medium transition-all ${
                 selectedInstitution === inst
                   ? "bg-indigo-600 text-white shadow-sm"
                   : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"

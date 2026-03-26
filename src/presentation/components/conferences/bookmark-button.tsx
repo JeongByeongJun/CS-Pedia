@@ -27,8 +27,8 @@ export function BookmarkButton({
   );
 
   function handleClick() {
+    if (auth.isLoading) return;
     if (!isLoggedIn) {
-      // 헤더의 로그인 버튼으로 시선 유도
       const header = document.querySelector("header");
       header?.scrollIntoView({ behavior: "smooth" });
       return;
@@ -36,14 +36,18 @@ export function BookmarkButton({
 
     startTransition(async () => {
       setOptimisticBookmarked(!optimisticBookmarked);
-      await toggleBookmark(conferenceId);
+      try {
+        await toggleBookmark(conferenceId);
+      } catch {
+        setOptimisticBookmarked(optimisticBookmarked);
+      }
     });
   }
 
   return (
     <button
       onClick={handleClick}
-      disabled={isPending}
+      disabled={isPending || auth.isLoading}
       className={`relative p-2.5 rounded-lg transition-colors before:absolute before:-inset-1 before:content-[''] ${
         optimisticBookmarked
           ? "text-indigo-600 hover:bg-indigo-50"

@@ -42,6 +42,10 @@ export async function signInWithGithub() {
 
 export async function signOut() {
   const supabase = await createSupabaseServerClient();
-  await supabase.auth.signOut();
+  try {
+    await supabase.auth.signOut();
+  } catch {
+    // Sign out failed — redirect anyway to clear client state
+  }
   redirect("/");
 }
