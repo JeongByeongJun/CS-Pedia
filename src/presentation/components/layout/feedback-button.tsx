@@ -30,7 +30,8 @@ const CONTACT_OPTIONS = [
   },
 ];
 
-export function FeedbackButton({ isKorean = true }: { isKorean?: boolean }) {
+export function FeedbackButton() {
+  const { isKorean } = useLocale();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 

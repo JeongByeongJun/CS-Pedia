@@ -37,7 +37,10 @@ export function BookmarkButton({
     startTransition(async () => {
       setOptimisticBookmarked(!optimisticBookmarked);
       try {
-        await toggleBookmark(conferenceId);
+        const result = await toggleBookmark(conferenceId);
+        if ("error" in result) {
+          setOptimisticBookmarked(optimisticBookmarked);
+        }
       } catch {
         setOptimisticBookmarked(optimisticBookmarked);
       }

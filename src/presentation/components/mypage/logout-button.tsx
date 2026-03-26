@@ -3,7 +3,11 @@
 import { LogOut } from "lucide-react";
 import { signOut } from "@/app/actions/auth";
 
-export function LogoutButton() {
+interface LogoutButtonProps {
+  isKorean?: boolean;
+}
+
+export function LogoutButton({ isKorean = true }: LogoutButtonProps) {
   return (
     <form action={signOut}>
       <button
@@ -25,7 +29,7 @@ export function LogoutButton() {
         className="logout-btn-hover"
       >
         <LogOut style={{ width: "14px", height: "14px" }} />
-        로그아웃
+        {isKorean ? "로그아웃" : "Log out"}
       </button>
     </form>
   );

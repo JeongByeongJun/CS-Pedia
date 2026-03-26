@@ -15,15 +15,27 @@ import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 export const metadata: Metadata = {
   title: "Trends — CS-Pedia",
   description: "Compare acceptance rate trends and research keyword trends across top CS conferences.",
+  openGraph: {
+    title: "Trends — CS-Pedia",
+    description: "Compare acceptance rate trends and research keyword trends across top CS conferences.",
+    url: "https://cs-pedia.io/trends",
+    siteName: "CS-Pedia",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Trends — CS-Pedia",
+    description: "Compare acceptance rate trends and research keyword trends across top CS conferences.",
+  },
+  alternates: {
+    canonical: "https://cs-pedia.io/trends",
+  },
 };
 
 export const revalidate = 86400;
 
 export default async function TrendsPage() {
-  const { headers } = await import("next/headers");
-  const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = country === "KR";
-
   const [allRates, allKeywordTrends, topKeywords] =
     await Promise.all([
       getAllAcceptanceRates(),
@@ -74,8 +86,21 @@ export default async function TrendsPage() {
     ...new Set(allKeywordTrends.map((d) => d.conferenceField)),
   ].sort();
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "CS-Pedia", item: "https://cs-pedia.io" },
+      { "@type": "ListItem", position: 2, name: "Trends", item: "https://cs-pedia.io/trends" },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-page-gradient">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <SiteHeader />
 
       <main className="max-w-6xl mx-auto px-4 py-8 sm:px-6">
@@ -123,7 +148,7 @@ export default async function TrendsPage() {
                   />
                 ) : (
                   <div className="text-center py-12 text-zinc-400 text-sm">
-                    {isKorean ? "키워드 데이터가 아직 수집되지 않았습니다." : "No keyword data available yet."}
+                    No keyword data available yet.
                   </div>
                 )}
               </div>

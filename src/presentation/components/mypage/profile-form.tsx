@@ -12,6 +12,7 @@ interface ProfileFormProps {
     institution: string | null;
     researchField: string | null;
   };
+  isKorean?: boolean;
 }
 
 
@@ -35,7 +36,7 @@ const labelStyle: React.CSSProperties = {
   marginBottom: "6px",
 };
 
-export function ProfileForm({ user }: ProfileFormProps) {
+export function ProfileForm({ user, isKorean = true }: ProfileFormProps) {
   const [isPending, startTransition] = useTransition();
 
   const handleSubmit = (formData: FormData) => {
@@ -47,19 +48,19 @@ export function ProfileForm({ user }: ProfileFormProps) {
   return (
     <form action={handleSubmit} className="space-y-4">
       <div>
-        <label style={labelStyle}>이름</label>
+        <label style={labelStyle}>{isKorean ? "이름" : "Name"}</label>
         <input
           name="name"
           type="text"
           defaultValue={user.name ?? ""}
           style={inputStyle}
-          placeholder="이름을 입력하세요"
+          placeholder={isKorean ? "이름을 입력하세요" : "Enter your name"}
           className="focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/20"
         />
       </div>
 
       <div>
-        <label style={labelStyle}>이메일</label>
+        <label style={labelStyle}>{isKorean ? "이메일" : "Email"}</label>
         <input
           type="text"
           defaultValue={user.email ?? ""}
@@ -76,23 +77,29 @@ export function ProfileForm({ user }: ProfileFormProps) {
 
       <div>
         <label style={{ ...labelStyle, display: "flex", alignItems: "center" }}>
-          소속 기관
-          <InfoTooltip text="개인화 추천 및 통계 분석에 활용되며, 외부에 공개되지 않습니다." />
+          {isKorean ? "소속 기관" : "Institution"}
+          <InfoTooltip text={isKorean
+            ? "개인화 추천 및 통계 분석에 활용되며, 외부에 공개되지 않습니다."
+            : "Used for personalized recommendations and analytics. Not shared publicly."
+          } />
         </label>
         <input
           name="institution"
           type="text"
           defaultValue={user.institution ?? ""}
           style={inputStyle}
-          placeholder="예: 서울대학교, KAIST, 고려대학교..."
+          placeholder={isKorean ? "예: 서울대학교, KAIST, 고려대학교..." : "e.g., MIT, Stanford, CMU..."}
           className="focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/20"
         />
       </div>
 
       <div>
         <label style={{ ...labelStyle, display: "flex", alignItems: "center" }}>
-          관심 분야
-          <InfoTooltip text="개인화 추천 및 통계 분석에 활용되며, 외부에 공개되지 않습니다." />
+          {isKorean ? "관심 분야" : "Research Field"}
+          <InfoTooltip text={isKorean
+            ? "개인화 추천 및 통계 분석에 활용되며, 외부에 공개되지 않습니다."
+            : "Used for personalized recommendations and analytics. Not shared publicly."
+          } />
         </label>
         <select
           name="researchField"
@@ -100,7 +107,7 @@ export function ProfileForm({ user }: ProfileFormProps) {
           style={inputStyle}
           className="focus:border-indigo-400 focus:ring-2 focus:ring-indigo-500/20"
         >
-          <option value="">선택하세요</option>
+          <option value="">{isKorean ? "선택하세요" : "Select a field"}</option>
           {FIELDS.filter((f) => f !== "전체").map((field) => (
             <option key={field} value={field}>
               {field}
@@ -126,7 +133,9 @@ export function ProfileForm({ user }: ProfileFormProps) {
           transition: "opacity 0.2s, transform 0.1s",
         }}
       >
-        {isPending ? "저장 중..." : "프로필 저장"}
+        {isPending
+          ? (isKorean ? "저장 중..." : "Saving...")
+          : (isKorean ? "프로필 저장" : "Save Profile")}
       </button>
     </form>
   );

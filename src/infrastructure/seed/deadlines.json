@@ -9,7 +9,7 @@
     "conference_start": "2026-03-20",
     "conference_end": "2026-03-23",
     "venue": "Vancouver, Canada",
-    "timezone": "PT"
+    "timezone": "PDT"
   },
   {
     "conference_slug": "aaai",
@@ -357,7 +357,7 @@
     "conference_start": "2026-08-17",
     "conference_end": "2026-08-20",
     "venue": "Santa Barbara, USA",
-    "timezone": "PT"
+    "timezone": "PST"
   },
   {
     "conference_slug": "cscw",
@@ -405,7 +405,7 @@
     "conference_start": "2026-07-26",
     "conference_end": "2026-07-29",
     "venue": "Long Beach, CA, USA",
-    "timezone": "PT"
+    "timezone": "PST"
   },
   {
     "conference_slug": "dasfaa",
@@ -789,7 +789,7 @@
     "conference_start": "2026-05-13",
     "conference_end": "2026-05-15",
     "venue": "San Francisco, CA, USA",
-    "timezone": "PT"
+    "timezone": "PST"
   },
   {
     "conference_slug": "icalp",
@@ -861,7 +861,7 @@
     "conference_start": "2026-05-04",
     "conference_end": "2026-05-08",
     "venue": "Montreal, Canada",
-    "timezone": "PT"
+    "timezone": "PDT"
   },
   {
     "conference_slug": "icde",
@@ -873,7 +873,7 @@
     "conference_start": "2027-05-17",
     "conference_end": "2027-05-21",
     "venue": "Copenhagen, Denmark",
-    "timezone": "PT"
+    "timezone": "PDT"
   },
   {
     "conference_slug": "icde",
@@ -885,7 +885,7 @@
     "conference_start": "2027-05-17",
     "conference_end": "2027-05-21",
     "venue": "Copenhagen, Denmark",
-    "timezone": "PT"
+    "timezone": "PST"
   },
   {
     "conference_slug": "icdm",
@@ -981,7 +981,7 @@
     "conference_start": "2026-06-01",
     "conference_end": "2026-06-05",
     "venue": "Vienna, Austria",
-    "timezone": "PST"
+    "timezone": "PDT"
   },
   {
     "conference_slug": "ics",
@@ -1317,7 +1317,7 @@
     "conference_start": "2026-10-05",
     "conference_end": "2026-10-07",
     "venue": "Abu Dhabi, UAE",
-    "timezone": "PT"
+    "timezone": "PST"
   },
   {
     "conference_slug": "micro",
@@ -2217,7 +2217,7 @@
     "conference_start": "2027-08-23",
     "conference_end": "2027-08-27",
     "venue": "Athens, Greece",
-    "timezone": "PT"
+    "timezone": "PDT"
   },
   {
     "conference_slug": "wacv",

@@ -163,7 +163,7 @@ export function BestPaperFilters({
               }}
               onFocus={() => setShowDropdown(true)}
               placeholder={isKorean ? "학회 검색 (예: NeurIPS, CHI...)" : "Search conference (e.g. NeurIPS, CHI...)"}
-              className="w-full px-3 py-2 rounded-lg border border-zinc-200 text-xs text-base sm:text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 bg-zinc-50 transition-all"
+              className="w-full px-3 py-2 rounded-lg border border-zinc-200 text-base sm:text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 bg-zinc-50 transition-all"
             />
             {(selectedConference || search) && (
               <button

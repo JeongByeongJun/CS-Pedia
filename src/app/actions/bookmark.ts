@@ -12,7 +12,9 @@ async function getCurrentUserId(): Promise<string | null> {
   return user?.id ?? null;
 }
 
-export async function toggleBookmark(conferenceId: string) {
+export async function toggleBookmark(
+  conferenceId: string,
+): Promise<{ error: string } | { isBookmarked: boolean }> {
   const userId = await getCurrentUserId();
   if (!userId) return { error: "로그인이 필요합니다." };
 

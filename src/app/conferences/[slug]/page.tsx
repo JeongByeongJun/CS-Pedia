@@ -12,8 +12,9 @@ import { ConferenceKeywordChart } from "@/presentation/components/charts/confere
 import { formatDate } from "@/shared/utils/date";
 import { formatAuthors } from "@/shared/utils/url";
 import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
-import { INSTITUTIONS_KR, INSTITUTIONS_INTL } from "@/shared/constants/institutions";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
+import { LocaleText } from "@/presentation/components/ui/locale-text";
+import { InstitutionRatings } from "@/presentation/components/conferences/institution-ratings";
 import { DeadlineLocalTime } from "@/presentation/components/conferences/deadline-local-time";
 
 interface PageProps {
@@ -33,6 +34,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const year = new Date().getFullYear();
   const title = `${acronym} ${year} - Deadline, Acceptance Rate, Best Paper`;
   const description = `${acronym} ${year} deadline, acceptance rate, best paper awards. CORE/CCF rankings included.`;
+  // TODO: metadata is English-only for now. Consider making locale-aware
+  // once headers() usage is resolved for performance (see PERF-004 / I18N-004).
   return {
     title,
     description,
@@ -41,14 +44,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title,
       description,
       url: `https://cs-pedia.io/conferences/${slug}`,
+      siteName: "CS-Pedia",
+      locale: "en_US",
       type: "article",
-      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [{ url: "/og-image.png", alt: title }],
     },
     alternates: {
       canonical: `https://cs-pedia.io/conferences/${slug}`,
@@ -129,10 +132,6 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
     count: kw.count as number,
   }));
 
-  const { headers } = await import("next/headers");
-  const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = country === "KR";
-
   const upcomingDeadline = deadlines.find((d) => d.conferenceStart);
   const resolvedStartDate =
     conference.conferenceStart ??
@@ -201,7 +200,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
           href="/"
           className="inline-flex items-center gap-1 text-sm text-zinc-500 hover:text-zinc-700 mb-6"
         >
-          {isKorean ? "← 학회 목록으로" : "← Back to list"}
+          <LocaleText ko="← 학회 목록으로" en="← Back to list" />
         </Link>
 
         {/* 학회 헤더 */}
@@ -224,7 +223,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-xs px-3 py-2 rounded-lg border border-indigo-200 text-indigo-500 hover:text-indigo-700 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
                   >
-                    {isKorean ? "공식 웹사이트" : "Official Website"}
+                    <LocaleText ko="공식 웹사이트" en="Official Website" />
                   </a>
                 )}
                 <a
@@ -233,7 +232,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs px-3 py-2 rounded-lg border border-red-200 text-red-400 hover:text-red-600 hover:border-red-300 hover:bg-red-50 transition-all"
                 >
-                  {isKorean ? "정보 오류 신고" : "Report Error"}
+                  <LocaleText ko="정보 오류 신고" en="Report Error" />
                 </a>
               </div>
             </div>
@@ -246,65 +245,11 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         </div>
 
         {/* 기관 인정 현황 / Rankings */}
-        <Section title={isKorean
-          ? <>{`기관 인정 현황`}<InfoTooltip text="BK21: 2018년 BK21플러스 점수 기준 (1~4점) · KIISE: 2024년 한국정보과학회 기준 (최우수/우수) · POSTECH: 2026년 기준 (최우수/우수) · KAIST: 2022년 인정 기준 · SNU: 2024년 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>
-          : <>{`Rankings`}<InfoTooltip text="CORE: Australian Research Council 2023 ranking (A*/A/B/C) · CCF: China Computer Federation 2022 ranking (A/B/C) · CSRankings: Included in csrankings.org venue list for university rankings." /></>
-        }>
-          <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
-            {(isKorean ? INSTITUTIONS_KR : INSTITUTIONS_INTL).map((inst) => {
-              const rating = ratings.find((r) => r.institution === inst);
-              const tier = rating?.tier as string | null;
-              const hasTier = tier != null;
-
-              // Display text
-              let displayTier = "—";
-              if (hasTier) {
-                if (inst === "BK21") displayTier = `${tier}점`;
-                else if (inst === "CSRankings" || inst === "SNU") displayTier = "✓";
-                else displayTier = tier;
-              }
-
-              // Color: gold(최우수/A*/A/4점) > blue(우수/A/B/3점) > violet(B/C/2점) > gray
-              const label = inst === "POSTECH" ? "POST" : inst;
-              let cardStyle = "bg-zinc-50 border-zinc-200";
-              let textStyle = "text-zinc-300";
-              if (hasTier) {
-                const isTop = tier === "최우수" || tier === "A*" || tier === "4" || (inst === "CCF" && tier === "A");
-                const isMid = tier === "우수" || tier === "3" || (inst === "CCF" && tier === "B") || (inst === "CORE" && tier === "A");
-                const isLow = tier === "B" || tier === "C" || tier === "2" || tier === "1";
-                if (isTop) {
-                  cardStyle = "bg-amber-50 border-amber-200";
-                  textStyle = "text-amber-700";
-                } else if (isMid) {
-                  cardStyle = "bg-sky-50 border-sky-200";
-                  textStyle = "text-sky-700";
-                } else if (isLow) {
-                  cardStyle = "bg-violet-50 border-violet-200";
-                  textStyle = "text-violet-600";
-                } else {
-                  cardStyle = "bg-emerald-50 border-emerald-200";
-                  textStyle = "text-emerald-700";
-                }
-              }
-
-              return (
-                <div
-                  key={inst}
-                  className={`rounded-xl p-3 text-center border ${cardStyle}`}
-                >
-                  <div className="text-xs text-zinc-500 mb-1">{label}</div>
-                  <div className={`text-lg font-bold ${textStyle}`}>
-                    {displayTier}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </Section>
+        <InstitutionRatings ratings={ratings} />
 
         {/* 데드라인 이력 */}
         {deadlines.length > 0 && (
-          <Section title={isKorean ? "데드라인" : "Deadlines"}>
+          <Section title={<LocaleText ko="데드라인" en="Deadlines" />}>
             <div className="space-y-3">
               {deadlines.map((d) => (
                 <div
@@ -322,8 +267,8 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   <div className="text-xs text-zinc-500 sm:text-right">
                     {(d.paperDeadline || d.conferenceStart) && (
                       <>
-                        <div>📝 {isKorean ? "마감" : "Deadline"}: {d.paperDeadline ? <DeadlineLocalTime deadline={d.paperDeadline} timezone={d.timezone} /> : "TBD"}</div>
-                        <div>📅 {isKorean ? "학회" : "Conference"}: {d.conferenceStart ? formatDate(d.conferenceStart) : "TBD"}</div>
+                        <div>📝 <LocaleText ko="마감" en="Deadline" />: {d.paperDeadline ? <DeadlineLocalTime deadline={d.paperDeadline} timezone={d.timezone} /> : "TBD"}</div>
+                        <div>📅 <LocaleText ko="학회" en="Conference" />: {d.conferenceStart ? formatDate(d.conferenceStart) : "TBD"}</div>
                       </>
                     )}
                   </div>
@@ -331,30 +276,31 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
               ))}
             </div>
             <p className="mt-3 text-xs text-zinc-400">
-              {isKorean
-                ? "데드라인은 변경될 수 있습니다. 제출 전 공식 웹사이트에서 최종 일정을 확인하세요."
-                : "Deadlines may change. Always verify on the official website before submitting."}
+              <LocaleText
+                ko="데드라인은 변경될 수 있습니다. 제출 전 공식 웹사이트에서 최종 일정을 확인하세요."
+                en="Deadlines may change. Always verify on the official website before submitting."
+              />
             </p>
           </Section>
         )}
 
         {/* Acceptance Rate */}
         {acceptanceRates.length === 0 && (
-          <Section title={<>Acceptance Rate<InfoTooltip text={isKorean ? "DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." : "Calculated from accepted paper counts collected from DBLP / OpenAlex. Rate = accepted ÷ submitted. If submission count is unavailable, only accepted count is shown."} /></>}>
-            <p className="text-sm text-zinc-400">{isKorean ? "채택률 데이터가 없습니다." : "No acceptance rate data available."}</p>
+          <Section title={<>Acceptance Rate<InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." textEn="Calculated from accepted paper counts collected from DBLP / OpenAlex. Rate = accepted ÷ submitted. If submission count is unavailable, only accepted count is shown." /></>}>
+            <p className="text-sm text-zinc-400"><LocaleText ko="채택률 데이터가 없습니다." en="No acceptance rate data available." /></p>
           </Section>
         )}
         {acceptanceRates.length > 0 && (
-          <Section title={<>Acceptance Rate<InfoTooltip text={isKorean ? "DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." : "Calculated from accepted paper counts collected from DBLP / OpenAlex. Rate = accepted ÷ submitted. If submission count is unavailable, only accepted count is shown."} /></>}>
+          <Section title={<>Acceptance Rate<InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." textEn="Calculated from accepted paper counts collected from DBLP / OpenAlex. Rate = accepted ÷ submitted. If submission count is unavailable, only accepted count is shown." /></>}>
             <AcceptanceRateChart data={acceptanceRates} />
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="text-left text-zinc-500 border-b border-zinc-100">
-                    <th className="pb-2 font-medium">{isKorean ? "연도" : "Year"}</th>
-                    <th className="pb-2 font-medium text-right">{isKorean ? "제출" : "Submitted"}</th>
-                    <th className="pb-2 font-medium text-right">{isKorean ? "채택" : "Accepted"}</th>
-                    <th className="pb-2 font-medium text-right">{isKorean ? "채택률" : "Rate"}</th>
+                    <th className="pb-2 font-medium"><LocaleText ko="연도" en="Year" /></th>
+                    <th className="pb-2 font-medium text-right"><LocaleText ko="제출" en="Submitted" /></th>
+                    <th className="pb-2 font-medium text-right"><LocaleText ko="채택" en="Accepted" /></th>
+                    <th className="pb-2 font-medium text-right"><LocaleText ko="채택률" en="Rate" /></th>
                     <th className="pb-2 font-medium" style={{ width: "40%" }}></th>
                   </tr>
                 </thead>
@@ -394,7 +340,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
         {/* Research Trend */}
         {keywordTrends.length > 0 && (
-          <Section title={<>Research Trend<InfoTooltip text={isKorean ? "Semantic Scholar에서 수집한 채택 논문 제목 기반으로 CS 키워드 빈도를 분석합니다. 2년 이상 데이터가 있을 경우 연도별 추이를 확인할 수 있습니다." : "Analyzes CS keyword frequency from accepted paper titles collected via Semantic Scholar. Year-over-year trends are shown when data spans 2+ years."} /></>}>
+          <Section title={<>Research Trend<InfoTooltip text="Semantic Scholar에서 수집한 채택 논문 제목 기반으로 CS 키워드 빈도를 분석합니다. 2년 이상 데이터가 있을 경우 연도별 추이를 확인할 수 있습니다." textEn="Analyzes CS keyword frequency from accepted paper titles collected via Semantic Scholar. Year-over-year trends are shown when data spans 2+ years." /></>}>
             <ConferenceKeywordChart data={keywordTrends} />
           </Section>
         )}

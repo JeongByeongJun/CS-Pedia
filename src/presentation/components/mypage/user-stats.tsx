@@ -2,9 +2,10 @@ import type { ConferenceWithRelations } from "@/domain/repositories/conference-r
 
 interface UserStatsProps {
   bookmarkedConferences: ConferenceWithRelations[];
+  isKorean?: boolean;
 }
 
-export function UserStats({ bookmarkedConferences }: UserStatsProps) {
+export function UserStats({ bookmarkedConferences, isKorean = true }: UserStatsProps) {
   const totalBookmarks = bookmarkedConferences.length;
   const upcomingDeadlines = bookmarkedConferences.filter(
     (c) => c.daysUntilDeadline != null && c.daysUntilDeadline >= 0,
@@ -21,17 +22,17 @@ export function UserStats({ bookmarkedConferences }: UserStatsProps) {
     <div className="grid grid-cols-3 gap-3">
       <StatCard
         value={totalBookmarks}
-        label="Bookmarked"
+        label={isKorean ? "북마크" : "Bookmarked"}
         accentColor="#818cf8"
       />
       <StatCard
         value={upcomingDeadlines}
-        label="Upcoming"
+        label={isKorean ? "다가오는 마감" : "Upcoming"}
         accentColor="#f59e0b"
       />
       <StatCard
         value={topField}
-        label="Top Field"
+        label={isKorean ? "주요 분야" : "Top Field"}
         accentColor="#a78bfa"
       />
     </div>

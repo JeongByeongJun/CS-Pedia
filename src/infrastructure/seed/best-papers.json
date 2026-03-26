@@ -9293,7 +9293,8 @@
     "award_type": "distinguished_paper",
     "tags": [
       "Side-Channel Attacks"
-    ]
+    ],
+    "paper_url": null
   },
   {
     "conference_slug": "ndss",

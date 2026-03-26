@@ -27,7 +27,7 @@ export function TrendsTabs({
           <button
             key={tab.id}
             onClick={() => setActive(tab.id)}
-            className={`px-4 py-[7px] text-[13px] rounded-lg border-none cursor-pointer transition-all duration-150 ${
+            className={`px-4 py-2 text-[13px] rounded-lg border-none cursor-pointer transition-all duration-150 ${
               active === tab.id
                 ? "font-semibold bg-white text-zinc-900 shadow-[0_1px_3px_rgba(0,0,0,0.08)]"
                 : "font-normal bg-transparent text-zinc-500"

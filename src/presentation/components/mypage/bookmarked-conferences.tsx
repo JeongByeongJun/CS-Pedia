@@ -5,10 +5,12 @@ import { DeadlineBadge } from "@/presentation/components/conferences/deadline-ba
 
 interface BookmarkedConferencesProps {
   conferences: ConferenceWithRelations[];
+  isKorean?: boolean;
 }
 
 export function BookmarkedConferences({
   conferences,
+  isKorean = true,
 }: BookmarkedConferencesProps) {
   if (conferences.length === 0) {
     return (
@@ -38,7 +40,7 @@ export function BookmarkedConferences({
             marginBottom: "12px",
           }}
         >
-          북마크한 학회가 없습니다
+          {isKorean ? "북마크한 학회가 없습니다" : "No bookmarked conferences"}
         </div>
         <Link
           href="/"
@@ -49,7 +51,7 @@ export function BookmarkedConferences({
             textDecoration: "none",
           }}
         >
-          학회 둘러보기 →
+          {isKorean ? "학회 둘러보기 →" : "Browse conferences →"}
         </Link>
       </div>
     );

@@ -6,7 +6,6 @@ import { MobileNav } from "@/presentation/components/layout/mobile-nav";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from "next/script";
-import { headers } from "next/headers";
 import { LocaleProvider } from "@/presentation/providers/locale-provider";
 import { AuthProvider } from "@/presentation/providers/auth-provider";
 
@@ -20,20 +19,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export async function generateMetadata(): Promise<Metadata> {
-  const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = country === "KR";
-
-  return {
+export const metadata: Metadata = {
   title: {
-    default: isKorean
-      ? "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼"
-      : "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
+    default: "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
     template: "%s | CS-Pedia",
   },
-  description: isKorean
-    ? "한국 CS 연구자를 위한 학회 일정, BK21 우수학회 목록, Best Paper 통합 플랫폼. 데드라인, 기관 인정, Acceptance Rate를 한눈에."
-    : "Track CS conference deadlines, acceptance rates, and best paper awards. Compare CORE, CCF, and CSRankings side by side.",
+  description: "한국 CS 연구자를 위한 학회 일정, BK21 우수학회 목록, Best Paper 통합 플랫폼. Track CS conference deadlines, acceptance rates, and best paper awards.",
   keywords: [
     "CS 학회",
     "BK21",
@@ -203,39 +194,27 @@ export async function generateMetadata(): Promise<Metadata> {
     "google-adsense-account": "ca-pub-7036136026593965",
   },
   openGraph: {
-    title: isKorean
-      ? "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼"
-      : "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
-    description: isKorean
-      ? "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에."
-      : "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,400+ best papers.",
+    title: "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
+    description: "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,400+ best papers.",
     url: "https://cs-pedia.io",
     siteName: "CS-Pedia",
-    locale: isKorean ? "ko_KR" : "en_US",
+    locale: "ko_KR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: isKorean
-      ? "CS-Pedia - 한국 CS 연구자를 위한 학회 통합 플랫폼"
-      : "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
-    description: isKorean
-      ? "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에."
-      : "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,400+ best papers.",
+    title: "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
+    description: "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,400+ best papers.",
   },
-  };
-}
+};
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const country = (await headers()).get("x-vercel-ip-country");
-  const lang = country === "KR" ? "ko" : "en";
-
   return (
-    <html lang={lang}>
+    <html lang="ko">
       <head>
         <link rel="preconnect" href={process.env.NEXT_PUBLIC_SUPABASE_URL!} />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
@@ -243,11 +222,11 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <LocaleProvider lang={lang}>
+        <LocaleProvider>
           <AuthProvider>
             {children}
             <MobileNav />
-            <FeedbackButton isKorean={lang === "ko"} />
+            <FeedbackButton />
           </AuthProvider>
         </LocaleProvider>
         <Analytics />
