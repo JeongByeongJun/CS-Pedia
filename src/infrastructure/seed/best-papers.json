@@ -17775,15 +17775,6 @@
   {
     "conference_slug": "icse",
     "year": 2020,
-    "paper_title": "Ethical Mining - A Case Study on MSR Mining Challenges",
-    "authors": "Nicolas Gold & Jens Krinke",
-    "award_type": "best_paper",
-    "tags": [],
-    "paper_url": "https://doi.org/10.1145/3379597.3387462"
-  },
-  {
-    "conference_slug": "icse",
-    "year": 2020,
     "paper_title": "White Box Fairness Testing through Adversarial Sampling",
     "authors": "Peixin Zhang, Jingyi Wang, Jun Sun, Guoliang Dong, Xinyu Wang, Xingen Wang, Jin Song Dong, Dai Ting",
     "award_type": "best_paper",
@@ -18286,36 +18277,6 @@
     "paper_url": "https://doi.org/10.1109/MDM61037.2024.00023"
   },
   {
-    "conference_slug": "mdm",
-    "year": 2024,
-    "paper_title": "BiasBuster: A Neural Approach for Accurate Estimation of Population Statistics using Biased Location Data",
-    "authors": "[\"Sepanta Zeighami\", \"Cyrus Shahabi\"]",
-    "award_type": "honorable_mention",
-    "tags": [],
-    "paper_url": "https://arxiv.org/abs/2402.11318"
-  },
-  {
-    "conference_slug": "mdm",
-    "year": 2024,
-    "paper_title": "CLEAR: Ranked Multi-Positive Contrastive Representation Learning for Robust Trajectory Similarity Computation",
-    "authors": "[\"Jialiang Li\", \"Hua Lu\", \"Tiantian Liu\"]",
-    "award_type": "honorable_mention",
-    "tags": [
-      "Representation Learning",
-      "Robustness"
-    ],
-    "paper_url": "https://doi.org/10.1109/MDM61037.2024.00024"
-  },
-  {
-    "conference_slug": "mdm",
-    "year": 2024,
-    "paper_title": "MD-HBase: A Scalable Multi-dimensional Data Infrastructure for Location-aware Services",
-    "authors": "[\"Shoji Nishimura\", \"Sudipto Das\", \"Divyakant Agrawal\", \"Amr El Abbadi\"]",
-    "award_type": "test_of_time",
-    "tags": [],
-    "paper_url": "https://doi.org/10.1109/MDM.2011.41"
-  },
-  {
     "conference_slug": "interact",
     "year": 2025,
     "paper_title": "Guided by the light: Design Journey of a Navigation Support Tool for Ships",
@@ -18386,37 +18347,6 @@
     "award_type": "best_paper",
     "tags": [],
     "paper_url": "https://arxiv.org/abs/2407.06107"
-  },
-  {
-    "conference_slug": "i3d",
-    "year": 2024,
-    "paper_title": "ZH3: Quadratic Zonal Harmonics",
-    "authors": "[\"Thomas Roughton\", \"Peter-Pike Sloan\", \"Ari Silvennoinen\", \"Michal Iwanicki\", \"Peter Shirley\"]",
-    "award_type": "honorable_mention",
-    "tags": [],
-    "paper_url": "https://doi.org/10.1145/3651294"
-  },
-  {
-    "conference_slug": "i3d",
-    "year": 2024,
-    "paper_title": "Transforming a Non-Differentiable Rasterizer into a Differentiable One with Stochastic Gradient Estimation",
-    "authors": "[\"Thomas Deliot\", \"Eric Heitz\", \"Laurent Belcour\"]",
-    "award_type": "honorable_mention",
-    "tags": [
-      "Optimization"
-    ],
-    "paper_url": "https://arxiv.org/abs/2404.09758"
-  },
-  {
-    "conference_slug": "i3d",
-    "year": 2024,
-    "paper_title": "FaceFolds: Meshed Radiance Manifolds for Efficient Volumetric Rendering of Dynamic Faces",
-    "authors": "[\"Safa Medin\", \"Gengyan Li\", \"Ruofei Du\", \"Stephan Garbin\", \"Philip Davidson\", \"Gregory Wornell\", \"Thabo Beeler\", \"Abhimitra Meka\"]",
-    "award_type": "honorable_mention",
-    "tags": [
-      "Efficiency"
-    ],
-    "paper_url": "https://arxiv.org/abs/2404.13807"
   },
   {
     "conference_slug": "lics",
