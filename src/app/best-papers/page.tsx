@@ -24,7 +24,7 @@ export default async function BestPapersPage() {
             Best Papers
           </div>
           <h1 className="font-bold text-2xl tracking-[-0.025em] text-zinc-900">
-            수상작 아카이브
+            Best Paper Archive
           </h1>
         </div>
 

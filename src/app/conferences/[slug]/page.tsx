@@ -50,7 +50,9 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
   const { conference, deadlines, bestPapers, ratings, acceptanceRates } = result;
 
-  const isKorean = true; // TODO: move to client-side locale detection
+  const { headers } = await import("next/headers");
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = country === "KR";
   const keywordTrends = await getKeywordTrendsByConference(conference.id).catch(() => []);
 
   const upcomingDeadline = deadlines.find((d) => d.conferenceStart);

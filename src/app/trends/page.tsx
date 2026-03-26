@@ -20,7 +20,9 @@ export const metadata: Metadata = {
 export const revalidate = 86400;
 
 export default async function TrendsPage() {
-  const isKorean = true; // TODO: move to client-side locale detection
+  const { headers } = await import("next/headers");
+  const country = (await headers()).get("x-vercel-ip-country");
+  const isKorean = country === "KR";
 
   const [allRates, allKeywordTrends, topKeywords] =
     await Promise.all([

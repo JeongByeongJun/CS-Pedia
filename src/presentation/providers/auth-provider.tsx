@@ -29,27 +29,31 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const supabase = createSupabaseBrowserClient();
 
     async function loadAuth() {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) {
+      try {
+        const { data: { user } } = await supabase.auth.getUser();
+        if (!user) {
+          setState({ user: null, bookmarkedIds: [], isLoggedIn: false, isLoading: false });
+          return;
+        }
+
+        const { data: bookmarks } = await supabase
+          .from("bookmarks")
+          .select("conference_id")
+          .eq("user_id", user.id);
+
+        setState({
+          user: {
+            email: user.email!,
+            name: user.user_metadata?.full_name ?? user.user_metadata?.name,
+            avatarUrl: user.user_metadata?.avatar_url,
+          },
+          bookmarkedIds: (bookmarks ?? []).map((b: { conference_id: string }) => b.conference_id),
+          isLoggedIn: true,
+          isLoading: false,
+        });
+      } catch {
         setState({ user: null, bookmarkedIds: [], isLoggedIn: false, isLoading: false });
-        return;
       }
-
-      const { data: bookmarks } = await supabase
-        .from("bookmarks")
-        .select("conference_id")
-        .eq("user_id", user.id);
-
-      setState({
-        user: {
-          email: user.email!,
-          name: user.user_metadata?.full_name ?? user.user_metadata?.name,
-          avatarUrl: user.user_metadata?.avatar_url,
-        },
-        bookmarkedIds: (bookmarks ?? []).map((b: { conference_id: string }) => b.conference_id),
-        isLoggedIn: true,
-        isLoading: false,
-      });
     }
 
     loadAuth();
