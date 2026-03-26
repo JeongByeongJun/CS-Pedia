@@ -16141,18 +16141,6 @@
   {
     "conference_slug": "icse",
     "year": 2022,
-    "paper_title": "Efficient Online Testing for DNN-Enabled Systems using Surrogate-Assisted and Many-Objective Optimization",
-    "authors": "Fitash Ul Haq, Donghwan Shin, Lionel Briand",
-    "award_type": "best_paper",
-    "tags": [
-      "Optimization",
-      "Efficiency"
-    ],
-    "paper_url": "https://doi.org/10.1145/3510003.3510188"
-  },
-  {
-    "conference_slug": "icse",
-    "year": 2022,
     "paper_title": "PUS: A Fast and Highly Efficient Solver for Inclusion-based Pointer Analysis",
     "authors": "Peiming Liu, Yanze Li, Bradley Swain, Jeff Huang",
     "award_type": "best_paper",
@@ -16289,24 +16277,6 @@
     "award_type": "best_paper",
     "tags": [],
     "paper_url": "https://arxiv.org/abs/2210.12529"
-  },
-  {
-    "conference_slug": "nsdi",
-    "year": 2022,
-    "paper_title": "Packet Order Matters! Improving Application Performance by Deliberately Delaying Packets",
-    "authors": "Hamid Ghasemirahni, Tom Barbette, Georgios P. Katsikas, Alireza Farshin, Amir Roozbeh, Massimo Girondi, Marco Chiesa, Gerald Q. Maguire Jr.",
-    "award_type": "best_paper",
-    "tags": [],
-    "paper_url": "https://www.semanticscholar.org/paper/24d6d8a715cd95ba877b8d4fa0c8cfdaa4da6059"
-  },
-  {
-    "conference_slug": "nsdi",
-    "year": 2022,
-    "paper_title": "Learning to Communicate Effectively Between Battery-free Devices",
-    "authors": "Kai Geissdoerfer & Marco Zimmerling",
-    "award_type": "best_paper",
-    "tags": [],
-    "paper_url": "https://www.usenix.org/conference/nsdi22/presentation/geissdoerfer"
   },
   {
     "conference_slug": "siggraph",
