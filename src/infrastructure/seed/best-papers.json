@@ -12092,7 +12092,7 @@
     "year": 2022,
     "paper_title": "Reduce, Reuse, Recycle: Green Information Retrieval Research",
     "authors": "Scells, Zhuang, Zuccon",
-    "award_type": "best_paper",
+    "award_type": "honorable_mention",
     "tags": [
       "IR",
       "Sustainability"
@@ -12155,18 +12155,6 @@
       "Query"
     ],
     "paper_url": "https://doi.org/10.1145/3604437.3604462"
-  },
-  {
-    "conference_slug": "sigmod",
-    "year": 2023,
-    "paper_title": "DFI: The Data Flow Interface for High-Speed Networks",
-    "authors": "Thostrup, Skrzypczak, Jasny, Ziegler, Binnig",
-    "award_type": "best_paper",
-    "tags": [
-      "Networking",
-      "Database"
-    ],
-    "paper_url": "https://doi.org/10.1145/3542700.3542705"
   },
   {
     "conference_slug": "sigmod",
@@ -12805,39 +12793,6 @@
       "complexity theory"
     ],
     "paper_url": "http://arxiv.org/abs/2408.15925v3"
-  },
-  {
-    "conference_slug": "stoc",
-    "year": 2025,
-    "paper_title": "Quasi-Linear Size PCPs with Small Soundness from HDX",
-    "authors": [
-      "Mitali Bafna",
-      "Dor Minzer",
-      "Nikhil Vyas",
-      "Zhiwei Yun"
-    ],
-    "award_type": "best_paper",
-    "tags": [
-      "complexity theory",
-      "pcp",
-      "error correcting codes"
-    ],
-    "paper_url": "http://arxiv.org/abs/2407.12762v2"
-  },
-  {
-    "conference_slug": "stoc",
-    "year": 2025,
-    "paper_title": "Simulating Time with Square-Root Space",
-    "authors": [
-      "R. Ryan Williams"
-    ],
-    "award_type": "best_paper",
-    "tags": [
-      "complexity theory",
-      "time-space tradeoff",
-      "algorithms"
-    ],
-    "paper_url": "http://arxiv.org/abs/2502.17779v1"
   },
   {
     "conference_slug": "stoc",
