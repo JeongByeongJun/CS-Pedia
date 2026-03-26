@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 
 export async function generateMetadata(): Promise<Metadata> {
   const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
+  const isKorean = country === "KR";
 
   return {
   title: {
@@ -32,7 +32,7 @@ export async function generateMetadata(): Promise<Metadata> {
   },
   description: isKorean
     ? "한국 CS 연구자를 위한 학회 일정, BK21 우수학회 목록, Best Paper 통합 플랫폼. 데드라인, 기관 인정, Acceptance Rate를 한눈에."
-    : "Track CS conference deadlines, acceptance rates, and best paper awards. Includes BK21/KIISE recognition ratings for Korean CS researchers.",
+    : "Track CS conference deadlines, acceptance rates, and best paper awards. Compare CORE, CCF, and CSRankings side by side.",
   keywords: [
     "CS 학회",
     "BK21",
@@ -204,7 +204,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
     description: isKorean
       ? "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에."
-      : "Track CS conference deadlines, acceptance rates, and best paper awards.",
+      : "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,400+ best papers.",
     url: "https://cs-pedia.io",
     siteName: "CS-Pedia",
     locale: isKorean ? "ko_KR" : "en_US",
@@ -225,7 +225,7 @@ export async function generateMetadata(): Promise<Metadata> {
       : "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
     description: isKorean
       ? "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에."
-      : "Track CS conference deadlines, acceptance rates, and best paper awards.",
+      : "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,400+ best papers.",
     images: ["/og-image.png"],
   },
   };
@@ -237,7 +237,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const country = (await headers()).get("x-vercel-ip-country");
-  const lang = !country || country === "KR" ? "ko" : "en";
+  const lang = country === "KR" ? "ko" : "en";
 
   return (
     <html lang={lang}>
