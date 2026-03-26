@@ -25,7 +25,12 @@ export async function middleware(request: NextRequest) {
     },
   );
 
-  await supabase.auth.getUser();
+  // Only refresh auth session if user has Supabase auth cookies
+  const hasAuthCookie = request.cookies.getAll().some((c) => c.name.startsWith("sb-"));
+  if (hasAuthCookie) {
+    await supabase.auth.getUser();
+  }
+
   return response;
 }
 
