@@ -15332,17 +15332,6 @@
   {
     "conference_slug": "icse",
     "year": 2023,
-    "paper_title": "Do I Belong? Modeling Sense of Virtual Community Among Linux Kernel",
-    "authors": "Bianca Trinkenreich, Klaas-Jan Stol, Anita Sarma, Daniel M German, Marco Gerosa, Igor Steinmacher",
-    "award_type": "best_paper",
-    "tags": [
-      "Operating Systems"
-    ],
-    "paper_url": "https://arxiv.org/abs/2301.06437"
-  },
-  {
-    "conference_slug": "icse",
-    "year": 2023,
     "paper_title": "Compatible Remediation on Vulnerabilities from Third-Party Libraries for Java Projects",
     "authors": "Lyuye Zhang, Chengwei Liu, Zhengzi Xu, Sen Chen, Lingling Fan, Lida Zhao, Jiahui Wu, Yang Liu",
     "award_type": "best_paper",
@@ -15563,15 +15552,6 @@
     "award_type": "best_paper",
     "tags": [],
     "paper_url": "https://arxiv.org/abs/2305.13841"
-  },
-  {
-    "conference_slug": "siggraph",
-    "year": 2023,
-    "paper_title": "Globally Consistent Normal Orientation for Point Clouds by Regularizing the Winding-number Field",
-    "authors": "Rui Xu, Zhiyang Dou, Ningna Wang, Shiqing Xin, Shuangmin Chen, Mingyan Jiang, Xiaohu Guo, Wenping Wang",
-    "award_type": "best_paper",
-    "tags": [],
-    "paper_url": "https://arxiv.org/abs/2304.11605"
   },
   {
     "conference_slug": "siggraph",
@@ -16870,15 +16850,6 @@
       "Open Source"
     ],
     "paper_url": "https://doi.org/10.1109/ICSE43902.2021.00093"
-  },
-  {
-    "conference_slug": "icse",
-    "year": 2021,
-    "paper_title": "Why don't Developers Detect Improper Input Validation?'; DROP TABLE Papers; -",
-    "authors": "Larissa Braz, Enrico Fregnan, Gül Calikli, Alberto Bacchelli",
-    "award_type": "best_paper",
-    "tags": [],
-    "paper_url": "https://arxiv.org/abs/2102.06251"
   },
   {
     "conference_slug": "ijcai",
