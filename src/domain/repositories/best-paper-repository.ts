@@ -9,6 +9,7 @@ export interface BestPaperFilters {
 export interface BestPaperWithConference extends BestPaper {
   conferenceAcronym: string;
   conferenceSlug: string;
+  conferenceField: string;
 }
 
 export interface BestPaperRepository {

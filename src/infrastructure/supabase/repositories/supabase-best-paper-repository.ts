@@ -25,7 +25,7 @@ export class SupabaseBestPaperRepository implements BestPaperRepository {
       .select(
         `
         *,
-        conferences!inner (acronym, slug)
+        conferences!inner (acronym, slug, field)
       `,
       )
       .gte("year", 2020)
@@ -49,6 +49,7 @@ export class SupabaseBestPaperRepository implements BestPaperRepository {
         ...toDomainBestPaper(row),
         conferenceAcronym: row.conferences.acronym,
         conferenceSlug: row.conferences.slug,
+        conferenceField: (row.conferences as unknown as { field: string }).field ?? "",
       }),
     );
   }
