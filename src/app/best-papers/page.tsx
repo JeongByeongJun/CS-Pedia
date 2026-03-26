@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { getBestPapers } from "@/infrastructure/container";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { BestPaperClientSection } from "@/presentation/components/best-papers/best-paper-client-section";
@@ -12,7 +11,10 @@ export const metadata: Metadata = {
 export const revalidate = 86400;
 
 export default async function BestPapersPage() {
-  const papers = await getBestPapers({});
+  const fs = await import("fs/promises");
+  const path = await import("path");
+  const raw = await fs.readFile(path.join(process.cwd(), "public/data/best-papers.json"), "utf8");
+  const papers = JSON.parse(raw);
 
   return (
     <div className="min-h-screen bg-page-gradient">

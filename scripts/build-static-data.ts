@@ -128,8 +128,180 @@ async function main() {
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.writeFileSync(path.join(OUT_DIR, "conferences.json"), JSON.stringify(result));
-
   console.log(`Built static data: ${result.length} conferences → public/data/conferences.json`);
+
+  // === Conference detail JSON (per slug) ===
+  const detailDir = path.join(OUT_DIR, "conferences");
+  fs.mkdirSync(detailDir, { recursive: true });
+
+  // Group ALL deadlines by slug (not just next)
+  const allDeadlinesBySlug = new Map<string, Deadline[]>();
+  for (const d of deadlines) {
+    if (!allDeadlinesBySlug.has(d.conference_slug)) allDeadlinesBySlug.set(d.conference_slug, []);
+    allDeadlinesBySlug.get(d.conference_slug)!.push(d);
+  }
+
+  // Group ALL best papers by slug
+  const allBestPapersBySlug = new Map<string, Array<Record<string, unknown>>>();
+  for (const bp of bestPapers) {
+    if (!allBestPapersBySlug.has(bp.conference_slug)) allBestPapersBySlug.set(bp.conference_slug, []);
+    allBestPapersBySlug.get(bp.conference_slug)!.push(bp);
+  }
+
+  // Acceptance rates from seed
+  const acceptanceRates = JSON.parse(fs.readFileSync(path.join(SEED_DIR, "acceptance-rates.json"), "utf8"));
+  const ratesBySlug = new Map<string, Array<Record<string, unknown>>>();
+  for (const ar of acceptanceRates) {
+    if (!ratesBySlug.has(ar.conference_slug)) ratesBySlug.set(ar.conference_slug, []);
+    ratesBySlug.get(ar.conference_slug)!.push(ar);
+  }
+
+  // Keyword trends from Supabase (if available)
+  let keywordsByConfId = new Map<string, Array<Record<string, unknown>>>();
+  if (supabaseUrl && serviceRoleKey) {
+    const supabase = createClient(supabaseUrl, serviceRoleKey);
+    // Fetch all keyword trends (paginated, Supabase default limit is 1000)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const kwData: any[] = [];
+    let offset = 0;
+    const pageSize = 1000;
+    while (true) {
+      const { data } = await supabase.from("keyword_trends").select("conference_id, year, keyword, count").range(offset, offset + pageSize - 1);
+      if (!data || data.length === 0) break;
+      kwData.push(...data);
+      if (data.length < pageSize) break;
+      offset += pageSize;
+    }
+    for (const kw of kwData ?? []) {
+      if (!keywordsByConfId.has(kw.conference_id)) keywordsByConfId.set(kw.conference_id, []);
+      keywordsByConfId.get(kw.conference_id)!.push(kw);
+    }
+    console.log(`Loaded ${(kwData ?? []).length} keyword trend entries from Supabase`);
+  }
+
+  // Also fetch acceptance rates from Supabase (pipeline adds more than seed)
+  let dbRatesByConfId = new Map<string, Array<Record<string, unknown>>>();
+  if (supabaseUrl && serviceRoleKey) {
+    const supabase = createClient(supabaseUrl, serviceRoleKey);
+    const { data: arData } = await supabase.from("acceptance_rates").select("conference_id, year, accepted, submitted, rate, notes").limit(10000);
+    for (const ar of arData ?? []) {
+      if (!dbRatesByConfId.has(ar.conference_id)) dbRatesByConfId.set(ar.conference_id, []);
+      dbRatesByConfId.get(ar.conference_id)!.push(ar);
+    }
+    console.log(`Loaded ${(arData ?? []).length} acceptance rate entries from Supabase`);
+  }
+
+  for (const c of conferences) {
+    const slug = c.slug as string;
+    const id = slugToId[slug] ?? slug;
+    const dl = deadlineBySlug.get(slug);
+
+    const detail = {
+      id,
+      slug,
+      nameEn: c.name_en,
+      nameKr: c.name_kr,
+      acronym: c.acronym,
+      field: c.field,
+      subField: c.sub_field,
+      dblpKey: c.dblp_key,
+      websiteUrl: c.website_url,
+      description: null,
+      nextDeadline: dl?.paper_deadline ?? null,
+      daysUntilDeadline: dl?.paper_deadline ? Math.floor((new Date(dl.paper_deadline).getTime() - now.getTime()) / (1000 * 60 * 60 * 24)) : null,
+      deadlineTimezone: dl?.timezone ?? "AoE",
+      venue: dl?.venue ?? null,
+      conferenceStart: dl?.conference_start ?? null,
+      conferenceEnd: dl?.conference_end ?? null,
+      institutionRatings: ratingsBySlug.get(slug) ?? [],
+      deadlines: (allDeadlinesBySlug.get(slug) ?? []).map((d) => ({
+        year: d.year,
+        cycle: d.cycle,
+        abstractDeadline: d.abstract_deadline,
+        paperDeadline: d.paper_deadline,
+        notificationDate: d.notification_date,
+        conferenceStart: d.conference_start,
+        conferenceEnd: d.conference_end,
+        venue: d.venue,
+        timezone: d.timezone,
+      })),
+      bestPapers: (allBestPapersBySlug.get(slug) ?? []).map((bp) => ({
+        year: bp.year,
+        paperTitle: bp.paper_title,
+        authors: bp.authors,
+        awardType: bp.award_type,
+        tags: bp.tags,
+        paperUrl: bp.paper_url ?? null,
+      })),
+      acceptanceRates: (dbRatesByConfId.get(id) ?? []).map((ar) => ({
+        year: ar.year,
+        accepted: ar.accepted,
+        submitted: ar.submitted,
+        rate: ar.rate,
+      })),
+      keywordTrends: (keywordsByConfId.get(id) ?? []).map((kw) => ({
+        year: kw.year,
+        keyword: kw.keyword,
+        count: kw.count,
+      })),
+    };
+
+    fs.writeFileSync(path.join(detailDir, `${slug}.json`), JSON.stringify(detail));
+  }
+  console.log(`Built ${conferences.length} conference detail JSONs → public/data/conferences/`);
+
+  // === Best papers full list ===
+  const allBestPapers = bestPapers.map((bp: Record<string, unknown>) => ({
+    conferenceSlug: bp.conference_slug,
+    conferenceAcronym: conferences.find((c: Record<string, unknown>) => c.slug === bp.conference_slug)?.acronym ?? bp.conference_slug,
+    conferenceField: conferences.find((c: Record<string, unknown>) => c.slug === bp.conference_slug)?.field ?? "",
+    year: bp.year,
+    paperTitle: bp.paper_title,
+    authors: bp.authors,
+    awardType: bp.award_type,
+    tags: bp.tags,
+    paperUrl: bp.paper_url ?? null,
+  }));
+  fs.writeFileSync(path.join(OUT_DIR, "best-papers.json"), JSON.stringify(allBestPapers));
+  console.log(`Built best-papers.json: ${allBestPapers.length} papers`);
+
+  // === Trends data (acceptance rates + keyword trends) ===
+  // All acceptance rates with conference info
+  const allRates: Array<Record<string, unknown>> = [];
+  for (const [confId, rates] of dbRatesByConfId) {
+    const conf = conferences.find((c: Record<string, unknown>) => slugToId[c.slug as string] === confId);
+    if (!conf) continue;
+    for (const r of rates) {
+      allRates.push({ ...r, conferenceSlug: conf.slug, conferenceAcronym: conf.acronym, conferenceField: conf.field });
+    }
+  }
+  fs.writeFileSync(path.join(OUT_DIR, "acceptance-rates.json"), JSON.stringify(allRates));
+  console.log(`Built acceptance-rates.json: ${allRates.length} entries`);
+
+  // All keyword trends with conference info
+  const allKeywords: Array<Record<string, unknown>> = [];
+  for (const [confId, keywords] of keywordsByConfId) {
+    const conf = conferences.find((c: Record<string, unknown>) => slugToId[c.slug as string] === confId);
+    if (!conf) continue;
+    for (const kw of keywords) {
+      allKeywords.push({ ...kw, conferenceSlug: conf.slug, conferenceAcronym: conf.acronym, conferenceField: conf.field });
+    }
+  }
+  fs.writeFileSync(path.join(OUT_DIR, "keyword-trends.json"), JSON.stringify(allKeywords));
+  console.log(`Built keyword-trends.json: ${allKeywords.length} entries`);
+
+  // Top keywords (aggregated)
+  const kwCounts = new Map<string, number>();
+  for (const kw of allKeywords) {
+    const key = kw.keyword as string;
+    kwCounts.set(key, (kwCounts.get(key) ?? 0) + (kw.count as number));
+  }
+  const topKeywords = [...kwCounts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 30)
+    .map(([keyword, count]) => ({ keyword, count }));
+  fs.writeFileSync(path.join(OUT_DIR, "top-keywords.json"), JSON.stringify(topKeywords));
+  console.log(`Built top-keywords.json: ${topKeywords.length} keywords`);
 }
 
 main().catch(console.error);

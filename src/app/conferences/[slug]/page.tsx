@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getConferenceDetail, getKeywordTrendsByConference, getConferences } from "@/infrastructure/container";
+import { getConferences } from "@/infrastructure/container";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { FieldBadge } from "@/presentation/components/conferences/field-badge";
@@ -58,20 +58,72 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function ConferenceDetailPage({ params }: PageProps) {
   const { slug } = await params;
 
-  let result;
+  // Read from static JSON — no Supabase query
+  const fs = await import("fs/promises");
+  const path = await import("path");
+  const filePath = path.join(process.cwd(), `public/data/conferences/${slug}.json`);
+  let detail: Record<string, unknown>;
   try {
-    result = await getConferenceDetail(slug);
+    const raw = await fs.readFile(filePath, "utf8");
+    detail = JSON.parse(raw);
   } catch {
     notFound();
   }
-  if (!result) notFound();
 
-  const { conference, deadlines, bestPapers, ratings, acceptanceRates } = result;
+  const conference = {
+    id: detail.id as string,
+    slug: detail.slug as string,
+    nameEn: detail.nameEn as string,
+    acronym: detail.acronym as string,
+    field: detail.field as string,
+    subField: detail.subField as string,
+    dblpKey: detail.dblpKey as string,
+    websiteUrl: detail.websiteUrl as string | null,
+    description: detail.description as string | null,
+    nextDeadline: detail.nextDeadline ? new Date(detail.nextDeadline as string) : null,
+    daysUntilDeadline: detail.nextDeadline ? Math.floor((new Date(detail.nextDeadline as string).getTime() - Date.now()) / (1000 * 60 * 60 * 24)) : null,
+    deadlineTimezone: detail.deadlineTimezone as string,
+    venue: detail.venue as string | null,
+    conferenceStart: detail.conferenceStart ? new Date(detail.conferenceStart as string) : null,
+    conferenceEnd: detail.conferenceEnd ? new Date(detail.conferenceEnd as string) : null,
+  };
+  const deadlines = (detail.deadlines as Array<Record<string, unknown>> ?? []).map((d) => ({
+    year: d.year as number,
+    cycle: d.cycle as string,
+    abstractDeadline: d.abstractDeadline ? new Date(d.abstractDeadline as string) : null,
+    paperDeadline: d.paperDeadline ? new Date(d.paperDeadline as string) : null,
+    notificationDate: d.notificationDate ? new Date(d.notificationDate as string) : null,
+    conferenceStart: d.conferenceStart ? new Date(d.conferenceStart as string) : null,
+    conferenceEnd: d.conferenceEnd ? new Date(d.conferenceEnd as string) : null,
+    venue: d.venue as string | null,
+    timezone: d.timezone as string,
+  }));
+  const bestPapers = (detail.bestPapers as Array<Record<string, unknown>> ?? []).map((bp) => ({
+    year: bp.year as number,
+    paperTitle: bp.paperTitle as string,
+    authors: bp.authors as string,
+    awardType: bp.awardType as string,
+    tags: bp.tags as string[],
+    paperUrl: bp.paperUrl as string | null,
+  }));
+  const ratings = detail.institutionRatings as Array<{ institution: string; tier: string | null }>;
+  const acceptanceRates = (detail.acceptanceRates as Array<Record<string, unknown>> ?? []).map((ar) => ({
+    year: ar.year as number,
+    accepted: ar.accepted as number | null,
+    submitted: ar.submitted as number | null,
+    rate: ar.rate as number | null,
+  }));
+  const keywordTrends = (detail.keywordTrends as Array<Record<string, unknown>> ?? []).map((kw, i) => ({
+    id: `kw-${i}`,
+    conferenceId: detail.id as string,
+    year: kw.year as number,
+    keyword: kw.keyword as string,
+    count: kw.count as number,
+  }));
 
   const { headers } = await import("next/headers");
   const country = (await headers()).get("x-vercel-ip-country");
   const isKorean = country === "KR";
-  const keywordTrends = await getKeywordTrendsByConference(conference.id).catch(() => []);
 
   const upcomingDeadline = deadlines.find((d) => d.conferenceStart);
   const resolvedStartDate =
@@ -248,7 +300,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
             <div className="space-y-3">
               {deadlines.map((d) => (
                 <div
-                  key={d.id}
+                  key={`${d.year}-${d.cycle}`}
                   className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5 sm:gap-0 p-3 rounded-xl bg-zinc-50 border border-zinc-100"
                 >
                   <div>
@@ -345,7 +397,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
             <div className="space-y-3">
               {bestPapers.map((bp) => (
                 <div
-                  key={bp.id}
+                  key={`${bp.year}-${bp.paperTitle.slice(0, 20)}`}
                   className="p-4 rounded-xl bg-indigo-50 border border-indigo-100"
                 >
                   <div className="flex items-center gap-2 mb-1">
