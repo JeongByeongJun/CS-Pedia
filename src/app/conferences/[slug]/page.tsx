@@ -403,7 +403,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         {bestPapers.length > 0 && (
           <Section title="Best Papers">
             <div className="space-y-3">
-              {bestPapers.map((bp) => (
+              {[...bestPapers].sort((a, b) => b.year - a.year).map((bp) => (
                 <div
                   key={`${bp.year}-${bp.paperTitle.slice(0, 20)}`}
                   className="p-4 rounded-xl bg-indigo-50 border border-indigo-100"
