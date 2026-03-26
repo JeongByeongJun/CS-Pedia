@@ -27,11 +27,18 @@ function toDate(v: string | null): Date | null {
   return isNaN(d.getTime()) ? null : d;
 }
 
-function recalcDaysUntil(deadline: string | null): number | null {
+function recalcDaysUntil(deadline: string | null, timezone?: string): number | null {
   if (!deadline) return null;
   const d = new Date(deadline);
   if (isNaN(d.getTime())) return null;
-  return Math.floor((d.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
+  // Convert deadline from stored timezone to real UTC
+  const TZ_OFFSETS: Record<string, number> = {
+    AoE: -12, HST: -10, PST: -8, PT: -8, PDT: -7, MST: -7, MDT: -6,
+    CST: -6, CDT: -5, EST: -5, EDT: -4, UTC: 0, GMT: 0, CET: 1, CEST: 2,
+  };
+  const offset = TZ_OFFSETS[timezone ?? "AoE"] ?? -12;
+  const utcDeadline = new Date(d.getTime() - offset * 60 * 60 * 1000);
+  return Math.ceil((utcDeadline.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
 }
 
 let cachedItems: StaticConference[] | null = null;
@@ -59,7 +66,7 @@ export function createGetConferencesFromStatic() {
       websiteUrl: c.websiteUrl,
       description: null,
       nextDeadline: toDate(c.nextDeadline),
-      daysUntilDeadline: recalcDaysUntil(c.nextDeadline),
+      daysUntilDeadline: recalcDaysUntil(c.nextDeadline, c.deadlineTimezone),
       deadlineTimezone: c.deadlineTimezone,
       venue: c.venue,
       conferenceStart: toDate(c.conferenceStart),

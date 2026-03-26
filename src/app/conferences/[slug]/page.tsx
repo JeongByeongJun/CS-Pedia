@@ -14,6 +14,7 @@ import { formatAuthors } from "@/shared/utils/url";
 import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 import { INSTITUTIONS_KR, INSTITUTIONS_INTL } from "@/shared/constants/institutions";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
+import { DeadlineLocalTime } from "@/presentation/components/conferences/deadline-local-time";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -81,7 +82,14 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
     websiteUrl: detail.websiteUrl as string | null,
     description: detail.description as string | null,
     nextDeadline: detail.nextDeadline ? new Date(detail.nextDeadline as string) : null,
-    daysUntilDeadline: detail.nextDeadline ? Math.floor((new Date(detail.nextDeadline as string).getTime() - Date.now()) / (1000 * 60 * 60 * 24)) : null,
+    daysUntilDeadline: (() => {
+      if (!detail.nextDeadline) return null;
+      const d = new Date(detail.nextDeadline as string);
+      const TZ: Record<string, number> = { AoE: -12, HST: -10, PST: -8, PT: -8, PDT: -7, EST: -5, EDT: -4, UTC: 0, GMT: 0, CET: 1 };
+      const offset = TZ[(detail.deadlineTimezone as string) ?? "AoE"] ?? -12;
+      const utc = new Date(d.getTime() - offset * 60 * 60 * 1000);
+      return Math.ceil((utc.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
+    })(),
     deadlineTimezone: detail.deadlineTimezone as string,
     venue: detail.venue as string | null,
     conferenceStart: detail.conferenceStart ? new Date(detail.conferenceStart as string) : null,
@@ -314,7 +322,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   <div className="text-xs text-zinc-500 sm:text-right">
                     {(d.paperDeadline || d.conferenceStart) && (
                       <>
-                        <div>📝 {isKorean ? "마감" : "Deadline"}: {d.paperDeadline ? formatDate(d.paperDeadline) : "TBD"}</div>
+                        <div>📝 {isKorean ? "마감" : "Deadline"}: {d.paperDeadline ? <DeadlineLocalTime deadline={d.paperDeadline} timezone={d.timezone} /> : "TBD"}</div>
                         <div>📅 {isKorean ? "학회" : "Conference"}: {d.conferenceStart ? formatDate(d.conferenceStart) : "TBD"}</div>
                       </>
                     )}
