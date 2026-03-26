@@ -213,14 +213,6 @@ export async function generateMetadata(): Promise<Metadata> {
     siteName: "CS-Pedia",
     locale: isKorean ? "ko_KR" : "en_US",
     type: "website",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "CS-Pedia: CS conference deadlines, acceptance rates, and best papers dashboard",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -230,7 +222,6 @@ export async function generateMetadata(): Promise<Metadata> {
     description: isKorean
       ? "학회 데드라인, BK21/KIISE 인정, Acceptance Rate, Best Paper를 한눈에."
       : "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,400+ best papers.",
-    images: ["/og-image.png"],
   },
   };
 }
