@@ -15188,7 +15188,7 @@
   {
     "conference_slug": "fse",
     "year": 2023,
-    "paper_title": "A Four-Year Study of Student Contributions to OSS vs. OSS4SG with a Lightweight Intervention",
+    "paper_title": "A Longitudinal Study of Student Contributions to OSS vs. OSS4SG with a Lightweight Intervention",
     "authors": "Zihan Fang, Madeline Endres, Thomas Zimmermann, Denae Ford, Westley R Weimer, Kevin Leach, Yu Huang",
     "award_type": "best_paper",
     "tags": [],
@@ -15482,17 +15482,6 @@
     "award_type": "best_paper",
     "tags": [],
     "paper_url": "https://doi.org/10.1145/3570361.3613265"
-  },
-  {
-    "conference_slug": "nsdi",
-    "year": 2023,
-    "paper_title": "Building Flexible, Low-Cost Wireless Access Networks With Magma",
-    "authors": "Shaddi Hasan, Amar Padmanabhan, Bruce Davie, Jennifer Rexford, Ulas Kozat, Hunter Gatewood, Shruti Sanadhya, Nick Yurchenko",
-    "award_type": "best_paper",
-    "tags": [
-      "Wireless Networks"
-    ],
-    "paper_url": "https://arxiv.org/abs/2209.10001"
   },
   {
     "conference_slug": "nsdi",
