@@ -30,10 +30,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const acronym = slug.toUpperCase();
   const year = new Date().getFullYear();
+  const title = `${acronym} ${year} - Deadline, Acceptance Rate, Best Paper`;
+  const description = `${acronym} ${year} deadline, acceptance rate, best paper awards. CORE/CCF rankings included.`;
   return {
-    title: `${acronym} ${year} - Deadline, Acceptance Rate, Best Paper`,
-    description: `${acronym} ${year} deadline, acceptance rate, best paper awards. CORE/CCF rankings included.`,
+    title,
+    description,
     keywords: [`${acronym} deadline`, `${acronym} ${year} deadline`, `${acronym} acceptance rate`, `${acronym} best paper`, `${acronym} CFP`, `${acronym} 데드라인`, `${acronym} 채택률`],
+    openGraph: {
+      title,
+      description,
+      url: `https://cs-pedia.io/conferences/${slug}`,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+    alternates: {
+      canonical: `https://cs-pedia.io/conferences/${slug}`,
+    },
   };
 }
 

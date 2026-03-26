@@ -4,7 +4,7 @@ import { headers } from "next/headers";
 
 export async function generateMetadata(): Promise<Metadata> {
   const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
+  const isKorean = country === "KR";
   return {
     title: isKorean ? "개인정보 처리방침 — CS-Pedia" : "Privacy Policy — CS-Pedia",
     description: isKorean
@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function PrivacyPage() {
   const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
+  const isKorean = country === "KR";
 
   return (
     <div className="min-h-screen bg-page-gradient">

@@ -1,10 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import type { BestPaperWithConference } from "@/domain/repositories/best-paper-repository";
 import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 import { conferenceUrl, formatAuthors } from "@/shared/utils/url";
 import { useLocale } from "@/presentation/hooks/use-locale";
+
+const INITIAL_YEARS = 3;
 
 interface BestPaperListProps {
   papers: BestPaperWithConference[];
@@ -67,9 +70,13 @@ export function BestPaperList({ papers }: BestPaperListProps) {
     .map(Number)
     .sort((a, b) => b - a);
 
+  const [visibleYears, setVisibleYears] = useState(INITIAL_YEARS);
+  const displayedYears = sortedYears.slice(0, visibleYears);
+  const hasMoreYears = visibleYears < sortedYears.length;
+
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "32px" }}>
-      {sortedYears.map((year) => (
+      {displayedYears.map((year) => (
         <div key={year}>
           <div className="flex items-center gap-3 mb-4">
             <h2
@@ -233,6 +240,16 @@ export function BestPaperList({ papers }: BestPaperListProps) {
           </div>
         </div>
       ))}
+      {hasMoreYears && (
+        <button
+          onClick={() => setVisibleYears((prev) => prev + INITIAL_YEARS)}
+          className="w-full py-3 text-sm font-medium text-zinc-500 hover:text-zinc-700 bg-zinc-50 hover:bg-zinc-100 rounded-xl transition-colors"
+        >
+          {isKorean
+            ? `더보기 (${sortedYears.length - visibleYears}년 남음)`
+            : `Show more (${sortedYears.length - visibleYears} years remaining)`}
+        </button>
+      )}
     </div>
   );
 }

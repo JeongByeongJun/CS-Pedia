@@ -55,7 +55,7 @@ export function FeedbackButton({ isKorean = true }: { isKorean?: boolean }) {
       </button>
 
       {open && (
-        <div className="fixed bottom-[9rem] right-4 sm:bottom-20 sm:right-6 z-50 bg-white rounded-xl shadow-xl border border-zinc-200 p-3 w-48">
+        <div className="fixed bottom-[9rem] right-4 sm:bottom-20 sm:right-6 z-50 bg-white rounded-xl shadow-xl border border-zinc-200 p-3 w-48 max-h-[60vh] overflow-y-auto">
           <div className="space-y-1">
             {CONTACT_OPTIONS.map((opt, i) => (
               <a

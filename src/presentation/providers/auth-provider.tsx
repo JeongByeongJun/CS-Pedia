@@ -57,6 +57,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
 
     loadAuth();
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(() => {
+      loadAuth();
+    });
+
+    return () => subscription.unsubscribe();
   }, []);
 
   return (

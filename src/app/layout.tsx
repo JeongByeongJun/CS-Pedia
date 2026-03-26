@@ -196,6 +196,9 @@ export async function generateMetadata(): Promise<Metadata> {
     "WWW deadline",
   ],
   metadataBase: new URL("https://cs-pedia.io"),
+  alternates: {
+    canonical: "https://cs-pedia.io",
+  },
   other: {
     "google-adsense-account": "ca-pub-7036136026593965",
   },
@@ -215,7 +218,7 @@ export async function generateMetadata(): Promise<Metadata> {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CS-Pedia",
+        alt: "CS-Pedia: CS conference deadlines, acceptance rates, and best papers dashboard",
       },
     ],
   },

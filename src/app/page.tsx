@@ -14,7 +14,7 @@ export default async function HomePage() {
     "@type": "WebSite",
     name: "CS-Pedia",
     url: "https://cs-pedia.io",
-    description: "한국 CS 연구자를 위한 학회 통합 플랫폼",
+    description: "CS conference deadlines, acceptance rates, and best paper awards for researchers",
     potentialAction: {
       "@type": "SearchAction",
       target: {

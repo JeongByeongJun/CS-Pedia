@@ -4,7 +4,7 @@ import { headers } from "next/headers";
 
 export async function generateMetadata(): Promise<Metadata> {
   const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
+  const isKorean = country === "KR";
   return {
     title: isKorean ? "이용약관 — CS-Pedia" : "Terms of Service — CS-Pedia",
     description: isKorean
@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function TermsPage() {
   const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
+  const isKorean = country === "KR";
 
   return (
     <div className="min-h-screen bg-page-gradient">
