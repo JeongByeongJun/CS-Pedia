@@ -6,6 +6,13 @@ import { ConferenceSearch } from "./conference-search";
 import { ConferenceFilters } from "./conference-filters";
 import { ConferenceList } from "./conference-list";
 import { useLocale } from "@/presentation/hooks/use-locale";
+import { useAuth } from "@/presentation/providers/auth-provider";
+
+// Safe wrapper — useAuth may not be available in all contexts
+function __useAuthSafe() {
+  try { return useAuth(); }
+  catch { return { bookmarkedIds: [] as string[], isLoggedIn: false, isLoading: true }; }
+}
 
 const STORAGE_KEY = "cs-pedia-filters";
 
@@ -42,10 +49,13 @@ interface ConferenceClientSectionProps {
 
 export function ConferenceClientSection({
   conferences,
-  bookmarkedIds,
-  isLoggedIn,
+  bookmarkedIds: serverBookmarkedIds,
+  isLoggedIn: serverIsLoggedIn,
 }: ConferenceClientSectionProps) {
   const { isKorean } = useLocale();
+  const auth = __useAuthSafe();
+  const bookmarkedIds = auth.isLoading ? serverBookmarkedIds : auth.bookmarkedIds;
+  const isLoggedIn = auth.isLoading ? serverIsLoggedIn : auth.isLoggedIn;
   const [search, setSearch] = usePersistedState("q", "");
   const [field, setField] = usePersistedState("field", "");
   const [institution, setInstitution] = usePersistedState("institution", "");

@@ -113,7 +113,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <SiteHeader user={null} />
+      <SiteHeader />
 
       <main className="max-w-4xl mx-auto px-4 py-8 sm:px-6">
         {/* 뒤로가기 */}

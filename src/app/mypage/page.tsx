@@ -47,7 +47,7 @@ export default async function MyPage() {
 
   return (
     <div className="min-h-screen bg-page-gradient">
-      <SiteHeader user={authUser} />
+      <SiteHeader />
 
       <main className="max-w-6xl mx-auto px-4 py-8 sm:px-6">
         {/* Page header */}

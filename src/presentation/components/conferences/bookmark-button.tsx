@@ -3,6 +3,7 @@
 import { useOptimistic, useTransition } from "react";
 import { Bookmark, BookmarkCheck } from "lucide-react";
 import { toggleBookmark } from "@/app/actions/bookmark";
+import { useAuth } from "@/presentation/providers/auth-provider";
 
 interface BookmarkButtonProps {
   conferenceId: string;
@@ -13,11 +14,15 @@ interface BookmarkButtonProps {
 export function BookmarkButton({
   conferenceId,
   initialBookmarked,
-  isLoggedIn,
+  isLoggedIn: serverIsLoggedIn,
 }: BookmarkButtonProps) {
+  const auth = useAuth();
+  const isLoggedIn = auth.isLoading ? serverIsLoggedIn : auth.isLoggedIn;
+  const isBookmarked = auth.isLoading ? initialBookmarked : auth.bookmarkedIds.includes(conferenceId);
+
   const [isPending, startTransition] = useTransition();
   const [optimisticBookmarked, setOptimisticBookmarked] = useOptimistic(
-    initialBookmarked,
+    isBookmarked,
     (_current, next: boolean) => next,
   );
 

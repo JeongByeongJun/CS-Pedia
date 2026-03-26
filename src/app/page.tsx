@@ -32,7 +32,6 @@ export default async function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
       <SiteHeader
-        user={null}
         stats={{
           upcomingCount: conferences.filter((c) => (c.daysUntilDeadline ?? -1) >= 0).length,
           totalCount: conferences.length,

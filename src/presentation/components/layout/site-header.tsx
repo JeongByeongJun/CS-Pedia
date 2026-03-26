@@ -1,12 +1,7 @@
 import Link from "next/link";
-import { AuthButton } from "@/presentation/components/auth/auth-button";
+import { AuthNav } from "@/presentation/components/auth/auth-nav";
 
 interface SiteHeaderProps {
-  user: {
-    email: string;
-    name?: string;
-    avatarUrl?: string;
-  } | null;
   stats?: {
     upcomingCount: number;
     totalCount: number;
@@ -14,7 +9,7 @@ interface SiteHeaderProps {
   };
 }
 
-export function SiteHeader({ user, stats }: SiteHeaderProps) {
+export function SiteHeader({ stats }: SiteHeaderProps) {
 
   return (
     <header className="relative overflow-hidden bg-header-gradient">
@@ -61,18 +56,7 @@ export function SiteHeader({ user, stats }: SiteHeaderProps) {
             >
               Best Papers
             </Link>
-            {user ? (
-              <Link
-                href="/mypage"
-                className="hidden sm:flex items-center nav-link-hover px-3 py-1.5 text-[13px] text-zinc-300 rounded-md"
-              >
-                My Page
-              </Link>
-            ) : (
-              <div className="ml-1">
-                <AuthButton user={user} />
-              </div>
-            )}
+            <AuthNav />
           </div>
         </div>
 

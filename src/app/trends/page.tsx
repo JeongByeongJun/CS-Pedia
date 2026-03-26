@@ -74,7 +74,7 @@ export default async function TrendsPage() {
 
   return (
     <div className="min-h-screen bg-page-gradient">
-      <SiteHeader user={null} />
+      <SiteHeader />
 
       <main className="max-w-6xl mx-auto px-4 py-8 sm:px-6">
         <h1 className="text-2xl font-bold text-zinc-900 mb-2">

@@ -16,7 +16,7 @@ export default async function BestPapersPage() {
 
   return (
     <div className="min-h-screen bg-page-gradient">
-      <SiteHeader user={null} />
+      <SiteHeader />
 
       <main className="max-w-6xl mx-auto px-4 py-8 sm:px-6">
         <div className="mb-6">

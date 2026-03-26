@@ -8,6 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from "next/script";
 import { headers } from "next/headers";
 import { LocaleProvider } from "@/presentation/providers/locale-provider";
+import { AuthProvider } from "@/presentation/providers/auth-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -249,9 +250,11 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <LocaleProvider lang={lang}>
-          {children}
-          <MobileNav />
-        <FeedbackButton isKorean={lang === "ko"} />
+          <AuthProvider>
+            {children}
+            <MobileNav />
+            <FeedbackButton isKorean={lang === "ko"} />
+          </AuthProvider>
         </LocaleProvider>
         <Analytics />
         <SpeedInsights />
