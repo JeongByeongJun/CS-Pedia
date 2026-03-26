@@ -1,5 +1,4 @@
-import { getConferences, bookmarkRepo } from "@/infrastructure/container";
-import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
+import { getConferences } from "@/infrastructure/container";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { UpdateBanner } from "@/presentation/components/layout/update-banner";
@@ -8,25 +7,7 @@ import { ConferenceClientSection } from "@/presentation/components/conferences/c
 export const revalidate = 3600;
 
 export default async function HomePage() {
-  const [conferences, supabase] = await Promise.all([
-    getConferences(),
-    createSupabaseServerClient(),
-  ]);
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  const bookmarkedIds = user
-    ? (await bookmarkRepo.findByUserId(user.id)).map((b) => b.conferenceId)
-    : [];
-
-  const authUser = user
-    ? {
-        email: user.email!,
-        name: user.user_metadata?.full_name ?? user.user_metadata?.name,
-        avatarUrl: user.user_metadata?.avatar_url,
-      }
-    : null;
+  const conferences = await getConferences();
 
   const websiteJsonLd = {
     "@context": "https://schema.org",
@@ -51,11 +32,11 @@ export default async function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
       <SiteHeader
-        user={authUser}
+        user={null}
         stats={{
           upcomingCount: conferences.filter((c) => (c.daysUntilDeadline ?? -1) >= 0).length,
           totalCount: conferences.length,
-          bookmarkCount: bookmarkedIds.length,
+          bookmarkCount: 0,
         }}
       />
 
@@ -63,8 +44,8 @@ export default async function HomePage() {
         <UpdateBanner />
         <ConferenceClientSection
           conferences={conferences}
-          bookmarkedIds={bookmarkedIds}
-          isLoggedIn={!!user}
+          bookmarkedIds={[]}
+          isLoggedIn={false}
         />
         <SiteFooter />
       </main>

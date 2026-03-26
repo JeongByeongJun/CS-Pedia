@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
-import { headers } from "next/headers";
 import {
   getAllAcceptanceRates,
   getAllKeywordTrends,
   getTopKeywords,
 } from "@/infrastructure/container";
-import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
-import { getBookmarkCount } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { MultiConferenceChart } from "@/presentation/components/charts/multi-conference-chart";
@@ -15,42 +12,22 @@ import { KeywordTrendChart } from "@/presentation/components/charts/keyword-tren
 import { KeywordBarChart } from "@/presentation/components/charts/keyword-bar-chart";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
-  return {
-    title: isKorean ? "Trends — 학회 트렌드 분석 | CS-Pedia" : "Trends — CS-Pedia",
-    description: isKorean
-      ? "CS 주요 학회 Acceptance Rate 추이와 키워드 트렌드를 비교 분석하세요."
-      : "Compare acceptance rate trends and research keyword trends across top CS conferences.",
-  };
-}
+export const metadata: Metadata = {
+  title: "Trends — CS-Pedia",
+  description: "Compare acceptance rate trends and research keyword trends across top CS conferences.",
+};
 
 export const revalidate = 86400;
 
 export default async function TrendsPage() {
-  const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
+  const isKorean = true; // TODO: move to client-side locale detection
 
-  const [allRates, allKeywordTrends, topKeywords, supabase] =
+  const [allRates, allKeywordTrends, topKeywords] =
     await Promise.all([
       getAllAcceptanceRates(),
       getAllKeywordTrends(),
       getTopKeywords(30),
-      createSupabaseServerClient(),
     ]);
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  await getBookmarkCount();
-
-  const authUser = user
-    ? {
-        email: user.email!,
-        name: user.user_metadata?.full_name ?? user.user_metadata?.name,
-        avatarUrl: user.user_metadata?.avatar_url,
-      }
-    : null;
 
   // --- Acceptance Rate data ---
   const confMap = new Map<
@@ -97,7 +74,7 @@ export default async function TrendsPage() {
 
   return (
     <div className="min-h-screen bg-page-gradient">
-      <SiteHeader user={authUser} />
+      <SiteHeader user={null} />
 
       <main className="max-w-6xl mx-auto px-4 py-8 sm:px-6">
         <h1 className="text-2xl font-bold text-zinc-900 mb-2">

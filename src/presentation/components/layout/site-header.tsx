@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { headers } from "next/headers";
 import { AuthButton } from "@/presentation/components/auth/auth-button";
 
 interface SiteHeaderProps {
@@ -15,9 +14,7 @@ interface SiteHeaderProps {
   };
 }
 
-export async function SiteHeader({ user, stats }: SiteHeaderProps) {
-  const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
+export function SiteHeader({ user, stats }: SiteHeaderProps) {
 
   return (
     <header className="relative overflow-hidden bg-header-gradient">
@@ -102,9 +99,7 @@ export async function SiteHeader({ user, stats }: SiteHeaderProps) {
               <p
                 className="hidden sm:block text-[13px] text-zinc-600 leading-relaxed max-w-[380px]"
               >
-                {isKorean
-                  ? "BK21 · KIISE ratings · Acceptance rates · Conference deadlines for CS researchers"
-                  : "Acceptance rates · Best papers · Conference deadlines for CS researchers"}
+                Acceptance rates · Best papers · Conference deadlines for CS researchers
               </p>
             </div>
 

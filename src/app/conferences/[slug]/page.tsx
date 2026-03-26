@@ -1,10 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { headers } from "next/headers";
 import { getConferenceDetail, getKeywordTrendsByConference, getConferences } from "@/infrastructure/container";
-import { createSupabaseServerClient } from "@/infrastructure/supabase/server";
-import { getBookmarkStatus } from "@/app/actions/bookmark";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { FieldBadge } from "@/presentation/components/conferences/field-badge";
@@ -31,20 +28,12 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
   const acronym = slug.toUpperCase();
   const year = new Date().getFullYear();
   return {
-    title: isKorean
-      ? `${acronym} ${year} - 데드라인, 채택률, Best Paper`
-      : `${acronym} ${year} - Deadline, Acceptance Rate, Best Paper`,
-    description: isKorean
-      ? `${acronym} ${year} 데드라인, 채택률, Best Paper 수상작. BK21/KIISE 인정 여부 포함.`
-      : `${acronym} ${year} deadline, acceptance rate, best paper awards. Includes BK21/KIISE recognition.`,
-    keywords: isKorean
-      ? [`${acronym} 데드라인`, `${acronym} ${year} 마감`, `${acronym} 채택률`, `${acronym} best paper`, `${acronym} CFP`]
-      : [`${acronym} deadline`, `${acronym} ${year} deadline`, `${acronym} acceptance rate`, `${acronym} best paper`, `${acronym} CFP`],
+    title: `${acronym} ${year} - Deadline, Acceptance Rate, Best Paper`,
+    description: `${acronym} ${year} deadline, acceptance rate, best paper awards. CORE/CCF rankings included.`,
+    keywords: [`${acronym} deadline`, `${acronym} ${year} deadline`, `${acronym} acceptance rate`, `${acronym} best paper`, `${acronym} CFP`, `${acronym} 데드라인`, `${acronym} 채택률`],
   };
 }
 
@@ -61,27 +50,8 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
   const { conference, deadlines, bestPapers, ratings, acceptanceRates } = result;
 
-  const country = (await headers()).get("x-vercel-ip-country");
-  const isKorean = !country || country === "KR";
-
-  const [keywordTrends, supabase] = await Promise.all([
-    getKeywordTrendsByConference(conference.id).catch(() => []),
-    createSupabaseServerClient(),
-  ]);
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  const isBookmarked = await getBookmarkStatus(conference.id);
-
-  const authUser = user
-    ? {
-        email: user.email!,
-        name: user.user_metadata?.full_name ?? user.user_metadata?.name,
-        avatarUrl: user.user_metadata?.avatar_url,
-      }
-    : null;
+  const isKorean = true; // TODO: move to client-side locale detection
+  const keywordTrends = await getKeywordTrendsByConference(conference.id).catch(() => []);
 
   const upcomingDeadline = deadlines.find((d) => d.conferenceStart);
   const resolvedStartDate =
@@ -143,7 +113,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <SiteHeader user={authUser} />
+      <SiteHeader user={null} />
 
       <main className="max-w-4xl mx-auto px-4 py-8 sm:px-6">
         {/* 뒤로가기 */}
@@ -189,8 +159,8 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
             </div>
             <BookmarkButton
               conferenceId={conference.id}
-              initialBookmarked={isBookmarked}
-              isLoggedIn={!!user}
+              initialBookmarked={false}
+              isLoggedIn={false}
             />
           </div>
         </div>
