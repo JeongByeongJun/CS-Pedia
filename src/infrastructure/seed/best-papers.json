@@ -13728,7 +13728,7 @@
   },
   {
     "conference_slug": "usenix-security",
-    "year": 2022,
+    "year": 2023,
     "paper_title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge",
     "authors": "Bars, Schloegel, Scharnowski, Schiller, Holz",
     "award_type": "distinguished_paper",
@@ -14170,23 +14170,6 @@
       "Efficiency"
     ],
     "paper_url": "http://arxiv.org/abs/2110.05789v1"
-  },
-  {
-    "conference_slug": "wsdm",
-    "year": 2023,
-    "paper_title": "GCFExplainer: Global Counterfactual Explainer for Graph Neural Networks",
-    "authors": [
-      "Mert Kosan",
-      "Zexi Huang",
-      "Sourav Medya",
-      "Sayan Ranu",
-      "Ambuj Singh"
-    ],
-    "award_type": "best_paper",
-    "tags": [
-      "Graph Neural Networks"
-    ],
-    "paper_url": "https://doi.org/10.1145/3698108"
   },
   {
     "conference_slug": "wsdm",
