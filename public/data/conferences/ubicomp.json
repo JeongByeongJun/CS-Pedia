@@ -1,1 +1,515 @@
-{"id":"4623d60a-4154-4c2e-bc58-430c74a8093d","slug":"ubicomp","nameEn":"ACM International Joint Conference on Pervasive and Ubiquitous Computing","nameKr":null,"acronym":"UbiComp","field":"HCI","subField":"Ubiquitous Computing","dblpKey":"conf/ubicomp","websiteUrl":null,"description":null,"nextDeadline":"2026-05-01T23:59:00Z","daysUntilDeadline":36,"deadlineTimezone":"AoE","venue":"Shanghai, China","conferenceStart":"2026-10-13","conferenceEnd":"2026-10-15","institutionRatings":[{"institution":"BK21","tier":"3"},{"institution":"KIISE","tier":"최우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"최우수"},{"institution":"CORE","tier":null},{"institution":"CCF","tier":"A"},{"institution":"CSRankings","tier":"Included"},{"institution":"KAIST","tier":"우수"}],"deadlines":[{"year":2026,"cycle":"R1","abstractDeadline":null,"paperDeadline":"2026-02-01T23:59:00Z","notificationDate":null,"conferenceStart":"2026-10-13","conferenceEnd":"2026-10-15","venue":"Shanghai, China","timezone":"AoE"},{"year":2026,"cycle":"R2","abstractDeadline":null,"paperDeadline":"2026-05-01T23:59:00Z","notificationDate":null,"conferenceStart":"2026-10-13","conferenceEnd":"2026-10-15","venue":"Shanghai, China","timezone":"AoE"},{"year":2026,"cycle":"R3","abstractDeadline":null,"paperDeadline":"2026-08-01T23:59:00Z","notificationDate":null,"conferenceStart":"2026-10-13","conferenceEnd":"2026-10-15","venue":"Shanghai, China","timezone":"AoE"},{"year":2026,"cycle":"R4","abstractDeadline":null,"paperDeadline":"2026-11-01T23:59:00Z","notificationDate":null,"conferenceStart":"2026-10-13","conferenceEnd":"2026-10-15","venue":"Shanghai, China","timezone":"AoE"}],"bestPapers":[{"year":2021,"paperTitle":"Captivates: A Smart Eyeglass Platform for Across-Context Physiological Measurement","authors":["Patrick Chwalek","David Ramsay","Joseph A. Paradiso"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://doi.org/10.1145/3614214.3614220"},{"year":2021,"paperTitle":"Detecting Receptivity for mHealth Interventions in the Natural Environment","authors":["Varun Mishra","Florian Künzler","Jan-Niklas Kramer","Elgar Fleisch","Tobias Kowatsch","David Kotz"],"awardType":"distinguished_paper","tags":[],"paperUrl":"http://arxiv.org/abs/2011.08302v2"},{"year":2021,"paperTitle":"Every Byte Matters: Traffic Analysis of Bluetooth Wearable Devices","authors":["Ludovic Barman","Alexandre Dumur","Apostolos Pyrgelis","Jean-Pierre Hubaux"],"awardType":"distinguished_paper","tags":["Wearable Computing"],"paperUrl":"http://arxiv.org/abs/2105.11172v1"},{"year":2022,"paperTitle":"Design and Evaluation of a Clippable and Personalizable Pneumatic-haptic Feedback Device for Breathing Guidance","authors":["Kyung Yun Choi","Neska ElHaouij","Jinmo Lee","Rosalind W. Picard","Hiroshi Ishii"],"awardType":"distinguished_paper","tags":["Haptics"],"paperUrl":"https://doi.org/10.1145/3517234"},{"year":2023,"paperTitle":"Contextual Biases in Microinteraction Ecological Momentary Assessment (μEMA) Non-response","authors":["Aditya Ponnada","Jixin Li","Shirlene Wang","Wei-Lin Wang","Bridgette Do","Genevieve F. Dunton","Stephen S. Intille"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://doi.org/10.1145/3517259"},{"year":2023,"paperTitle":"GLOBEM: Cross-Dataset Generalization of Longitudinal Human Behavior Modeling","authors":["Xuhai Xu","Xin Liu","Han Zhang","Weichen Wang","Subigya Nepal","Yasaman Sefidgar","Woosuk Seo","Kevin S. Kuehn","Jeremy F. Huckins","Margaret E. Morris","Paula S. Nurius","Eve A. Riskin","Shwetak Patel","Tim Althoff","Andrew Campbell","Anind K. Dey","Jennifer Mankoff"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://dl.acm.org/doi/10.1145/3569485"},{"year":2023,"paperTitle":"Generalization and Personalization of Mobile Sensing-Based Mood Inference Models: An Analysis of College Students in Eight Countries","authors":["Lakmal Meegahapola","William Droz","Peter Kun","Amalia de Götzen","Chaitanya Nutakki","Shyam Diwakar","Salvador Ruiz-Correa","Donglei Song","Hao Xu","Miriam Bidoglia","George Gaskell","Altangerel Chagnaa","Amarsanaa Ganbold","Tsolmon Zundui","Carlo Caprini","Daniele Miorandi","Alethia Hume","José Luis Zarza","Luca Cernuzzi","Ivano Bison","Marcelo Dario Rodas Britez","Matteo Busso","Ronald Chenu-Abente","Can Gunel","Fausto Giunchiglia","Laura Schelenz","Daniel Gatica-Perez"],"awardType":"distinguished_paper","tags":[],"paperUrl":"http://arxiv.org/abs/2211.03009v1"},{"year":2023,"paperTitle":"Plug-and-play Physical Computing with Jacdac","authors":["James Devine","Michal Moskal","Peli de Halleux","Thomas Ball","Steve Hodges","Gabriele D'Amone","David Gakure","Joe Finney","Lorraine Underwood","Kobi Hartley","Paul Kos","Matt Oppenheim"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://doi.org/10.1145/3550317"},{"year":2023,"paperTitle":"Predicting Post-Operative Complications with Wearables: A Case Study with Patients Undergoing Pancreatic Surgery","authors":["Jingwen Zhang","Dingwen Li","Ruixuan Dai","Heidy Cos","Gregory A. Williams","Lacey Raper","Chet W. Hammill","Chenyang Lu"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://dl.acm.org/doi/10.1145/3534578"},{"year":2023,"paperTitle":"RetroSphere: Self-Contained Passive 3D Controller Tracking for Augmented Reality","authors":["Ananta Narayanan Balaji","Clayton Kimber","David Li","Shengzhi Wu","Ruofei Du","David Kim"],"awardType":"distinguished_paper","tags":["Object Tracking","Augmented Reality"],"paperUrl":"https://dl.acm.org/doi/10.1145/3569479"},{"year":2023,"paperTitle":"Total VREcall: Using Biosignals to Recognize Emotional Autobiographical Memory in Virtual Reality","authors":["Kunal Gupta","Sam W. T. Chan","Yun Suen Pai","Nicholas Strachan","John Su","Alexander Sumich","Suranga Nanayakkara","Mark Billinghurst"],"awardType":"distinguished_paper","tags":["Virtual Reality"],"paperUrl":"https://dl.acm.org/doi/10.1145/3534615"},{"year":2023,"paperTitle":"VECTOR: Velocity Based Temperature-field Monitoring with Distributed Acoustic Devices","authors":["Haoran Wan","Lei Wang","Ting Zhao","Ke Sun","Shuyu Shi","Haipeng Dai","Guihai Chen","Haodong Liu","Wei Wang"],"awardType":"distinguished_paper","tags":["Monitoring"],"paperUrl":"https://dl.acm.org/doi/10.1145/3550336"},{"year":2024,"paperTitle":"DIPA2: An Image Dataset with Cross-cultural Privacy Perception Annotations","authors":["Anran Xu","Zhongyi Zhou","Kakeru Miyazaki","Ryo Yoshikawa","Simo Hosio","Koji Yatani"],"awardType":"distinguished_paper","tags":["Privacy"],"paperUrl":"https://doi.org/10.1145/3760535.3760542"},{"year":2024,"paperTitle":"FeverPhone: Accessible Core-Body Temperature Sensing for Fever Monitoring Using Commodity Smartphones","authors":["Joseph Breda","Mastafa Springston","Alex Mariakakis","Shwetak Patel"],"awardType":"distinguished_paper","tags":["Monitoring"],"paperUrl":"https://dl.acm.org/doi/10.1145/3580850"},{"year":2024,"paperTitle":"MITES: Design and Deployment of a General-Purpose Sensing Infrastructure for Buildings","authors":["Sudershan Boovaraghavan","Chen Chen","Anurag Maravi","Mike Czapik","Yang Zhang","Chris Harrison","Yuvraj Agarwal"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://dl.acm.org/doi/10.1145/3580865"},{"year":2024,"paperTitle":"MoCaPose: Motion Capturing with Textile-integrated Capacitive Sensors in Loose-fitting Smart Garments","authors":["Bo Zhou","Daniel Geissler","Marc Faulhaber","Clara Elisabeth Gleiss","Esther Friederike Zahn","Lala Shakti Swarup Ray","David Gamarra","Vitor Fortes Rey","Sungho Suh","Sizhen Bian","Gesche Joost","Paul Lukowicz"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://dl.acm.org/doi/10.1145/3580883"},{"year":2024,"paperTitle":"SkinLink: On-body Construction and Prototyping of Reconfigurable Epidermal Interfaces","authors":["Pin-Sung Ku","Kunpeng Huang","Nancy Wang","Boaz Ng","Alicia Chu","Hsin-Liu Cindy Kao"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://doi.org/10.1145/3760535.3760540"},{"year":2024,"paperTitle":"Uncovering Bias in Personal Informatics","authors":["Sofia Yfantidou","Pavlos Sermpezis","Athena Vakali","Ricardo Baeza-Yates"],"awardType":"distinguished_paper","tags":["Bias"],"paperUrl":"http://arxiv.org/abs/2303.15592v2"},{"year":2024,"paperTitle":"Understanding Disengagement in Just-in-Time Mobile Health Interventions","authors":["Joonyoung Park","Uichin Lee"],"awardType":"distinguished_paper","tags":["Health Informatics"],"paperUrl":"https://doi.org/10.1145/3596240"},{"year":2024,"paperTitle":"What and When to Explain? On-road Evaluation of Explanations in Highly Automated Vehicles","authors":["Gwangbin Kim","Dohyeon Yeo","Taewoo Jo","Daniela Rus","Seung Jun Kim"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://dl.acm.org/doi/abs/10.1145/3610886"},{"year":2025,"paperTitle":"Capturing the College Experience: A Four-Year Mobile Sensing Study of Mental Health, Resilience and Behavior of College Students during the Pandemic","authors":["Subigya Nepal","Wenjun Liu","Arvind Pillai","Weichen Wang","Vlado Vojdanovski","Jeremy F. Huckins","Courtney Rogers","Meghan L. Meyer","Andrew T. Campbell"],"awardType":"distinguished_paper","tags":["Resilience","Mental Health Technology","Health Informatics"],"paperUrl":"https://dl.acm.org/doi/10.1145/3643501"},{"year":2025,"paperTitle":"MagDesk: Interactive Tabletop Workspace Based on Passive Magnetic Tracking","authors":["Kunpeng Huang","Yasha Iravantchi","Dongyao Chen","Alanson Sample"],"awardType":"distinguished_paper","tags":["Object Tracking"],"paperUrl":"https://doi.org/10.1145/3699756"},{"year":2025,"paperTitle":"NeuroCamTags: Long-Range, Battery-free, Wireless Sensing with Neuromorphic Cameras","authors":["Danny Scott","Matthew L Bringle","Imran Fahad","Gaddiel Morales","Azizul Zahid","Sai Swaminathan"],"awardType":"distinguished_paper","tags":["Wireless Networks"],"paperUrl":"https://doi.org/10.1145/3678529"}],"acceptanceRates":[],"keywordTrends":[]}
+{
+  "id": "4623d60a-4154-4c2e-bc58-430c74a8093d",
+  "slug": "ubicomp",
+  "nameEn": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+  "nameKr": null,
+  "acronym": "UbiComp",
+  "field": "HCI",
+  "subField": "Ubiquitous Computing",
+  "dblpKey": "conf/ubicomp",
+  "websiteUrl": null,
+  "description": "ACM's premier conference on ubiquitous and pervasive computing, covering wearables, IoT, and context-aware computing. Papers are published through the IMWUT journal, and the conference leads research on computing technologies that permeate everyday life.",
+  "nextDeadline": "2026-05-01T23:59:00Z",
+  "daysUntilDeadline": 36,
+  "deadlineTimezone": "AoE",
+  "venue": "Shanghai, China",
+  "conferenceStart": "2026-10-13",
+  "conferenceEnd": "2026-10-15",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "3"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "최우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "최우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": null
+    },
+    {
+      "institution": "CCF",
+      "tier": "A"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": "Included"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "R1",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-02-01T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-10-13",
+      "conferenceEnd": "2026-10-15",
+      "venue": "Shanghai, China",
+      "timezone": "AoE"
+    },
+    {
+      "year": 2026,
+      "cycle": "R2",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-05-01T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-10-13",
+      "conferenceEnd": "2026-10-15",
+      "venue": "Shanghai, China",
+      "timezone": "AoE"
+    },
+    {
+      "year": 2026,
+      "cycle": "R3",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-08-01T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-10-13",
+      "conferenceEnd": "2026-10-15",
+      "venue": "Shanghai, China",
+      "timezone": "AoE"
+    },
+    {
+      "year": 2026,
+      "cycle": "R4",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-11-01T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-10-13",
+      "conferenceEnd": "2026-10-15",
+      "venue": "Shanghai, China",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "Captivates: A Smart Eyeglass Platform for Across-Context Physiological Measurement",
+      "authors": [
+        "Patrick Chwalek",
+        "David Ramsay",
+        "Joseph A. Paradiso"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1145/3614214.3614220"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Detecting Receptivity for mHealth Interventions in the Natural Environment",
+      "authors": [
+        "Varun Mishra",
+        "Florian Künzler",
+        "Jan-Niklas Kramer",
+        "Elgar Fleisch",
+        "Tobias Kowatsch",
+        "David Kotz"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "http://arxiv.org/abs/2011.08302v2"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Every Byte Matters: Traffic Analysis of Bluetooth Wearable Devices",
+      "authors": [
+        "Ludovic Barman",
+        "Alexandre Dumur",
+        "Apostolos Pyrgelis",
+        "Jean-Pierre Hubaux"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Wearable Computing"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2105.11172v1"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Design and Evaluation of a Clippable and Personalizable Pneumatic-haptic Feedback Device for Breathing Guidance",
+      "authors": [
+        "Kyung Yun Choi",
+        "Neska ElHaouij",
+        "Jinmo Lee",
+        "Rosalind W. Picard",
+        "Hiroshi Ishii"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Haptics"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3517234"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Contextual Biases in Microinteraction Ecological Momentary Assessment (μEMA) Non-response",
+      "authors": [
+        "Aditya Ponnada",
+        "Jixin Li",
+        "Shirlene Wang",
+        "Wei-Lin Wang",
+        "Bridgette Do",
+        "Genevieve F. Dunton",
+        "Stephen S. Intille"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1145/3517259"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "GLOBEM: Cross-Dataset Generalization of Longitudinal Human Behavior Modeling",
+      "authors": [
+        "Xuhai Xu",
+        "Xin Liu",
+        "Han Zhang",
+        "Weichen Wang",
+        "Subigya Nepal",
+        "Yasaman Sefidgar",
+        "Woosuk Seo",
+        "Kevin S. Kuehn",
+        "Jeremy F. Huckins",
+        "Margaret E. Morris",
+        "Paula S. Nurius",
+        "Eve A. Riskin",
+        "Shwetak Patel",
+        "Tim Althoff",
+        "Andrew Campbell",
+        "Anind K. Dey",
+        "Jennifer Mankoff"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3569485"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Generalization and Personalization of Mobile Sensing-Based Mood Inference Models: An Analysis of College Students in Eight Countries",
+      "authors": [
+        "Lakmal Meegahapola",
+        "William Droz",
+        "Peter Kun",
+        "Amalia de Götzen",
+        "Chaitanya Nutakki",
+        "Shyam Diwakar",
+        "Salvador Ruiz-Correa",
+        "Donglei Song",
+        "Hao Xu",
+        "Miriam Bidoglia",
+        "George Gaskell",
+        "Altangerel Chagnaa",
+        "Amarsanaa Ganbold",
+        "Tsolmon Zundui",
+        "Carlo Caprini",
+        "Daniele Miorandi",
+        "Alethia Hume",
+        "José Luis Zarza",
+        "Luca Cernuzzi",
+        "Ivano Bison",
+        "Marcelo Dario Rodas Britez",
+        "Matteo Busso",
+        "Ronald Chenu-Abente",
+        "Can Gunel",
+        "Fausto Giunchiglia",
+        "Laura Schelenz",
+        "Daniel Gatica-Perez"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "http://arxiv.org/abs/2211.03009v1"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Plug-and-play Physical Computing with Jacdac",
+      "authors": [
+        "James Devine",
+        "Michal Moskal",
+        "Peli de Halleux",
+        "Thomas Ball",
+        "Steve Hodges",
+        "Gabriele D'Amone",
+        "David Gakure",
+        "Joe Finney",
+        "Lorraine Underwood",
+        "Kobi Hartley",
+        "Paul Kos",
+        "Matt Oppenheim"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1145/3550317"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Predicting Post-Operative Complications with Wearables: A Case Study with Patients Undergoing Pancreatic Surgery",
+      "authors": [
+        "Jingwen Zhang",
+        "Dingwen Li",
+        "Ruixuan Dai",
+        "Heidy Cos",
+        "Gregory A. Williams",
+        "Lacey Raper",
+        "Chet W. Hammill",
+        "Chenyang Lu"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3534578"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "RetroSphere: Self-Contained Passive 3D Controller Tracking for Augmented Reality",
+      "authors": [
+        "Ananta Narayanan Balaji",
+        "Clayton Kimber",
+        "David Li",
+        "Shengzhi Wu",
+        "Ruofei Du",
+        "David Kim"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Object Tracking",
+        "Augmented Reality"
+      ],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3569479"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Total VREcall: Using Biosignals to Recognize Emotional Autobiographical Memory in Virtual Reality",
+      "authors": [
+        "Kunal Gupta",
+        "Sam W. T. Chan",
+        "Yun Suen Pai",
+        "Nicholas Strachan",
+        "John Su",
+        "Alexander Sumich",
+        "Suranga Nanayakkara",
+        "Mark Billinghurst"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Virtual Reality"
+      ],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3534615"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "VECTOR: Velocity Based Temperature-field Monitoring with Distributed Acoustic Devices",
+      "authors": [
+        "Haoran Wan",
+        "Lei Wang",
+        "Ting Zhao",
+        "Ke Sun",
+        "Shuyu Shi",
+        "Haipeng Dai",
+        "Guihai Chen",
+        "Haodong Liu",
+        "Wei Wang"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Monitoring"
+      ],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3550336"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "DIPA2: An Image Dataset with Cross-cultural Privacy Perception Annotations",
+      "authors": [
+        "Anran Xu",
+        "Zhongyi Zhou",
+        "Kakeru Miyazaki",
+        "Ryo Yoshikawa",
+        "Simo Hosio",
+        "Koji Yatani"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Privacy"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3760535.3760542"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "FeverPhone: Accessible Core-Body Temperature Sensing for Fever Monitoring Using Commodity Smartphones",
+      "authors": [
+        "Joseph Breda",
+        "Mastafa Springston",
+        "Alex Mariakakis",
+        "Shwetak Patel"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Monitoring"
+      ],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3580850"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "MITES: Design and Deployment of a General-Purpose Sensing Infrastructure for Buildings",
+      "authors": [
+        "Sudershan Boovaraghavan",
+        "Chen Chen",
+        "Anurag Maravi",
+        "Mike Czapik",
+        "Yang Zhang",
+        "Chris Harrison",
+        "Yuvraj Agarwal"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3580865"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "MoCaPose: Motion Capturing with Textile-integrated Capacitive Sensors in Loose-fitting Smart Garments",
+      "authors": [
+        "Bo Zhou",
+        "Daniel Geissler",
+        "Marc Faulhaber",
+        "Clara Elisabeth Gleiss",
+        "Esther Friederike Zahn",
+        "Lala Shakti Swarup Ray",
+        "David Gamarra",
+        "Vitor Fortes Rey",
+        "Sungho Suh",
+        "Sizhen Bian",
+        "Gesche Joost",
+        "Paul Lukowicz"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3580883"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "SkinLink: On-body Construction and Prototyping of Reconfigurable Epidermal Interfaces",
+      "authors": [
+        "Pin-Sung Ku",
+        "Kunpeng Huang",
+        "Nancy Wang",
+        "Boaz Ng",
+        "Alicia Chu",
+        "Hsin-Liu Cindy Kao"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1145/3760535.3760540"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "Uncovering Bias in Personal Informatics",
+      "authors": [
+        "Sofia Yfantidou",
+        "Pavlos Sermpezis",
+        "Athena Vakali",
+        "Ricardo Baeza-Yates"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Bias"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2303.15592v2"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "Understanding Disengagement in Just-in-Time Mobile Health Interventions",
+      "authors": [
+        "Joonyoung Park",
+        "Uichin Lee"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Health Informatics"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3596240"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "What and When to Explain? On-road Evaluation of Explanations in Highly Automated Vehicles",
+      "authors": [
+        "Gwangbin Kim",
+        "Dohyeon Yeo",
+        "Taewoo Jo",
+        "Daniela Rus",
+        "Seung Jun Kim"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://dl.acm.org/doi/abs/10.1145/3610886"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Capturing the College Experience: A Four-Year Mobile Sensing Study of Mental Health, Resilience and Behavior of College Students during the Pandemic",
+      "authors": [
+        "Subigya Nepal",
+        "Wenjun Liu",
+        "Arvind Pillai",
+        "Weichen Wang",
+        "Vlado Vojdanovski",
+        "Jeremy F. Huckins",
+        "Courtney Rogers",
+        "Meghan L. Meyer",
+        "Andrew T. Campbell"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Resilience",
+        "Mental Health Technology",
+        "Health Informatics"
+      ],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3643501"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "MagDesk: Interactive Tabletop Workspace Based on Passive Magnetic Tracking",
+      "authors": [
+        "Kunpeng Huang",
+        "Yasha Iravantchi",
+        "Dongyao Chen",
+        "Alanson Sample"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Object Tracking"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3699756"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "NeuroCamTags: Long-Range, Battery-free, Wireless Sensing with Neuromorphic Cameras",
+      "authors": [
+        "Danny Scott",
+        "Matthew L Bringle",
+        "Imran Fahad",
+        "Gaddiel Morales",
+        "Azizul Zahid",
+        "Sai Swaminathan"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Wireless Networks"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3678529"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [],
+  "descriptionKo": "유비쿼터스 및 퍼베이시브 컴퓨팅 분야의 최상위 ACM 학회로, 웨어러블, IoT, 상황 인식 컴퓨팅 등을 다룬다. IMWUT 저널을 통해 논문을 출판하며, 실생활에 스며드는 컴퓨팅 기술 연구를 선도한다.",
+  "descriptionEn": "ACM's premier conference on ubiquitous and pervasive computing, covering wearables, IoT, and context-aware computing. Papers are published through the IMWUT journal, and the conference leads research on computing technologies that permeate everyday life."
+}

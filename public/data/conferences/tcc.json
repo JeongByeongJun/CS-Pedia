@@ -1,1 +1,358 @@
-{"id":"29b0b540-1e9c-49fa-a0ee-5c107ee98393","slug":"tcc","nameEn":"Theory of Cryptography Conference","nameKr":null,"acronym":"TCC","field":"Security","subField":"Cryptography Theory","dblpKey":"conf/tcc","websiteUrl":"https://iacr.org/meetings/tcc/","description":null,"nextDeadline":"2026-05-19T23:59:00Z","daysUntilDeadline":54,"deadlineTimezone":"AoE","venue":"New York, USA","conferenceStart":"2026-11-10","conferenceEnd":"2026-11-13","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":null},{"institution":"KAIST","tier":null},{"institution":"SNU","tier":null},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-05-19T23:59:00Z","notificationDate":null,"conferenceStart":"2026-11-10","conferenceEnd":"2026-11-13","venue":"New York, USA","timezone":"AoE"}],"bestPapers":[],"acceptanceRates":[{"year":2020,"accepted":1,"submitted":null,"rate":null}],"keywordTrends":[{"year":2022,"keyword":"Zero-Knowledge","count":1},{"year":2022,"keyword":"MPC","count":4},{"year":2022,"keyword":"Encryption","count":7},{"year":2022,"keyword":"Homomorphic","count":1},{"year":2022,"keyword":"Efficient","count":2},{"year":2022,"keyword":"Sublinear","count":3},{"year":2022,"keyword":"Worst-Case","count":1},{"year":2022,"keyword":"Post-Quantum","count":2},{"year":2022,"keyword":"Secure Computation","count":2},{"year":2022,"keyword":"Complexity","count":2},{"year":2022,"keyword":"Index","count":1},{"year":2022,"keyword":"Simulation","count":1},{"year":2023,"keyword":"Encryption","count":7},{"year":2023,"keyword":"Hash","count":1},{"year":2023,"keyword":"Secure Computation","count":3},{"year":2023,"keyword":"MPC","count":6},{"year":2023,"keyword":"Complexity","count":2},{"year":2023,"keyword":"Routing","count":1},{"year":2023,"keyword":"Lattice","count":1},{"year":2023,"keyword":"Consensus","count":1},{"year":2023,"keyword":"Distributed","count":3},{"year":2023,"keyword":"Storage","count":1},{"year":2023,"keyword":"Zero-Knowledge","count":2},{"year":2023,"keyword":"Efficient","count":1},{"year":2023,"keyword":"Homomorphic","count":1},{"year":2023,"keyword":"Simulation","count":1},{"year":2023,"keyword":"Sparse","count":1},{"year":2024,"keyword":"Efficient","count":4},{"year":2024,"keyword":"MPC","count":4},{"year":2024,"keyword":"Worst-Case","count":2},{"year":2024,"keyword":"Encryption","count":9},{"year":2024,"keyword":"Complexity","count":6},{"year":2024,"keyword":"Zero-Knowledge","count":2},{"year":2024,"keyword":"Multi-Party Computation","count":1},{"year":2024,"keyword":"Storage","count":2},{"year":2024,"keyword":"Distributed","count":1},{"year":2024,"keyword":"Homomorphic","count":4},{"year":2024,"keyword":"Sparse","count":2},{"year":2024,"keyword":"Lattice","count":1},{"year":2024,"keyword":"Consensus","count":1},{"year":2024,"keyword":"Secure Computation","count":1},{"year":2025,"keyword":"Distributed","count":1},{"year":2025,"keyword":"Sublinear","count":1},{"year":2025,"keyword":"Hash","count":2},{"year":2025,"keyword":"MPC","count":4},{"year":2025,"keyword":"Privacy","count":2},{"year":2025,"keyword":"Encryption","count":6},{"year":2025,"keyword":"Complexity","count":3},{"year":2025,"keyword":"Compression","count":1},{"year":2025,"keyword":"Post-Quantum","count":1},{"year":2025,"keyword":"Homomorphic","count":2},{"year":2025,"keyword":"Lattice","count":1},{"year":2025,"keyword":"Zero-Knowledge","count":1},{"year":2025,"keyword":"Efficient","count":2},{"year":2025,"keyword":"Simulation","count":1},{"year":2025,"keyword":"Differential Privacy","count":1}]}
+{
+  "id": "29b0b540-1e9c-49fa-a0ee-5c107ee98393",
+  "slug": "tcc",
+  "nameEn": "Theory of Cryptography Conference",
+  "nameKr": null,
+  "acronym": "TCC",
+  "field": "Security",
+  "subField": "Cryptography Theory",
+  "dblpKey": "conf/tcc",
+  "websiteUrl": "https://iacr.org/meetings/tcc/",
+  "description": "An IACR conference dedicated to the theory of cryptography, focusing on mathematical foundations and computational complexity. It features deep theoretical work on provable security, multiparty computation, and complexity-based cryptography.",
+  "nextDeadline": "2026-05-19T23:59:00Z",
+  "daysUntilDeadline": 54,
+  "deadlineTimezone": "AoE",
+  "venue": "New York, USA",
+  "conferenceStart": "2026-11-10",
+  "conferenceEnd": "2026-11-13",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": null
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-05-19T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-11-10",
+      "conferenceEnd": "2026-11-13",
+      "venue": "New York, USA",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [],
+  "acceptanceRates": [
+    {
+      "year": 2020,
+      "accepted": 1,
+      "submitted": null,
+      "rate": null
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2022,
+      "keyword": "Zero-Knowledge",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "MPC",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Encryption",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Sublinear",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Worst-Case",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Post-Quantum",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Secure Computation",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Complexity",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Encryption",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Secure Computation",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "MPC",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Complexity",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Zero-Knowledge",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "MPC",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Worst-Case",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Encryption",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "Complexity",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Zero-Knowledge",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Multi-Party Computation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Storage",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Homomorphic",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Sparse",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Secure Computation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Hash",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "MPC",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Privacy",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Encryption",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Complexity",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Post-Quantum",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Homomorphic",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Zero-Knowledge",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Differential Privacy",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "이론 암호학에 특화된 IACR 학회로, 암호학의 수학적 기반과 계산 복잡도 이론을 중심으로 다룬다. 증명 가능 보안, 다자간 계산, 복잡도 기반 암호학 등 깊이 있는 이론 연구가 발표되는 학회이다.",
+  "descriptionEn": "An IACR conference dedicated to the theory of cryptography, focusing on mathematical foundations and computational complexity. It features deep theoretical work on provable security, multiparty computation, and complexity-based cryptography."
+}

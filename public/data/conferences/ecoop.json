@@ -1,1 +1,477 @@
-{"id":"cba18b8b-8e78-4912-8d5f-186e64f1e290","slug":"ecoop","nameEn":"European Conference on Object-Oriented Programming","nameKr":null,"acronym":"ECOOP","field":"PL","subField":"Object-Oriented Programming","dblpKey":"conf/ecoop","websiteUrl":"https://2026.ecoop.org/","description":null,"nextDeadline":"2026-02-12T23:59:00Z","daysUntilDeadline":-42,"deadlineTimezone":"AoE","venue":"Brussels, Belgium","conferenceStart":"2026-06-29","conferenceEnd":"2026-07-03","institutionRatings":[{"institution":"BK21","tier":"2"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-02-12T23:59:00Z","notificationDate":null,"conferenceStart":"2026-06-29","conferenceEnd":"2026-07-03","venue":"Brussels, Belgium","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Mover Logic: A Concurrent Program Logic for Reduction and Rely-Guarantee Reasoning","authors":"Freund & Flanagan","awardType":"distinguished_paper","tags":["Concurrent Programming","Verification"],"paperUrl":"https://arxiv.org/abs/2407.08070"},{"year":2024,"paperTitle":"Compiling with Arrays","authors":"Richter, Böhler, Weisenburger & Mezini","awardType":"distinguished_paper","tags":["Compilers","Programming Languages"],"paperUrl":"https://arxiv.org/abs/2405.18242"}],"acceptanceRates":[{"year":2021,"accepted":1,"submitted":null,"rate":null},{"year":2020,"accepted":3,"submitted":null,"rate":null}],"keywordTrends":[{"year":2020,"keyword":"Compiler","count":1},{"year":2020,"keyword":"Testing","count":1},{"year":2020,"keyword":"Safety","count":1},{"year":2020,"keyword":"Static Analysis","count":2},{"year":2020,"keyword":"Shape","count":1},{"year":2020,"keyword":"Abstract Interpretation","count":1},{"year":2020,"keyword":"Program Synthesis","count":1},{"year":2020,"keyword":"Cache","count":1},{"year":2020,"keyword":"Efficient","count":1},{"year":2020,"keyword":"Consistency","count":1},{"year":2020,"keyword":"Storage","count":1},{"year":2021,"keyword":"Safety","count":2},{"year":2021,"keyword":"Parallelism","count":1},{"year":2021,"keyword":"Type Theory","count":1},{"year":2021,"keyword":"Abstract Interpretation","count":1},{"year":2021,"keyword":"Static Analysis","count":1},{"year":2021,"keyword":"Program Analysis","count":1},{"year":2021,"keyword":"Differential Privacy","count":1},{"year":2021,"keyword":"Privacy","count":1},{"year":2021,"keyword":"Summarization","count":1},{"year":2022,"keyword":"TEE","count":1},{"year":2022,"keyword":"Code Generation","count":1},{"year":2022,"keyword":"Compiler","count":1},{"year":2022,"keyword":"JIT","count":1},{"year":2022,"keyword":"Memory Safety","count":1},{"year":2022,"keyword":"Safety","count":1},{"year":2022,"keyword":"Functional Programming","count":3},{"year":2022,"keyword":"Distributed","count":1},{"year":2022,"keyword":"Optimization","count":1},{"year":2022,"keyword":"Embedding","count":1},{"year":2022,"keyword":"Fuzzing","count":1},{"year":2022,"keyword":"Graph","count":1},{"year":2022,"keyword":"Static Analysis","count":1},{"year":2022,"keyword":"Embedded","count":1},{"year":2022,"keyword":"Efficient","count":1},{"year":2023,"keyword":"Program Synthesis","count":1},{"year":2023,"keyword":"Consistency","count":1},{"year":2023,"keyword":"Storage","count":1},{"year":2023,"keyword":"Memory Safety","count":1},{"year":2023,"keyword":"Safety","count":2},{"year":2023,"keyword":"Optimization","count":1},{"year":2023,"keyword":"Compiler","count":1},{"year":2023,"keyword":"Parallelism","count":1},{"year":2023,"keyword":"Blockchain","count":1},{"year":2023,"keyword":"Efficient","count":2},{"year":2023,"keyword":"Hash","count":1},{"year":2023,"keyword":"Concurrency","count":1},{"year":2024,"keyword":"Type System","count":1},{"year":2024,"keyword":"Smart Contract","count":1},{"year":2024,"keyword":"Static Analysis","count":2},{"year":2024,"keyword":"Concurrency","count":2},{"year":2024,"keyword":"Graph","count":2},{"year":2024,"keyword":"Join","count":1},{"year":2024,"keyword":"Optimization","count":1},{"year":2024,"keyword":"Efficient","count":3},{"year":2024,"keyword":"Compiler","count":2},{"year":2024,"keyword":"Shape","count":1},{"year":2024,"keyword":"Out-of-Order","count":1},{"year":2024,"keyword":"Dataflow","count":1},{"year":2024,"keyword":"Accessibility","count":1},{"year":2025,"keyword":"Optimization","count":1},{"year":2025,"keyword":"Convergence","count":1},{"year":2025,"keyword":"Bug Detection","count":1},{"year":2025,"keyword":"Replication","count":1},{"year":2025,"keyword":"Malware","count":1},{"year":2025,"keyword":"Testing","count":2},{"year":2025,"keyword":"Graph","count":2},{"year":2025,"keyword":"Compiler","count":2},{"year":2025,"keyword":"JIT","count":1},{"year":2025,"keyword":"Side-Channel","count":1},{"year":2025,"keyword":"Cache","count":1},{"year":2025,"keyword":"Static Analysis","count":1},{"year":2025,"keyword":"Efficient","count":2},{"year":2025,"keyword":"Code Generation","count":1}]}
+{
+  "id": "cba18b8b-8e78-4912-8d5f-186e64f1e290",
+  "slug": "ecoop",
+  "nameEn": "European Conference on Object-Oriented Programming",
+  "nameKr": null,
+  "acronym": "ECOOP",
+  "field": "PL",
+  "subField": "Object-Oriented Programming",
+  "dblpKey": "conf/ecoop",
+  "websiteUrl": "https://2026.ecoop.org/",
+  "description": "A European conference on object-oriented programming covering type systems, software design, and programming languages. Often considered the European counterpart to OOPSLA, ECOOP has expanded beyond OOP to broader PL topics. It was an early adopter of artifact evaluation, promoting reproducibility in research.",
+  "nextDeadline": "2026-02-12T23:59:00Z",
+  "daysUntilDeadline": -42,
+  "deadlineTimezone": "AoE",
+  "venue": "Brussels, Belgium",
+  "conferenceStart": "2026-06-29",
+  "conferenceEnd": "2026-07-03",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "2"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-02-12T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-06-29",
+      "conferenceEnd": "2026-07-03",
+      "venue": "Brussels, Belgium",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Mover Logic: A Concurrent Program Logic for Reduction and Rely-Guarantee Reasoning",
+      "authors": "Freund & Flanagan",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Concurrent Programming",
+        "Verification"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2407.08070"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "Compiling with Arrays",
+      "authors": "Richter, Böhler, Weisenburger & Mezini",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Compilers",
+        "Programming Languages"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2405.18242"
+    }
+  ],
+  "acceptanceRates": [
+    {
+      "year": 2021,
+      "accepted": 1,
+      "submitted": null,
+      "rate": null
+    },
+    {
+      "year": 2020,
+      "accepted": 3,
+      "submitted": null,
+      "rate": null
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Compiler",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Static Analysis",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Shape",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Abstract Interpretation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Program Synthesis",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Safety",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Type Theory",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Abstract Interpretation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Static Analysis",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Program Analysis",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Summarization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "TEE",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Compiler",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "JIT",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Memory Safety",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Functional Programming",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Static Analysis",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Program Synthesis",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Memory Safety",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Safety",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Compiler",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Type System",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Smart Contract",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Static Analysis",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Concurrency",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Join",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Compiler",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Shape",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Out-of-Order",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Accessibility",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Bug Detection",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Malware",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Compiler",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "JIT",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Side-Channel",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Static Analysis",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Code Generation",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "유럽 기반의 객체지향 프로그래밍 학회로, 타입 시스템, 소프트웨어 설계, 프로그래밍 언어 등을 다룹니다. OOPSLA의 유럽 대응 학회로 볼 수 있으며, 최근에는 객체지향을 넘어 PL 전반으로 범위가 확장되고 있습니다. 아티팩트 평가 제도를 일찍 도입한 선진적 학회입니다.",
+  "descriptionEn": "A European conference on object-oriented programming covering type systems, software design, and programming languages. Often considered the European counterpart to OOPSLA, ECOOP has expanded beyond OOP to broader PL topics. It was an early adopter of artifact evaluation, promoting reproducibility in research."
+}

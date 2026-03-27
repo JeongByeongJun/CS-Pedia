@@ -1,1 +1,2328 @@
-{"id":"ab5099d8-6027-4b45-b13b-d8ab311071aa","slug":"vldb","nameEn":"International Conference on Very Large Data Bases","nameKr":null,"acronym":"VLDB","field":"DB","subField":"Database","dblpKey":"conf/vldb","websiteUrl":"https://vldb.org","description":null,"nextDeadline":"2026-04-01T23:59:00Z","daysUntilDeadline":6,"deadlineTimezone":"PT","venue":"Athens, Greece","conferenceStart":"2027-08-23","conferenceEnd":"2027-08-27","institutionRatings":[{"institution":"BK21","tier":"4"},{"institution":"KIISE","tier":"최우수"},{"institution":"KAIST","tier":"최우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"최우수"},{"institution":"CORE","tier":"A*"},{"institution":"CCF","tier":"A"},{"institution":"CSRankings","tier":"Included"}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-03-01T23:59:00Z","notificationDate":"2026-04-15T00:00:00Z","conferenceStart":"2026-08-31","conferenceEnd":"2026-09-04","venue":"Boston, MA, USA","timezone":"AoE"},{"year":2027,"cycle":"main","abstractDeadline":"2026-03-25T23:59:00Z","paperDeadline":"2026-04-01T23:59:00Z","notificationDate":"2026-05-15T00:00:00Z","conferenceStart":"2027-08-23","conferenceEnd":"2027-08-27","venue":"Athens, Greece","timezone":"PT"}],"bestPapers":[{"year":2021,"paperTitle":"Scaling Attributed Network Embedding to Massive Graphs","authors":"Renchi Yang, Jieming Shi, Xiaokui Xiao, Yin Yang, Juncheng Liu, Sourav S. Bhowmick","awardType":"best_paper","tags":["graph embedding","network embedding","scalability"],"paperUrl":"https://doi.org/10.14778/3421424.3421430"},{"year":2022,"paperTitle":"SANCUS: Staleness-Aware Communication-Avoiding Full-Graph Decentralized Learning on Multiple GPUs","authors":"Chen et al.","awardType":"best_paper","tags":["Distributed Learning","GNN"],"paperUrl":"https://dl.acm.org/doi/10.14778/3538598.3538614"},{"year":2023,"paperTitle":"DBSP: Automatic Incremental View Maintenance for Rich Query Languages","authors":"Budiu et al.","awardType":"best_paper","tags":["View Maintenance","Streaming"],"paperUrl":"http://arxiv.org/abs/2203.16684v1"},{"year":2024,"paperTitle":"BOSS - An Architecture for Database Kernel Composition","authors":"Mohr-Daurat, Sun, Pirk","awardType":"best_paper","tags":["Database","Architecture"],"paperUrl":"https://doi.org/10.1145/3733620.3733629"},{"year":2025,"paperTitle":"AnyBlox: A Framework for Self-Decoding Datasets","authors":["Mateusz Gienieczko","Maximilian Kuschewski","Thomas Neumann","Viktor Leis","Jana Giceva"],"awardType":"best_paper","tags":["databases","data compression","storage"],"paperUrl":"https://doi.org/10.14778/3749646.3749672"},{"year":2025,"paperTitle":"Diva: Dynamic Range Filter for Var-Length Keys and Queries","authors":["Navid Eslami","Ioana Bercea","Niv Dayan"],"awardType":"best_paper","tags":["databases","data structures","range filtering"],"paperUrl":"https://doi.org/10.14778/3749646.3749664"},{"year":2023,"paperTitle":"Auto-Tables: Synthesizing Multi-Step Transformations to Relationalize Tables without Using Examples","authors":"Peng Li, Yeye He, Cong Yan, Yue Wang, Surajit Chaudhuri","awardType":"best_paper","tags":[],"paperUrl":"https://arxiv.org/abs/2307.14565"},{"year":2022,"paperTitle":"Sancus: Staleness-Aware Communication-Avoiding Full-Graph Decentralized Training in Large-Scale Graph Neural Networks","authors":"Jingshu Peng, Zhao Chen, Yingxia Shao, Yanyan Shen, Lei Chen, Jiannong Cao","awardType":"best_paper","tags":["Graph Neural Networks","Scalability","Decentralized Systems"],"paperUrl":"https://doi.org/10.14778/3538598.3538614"},{"year":2022,"paperTitle":"Accurate Summary-based Cardinality Estimation Through the Lens of Cardinality Estimation Graphs","authors":"Jeremy Chen, Yuqing Huang, Mushi Wang, Semih Salihoglu, Kenneth Salem","awardType":"best_paper","tags":[],"paperUrl":"https://arxiv.org/abs/2105.08878"},{"year":2022,"paperTitle":"HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework","authors":"Xupeng Miao, Hailin Zhang, Yining Shi, Xiaonan Nie, Zhi Yang, Yangyu Tao, Bin Cui","awardType":"best_paper","tags":["Embeddings","Caching","Scalability"],"paperUrl":"https://arxiv.org/abs/2112.07221"},{"year":2022,"paperTitle":"Hardware Acceleration of Compression and Encryption in SAP HANA","authors":"Monica Chiosa, Fabio Maschi, Ingo Müller, Gustavo Alonso, Norman May","awardType":"best_paper","tags":["Hardware","Model Compression"],"paperUrl":"https://doi.org/10.14778/3554821.3554822"},{"year":2020,"paperTitle":"Opportunities for optimism in contended main-memory multicore transactions","authors":"Yihe Huang, William Qian, Eddie Kohler, Barbara Liskov, Liuba Shrira","awardType":"best_paper","tags":[],"paperUrl":"https://doi.org/10.1007/s00778-021-00719-9"}],"acceptanceRates":[{"year":2024,"accepted":299,"submitted":1010,"rate":29.6},{"year":2020,"accepted":316,"submitted":null,"rate":null},{"year":2025,"accepted":446,"submitted":null,"rate":null},{"year":2021,"accepted":233,"submitted":798,"rate":29.2},{"year":2022,"accepted":245,"submitted":850,"rate":28.8},{"year":2023,"accepted":271,"submitted":920,"rate":29.5}],"keywordTrends":[{"year":2020,"keyword":"Diffusion Model","count":1},{"year":2020,"keyword":"Diffusion","count":1},{"year":2020,"keyword":"Approximate Query","count":1},{"year":2020,"keyword":"Query Processing","count":6},{"year":2020,"keyword":"Efficient","count":17},{"year":2020,"keyword":"Compression","count":6},{"year":2020,"keyword":"Optimization","count":4},{"year":2020,"keyword":"Blockchain","count":4},{"year":2020,"keyword":"Throughput","count":2},{"year":2020,"keyword":"Consensus","count":2},{"year":2020,"keyword":"Replication","count":4},{"year":2020,"keyword":"GPU","count":2},{"year":2020,"keyword":"Latency","count":2},{"year":2020,"keyword":"Data Augmentation","count":1},{"year":2020,"keyword":"Index","count":9},{"year":2020,"keyword":"Adversarial","count":1},{"year":2020,"keyword":"Generative","count":1},{"year":2020,"keyword":"Differential Privacy","count":5},{"year":2020,"keyword":"Learned Index","count":1},{"year":2020,"keyword":"Worst-Case","count":2},{"year":2020,"keyword":"Parallelism","count":3},{"year":2020,"keyword":"Debugging","count":3},{"year":2020,"keyword":"IoT","count":1},{"year":2020,"keyword":"Out-of-Order","count":1},{"year":2020,"keyword":"Benchmark","count":1},{"year":2020,"keyword":"Query Optimization","count":1},{"year":2020,"keyword":"Visual Analytics","count":1},{"year":2020,"keyword":"FPGA","count":1},{"year":2020,"keyword":"VR","count":1},{"year":2020,"keyword":"Sentiment Analysis","count":1},{"year":2020,"keyword":"Dataflow","count":1},{"year":2020,"keyword":"Localization","count":1},{"year":2020,"keyword":"Consistency","count":1},{"year":2020,"keyword":"Convergence","count":1},{"year":2020,"keyword":"NoSQL","count":1},{"year":2020,"keyword":"Memory Management","count":1},{"year":2020,"keyword":"Transfer Learning","count":1},{"year":2020,"keyword":"Scheduling","count":1},{"year":2020,"keyword":"Knowledge Graph","count":1},{"year":2020,"keyword":"Prefetch","count":1},{"year":2020,"keyword":"Dataset","count":1},{"year":2020,"keyword":"Access Control","count":1},{"year":2020,"keyword":"Routing","count":1},{"year":2020,"keyword":"Conversational","count":1},{"year":2020,"keyword":"Join","count":2},{"year":2020,"keyword":"Speculative","count":1},{"year":2020,"keyword":"OLAP","count":1},{"year":2020,"keyword":"Alignment","count":1},{"year":2020,"keyword":"Embedding","count":4},{"year":2020,"keyword":"Concurrency","count":1},{"year":2020,"keyword":"Near-Data Processing","count":1},{"year":2020,"keyword":"Quantization","count":2},{"year":2020,"keyword":"Cache","count":2},{"year":2020,"keyword":"Reinforcement Learning","count":1},{"year":2020,"keyword":"Program Synthesis","count":1},{"year":2020,"keyword":"Federated Learning","count":1},{"year":2020,"keyword":"Edge Computing","count":1},{"year":2020,"keyword":"Pipeline","count":1},{"year":2020,"keyword":"Disaggregation","count":1},{"year":2020,"keyword":"Data Center","count":1},{"year":2020,"keyword":"Summarization","count":1},{"year":2021,"keyword":"Data Augmentation","count":2},{"year":2021,"keyword":"Autonomous","count":1},{"year":2021,"keyword":"Blockchain","count":3},{"year":2021,"keyword":"Storage","count":10},{"year":2021,"keyword":"Distributed","count":10},{"year":2021,"keyword":"Replication","count":2},{"year":2021,"keyword":"OLTP","count":3},{"year":2021,"keyword":"Graph","count":27},{"year":2021,"keyword":"Differential Privacy","count":8},{"year":2021,"keyword":"Privacy","count":9},{"year":2021,"keyword":"Stream Processing","count":3},{"year":2021,"keyword":"Dataflow","count":1},{"year":2021,"keyword":"Cloud","count":7},{"year":2021,"keyword":"Key-Value Store","count":1},{"year":2021,"keyword":"Efficient","count":15},{"year":2021,"keyword":"DRAM","count":2},{"year":2021,"keyword":"Pipeline","count":4},{"year":2021,"keyword":"Optimization","count":7},{"year":2021,"keyword":"Dataset","count":2},{"year":2021,"keyword":"Visualization","count":5},{"year":2021,"keyword":"Bandwidth","count":1},{"year":2021,"keyword":"Kernel","count":4},{"year":2021,"keyword":"Complexity","count":1},{"year":2021,"keyword":"Real-Time","count":4},{"year":2021,"keyword":"Concurrency","count":1},{"year":2021,"keyword":"Accelerator","count":1},{"year":2021,"keyword":"Graph Neural Network","count":2},{"year":2021,"keyword":"Debugging","count":2},{"year":2021,"keyword":"Benchmark","count":3},{"year":2021,"keyword":"Index","count":5},{"year":2021,"keyword":"Embedding","count":4},{"year":2021,"keyword":"Cache","count":3},{"year":2021,"keyword":"Latency","count":4},{"year":2021,"keyword":"SQL","count":6},{"year":2021,"keyword":"Scheduling","count":2},{"year":2021,"keyword":"GNN","count":2},{"year":2021,"keyword":"Encryption","count":2},{"year":2021,"keyword":"Cardinality Estimation","count":7},{"year":2021,"keyword":"Hash","count":1},{"year":2021,"keyword":"Join","count":1},{"year":2021,"keyword":"Transaction","count":3},{"year":2021,"keyword":"Transfer Learning","count":1},{"year":2021,"keyword":"Domain Adaptation","count":1},{"year":2021,"keyword":"Submodular","count":1},{"year":2021,"keyword":"Compression","count":3},{"year":2021,"keyword":"Knowledge Graph","count":1},{"year":2021,"keyword":"Summarization","count":2},{"year":2021,"keyword":"NoSQL","count":1},{"year":2021,"keyword":"Throughput","count":2},{"year":2021,"keyword":"GPU","count":2},{"year":2021,"keyword":"Query Processing","count":3},{"year":2021,"keyword":"Learned Index","count":3},{"year":2021,"keyword":"Path Planning","count":1},{"year":2021,"keyword":"Federated Learning","count":2},{"year":2021,"keyword":"Pre-Training","count":1},{"year":2021,"keyword":"Consensus","count":1},{"year":2021,"keyword":"Trusted Execution","count":1},{"year":2021,"keyword":"Query Optimization","count":2},{"year":2021,"keyword":"Fairness","count":2},{"year":2021,"keyword":"Question Answering","count":2},{"year":2021,"keyword":"Data Lake","count":1},{"year":2021,"keyword":"Self-Driving","count":2},{"year":2021,"keyword":"Fine-Tuning","count":1},{"year":2021,"keyword":"BERT","count":1},{"year":2021,"keyword":"LSM","count":2},{"year":2021,"keyword":"Information Extraction","count":1},{"year":2021,"keyword":"ETL","count":1},{"year":2021,"keyword":"Parallelism","count":1},{"year":2021,"keyword":"Operating System","count":1},{"year":2021,"keyword":"Transformer","count":1},{"year":2021,"keyword":"Functional Programming","count":1},{"year":2021,"keyword":"Robustness","count":1},{"year":2021,"keyword":"Reinforcement Learning","count":2},{"year":2021,"keyword":"Sparse","count":1},{"year":2021,"keyword":"Code Generation","count":1},{"year":2021,"keyword":"Disaggregation","count":1},{"year":2021,"keyword":"Pruning","count":1},{"year":2022,"keyword":"Fairness","count":4},{"year":2022,"keyword":"Learned Index","count":6},{"year":2022,"keyword":"Index","count":12},{"year":2022,"keyword":"Crowdsourcing","count":3},{"year":2022,"keyword":"Privacy","count":4},{"year":2022,"keyword":"Autonomous","count":1},{"year":2022,"keyword":"Storage","count":8},{"year":2022,"keyword":"Key-Value Store","count":3},{"year":2022,"keyword":"Benchmark","count":5},{"year":2022,"keyword":"Serverless","count":3},{"year":2022,"keyword":"LSM","count":4},{"year":2022,"keyword":"Blockchain","count":5},{"year":2022,"keyword":"Cache","count":4},{"year":2022,"keyword":"Fault Tolerance","count":1},{"year":2022,"keyword":"Cloud","count":12},{"year":2022,"keyword":"Differential Privacy","count":3},{"year":2022,"keyword":"Federated Learning","count":3},{"year":2022,"keyword":"Parallelism","count":2},{"year":2022,"keyword":"Hash","count":4},{"year":2022,"keyword":"Graph","count":24},{"year":2022,"keyword":"Efficient","count":36},{"year":2022,"keyword":"SQL","count":3},{"year":2022,"keyword":"Visualization","count":1},{"year":2022,"keyword":"Kernel","count":1},{"year":2022,"keyword":"Sparse","count":2},{"year":2022,"keyword":"Complexity","count":1},{"year":2022,"keyword":"Consistency","count":1},{"year":2022,"keyword":"Cardinality Estimation","count":2},{"year":2022,"keyword":"Distributed","count":13},{"year":2022,"keyword":"Embedding","count":2},{"year":2022,"keyword":"Compression","count":4},{"year":2022,"keyword":"Encryption","count":1},{"year":2022,"keyword":"Reinforcement Learning","count":1},{"year":2022,"keyword":"Join","count":5},{"year":2022,"keyword":"Concurrency","count":2},{"year":2022,"keyword":"Conversational","count":1},{"year":2022,"keyword":"Consensus","count":1},{"year":2022,"keyword":"Query Processing","count":5},{"year":2022,"keyword":"JIT","count":1},{"year":2022,"keyword":"Vector Database","count":1},{"year":2022,"keyword":"Disaggregation","count":2},{"year":2022,"keyword":"Representation Learning","count":2},{"year":2022,"keyword":"Zero-Shot","count":1},{"year":2022,"keyword":"Real-Time","count":1},{"year":2022,"keyword":"Query Optimization","count":1},{"year":2022,"keyword":"Optimization","count":8},{"year":2022,"keyword":"Processing-in-Memory","count":1},{"year":2022,"keyword":"PIM","count":1},{"year":2022,"keyword":"Data Lake","count":1},{"year":2022,"keyword":"Replication","count":2},{"year":2022,"keyword":"Sentiment Analysis","count":1},{"year":2022,"keyword":"Alignment","count":1},{"year":2022,"keyword":"Transaction","count":2},{"year":2022,"keyword":"GPU","count":4},{"year":2022,"keyword":"Edge Computing","count":1},{"year":2022,"keyword":"Quantization","count":1},{"year":2022,"keyword":"Convex","count":1},{"year":2022,"keyword":"Transformer","count":3},{"year":2022,"keyword":"Question Answering","count":1},{"year":2022,"keyword":"BERT","count":2},{"year":2022,"keyword":"Access Control","count":1},{"year":2022,"keyword":"Graph Neural Network","count":3},{"year":2022,"keyword":"Self-Supervised","count":1},{"year":2022,"keyword":"Adversarial","count":1},{"year":2022,"keyword":"Generative","count":2},{"year":2022,"keyword":"Self-Driving","count":1},{"year":2022,"keyword":"Transfer Learning","count":1},{"year":2022,"keyword":"Debugging","count":2},{"year":2022,"keyword":"Dataflow","count":2},{"year":2022,"keyword":"GPT","count":2},{"year":2022,"keyword":"Domain Adaptation","count":1},{"year":2022,"keyword":"Near-Data Processing","count":1},{"year":2022,"keyword":"RDMA","count":1},{"year":2022,"keyword":"Prompt","count":1},{"year":2022,"keyword":"Robustness","count":1},{"year":2022,"keyword":"Testing","count":1},{"year":2022,"keyword":"Dataset","count":1},{"year":2022,"keyword":"GNN","count":1},{"year":2023,"keyword":"Efficient","count":41},{"year":2023,"keyword":"Cloud","count":17},{"year":2023,"keyword":"Query Optimization","count":6},{"year":2023,"keyword":"Optimization","count":10},{"year":2023,"keyword":"Latency","count":7},{"year":2023,"keyword":"LSM","count":1},{"year":2023,"keyword":"Graph","count":34},{"year":2023,"keyword":"Compression","count":3},{"year":2023,"keyword":"Storage","count":13},{"year":2023,"keyword":"Visual Analytics","count":1},{"year":2023,"keyword":"OLTP","count":1},{"year":2023,"keyword":"SQL","count":15},{"year":2023,"keyword":"Benchmark","count":6},{"year":2023,"keyword":"Differential Privacy","count":5},{"year":2023,"keyword":"Privacy","count":7},{"year":2023,"keyword":"Query Processing","count":9},{"year":2023,"keyword":"Hash","count":3},{"year":2023,"keyword":"Transaction","count":4},{"year":2023,"keyword":"Encryption","count":1},{"year":2023,"keyword":"GPU","count":5},{"year":2023,"keyword":"Index","count":9},{"year":2023,"keyword":"Distributed","count":13},{"year":2023,"keyword":"Large Language Model","count":1},{"year":2023,"keyword":"Language Model","count":1},{"year":2023,"keyword":"GNN","count":1},{"year":2023,"keyword":"Real-Time","count":4},{"year":2023,"keyword":"Autoregressive","count":1},{"year":2023,"keyword":"Diffusion","count":1},{"year":2023,"keyword":"Self-Driving","count":1},{"year":2023,"keyword":"Program Synthesis","count":1},{"year":2023,"keyword":"Representation Learning","count":4},{"year":2023,"keyword":"Dataset","count":2},{"year":2023,"keyword":"Embedding","count":3},{"year":2023,"keyword":"Federated Learning","count":5},{"year":2023,"keyword":"Trusted Execution","count":3},{"year":2023,"keyword":"Pipeline","count":5},{"year":2023,"keyword":"Join","count":9},{"year":2023,"keyword":"Blockchain","count":5},{"year":2023,"keyword":"Summarization","count":1},{"year":2023,"keyword":"Information Extraction","count":2},{"year":2023,"keyword":"Parallelism","count":1},{"year":2023,"keyword":"FPGA","count":1},{"year":2023,"keyword":"ACID","count":1},{"year":2023,"keyword":"Cardinality Estimation","count":4},{"year":2023,"keyword":"IoT","count":1},{"year":2023,"keyword":"Crowdsourcing","count":1},{"year":2023,"keyword":"Learned Index","count":2},{"year":2023,"keyword":"Reinforcement Learning","count":4},{"year":2023,"keyword":"Zero-Knowledge","count":1},{"year":2023,"keyword":"Attention","count":1},{"year":2023,"keyword":"Concurrency","count":1},{"year":2023,"keyword":"Kernel","count":2},{"year":2023,"keyword":"BERT","count":1},{"year":2023,"keyword":"Pre-Training","count":1},{"year":2023,"keyword":"Transformer","count":1},{"year":2023,"keyword":"Signature","count":1},{"year":2023,"keyword":"Fairness","count":1},{"year":2023,"keyword":"Cache","count":3},{"year":2023,"keyword":"Serverless","count":7},{"year":2023,"keyword":"Dataflow","count":3},{"year":2023,"keyword":"Bug Detection","count":1},{"year":2023,"keyword":"Out-of-Order","count":1},{"year":2023,"keyword":"GPT","count":1},{"year":2023,"keyword":"Worst-Case","count":2},{"year":2023,"keyword":"Knowledge Graph","count":2},{"year":2023,"keyword":"Domain Adaptation","count":1},{"year":2023,"keyword":"Scheduling","count":2},{"year":2023,"keyword":"Generative","count":2},{"year":2023,"keyword":"LLM","count":2},{"year":2023,"keyword":"Complexity","count":1},{"year":2023,"keyword":"MPC","count":1},{"year":2023,"keyword":"Fault Tolerance","count":1},{"year":2023,"keyword":"Transfer Learning","count":1},{"year":2023,"keyword":"Testing","count":1},{"year":2023,"keyword":"Sparse","count":1},{"year":2023,"keyword":"Stream Processing","count":1},{"year":2023,"keyword":"Linear Programming","count":1},{"year":2023,"keyword":"Compiler","count":1},{"year":2023,"keyword":"Data Augmentation","count":1},{"year":2023,"keyword":"Adversarial","count":1},{"year":2023,"keyword":"ChatGPT","count":1},{"year":2023,"keyword":"MapReduce","count":1},{"year":2023,"keyword":"Access Control","count":1},{"year":2023,"keyword":"Code Generation","count":1},{"year":2023,"keyword":"Bandwidth","count":1},{"year":2024,"keyword":"CXL","count":3},{"year":2024,"keyword":"GNN","count":10},{"year":2024,"keyword":"GPU","count":9},{"year":2024,"keyword":"Optimization","count":10},{"year":2024,"keyword":"Distributed","count":14},{"year":2024,"keyword":"Cache","count":4},{"year":2024,"keyword":"RAG","count":2},{"year":2024,"keyword":"Join","count":4},{"year":2024,"keyword":"Summarization","count":2},{"year":2024,"keyword":"Graph","count":44},{"year":2024,"keyword":"Serverless","count":2},{"year":2024,"keyword":"Dataset","count":1},{"year":2024,"keyword":"Index","count":14},{"year":2024,"keyword":"Efficient","count":49},{"year":2024,"keyword":"Visualization","count":7},{"year":2024,"keyword":"Kernel","count":1},{"year":2024,"keyword":"Stream Processing","count":2},{"year":2024,"keyword":"Real-Time","count":4},{"year":2024,"keyword":"Vector Database","count":1},{"year":2024,"keyword":"Federated Learning","count":6},{"year":2024,"keyword":"Compression","count":9},{"year":2024,"keyword":"Smart Contract","count":1},{"year":2024,"keyword":"Blockchain","count":7},{"year":2024,"keyword":"Spectrum","count":1},{"year":2024,"keyword":"Transaction","count":2},{"year":2024,"keyword":"Scheduling","count":2},{"year":2024,"keyword":"Embedding","count":5},{"year":2024,"keyword":"Benchmark","count":7},{"year":2024,"keyword":"Cloud","count":15},{"year":2024,"keyword":"Data Augmentation","count":1},{"year":2024,"keyword":"Fairness","count":4},{"year":2024,"keyword":"Segmentation","count":1},{"year":2024,"keyword":"Zero-Shot","count":2},{"year":2024,"keyword":"SQL","count":8},{"year":2024,"keyword":"Chiplet","count":2},{"year":2024,"keyword":"OLAP","count":1},{"year":2024,"keyword":"Large Language Model","count":3},{"year":2024,"keyword":"Language Model","count":4},{"year":2024,"keyword":"Privacy","count":9},{"year":2024,"keyword":"Gradient Descent","count":1},{"year":2024,"keyword":"Homomorphic","count":1},{"year":2024,"keyword":"Dataflow","count":1},{"year":2024,"keyword":"Routing","count":1},{"year":2024,"keyword":"Graph Neural Network","count":4},{"year":2024,"keyword":"Complexity","count":1},{"year":2024,"keyword":"Alignment","count":1},{"year":2024,"keyword":"Approximate Query","count":2},{"year":2024,"keyword":"Query Processing","count":2},{"year":2024,"keyword":"Differential Privacy","count":4},{"year":2024,"keyword":"Out-of-Order","count":1},{"year":2024,"keyword":"Learned Index","count":2},{"year":2024,"keyword":"GPT","count":2},{"year":2024,"keyword":"NoSQL","count":1},{"year":2024,"keyword":"Storage","count":12},{"year":2024,"keyword":"LLM","count":6},{"year":2024,"keyword":"Representation Learning","count":2},{"year":2024,"keyword":"Prefetch","count":1},{"year":2024,"keyword":"Disaggregation","count":1},{"year":2024,"keyword":"Contrastive Learning","count":1},{"year":2024,"keyword":"RL","count":1},{"year":2024,"keyword":"Information Extraction","count":1},{"year":2024,"keyword":"Self-Driving","count":2},{"year":2024,"keyword":"Ray Tracing","count":1},{"year":2024,"keyword":"Knowledge Graph","count":6},{"year":2024,"keyword":"Hash","count":1},{"year":2024,"keyword":"Consensus","count":1},{"year":2024,"keyword":"Few-Shot","count":2},{"year":2024,"keyword":"Diffusion","count":1},{"year":2024,"keyword":"Latency","count":2},{"year":2024,"keyword":"Reinforcement Learning","count":1},{"year":2024,"keyword":"Cardinality Estimation","count":1},{"year":2024,"keyword":"Query Optimization","count":3},{"year":2024,"keyword":"Meta-Learning","count":1},{"year":2024,"keyword":"Testing","count":2},{"year":2024,"keyword":"Retrieval-Augmented","count":1},{"year":2024,"keyword":"Graph Transformer","count":1},{"year":2024,"keyword":"Transformer","count":2},{"year":2024,"keyword":"Object Detection","count":1},{"year":2024,"keyword":"Autonomous","count":3},{"year":2024,"keyword":"Refactoring","count":1},{"year":2024,"keyword":"Question Answering","count":2},{"year":2024,"keyword":"IoT","count":1},{"year":2024,"keyword":"Multi-Agent","count":1},{"year":2024,"keyword":"Agent","count":1},{"year":2024,"keyword":"Zero-Knowledge","count":1},{"year":2024,"keyword":"Attention","count":1},{"year":2024,"keyword":"In-Context Learning","count":1},{"year":2024,"keyword":"Fine-Tuning","count":1},{"year":2024,"keyword":"Parallelism","count":1},{"year":2024,"keyword":"Simulation","count":1},{"year":2024,"keyword":"Relation Extraction","count":1},{"year":2024,"keyword":"Prompt","count":1},{"year":2024,"keyword":"Bandwidth","count":1},{"year":2024,"keyword":"Consistency","count":1},{"year":2024,"keyword":"RDMA","count":1},{"year":2024,"keyword":"Chain-of-Thought","count":1},{"year":2024,"keyword":"Self-Supervised","count":1},{"year":2024,"keyword":"Access Control","count":1},{"year":2020,"keyword":"Visualization","count":2},{"year":2020,"keyword":"SQL","count":10},{"year":2020,"keyword":"Storage","count":9},{"year":2020,"keyword":"Crowdsourcing","count":1},{"year":2020,"keyword":"Cloud","count":6},{"year":2020,"keyword":"Privacy","count":10},{"year":2020,"keyword":"Distributed","count":12},{"year":2020,"keyword":"Representation Learning","count":2},{"year":2020,"keyword":"Graph","count":18},{"year":2020,"keyword":"JIT","count":1},{"year":2020,"keyword":"LSM","count":4},{"year":2020,"keyword":"Transaction","count":2},{"year":2020,"keyword":"ACID","count":1},{"year":2020,"keyword":"Real-Time","count":6},{"year":2020,"keyword":"OLTP","count":3}]}
+{
+  "id": "ab5099d8-6027-4b45-b13b-d8ab311071aa",
+  "slug": "vldb",
+  "nameEn": "International Conference on Very Large Data Bases",
+  "nameKr": null,
+  "acronym": "VLDB",
+  "field": "DB",
+  "subField": "Database",
+  "dblpKey": "conf/vldb",
+  "websiteUrl": "https://vldb.org",
+  "description": "A top-tier database conference alongside SIGMOD, covering large-scale data processing, distributed databases, and data analytics. It features a unique publication model through the PVLDB journal, with continuous paper submissions throughout the year.",
+  "nextDeadline": "2026-04-01T23:59:00Z",
+  "daysUntilDeadline": 6,
+  "deadlineTimezone": "PT",
+  "venue": "Athens, Greece",
+  "conferenceStart": "2027-08-23",
+  "conferenceEnd": "2027-08-27",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "4"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "최우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "최우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "최우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A*"
+    },
+    {
+      "institution": "CCF",
+      "tier": "A"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": "Included"
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-03-01T23:59:00Z",
+      "notificationDate": "2026-04-15T00:00:00Z",
+      "conferenceStart": "2026-08-31",
+      "conferenceEnd": "2026-09-04",
+      "venue": "Boston, MA, USA",
+      "timezone": "AoE"
+    },
+    {
+      "year": 2027,
+      "cycle": "main",
+      "abstractDeadline": "2026-03-25T23:59:00Z",
+      "paperDeadline": "2026-04-01T23:59:00Z",
+      "notificationDate": "2026-05-15T00:00:00Z",
+      "conferenceStart": "2027-08-23",
+      "conferenceEnd": "2027-08-27",
+      "venue": "Athens, Greece",
+      "timezone": "PT"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "Scaling Attributed Network Embedding to Massive Graphs",
+      "authors": "Renchi Yang, Jieming Shi, Xiaokui Xiao, Yin Yang, Juncheng Liu, Sourav S. Bhowmick",
+      "awardType": "best_paper",
+      "tags": [
+        "graph embedding",
+        "network embedding",
+        "scalability"
+      ],
+      "paperUrl": "https://doi.org/10.14778/3421424.3421430"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "SANCUS: Staleness-Aware Communication-Avoiding Full-Graph Decentralized Learning on Multiple GPUs",
+      "authors": "Chen et al.",
+      "awardType": "best_paper",
+      "tags": [
+        "Distributed Learning",
+        "GNN"
+      ],
+      "paperUrl": "https://dl.acm.org/doi/10.14778/3538598.3538614"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "DBSP: Automatic Incremental View Maintenance for Rich Query Languages",
+      "authors": "Budiu et al.",
+      "awardType": "best_paper",
+      "tags": [
+        "View Maintenance",
+        "Streaming"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2203.16684v1"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "BOSS - An Architecture for Database Kernel Composition",
+      "authors": "Mohr-Daurat, Sun, Pirk",
+      "awardType": "best_paper",
+      "tags": [
+        "Database",
+        "Architecture"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3733620.3733629"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "AnyBlox: A Framework for Self-Decoding Datasets",
+      "authors": [
+        "Mateusz Gienieczko",
+        "Maximilian Kuschewski",
+        "Thomas Neumann",
+        "Viktor Leis",
+        "Jana Giceva"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "databases",
+        "data compression",
+        "storage"
+      ],
+      "paperUrl": "https://doi.org/10.14778/3749646.3749672"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Diva: Dynamic Range Filter for Var-Length Keys and Queries",
+      "authors": [
+        "Navid Eslami",
+        "Ioana Bercea",
+        "Niv Dayan"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "databases",
+        "data structures",
+        "range filtering"
+      ],
+      "paperUrl": "https://doi.org/10.14778/3749646.3749664"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Auto-Tables: Synthesizing Multi-Step Transformations to Relationalize Tables without Using Examples",
+      "authors": "Peng Li, Yeye He, Cong Yan, Yue Wang, Surajit Chaudhuri",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://arxiv.org/abs/2307.14565"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Sancus: Staleness-Aware Communication-Avoiding Full-Graph Decentralized Training in Large-Scale Graph Neural Networks",
+      "authors": "Jingshu Peng, Zhao Chen, Yingxia Shao, Yanyan Shen, Lei Chen, Jiannong Cao",
+      "awardType": "best_paper",
+      "tags": [
+        "Graph Neural Networks",
+        "Scalability",
+        "Decentralized Systems"
+      ],
+      "paperUrl": "https://doi.org/10.14778/3538598.3538614"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Accurate Summary-based Cardinality Estimation Through the Lens of Cardinality Estimation Graphs",
+      "authors": "Jeremy Chen, Yuqing Huang, Mushi Wang, Semih Salihoglu, Kenneth Salem",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://arxiv.org/abs/2105.08878"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework",
+      "authors": "Xupeng Miao, Hailin Zhang, Yining Shi, Xiaonan Nie, Zhi Yang, Yangyu Tao, Bin Cui",
+      "awardType": "best_paper",
+      "tags": [
+        "Embeddings",
+        "Caching",
+        "Scalability"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2112.07221"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Hardware Acceleration of Compression and Encryption in SAP HANA",
+      "authors": "Monica Chiosa, Fabio Maschi, Ingo Müller, Gustavo Alonso, Norman May",
+      "awardType": "best_paper",
+      "tags": [
+        "Hardware",
+        "Model Compression"
+      ],
+      "paperUrl": "https://doi.org/10.14778/3554821.3554822"
+    },
+    {
+      "year": 2020,
+      "paperTitle": "Opportunities for optimism in contended main-memory multicore transactions",
+      "authors": "Yihe Huang, William Qian, Eddie Kohler, Barbara Liskov, Liuba Shrira",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1007/s00778-021-00719-9"
+    }
+  ],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 299,
+      "submitted": 1010,
+      "rate": 29.6
+    },
+    {
+      "year": 2020,
+      "accepted": 316,
+      "submitted": null,
+      "rate": null
+    },
+    {
+      "year": 2025,
+      "accepted": 446,
+      "submitted": null,
+      "rate": null
+    },
+    {
+      "year": 2021,
+      "accepted": 233,
+      "submitted": 798,
+      "rate": 29.2
+    },
+    {
+      "year": 2022,
+      "accepted": 245,
+      "submitted": 850,
+      "rate": 28.8
+    },
+    {
+      "year": 2023,
+      "accepted": 271,
+      "submitted": 920,
+      "rate": 29.5
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Diffusion Model",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Approximate Query",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Query Processing",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 17
+    },
+    {
+      "year": 2020,
+      "keyword": "Compression",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Blockchain",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Throughput",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Consensus",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Replication",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "GPU",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Latency",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Index",
+      "count": 9
+    },
+    {
+      "year": 2020,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Differential Privacy",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Learned Index",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Worst-Case",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Parallelism",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Debugging",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Out-of-Order",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Query Optimization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Visual Analytics",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Sentiment Analysis",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Localization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "NoSQL",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Memory Management",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Prefetch",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Access Control",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Conversational",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Join",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "OLAP",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedding",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Near-Data Processing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Quantization",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Program Synthesis",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Federated Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Edge Computing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Pipeline",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Disaggregation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Data Center",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Summarization",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Data Augmentation",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Blockchain",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Storage",
+      "count": 10
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 10
+    },
+    {
+      "year": 2021,
+      "keyword": "Replication",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "OLTP",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 27
+    },
+    {
+      "year": 2021,
+      "keyword": "Differential Privacy",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 9
+    },
+    {
+      "year": 2021,
+      "keyword": "Stream Processing",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "keyword": "Key-Value Store",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "keyword": "DRAM",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Pipeline",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "keyword": "Dataset",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Visualization",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Real-Time",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph Neural Network",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Debugging",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Benchmark",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Index",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedding",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Cache",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Latency",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "SQL",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "GNN",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Encryption",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Cardinality Estimation",
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Join",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Transaction",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Submodular",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Compression",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Summarization",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "NoSQL",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Throughput",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "GPU",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Query Processing",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Learned Index",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Path Planning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Federated Learning",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Trusted Execution",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Query Optimization",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Fairness",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Question Answering",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Data Lake",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Self-Driving",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "BERT",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "LSM",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Information Extraction",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "ETL",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Operating System",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Functional Programming",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Disaggregation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Fairness",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Learned Index",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Index",
+      "count": 12
+    },
+    {
+      "year": 2022,
+      "keyword": "Crowdsourcing",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Privacy",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Storage",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Key-Value Store",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Benchmark",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Serverless",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "LSM",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Blockchain",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Cache",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cloud",
+      "count": 12
+    },
+    {
+      "year": 2022,
+      "keyword": "Differential Privacy",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Federated Learning",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Parallelism",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Hash",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 24
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 36
+    },
+    {
+      "year": 2022,
+      "keyword": "SQL",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Sparse",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cardinality Estimation",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 13
+    },
+    {
+      "year": 2022,
+      "keyword": "Embedding",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Compression",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Join",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Concurrency",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Conversational",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Query Processing",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "JIT",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Vector Database",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Disaggregation",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Representation Learning",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Zero-Shot",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Query Optimization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Optimization",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Processing-in-Memory",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "PIM",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Data Lake",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Replication",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Sentiment Analysis",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transaction",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "GPU",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Edge Computing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Convex",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transformer",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "BERT",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Access Control",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph Neural Network",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Self-Driving",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Debugging",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Dataflow",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "GPT",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Near-Data Processing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "RDMA",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Prompt",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 41
+    },
+    {
+      "year": 2023,
+      "keyword": "Cloud",
+      "count": 17
+    },
+    {
+      "year": 2023,
+      "keyword": "Query Optimization",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "keyword": "Latency",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "LSM",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 34
+    },
+    {
+      "year": 2023,
+      "keyword": "Compression",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Storage",
+      "count": 13
+    },
+    {
+      "year": 2023,
+      "keyword": "Visual Analytics",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "OLTP",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "SQL",
+      "count": 15
+    },
+    {
+      "year": 2023,
+      "keyword": "Benchmark",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Differential Privacy",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Privacy",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Query Processing",
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "keyword": "Hash",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Transaction",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GPU",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Index",
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 13
+    },
+    {
+      "year": 2023,
+      "keyword": "Large Language Model",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Real-Time",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Autoregressive",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Self-Driving",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Program Synthesis",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Representation Learning",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Dataset",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Embedding",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Federated Learning",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Trusted Execution",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Pipeline",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Join",
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "keyword": "Blockchain",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Summarization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Information Extraction",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "ACID",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Cardinality Estimation",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Crowdsourcing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Learned Index",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Reinforcement Learning",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Zero-Knowledge",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "BERT",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Signature",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Cache",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Serverless",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Dataflow",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Bug Detection",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Out-of-Order",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GPT",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Worst-Case",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Knowledge Graph",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "LLM",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "MPC",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Linear Programming",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Compiler",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "ChatGPT",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "MapReduce",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Access Control",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "CXL",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "GNN",
+      "count": 10
+    },
+    {
+      "year": 2024,
+      "keyword": "GPU",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 10
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 14
+    },
+    {
+      "year": 2024,
+      "keyword": "Cache",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "RAG",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Join",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Summarization",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 44
+    },
+    {
+      "year": 2024,
+      "keyword": "Serverless",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Index",
+      "count": 14
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 49
+    },
+    {
+      "year": 2024,
+      "keyword": "Visualization",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Stream Processing",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Real-Time",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Vector Database",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Federated Learning",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Compression",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "Smart Contract",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Blockchain",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Spectrum",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Transaction",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedding",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Benchmark",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Cloud",
+      "count": 15
+    },
+    {
+      "year": 2024,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Fairness",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Zero-Shot",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "SQL",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "keyword": "Chiplet",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "OLAP",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Large Language Model",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Language Model",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Privacy",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "Gradient Descent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph Neural Network",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Approximate Query",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Query Processing",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Differential Privacy",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Out-of-Order",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Learned Index",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "GPT",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "NoSQL",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Storage",
+      "count": 12
+    },
+    {
+      "year": 2024,
+      "keyword": "LLM",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Representation Learning",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Prefetch",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Disaggregation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Contrastive Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Information Extraction",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Self-Driving",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Ray Tracing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Knowledge Graph",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Few-Shot",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Latency",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Cardinality Estimation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Query Optimization",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Meta-Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Testing",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Retrieval-Augmented",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph Transformer",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Transformer",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Object Detection",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Autonomous",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Refactoring",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Question Answering",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Multi-Agent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Zero-Knowledge",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "In-Context Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Relation Extraction",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Prompt",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "RDMA",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Chain-of-Thought",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Access Control",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Visualization",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "SQL",
+      "count": 10
+    },
+    {
+      "year": 2020,
+      "keyword": "Storage",
+      "count": 9
+    },
+    {
+      "year": 2020,
+      "keyword": "Crowdsourcing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 10
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 12
+    },
+    {
+      "year": 2020,
+      "keyword": "Representation Learning",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 18
+    },
+    {
+      "year": 2020,
+      "keyword": "JIT",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "LSM",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Transaction",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "ACID",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Real-Time",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "OLTP",
+      "count": 3
+    }
+  ],
+  "descriptionKo": "대규모 데이터베이스 분야의 최상위 학회로, SIGMOD와 함께 DB 분야의 쌍벽을 이룬다. 대용량 데이터 처리, 분산 DB, 데이터 분석 등을 다루며, PVLDB 저널을 통해 논문을 출판하는 독특한 구조이다.",
+  "descriptionEn": "A top-tier database conference alongside SIGMOD, covering large-scale data processing, distributed databases, and data analytics. It features a unique publication model through the PVLDB journal, with continuous paper submissions throughout the year."
+}

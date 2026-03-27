@@ -97,6 +97,8 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
     dblpKey: detail.dblpKey as string,
     websiteUrl: detail.websiteUrl as string | null,
     description: detail.description as string | null,
+    descriptionKo: detail.descriptionKo as string | null,
+    descriptionEn: detail.descriptionEn as string | null,
     nextDeadline: detail.nextDeadline ? new Date(detail.nextDeadline as string) : null,
     daysUntilDeadline: (() => {
       if (!detail.nextDeadline) return null;
@@ -227,7 +229,15 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                 <FieldBadge field={conference.field} />
                 <DeadlineBadge ddays={conference.daysUntilDeadline} />
               </div>
-              <p className="text-zinc-500 mb-3">{conference.nameEn}</p>
+              <p className="text-zinc-500 mb-2">{conference.nameEn}</p>
+              {(conference.descriptionKo || conference.descriptionEn) && (
+                <p className="text-sm text-zinc-600 leading-relaxed mb-3">
+                  <LocaleText
+                    ko={conference.descriptionKo ?? conference.descriptionEn ?? ""}
+                    en={conference.descriptionEn ?? conference.descriptionKo ?? ""}
+                  />
+                </p>
+              )}
               <div className="flex items-center gap-3 flex-wrap">
                 {conference.websiteUrl && (
                   <a

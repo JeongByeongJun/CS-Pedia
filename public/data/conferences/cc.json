@@ -1,1 +1,366 @@
-{"id":"0454b83c-d4fd-42d0-9c9b-f84661533007","slug":"cc","nameEn":"International Conference on Compiler Construction","nameKr":null,"acronym":"CC","field":"PL","subField":"Compiler Construction","dblpKey":"conf/cc","websiteUrl":"https://conf.researchr.org/home/CC-2026","description":null,"nextDeadline":"2025-11-11T23:59:00Z","daysUntilDeadline":-135,"deadlineTimezone":"AoE","venue":"Sydney, Australia","conferenceStart":"2026-01-31","conferenceEnd":"2026-02-01","institutionRatings":[{"institution":"BK21","tier":"2"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":null},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"B"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2025-11-11T23:59:00Z","notificationDate":null,"conferenceStart":"2026-01-31","conferenceEnd":"2026-02-01","venue":"Sydney, Australia","timezone":"AoE"}],"bestPapers":[],"acceptanceRates":[],"keywordTrends":[{"year":2020,"keyword":"Differential Privacy","count":1},{"year":2020,"keyword":"Privacy","count":1},{"year":2020,"keyword":"Compiler","count":2},{"year":2020,"keyword":"Graph","count":1},{"year":2020,"keyword":"Sparse","count":2},{"year":2020,"keyword":"Quantization","count":1},{"year":2020,"keyword":"Speculative","count":1},{"year":2020,"keyword":"SMT","count":1},{"year":2021,"keyword":"Code Generation","count":1},{"year":2021,"keyword":"Compiler","count":2},{"year":2021,"keyword":"Optimization","count":2},{"year":2022,"keyword":"Compiler","count":4},{"year":2022,"keyword":"Scheduling","count":2},{"year":2022,"keyword":"Fuzzing","count":1},{"year":2022,"keyword":"Code Generation","count":1},{"year":2022,"keyword":"GPU","count":1},{"year":2022,"keyword":"Optimization","count":3},{"year":2022,"keyword":"Graph","count":2},{"year":2022,"keyword":"Efficient","count":1},{"year":2022,"keyword":"Parallelism","count":1},{"year":2022,"keyword":"Reinforcement Learning","count":1},{"year":2022,"keyword":"Side-Channel","count":1},{"year":2022,"keyword":"Cache","count":1},{"year":2023,"keyword":"Code Generation","count":3},{"year":2023,"keyword":"Compiler","count":6},{"year":2023,"keyword":"JIT","count":2},{"year":2023,"keyword":"Optimization","count":1},{"year":2023,"keyword":"Simulation","count":1},{"year":2023,"keyword":"DSL","count":1},{"year":2023,"keyword":"Reinforcement Learning","count":1},{"year":2024,"keyword":"Compiler","count":5},{"year":2024,"keyword":"Code Generation","count":2},{"year":2024,"keyword":"Speculative","count":1},{"year":2024,"keyword":"Graph","count":1},{"year":2024,"keyword":"Encryption","count":1},{"year":2024,"keyword":"Pipeline","count":1},{"year":2024,"keyword":"Debugging","count":1},{"year":2024,"keyword":"Efficient","count":1},{"year":2024,"keyword":"Dataflow","count":1},{"year":2024,"keyword":"Parallelism","count":1},{"year":2025,"keyword":"Compiler","count":5},{"year":2025,"keyword":"Optimization","count":1},{"year":2025,"keyword":"LLM","count":1},{"year":2025,"keyword":"Program Analysis","count":1},{"year":2025,"keyword":"Fault Tolerance","count":1},{"year":2025,"keyword":"Pre-Training","count":1},{"year":2025,"keyword":"Efficient","count":1},{"year":2025,"keyword":"Distributed","count":1},{"year":2026,"keyword":"Compiler","count":5},{"year":2026,"keyword":"Testing","count":1},{"year":2026,"keyword":"Kernel","count":1},{"year":2026,"keyword":"GPU","count":3},{"year":2026,"keyword":"Sparse","count":2},{"year":2026,"keyword":"Code Generation","count":1},{"year":2026,"keyword":"Localization","count":1},{"year":2026,"keyword":"Program Synthesis","count":1},{"year":2026,"keyword":"Optimization","count":1},{"year":2026,"keyword":"Homomorphic","count":1},{"year":2026,"keyword":"Encryption","count":1}]}
+{
+  "id": "0454b83c-d4fd-42d0-9c9b-f84661533007",
+  "slug": "cc",
+  "nameEn": "International Conference on Compiler Construction",
+  "nameKr": null,
+  "acronym": "CC",
+  "field": "PL",
+  "subField": "Compiler Construction",
+  "dblpKey": "conf/cc",
+  "websiteUrl": "https://conf.researchr.org/home/CC-2026",
+  "description": "A specialized conference on compiler construction, covering code generation, program analysis, and optimization techniques. Often co-located with CGO, CC features active research related to modern compiler infrastructure like LLVM. It maintains a steady reputation as the dedicated venue for compiler research.",
+  "nextDeadline": "2025-11-11T23:59:00Z",
+  "daysUntilDeadline": -135,
+  "deadlineTimezone": "AoE",
+  "venue": "Sydney, Australia",
+  "conferenceStart": "2026-01-31",
+  "conferenceEnd": "2026-02-01",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "2"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "B"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2025-11-11T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-01-31",
+      "conferenceEnd": "2026-02-01",
+      "venue": "Sydney, Australia",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Compiler",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Compiler",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Compiler",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Optimization",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Side-Channel",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Code Generation",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Compiler",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "JIT",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "DSL",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Compiler",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Code Generation",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pipeline",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Compiler",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Program Analysis",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Compiler",
+      "count": 5
+    },
+    {
+      "year": 2026,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "GPU",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Sparse",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Localization",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Program Synthesis",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Encryption",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "컴파일러 설계와 구현에 특화된 학회로, 코드 생성, 프로그램 분석, 최적화 기법 등을 다룹니다. CGO와 함께 개최되는 경우가 많으며, LLVM 등 현대 컴파일러 인프라와 관련된 연구가 활발합니다. 컴파일러 분야의 전문적인 학회로서 꾸준한 위상을 유지하고 있습니다.",
+  "descriptionEn": "A specialized conference on compiler construction, covering code generation, program analysis, and optimization techniques. Often co-located with CGO, CC features active research related to modern compiler infrastructure like LLVM. It maintains a steady reputation as the dedicated venue for compiler research."
+}

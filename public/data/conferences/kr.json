@@ -1,1 +1,420 @@
-{"id":"fbda4753-9bae-4cdd-858c-aa909ed5e8a9","slug":"kr","nameEn":"International Conference on Principles of Knowledge Representation and Reasoning","nameKr":null,"acronym":"KR","field":"AI/ML","subField":"Knowledge Representation","dblpKey":"conf/kr","websiteUrl":"https://kr.org/KR2026/","description":null,"nextDeadline":"2026-02-13T23:59:00Z","daysUntilDeadline":-41,"deadlineTimezone":"AoE","venue":"Lisbon, Portugal","conferenceStart":"2026-07-18","conferenceEnd":"2026-07-25","institutionRatings":[{"institution":"BK21","tier":"3"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":"A*"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":"2026-02-08T23:59:00Z","paperDeadline":"2026-02-13T23:59:00Z","notificationDate":"2026-04-25T00:00:00Z","conferenceStart":"2026-07-18","conferenceEnd":"2026-07-25","venue":"Lisbon, Portugal","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Contractions Based on Optimal Repairs","authors":"Baader & Wassermann","awardType":"best_paper","tags":["Belief Revision","Ontologies"],"paperUrl":"https://proceedings.kr.org/2024/9/"},{"year":2024,"paperTitle":"Nemo: Your Friendly and Versatile Rule Reasoning Toolkit","authors":"Ivliev, Gerlach, Meusel, Steinberg & Krötzsch","awardType":"best_paper","tags":["Rule Reasoning","Knowledge Graphs"],"paperUrl":"https://doi.org/10.24963/kr.2024/70"},{"year":2025,"paperTitle":"Finite Axiomatizability by Disjunctive Existential Rules","authors":"Calautti, Console & Pieris","awardType":"best_paper","tags":["Existential Rules","Ontologies"],"paperUrl":"https://arxiv.org/abs/2508.11946"}],"acceptanceRates":[],"keywordTrends":[{"year":2020,"keyword":"Multi-Agent","count":4},{"year":2020,"keyword":"Agent","count":4},{"year":2020,"keyword":"Complexity","count":5},{"year":2020,"keyword":"Optimization","count":1},{"year":2020,"keyword":"Zero-Shot","count":1},{"year":2020,"keyword":"Fixed-Parameter","count":1},{"year":2020,"keyword":"SAT","count":2},{"year":2020,"keyword":"Robustness","count":1},{"year":2020,"keyword":"Signature","count":1},{"year":2020,"keyword":"Upper Bound","count":1},{"year":2020,"keyword":"Efficient","count":1},{"year":2020,"keyword":"Knowledge Graph","count":1},{"year":2020,"keyword":"Graph","count":1},{"year":2020,"keyword":"SQL","count":1},{"year":2021,"keyword":"Testing","count":1},{"year":2021,"keyword":"Robot","count":1},{"year":2021,"keyword":"Cloud","count":1},{"year":2021,"keyword":"Complexity","count":2},{"year":2021,"keyword":"Scheduling","count":1},{"year":2021,"keyword":"Alignment","count":1},{"year":2021,"keyword":"Graph","count":1},{"year":2021,"keyword":"Agent","count":1},{"year":2022,"keyword":"Multi-Agent","count":3},{"year":2022,"keyword":"Agent","count":3},{"year":2022,"keyword":"Graph Neural Network","count":1},{"year":2022,"keyword":"Graph","count":1},{"year":2022,"keyword":"Worst-Case","count":1},{"year":2022,"keyword":"Kernel","count":1},{"year":2022,"keyword":"Relation Extraction","count":1},{"year":2023,"keyword":"Complexity","count":5},{"year":2023,"keyword":"Knowledge Graph","count":1},{"year":2023,"keyword":"Graph","count":1},{"year":2023,"keyword":"Program Synthesis","count":1},{"year":2023,"keyword":"Robot","count":1},{"year":2023,"keyword":"VR","count":1},{"year":2023,"keyword":"Model Checking","count":1},{"year":2023,"keyword":"Multi-Agent","count":1},{"year":2023,"keyword":"Agent","count":1},{"year":2023,"keyword":"Autonomous","count":1},{"year":2024,"keyword":"Complexity","count":6},{"year":2024,"keyword":"SMT","count":1},{"year":2024,"keyword":"Fine-Tuning","count":1},{"year":2024,"keyword":"Graph","count":3},{"year":2024,"keyword":"Efficient","count":2},{"year":2024,"keyword":"Multi-Agent","count":1},{"year":2024,"keyword":"Agent","count":1},{"year":2024,"keyword":"Parameterized","count":1},{"year":2024,"keyword":"Kernel","count":1},{"year":2024,"keyword":"Combinatorial","count":1},{"year":2024,"keyword":"Optimization","count":1},{"year":2025,"keyword":"Complexity","count":8},{"year":2025,"keyword":"Model Checking","count":1},{"year":2025,"keyword":"Multi-Agent","count":2},{"year":2025,"keyword":"Agent","count":2},{"year":2025,"keyword":"Optimization","count":1},{"year":2025,"keyword":"Pruning","count":1},{"year":2025,"keyword":"SAT","count":1},{"year":2025,"keyword":"Safety","count":1},{"year":2025,"keyword":"Efficient","count":1},{"year":2025,"keyword":"SMT","count":1},{"year":2025,"keyword":"Reinforcement Learning","count":1},{"year":2025,"keyword":"Scheduling","count":1},{"year":2025,"keyword":"LLM","count":1}]}
+{
+  "id": "fbda4753-9bae-4cdd-858c-aa909ed5e8a9",
+  "slug": "kr",
+  "nameEn": "International Conference on Principles of Knowledge Representation and Reasoning",
+  "nameKr": null,
+  "acronym": "KR",
+  "field": "AI/ML",
+  "subField": "Knowledge Representation",
+  "dblpKey": "conf/kr",
+  "websiteUrl": "https://kr.org/KR2026/",
+  "description": "The premier conference on knowledge representation and reasoning, covering ontologies, logic programming, and non-monotonic reasoning. It deeply explores core symbolic AI topics and has recently seen active research combining neural and symbolic approaches. Held biennially.",
+  "nextDeadline": "2026-02-13T23:59:00Z",
+  "daysUntilDeadline": -41,
+  "deadlineTimezone": "AoE",
+  "venue": "Lisbon, Portugal",
+  "conferenceStart": "2026-07-18",
+  "conferenceEnd": "2026-07-25",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "3"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": "A*"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": "2026-02-08T23:59:00Z",
+      "paperDeadline": "2026-02-13T23:59:00Z",
+      "notificationDate": "2026-04-25T00:00:00Z",
+      "conferenceStart": "2026-07-18",
+      "conferenceEnd": "2026-07-25",
+      "venue": "Lisbon, Portugal",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Contractions Based on Optimal Repairs",
+      "authors": "Baader & Wassermann",
+      "awardType": "best_paper",
+      "tags": [
+        "Belief Revision",
+        "Ontologies"
+      ],
+      "paperUrl": "https://proceedings.kr.org/2024/9/"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "Nemo: Your Friendly and Versatile Rule Reasoning Toolkit",
+      "authors": "Ivliev, Gerlach, Meusel, Steinberg & Krötzsch",
+      "awardType": "best_paper",
+      "tags": [
+        "Rule Reasoning",
+        "Knowledge Graphs"
+      ],
+      "paperUrl": "https://doi.org/10.24963/kr.2024/70"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Finite Axiomatizability by Disjunctive Existential Rules",
+      "authors": "Calautti, Console & Pieris",
+      "awardType": "best_paper",
+      "tags": [
+        "Existential Rules",
+        "Ontologies"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2508.11946"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Multi-Agent",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Agent",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Complexity",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Zero-Shot",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Fixed-Parameter",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "SAT",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Signature",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Upper Bound",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "SQL",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Robot",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Complexity",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Multi-Agent",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Agent",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Worst-Case",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Relation Extraction",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Complexity",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Program Synthesis",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Robot",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Multi-Agent",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Complexity",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Multi-Agent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Complexity",
+      "count": 8
+    },
+    {
+      "year": 2025,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Multi-Agent",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Agent",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "SAT",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "지식 표현과 추론 분야의 대표 학회로, 온톨로지, 논리 프로그래밍, 비단조 추론 등을 다룬다. 전통적 AI(심볼릭 AI)의 핵심 주제를 깊이 있게 논의하며, 최근에는 뉴로심볼릭 AI와의 접목 연구도 활발하다. 격년 개최된다.",
+  "descriptionEn": "The premier conference on knowledge representation and reasoning, covering ontologies, logic programming, and non-monotonic reasoning. It deeply explores core symbolic AI topics and has recently seen active research combining neural and symbolic approaches. Held biennially."
+}

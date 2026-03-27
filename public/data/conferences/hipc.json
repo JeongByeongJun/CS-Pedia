@@ -1,1 +1,771 @@
-{"id":"d43c9ed7-7275-4381-9273-5d1b8f9a1002","slug":"hipc","nameEn":"IEEE International Conference on High Performance Computing, Data, and Analytics","nameKr":null,"acronym":"HiPC","field":"Systems","subField":"High Performance Computing","dblpKey":"conf/hipc","websiteUrl":"https://hipc.org/","description":null,"nextDeadline":null,"daysUntilDeadline":null,"deadlineTimezone":"AoE","venue":null,"conferenceStart":null,"conferenceEnd":null,"institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":null},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":null},{"institution":"CCF","tier":"C"},{"institution":"CSRankings","tier":null}],"deadlines":[],"bestPapers":[],"acceptanceRates":[{"year":2021,"accepted":6,"submitted":null,"rate":null}],"keywordTrends":[{"year":2020,"keyword":"Scheduling","count":2},{"year":2020,"keyword":"Optimization","count":1},{"year":2020,"keyword":"GPU","count":2},{"year":2020,"keyword":"Hash","count":1},{"year":2020,"keyword":"Storage","count":1},{"year":2020,"keyword":"Processing-in-Memory","count":1},{"year":2020,"keyword":"Graph","count":3},{"year":2020,"keyword":"Parallelism","count":1},{"year":2020,"keyword":"Efficient","count":3},{"year":2020,"keyword":"Container","count":1},{"year":2020,"keyword":"Cache","count":1},{"year":2020,"keyword":"Model Checking","count":1},{"year":2020,"keyword":"Embedded","count":1},{"year":2020,"keyword":"RDMA","count":1},{"year":2020,"keyword":"Distributed","count":1},{"year":2020,"keyword":"Sparse","count":1},{"year":2020,"keyword":"3D","count":1},{"year":2021,"keyword":"RL","count":1},{"year":2021,"keyword":"Distributed","count":3},{"year":2021,"keyword":"Sparse","count":3},{"year":2021,"keyword":"Consistency","count":1},{"year":2021,"keyword":"Scheduling","count":1},{"year":2021,"keyword":"Efficient","count":3},{"year":2021,"keyword":"Concurrency","count":1},{"year":2021,"keyword":"Cloud","count":2},{"year":2021,"keyword":"Embedding","count":1},{"year":2021,"keyword":"Graph","count":2},{"year":2021,"keyword":"GPU","count":7},{"year":2021,"keyword":"Compression","count":1},{"year":2021,"keyword":"Homomorphic","count":1},{"year":2021,"keyword":"Encryption","count":1},{"year":2021,"keyword":"Kernel","count":1},{"year":2021,"keyword":"Parallelism","count":1},{"year":2021,"keyword":"3D","count":1},{"year":2021,"keyword":"Lattice","count":1},{"year":2021,"keyword":"DevOps","count":1},{"year":2021,"keyword":"Reinforcement Learning","count":1},{"year":2021,"keyword":"Stream Processing","count":1},{"year":2021,"keyword":"Edge Computing","count":1},{"year":2021,"keyword":"FPGA","count":1},{"year":2022,"keyword":"Distributed","count":2},{"year":2022,"keyword":"GPU","count":6},{"year":2022,"keyword":"Privacy","count":1},{"year":2022,"keyword":"Compression","count":3},{"year":2022,"keyword":"Pipeline","count":1},{"year":2022,"keyword":"Storage","count":1},{"year":2022,"keyword":"Testing","count":1},{"year":2022,"keyword":"Graph Neural Network","count":1},{"year":2022,"keyword":"Graph","count":1},{"year":2022,"keyword":"Simulation","count":1},{"year":2022,"keyword":"Deformable","count":1},{"year":2022,"keyword":"Join","count":1},{"year":2022,"keyword":"Container","count":1},{"year":2022,"keyword":"Convergence","count":1},{"year":2022,"keyword":"Efficient","count":5},{"year":2022,"keyword":"Cache","count":1},{"year":2022,"keyword":"Sparse","count":1},{"year":2022,"keyword":"Real-Time","count":1},{"year":2022,"keyword":"Authentication","count":1},{"year":2022,"keyword":"GAN","count":1},{"year":2022,"keyword":"Pruning","count":1},{"year":2022,"keyword":"GNN","count":2},{"year":2022,"keyword":"Latency","count":1},{"year":2022,"keyword":"FPGA","count":1},{"year":2023,"keyword":"Graph","count":2},{"year":2023,"keyword":"Cache","count":1},{"year":2023,"keyword":"Compression","count":4},{"year":2023,"keyword":"Cloud","count":3},{"year":2023,"keyword":"Pipeline","count":1},{"year":2023,"keyword":"Memory Management","count":1},{"year":2023,"keyword":"Homomorphic","count":1},{"year":2023,"keyword":"Encryption","count":1},{"year":2023,"keyword":"FPGA","count":2},{"year":2023,"keyword":"Concurrency","count":1},{"year":2023,"keyword":"Visualization","count":1},{"year":2023,"keyword":"Distributed","count":2},{"year":2023,"keyword":"Parallelism","count":1},{"year":2023,"keyword":"Serverless","count":1},{"year":2023,"keyword":"Quantization","count":1},{"year":2023,"keyword":"Accelerator","count":1},{"year":2023,"keyword":"Efficient","count":5},{"year":2023,"keyword":"ViT","count":1},{"year":2023,"keyword":"Optimization","count":2},{"year":2023,"keyword":"Datacenter","count":1},{"year":2023,"keyword":"Storage","count":1},{"year":2023,"keyword":"Throughput","count":1},{"year":2023,"keyword":"Real-Time","count":1},{"year":2023,"keyword":"PIM","count":1},{"year":2023,"keyword":"GPU","count":3},{"year":2023,"keyword":"Sparse","count":1},{"year":2023,"keyword":"Autoregressive","count":1},{"year":2023,"keyword":"Complexity","count":1},{"year":2023,"keyword":"Fluid","count":1},{"year":2024,"keyword":"Pruning","count":1},{"year":2024,"keyword":"Visualization","count":2},{"year":2024,"keyword":"Cache","count":2},{"year":2024,"keyword":"Optimization","count":4},{"year":2024,"keyword":"Distributed","count":5},{"year":2024,"keyword":"Scheduling","count":2},{"year":2024,"keyword":"GPU","count":13},{"year":2024,"keyword":"CXL","count":3},{"year":2024,"keyword":"LLM","count":4},{"year":2024,"keyword":"Convergence","count":1},{"year":2024,"keyword":"Federated Learning","count":4},{"year":2024,"keyword":"Adversarial","count":1},{"year":2024,"keyword":"Kernel","count":2},{"year":2024,"keyword":"Testing","count":1},{"year":2024,"keyword":"Pre-Training","count":1},{"year":2024,"keyword":"Graph","count":4},{"year":2024,"keyword":"Sparse","count":1},{"year":2024,"keyword":"Efficient","count":9},{"year":2024,"keyword":"SDN","count":1},{"year":2024,"keyword":"5G","count":1},{"year":2024,"keyword":"Real-Time","count":2},{"year":2024,"keyword":"Simulation","count":5},{"year":2024,"keyword":"Graph Neural Network","count":1},{"year":2024,"keyword":"Fault Tolerance","count":1},{"year":2024,"keyword":"Replication","count":1},{"year":2024,"keyword":"Segmentation","count":2},{"year":2024,"keyword":"Accelerator","count":2},{"year":2024,"keyword":"Cloud","count":2},{"year":2024,"keyword":"FPGA","count":2},{"year":2024,"keyword":"Data Augmentation","count":1},{"year":2024,"keyword":"Latency","count":1},{"year":2024,"keyword":"Storage","count":2},{"year":2024,"keyword":"Object Detection","count":1},{"year":2024,"keyword":"Autonomous","count":1},{"year":2024,"keyword":"GNN","count":2},{"year":2024,"keyword":"Vision Transformer","count":1},{"year":2024,"keyword":"Transformer","count":2},{"year":2024,"keyword":"3D","count":1},{"year":2024,"keyword":"Compression","count":1},{"year":2024,"keyword":"Reconfigurable","count":1},{"year":2024,"keyword":"Consistency","count":1},{"year":2024,"keyword":"SQL","count":1},{"year":2024,"keyword":"Self-Supervised","count":1},{"year":2024,"keyword":"Attention","count":1},{"year":2024,"keyword":"Generative","count":1},{"year":2024,"keyword":"Large Language Model","count":1},{"year":2024,"keyword":"Language Model","count":1},{"year":2024,"keyword":"Bandwidth","count":1}]}
+{
+  "id": "d43c9ed7-7275-4381-9273-5d1b8f9a1002",
+  "slug": "hipc",
+  "nameEn": "IEEE International Conference on High Performance Computing, Data, and Analytics",
+  "nameKr": null,
+  "acronym": "HiPC",
+  "field": "Systems",
+  "subField": "High Performance Computing",
+  "dblpKey": "conf/hipc",
+  "websiteUrl": "https://hipc.org/",
+  "description": "An IEEE conference on high-performance computing, data, and analytics, playing an important role in the Asian HPC community with a focus on India. It features practical topics including HPC applications, parallel algorithms, and data analytics with strong regional participation.",
+  "nextDeadline": null,
+  "daysUntilDeadline": null,
+  "deadlineTimezone": "AoE",
+  "venue": null,
+  "conferenceStart": null,
+  "conferenceEnd": null,
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": null
+    },
+    {
+      "institution": "CCF",
+      "tier": "C"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [],
+  "bestPapers": [],
+  "acceptanceRates": [
+    {
+      "year": 2021,
+      "accepted": 6,
+      "submitted": null,
+      "rate": null
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "GPU",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Processing-in-Memory",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "RDMA",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "GPU",
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "DevOps",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Edge Computing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "GPU",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Compression",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Pipeline",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Deformable",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Join",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Authentication",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "GNN",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Compression",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Cloud",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Pipeline",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Memory Management",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "FPGA",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Serverless",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "ViT",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Datacenter",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "PIM",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GPU",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Autoregressive",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Fluid",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Visualization",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "GPU",
+      "count": 13
+    },
+    {
+      "year": 2024,
+      "keyword": "CXL",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "LLM",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Federated Learning",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "SDN",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "5G",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Real-Time",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Simulation",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Segmentation",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Accelerator",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Cloud",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "FPGA",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Storage",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Object Detection",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "GNN",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Vision Transformer",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Transformer",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Reconfigurable",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "SQL",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Large Language Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Bandwidth",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "고성능 컴퓨팅, 데이터, 분석을 다루는 IEEE 학회로, 인도를 중심으로 아시아 HPC 커뮤니티에서 중요한 역할을 한다. HPC 응용, 병렬 알고리즘, 데이터 분석 등 실용적 주제가 많이 발표되며, 아시아 지역 연구자들의 참여가 활발하다.",
+  "descriptionEn": "An IEEE conference on high-performance computing, data, and analytics, playing an important role in the Asian HPC community with a focus on India. It features practical topics including HPC applications, parallel algorithms, and data analytics with strong regional participation."
+}

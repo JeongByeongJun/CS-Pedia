@@ -1,1 +1,658 @@
-{"id":"8750687a-d95c-4e1d-b5f8-69fc7b3c5528","slug":"ismb","nameEn":"Intelligent Systems for Molecular Biology","nameKr":null,"acronym":"ISMB","field":"AI/ML","subField":"Computational Biology","dblpKey":"conf/ismb","websiteUrl":"https://www.iscb.org/ismb2026/home","description":null,"nextDeadline":"2026-01-20T23:59:00Z","daysUntilDeadline":-65,"deadlineTimezone":"AoE","venue":"Washington DC, USA","conferenceStart":"2026-07-12","conferenceEnd":"2026-07-16","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"최우수"},{"institution":"KAIST","tier":null},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":null},{"institution":"CSRankings","tier":"Included"}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-01-20T23:59:00Z","notificationDate":null,"conferenceStart":"2026-07-12","conferenceEnd":"2026-07-16","venue":"Washington DC, USA","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Extracting Clinical Significance for Drug-Gene Interactions using FDA Label Packages","authors":"Cannon","awardType":"best_paper","tags":["Drug-Gene Interaction","Biomedical NLP"],"paperUrl":null}],"acceptanceRates":[],"keywordTrends":[{"year":2020,"keyword":"Visualization","count":1},{"year":2020,"keyword":"Combinatorial","count":2},{"year":2020,"keyword":"Reconstruction","count":1},{"year":2020,"keyword":"Alignment","count":2},{"year":2020,"keyword":"Graph","count":4},{"year":2020,"keyword":"Diffusion","count":1},{"year":2020,"keyword":"Sparse","count":2},{"year":2020,"keyword":"Generative","count":1},{"year":2020,"keyword":"Signature","count":1},{"year":2020,"keyword":"Efficient","count":2},{"year":2020,"keyword":"Transfer Learning","count":1},{"year":2020,"keyword":"Adversarial","count":1},{"year":2020,"keyword":"Cellular","count":1},{"year":2020,"keyword":"Embedding","count":2},{"year":2020,"keyword":"Attention","count":1},{"year":2020,"keyword":"Kernel","count":1},{"year":2020,"keyword":"Privacy","count":1},{"year":2021,"keyword":"Visual Analytics","count":1},{"year":2021,"keyword":"Mesh","count":1},{"year":2021,"keyword":"Graph","count":6},{"year":2021,"keyword":"Representation Learning","count":1},{"year":2021,"keyword":"Optimization","count":1},{"year":2021,"keyword":"Cloud","count":1},{"year":2021,"keyword":"Adversarial","count":1},{"year":2021,"keyword":"Generative","count":1},{"year":2021,"keyword":"Signature","count":1},{"year":2021,"keyword":"Reinforcement Learning","count":1},{"year":2021,"keyword":"Compression","count":1},{"year":2021,"keyword":"Domain Adaptation","count":1},{"year":2021,"keyword":"Sparse","count":1},{"year":2021,"keyword":"Reconstruction","count":1},{"year":2021,"keyword":"Graph Neural Network","count":2},{"year":2021,"keyword":"Knowledge Graph","count":1},{"year":2021,"keyword":"Attention","count":1},{"year":2021,"keyword":"Real-Time","count":1},{"year":2022,"keyword":"Instance Segmentation","count":1},{"year":2022,"keyword":"Segmentation","count":1},{"year":2022,"keyword":"Kernel","count":2},{"year":2022,"keyword":"Multimodal","count":1},{"year":2022,"keyword":"Graph","count":3},{"year":2022,"keyword":"Graph Neural Network","count":1},{"year":2022,"keyword":"Zero-Shot","count":1},{"year":2022,"keyword":"Self-Supervised","count":1},{"year":2022,"keyword":"Sparse","count":2},{"year":2022,"keyword":"Pipeline","count":1},{"year":2022,"keyword":"ACID","count":1},{"year":2022,"keyword":"Dataset","count":1},{"year":2022,"keyword":"Alignment","count":1},{"year":2022,"keyword":"Transfer Learning","count":1},{"year":2023,"keyword":"Index","count":1},{"year":2023,"keyword":"Attention","count":3},{"year":2023,"keyword":"Transfer Learning","count":3},{"year":2023,"keyword":"Graph","count":6},{"year":2023,"keyword":"Graph Transformer","count":2},{"year":2023,"keyword":"Transformer","count":5},{"year":2023,"keyword":"Privacy","count":1},{"year":2023,"keyword":"Alignment","count":2},{"year":2023,"keyword":"Kernel","count":1},{"year":2023,"keyword":"Benchmark","count":1},{"year":2023,"keyword":"Real-Time","count":1},{"year":2023,"keyword":"Consensus","count":1},{"year":2023,"keyword":"Data Augmentation","count":1},{"year":2023,"keyword":"GAN","count":1},{"year":2023,"keyword":"Contrastive Learning","count":1},{"year":2023,"keyword":"Self-Supervised","count":1},{"year":2023,"keyword":"Reconstruction","count":2},{"year":2023,"keyword":"Vision Transformer","count":1},{"year":2023,"keyword":"Efficient","count":1},{"year":2023,"keyword":"Knowledge Graph","count":1},{"year":2023,"keyword":"Super-Resolution","count":1},{"year":2023,"keyword":"Optimization","count":1},{"year":2024,"keyword":"Embedding","count":1},{"year":2024,"keyword":"Transfer Learning","count":1},{"year":2024,"keyword":"Graph","count":2},{"year":2024,"keyword":"Efficient","count":1},{"year":2024,"keyword":"Cellular","count":2},{"year":2024,"keyword":"Diffusion Model","count":1},{"year":2024,"keyword":"Diffusion","count":2},{"year":2024,"keyword":"Pretraining","count":1},{"year":2024,"keyword":"Consistency","count":1},{"year":2024,"keyword":"Generative","count":2},{"year":2024,"keyword":"Multimodal","count":1},{"year":2024,"keyword":"Retrieval-Augmented","count":1},{"year":2024,"keyword":"Alignment","count":2},{"year":2024,"keyword":"Reconstruction","count":2},{"year":2024,"keyword":"Attention","count":1},{"year":2024,"keyword":"Index","count":1},{"year":2024,"keyword":"Code Generation","count":1},{"year":2024,"keyword":"Benchmark","count":1},{"year":2024,"keyword":"Language Model","count":1},{"year":2024,"keyword":"3D","count":2},{"year":2024,"keyword":"Combinatorial","count":1},{"year":2025,"keyword":"Alignment","count":1},{"year":2025,"keyword":"Throughput","count":1},{"year":2025,"keyword":"Efficient","count":1},{"year":2025,"keyword":"3D","count":2},{"year":2025,"keyword":"Optimization","count":1},{"year":2025,"keyword":"VAE","count":1},{"year":2025,"keyword":"Replication","count":1},{"year":2025,"keyword":"Super-Resolution","count":1},{"year":2025,"keyword":"Reconstruction","count":1},{"year":2025,"keyword":"Lattice","count":1},{"year":2025,"keyword":"Representation Learning","count":1},{"year":2025,"keyword":"Language Model","count":1},{"year":2025,"keyword":"Diffusion","count":1},{"year":2025,"keyword":"Graph","count":2},{"year":2025,"keyword":"Relation Extraction","count":1},{"year":2025,"keyword":"LoRA","count":1},{"year":2025,"keyword":"Flow Matching","count":1},{"year":2025,"keyword":"Generative","count":1},{"year":2025,"keyword":"ACID","count":1},{"year":2025,"keyword":"Accessibility","count":1},{"year":2025,"keyword":"Benchmark","count":1},{"year":2025,"keyword":"Bias","count":1},{"year":2025,"keyword":"Attention","count":1}]}
+{
+  "id": "8750687a-d95c-4e1d-b5f8-69fc7b3c5528",
+  "slug": "ismb",
+  "nameEn": "Intelligent Systems for Molecular Biology",
+  "nameKr": null,
+  "acronym": "ISMB",
+  "field": "AI/ML",
+  "subField": "Computational Biology",
+  "dblpKey": "conf/ismb",
+  "websiteUrl": "https://www.iscb.org/ismb2026/home",
+  "description": "The most prestigious computational biology conference, focusing on intelligent systems for molecular biology. It covers genomics, protein structure prediction, and systems biology, organized annually by ISCB. Its linkage with the Bioinformatics journal special issue gives it high scholarly impact.",
+  "nextDeadline": "2026-01-20T23:59:00Z",
+  "daysUntilDeadline": -65,
+  "deadlineTimezone": "AoE",
+  "venue": "Washington DC, USA",
+  "conferenceStart": "2026-07-12",
+  "conferenceEnd": "2026-07-16",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "최우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": null
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": null
+    },
+    {
+      "institution": "CSRankings",
+      "tier": "Included"
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-01-20T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-07-12",
+      "conferenceEnd": "2026-07-16",
+      "venue": "Washington DC, USA",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Extracting Clinical Significance for Drug-Gene Interactions using FDA Label Packages",
+      "authors": "Cannon",
+      "awardType": "best_paper",
+      "tags": [
+        "Drug-Gene Interaction",
+        "Biomedical NLP"
+      ],
+      "paperUrl": null
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Combinatorial",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Reconstruction",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Alignment",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Signature",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cellular",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedding",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Visual Analytics",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Mesh",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Representation Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Signature",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reconstruction",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph Neural Network",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Instance Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Zero-Shot",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Sparse",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Pipeline",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "ACID",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Attention",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Transfer Learning",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph Transformer",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Transformer",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Alignment",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Contrastive Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Reconstruction",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Vision Transformer",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Super-Resolution",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Cellular",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Diffusion Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Diffusion",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Pretraining",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Retrieval-Augmented",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Alignment",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Reconstruction",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "3D",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "3D",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "VAE",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Super-Resolution",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Reconstruction",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Representation Learning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Relation Extraction",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "LoRA",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Flow Matching",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "ACID",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Accessibility",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Attention",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "분자생물학을 위한 지능형 시스템을 주제로 하는 최고 권위의 계산생물학 학회다. 유전체학, 단백질 구조 예측, 시스템 생물학 등을 다루며, ISCB 주관으로 매년 개최된다. Bioinformatics 저널 특별호와 연계되어 높은 학술적 영향력을 가진다.",
+  "descriptionEn": "The most prestigious computational biology conference, focusing on intelligent systems for molecular biology. It covers genomics, protein structure prediction, and systems biology, organized annually by ISCB. Its linkage with the Bioinformatics journal special issue gives it high scholarly impact."
+}

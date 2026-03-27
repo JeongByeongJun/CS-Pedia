@@ -1,0 +1,838 @@
+{
+  "neurips": {
+    "ko": "머신러닝 및 신경정보처리 분야 최정상급 학회로, 매년 수만 명이 참가하는 AI 분야 대표 학회다. 딥러닝, 최적화, 강화학습 등 ML 전반을 아우르며, 최근에는 LLM과 생성모델 연구의 핵심 발표 무대가 되고 있다. 경쟁률이 극도로 높아 ML 연구자에게 NeurIPS 게재는 최고 수준의 성과로 인정받는다.",
+    "en": "One of the top-tier venues in machine learning and neural information processing, attracting tens of thousands of attendees annually. It covers the full spectrum of ML including deep learning, optimization, and reinforcement learning, and has become the premier stage for LLM and generative model research. Acceptance is highly competitive, making a NeurIPS publication a hallmark of excellence in ML research."
+  },
+  "icml": {
+    "ko": "NeurIPS와 함께 머신러닝 분야 양대 탑티어 학회로 꼽히며, 이론과 알고리즘 모두에서 높은 수준의 논문이 발표된다. 머신러닝의 근본적인 방법론부터 최신 응용까지 폭넓게 다루며, 매년 여름에 개최된다. ML 커뮤니티에서 ICML 논문은 최상위 연구 역량의 지표로 통한다.",
+    "en": "Alongside NeurIPS, ICML stands as one of the two premier machine learning conferences, featuring high-caliber work in both theory and algorithms. It covers foundational methodologies through cutting-edge applications and is held annually in summer. An ICML publication is widely regarded as a top indicator of research excellence in the ML community."
+  },
+  "iclr": {
+    "ko": "딥러닝과 표현 학습에 특화된 탑티어 학회로, 2013년 Yoshua Bengio와 Yann LeCun이 공동 창립했다. 오픈 리뷰 시스템을 최초로 도입해 투명한 심사 과정을 운영하는 것으로 유명하며, 짧은 역사에도 불구하고 NeurIPS·ICML과 함께 ML 3대 학회로 자리잡았다.",
+    "en": "A top-tier conference specializing in deep learning and representation learning, co-founded by Yoshua Bengio and Yann LeCun in 2013. It pioneered the open peer review system, offering full transparency in the review process. Despite its relatively short history, ICLR has established itself alongside NeurIPS and ICML as one of the three premier ML venues."
+  },
+  "aaai": {
+    "ko": "인공지능 전 분야를 아우르는 대표적인 학회로, 1980년부터 이어온 오랜 전통을 가지고 있다. 탐색, 추론, 자연어처리, 컴퓨터비전, 로보틱스 등 AI의 다양한 하위 분야를 폭넓게 커버한다. 매년 겨울에 개최되며 AI 분야 연구자라면 반드시 주목하는 탑티어 학회다.",
+    "en": "A flagship AI conference with a long-standing tradition since 1980, covering the full breadth of artificial intelligence. It spans diverse subfields including search, reasoning, NLP, computer vision, and robotics. Held annually in winter, AAAI is a must-watch top-tier venue for AI researchers across all specializations."
+  },
+  "ijcai": {
+    "ko": "1969년에 시작된 인공지능 분야에서 가장 오래된 국제학회로, AI의 이론적 기초부터 응용까지 광범위하게 다룬다. AAAI와 함께 AI 분야 양대 학회로 인정받으며, 홀수 해에는 단독 개최, 짝수 해에는 타 학회와 공동 개최하는 독특한 방식을 운영한다.",
+    "en": "The oldest international AI conference, established in 1969, covering everything from theoretical foundations to applications of artificial intelligence. Recognized alongside AAAI as one of the two premier general AI venues, it follows a unique format of standalone events in odd years and joint conferences in even years."
+  },
+  "kdd": {
+    "ko": "데이터마이닝과 지식 발견 분야의 최정상급 학회로, 산업계와 학계 모두에서 높은 인지도를 갖고 있다. 대규모 데이터 분석, 추천 시스템, 그래프 마이닝 등 실용적인 데이터 과학 연구가 주로 발표되며, 기업 연구소의 참여가 매우 활발하다. Applied Data Science 트랙이 별도로 운영되어 실무 적용 사례도 많이 공유된다.",
+    "en": "The premier conference in data mining and knowledge discovery, highly regarded in both industry and academia. It features practical data science research including large-scale analytics, recommender systems, and graph mining, with strong participation from industry research labs. A dedicated Applied Data Science track showcases real-world deployment case studies."
+  },
+  "www": {
+    "ko": "웹 기술과 웹 기반 데이터 분석을 주제로 하는 최상위 학회로, 웹 검색, 소셜 네트워크, 웹 마이닝 등을 폭넓게 다룬다. 1994년부터 이어져 온 유서 깊은 학회이며, 최근에는 그래프 신경망, 공정성, 허위정보 탐지 등 현대 웹 이슈도 활발히 논의된다. ACM SIGWEB 주관으로 매년 전 세계 각지에서 개최된다.",
+    "en": "A top-tier conference on web technologies and web-based data analysis, broadly covering web search, social networks, and web mining. With a rich history since 1994, it has evolved to address modern web challenges including graph neural networks, fairness, and misinformation detection. Organized by ACM SIGWEB, it rotates annually across global locations."
+  },
+  "wsdm": {
+    "ko": "웹 검색과 데이터마이닝 분야의 소규모 정예 학회로, 낮은 인수율과 높은 논문 품질로 유명하다. 검색 엔진, 추천 시스템, 사용자 행동 분석 등 웹 데이터 활용 연구가 중심이며, 산업계 연구자들의 참여가 활발하다. 규모는 작지만 해당 분야에서의 영향력은 매우 크다.",
+    "en": "A selective, single-track conference in web search and data mining, known for its low acceptance rate and high paper quality. It focuses on search engines, recommender systems, and user behavior analysis, with strong industry participation. Though smaller in scale, its influence in the web mining community is substantial."
+  },
+  "sigir": {
+    "ko": "정보 검색 분야의 최고 권위 학회로, 검색 엔진, 질의응답, 문서 랭킹 등 IR의 핵심 주제를 다룬다. 1978년부터 이어온 긴 역사를 가지며, 최근에는 신경 정보 검색과 대화형 검색 연구가 주목받고 있다. 구글, 마이크로소프트 등 검색 기업 연구진의 참여가 특히 활발하다.",
+    "en": "The most prestigious conference in information retrieval, covering core IR topics such as search engines, question answering, and document ranking. With a long history since 1978, it has recently spotlighted neural IR and conversational search. Researchers from major search companies like Google and Microsoft are highly active participants."
+  },
+  "aistats": {
+    "ko": "머신러닝과 통계학의 교차 영역을 다루는 학회로, 이론적 깊이가 있는 논문이 많이 발표된다. 베이지안 추론, 인과 추론, 커널 방법론 등 통계적 기반의 ML 연구를 중점적으로 다루며, ML 탑 컨퍼런스 대비 소규모지만 알찬 학회로 평가받는다.",
+    "en": "A conference at the intersection of machine learning and statistics, featuring theoretically rigorous work. It emphasizes statistically grounded ML research including Bayesian inference, causal reasoning, and kernel methods. While smaller than the top ML conferences, AISTATS is highly valued for its depth and quality."
+  },
+  "uai": {
+    "ko": "불확실성 하에서의 추론과 의사결정을 다루는 전통 있는 학회로, 확률 모델, 베이지안 네트워크, 인과 추론 등이 핵심 주제다. 1985년부터 이어져 온 역사를 가지며, 이론적으로 탄탄한 논문이 발표되는 것으로 정평이 나 있다. ML/AI의 확률적 기초를 연구하는 연구자들에게 중요한 학회다.",
+    "en": "A well-established conference on reasoning and decision-making under uncertainty, with core topics including probabilistic models, Bayesian networks, and causal inference. Running since 1985, it is known for theoretically solid contributions. UAI is an important venue for researchers working on probabilistic foundations of ML and AI."
+  },
+  "colt": {
+    "ko": "머신러닝의 이론적 기초를 다루는 최고 권위 학회로, 학습 이론, 계산 복잡도, 온라인 학습 등을 주로 다룬다. 수학적으로 엄밀한 증명이 요구되어 이론 ML 연구자들 사이에서 최상위 학회로 인정받는다. 규모는 작지만 논문의 이론적 수준은 타의 추종을 불허한다.",
+    "en": "The premier venue for theoretical foundations of machine learning, covering learning theory, computational complexity, and online learning. It demands mathematically rigorous proofs and is regarded as the top conference among theoretical ML researchers. Though small in size, the theoretical depth of its papers is unmatched."
+  },
+  "recsys": {
+    "ko": "추천 시스템 분야의 대표 학회로, 협업 필터링, 콘텐츠 기반 추천, 대화형 추천 등을 전문적으로 다룬다. 넷플릭스, 스포티파이, 아마존 등 글로벌 기업의 참여가 활발하며, 산학 연계가 강한 것이 특징이다. Industry 트랙을 통해 실제 서비스 적용 사례가 많이 공유된다.",
+    "en": "The premier conference dedicated to recommender systems, covering collaborative filtering, content-based recommendations, and conversational recommendations. It features active participation from global companies like Netflix, Spotify, and Amazon, with strong industry-academia connections. Its industry track shares numerous real-world deployment experiences."
+  },
+  "ecai": {
+    "ko": "유럽 인공지능 학회의 대표 학술행사로, AI 전반을 폭넓게 다루는 종합 학회다. AAAI, IJCAI에 이어 AI 분야에서 높은 위상을 가지며, 유럽 AI 연구 커뮤니티의 핵심 교류 장이다. 격년제로 개최되며, 지식 표현, 계획, 멀티에이전트 시스템 등 전통적 AI 주제에 강점이 있다.",
+    "en": "The flagship conference of the European AI community, broadly covering all areas of artificial intelligence. Following AAAI and IJCAI in prestige, it serves as a central meeting point for European AI researchers. Held biennially, it has particular strengths in knowledge representation, planning, and multi-agent systems."
+  },
+  "aamas": {
+    "ko": "자율 에이전트와 멀티에이전트 시스템 분야의 최고 학회로, 에이전트 아키텍처, 협상, 게임이론, 시뮬레이션 등을 다룬다. 최근 LLM 기반 에이전트 연구의 부상으로 더욱 주목받고 있으며, 로보틱스와 경제학 등 다학제 연구도 활발하다.",
+    "en": "The premier conference on autonomous agents and multi-agent systems, covering agent architectures, negotiation, game theory, and simulation. It has gained renewed attention with the rise of LLM-based agent research, and features active interdisciplinary work spanning robotics and economics."
+  },
+  "icaps": {
+    "ko": "자동 계획 및 스케줄링 분야의 대표 학회로, AI 계획, 시간 추론, 실시간 의사결정 등을 다룬다. 로보틱스, 자율주행, 물류 최적화 등 실세계 응용과 연계된 연구가 많으며, 해당 니치 분야에서는 독보적인 위상을 가진다.",
+    "en": "The leading conference on automated planning and scheduling, covering AI planning, temporal reasoning, and real-time decision-making. It features strong connections to real-world applications including robotics, autonomous driving, and logistics optimization, holding a unique position in its niche."
+  },
+  "acml": {
+    "ko": "아시아·태평양 지역의 머신러닝 학회로, 아시아권 ML 연구자들의 주요 교류 장이다. 머신러닝 전반을 다루며, 지역 학회이지만 점차 국제적 인지도가 높아지고 있다. 아시아 각국을 순회하며 개최되어 접근성이 좋다.",
+    "en": "An Asia-Pacific machine learning conference serving as a key networking venue for ML researchers in the region. It covers the full range of machine learning topics and has been gaining increasing international recognition. The conference rotates across Asian countries, offering good accessibility."
+  },
+  "pakdd": {
+    "ko": "아시아·태평양 지역의 데이터마이닝 학회로, 지식 발견, 데이터 분석, 빅데이터 응용 등을 다룬다. KDD나 ICDM 대비 규모는 작지만 아시아 데이터마이닝 커뮤니티에서 중요한 위치를 차지하고 있으며, 실용적인 응용 연구가 많이 발표된다.",
+    "en": "An Asia-Pacific conference on knowledge discovery and data mining, covering data analysis and big data applications. While smaller than KDD or ICDM, it holds an important position in the Asian data mining community and features many practical application studies."
+  },
+  "ecml-pkdd": {
+    "ko": "유럽의 대표적인 머신러닝 및 데이터마이닝 학회로, ECML과 PKDD 두 학회가 합쳐져 공동 개최된다. 머신러닝 이론과 데이터마이닝 응용을 동시에 다루며, 유럽 ML 커뮤니티의 핵심 학회로 자리잡고 있다. 산업 트랙과 데모 세션도 활발하게 운영된다.",
+    "en": "Europe's leading combined machine learning and data mining conference, formed by the merger of ECML and PKDD. It covers both ML theory and data mining applications, serving as a cornerstone of the European ML community. It actively runs industry tracks and demo sessions."
+  },
+  "gecco": {
+    "ko": "유전 알고리즘, 진화 전략, 군집 지능 등 진화 연산 분야의 대표 학회다. 최적화, 신경진화, 유전 프로그래밍 등 자연에서 영감을 받은 컴퓨팅 전반을 다루며, ACM SIGEVO 주관으로 매년 개최된다. 해당 분야에서는 가장 큰 규모와 영향력을 가진 학회다.",
+    "en": "The premier conference on evolutionary computation, covering genetic algorithms, evolution strategies, and swarm intelligence. It spans nature-inspired computing including optimization, neuroevolution, and genetic programming, organized annually by ACM SIGEVO. It is the largest and most influential venue in its field."
+  },
+  "bigdata": {
+    "ko": "빅데이터 처리, 분석, 응용을 주제로 하는 IEEE 주관의 종합 학회다. 대규모 데이터 관리, 스트림 처리, 데이터 기반 의사결정 등을 폭넓게 다루며, 산업계와 학계의 빅데이터 연구를 연결하는 역할을 한다. 다양한 응용 도메인의 빅데이터 활용 사례가 발표된다.",
+    "en": "An IEEE-organized comprehensive conference on big data processing, analysis, and applications. It broadly covers large-scale data management, stream processing, and data-driven decision-making, bridging big data research between industry and academia. It features big data use cases across diverse application domains."
+  },
+  "icdm": {
+    "ko": "데이터마이닝 분야의 탑티어 학회 중 하나로, 매우 낮은 인수율로 유명하다. 분류, 클러스터링, 이상 탐지, 그래프 마이닝 등 데이터마이닝 핵심 기법을 다루며, KDD와 함께 데이터마이닝 양대 학회로 꼽힌다. IEEE 주관으로 매년 개최된다.",
+    "en": "One of the top-tier data mining conferences, renowned for its very low acceptance rate. It covers core data mining techniques including classification, clustering, anomaly detection, and graph mining, and is considered alongside KDD as one of the two premier data mining venues. Organized annually by IEEE."
+  },
+  "sdm": {
+    "ko": "SIAM 주관의 데이터마이닝 학회로, 수학적·통계적 기반이 탄탄한 데이터마이닝 연구가 발표된다. 응용수학 커뮤니티와의 연계가 강하며, 이론적 깊이가 있는 마이닝 알고리즘 논문이 많다. 규모는 중간 정도지만 해당 분야에서 존중받는 학회다.",
+    "en": "A SIAM-organized data mining conference featuring mathematically and statistically grounded research. It has strong ties to the applied mathematics community and publishes many theoretically deep mining algorithm papers. Moderate in size, it is a well-respected venue in the data mining field."
+  },
+  "acl": {
+    "ko": "자연어처리(NLP) 분야의 최정상 학회로, 전산언어학회(ACL) 주관의 연례 학술대회다. 기계번역, 감성분석, 질의응답, 대화시스템 등 NLP 전 분야를 아우르며, LLM 시대에 더욱 폭발적으로 성장하고 있다. NLP 연구자에게 ACL 게재는 최고 수준의 업적으로 인정받는다.",
+    "en": "The most prestigious conference in natural language processing, organized as the annual meeting of the Association for Computational Linguistics. It covers all areas of NLP including machine translation, sentiment analysis, QA, and dialogue systems, and has grown explosively in the LLM era. An ACL publication is recognized as the highest achievement for NLP researchers."
+  },
+  "emnlp": {
+    "ko": "ACL과 함께 NLP 분야 양대 탑티어 학회로, 경험적 방법론에 기반한 자연어처리 연구를 중심으로 다룬다. 대규모 실험과 데이터 기반 연구가 강조되며, 최근에는 ACL과 거의 동급의 위상을 가진다. 매년 가을에 개최되어 ACL과 시기적으로 보완적이다.",
+    "en": "Alongside ACL, one of the two top-tier NLP conferences, emphasizing empirical methods in natural language processing. It highlights large-scale experiments and data-driven research, and has achieved near-equal prestige with ACL in recent years. Held annually in autumn, it complements ACL's timing."
+  },
+  "naacl": {
+    "ko": "ACL의 북미 지부 학회로, NLP 탑티어 학회 중 하나다. ACL·EMNLP와 함께 NLP 3대 학회로 꼽히며, 북미 NLP 커뮤니티의 핵심 교류 장이다. ACL이 열리지 않는 해에 주로 개최되며, 논문 수준은 ACL에 준하는 것으로 평가받는다.",
+    "en": "The North American chapter of ACL and one of the top-tier NLP venues. Together with ACL and EMNLP, it forms the trio of premier NLP conferences, serving as the central meeting for the North American NLP community. It typically convenes in years when ACL is not held in North America, with paper quality on par with ACL."
+  },
+  "coling": {
+    "ko": "전산언어학 분야의 전통 있는 국제학회로, 1965년부터 격년 개최되어 NLP 학회 중 가장 오랜 역사를 자랑한다. 형태소 분석, 구문 분석, 의미론 등 언어학적 기반의 NLP 연구가 강점이며, ACL 계열과는 독립적으로 운영된다.",
+    "en": "A traditional international conference on computational linguistics, held biennially since 1965, making it the longest-running NLP venue. It has particular strengths in linguistically grounded NLP research including morphological analysis, parsing, and semantics, and operates independently from the ACL family."
+  },
+  "eacl": {
+    "ko": "ACL의 유럽 지부 학회로, 유럽 NLP 연구 커뮤니티의 주요 학술 행사다. 다국어 NLP, 저자원 언어 처리 등 유럽의 언어 다양성을 반영한 연구가 많이 발표되며, ACL 본학회 대비 소규모지만 논문 품질이 높다.",
+    "en": "The European chapter of ACL, serving as a key academic event for the European NLP research community. It features research reflecting Europe's linguistic diversity, including multilingual NLP and low-resource language processing. While smaller than ACL, it maintains high paper quality."
+  },
+  "aacl": {
+    "ko": "ACL의 아시아·태평양 지부 학회로, 2020년에 신설된 비교적 새로운 학회다. 아시아 언어 NLP 연구의 발표 무대로서 빠르게 성장 중이며, 한국어·중국어·일본어 등 아시아 언어 처리 연구가 활발하다. IJCNLP과 통합되어 운영된다.",
+    "en": "The Asia-Pacific chapter of ACL, a relatively new venue established in 2020. It is rapidly growing as a platform for Asian language NLP research, with active work on Korean, Chinese, Japanese, and other Asian languages. It operates in conjunction with IJCNLP."
+  },
+  "conll": {
+    "ko": "자연어의 계산적 학습을 주제로 하는 학회로, SIGNLL 주관 하에 ACL과 공동 개최된다. 언어 습득 모델링, 문법 유도, 의미 파싱 등 언어 학습의 계산적 측면에 초점을 맞추며, 공유 과제(shared task)가 유명하다.",
+    "en": "A conference on computational natural language learning, co-located with ACL under SIGNLL. It focuses on computational aspects of language learning including language acquisition modeling, grammar induction, and semantic parsing, and is well known for its influential shared tasks."
+  },
+  "lrec": {
+    "ko": "언어 자원(코퍼스, 사전, 도구)과 평가 방법론을 전문적으로 다루는 학회로, NLP 인프라 구축에 핵심적인 역할을 한다. 데이터셋 공개, 어노테이션 가이드라인, 평가 메트릭 등 NLP 연구의 기반이 되는 자원 관련 논문이 주로 발표된다. 격년 개최되며 ELRA가 주관한다.",
+    "en": "A conference dedicated to language resources (corpora, lexicons, tools) and evaluation methodologies, playing a vital role in NLP infrastructure. It primarily publishes work on dataset releases, annotation guidelines, and evaluation metrics that underpin NLP research. Held biennially and organized by ELRA."
+  },
+  "cvpr": {
+    "ko": "컴퓨터비전 및 패턴인식 분야의 최고 권위 학회로, AI 분야 전체에서도 최상위급으로 인정받는다. 객체 인식, 영상 분할, 3D 비전, 생성 모델 등 CV 전반을 아우르며, 매년 수천 편의 논문이 발표되는 대규모 학회다. h-index 기준 CS 전체 학회 중 최상위권에 위치한다.",
+    "en": "The most prestigious conference in computer vision and pattern recognition, recognized as top-tier across all of AI. It covers the full spectrum of CV including object recognition, segmentation, 3D vision, and generative models, with thousands of papers presented annually. It ranks among the highest CS venues by h-index."
+  },
+  "iccv": {
+    "ko": "CVPR과 함께 컴퓨터비전 분야 양대 탑티어 학회로, 격년 개최(홀수 해)되어 희소성이 있다. 비전 분야의 근본적인 문제부터 최신 딥러닝 기반 연구까지 폭넓게 다루며, Marr Prize 등 권위 있는 상이 수여된다.",
+    "en": "Alongside CVPR, one of the two top-tier computer vision conferences, held biennially in odd years, adding to its exclusivity. It broadly covers fundamental vision problems through state-of-the-art deep learning research, and presents prestigious awards including the Marr Prize."
+  },
+  "eccv": {
+    "ko": "유럽 컴퓨터비전 학회로, CVPR·ICCV와 함께 CV 3대 탑티어 학회를 구성한다. 격년 개최(짝수 해)되어 ICCV와 교대로 열리며, 유럽을 중심으로 하되 전 세계에서 참가한다. 워크숍과 튜토리얼이 충실하고 논문 수준이 매우 높다.",
+    "en": "The European Conference on Computer Vision, forming the top-three CV venues alongside CVPR and ICCV. Held biennially in even years, alternating with ICCV, it draws global participation despite its European base. It is known for high-quality workshops, tutorials, and papers."
+  },
+  "wacv": {
+    "ko": "컴퓨터비전의 응용 연구에 초점을 맞춘 IEEE/CVF 학회로, 매년 겨울에 개최된다. CVPR·ICCV·ECCV 다음 티어로 평가되지만, 실용적인 비전 응용 연구를 발표하기에 좋은 학회다. 최근 급성장하여 CV 커뮤니티에서의 위상이 높아지고 있다.",
+    "en": "An IEEE/CVF conference focused on computer vision applications, held annually in winter. While ranked below CVPR, ICCV, and ECCV, it is an excellent venue for practical vision application research. It has grown rapidly in recent years, gaining increased standing in the CV community."
+  },
+  "accv": {
+    "ko": "아시아 컴퓨터비전 학회로, 아시아·태평양 지역 CV 연구자들의 주요 교류 장이다. 격년 개최되며 아시아 각국을 순회한다. ECCV의 아시아 버전으로 볼 수 있으며, 지역 학회이지만 논문 수준이 꾸준히 향상되고 있다.",
+    "en": "The Asian Conference on Computer Vision, serving as a key meeting for CV researchers in the Asia-Pacific region. Held biennially and rotating across Asian countries, it can be seen as Asia's counterpart to ECCV, with steadily improving paper quality."
+  },
+  "bmvc": {
+    "ko": "영국 머신비전 학회(BMVA) 주관의 컴퓨터비전 학회로, 유럽 CV 커뮤니티에서 ECCV 다음으로 중요한 학회다. 규모는 중간이지만 리뷰 품질이 높고 학술적으로 충실한 논문이 발표되며, 영국을 중심으로 매년 개최된다.",
+    "en": "A computer vision conference organized by the British Machine Vision Association (BMVA), considered the second most important European CV venue after ECCV. Moderate in size but known for high review quality and academically rigorous papers, it is held annually in the UK."
+  },
+  "miccai": {
+    "ko": "의료영상 분석과 컴퓨터 보조 중재 분야의 최고 학회로, 의료 AI와 컴퓨터비전의 교차점에 위치한다. 의료영상 분할, 진단 보조, 수술 로봇 등을 다루며, 의공학과 CS 연구자 모두에게 중요한 학회다. 의료 AI 분야에서는 독보적인 위상을 가진다.",
+    "en": "The premier conference on medical image computing and computer-assisted intervention, at the intersection of medical AI and computer vision. It covers medical image segmentation, diagnostic assistance, and surgical robotics, serving both biomedical engineering and CS communities. It holds an unparalleled position in medical AI."
+  },
+  "3dv": {
+    "ko": "3D 비전을 전문적으로 다루는 학회로, 3D 복원, 깊이 추정, 포인트 클라우드 처리, NeRF 등을 주제로 한다. CVPR이나 ICCV 대비 소규모이지만 3D 비전에 특화된 깊이 있는 논의가 이루어지며, 최근 3D 생성 모델 연구의 부상으로 주목도가 높아지고 있다.",
+    "en": "A specialized conference on 3D vision, covering 3D reconstruction, depth estimation, point cloud processing, and NeRF. While smaller than CVPR or ICCV, it offers in-depth discussions on 3D vision, and has gained attention with the recent rise of 3D generative model research."
+  },
+  "icip": {
+    "ko": "영상 처리 분야의 대표적인 IEEE 학회로, 영상 압축, 복원, 향상, 분석 등 신호 처리 관점의 영상 연구를 다룬다. 전통적인 영상 처리부터 딥러닝 기반 기법까지 폭넓게 아우르며, 매년 대규모로 개최된다. IEEE Signal Processing Society 주관이다.",
+    "en": "A leading IEEE conference on image processing, covering image compression, restoration, enhancement, and analysis from a signal processing perspective. It spans traditional image processing through deep learning-based techniques and is held annually on a large scale, organized by the IEEE Signal Processing Society."
+  },
+  "icpr": {
+    "ko": "패턴인식 분야의 전통적인 국제학회로, 문자 인식, 생체 인식, 문서 분석 등 패턴인식 전반을 다룬다. 1972년부터 격년 개최되어 오랜 역사를 가지며, IAPR 주관으로 다양한 위성 워크숍이 함께 열린다.",
+    "en": "A traditional international conference on pattern recognition, covering character recognition, biometrics, and document analysis. With a long history of biennial meetings since 1972, it is organized by IAPR and accompanied by numerous satellite workshops."
+  },
+  "fg": {
+    "ko": "얼굴 인식과 제스처 인식을 전문적으로 다루는 IEEE 학회로, 얼굴 검출, 표정 분석, 행동 인식 등이 핵심 주제다. 해당 니치 분야에서 가장 전문적인 학회이며, 생체 인식과 인간-컴퓨터 상호작용 연구와도 밀접한 관련이 있다.",
+    "en": "An IEEE conference specializing in face and gesture recognition, with core topics including face detection, expression analysis, and action recognition. It is the most specialized venue in this niche, closely related to biometrics and human-computer interaction research."
+  },
+  "kr": {
+    "ko": "지식 표현과 추론 분야의 대표 학회로, 온톨로지, 논리 프로그래밍, 비단조 추론 등을 다룬다. 전통적 AI(심볼릭 AI)의 핵심 주제를 깊이 있게 논의하며, 최근에는 뉴로심볼릭 AI와의 접목 연구도 활발하다. 격년 개최된다.",
+    "en": "The premier conference on knowledge representation and reasoning, covering ontologies, logic programming, and non-monotonic reasoning. It deeply explores core symbolic AI topics and has recently seen active research combining neural and symbolic approaches. Held biennially."
+  },
+  "cogsci": {
+    "ko": "인지과학회 연례 학술대회로, 인지심리학, 언어학, AI, 신경과학 등 다학제 연구를 다룬다. 인간의 인지 과정을 계산적으로 모델링하는 연구가 중심이며, AI 연구자와 인지과학 연구자가 함께 참여하는 독특한 학회다.",
+    "en": "The annual meeting of the Cognitive Science Society, covering interdisciplinary research spanning cognitive psychology, linguistics, AI, and neuroscience. It centers on computational modeling of human cognition and uniquely brings together AI and cognitive science researchers."
+  },
+  "bibm": {
+    "ko": "생물정보학과 바이오메디컬 데이터 분석을 다루는 IEEE 학회로, 유전체 분석, 약물 발견, 임상 데이터 마이닝 등을 주제로 한다. 바이오와 CS의 융합 연구를 위한 주요 플랫폼이며, 의생명 빅데이터 분석 연구가 활발히 발표된다.",
+    "en": "An IEEE conference on bioinformatics and biomedicine, covering genomic analysis, drug discovery, and clinical data mining. It serves as a key platform for bio-CS convergence research, with active presentations on biomedical big data analytics."
+  },
+  "ismb": {
+    "ko": "분자생물학을 위한 지능형 시스템을 주제로 하는 최고 권위의 계산생물학 학회다. 유전체학, 단백질 구조 예측, 시스템 생물학 등을 다루며, ISCB 주관으로 매년 개최된다. Bioinformatics 저널 특별호와 연계되어 높은 학술적 영향력을 가진다.",
+    "en": "The most prestigious computational biology conference, focusing on intelligent systems for molecular biology. It covers genomics, protein structure prediction, and systems biology, organized annually by ISCB. Its linkage with the Bioinformatics journal special issue gives it high scholarly impact."
+  },
+  "recomb": {
+    "ko": "계산 분자 생물학 분야의 탑티어 학회로, 알고리즘과 수학적 모델에 기반한 생물학적 문제 해결에 초점을 맞춘다. 서열 분석, 진화 모델링, 규제 네트워크 분석 등을 다루며, 이론적으로 엄밀한 계산생물학 연구가 발표된다.",
+    "en": "A top-tier conference in computational molecular biology, focusing on algorithmic and mathematical approaches to biological problems. It covers sequence analysis, evolutionary modeling, and regulatory network analysis, publishing theoretically rigorous computational biology research."
+  },
+  "its": {
+    "ko": "지능형 튜터링 시스템 분야의 대표 학회로, AI를 활용한 교육 시스템, 적응형 학습, 학습자 모델링 등을 다룬다. 교육공학과 AI의 융합 분야에서 오랜 역사를 가지며, 개인화 교육 기술 연구의 핵심 발표 무대다.",
+    "en": "The leading conference on intelligent tutoring systems, covering AI-powered educational systems, adaptive learning, and learner modeling. It has a long history at the intersection of educational technology and AI, serving as a key venue for personalized education technology research."
+  },
+  "sosp": {
+    "ko": "운영체제 분야 최고 권위의 학회로, 2년에 한 번 개최된다. OS 설계 원리, 분산 시스템, 보안 등 시스템 소프트웨어 전반의 혁신적 연구가 발표되며, 채택률이 극도로 낮아 한 편 게재도 큰 성과로 인정받는다. OSDI와 함께 시스템 분야 양대 탑티어로 꼽힌다.",
+    "en": "The premier conference on operating systems principles, held biennially by ACM. It covers groundbreaking research in OS design, distributed systems, and security, with an exceptionally low acceptance rate. Along with OSDI, it is universally regarded as one of the two top-tier venues in computer systems."
+  },
+  "osdi": {
+    "ko": "USENIX 주관의 운영체제 설계 및 구현 학회로, SOSP와 교대로 격년 개최된다. 이론보다 실제 시스템 구현과 실험적 검증에 중점을 두며, 산업계에서도 높은 영향력을 가진다. 시스템 분야 연구자라면 누구나 목표로 하는 최정상급 학회다.",
+    "en": "A top-tier USENIX conference on operating systems design and implementation, held in alternating years with SOSP. It emphasizes practical system building and experimental evaluation over pure theory. OSDI is one of the most prestigious venues in systems research, highly influential in both academia and industry."
+  },
+  "eurosys": {
+    "ko": "유럽 기반의 시스템 학회로, OS, 분산 시스템, 클라우드, 스토리지 등 폭넓은 시스템 연구를 다룬다. SOSP/OSDI 바로 다음 티어로 평가받으며, 최근 몇 년간 논문 수준이 크게 올라 경쟁이 치열해졌다. 유럽에서 개최되어 한국 연구자들의 접근성도 비교적 좋은 편이다.",
+    "en": "A leading European conference covering a broad range of computer systems topics including OS, distributed systems, cloud, and storage. Regarded as the next tier after SOSP/OSDI, its paper quality and competitiveness have risen significantly in recent years. It provides a strong international venue for systems research."
+  },
+  "ppopp": {
+    "ko": "병렬 프로그래밍의 원리와 실제를 다루는 ACM 학회로, 병렬/동시성 알고리즘, 프로그래밍 모델, 런타임 시스템 등을 주제로 한다. ASPLOS, CGO 등과 함께 개최되는 경우가 많으며, 병렬 컴퓨팅 분야에서는 최상위급 학회로 인정받는다. 멀티코어 시대 이후 중요성이 더욱 커졌다.",
+    "en": "The premier ACM conference on principles and practice of parallel programming, covering parallel algorithms, concurrency, programming models, and runtime systems. Often co-located with ASPLOS and CGO, it is a top-tier venue in parallel computing. Its importance has grown with the multicore and accelerator era."
+  },
+  "socc": {
+    "ko": "클라우드 컴퓨팅에 특화된 ACM 학회로, 클라우드 시스템 설계, 데이터 센터 관리, 서버리스 등 최신 클라우드 기술을 다룬다. AWS, Google, Microsoft 등 주요 클라우드 업체의 참여가 활발하며 산학 협력이 두드러진다. 클라우드 시스템 분야의 대표 학회로 자리잡았다.",
+    "en": "An ACM conference focused on cloud computing, covering cloud system design, data center management, and serverless architectures. It features strong participation from major cloud providers like AWS, Google, and Microsoft. SoCC has established itself as the premier venue for cloud systems research."
+  },
+  "fast": {
+    "ko": "파일 시스템과 스토리지 기술에 특화된 USENIX 학회로, SSD, 분산 스토리지, 데이터 관리 등을 깊이 있게 다룬다. 스토리지 분야에서는 사실상 최고 학회이며, 삼성, Intel 등 스토리지 하드웨어 업체의 관심도 높다. 실용적이고 시스템 중심의 연구가 주로 발표된다.",
+    "en": "The top USENIX conference dedicated to file and storage technologies, covering SSDs, distributed storage, and data management. It is the premier venue in the storage domain, attracting significant interest from hardware companies like Samsung and Intel. Papers emphasize practical, systems-oriented research."
+  },
+  "hpdc": {
+    "ko": "고성능 병렬 및 분산 컴퓨팅을 다루는 ACM 학회로, 대규모 분산 시스템, 그리드 컴퓨팅, 워크플로 관리 등을 주제로 한다. 분산 컴퓨팅 분야의 핵심 학회 중 하나이며, SC와 함께 HPC 커뮤니티에서 중요한 위치를 차지한다.",
+    "en": "An ACM conference on high-performance parallel and distributed computing, covering large-scale distributed systems, grid computing, and workflow management. It is a key venue in distributed computing and holds an important position alongside SC in the HPC community."
+  },
+  "sc": {
+    "ko": "슈퍼컴퓨팅 분야 세계 최대 규모의 학회로, 고성능 컴퓨팅, 네트워킹, 스토리지, 분석을 종합적으로 다룬다. 기술 논문 외에도 대규모 전시회가 함께 열려 산업계 참여가 매우 활발하다. HPC 분야 연구자와 실무자 모두에게 가장 중요한 연례 행사다.",
+    "en": "The world's largest conference for high-performance computing, networking, storage, and analysis. Beyond technical papers, it features a massive exhibition attracting extensive industry participation. SC is the most important annual event for both researchers and practitioners in the HPC community."
+  },
+  "middleware": {
+    "ko": "미들웨어 시스템을 전문적으로 다루는 ACM/IFIP 학회로, 분산 시스템, 클라우드 플랫폼, IoT 미들웨어 등이 주요 주제다. 시스템 소프트웨어의 중간 계층에 초점을 맞춘 독특한 포지션의 학회이며, 유럽과 북미 연구자들의 참여가 활발하다.",
+    "en": "An ACM/IFIP conference specializing in middleware systems, covering distributed systems, cloud platforms, and IoT middleware. It occupies a unique niche focusing on the software layer between OS and applications. The conference draws active participation from European and North American researchers."
+  },
+  "icdcs": {
+    "ko": "분산 컴퓨팅 시스템 분야의 대표적인 IEEE 학회로, 오랜 역사를 자랑한다. 분산 알고리즘, 클라우드, 엣지 컴퓨팅, 블록체인 등 분산 시스템 전반을 폭넓게 다룬다. 분산 시스템 연구자들이 가장 많이 투고하는 주요 학회 중 하나다.",
+    "en": "A long-standing IEEE conference on distributed computing systems, covering distributed algorithms, cloud and edge computing, and blockchain. It is one of the most widely submitted-to conferences for distributed systems researchers, with a broad scope spanning the entire field."
+  },
+  "cluster": {
+    "ko": "클러스터 컴퓨팅에 초점을 맞춘 IEEE 학회로, 클러스터 아키텍처, 리소스 관리, 고가용성 시스템 등을 다룬다. HPC와 클라우드 인프라 관련 실용적 연구가 많이 발표되며, 클러스터 시스템 운영 경험을 공유하는 장으로도 활용된다.",
+    "en": "An IEEE conference focused on cluster computing, covering cluster architectures, resource management, and high-availability systems. It features practical research related to HPC and cloud infrastructure and serves as a venue for sharing operational experiences with cluster systems."
+  },
+  "ics": {
+    "ko": "슈퍼컴퓨팅과 고성능 컴퓨팅 시스템을 다루는 ACM 학회로, 프로세서 아키텍처부터 컴파일러 최적화, 병렬 알고리즘까지 폭넓게 다룬다. SC와 함께 슈퍼컴퓨팅 분야의 주요 학회이며, 하드웨어-소프트웨어 공동 최적화 연구가 강점이다.",
+    "en": "An ACM conference on supercomputing covering processor architectures, compiler optimization, and parallel algorithms. Alongside SC, it is a major venue in supercomputing, with particular strength in hardware-software co-optimization research."
+  },
+  "rtss": {
+    "ko": "실시간 시스템 분야 최고 권위의 IEEE 학회로, 실시간 스케줄링, 임베디드 시스템, 사이버 물리 시스템 등을 다룬다. 자율주행, 로보틱스, 항공우주 등 안전 필수 시스템 연구에 직접적인 영향을 미치며, 실시간 컴퓨팅 이론의 핵심 발표 무대다.",
+    "en": "The most prestigious IEEE conference on real-time systems, covering real-time scheduling, embedded systems, and cyber-physical systems. It directly impacts safety-critical domains like autonomous driving, robotics, and aerospace. RTSS is the premier venue for real-time computing theory and practice."
+  },
+  "rtas": {
+    "ko": "실시간 및 임베디드 기술 응용에 초점을 맞춘 IEEE 학회로, RTSS보다 실용적 구현과 응용에 무게를 둔다. CPS Week의 일환으로 개최되어 임베디드, IoT, 사이버 물리 시스템 커뮤니티와의 교류가 활발하다. 실시간 시스템의 실제 적용 사례를 많이 접할 수 있다.",
+    "en": "An IEEE conference on real-time and embedded technology applications, emphasizing practical implementation over theory compared to RTSS. Held as part of CPS Week, it fosters interaction with the embedded, IoT, and cyber-physical systems communities. It showcases real-world applications of real-time systems."
+  },
+  "sigmetrics": {
+    "ko": "컴퓨터 시스템의 성능 측정과 모델링을 다루는 ACM 학회로, 큐잉 이론, 시스템 분석, 네트워크 성능 등 수학적으로 엄밀한 연구가 특징이다. 이론과 실제를 균형 있게 다루며, 성능 분석 분야에서는 최고 학회로 인정받는다.",
+    "en": "The premier ACM conference on measurement and modeling of computer systems, featuring mathematically rigorous research in queuing theory, system analysis, and network performance. It balances theory and practice and is the top venue for performance analysis in computer systems."
+  },
+  "emsoft": {
+    "ko": "임베디드 소프트웨어에 특화된 학회로, 임베디드 시스템의 소프트웨어 설계, 검증, 최적화를 다룬다. ESWEEK의 일환으로 개최되며, 자동차, 항공 등 안전 필수 임베디드 소프트웨어 연구가 많이 발표된다. 하드웨어-소프트웨어 경계의 연구를 깊이 있게 다루는 점이 특징이다.",
+    "en": "A conference specializing in embedded software, covering design, verification, and optimization of software for embedded systems. Held as part of ESWEEK, it features research on safety-critical embedded software for automotive, aerospace, and other domains. It is notable for its focus on the hardware-software boundary."
+  },
+  "ccgrid": {
+    "ko": "클러스터, 클라우드, 인터넷 컴퓨팅을 종합적으로 다루는 IEEE/ACM 학회로, 대규모 분산 인프라 위의 컴퓨팅을 주제로 한다. 클라우드 네이티브 기술, 엣지 컴퓨팅, 컨테이너 오케스트레이션 등 최신 인프라 연구가 활발하다.",
+    "en": "An IEEE/ACM conference covering cluster, cloud, and internet computing, focused on computing over large-scale distributed infrastructure. It features active research in cloud-native technologies, edge computing, and container orchestration."
+  },
+  "cloud": {
+    "ko": "클라우드 컴퓨팅 전반을 다루는 IEEE 학회로, 클라우드 아키텍처, 가상화, 서비스 모델, 보안 등을 주제로 한다. IEEE 클라우드 컴퓨팅 관련 학회 중 대표적이며, 산업계 동향을 파악하기에도 좋은 학회다.",
+    "en": "An IEEE conference covering all aspects of cloud computing including cloud architectures, virtualization, service models, and security. It is a flagship IEEE venue for cloud computing and provides good insight into industry trends."
+  },
+  "hipc": {
+    "ko": "고성능 컴퓨팅, 데이터, 분석을 다루는 IEEE 학회로, 인도를 중심으로 아시아 HPC 커뮤니티에서 중요한 역할을 한다. HPC 응용, 병렬 알고리즘, 데이터 분석 등 실용적 주제가 많이 발표되며, 아시아 지역 연구자들의 참여가 활발하다.",
+    "en": "An IEEE conference on high-performance computing, data, and analytics, playing an important role in the Asian HPC community with a focus on India. It features practical topics including HPC applications, parallel algorithms, and data analytics with strong regional participation."
+  },
+  "msst": {
+    "ko": "대용량 스토리지 시스템과 기술을 다루는 IEEE 학회로, 오랜 역사를 가진 스토리지 전문 학회다. 아카이브 시스템, 테이프 스토리지부터 최신 NVM 기술까지 스토리지의 전 범위를 다루며, 국립연구소와 대형 데이터센터 관점의 연구가 많다.",
+    "en": "A long-running IEEE conference on mass storage systems and technologies, covering the full spectrum from archive and tape storage to modern NVM technologies. It draws significant participation from national laboratories and large-scale data center operators."
+  },
+  "srds": {
+    "ko": "신뢰성 있는 분산 시스템을 주제로 하는 IEEE 학회로, 장애 내성, 합의 알고리즘, 복제 프로토콜 등을 다룬다. 분산 시스템의 신뢰성과 가용성에 초점을 맞춘 특화 학회로, 관련 분야 연구자들에게 중요한 발표 무대다.",
+    "en": "An IEEE conference on reliable distributed systems, covering fault tolerance, consensus algorithms, and replication protocols. It is a specialized venue focused on reliability and availability in distributed systems, serving as an important forum for researchers in this area."
+  },
+  "isca": {
+    "ko": "컴퓨터 아키텍처 분야 최고 학회로, 프로세서 설계, 메모리 시스템, 가속기 아키텍처 등 하드웨어 혁신의 핵심 연구가 발표된다. MICRO, HPCA와 함께 아키텍처 3대 탑티어로 불리며, 그중에서도 가장 권위 있다고 평가받는다. AI 가속기 연구 붐으로 최근 관심이 더욱 높아졌다.",
+    "en": "The most prestigious conference in computer architecture, featuring core research in processor design, memory systems, and accelerator architectures. Along with MICRO and HPCA, it forms the top three architecture conferences and is widely considered the most authoritative among them. Interest has surged with the AI accelerator boom."
+  },
+  "micro": {
+    "ko": "마이크로아키텍처 분야의 최정상급 학회로, ISCA와 함께 컴퓨터 아키텍처의 양대 산맥이다. 파이프라인 설계, 캐시 아키텍처, GPU/NPU 마이크로아키텍처 등 하드웨어 설계의 세부적인 연구가 주로 발표된다. IEEE와 ACM이 공동 주관하며, 아키텍처 연구자들의 필수 학회다.",
+    "en": "A top-tier conference on microarchitecture, co-sponsored by IEEE and ACM, forming one of the two pillars of computer architecture alongside ISCA. It focuses on detailed hardware design including pipeline design, cache architectures, and GPU/NPU microarchitectures. It is an essential venue for architecture researchers."
+  },
+  "hpca": {
+    "ko": "고성능 컴퓨터 아키텍처를 다루는 IEEE 학회로, ISCA, MICRO와 함께 아키텍처 3대 탑티어를 구성한다. 메모리 시스템, 에너지 효율 아키텍처, 이종 컴퓨팅 등을 주로 다루며, 매년 2월경 개최되어 아키텍처 학회 시즌의 시작을 알린다.",
+    "en": "An IEEE conference on high-performance computer architecture, forming the top-three architecture venues with ISCA and MICRO. It covers memory systems, energy-efficient architectures, and heterogeneous computing, typically held in February to open the architecture conference season."
+  },
+  "asplos": {
+    "ko": "아키텍처, 프로그래밍 언어, 운영체제의 교차점을 다루는 ACM 학회로, 하드웨어-소프트웨어 통합 연구의 최고 무대다. 컴파일러 최적화, 가상 메모리, 가속기 프로그래밍 등 시스템 스택 전반을 아우르며, 최근에는 ML 시스템 연구도 활발하다. 분야 간 융합 연구를 장려하는 독특한 학회다.",
+    "en": "A premier ACM conference at the intersection of architecture, programming languages, and operating systems, serving as the top venue for hardware-software co-design research. It spans the full system stack from compiler optimization to accelerator programming, with growing ML systems research. It uniquely encourages cross-disciplinary systems work."
+  },
+  "dac": {
+    "ko": "설계 자동화 분야 세계 최대이자 최고 권위의 학회로, 60년 이상의 역사를 가진다. VLSI 설계, EDA 도구, 임베디드 시스템, 하드웨어 보안 등을 다루며, 대규모 산업 전시회가 함께 열린다. 반도체 설계 자동화 업계에서 가장 중요한 학회다.",
+    "en": "The world's largest and most prestigious conference on design automation with over 60 years of history. It covers VLSI design, EDA tools, embedded systems, and hardware security, accompanied by a major industry exhibition. DAC is the most important conference in the semiconductor design automation industry."
+  },
+  "date": {
+    "ko": "유럽 기반의 설계 자동화 및 테스트 학회로, DAC의 유럽 버전으로 불린다. 칩 설계, 테스트, 임베디드 시스템, 사이버 물리 시스템 등을 다루며, 유럽 반도체 연구 커뮤니티의 핵심 행사다. 논문 발표와 함께 기업 전시도 병행되어 산학 교류가 활발하다.",
+    "en": "A major European conference on design automation and test, often called the European counterpart of DAC. It covers chip design, testing, embedded systems, and cyber-physical systems, serving as a core event for the European semiconductor community. It combines paper presentations with industry exhibitions."
+  },
+  "iccad": {
+    "ko": "컴퓨터 지원 설계(CAD) 분야의 대표적인 IEEE/ACM 학회로, EDA 알고리즘, 회로 합성, 물리 설계 최적화 등을 다룬다. DAC와 함께 EDA 분야 양대 학회로 꼽히며, 보다 학술적이고 알고리즘적인 연구에 강점이 있다.",
+    "en": "A leading IEEE/ACM conference on computer-aided design, covering EDA algorithms, circuit synthesis, and physical design optimization. Alongside DAC, it is one of the two top EDA conferences, with particular strength in academic and algorithmic research."
+  },
+  "cgo": {
+    "ko": "코드 생성과 최적화를 전문으로 다루는 IEEE/ACM 학회로, 컴파일러 기술, JIT 컴파일, 바이너리 변환 등을 주제로 한다. HPCA, PPoPP 등과 공동 개최되는 경우가 많으며, 컴파일러와 아키텍처의 접점에 있는 연구자들에게 중요한 학회다.",
+    "en": "An IEEE/ACM conference specializing in code generation and optimization, covering compiler technology, JIT compilation, and binary translation. Often co-located with HPCA and PPoPP, it is an important venue for researchers at the intersection of compilers and architecture."
+  },
+  "pact": {
+    "ko": "병렬 아키텍처와 컴파일 기술을 다루는 학회로, 하드웨어-소프트웨어 공동 설계 관점에서 병렬 처리를 연구한다. 아키텍처, 컴파일러, 런타임 시스템을 아우르는 폭넓은 주제를 다루며, 병렬 컴퓨팅 분야의 주요 학회 중 하나다.",
+    "en": "A conference on parallel architectures and compilation techniques, studying parallel processing from a hardware-software co-design perspective. It covers a wide range of topics spanning architecture, compilers, and runtime systems, and is a key venue in parallel computing."
+  },
+  "cases": {
+    "ko": "임베디드 시스템을 위한 컴파일러, 아키텍처, 합성 기술을 다루는 학회로, ESWEEK의 구성 학회 중 하나다. 임베디드 프로세서 최적화, 코드 생성, 전력 관리 등 임베디드 특화 주제가 주를 이루며, 임베디드 시스템 설계의 소프트웨어 측면에 초점을 맞춘다.",
+    "en": "A conference on compilers, architecture, and synthesis for embedded systems, part of ESWEEK. It focuses on embedded processor optimization, code generation, and power management, emphasizing the software aspects of embedded system design."
+  },
+  "codes-isss": {
+    "ko": "하드웨어/소프트웨어 공동 설계와 시스템 합성을 다루는 학회로, ESWEEK의 구성 학회다. 시스템 수준 설계, HW/SW 파티셔닝, 시스템 합성 방법론 등을 주로 다루며, 임베디드 시스템의 전체 설계 흐름을 조망하는 연구가 특징이다.",
+    "en": "A conference on hardware/software codesign and system synthesis, part of ESWEEK. It covers system-level design, HW/SW partitioning, and system synthesis methodologies, featuring research that takes a holistic view of the embedded system design flow."
+  },
+  "icpp": {
+    "ko": "병렬 처리 전반을 다루는 국제 학회로, 50년 이상의 긴 역사를 자랑한다. 병렬 알고리즘, GPU 컴퓨팅, 분산 처리 등 폭넓은 주제를 다루며, 병렬 컴퓨팅 커뮤니티에서 꾸준히 인정받는 학회다.",
+    "en": "An international conference on parallel processing with over 50 years of history. It covers a broad range of topics including parallel algorithms, GPU computing, and distributed processing, and is a consistently respected venue in the parallel computing community."
+  },
+  "ipdps": {
+    "ko": "병렬 및 분산 처리를 종합적으로 다루는 IEEE 학회로, 대규모 병렬 알고리즘, 분산 시스템, HPC 응용 등을 주제로 한다. 다수의 워크숍이 함께 열려 관련 분야의 최신 동향을 폭넓게 파악할 수 있으며, 병렬/분산 처리 분야의 주요 학회다.",
+    "en": "A major IEEE conference on parallel and distributed processing, covering large-scale parallel algorithms, distributed systems, and HPC applications. It hosts numerous co-located workshops providing broad coverage of current trends, and is a key venue in parallel and distributed processing."
+  },
+  "mascots": {
+    "ko": "컴퓨터 시스템의 모델링, 분석, 시뮬레이션을 다루는 IEEE 학회로, 성능 평가 방법론에 초점을 맞춘다. 네트워크 시뮬레이션, 시스템 모델링, 워크로드 분석 등을 주제로 하며, 성능 분석 도구와 기법 연구에 특화된 학회다.",
+    "en": "An IEEE conference on modeling, analysis, and simulation of computer systems, focused on performance evaluation methodologies. It covers network simulation, system modeling, and workload analysis, specializing in performance analysis tools and techniques."
+  },
+  "performance": {
+    "ko": "컴퓨터 성능 분석을 다루는 IFIP 학회로, 수학적 모델링과 이론적 성능 분석에 강점이 있다. SIGMETRICS와 교류가 많으며, 큐잉 이론, 확률 모델 기반의 엄밀한 성능 분석 연구가 주로 발표된다.",
+    "en": "An IFIP conference on computer performance with strength in mathematical modeling and theoretical performance analysis. It has close ties with SIGMETRICS and primarily features rigorous performance analysis research based on queuing theory and stochastic models."
+  },
+  "hipeac": {
+    "ko": "고성능 임베디드 아키텍처와 컴파일러를 다루는 유럽 중심 학회로, 임베디드 프로세서, 컴파일러 최적화, 재구성 가능 컴퓨팅 등을 주제로 한다. 유럽 HiPEAC 네트워크의 핵심 행사이며, 산학 연계 워크숍과 기업 세션이 활발하다.",
+    "en": "A European conference on high-performance embedded architectures and compilers, covering embedded processors, compiler optimization, and reconfigurable computing. It is the flagship event of the European HiPEAC network, featuring active industry-academia workshops and corporate sessions."
+  },
+  "iccd": {
+    "ko": "컴퓨터 설계 전반을 다루는 IEEE 학회로, 프로세서 아키텍처, 회로 설계, FPGA 등을 주제로 한다. 아키텍처와 회로 수준의 연구를 모두 다루는 폭넓은 범위가 특징이며, 하드웨어 설계 연구자들에게 좋은 발표 기회를 제공한다.",
+    "en": "An IEEE conference on computer design covering processor architecture, circuit design, and FPGAs. It is notable for its broad scope spanning both architecture and circuit-level research, providing good publication opportunities for hardware design researchers."
+  },
+  "iiswc": {
+    "ko": "워크로드 특성 분석에 특화된 IEEE 학회로, 벤치마크 개발, 워크로드 모델링, 시스템 성능 분석 등을 다룬다. 새로운 응용의 워크로드 특성을 체계적으로 분석하는 연구가 주로 발표되며, 아키텍처 연구의 기초 데이터를 제공하는 역할을 한다.",
+    "en": "An IEEE conference specializing in workload characterization, covering benchmark development, workload modeling, and system performance analysis. It primarily features systematic analysis of workload characteristics for emerging applications, providing foundational data for architecture research."
+  },
+  "ispass": {
+    "ko": "시스템 및 소프트웨어의 성능 분석에 특화된 IEEE 학회로, 프로파일링, 시뮬레이션, 성능 모델링 도구 등을 다룬다. 아키텍처와 시스템 연구의 실험 방법론에 관심 있는 연구자들에게 유용하며, IISWC와 함께 성능 분석 분야의 주요 학회다.",
+    "en": "An IEEE conference specializing in performance analysis of systems and software, covering profiling, simulation, and performance modeling tools. It is valuable for researchers interested in experimental methodology for architecture and systems research, and together with IISWC forms a key venue for performance analysis."
+  },
+  "sigcomm": {
+    "ko": "컴퓨터 네트워킹 분야 최고 권위의 ACM 학회로, 인터넷 아키텍처, 프로토콜 설계, SDN, 데이터센터 네트워크 등 네트워크의 근본적 문제를 다룬다. 채택률이 매우 낮고 영향력이 극도로 높아, 네트워크 분야 연구자라면 누구나 꿈꾸는 학회다.",
+    "en": "The most prestigious ACM conference in computer networking, covering internet architecture, protocol design, SDN, and data center networks. With an extremely low acceptance rate and very high impact, it is the ultimate goal for networking researchers worldwide."
+  },
+  "nsdi": {
+    "ko": "네트워크 시스템의 설계와 구현을 다루는 USENIX 학회로, SIGCOMM과 함께 네트워킹 분야 양대 탑티어다. 실제 동작하는 시스템 구축과 대규모 배포 경험에 중점을 두며, 클라우드 네트워킹, CDN, 무선 시스템 등 실용적 연구가 강점이다.",
+    "en": "A top-tier USENIX conference on networked systems design and implementation, forming the two premier networking venues alongside SIGCOMM. It emphasizes building real working systems and large-scale deployment experience, with strengths in cloud networking, CDN, and wireless systems."
+  },
+  "mobicom": {
+    "ko": "모바일 컴퓨팅과 네트워킹 분야 최고 학회로, 무선 네트워크, 모바일 시스템, IoT 등을 다룬다. 5G/6G, WiFi, 센싱 기술 등 무선 통신의 혁신적 연구가 발표되며, 모바일/무선 분야에서 SIGCOMM급의 위상을 가진다.",
+    "en": "The premier conference on mobile computing and networking, covering wireless networks, mobile systems, and IoT. It features innovative research in 5G/6G, WiFi, and sensing technologies, holding SIGCOMM-level prestige in the mobile and wireless domain."
+  },
+  "infocom": {
+    "ko": "컴퓨터 통신 분야의 대표적인 IEEE 학회로, 네트워킹 이론부터 시스템까지 폭넓게 다룬다. 매년 300편 이상의 논문이 발표되는 대규모 학회이며, 네트워크 최적화, 무선 네트워크, 보안 등 다양한 주제를 아우른다. 네트워크 분야에서 가장 많은 연구자가 참여하는 학회 중 하나다.",
+    "en": "A flagship IEEE conference on computer communications, broadly covering networking theory and systems. It is a large-scale conference with over 300 papers annually, spanning network optimization, wireless networks, and security. It is one of the most widely attended conferences in the networking field."
+  },
+  "imc": {
+    "ko": "인터넷 측정 연구에 특화된 ACM 학회로, 실제 인터넷 트래픽 분석, 네트워크 성능 측정, 보안 측정 등을 다룬다. 데이터 기반의 실증적 연구가 특징이며, 인터넷의 실제 동작을 이해하는 데 핵심적인 학회다. 소규모이지만 논문 품질이 매우 높다.",
+    "en": "An ACM conference specializing in internet measurement, covering real internet traffic analysis, network performance measurement, and security measurement. It is characterized by data-driven empirical research and is essential for understanding real internet behavior. Though small, its paper quality is very high."
+  },
+  "conext": {
+    "ko": "차세대 네트워킹 실험과 기술을 다루는 ACM 학회로, 새로운 네트워크 아키텍처와 프로토콜 연구가 활발하다. SIGCOMM의 자매 학회 성격으로, 네트워킹 분야의 상위 학회 중 하나다. 유럽에서 주로 개최되며 혁신적이고 실험적인 연구를 장려한다.",
+    "en": "An ACM conference on emerging networking experiments and technologies, featuring active research on new network architectures and protocols. Considered a sister conference to SIGCOMM, it is among the top networking venues. Primarily held in Europe, it encourages innovative and experimental research."
+  },
+  "mobisys": {
+    "ko": "모바일 시스템, 응용, 서비스를 다루는 ACM 학회로, 스마트폰 시스템, 모바일 앱 플랫폼, 웨어러블 등을 주제로 한다. MobiCom과 함께 모바일 컴퓨팅 분야의 핵심 학회이며, 시스템 구현과 사용자 연구를 균형 있게 다룬다.",
+    "en": "An ACM conference on mobile systems, applications, and services, covering smartphone systems, mobile app platforms, and wearables. Alongside MobiCom, it is a core venue in mobile computing, balancing system implementation with user studies."
+  },
+  "sensys": {
+    "ko": "임베디드 네트워크 센서 시스템을 다루는 ACM 학회로, IoT, 센서 네트워크, 임베디드 시스템의 네트워킹을 주제로 한다. 저전력 센서 시스템, 스마트 환경, 환경 모니터링 등 실세계 센싱 응용 연구가 활발하며, IoT 분야의 최고 학회 중 하나다.",
+    "en": "An ACM conference on embedded networked sensor systems, covering IoT, sensor networks, and embedded system networking. It features active research in low-power sensor systems, smart environments, and environmental monitoring, and is one of the top venues in the IoT field."
+  },
+  "mobihoc": {
+    "ko": "모바일 애드혹 네트워킹을 다루는 ACM 학회로, 무선 네트워크 이론, 분산 알고리즘, D2D 통신 등을 주제로 한다. 이론적으로 엄밀한 연구가 특징이며, 모바일 네트워크의 수학적 분석과 알고리즘 설계에 강점이 있다.",
+    "en": "An ACM conference on mobile ad hoc networking and computing, covering wireless network theory, distributed algorithms, and D2D communication. It is characterized by theoretically rigorous research with strengths in mathematical analysis and algorithm design for mobile networks."
+  },
+  "icnp": {
+    "ko": "네트워크 프로토콜에 특화된 IEEE 학회로, 프로토콜 설계, 분석, 구현을 깊이 있게 다룬다. TCP/IP부터 SDN, 프로그래머블 네트워크까지 프로토콜 전반을 아우르며, 네트워크 프로토콜 연구자들의 핵심 학회다.",
+    "en": "An IEEE conference specializing in network protocols, covering protocol design, analysis, and implementation in depth. It spans the full range from TCP/IP to SDN and programmable networks, serving as a core venue for network protocol researchers."
+  },
+  "percom": {
+    "ko": "퍼베이시브 컴퓨팅과 통신을 다루는 IEEE 학회로, 유비쿼터스 컴퓨팅, 상황 인식, 스마트 공간 등을 주제로 한다. 사용자 중심의 컴퓨팅 환경 연구가 특징이며, IoT와 웨어러블 기술의 발전과 함께 지속적으로 진화하고 있다.",
+    "en": "An IEEE conference on pervasive computing and communications, covering ubiquitous computing, context awareness, and smart spaces. It features user-centric computing environment research and continues to evolve with advances in IoT and wearable technologies."
+  },
+  "mass": {
+    "ko": "모바일 애드혹 네트워크와 스마트 시스템을 다루는 IEEE 학회로, 무선 센서 네트워크, 자율 시스템, 스마트 시티 등을 주제로 한다. 애드혹 네트워크와 IoT 응용의 접점에서 실용적 연구가 많이 발표된다.",
+    "en": "An IEEE conference on mobile ad-hoc and smart systems, covering wireless sensor networks, autonomous systems, and smart cities. It features practical research at the intersection of ad-hoc networking and IoT applications."
+  },
+  "noms": {
+    "ko": "네트워크 운영 및 관리를 다루는 IEEE/IFIP 학회로, 네트워크 자동화, 모니터링, 정책 관리 등을 주제로 한다. IM(Integrated Network Management) 학회와 교대로 개최되며, 네트워크 관리 분야의 핵심 학회다. 통신사와 대형 네트워크 운영자의 참여가 활발하다.",
+    "en": "An IEEE/IFIP conference on network operations and management, covering network automation, monitoring, and policy management. Held in alternating years with IM, it is a core venue for network management, with active participation from telecom operators and large network operators."
+  },
+  "nossdav": {
+    "ko": "디지털 오디오와 비디오를 위한 네트워크 및 OS 지원을 다루는 ACM 워크숍으로, 멀티미디어 스트리밍, QoS, 적응형 전송 등을 주제로 한다. 소규모이지만 역사가 오래되었으며, 멀티미디어 네트워킹 분야의 초기 연구를 주도한 학회다.",
+    "en": "An ACM workshop on network and OS support for digital audio and video, covering multimedia streaming, QoS, and adaptive transmission. Though small in scale, it has a long history and pioneered early research in multimedia networking."
+  },
+  "secon": {
+    "ko": "센싱, 통신, 네트워킹을 종합적으로 다루는 IEEE 학회로, 무선 센서 네트워크, 크라우드 센싱, 스마트 그리드 등을 주제로 한다. 센싱과 통신의 융합 연구에 초점을 맞추며, IoT와 스마트 인프라 관련 연구가 활발하다.",
+    "en": "An IEEE conference on sensing, communication, and networking, covering wireless sensor networks, crowd sensing, and smart grids. It focuses on the convergence of sensing and communication, with active research in IoT and smart infrastructure."
+  },
+  "ccs": {
+    "ko": "컴퓨터 및 통신 보안 분야의 ACM 최상위 학회로, 시스템 보안, 네트워크 보안, 암호학 응용 등 보안 전반을 다룬다. IEEE S&P, USENIX Security, NDSS와 함께 보안 4대 탑티어(Big 4)로 불리며, 매년 가을에 개최된다.",
+    "en": "ACM's flagship conference covering all aspects of computer and communications security, including system security, network security, and applied cryptography. Alongside IEEE S&P, USENIX Security, and NDSS, it is recognized as one of the 'Big Four' top-tier security conferences, held annually in the fall."
+  },
+  "usenix-security": {
+    "ko": "USENIX에서 주관하는 시스템 보안 중심의 탑티어 학회로, 보안 Big 4 중 하나이다. 실제 시스템에 대한 공격과 방어 연구가 강점이며, 실용적이고 임팩트 있는 논문이 많이 발표된다. 매년 여름에 개최된다.",
+    "en": "A top-tier security conference organized by USENIX and one of the Big Four, with a strong emphasis on systems security. Known for publishing highly practical and impactful research on real-world attacks and defenses, it is held annually in the summer."
+  },
+  "ndss": {
+    "ko": "네트워크 및 분산 시스템 보안에 초점을 맞춘 탑티어 보안 학회로, Internet Society에서 주관한다. 보안 Big 4 중 하나로, 네트워크 보안, 웹 보안, IoT 보안 등의 연구가 활발하다. 매년 2월 샌디에이고에서 개최된다.",
+    "en": "A top-tier security conference sponsored by the Internet Society, focusing on network and distributed system security. As one of the Big Four security venues, it features strong research in network security, web security, and IoT security, and is held annually in February in San Diego."
+  },
+  "crypto": {
+    "ko": "IACR이 주관하는 암호학 분야 최고 권위의 학회로, Eurocrypt와 함께 암호학 양대 탑티어로 꼽힌다. 대칭키·공개키 암호, 영지식 증명 등 이론 암호학의 최신 성과가 발표된다. 매년 8월 산타바바라에서 개최된다.",
+    "en": "The premier cryptography conference organized by IACR, regarded alongside Eurocrypt as one of the two top-tier venues in cryptography. It showcases cutting-edge results in symmetric and public-key cryptography, zero-knowledge proofs, and theoretical foundations, held annually in August in Santa Barbara."
+  },
+  "eurocrypt": {
+    "ko": "IACR 주관의 유럽 기반 암호학 최상위 학회로, CRYPTO와 함께 암호학 분야 쌍벽을 이룬다. 암호 프로토콜, 암호 분석, 증명 가능 보안 등 이론적 깊이가 있는 연구가 주로 발표된다. 매년 봄 유럽 각지에서 개최된다.",
+    "en": "A flagship IACR cryptography conference held in Europe, jointly regarded with CRYPTO as the top venue in the field. It emphasizes theoretically deep research in cryptographic protocols, cryptanalysis, and provable security, and is held annually in the spring across various European cities."
+  },
+  "asiacrypt": {
+    "ko": "IACR 주관의 아시아·태평양 지역 암호학 학회로, CRYPTO, Eurocrypt에 이어 암호학 3대 학회 중 하나이다. 이론 및 응용 암호학 전반을 다루며, 아시아 지역 암호학 커뮤니티의 핵심 학회이다.",
+    "en": "An IACR-sponsored cryptography conference for the Asia-Pacific region, forming the trio of top cryptography venues alongside CRYPTO and Eurocrypt. It covers both theoretical and applied cryptology and serves as a key venue for the Asian cryptography community."
+  },
+  "acsac": {
+    "ko": "컴퓨터 보안의 실용적 응용에 초점을 맞춘 학회로, 보안 기술의 실제 적용 사례와 산업 연계 연구가 활발하다. 학계와 산업계 모두에서 인정받는 우수 보안 학회이며, 매년 12월에 개최된다.",
+    "en": "A well-regarded security conference focused on practical applications of computer security, bridging academic research and industry practice. It features strong work on applied security technologies and real-world deployment, and is held annually in December."
+  },
+  "esorics": {
+    "ko": "유럽 기반의 컴퓨터 보안 연구 학회로, 시스템 보안, 네트워크 보안, 프라이버시 등 폭넓은 보안 주제를 다룬다. 유럽 보안 커뮤니티의 대표 학회로 자리잡았으며, 탄탄한 이론적 기반의 논문이 많다.",
+    "en": "A leading European conference on computer security research covering system security, network security, and privacy. It has established itself as the flagship venue for the European security community, known for papers with strong theoretical foundations."
+  },
+  "pets": {
+    "ko": "프라이버시 강화 기술(PET)에 특화된 학회로, 익명 통신, 차분 프라이버시, 데이터 보호 기술 등을 다룬다. 프라이버시 연구의 핵심 학회이며, 논문이 PoPETs 저널로 출판되는 독특한 구조를 가진다.",
+    "en": "A specialized conference on privacy enhancing technologies, covering anonymous communications, differential privacy, and data protection. It is the central venue for privacy research, with a unique publication model where accepted papers appear in the PoPETs journal."
+  },
+  "raid": {
+    "ko": "공격, 침입, 방어 연구에 초점을 맞춘 보안 학회로, 악성코드 분석, 침입 탐지, 취약점 연구 등 실전적 보안 연구가 강점이다. 시스템 보안과 네트워크 보안 분야에서 꾸준히 좋은 논문이 발표되는 학회이다.",
+    "en": "A security conference focused on research in attacks, intrusions, and defenses, with strengths in malware analysis, intrusion detection, and vulnerability research. It consistently publishes quality work in systems and network security."
+  },
+  "dsn": {
+    "ko": "IEEE/IFIP가 공동 주관하는 시스템 신뢰성 및 보안 학회로, 결함 감내 시스템, 신뢰성 공학, 보안 등을 다룬다. 시스템의 가용성·안전성·보안성을 통합적으로 연구하는 독특한 학회로, 학제간 연구가 활발하다.",
+    "en": "A joint IEEE/IFIP conference on dependable systems and networks, covering fault tolerance, reliability engineering, and security. It uniquely integrates availability, safety, and security concerns, fostering interdisciplinary research on system dependability."
+  },
+  "csf": {
+    "ko": "컴퓨터 보안의 이론적 기초에 초점을 맞춘 IEEE 학회로, 형식 검증, 프로토콜 분석, 정보 흐름 보안 등을 다룬다. 보안의 수학적·형식적 기반을 중시하며, 이론 보안 연구자들이 주로 참여하는 학회이다.",
+    "en": "An IEEE conference focused on the theoretical foundations of computer security, including formal verification, protocol analysis, and information flow security. It emphasizes mathematical and formal approaches to security and attracts researchers working on security foundations."
+  },
+  "asiaccs": {
+    "ko": "ACM 주관의 아시아 지역 컴퓨터 및 통신 보안 학회로, CCS의 아시아 버전 격이다. 시스템 보안, 응용 암호학, 네트워크 보안 등을 다루며, 아시아 보안 연구 커뮤니티의 주요 학회로 성장했다.",
+    "en": "ACM's Asia-Pacific conference on computer and communications security, serving as a regional counterpart to CCS. It covers system security, applied cryptography, and network security, and has grown into a prominent venue for the Asian security research community."
+  },
+  "fc": {
+    "ko": "금융 암호학 및 데이터 보안에 특화된 학회로, 블록체인, 전자화폐, 결제 보안 등 금융 관련 보안 기술을 다룬다. 핀테크와 암호화폐 연구가 주목받으면서 최근 더욱 관심이 높아진 학회이다.",
+    "en": "A specialized conference on financial cryptography and data security, covering blockchain, digital currencies, and payment security. With the rise of fintech and cryptocurrency research, the conference has gained increasing attention in recent years."
+  },
+  "tcc": {
+    "ko": "이론 암호학에 특화된 IACR 학회로, 암호학의 수학적 기반과 계산 복잡도 이론을 중심으로 다룬다. 증명 가능 보안, 다자간 계산, 복잡도 기반 암호학 등 깊이 있는 이론 연구가 발표되는 학회이다.",
+    "en": "An IACR conference dedicated to the theory of cryptography, focusing on mathematical foundations and computational complexity. It features deep theoretical work on provable security, multiparty computation, and complexity-based cryptography."
+  },
+  "sec": {
+    "ko": "IFIP에서 주관하는 정보 보안 및 프라이버시 학회로, 보안 거버넌스, 프라이버시 정책, 보안 관리 등 폭넓은 주제를 다룬다. 유럽을 중심으로 국제적인 보안 연구 교류의 장 역할을 한다.",
+    "en": "An IFIP conference on information security and privacy, covering security governance, privacy policy, and security management across a broad spectrum. It serves as an international forum for security research exchange, particularly within the European community."
+  },
+  "soups": {
+    "ko": "사용 가능한 보안 및 프라이버시(Usable Security)에 특화된 학회로, 보안 기술의 사용자 경험과 인간 요소를 연구한다. USENIX Security와 연계하여 개최되며, HCI와 보안의 교차점에서 독보적인 위치를 차지한다.",
+    "en": "A specialized conference on usable privacy and security, studying the human factors and user experience of security technologies. Co-located with USENIX Security, it occupies a unique niche at the intersection of HCI and security."
+  },
+  "sigmod": {
+    "ko": "ACM SIGMOD에서 주관하는 데이터 관리 분야 최상위 학회로, VLDB와 함께 DB 분야 양대 탑티어이다. 관계형 DB, 쿼리 처리, 트랜잭션, 분산 데이터 시스템 등 데이터 관리의 핵심 주제를 다룬다.",
+    "en": "ACM's premier conference on data management, regarded alongside VLDB as one of the two top-tier database venues. It covers core topics including relational databases, query processing, transactions, and distributed data systems."
+  },
+  "vldb": {
+    "ko": "대규모 데이터베이스 분야의 최상위 학회로, SIGMOD와 함께 DB 분야의 쌍벽을 이룬다. 대용량 데이터 처리, 분산 DB, 데이터 분석 등을 다루며, PVLDB 저널을 통해 논문을 출판하는 독특한 구조이다.",
+    "en": "A top-tier database conference alongside SIGMOD, covering large-scale data processing, distributed databases, and data analytics. It features a unique publication model through the PVLDB journal, with continuous paper submissions throughout the year."
+  },
+  "icde": {
+    "ko": "IEEE 주관의 데이터 공학 학회로, SIGMOD·VLDB에 이어 DB 분야 3대 학회로 꼽힌다. 데이터 통합, 스트림 처리, 공간 데이터 등 데이터 공학 전반의 실용적 연구가 활발하다.",
+    "en": "IEEE's flagship data engineering conference, widely recognized as the third-ranked database venue after SIGMOD and VLDB. It features strong applied research in data integration, stream processing, and spatial data management."
+  },
+  "cikm": {
+    "ko": "정보 검색, 지식 관리, 데이터베이스가 융합된 ACM 학회로, 정보 관리 분야의 대표 학회이다. IR, DB, KDD 커뮤니티가 함께 참여하며, 웹 검색, 추천 시스템, 텍스트 마이닝 등 다양한 주제를 다룬다.",
+    "en": "An ACM conference at the intersection of information retrieval, knowledge management, and databases. It brings together the IR, DB, and KDD communities, covering web search, recommender systems, and text mining among diverse topics."
+  },
+  "pods": {
+    "ko": "데이터베이스 시스템의 이론적 원리에 초점을 맞춘 ACM 학회로, SIGMOD와 함께 개최된다. 쿼리 언어 이론, 데이터 복잡도, 논리 기반 데이터 모델링 등 DB의 수학적 기초를 다루는 이론 중심 학회이다.",
+    "en": "An ACM symposium focused on the theoretical principles of database systems, co-located with SIGMOD. It addresses the mathematical foundations of databases including query language theory, data complexity, and logic-based data modeling."
+  },
+  "edbt": {
+    "ko": "유럽 기반의 데이터베이스 기술 학회로, 새로운 DB 기술의 확장과 응용을 다룬다. 쿼리 최적화, 데이터 통합, 그래프 데이터 등 데이터베이스 기술의 혁신을 추구하며, 유럽 DB 커뮤니티의 핵심 학회이다.",
+    "en": "A European database conference focusing on extending database technology with novel approaches. It covers query optimization, data integration, and graph data, serving as a core venue for the European database community."
+  },
+  "dasfaa": {
+    "ko": "아시아·태평양 지역의 대표적인 데이터베이스 학회로, 고급 응용을 위한 데이터 시스템을 다룬다. 웹 데이터, 소셜 네트워크, 공간 데이터 등 응용 중심의 DB 연구가 활발하며, 아시아 DB 연구자들의 주요 발표 무대이다.",
+    "en": "A prominent Asia-Pacific database conference covering database systems for advanced applications. It features application-driven research on web data, social networks, and spatial data, serving as a key venue for Asian database researchers."
+  },
+  "mdm": {
+    "ko": "모바일 데이터 관리에 특화된 IEEE 학회로, 위치 기반 서비스, 모바일 컴퓨팅, 이동 객체 데이터 관리 등을 다룬다. 모바일 환경에서의 데이터 처리와 관리 기술을 집중적으로 연구하는 니치 학회이다.",
+    "en": "An IEEE conference specialized in mobile data management, covering location-based services, mobile computing, and moving object data management. It is a niche venue focused on data processing and management techniques for mobile environments."
+  },
+  "er": {
+    "ko": "개념적 모델링에 초점을 맞춘 학회로, ER 모델링, 온톨로지, 데이터 모델 설계 등을 다룬다. 데이터 모델링과 설계의 이론적 기반을 오랫동안 다져온 학회로, 소프트웨어 공학과 DB의 접점에 위치한다.",
+    "en": "A conference focused on conceptual modeling, covering ER modeling, ontologies, and data model design. It has a long-standing tradition of advancing the theoretical foundations of data modeling and design, bridging software engineering and databases."
+  },
+  "iswc": {
+    "ko": "시맨틱 웹 분야의 최상위 학회로, 온톨로지, 지식 그래프, 링크드 데이터 등을 다룬다. 웹 데이터의 의미적 처리와 지식 표현을 중심으로 연구하며, 지식 그래프 연구의 핵심 학회이다.",
+    "en": "The premier conference on the Semantic Web, covering ontologies, knowledge graphs, and linked data. It focuses on semantic processing of web data and knowledge representation, and is a central venue for knowledge graph research."
+  },
+  "chi": {
+    "ko": "HCI 분야의 최고 권위 학회로, ACM SIGCHI에서 주관한다. 사용자 인터페이스, 사용성, 접근성, 소셜 컴퓨팅 등 인간과 컴퓨터의 상호작용 전반을 다루며, 매년 수천 명이 참석하는 대규모 학회이다.",
+    "en": "ACM's flagship conference on human-computer interaction, widely regarded as the top venue in HCI. It covers the full spectrum of human-computer interaction including user interfaces, usability, accessibility, and social computing, attracting thousands of attendees annually."
+  },
+  "uist": {
+    "ko": "사용자 인터페이스 소프트웨어 및 기술에 초점을 맞춘 ACM 학회로, HCI 분야에서 CHI와 함께 최상위로 인정받는다. 혁신적인 인터랙션 기법, 입력 장치, UI 툴킷 등 기술적 깊이가 있는 연구가 발표되는 학회이다.",
+    "en": "An ACM symposium on user interface software and technology, recognized alongside CHI as a top-tier HCI venue. It showcases technically deep research on novel interaction techniques, input devices, and UI toolkits."
+  },
+  "cscw": {
+    "ko": "컴퓨터 지원 협업 및 소셜 컴퓨팅을 다루는 ACM 학회로, 온라인 커뮤니티, 원격 협업, 소셜 미디어 연구가 활발하다. HCI의 사회적 측면을 깊이 탐구하며, PACM HCI 저널을 통해 논문을 출판한다.",
+    "en": "An ACM conference on computer-supported cooperative work and social computing, with active research on online communities, remote collaboration, and social media. It explores the social dimensions of HCI and publishes through the PACM HCI journal."
+  },
+  "ubicomp": {
+    "ko": "유비쿼터스 및 퍼베이시브 컴퓨팅 분야의 최상위 ACM 학회로, 웨어러블, IoT, 상황 인식 컴퓨팅 등을 다룬다. IMWUT 저널을 통해 논문을 출판하며, 실생활에 스며드는 컴퓨팅 기술 연구를 선도한다.",
+    "en": "ACM's premier conference on ubiquitous and pervasive computing, covering wearables, IoT, and context-aware computing. Papers are published through the IMWUT journal, and the conference leads research on computing technologies that permeate everyday life."
+  },
+  "iui": {
+    "ko": "지능형 사용자 인터페이스를 다루는 ACM 학회로, AI와 HCI의 교차점에 위치한다. 적응형 인터페이스, 자연어 인터랙션, 설명 가능한 AI 등 지능형 시스템의 사용자 경험을 연구한다.",
+    "en": "An ACM conference on intelligent user interfaces, positioned at the intersection of AI and HCI. It covers adaptive interfaces, natural language interaction, and explainable AI, focusing on user experience with intelligent systems."
+  },
+  "dis": {
+    "ko": "인터랙티브 시스템 디자인에 초점을 맞춘 ACM 학회로, 디자인 방법론, 참여적 디자인, 디자인 비평 등을 다룬다. HCI 내에서도 디자인 관점을 중시하며, 기술보다 인간 중심 설계 과정을 깊이 탐구하는 학회이다.",
+    "en": "An ACM conference focused on designing interactive systems, covering design methodologies, participatory design, and design critique. It emphasizes the design perspective within HCI, deeply exploring human-centered design processes over technology."
+  },
+  "mobilehci": {
+    "ko": "모바일 기기에서의 인간-컴퓨터 상호작용에 특화된 ACM 학회로, 모바일 UI/UX, 터치 인터랙션, 모바일 접근성 등을 다룬다. 스마트폰과 모바일 기기 사용 경험 연구의 핵심 학회이다.",
+    "en": "An ACM conference specialized in mobile human-computer interaction, covering mobile UI/UX, touch interaction, and mobile accessibility. It is a key venue for research on smartphone and mobile device user experiences."
+  },
+  "assets": {
+    "ko": "컴퓨터 접근성에 특화된 ACM SIGACCESS 학회로, 장애인을 위한 보조 기술, 접근성 평가, 포용적 디자인 등을 다룬다. 접근성 연구 분야의 최고 학회이며, 기술을 통한 디지털 포용을 추구한다.",
+    "en": "ACM SIGACCESS's conference on computers and accessibility, covering assistive technologies, accessibility evaluation, and inclusive design for people with disabilities. It is the premier venue for accessibility research, advancing digital inclusion through technology."
+  },
+  "interact": {
+    "ko": "IFIP TC 13에서 주관하는 국제 HCI 학회로, 유럽을 중심으로 전 세계 HCI 연구자들이 참여한다. 사용자 경험, 인터랙션 디자인, 접근성 등 HCI 전반을 다루며, 2년마다 개최되는 대규모 학회이다.",
+    "en": "An international HCI conference organized by IFIP TC 13, bringing together HCI researchers worldwide with a European focus. It covers user experience, interaction design, and accessibility across the full HCI spectrum, held biennially as a large-scale event."
+  },
+  "ismar": {
+    "ko": "혼합 현실 및 증강 현실 분야의 최상위 IEEE 학회로, AR/MR 기술, 추적, 렌더링, 사용자 경험 등을 다룬다. AR/VR 연구의 핵심 학회이며, 기술적 연구와 응용 연구를 모두 포괄한다.",
+    "en": "IEEE's premier conference on mixed and augmented reality, covering AR/MR technology, tracking, rendering, and user experience. It is the central venue for AR/VR research, encompassing both technical and applied research tracks."
+  },
+  "icse": {
+    "ko": "소프트웨어 공학 분야의 최고 권위 학회로, IEEE/ACM이 공동 주관한다. 소프트웨어 개발, 테스팅, 유지보수, 프로세스 등 SE 전반을 다루며, FSE와 함께 SE 분야 양대 탑티어로 인정받는다.",
+    "en": "The premier conference in software engineering, jointly organized by IEEE and ACM. It covers all aspects of software engineering including development, testing, maintenance, and processes, and is recognized alongside FSE as one of the two top-tier SE venues."
+  },
+  "fse": {
+    "ko": "소프트웨어 공학 기초 연구의 최상위 학회로, ICSE와 함께 SE 분야의 쌍벽을 이룬다. 프로그램 분석, 테스팅, 검증 등 기술적 깊이가 있는 연구가 강점이며, 최근에는 ACM/IEEE 공동 학회로 운영된다.",
+    "en": "A top-tier software engineering conference alongside ICSE, with particular strength in technically deep research on program analysis, testing, and verification. It is now jointly organized by ACM and IEEE as a combined European and international venue."
+  },
+  "ase": {
+    "ko": "자동화된 소프트웨어 공학에 초점을 맞춘 IEEE/ACM 학회로, 코드 생성, 자동 테스팅, 프로그램 수리 등을 다룬다. SE 분야 상위권 학회이며, 소프트웨어 개발 자동화 기술의 최신 성과가 발표된다.",
+    "en": "An IEEE/ACM conference focused on automated software engineering, covering code generation, automated testing, and program repair. It is a top-ranked SE venue where the latest advances in software development automation are presented."
+  },
+  "issta": {
+    "ko": "소프트웨어 테스팅 및 분석에 특화된 ACM SIGSOFT 학회로, SE 분야에서 높은 위상을 가진다. 프로그램 분석, 퍼징, 기호 실행 등 테스팅 기법의 이론과 실제를 깊이 있게 다루는 학회이다.",
+    "en": "An ACM SIGSOFT symposium specialized in software testing and analysis, holding high prestige in the SE field. It provides in-depth coverage of testing techniques including program analysis, fuzzing, and symbolic execution."
+  },
+  "msr": {
+    "ko": "소프트웨어 저장소 마이닝에 특화된 IEEE/ACM 학회로, GitHub, 버그 리포트, 코드 리뷰 등의 데이터를 분석한다. 소프트웨어 공학과 데이터 마이닝의 교차점에서 독특한 연구 분야를 개척한 학회이다.",
+    "en": "An IEEE/ACM conference specialized in mining software repositories, analyzing data from GitHub, bug reports, and code reviews. It has pioneered a unique research area at the intersection of software engineering and data mining."
+  },
+  "icsme": {
+    "ko": "소프트웨어 유지보수 및 진화에 초점을 맞춘 IEEE 학회로, 코드 리팩토링, 기술 부채, 소프트웨어 진화 분석 등을 다룬다. 실제 소프트웨어 시스템의 장기적 관리와 개선에 관한 핵심 학회이다.",
+    "en": "An IEEE conference focused on software maintenance and evolution, covering code refactoring, technical debt, and software evolution analysis. It is a key venue for research on the long-term management and improvement of real-world software systems."
+  },
+  "saner": {
+    "ko": "소프트웨어 분석, 진화, 리엔지니어링을 다루는 IEEE 학회로, 레거시 시스템 현대화, 코드 분석, 역공학 등을 연구한다. ICSME와 함께 소프트웨어 유지보수·진화 분야의 주요 학회이다.",
+    "en": "An IEEE conference on software analysis, evolution, and reengineering, covering legacy system modernization, code analysis, and reverse engineering. Alongside ICSME, it is a major venue in the software maintenance and evolution domain."
+  },
+  "esem": {
+    "ko": "실증적 소프트웨어 공학 및 측정에 초점을 맞춘 ACM/IEEE 학회로, 실험, 사례 연구, 메트릭 기반의 SE 연구를 다룬다. 소프트웨어 공학의 과학적 방법론과 정량적 평가를 중시하는 학회이다.",
+    "en": "An ACM/IEEE symposium on empirical software engineering and measurement, covering experiments, case studies, and metrics-based SE research. It emphasizes scientific methodology and quantitative evaluation in software engineering."
+  },
+  "issre": {
+    "ko": "소프트웨어 신뢰성 공학에 특화된 IEEE 학회로, 소프트웨어 결함 예측, 신뢰성 모델링, 장애 분석 등을 다룬다. 소프트웨어 품질과 신뢰성 보증에 관한 연구의 핵심 학회이다.",
+    "en": "An IEEE symposium specialized in software reliability engineering, covering software fault prediction, reliability modeling, and failure analysis. It is a central venue for research on software quality and reliability assurance."
+  },
+  "icst": {
+    "ko": "소프트웨어 테스팅, 검증, 확인에 특화된 IEEE 학회로, 테스트 자동화, 모델 기반 테스팅, 형식 검증 등을 다룬다. 소프트웨어 품질 보증의 기술적 측면을 집중적으로 연구하는 학회이다.",
+    "en": "An IEEE conference specialized in software testing, verification, and validation, covering test automation, model-based testing, and formal verification. It focuses intensively on the technical aspects of software quality assurance."
+  },
+  "models": {
+    "ko": "모델 기반 소프트웨어 공학의 대표 학회로, UML, 도메인 특화 언어, 모델 변환 등을 다룬다. ACM/IEEE 공동 주관으로, 모델 주도 개발(MDD)과 관련 도구 및 방법론 연구의 핵심 학회이다.",
+    "en": "The flagship conference on model-driven engineering languages and systems, covering UML, domain-specific languages, and model transformations. Jointly organized by ACM and IEEE, it is the central venue for model-driven development research and tooling."
+  },
+  "fase": {
+    "ko": "소프트웨어 공학의 기초적 접근법을 다루는 ETAPS 소속 학회로, 형식 명세, 프로그램 분석, 소프트웨어 검증 등을 연구한다. 이론과 형식 기법에 기반한 SE 연구가 중심이며, 유럽 SE 커뮤니티에서 중요한 학회이다.",
+    "en": "An ETAPS conference on fundamental approaches to software engineering, covering formal specification, program analysis, and software verification. It centers on theory and formal methods in SE and holds importance in the European SE community."
+  },
+  "re": {
+    "ko": "요구공학에 특화된 IEEE 학회로, 요구사항 수집, 분석, 명세, 관리 등 소프트웨어 요구공학 전반을 다룬다. 요구공학 분야의 최고 학회이며, 산업계와의 연계가 활발하다.",
+    "en": "IEEE's premier conference on requirements engineering, covering requirements elicitation, analysis, specification, and management. It is the top venue in requirements engineering and maintains strong ties with industry practitioners."
+  },
+  "tacas": {
+    "ko": "시스템의 구성 및 분석을 위한 도구와 알고리즘을 다루는 ETAPS 소속 학회로, 모델 체킹, 정적 분석, 자동 검증 등을 연구한다. 형식 검증 도구 개발과 관련된 연구가 중심이며, SE와 형식 기법의 접점에 위치한다.",
+    "en": "An ETAPS conference on tools and algorithms for the construction and analysis of systems, covering model checking, static analysis, and automated verification. It focuses on formal verification tool development, bridging SE and formal methods."
+  },
+  "icws": {
+    "ko": "웹 서비스 기술에 특화된 IEEE 학회로, 서비스 지향 아키텍처, 마이크로서비스, API 관리 등을 다룬다. 클라우드 컴퓨팅과 서비스 컴퓨팅의 발전과 함께 성장한 학회이다.",
+    "en": "An IEEE conference specialized in web services, covering service-oriented architecture, microservices, and API management. It has grown alongside advances in cloud computing and service computing."
+  },
+  "icsoc": {
+    "ko": "서비스 지향 컴퓨팅에 초점을 맞춘 학회로, 서비스 구성, 클라우드 서비스, 비즈니스 프로세스 관리 등을 다룬다. 서비스 컴퓨팅 분야의 주요 학회로, 산업계 응용과 학술 연구를 균형 있게 다룬다.",
+    "en": "A conference focused on service-oriented computing, covering service composition, cloud services, and business process management. It is a leading venue in service computing, balancing industrial applications with academic research."
+  },
+  "sac": {
+    "ko": "응용 컴퓨팅 전반을 다루는 ACM/SIGAPP 학회로, 소프트웨어 공학, AI, 보안 등 다양한 트랙으로 구성된다. 폭넓은 주제를 다루는 대규모 학회이며, 여러 분야의 연구자들이 교류하는 장이다.",
+    "en": "An ACM/SIGAPP symposium covering a broad range of applied computing, organized into multiple tracks including software engineering, AI, and security. It is a large-scale conference that facilitates cross-disciplinary exchange among researchers from diverse fields."
+  },
+  "cseet": {
+    "ko": "소프트웨어 공학 교육 및 훈련에 특화된 IEEE 학회로, SE 교육 과정, 교수법, 산학 협력 교육 등을 다룬다. 소프트웨어 공학 교육의 혁신과 개선을 목표로 하는 교육 전문 학회이다.",
+    "en": "An IEEE conference on software engineering education and training, covering SE curricula, pedagogy, and industry-academia collaboration in education. It aims to innovate and improve software engineering education practices."
+  },
+  "focs": {
+    "ko": "이론 컴퓨터과학의 양대 산맥 중 하나로, STOC과 함께 TCS 분야 최정상 학회입니다. 계산 복잡도, 알고리즘, 암호학, 계산 기하 등 이론 CS 전 분야의 최고 수준 결과가 발표되며, IEEE에서 주관합니다. 이론 분야 연구자라면 FOCS/STOC 논문이 커리어에 결정적인 역할을 합니다.",
+    "en": "One of the two premier venues in theoretical computer science, alongside STOC. FOCS covers all areas of TCS including computational complexity, algorithms, cryptography, and computational geometry, attracting the field's most significant results. Sponsored by IEEE, publication here is considered a landmark achievement for any theory researcher."
+  },
+  "stoc": {
+    "ko": "FOCS와 함께 이론 컴퓨터과학 분야의 최고 권위 학회로, ACM에서 주관합니다. 알고리즘, 복잡도 이론, 암호학, 양자 컴퓨팅 등 TCS 핵심 분야의 돌파적 연구가 발표됩니다. 튜링상 수상자들의 초기 연구가 다수 발표된 역사적인 학회입니다.",
+    "en": "Alongside FOCS, STOC is the most prestigious conference in theoretical computer science, organized by ACM. It showcases breakthrough results in algorithms, complexity theory, cryptography, and quantum computing. Many foundational results by Turing Award laureates were first presented at STOC."
+  },
+  "soda": {
+    "ko": "ACM과 SIAM이 공동 주관하는 알고리즘 분야 최상위 학회로, 이산 알고리즘과 조합 최적화에 특화되어 있습니다. FOCS/STOC 바로 다음 티어로 평가받으며, 실용적 알고리즘 설계와 이론적 분석을 모두 아우릅니다. 알고리즘 연구자들에게 매우 중요한 발표 무대입니다.",
+    "en": "A top-tier algorithms conference co-sponsored by ACM and SIAM, specializing in discrete algorithms and combinatorial optimization. Ranked just below FOCS/STOC, SODA bridges theoretical algorithm design with practical applications. It is a key venue for researchers in algorithms and data structures."
+  },
+  "icalp": {
+    "ko": "유럽 이론 컴퓨터과학의 대표 학회로, EATCS에서 주관합니다. 오토마타 이론, 형식 언어, 프로그래밍 이론, 알고리즘 등 TCS 전반을 다루며 Track A(알고리즘)와 Track B(논리/의미론)로 나뉩니다. 유럽 기반이지만 전 세계 연구자들이 참여하는 국제적 권위의 학회입니다.",
+    "en": "The flagship European conference in theoretical computer science, organized by EATCS. ICALP covers automata theory, formal languages, programming theory, and algorithms across two tracks: Track A (algorithms) and Track B (logic and semantics). It is internationally recognized as a premier TCS venue."
+  },
+  "itcs": {
+    "ko": "이론 컴퓨터과학에서 혁신적이고 도전적인 아이디어를 발굴하는 데 초점을 맞춘 학회입니다. 기존 문제의 완전한 해결보다 새로운 방향성과 참신한 관점을 중시하며, 분야 간 경계를 넘는 연구를 장려합니다. TCS 커뮤니티에서 빠르게 위상이 높아지고 있는 학회입니다.",
+    "en": "ITCS focuses on innovative and conceptually novel ideas in theoretical computer science, valuing new directions over incremental improvements. It encourages unconventional and interdisciplinary research that challenges existing paradigms. The conference has rapidly grown in prestige within the TCS community."
+  },
+  "esa": {
+    "ko": "유럽 기반의 알고리즘 학회로, 알고리즘 설계, 분석, 실험적 평가를 폭넓게 다룹니다. 이론적 알고리즘(Track A)과 알고리즘 공학(Track B)을 모두 포함하여 이론과 실제의 연결을 중시합니다. ALGO 컨퍼런스 위크의 핵심 행사로 매년 유럽에서 개최됩니다.",
+    "en": "A leading European algorithms conference covering algorithm design, analysis, and experimental evaluation. ESA includes both theoretical algorithms (Track A) and algorithm engineering (Track B), bridging theory and practice. It is the centerpiece of the annual ALGO conference week held across Europe."
+  },
+  "socg": {
+    "ko": "계산 기하학 분야의 최고 권위 학회로, 기하 알고리즘, 위상 데이터 분석, 이산 기하 등을 다룹니다. 이론 컴퓨터과학과 수학의 교차 영역에서 핵심적인 결과들이 발표되며, 계산 기하 연구자에게는 가장 중요한 학회입니다. 최근에는 LIPIcs를 통한 오픈 액세스 출판으로 전환했습니다.",
+    "en": "The premier conference in computational geometry, covering geometric algorithms, topological data analysis, and discrete geometry. SoCG publishes foundational results at the intersection of theoretical CS and mathematics. It recently transitioned to open-access publication through LIPIcs."
+  },
+  "ccc": {
+    "ko": "계산 복잡도 이론에 특화된 학회로, P vs NP 문제를 비롯한 복잡도 클래스 간 관계, 회로 복잡도, 증명 복잡도 등을 집중적으로 다룹니다. 규모는 작지만 이론 CS에서 가장 깊이 있는 연구가 발표되는 곳 중 하나입니다. 복잡도 이론 연구자들의 핵심 커뮤니티 역할을 합니다.",
+    "en": "A specialized conference dedicated to computational complexity theory, covering topics such as complexity class separations, circuit complexity, and proof complexity. Though small in size, CCC publishes some of the deepest results in theoretical CS. It serves as the primary gathering for the complexity theory community."
+  },
+  "isaac": {
+    "ko": "아시아-태평양 지역을 기반으로 하는 알고리즘 및 계산 이론 학회로, EATCS 산하에서 운영됩니다. 그래프 알고리즘, 근사 알고리즘, 계산 기하 등 폭넓은 주제를 다루며, 아시아 지역 TCS 연구자들에게 특히 접근성이 좋은 학회입니다. 매년 아시아-태평양 지역 도시에서 개최됩니다.",
+    "en": "An Asia-Pacific based conference on algorithms and computation, covering graph algorithms, approximation algorithms, and computational geometry. ISAAC provides an accessible venue for TCS researchers in the Asia-Pacific region and is held annually in cities across the area. It publishes solid theoretical results with growing international recognition."
+  },
+  "mfcs": {
+    "ko": "컴퓨터과학의 수학적 기초를 다루는 유럽 기반 학회로, 오토마타 이론, 논리학, 알고리즘, 복잡도 이론 등을 폭넓게 다룹니다. 동유럽 TCS 커뮤니티에서 시작되어 오랜 역사를 가지고 있으며, 이론 CS의 다양한 분야를 아우르는 것이 특징입니다. 매년 유럽 도시를 순회하며 개최됩니다.",
+    "en": "A European conference on mathematical foundations of computer science, covering automata theory, logic, algorithms, and complexity theory. Originating from the Eastern European TCS community, MFCS has a long history and is known for its broad scope across theoretical CS. It rotates annually among European cities."
+  },
+  "lics": {
+    "ko": "컴퓨터과학에서의 논리학을 다루는 최고 학회로, ACM과 IEEE가 공동 후원합니다. 모델 검증, 타입 이론, 유한 모델 이론, 프로그램 의미론 등 논리학과 CS의 접점에 있는 핵심 주제를 다룹니다. PL, 형식 검증, 데이터베이스 이론 연구자들에게도 중요한 학회입니다.",
+    "en": "The premier conference on logic in computer science, co-sponsored by ACM and IEEE. LICS covers model checking, type theory, finite model theory, and program semantics at the intersection of logic and CS. It is essential for researchers in PL, formal verification, and database theory alike."
+  },
+  "podc": {
+    "ko": "분산 컴퓨팅의 이론적 기초를 다루는 최상위 학회로, ACM에서 주관합니다. 합의 알고리즘, 분산 알고리즘의 불가능성 결과, 동시성 이론 등 분산 시스템의 근본적인 문제를 다룹니다. DISC와 함께 분산 컴퓨팅 이론의 양대 학회로, 다익스트라 상 시상식이 열리는 곳이기도 합니다.",
+    "en": "A top venue for the theoretical foundations of distributed computing, organized by ACM. PODC covers consensus algorithms, impossibility results, and concurrency theory addressing fundamental problems in distributed systems. Alongside DISC, it is one of the two premier distributed computing theory conferences and hosts the Dijkstra Prize ceremony."
+  },
+  "spaa": {
+    "ko": "병렬 알고리즘과 아키텍처에 특화된 ACM 학회로, 병렬 및 분산 알고리즘, 멀티코어 컴퓨팅, 동시성 자료구조 등을 다룹니다. 이론적 분석과 실용적 병렬 컴퓨팅을 모두 아우르며, 고성능 컴퓨팅 시대에 점점 중요해지고 있는 학회입니다.",
+    "en": "An ACM conference specializing in parallel algorithms and architectures, covering parallel and distributed algorithms, multicore computing, and concurrent data structures. SPAA bridges theoretical analysis with practical parallel computing and has growing importance in the era of high-performance computing."
+  },
+  "disc": {
+    "ko": "분산 컴퓨팅 이론의 핵심 학회로, PODC와 함께 이 분야의 양대 산맥입니다. 분산 그래프 알고리즘, 내결함성, 자기 안정화 등 분산 시스템의 이론적 문제에 집중합니다. 유럽 기반이지만 전 세계 분산 컴퓨팅 연구자들이 모이는 국제적 학회입니다.",
+    "en": "A premier conference in distributed computing theory, alongside PODC forming the two pillars of the field. DISC focuses on distributed graph algorithms, fault tolerance, and self-stabilization. Though European-based, it attracts distributed computing researchers from around the world."
+  },
+  "concur": {
+    "ko": "동시성 이론에 특화된 학회로, 프로세스 대수, 모델 검증, 게임 이론적 접근 등 동시 시스템의 형식적 모델링과 분석을 다룹니다. 형식 기법과 이론 CS의 교차 영역에서 중요한 위치를 차지하며, 매년 QEST, FORMATS 등과 함께 개최됩니다.",
+    "en": "A specialized conference on concurrency theory, covering process algebra, model checking, and game-theoretic approaches to formal modeling and analysis of concurrent systems. CONCUR holds an important position at the intersection of formal methods and theoretical CS, and is co-located annually with QEST and FORMATS."
+  },
+  "stacs": {
+    "ko": "프랑스-독일 협력으로 시작된 이론 CS 학회로, 알고리즘, 복잡도 이론, 오토마타, 논리학 등 TCS 전반을 다룹니다. 유럽 TCS 커뮤니티에서 ICALP 다음으로 중요한 학회 중 하나이며, 매년 프랑스와 독일을 번갈아 개최합니다. LIPIcs를 통한 오픈 액세스 출판을 선도한 학회이기도 합니다.",
+    "en": "A French-German theoretical CS conference covering algorithms, complexity theory, automata, and logic across all areas of TCS. STACS is among the most important European TCS venues after ICALP and alternates annually between France and Germany. It was a pioneer in open-access publication through LIPIcs."
+  },
+  "ijcar": {
+    "ko": "자동 추론 분야의 최상위 학회로, 정리 증명, SAT/SMT 솔버, 자동 검증 등을 다룹니다. CADE와 TABLEAUX 등 여러 자동 추론 학회가 통합되어 격년으로 개최되며, 형식 검증과 AI 추론 연구에 핵심적인 역할을 합니다.",
+    "en": "The premier conference in automated reasoning, covering theorem proving, SAT/SMT solvers, and automated verification. IJCAR merges several automated reasoning conferences including CADE and TABLEAUX, held biennially. It plays a central role in formal verification and AI reasoning research."
+  },
+  "cav": {
+    "ko": "형식 검증 분야의 최고 학회로, 모델 검증, 프로그램 분석, 하드웨어/소프트웨어 검증 도구와 기법을 다룹니다. 실제 산업용 검증 도구 개발에 직접적인 영향을 미치며, 2007년 튜링상(모델 검증)과 밀접한 관련이 있는 커뮤니티입니다. 이론과 실용의 균형이 잘 잡힌 학회입니다.",
+    "en": "The top conference in computer-aided verification, covering model checking, program analysis, and hardware/software verification tools and techniques. CAV directly influences the development of industrial verification tools and is closely tied to the model checking community that earned the 2007 Turing Award. It strikes an excellent balance between theory and practice."
+  },
+  "pldi": {
+    "ko": "프로그래밍 언어 설계와 구현 분야의 최상위 학회로, POPL과 함께 PL 분야의 양대 산맥입니다. 컴파일러 최적화, 런타임 시스템, 프로그램 분석, 메모리 관리 등 실용적 PL 연구를 다룹니다. 시스템 성능에 직접적인 영향을 미치는 연구가 많아 산업계에서도 주목하는 학회입니다.",
+    "en": "A top-tier programming languages conference alongside POPL, focusing on language design and implementation. PLDI covers compiler optimization, runtime systems, program analysis, and memory management. Its practical focus on system performance attracts significant industry attention."
+  },
+  "popl": {
+    "ko": "프로그래밍 언어 이론의 최고 권위 학회로, 타입 이론, 프로그램 의미론, 프로그램 검증 등 PL의 이론적 기초를 다룹니다. 50년 이상의 역사를 가진 ACM SIGPLAN의 대표 학회이며, PL 연구자라면 반드시 주목하는 학회입니다. 최근에는 형식 검증과 보안 언어 연구도 활발합니다.",
+    "en": "The most prestigious conference in programming language theory, covering type theory, program semantics, and program verification. With over 50 years of history, POPL is the flagship ACM SIGPLAN conference and essential for PL researchers. Recent editions also feature active work in formal verification and security-oriented languages."
+  },
+  "oopsla": {
+    "ko": "객체지향 프로그래밍을 시작으로 현재는 소프트웨어 공학, 프로그램 분석, 동적 언어까지 폭넓게 다루는 PL 학회입니다. SPLASH 학회의 핵심 트랙으로 운영되며, 실용적인 프로그래밍 시스템 연구에 강점이 있습니다. Java, Smalltalk 등 주요 언어 혁신과 디자인 패턴 연구의 산실입니다.",
+    "en": "Originally focused on object-oriented programming, OOPSLA now broadly covers software engineering, program analysis, and dynamic languages as a core track of SPLASH. It has particular strength in practical programming systems research and has been instrumental in innovations like Java, Smalltalk, and design patterns."
+  },
+  "icfp": {
+    "ko": "함수형 프로그래밍 분야의 최고 학회로, 타입 시스템, 프로그램 변환, 도메인 특화 언어 등을 다룹니다. Haskell, OCaml, Racket 등 함수형 언어 커뮤니티의 핵심 행사이며, 이론적 깊이와 실용적 구현을 모두 중시합니다. 프로그래밍 콘테스트(ICFP Programming Contest)로도 유명합니다.",
+    "en": "The premier conference in functional programming, covering type systems, program transformation, and domain-specific languages. ICFP is the central event for the Haskell, OCaml, and Racket communities, valuing both theoretical depth and practical implementation. It is also famous for its annual programming contest."
+  },
+  "cc": {
+    "ko": "컴파일러 설계와 구현에 특화된 학회로, 코드 생성, 프로그램 분석, 최적화 기법 등을 다룹니다. CGO와 함께 개최되는 경우가 많으며, LLVM 등 현대 컴파일러 인프라와 관련된 연구가 활발합니다. 컴파일러 분야의 전문적인 학회로서 꾸준한 위상을 유지하고 있습니다.",
+    "en": "A specialized conference on compiler construction, covering code generation, program analysis, and optimization techniques. Often co-located with CGO, CC features active research related to modern compiler infrastructure like LLVM. It maintains a steady reputation as the dedicated venue for compiler research."
+  },
+  "ecoop": {
+    "ko": "유럽 기반의 객체지향 프로그래밍 학회로, 타입 시스템, 소프트웨어 설계, 프로그래밍 언어 등을 다룹니다. OOPSLA의 유럽 대응 학회로 볼 수 있으며, 최근에는 객체지향을 넘어 PL 전반으로 범위가 확장되고 있습니다. 아티팩트 평가 제도를 일찍 도입한 선진적 학회입니다.",
+    "en": "A European conference on object-oriented programming covering type systems, software design, and programming languages. Often considered the European counterpart to OOPSLA, ECOOP has expanded beyond OOP to broader PL topics. It was an early adopter of artifact evaluation, promoting reproducibility in research."
+  },
+  "esop": {
+    "ko": "프로그래밍 이론에 특화된 유럽 학회로, ETAPS의 구성 학회 중 하나입니다. 타입 이론, 프로그램 의미론, 정적 분석 등 PL의 이론적 측면을 깊이 있게 다룹니다. POPL보다 규모는 작지만 이론적 깊이에서는 뒤지지 않으며, 유럽 PL 커뮤니티의 핵심 학회입니다.",
+    "en": "A European symposium on programming theory and a constituent conference of ETAPS. ESOP covers type theory, program semantics, and static analysis with deep theoretical rigor. Though smaller than POPL, it matches its theoretical depth and serves as a core venue for the European PL community."
+  },
+  "iclp": {
+    "ko": "논리 프로그래밍 분야의 대표 학회로, Prolog, Answer Set Programming, 제약 논리 프로그래밍 등을 다룹니다. 선언적 프로그래밍과 지식 표현의 교차 영역에서 중요한 역할을 하며, AI와 데이터베이스 이론과도 밀접한 관련이 있습니다. 40년 이상의 오랜 역사를 가진 학회입니다.",
+    "en": "The flagship conference in logic programming, covering Prolog, Answer Set Programming, and constraint logic programming. ICLP plays a key role at the intersection of declarative programming and knowledge representation, with close ties to AI and database theory. It has over 40 years of history in the field."
+  },
+  "lctes": {
+    "ko": "임베디드 시스템을 위한 프로그래밍 언어, 컴파일러, 도구에 특화된 ACM SIGPLAN 학회입니다. 실시간 시스템, 메모리 제약 환경, 에너지 효율적 컴파일 등 임베디드 특유의 문제를 다룹니다. PLDI와 함께 개최되며, 임베디드 소프트웨어 개발 도구 연구의 핵심 학회입니다.",
+    "en": "An ACM SIGPLAN conference on languages, compilers, and tools for embedded systems, addressing real-time systems, memory-constrained environments, and energy-efficient compilation. Co-located with PLDI, LCTES is a key venue for embedded software development tool research."
+  },
+  "sas": {
+    "ko": "정적 분석 기법에 특화된 학회로, 추상 해석, 프로그램 검증, 데이터 흐름 분석 등을 다룹니다. 프로그램 분석 도구의 이론적 기반을 제공하는 핵심 학회이며, 형식 기법과 PL 커뮤니티에서 높이 평가받습니다. 규모는 작지만 분야의 깊이 있는 연구가 집중되는 학회입니다.",
+    "en": "A specialized symposium on static analysis techniques, covering abstract interpretation, program verification, and data flow analysis. SAS provides the theoretical foundation for program analysis tools and is highly regarded in the formal methods and PL communities. Though small, it concentrates deeply focused research in the field."
+  },
+  "siggraph": {
+    "ko": "컴퓨터 그래픽스 분야의 절대적 최고 학회로, ACM에서 주관합니다. 렌더링, 애니메이션, 시뮬레이션, 기하 처리 등 그래픽스 전 분야의 최첨단 연구가 발표되며, 산업계와 학계가 함께하는 독보적인 행사입니다. 매년 수만 명이 참가하며 영화, 게임, VR 산업에 직접적인 영향을 미칩니다.",
+    "en": "The undisputed top conference in computer graphics, organized by ACM. SIGGRAPH showcases cutting-edge research in rendering, animation, simulation, and geometry processing, uniquely bringing together academia and industry. With tens of thousands of attendees annually, it directly impacts the film, gaming, and VR industries."
+  },
+  "siggraph-asia": {
+    "ko": "SIGGRAPH의 아시아 에디션으로, 아시아-태평양 지역에서 개최되는 컴퓨터 그래픽스 최상위 학회입니다. 본 SIGGRAPH와 동일한 수준의 기술 논문 프로그램을 운영하며, 아시아 그래픽스 커뮤니티의 성장과 함께 위상이 계속 높아지고 있습니다. 전시회와 체험 프로그램도 대규모로 운영됩니다.",
+    "en": "The Asian edition of SIGGRAPH, held annually in the Asia-Pacific region with a technical papers program matching the quality of the main conference. Its prestige continues to grow alongside the expanding Asian graphics community. It also features large-scale exhibitions and experiential programs."
+  },
+  "eurographics": {
+    "ko": "유럽 컴퓨터 그래픽스의 대표 학회로, 렌더링, 모델링, 시각화, 인터랙션 등 그래픽스 전반을 다룹니다. SIGGRAPH 다음으로 권위 있는 그래픽스 학회 중 하나이며, Computer Graphics Forum에 논문이 게재됩니다. 유럽 그래픽스 연구의 중심적 역할을 하는 학회입니다.",
+    "en": "The flagship European computer graphics conference covering rendering, modeling, visualization, and interaction. Eurographics is among the most prestigious graphics venues after SIGGRAPH, with papers published in Computer Graphics Forum. It serves as the central hub for European graphics research."
+  },
+  "i3d": {
+    "ko": "인터랙티브 3D 그래픽스와 게임에 특화된 ACM SIGGRAPH 심포지엄입니다. 실시간 렌더링, GPU 기술, 게임 엔진 최적화 등 인터랙티브 환경에서의 그래픽스 기법을 다룹니다. 게임 산업과 학계의 접점에 있는 학회로, 실시간 그래픽스 연구자에게 중요한 발표 무대입니다.",
+    "en": "An ACM SIGGRAPH symposium on interactive 3D graphics and games, covering real-time rendering, GPU techniques, and game engine optimization. I3D sits at the intersection of the gaming industry and academia, serving as a key venue for real-time graphics researchers."
+  },
+  "sca": {
+    "ko": "컴퓨터 애니메이션에 특화된 ACM SIGGRAPH/Eurographics 공동 심포지엄입니다. 물리 기반 시뮬레이션, 캐릭터 애니메이션, 모션 캡처, 군중 시뮬레이션 등을 다룹니다. 애니메이션 분야에서는 SIGGRAPH 다음으로 중요한 학회이며, 영화/게임 산업의 기술 발전에 기여합니다.",
+    "en": "A joint ACM SIGGRAPH/Eurographics symposium on computer animation, covering physics-based simulation, character animation, motion capture, and crowd simulation. SCA is the second most important venue in animation after SIGGRAPH and contributes to technological advances in the film and gaming industries."
+  },
+  "egsr": {
+    "ko": "렌더링 기술에 특화된 Eurographics 심포지엄으로, 전역 조명, 재질 모델링, 실시간 렌더링, 외관 모델링 등을 다룹니다. 렌더링 분야에서는 SIGGRAPH/SIGGRAPH Asia 다음으로 가장 중요한 발표 무대이며, Computer Graphics Forum에 논문이 게재됩니다.",
+    "en": "A Eurographics symposium specializing in rendering, covering global illumination, material modeling, real-time rendering, and appearance modeling. EGSR is the most important rendering-specific venue after SIGGRAPH/SIGGRAPH Asia, with papers published in Computer Graphics Forum."
+  },
+  "ieee-vis": {
+    "ko": "데이터 시각화 분야의 최고 학회로, 과학 시각화, 정보 시각화, 시각 분석을 통합적으로 다룹니다. 기존의 IEEE VIS, InfoVis, SciVis, VAST가 통합된 학회이며, IEEE TVCG에 논문이 게재됩니다. 시각화 연구자와 데이터 분석 전문가 모두에게 핵심적인 학회입니다.",
+    "en": "The top conference in data visualization, unifying scientific visualization, information visualization, and visual analytics. IEEE VIS consolidates the former VIS, InfoVis, SciVis, and VAST tracks, with papers published in IEEE TVCG. It is essential for both visualization researchers and data analytics professionals."
+  },
+  "ieee-vr": {
+    "ko": "가상현실과 3D 사용자 인터페이스 분야의 최고 학회로, IEEE에서 주관합니다. VR/AR/MR 기술, 햅틱 인터랙션, 공간 오디오, 사용자 경험 등을 다루며, 산업계에서도 높은 관심을 받고 있습니다. 메타버스와 공간 컴퓨팅 시대에 점점 더 중요해지고 있는 학회입니다.",
+    "en": "The premier IEEE conference on virtual reality and 3D user interfaces, covering VR/AR/MR technology, haptic interaction, spatial audio, and user experience. IEEE VR attracts strong industry interest and grows increasingly important in the era of spatial computing and the metaverse."
+  },
+  "sgp": {
+    "ko": "기하 처리에 특화된 Eurographics 심포지엄으로, 메시 처리, 포인트 클라우드, 형상 분석, 3D 재구성 등을 다룹니다. 기하 처리 분야의 최고 전문 학회이며, Computer Graphics Forum에 논문이 게재됩니다. 3D 프린팅, 디지털 트윈 등 응용 분야에도 영향을 미치는 학회입니다.",
+    "en": "A Eurographics symposium specializing in geometry processing, covering mesh processing, point clouds, shape analysis, and 3D reconstruction. SGP is the top specialized venue for geometry processing, with papers published in Computer Graphics Forum. It also influences applications like 3D printing and digital twins."
+  },
+  "icra": {
+    "ko": "로보틱스 분야의 최대 규모 학회로, IEEE에서 주관합니다. 로봇 조작, 이동 로봇, 로봇 인식, 제어, 인간-로봇 상호작용 등 로보틱스 전 분야를 다루며, 매년 수천 편의 논문이 발표됩니다. RSS와 함께 로보틱스의 양대 학회로, 산업계 참여도 매우 활발합니다.",
+    "en": "The largest conference in robotics, organized by IEEE, covering robot manipulation, mobile robots, perception, control, and human-robot interaction across all areas of robotics. With thousands of papers presented annually, ICRA is one of the two premier robotics venues alongside RSS, with very active industry participation."
+  },
+  "iros": {
+    "ko": "IEEE/RSJ가 공동 주관하는 대규모 로보틱스 학회로, ICRA와 함께 로보틱스 분야의 핵심 학회입니다. 지능형 로봇, 센서, 자율 시스템, 로봇 비전 등 폭넓은 주제를 다루며, 특히 시스템 통합 관점의 연구가 강점입니다. 매년 전 세계를 순회하며 개최됩니다.",
+    "en": "A major robotics conference co-organized by IEEE and RSJ, alongside ICRA as a core venue in the field. IROS covers intelligent robots, sensors, autonomous systems, and robot vision, with particular strength in systems integration research. It rotates annually among cities worldwide."
+  },
+  "rss": {
+    "ko": "로보틱스 분야에서 가장 선별적인 학회로, ICRA/IROS보다 규모는 작지만 논문 수준이 매우 높습니다. 로봇 학습, 모션 플래닝, 인식, 조작 등 핵심 로보틱스 문제를 다루며, 단일 트랙으로 운영됩니다. 최근 딥러닝과 로보틱스의 융합 연구에서 특히 주목받고 있습니다.",
+    "en": "The most selective conference in robotics — smaller than ICRA/IROS but with very high paper quality. RSS covers robot learning, motion planning, perception, and manipulation, run as a single-track conference. It has gained particular attention recently for work at the intersection of deep learning and robotics."
+  },
+  "corl": {
+    "ko": "로봇 학습에 특화된 학회로, 강화학습, 모방학습, sim-to-real 전이 등 로봇에 ML을 적용하는 연구를 다룹니다. 2017년에 시작된 비교적 새로운 학회지만 빠르게 성장하여 로봇 학습 분야의 핵심 학회가 되었습니다. NeurIPS/ICML 커뮤니티와 로보틱스 커뮤니티의 교차점에 있습니다.",
+    "en": "A conference dedicated to robot learning, covering reinforcement learning, imitation learning, and sim-to-real transfer for robotics. Founded in 2017, CoRL has rapidly grown to become the key venue for robot learning, sitting at the intersection of the NeurIPS/ICML and robotics communities."
+  },
+  "hri": {
+    "ko": "인간-로봇 상호작용에 특화된 ACM/IEEE 학회로, 사회적 로봇, 협동 로봇, 로봇 인터페이스 설계 등을 다룹니다. 로보틱스, HCI, 인지과학, 심리학 등 다학제적 접근이 특징이며, 서비스 로봇과 협업 로봇 시대에 점점 중요해지고 있습니다.",
+    "en": "An ACM/IEEE conference on human-robot interaction covering social robots, collaborative robots, and robot interface design. HRI is characterized by its multidisciplinary approach spanning robotics, HCI, cognitive science, and psychology, with growing importance in the age of service and collaborative robots."
+  },
+  "case": {
+    "ko": "자동화 과학 및 공학에 특화된 IEEE 학회로, 산업 자동화, 로봇 제조, 물류 자동화, 스마트 팩토리 등을 다룹니다. 로보틱스와 제조 공학의 교차 영역에 있으며, 산업 현장의 실제 자동화 문제를 학술적으로 다루는 것이 특징입니다.",
+    "en": "An IEEE conference on automation science and engineering, covering industrial automation, robotic manufacturing, logistics automation, and smart factories. CASE sits at the intersection of robotics and manufacturing engineering, addressing real-world automation challenges from an academic perspective."
+  },
+  "isrr": {
+    "ko": "로보틱스 연구의 원로 학회로, 1983년부터 이어진 긴 역사를 가지고 있습니다. 초청 논문 위주로 운영되는 소규모 워크숍 형태이며, 로보틱스 분야의 최고 연구자들이 미래 방향을 논의하는 자리입니다. 격년 개최되며, 발표 자체가 높은 명예로 여겨집니다.",
+    "en": "A venerable robotics research symposium dating back to 1983, operating as a small invitation-based workshop where top robotics researchers discuss future directions. Held biennially, being invited to present at ISRR is considered a significant honor in the robotics community."
+  },
+  "avss": {
+    "ko": "비디오 기반 감시 및 보안 기술에 특화된 IEEE 학회로, 영상 분석, 객체 추적, 행동 인식, 이상 탐지 등을 다룹니다. 컴퓨터 비전의 보안 응용에 초점을 맞춘 전문 학회이며, 스마트 시티와 공공 안전 분야의 기술 발전에 기여합니다.",
+    "en": "An IEEE conference on advanced video and signal-based surveillance, covering video analysis, object tracking, behavior recognition, and anomaly detection. AVSS focuses on security applications of computer vision and contributes to technological advances in smart cities and public safety."
+  },
+  "icmr": {
+    "ko": "멀티미디어 검색에 특화된 ACM 학회로, 이미지/비디오 검색, 크로스모달 검색, 멀티미디어 인덱싱 등을 다룹니다. 컴퓨터 비전과 정보 검색의 교차 영역에 있으며, 대규모 멀티미디어 데이터 분석에서 중요한 역할을 합니다.",
+    "en": "An ACM conference on multimedia retrieval covering image/video retrieval, cross-modal retrieval, and multimedia indexing. ICMR sits at the intersection of computer vision and information retrieval, playing an important role in large-scale multimedia data analysis."
+  },
+  "vrst": {
+    "ko": "가상현실 소프트웨어와 기술에 특화된 ACM 심포지엄으로, VR/AR 인터랙션, 3D 사용자 인터페이스, 몰입형 시스템 등을 다룹니다. IEEE VR과 함께 VR 분야의 주요 학회이며, 소프트웨어와 기술적 구현에 더 초점을 맞춘 것이 특징입니다.",
+    "en": "An ACM symposium on virtual reality software and technology, covering VR/AR interaction, 3D user interfaces, and immersive systems. Alongside IEEE VR, VRST is a key venue in the VR field, with a particular focus on software and technical implementation aspects."
+  },
+  "atc": {
+    "ko": "USENIX에서 매년 개최하는 시스템 분야 종합 학회로, OS부터 네트워킹, 스토리지, 보안까지 다양한 주제를 포괄한다. OSDI보다 문턱은 낮지만 여전히 우수한 논문들이 발표되며, 산업계 참여가 활발하다. 시스템 분야 연구자들이 꾸준히 투고하는 주요 학회 중 하나다.",
+    "en": "USENIX's flagship annual technical conference covering a wide range of systems topics from OS and networking to storage and security. While slightly below OSDI in prestige, it consistently features high-quality research and strong industry participation. It is a key venue for the broader systems community."
+  },
+  "sp": {
+    "ko": "IEEE에서 주최하는 보안 분야 최고 권위의 학회로, 일명 'Oakland'이라 불린다. 보안 4대 탑티어 중에서도 가장 오래된 역사를 자랑하며, 시스템 보안, 프라이버시, 암호학 등 폭넓은 주제를 다룬다. 매년 5월 샌프란시스코 인근에서 개최된다.",
+    "en": "IEEE's premier security conference, commonly known as 'Oakland,' and the oldest among the Big Four security venues. It covers a broad range of topics including system security, privacy, and cryptography, and is held annually in May near San Francisco."
+  },
+  "pg": {
+    "ko": "아시아-태평양 지역의 주요 컴퓨터 그래픽스 학회로, 매년 아태 지역 도시에서 개최됩니다. 렌더링, 기하 처리, 애니메이션, 시각화 등을 다루며 Computer Graphics Forum에 논문이 게재됩니다. 한국, 일본, 중국 등 아시아 그래픽스 연구자들에게 특히 중요한 학회입니다.",
+    "en": "A leading Asia-Pacific computer graphics conference held annually across the region, covering rendering, geometry processing, animation, and visualization. Papers are published in Computer Graphics Forum. It is particularly important for graphics researchers from Korea, Japan, and China."
+  },
+  "ecrts": {
+    "ko": "유럽 기반의 실시간 시스템 학회로, Euromicro에서 주관한다. 실시간 스케줄링, 최악 실행시간 분석, 사이버 물리 시스템 등을 다루며, RTSS와 함께 실시간 시스템 분야의 주요 학회로 인정받는다. 매년 유럽에서 개최되며 소규모이지만 논문 수준이 높다.",
+    "en": "A European real-time systems conference organized by Euromicro, covering real-time scheduling, worst-case execution time analysis, and cyber-physical systems. Alongside RTSS, it is recognized as a major venue in real-time systems. Held annually in Europe with high paper quality despite its smaller size."
+  }
+}

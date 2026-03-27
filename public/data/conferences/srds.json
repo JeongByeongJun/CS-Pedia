@@ -1,1 +1,668 @@
-{"id":"f2657c78-c0a5-4928-b9b6-b1712222f7e4","slug":"srds","nameEn":"IEEE International Symposium on Reliable Distributed Systems","nameKr":null,"acronym":"SRDS","field":"Systems","subField":"Reliable Distributed Systems","dblpKey":"conf/srds","websiteUrl":"https://srds-conference.org/","description":null,"nextDeadline":"2026-05-01T23:59:00Z","daysUntilDeadline":36,"deadlineTimezone":"AoE","venue":"Rome, Italy","conferenceStart":"2026-09-21","conferenceEnd":"2026-09-25","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"B"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":"2026-04-24T23:59:00Z","paperDeadline":"2026-05-01T23:59:00Z","notificationDate":null,"conferenceStart":"2026-09-21","conferenceEnd":"2026-09-25","venue":"Rome, Italy","timezone":"AoE"}],"bestPapers":[{"year":2025,"paperTitle":"Robust Fingerprinting of Graphs with FinG","authors":"Drosis, Garcia Bourrée, Kermarrec, Safsafi & Le Merrer","awardType":"best_paper","tags":["Graph Fingerprinting","Security"],"paperUrl":"https://doi.org/10.1109/SRDS69199.2025.00015"}],"acceptanceRates":[],"keywordTrends":[{"year":2021,"keyword":"Replication","count":5},{"year":2021,"keyword":"Blockchain","count":2},{"year":2021,"keyword":"Reinforcement Learning","count":1},{"year":2021,"keyword":"Adversarial","count":1},{"year":2021,"keyword":"Fault Tolerance","count":1},{"year":2021,"keyword":"Privacy","count":1},{"year":2021,"keyword":"Distributed","count":5},{"year":2021,"keyword":"Efficient","count":2},{"year":2021,"keyword":"Consensus","count":1},{"year":2021,"keyword":"Cloud","count":1},{"year":2021,"keyword":"Safety","count":1},{"year":2021,"keyword":"Drone","count":1},{"year":2021,"keyword":"Parameterized","count":1},{"year":2021,"keyword":"Cyber-Physical","count":1},{"year":2021,"keyword":"File System","count":1},{"year":2021,"keyword":"Stream Processing","count":1},{"year":2021,"keyword":"Latency","count":1},{"year":2021,"keyword":"Fairness","count":1},{"year":2021,"keyword":"Federated Learning","count":1},{"year":2021,"keyword":"Wireless","count":1},{"year":2021,"keyword":"IoT","count":1},{"year":2022,"keyword":"Federated Learning","count":4},{"year":2022,"keyword":"Real-Time","count":1},{"year":2022,"keyword":"Distributed","count":4},{"year":2022,"keyword":"Efficient","count":2},{"year":2022,"keyword":"DRAM","count":1},{"year":2022,"keyword":"Model Checking","count":1},{"year":2022,"keyword":"Consensus","count":1},{"year":2022,"keyword":"Compression","count":1},{"year":2022,"keyword":"Testing","count":1},{"year":2022,"keyword":"Edge Computing","count":2},{"year":2022,"keyword":"Blockchain","count":1},{"year":2022,"keyword":"Data Center","count":1},{"year":2022,"keyword":"FPGA","count":1},{"year":2022,"keyword":"OLTP","count":1},{"year":2022,"keyword":"Storage","count":1},{"year":2022,"keyword":"Cloud","count":1},{"year":2022,"keyword":"Backdoor","count":1},{"year":2022,"keyword":"Object Detection","count":1},{"year":2023,"keyword":"Consensus","count":2},{"year":2023,"keyword":"Latency","count":1},{"year":2023,"keyword":"Index","count":1},{"year":2023,"keyword":"Federated Learning","count":1},{"year":2023,"keyword":"Lattice","count":1},{"year":2023,"keyword":"Compression","count":1},{"year":2023,"keyword":"Blockchain","count":3},{"year":2023,"keyword":"Cloud","count":1},{"year":2023,"keyword":"Homomorphic","count":1},{"year":2023,"keyword":"Encryption","count":1},{"year":2023,"keyword":"Privacy","count":2},{"year":2023,"keyword":"Differential Privacy","count":1},{"year":2023,"keyword":"Object Detection","count":1},{"year":2023,"keyword":"Backdoor","count":1},{"year":2023,"keyword":"Localization","count":1},{"year":2023,"keyword":"Stream Processing","count":1},{"year":2023,"keyword":"Optimization","count":1},{"year":2023,"keyword":"Scheduling","count":1},{"year":2023,"keyword":"Fault Tolerance","count":1},{"year":2023,"keyword":"Transaction","count":1},{"year":2023,"keyword":"Wireless","count":1},{"year":2023,"keyword":"Routing","count":1},{"year":2023,"keyword":"Distributed","count":1},{"year":2024,"keyword":"Federated Learning","count":4},{"year":2024,"keyword":"Blockchain","count":3},{"year":2024,"keyword":"Transaction","count":2},{"year":2024,"keyword":"Cloud","count":1},{"year":2024,"keyword":"Storage","count":3},{"year":2024,"keyword":"Replication","count":1},{"year":2024,"keyword":"Distributed","count":7},{"year":2024,"keyword":"Malware","count":1},{"year":2024,"keyword":"IoT","count":1},{"year":2024,"keyword":"Accelerator","count":1},{"year":2024,"keyword":"Scheduling","count":1},{"year":2024,"keyword":"Embedded","count":1},{"year":2024,"keyword":"Encryption","count":2},{"year":2024,"keyword":"Efficient","count":3},{"year":2024,"keyword":"Worst-Case","count":1},{"year":2024,"keyword":"Privacy","count":3},{"year":2024,"keyword":"Homomorphic","count":1},{"year":2024,"keyword":"Routing","count":1},{"year":2024,"keyword":"Adversarial","count":1},{"year":2024,"keyword":"Generative","count":1},{"year":2024,"keyword":"Graph","count":2},{"year":2024,"keyword":"Real-Time","count":1},{"year":2025,"keyword":"Bias","count":1},{"year":2025,"keyword":"Distributed","count":5},{"year":2025,"keyword":"RDMA","count":1},{"year":2025,"keyword":"Blockchain","count":5},{"year":2025,"keyword":"Efficient","count":5},{"year":2025,"keyword":"Consensus","count":2},{"year":2025,"keyword":"Multi-Party Computation","count":1},{"year":2025,"keyword":"Transaction","count":1},{"year":2025,"keyword":"Federated Learning","count":5},{"year":2025,"keyword":"Reinforcement Learning","count":1},{"year":2025,"keyword":"Graph Neural Network","count":1},{"year":2025,"keyword":"Graph","count":1},{"year":2025,"keyword":"Cloud","count":4},{"year":2025,"keyword":"Privacy","count":5},{"year":2025,"keyword":"Routing","count":2},{"year":2025,"keyword":"Throughput","count":1},{"year":2025,"keyword":"Latency","count":1},{"year":2025,"keyword":"Microservice","count":2},{"year":2025,"keyword":"Storage","count":1},{"year":2025,"keyword":"Testing","count":1},{"year":2025,"keyword":"UAV","count":3},{"year":2025,"keyword":"Fairness","count":2},{"year":2025,"keyword":"Replication","count":1},{"year":2025,"keyword":"Autonomous","count":1},{"year":2025,"keyword":"Serverless","count":1},{"year":2025,"keyword":"Real-Time","count":1},{"year":2025,"keyword":"Safety","count":1},{"year":2025,"keyword":"Fault Tolerance","count":1},{"year":2025,"keyword":"Backdoor","count":1},{"year":2025,"keyword":"Multimodal","count":1},{"year":2025,"keyword":"Intrusion Detection","count":1},{"year":2025,"keyword":"Optimization","count":1},{"year":2025,"keyword":"IoT","count":1}]}
+{
+  "id": "f2657c78-c0a5-4928-b9b6-b1712222f7e4",
+  "slug": "srds",
+  "nameEn": "IEEE International Symposium on Reliable Distributed Systems",
+  "nameKr": null,
+  "acronym": "SRDS",
+  "field": "Systems",
+  "subField": "Reliable Distributed Systems",
+  "dblpKey": "conf/srds",
+  "websiteUrl": "https://srds-conference.org/",
+  "description": "An IEEE conference on reliable distributed systems, covering fault tolerance, consensus algorithms, and replication protocols. It is a specialized venue focused on reliability and availability in distributed systems, serving as an important forum for researchers in this area.",
+  "nextDeadline": "2026-05-01T23:59:00Z",
+  "daysUntilDeadline": 36,
+  "deadlineTimezone": "AoE",
+  "venue": "Rome, Italy",
+  "conferenceStart": "2026-09-21",
+  "conferenceEnd": "2026-09-25",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "B"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": "2026-04-24T23:59:00Z",
+      "paperDeadline": "2026-05-01T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-09-21",
+      "conferenceEnd": "2026-09-25",
+      "venue": "Rome, Italy",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2025,
+      "paperTitle": "Robust Fingerprinting of Graphs with FinG",
+      "authors": "Drosis, Garcia Bourrée, Kermarrec, Safsafi & Le Merrer",
+      "awardType": "best_paper",
+      "tags": [
+        "Graph Fingerprinting",
+        "Security"
+      ],
+      "paperUrl": "https://doi.org/10.1109/SRDS69199.2025.00015"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2021,
+      "keyword": "Replication",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Blockchain",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Drone",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cyber-Physical",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "File System",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Federated Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Wireless",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Federated Learning",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "DRAM",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Edge Computing",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Data Center",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "OLTP",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Backdoor",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Object Detection",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Consensus",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Federated Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Blockchain",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Privacy",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Object Detection",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Backdoor",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Localization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Transaction",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Wireless",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Federated Learning",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Blockchain",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Transaction",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Storage",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Malware",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Encryption",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Worst-Case",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Privacy",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "RDMA",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Blockchain",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Consensus",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Multi-Party Computation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Transaction",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Federated Learning",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cloud",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Privacy",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Routing",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Microservice",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "UAV",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Fairness",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Serverless",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Backdoor",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Intrusion Detection",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "IoT",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "신뢰성 있는 분산 시스템을 주제로 하는 IEEE 학회로, 장애 내성, 합의 알고리즘, 복제 프로토콜 등을 다룬다. 분산 시스템의 신뢰성과 가용성에 초점을 맞춘 특화 학회로, 관련 분야 연구자들에게 중요한 발표 무대다.",
+  "descriptionEn": "An IEEE conference on reliable distributed systems, covering fault tolerance, consensus algorithms, and replication protocols. It is a specialized venue focused on reliability and availability in distributed systems, serving as an important forum for researchers in this area."
+}

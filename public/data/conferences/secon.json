@@ -1,1 +1,70 @@
-{"id":"9d2324dc-73b1-497c-9cef-5ec863fd21a3","slug":"secon","nameEn":"IEEE International Conference on Sensing, Communication, and Networking","nameKr":null,"acronym":"SECON","field":"Networks","subField":"Sensor Networks","dblpKey":"conf/secon","websiteUrl":"https://secon2026.ieee-secon.org/","description":null,"nextDeadline":"2026-03-06T23:59:00Z","daysUntilDeadline":-20,"deadlineTimezone":"AoE","venue":"Pisa, Italy","conferenceStart":"2026-06-03","conferenceEnd":"2026-06-05","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"B"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-03-06T23:59:00Z","notificationDate":null,"conferenceStart":"2026-06-03","conferenceEnd":"2026-06-05","venue":"Pisa, Italy","timezone":"AoE"}],"bestPapers":[],"acceptanceRates":[],"keywordTrends":[]}
+{
+  "id": "9d2324dc-73b1-497c-9cef-5ec863fd21a3",
+  "slug": "secon",
+  "nameEn": "IEEE International Conference on Sensing, Communication, and Networking",
+  "nameKr": null,
+  "acronym": "SECON",
+  "field": "Networks",
+  "subField": "Sensor Networks",
+  "dblpKey": "conf/secon",
+  "websiteUrl": "https://secon2026.ieee-secon.org/",
+  "description": "An IEEE conference on sensing, communication, and networking, covering wireless sensor networks, crowd sensing, and smart grids. It focuses on the convergence of sensing and communication, with active research in IoT and smart infrastructure.",
+  "nextDeadline": "2026-03-06T23:59:00Z",
+  "daysUntilDeadline": -20,
+  "deadlineTimezone": "AoE",
+  "venue": "Pisa, Italy",
+  "conferenceStart": "2026-06-03",
+  "conferenceEnd": "2026-06-05",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "B"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-03-06T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-06-03",
+      "conferenceEnd": "2026-06-05",
+      "venue": "Pisa, Italy",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [],
+  "acceptanceRates": [],
+  "keywordTrends": [],
+  "descriptionKo": "센싱, 통신, 네트워킹을 종합적으로 다루는 IEEE 학회로, 무선 센서 네트워크, 크라우드 센싱, 스마트 그리드 등을 주제로 한다. 센싱과 통신의 융합 연구에 초점을 맞추며, IoT와 스마트 인프라 관련 연구가 활발하다.",
+  "descriptionEn": "An IEEE conference on sensing, communication, and networking, covering wireless sensor networks, crowd sensing, and smart grids. It focuses on the convergence of sensing and communication, with active research in IoT and smart infrastructure."
+}

@@ -1,1 +1,70 @@
-{"id":"8a4d701d-d0c8-455e-bd2e-dd4e8e9a8b0c","slug":"hipeac","nameEn":"International Conference on High Performance Embedded Architectures and Compilers","nameKr":null,"acronym":"HiPEAC","field":"Architecture","subField":"Embedded Architecture","dblpKey":"conf/hipeac","websiteUrl":"https://www.hipeac.net/","description":null,"nextDeadline":"2025-06-01T23:59:00Z","daysUntilDeadline":-298,"deadlineTimezone":"AoE","venue":"Krakow, Poland","conferenceStart":"2026-01-26","conferenceEnd":"2026-01-28","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":null},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":null},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":null},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2025-06-01T23:59:00Z","notificationDate":null,"conferenceStart":"2026-01-26","conferenceEnd":"2026-01-28","venue":"Krakow, Poland","timezone":"AoE"}],"bestPapers":[],"acceptanceRates":[],"keywordTrends":[]}
+{
+  "id": "8a4d701d-d0c8-455e-bd2e-dd4e8e9a8b0c",
+  "slug": "hipeac",
+  "nameEn": "International Conference on High Performance Embedded Architectures and Compilers",
+  "nameKr": null,
+  "acronym": "HiPEAC",
+  "field": "Architecture",
+  "subField": "Embedded Architecture",
+  "dblpKey": "conf/hipeac",
+  "websiteUrl": "https://www.hipeac.net/",
+  "description": "A European conference on high-performance embedded architectures and compilers, covering embedded processors, compiler optimization, and reconfigurable computing. It is the flagship event of the European HiPEAC network, featuring active industry-academia workshops and corporate sessions.",
+  "nextDeadline": "2025-06-01T23:59:00Z",
+  "daysUntilDeadline": -298,
+  "deadlineTimezone": "AoE",
+  "venue": "Krakow, Poland",
+  "conferenceStart": "2026-01-26",
+  "conferenceEnd": "2026-01-28",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": null
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2025-06-01T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-01-26",
+      "conferenceEnd": "2026-01-28",
+      "venue": "Krakow, Poland",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [],
+  "acceptanceRates": [],
+  "keywordTrends": [],
+  "descriptionKo": "고성능 임베디드 아키텍처와 컴파일러를 다루는 유럽 중심 학회로, 임베디드 프로세서, 컴파일러 최적화, 재구성 가능 컴퓨팅 등을 주제로 한다. 유럽 HiPEAC 네트워크의 핵심 행사이며, 산학 연계 워크숍과 기업 세션이 활발하다.",
+  "descriptionEn": "A European conference on high-performance embedded architectures and compilers, covering embedded processors, compiler optimization, and reconfigurable computing. It is the flagship event of the European HiPEAC network, featuring active industry-academia workshops and corporate sessions."
+}

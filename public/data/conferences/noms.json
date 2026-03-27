@@ -1,1 +1,721 @@
-{"id":"afb32cd4-f947-4971-8acb-96617d84cba9","slug":"noms","nameEn":"IEEE/IFIP Network Operations and Management Symposium","nameKr":null,"acronym":"NOMS","field":"Networks","subField":"Network Management","dblpKey":"conf/noms","websiteUrl":"https://noms2026.ieee-noms.org/","description":null,"nextDeadline":"2025-10-13T23:59:00Z","daysUntilDeadline":-164,"deadlineTimezone":"AoE","venue":"Rome, Italy","conferenceStart":"2026-05-18","conferenceEnd":"2026-05-22","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":null},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"B"},{"institution":"CCF","tier":null},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2025-10-13T23:59:00Z","notificationDate":null,"conferenceStart":"2026-05-18","conferenceEnd":"2026-05-22","venue":"Rome, Italy","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Exploring the Benefit of Path Plausibility Algorithms in BGP","authors":"Rodday, Dreo Rodosek, Pras & van Rijswijk-Deij","awardType":"best_paper","tags":["BGP Security","Routing"],"paperUrl":"https://doi.org/10.1109/NOMS59830.2024.10575088"},{"year":2025,"paperTitle":"RNA: Automating IDS/IPS Event Detection Offload into Programmable Forwarding Devices","authors":"Hagen, Ilha, Parizotto & Gaspary","awardType":"best_paper","tags":["IDS/IPS","Programmable Networks"],"paperUrl":"https://doi.org/10.1109/NOMS57970.2025.11073692"}],"acceptanceRates":[{"year":2022,"accepted":201,"submitted":null,"rate":null}],"keywordTrends":[{"year":2020,"keyword":"Container","count":2},{"year":2020,"keyword":"NFV","count":5},{"year":2020,"keyword":"IoT","count":13},{"year":2020,"keyword":"Throughput","count":4},{"year":2020,"keyword":"Wireless","count":4},{"year":2020,"keyword":"5G","count":11},{"year":2020,"keyword":"Reinforcement Learning","count":3},{"year":2020,"keyword":"Autonomous","count":2},{"year":2020,"keyword":"SDN","count":6},{"year":2020,"keyword":"Privacy","count":3},{"year":2020,"keyword":"Safety","count":1},{"year":2020,"keyword":"Fault Tolerance","count":1},{"year":2020,"keyword":"Blockchain","count":5},{"year":2020,"keyword":"Optimization","count":1},{"year":2020,"keyword":"QoS","count":4},{"year":2020,"keyword":"Distributed","count":10},{"year":2020,"keyword":"Real-Time","count":4},{"year":2020,"keyword":"Few-Shot","count":1},{"year":2020,"keyword":"Cloud","count":8},{"year":2020,"keyword":"Malware","count":1},{"year":2020,"keyword":"Index","count":1},{"year":2020,"keyword":"Simulation","count":1},{"year":2020,"keyword":"TCP","count":2},{"year":2020,"keyword":"Agent","count":1},{"year":2020,"keyword":"P4","count":2},{"year":2020,"keyword":"UAV","count":1},{"year":2020,"keyword":"Intrusion Detection","count":2},{"year":2020,"keyword":"Latency","count":4},{"year":2020,"keyword":"Cache","count":2},{"year":2020,"keyword":"Efficient","count":6},{"year":2020,"keyword":"Vulnerability","count":1},{"year":2020,"keyword":"Adversarial","count":4},{"year":2020,"keyword":"Testing","count":1},{"year":2020,"keyword":"Edge Computing","count":3},{"year":2020,"keyword":"Embedding","count":2},{"year":2020,"keyword":"AR","count":1},{"year":2020,"keyword":"VR","count":1},{"year":2020,"keyword":"Access Control","count":2},{"year":2020,"keyword":"Localization","count":3},{"year":2020,"keyword":"Scheduling","count":4},{"year":2020,"keyword":"Sparse","count":1},{"year":2020,"keyword":"Routing","count":3},{"year":2020,"keyword":"Congestion Control","count":2},{"year":2020,"keyword":"Quantization","count":1},{"year":2020,"keyword":"Fairness","count":1},{"year":2020,"keyword":"Cyber-Physical","count":1},{"year":2020,"keyword":"Robustness","count":1},{"year":2020,"keyword":"TLS","count":1},{"year":2020,"keyword":"Autoregressive","count":1},{"year":2020,"keyword":"Spectrum","count":2},{"year":2020,"keyword":"Generative","count":1},{"year":2020,"keyword":"Multimodal","count":1},{"year":2020,"keyword":"Graph","count":2},{"year":2020,"keyword":"Consensus","count":1},{"year":2020,"keyword":"Virtualization","count":1},{"year":2020,"keyword":"Transfer Learning","count":1},{"year":2020,"keyword":"Cellular","count":1},{"year":2020,"keyword":"Kernel","count":1},{"year":2022,"keyword":"Efficient","count":8},{"year":2022,"keyword":"Cloud","count":9},{"year":2022,"keyword":"Real-Time","count":2},{"year":2022,"keyword":"Side-Channel","count":1},{"year":2022,"keyword":"Cellular","count":2},{"year":2022,"keyword":"5G","count":12},{"year":2022,"keyword":"Intrusion Detection","count":4},{"year":2022,"keyword":"Privacy","count":3},{"year":2022,"keyword":"SDN","count":5},{"year":2022,"keyword":"Segmentation","count":1},{"year":2022,"keyword":"Throughput","count":2},{"year":2022,"keyword":"TCP","count":2},{"year":2022,"keyword":"IoT","count":18},{"year":2022,"keyword":"Compression","count":1},{"year":2022,"keyword":"Routing","count":3},{"year":2022,"keyword":"Autonomous","count":3},{"year":2022,"keyword":"Dataset","count":1},{"year":2022,"keyword":"Testing","count":2},{"year":2022,"keyword":"Programmable Switch","count":2},{"year":2022,"keyword":"Malware","count":3},{"year":2022,"keyword":"Federated Learning","count":3},{"year":2022,"keyword":"Distributed","count":2},{"year":2022,"keyword":"Blockchain","count":3},{"year":2022,"keyword":"TLS","count":2},{"year":2022,"keyword":"P4","count":2},{"year":2022,"keyword":"Post-Quantum","count":1},{"year":2022,"keyword":"Differential Privacy","count":2},{"year":2022,"keyword":"GNN","count":1},{"year":2022,"keyword":"Transfer Learning","count":2},{"year":2022,"keyword":"Reinforcement Learning","count":9},{"year":2022,"keyword":"Optimization","count":4},{"year":2022,"keyword":"Edge Computing","count":5},{"year":2022,"keyword":"Network Function","count":3},{"year":2022,"keyword":"Virtualization","count":2},{"year":2022,"keyword":"Access Control","count":2},{"year":2022,"keyword":"Graph","count":8},{"year":2022,"keyword":"Wireless","count":4},{"year":2022,"keyword":"SmartNIC","count":1},{"year":2022,"keyword":"Load Balancing","count":2},{"year":2022,"keyword":"Multi-Agent","count":2},{"year":2022,"keyword":"Agent","count":2},{"year":2022,"keyword":"Localization","count":1},{"year":2022,"keyword":"NFV","count":1},{"year":2022,"keyword":"Adversarial","count":2},{"year":2022,"keyword":"Fault Tolerance","count":1},{"year":2022,"keyword":"Consistency","count":1},{"year":2022,"keyword":"QoS","count":1},{"year":2022,"keyword":"Container","count":1},{"year":2022,"keyword":"Graph Neural Network","count":2},{"year":2022,"keyword":"Convergence","count":1},{"year":2022,"keyword":"Microservice","count":1},{"year":2022,"keyword":"Scheduling","count":2},{"year":2022,"keyword":"SMT","count":1},{"year":2022,"keyword":"UAV","count":1},{"year":2022,"keyword":"6G","count":1},{"year":2022,"keyword":"Embedding","count":1},{"year":2022,"keyword":"NoSQL","count":1},{"year":2022,"keyword":"Combinatorial","count":1},{"year":2022,"keyword":"RL","count":1},{"year":2022,"keyword":"Bandwidth","count":1},{"year":2022,"keyword":"Latency","count":1},{"year":2022,"keyword":"Safety","count":1},{"year":2022,"keyword":"Index","count":1},{"year":2022,"keyword":"LoRA","count":1},{"year":2022,"keyword":"Mesh","count":1},{"year":2022,"keyword":"Data Center","count":1}]}
+{
+  "id": "afb32cd4-f947-4971-8acb-96617d84cba9",
+  "slug": "noms",
+  "nameEn": "IEEE/IFIP Network Operations and Management Symposium",
+  "nameKr": null,
+  "acronym": "NOMS",
+  "field": "Networks",
+  "subField": "Network Management",
+  "dblpKey": "conf/noms",
+  "websiteUrl": "https://noms2026.ieee-noms.org/",
+  "description": "An IEEE/IFIP conference on network operations and management, covering network automation, monitoring, and policy management. Held in alternating years with IM, it is a core venue for network management, with active participation from telecom operators and large network operators.",
+  "nextDeadline": "2025-10-13T23:59:00Z",
+  "daysUntilDeadline": -164,
+  "deadlineTimezone": "AoE",
+  "venue": "Rome, Italy",
+  "conferenceStart": "2026-05-18",
+  "conferenceEnd": "2026-05-22",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "B"
+    },
+    {
+      "institution": "CCF",
+      "tier": null
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2025-10-13T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-05-18",
+      "conferenceEnd": "2026-05-22",
+      "venue": "Rome, Italy",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Exploring the Benefit of Path Plausibility Algorithms in BGP",
+      "authors": "Rodday, Dreo Rodosek, Pras & van Rijswijk-Deij",
+      "awardType": "best_paper",
+      "tags": [
+        "BGP Security",
+        "Routing"
+      ],
+      "paperUrl": "https://doi.org/10.1109/NOMS59830.2024.10575088"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "RNA: Automating IDS/IPS Event Detection Offload into Programmable Forwarding Devices",
+      "authors": "Hagen, Ilha, Parizotto & Gaspary",
+      "awardType": "best_paper",
+      "tags": [
+        "IDS/IPS",
+        "Programmable Networks"
+      ],
+      "paperUrl": "https://doi.org/10.1109/NOMS57970.2025.11073692"
+    }
+  ],
+  "acceptanceRates": [
+    {
+      "year": 2022,
+      "accepted": 201,
+      "submitted": null,
+      "rate": null
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Container",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "NFV",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "IoT",
+      "count": 13
+    },
+    {
+      "year": 2020,
+      "keyword": "Throughput",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Wireless",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "5G",
+      "count": 11
+    },
+    {
+      "year": 2020,
+      "keyword": "Reinforcement Learning",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Autonomous",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "SDN",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Blockchain",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "QoS",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 10
+    },
+    {
+      "year": 2020,
+      "keyword": "Real-Time",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Few-Shot",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 8
+    },
+    {
+      "year": 2020,
+      "keyword": "Malware",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "TCP",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "P4",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "UAV",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Intrusion Detection",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Latency",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Vulnerability",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Adversarial",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Edge Computing",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedding",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "AR",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Access Control",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Localization",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Routing",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Congestion Control",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cyber-Physical",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "TLS",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Autoregressive",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Spectrum",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Virtualization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cellular",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Cloud",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "Real-Time",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Side-Channel",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cellular",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "5G",
+      "count": 12
+    },
+    {
+      "year": 2022,
+      "keyword": "Intrusion Detection",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Privacy",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "SDN",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Throughput",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "TCP",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "IoT",
+      "count": 18
+    },
+    {
+      "year": 2022,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Routing",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Autonomous",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Programmable Switch",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Malware",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Federated Learning",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Blockchain",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "TLS",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "P4",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Post-Quantum",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Differential Privacy",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transfer Learning",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Reinforcement Learning",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "Optimization",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Edge Computing",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Network Function",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Virtualization",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Access Control",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Wireless",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "SmartNIC",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Load Balancing",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Multi-Agent",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Agent",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Localization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "NFV",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Adversarial",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "QoS",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph Neural Network",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Microservice",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "UAV",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "6G",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "NoSQL",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "LoRA",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Mesh",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Data Center",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "네트워크 운영 및 관리를 다루는 IEEE/IFIP 학회로, 네트워크 자동화, 모니터링, 정책 관리 등을 주제로 한다. IM(Integrated Network Management) 학회와 교대로 개최되며, 네트워크 관리 분야의 핵심 학회다. 통신사와 대형 네트워크 운영자의 참여가 활발하다.",
+  "descriptionEn": "An IEEE/IFIP conference on network operations and management, covering network automation, monitoring, and policy management. Held in alternating years with IM, it is a core venue for network management, with active participation from telecom operators and large network operators."
+}

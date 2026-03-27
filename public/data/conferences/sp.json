@@ -1,1 +1,2493 @@
-{"id":"f228155e-5e30-4950-8701-34c6ce109c45","slug":"sp","nameEn":"IEEE Symposium on Security and Privacy","nameKr":null,"acronym":"S&P","field":"Security","subField":"Security","dblpKey":"conf/sp","websiteUrl":"https://sp2026.ieee-security.org","description":null,"nextDeadline":"2025-11-13T23:59:00Z","daysUntilDeadline":-133,"deadlineTimezone":"AoE","venue":"San Francisco, USA","conferenceStart":"2026-05-18","conferenceEnd":"2026-05-21","institutionRatings":[{"institution":"BK21","tier":"4"},{"institution":"KIISE","tier":"최우수"},{"institution":"KAIST","tier":"최우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"최우수"},{"institution":"CORE","tier":"A*"},{"institution":"CCF","tier":"A"},{"institution":"CSRankings","tier":"Included"}],"deadlines":[{"year":2026,"cycle":"first","abstractDeadline":"2025-05-29T23:59:00Z","paperDeadline":"2025-06-05T23:59:00Z","notificationDate":"2025-09-09T00:00:00Z","conferenceStart":"2026-05-18","conferenceEnd":"2026-05-21","venue":"San Francisco, USA","timezone":"AoE"},{"year":2026,"cycle":"second","abstractDeadline":"2025-11-06T23:59:00Z","paperDeadline":"2025-11-13T23:59:00Z","notificationDate":"2026-03-09T00:00:00Z","conferenceStart":"2026-05-18","conferenceEnd":"2026-05-21","venue":"San Francisco, USA","timezone":"AoE"}],"bestPapers":[{"year":2021,"paperTitle":"Compositional Security for Reentrant Applications","authors":"Ethan Cecchetti, Siqiu Yao, Haobin Ni, Andrew C. Myers","awardType":"best_paper","tags":["program security","reentrancy","smart contracts"],"paperUrl":"http://arxiv.org/abs/2103.08577v2"},{"year":2021,"paperTitle":"The EMV Standard: Break, Fix, Verify","authors":"David Basin, Ralf Sasse, Jorge Toro-Pozo","awardType":"best_paper","tags":["security protocols","formal verification","EMV","payment"],"paperUrl":"http://arxiv.org/abs/2006.08249v3"},{"year":2022,"paperTitle":"Assessing the Security of GitHub Copilot's Code Contributions","authors":"Pearce, Ahmad, Tan, Dolan-Gavitt, Karri","awardType":"distinguished_paper","tags":["AI Code","Security"],"paperUrl":"http://arxiv.org/abs/2108.09293v3"},{"year":2022,"paperTitle":"Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects","authors":"Wermke, Woehler, Klemmer, Fourné, Acar, Fahl","awardType":"distinguished_paper","tags":["Open Source","Trust"],"paperUrl":"https://doi.org/10.1109/sp46214.2022.9833686"},{"year":2022,"paperTitle":"Four Attacks and a Proof for Telegram","authors":"Albrecht, Mareková, Paterson, Stepanovs","awardType":"distinguished_paper","tags":["Cryptography","Protocol"],"paperUrl":"https://doi.org/10.1007/s00145-025-09566-1"},{"year":2023,"paperTitle":"MEGA: Malleable Encryption Goes Awry","authors":"Backendal et al.","awardType":"best_paper","tags":["Encryption","Cryptanalysis"],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10179290"},{"year":2023,"paperTitle":"WaVe: a verifiably secure WebAssembly sandboxing runtime","authors":"Johnson, Laufer, Zhao, Narayan, Savage, Stefan, Brown","awardType":"distinguished_paper","tags":["WebAssembly","Sandbox"],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10179357"},{"year":2023,"paperTitle":"Weak Fiat-Shamir Attacks on Modern Proof Systems","authors":"Dao, Miller, Wright, Grubbs","awardType":"distinguished_paper","tags":["Zero-Knowledge","Cryptography"],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10179408"},{"year":2024,"paperTitle":"BENZENE: A Practical Root Cause Analysis System with an Under-Constrained State Mutation","authors":"Park, Lee, Jung, Koo, Kim","awardType":"distinguished_paper","tags":["Fuzzing","Root Cause Analysis"],"paperUrl":"https://doi.org/10.1109/SP54263.2024.00074"},{"year":2024,"paperTitle":"From Chatbots to Phishbots?: Phishing Scam Generation in Commercial Large Language Models","authors":"Roy, Thota, Naragam, Nilizadeh","awardType":"distinguished_paper","tags":["LLM","Phishing"],"paperUrl":"https://arxiv.org/abs/2406.01964"},{"year":2024,"paperTitle":"SoK: Prudent Evaluation Practices for Fuzzing","authors":"Schloegel, Bars, Schiller, Bernhard et al.","awardType":"distinguished_paper","tags":["Fuzzing","SoK"],"paperUrl":"http://arxiv.org/abs/2405.10220v1"},{"year":2024,"paperTitle":"WESEE: Using Malicious #VC Interrupts to Break AMD SEV-SNP","authors":"Schlüter, Sridhara, Bertschi, Shinde","awardType":"distinguished_paper","tags":["TEE","Microarchitecture"],"paperUrl":"http://arxiv.org/abs/2404.03526v1"},{"year":2025,"paperTitle":"Breaking the Barrier: Post-Barrier Spectre Attacks","authors":"Wikner, Razavi","awardType":"distinguished_paper","tags":["Spectre","Microarchitecture"],"paperUrl":"https://doi.org/10.1109/SP61157.2025.00089"},{"year":2025,"paperTitle":"The Inadequacy of Similarity-based Privacy Metrics: Privacy Attacks against 'Truly Anonymous' Synthetic Datasets","authors":"Ganev, De Cristofaro","awardType":"distinguished_paper","tags":["Privacy","Synthetic Data"],"paperUrl":"http://arxiv.org/abs/2312.05114v5"},{"year":2023,"paperTitle":"Practically-exploitable Cryptographic Vulnerabilities in Matrix","authors":"Martin Albrecht, Sofía Celi, Benjamin Dowling, Daniel Jones","awardType":"best_paper","tags":[],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10351027"},{"year":2023,"paperTitle":"Typing High-Speed Cryptography against Spectre v1","authors":"Basavesh Ammanaghatta Shivakumar, Gilles Barthe, Benjamin Grégoire, Vincent Laporte, Tiago Oliviera, Swarn Priya, Peter Schwabe, Lucas Tabary-Maujean","awardType":"best_paper","tags":[],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10179418"},{"year":2023,"paperTitle":"Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations","authors":"Endres Puschner, Thorben Moos, Christian Kison, Steffen Becker, Amir Moradi, Christof Paar","awardType":"best_paper","tags":["Hardware","Detection"],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10179341"},{"year":2023,"paperTitle":"It's (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses","authors":"Soheil Khodayari & Giancarlo Pellegrino","awardType":"best_paper","tags":[],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10179403"},{"year":2023,"paperTitle":"The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web","authors":"Jannis Rautenstrauch, Giancarlo Pellegrino, Ben Stock","awardType":"best_paper","tags":[],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10179311"},{"year":2023,"paperTitle":"Characterizing Everyday Misuse of Smart Home Devices","authors":"Phoebe Moh, Pubali Datta, Noel Warford, Adam Bates, Nathan Malkin, Michelle Mazurek","awardType":"best_paper","tags":["Smart Home"],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10179476"},{"year":2023,"paperTitle":"Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution","authors":"Boya Wang, Wouter Lueks, Justinas Sukaitis, Vincent Graf Narbel, Carmela Troncoso","awardType":"best_paper","tags":["Privacy"],"paperUrl":"https://arxiv.org/abs/2303.17343"},{"year":2023,"paperTitle":"\"In Eighty Percent of the Cases, I Select the Password for Them\": Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya","authors":"Collins W. Munyendo, Yasemin Acar, Adam J. Aviv","awardType":"best_paper","tags":["Privacy"],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10179410"},{"year":2023,"paperTitle":"Space Odyssey: An Experimental Software Security Analysis of Satellites","authors":"Johannes Willbold, Moritz Schloegel, Manuel Vögele, Maximilian Gerhardt, Thorsten Holz, Ali Abbasi","awardType":"best_paper","tags":[],"paperUrl":"https://doi.org/10.1109/SP46215.2023.10351029"},{"year":2022,"paperTitle":"Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions","authors":"Hammond Pearce, Baleegh Ahmad, Benjamin Tan, Brendan Dolan-Gavitt, Ramesh Karri","awardType":"best_paper","tags":[],"paperUrl":"https://arxiv.org/abs/2108.09293"},{"year":2022,"paperTitle":"Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices","authors":"Haoqi Shan, Boyi Zhang, Zihao Zhan, Dean Sullivan, Shuo Wang, Yier Jin","awardType":"best_paper","tags":["Touch Interfaces"],"paperUrl":"https://arxiv.org/abs/2402.02227"},{"year":2021,"paperTitle":"Hardware-Software Contracts for Secure Speculation","authors":"Marco Guarnieri, Boris Köpf, Jan Reineke, Pepe Vila","awardType":"best_paper","tags":["Hardware"],"paperUrl":"https://arxiv.org/abs/2006.03841"},{"year":2020,"paperTitle":"TRRespass: Exploiting the Many Sides of Target Row Refresh","authors":"Pietro Frigo, Emanuele Vannacci, Hasan Hassan, Victor van der Veen, Onur Mutlu, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi","awardType":"best_paper","tags":[],"paperUrl":"https://arxiv.org/abs/2004.01807"}],"acceptanceRates":[{"year":2020,"accepted":104,"submitted":1012,"rate":10.3},{"year":2021,"accepted":115,"submitted":1134,"rate":10.1},{"year":2022,"accepted":147,"submitted":1202,"rate":12.2},{"year":2023,"accepted":196,"submitted":1331,"rate":14.7},{"year":2024,"accepted":171,"submitted":1466,"rate":11.7}],"keywordTrends":[{"year":2021,"keyword":"Sparse","count":1},{"year":2021,"keyword":"Backdoor","count":1},{"year":2021,"keyword":"Contrastive Learning","count":1},{"year":2021,"keyword":"Zero-Shot","count":1},{"year":2021,"keyword":"Compression","count":1},{"year":2021,"keyword":"LoRA","count":1},{"year":2022,"keyword":"Reinforcement Learning","count":1},{"year":2022,"keyword":"Object Detection","count":1},{"year":2022,"keyword":"RL","count":1},{"year":2022,"keyword":"Contrastive Learning","count":1},{"year":2022,"keyword":"Multimodal","count":1},{"year":2023,"keyword":"GNN","count":1},{"year":2023,"keyword":"Agent","count":1},{"year":2023,"keyword":"Chain-of-Thought","count":1},{"year":2023,"keyword":"ChatGPT","count":1},{"year":2023,"keyword":"Prompt","count":3},{"year":2023,"keyword":"Text-to-Image","count":2},{"year":2023,"keyword":"Generative","count":2},{"year":2023,"keyword":"Watermark","count":1},{"year":2024,"keyword":"Reward Model","count":1},{"year":2024,"keyword":"Image Generation","count":1},{"year":2024,"keyword":"LLM","count":2},{"year":2024,"keyword":"Diffusion","count":1},{"year":2024,"keyword":"Dataset","count":1},{"year":2020,"keyword":"Transformer","count":1},{"year":2020,"keyword":"Backdoor","count":1},{"year":2021,"keyword":"Graph","count":3},{"year":2025,"keyword":"Optimization","count":3},{"year":2025,"keyword":"Transfer Learning","count":1},{"year":2020,"keyword":"Cloud","count":1},{"year":2020,"keyword":"Consensus","count":1},{"year":2020,"keyword":"Access Control","count":2},{"year":2020,"keyword":"Safety","count":5},{"year":2020,"keyword":"FPGA","count":1},{"year":2020,"keyword":"Speculative","count":1},{"year":2020,"keyword":"Graph","count":1},{"year":2020,"keyword":"Data Augmentation","count":1},{"year":2020,"keyword":"Routing","count":1},{"year":2020,"keyword":"Malware","count":1},{"year":2020,"keyword":"Reinforcement Learning","count":2},{"year":2020,"keyword":"Multi-Agent","count":1},{"year":2020,"keyword":"Robustness","count":1},{"year":2020,"keyword":"Agent","count":1},{"year":2020,"keyword":"Usability","count":1},{"year":2020,"keyword":"Robot","count":1},{"year":2020,"keyword":"3D","count":1},{"year":2020,"keyword":"DRAM","count":1},{"year":2020,"keyword":"SGX","count":1},{"year":2020,"keyword":"Kernel","count":2},{"year":2020,"keyword":"Embedded","count":2},{"year":2020,"keyword":"Distributed","count":1},{"year":2020,"keyword":"VAE","count":1},{"year":2020,"keyword":"Differential Privacy","count":4},{"year":2020,"keyword":"Encryption","count":1},{"year":2020,"keyword":"Convex","count":1},{"year":2020,"keyword":"SDN","count":1},{"year":2020,"keyword":"Wireless","count":1},{"year":2020,"keyword":"Blockchain","count":1},{"year":2020,"keyword":"Side-Channel","count":1},{"year":2020,"keyword":"Trusted Execution","count":1},{"year":2021,"keyword":"Autonomous Driving","count":4},{"year":2021,"keyword":"Localization","count":1},{"year":2021,"keyword":"Autonomous","count":4},{"year":2021,"keyword":"Cyber-Physical","count":2},{"year":2021,"keyword":"CPS","count":1},{"year":2021,"keyword":"Transformer","count":2},{"year":2021,"keyword":"Adversarial","count":4},{"year":2021,"keyword":"Efficient","count":3},{"year":2021,"keyword":"Authentication","count":1},{"year":2021,"keyword":"Malware","count":3},{"year":2021,"keyword":"Differential Privacy","count":2},{"year":2021,"keyword":"Privacy","count":10},{"year":2021,"keyword":"Safety","count":3},{"year":2021,"keyword":"Testing","count":2},{"year":2021,"keyword":"Manipulation","count":1},{"year":2021,"keyword":"Fuzzing","count":3},{"year":2021,"keyword":"Kernel","count":3},{"year":2021,"keyword":"Blockchain","count":1},{"year":2021,"keyword":"Post-Quantum","count":2},{"year":2021,"keyword":"Signature","count":2},{"year":2021,"keyword":"Reinforcement Learning","count":2},{"year":2021,"keyword":"Intrusion Detection","count":1},{"year":2021,"keyword":"Dataset","count":2},{"year":2021,"keyword":"Federated Learning","count":1},{"year":2021,"keyword":"IoT","count":4},{"year":2021,"keyword":"Latency","count":1},{"year":2021,"keyword":"Distributed","count":1},{"year":2021,"keyword":"Cache","count":4},{"year":2021,"keyword":"Automotive","count":1},{"year":2021,"keyword":"Robustness","count":1},{"year":2021,"keyword":"Embedded","count":1},{"year":2021,"keyword":"Optimization","count":1},{"year":2021,"keyword":"Compiler","count":1},{"year":2021,"keyword":"Side-Channel","count":3},{"year":2021,"keyword":"Homomorphic","count":2},{"year":2021,"keyword":"Encryption","count":3},{"year":2021,"keyword":"Representation Learning","count":1},{"year":2021,"keyword":"Speculative","count":1},{"year":2021,"keyword":"Benchmark","count":1},{"year":2021,"keyword":"Embedding","count":1},{"year":2021,"keyword":"RISC-V","count":1},{"year":2021,"keyword":"GPU","count":1},{"year":2021,"keyword":"Vulnerability","count":1},{"year":2021,"keyword":"Access Control","count":1},{"year":2021,"keyword":"Zero-Knowledge","count":1},{"year":2021,"keyword":"RL","count":1},{"year":2021,"keyword":"Formal Verification","count":1},{"year":2021,"keyword":"Self-Supervised","count":1},{"year":2022,"keyword":"Graph","count":5},{"year":2022,"keyword":"DevOps","count":1},{"year":2022,"keyword":"Bandwidth","count":1},{"year":2022,"keyword":"Speculative","count":4},{"year":2022,"keyword":"Adversarial","count":6},{"year":2022,"keyword":"Testing","count":2},{"year":2022,"keyword":"IoT","count":2},{"year":2022,"keyword":"Differential Privacy","count":3},{"year":2022,"keyword":"Privacy","count":10},{"year":2022,"keyword":"Malware","count":2},{"year":2022,"keyword":"TLS","count":1},{"year":2022,"keyword":"Trusted Execution","count":1},{"year":2022,"keyword":"Embedded","count":2},{"year":2022,"keyword":"Smart Contract","count":1},{"year":2022,"keyword":"Efficient","count":3},{"year":2022,"keyword":"Fuzzing","count":5},{"year":2022,"keyword":"Vulnerability","count":1},{"year":2022,"keyword":"Wireless","count":3},{"year":2022,"keyword":"Post-Quantum","count":2},{"year":2022,"keyword":"Robustness","count":1},{"year":2022,"keyword":"Distributed","count":2},{"year":2022,"keyword":"Blockchain","count":2},{"year":2022,"keyword":"Access Control","count":1},{"year":2022,"keyword":"Manipulation","count":1},{"year":2022,"keyword":"Prefetch","count":1},{"year":2022,"keyword":"Cache","count":3},{"year":2022,"keyword":"Autonomous","count":1},{"year":2022,"keyword":"3D","count":1},{"year":2022,"keyword":"Routing","count":1},{"year":2022,"keyword":"Latency","count":1},{"year":2022,"keyword":"Throughput","count":1},{"year":2022,"keyword":"Authentication","count":2},{"year":2022,"keyword":"Pruning","count":1},{"year":2022,"keyword":"Self-Supervised","count":1},{"year":2022,"keyword":"Backdoor","count":1},{"year":2022,"keyword":"Replication","count":1},{"year":2022,"keyword":"GPU","count":1},{"year":2022,"keyword":"Kernel","count":2},{"year":2022,"keyword":"Transformer","count":1},{"year":2022,"keyword":"DRAM","count":1},{"year":2022,"keyword":"Compiler","count":1},{"year":2022,"keyword":"Copilot","count":1},{"year":2022,"keyword":"Multi-Party Computation","count":1},{"year":2022,"keyword":"Sublinear","count":1},{"year":2022,"keyword":"Scheduling","count":1},{"year":2022,"keyword":"Federated Learning","count":1},{"year":2022,"keyword":"Zero-Knowledge","count":1},{"year":2022,"keyword":"Homomorphic","count":1},{"year":2022,"keyword":"Encryption","count":2},{"year":2022,"keyword":"Virtual Reality","count":1},{"year":2022,"keyword":"Hash","count":1},{"year":2022,"keyword":"Cloud","count":1},{"year":2022,"keyword":"Side-Channel","count":2},{"year":2022,"keyword":"Mesh","count":1},{"year":2022,"keyword":"Dataset","count":1},{"year":2022,"keyword":"Cyber-Physical","count":1},{"year":2022,"keyword":"Real-Time","count":1},{"year":2022,"keyword":"TEE","count":1},{"year":2022,"keyword":"GAN","count":1},{"year":2022,"keyword":"Summarization","count":1},{"year":2022,"keyword":"Static Analysis","count":1},{"year":2022,"keyword":"SGX","count":1},{"year":2022,"keyword":"Sparse","count":1},{"year":2023,"keyword":"Robustness","count":4},{"year":2023,"keyword":"Encryption","count":2},{"year":2023,"keyword":"Bias","count":2},{"year":2023,"keyword":"RISC-V","count":2},{"year":2023,"keyword":"Post-Quantum","count":1},{"year":2023,"keyword":"Malware","count":5},{"year":2023,"keyword":"Privacy","count":20},{"year":2023,"keyword":"Fuzzing","count":10},{"year":2023,"keyword":"Federated Learning","count":9},{"year":2023,"keyword":"Intrusion Detection","count":1},{"year":2023,"keyword":"Efficient","count":9},{"year":2023,"keyword":"Blockchain","count":2},{"year":2023,"keyword":"Consensus","count":1},{"year":2023,"keyword":"MPC","count":2},{"year":2023,"keyword":"Distributed","count":4},{"year":2023,"keyword":"Wireless","count":2},{"year":2023,"keyword":"Differential Privacy","count":2},{"year":2023,"keyword":"Adversarial","count":3},{"year":2023,"keyword":"IoT","count":4},{"year":2023,"keyword":"Vulnerability","count":7},{"year":2023,"keyword":"Type System","count":1},{"year":2023,"keyword":"Cache","count":1},{"year":2023,"keyword":"Attention","count":1},{"year":2023,"keyword":"Kernel","count":8},{"year":2023,"keyword":"Compression","count":2},{"year":2023,"keyword":"Concurrency","count":1},{"year":2023,"keyword":"Testing","count":2},{"year":2023,"keyword":"Object Detection","count":2},{"year":2023,"keyword":"Autonomous","count":1},{"year":2023,"keyword":"3D","count":2},{"year":2023,"keyword":"Abstract Interpretation","count":1},{"year":2023,"keyword":"Authentication","count":5},{"year":2023,"keyword":"Compiler","count":2},{"year":2023,"keyword":"Embedded","count":3},{"year":2023,"keyword":"Side-Channel","count":2},{"year":2023,"keyword":"Backdoor","count":7},{"year":2023,"keyword":"Safety","count":1},{"year":2023,"keyword":"5G","count":1},{"year":2023,"keyword":"Access Control","count":2},{"year":2023,"keyword":"Diffusion","count":1},{"year":2023,"keyword":"TLS","count":1},{"year":2023,"keyword":"Speculative","count":1},{"year":2023,"keyword":"Zero-Shot","count":2},{"year":2023,"keyword":"Lattice","count":1},{"year":2023,"keyword":"SQL","count":2},{"year":2023,"keyword":"Contrastive Learning","count":2},{"year":2023,"keyword":"Multimodal","count":1},{"year":2023,"keyword":"Cellular","count":1},{"year":2023,"keyword":"Hash","count":1},{"year":2023,"keyword":"Automotive","count":1},{"year":2023,"keyword":"VR","count":1},{"year":2023,"keyword":"Graph","count":2},{"year":2023,"keyword":"Virtual Reality","count":1},{"year":2023,"keyword":"Self-Supervised","count":1},{"year":2023,"keyword":"RL","count":2},{"year":2024,"keyword":"Reinforcement Learning","count":4},{"year":2024,"keyword":"Adversarial","count":14},{"year":2024,"keyword":"Safety","count":4},{"year":2024,"keyword":"Self-Supervised","count":2},{"year":2024,"keyword":"Privacy","count":29},{"year":2024,"keyword":"SGX","count":2},{"year":2024,"keyword":"Complexity","count":1},{"year":2024,"keyword":"Static Analysis","count":1},{"year":2024,"keyword":"Testing","count":3},{"year":2024,"keyword":"Fuzzing","count":13},{"year":2024,"keyword":"Malware","count":1},{"year":2024,"keyword":"IoT","count":8},{"year":2024,"keyword":"Differential Privacy","count":8},{"year":2024,"keyword":"Blockchain","count":3},{"year":2024,"keyword":"Lattice","count":1},{"year":2024,"keyword":"MPC","count":3},{"year":2024,"keyword":"Microservice","count":1},{"year":2024,"keyword":"Graph","count":11},{"year":2024,"keyword":"Virtual Reality","count":1},{"year":2024,"keyword":"Federated Learning","count":7},{"year":2024,"keyword":"Kernel","count":1},{"year":2024,"keyword":"Smart Contract","count":3},{"year":2024,"keyword":"Distributed","count":4},{"year":2024,"keyword":"Efficient","count":16},{"year":2024,"keyword":"Dataflow","count":1},{"year":2024,"keyword":"Intrusion Detection","count":3},{"year":2024,"keyword":"Object Detection","count":1},{"year":2024,"keyword":"Backdoor","count":9},{"year":2024,"keyword":"Embedded","count":1},{"year":2024,"keyword":"GNN","count":2},{"year":2024,"keyword":"Robustness","count":5},{"year":2024,"keyword":"Hash","count":2},{"year":2024,"keyword":"Reconstruction","count":3},{"year":2024,"keyword":"Zero-Knowledge","count":7},{"year":2024,"keyword":"Side-Channel","count":3},{"year":2024,"keyword":"Accelerator","count":1},{"year":2024,"keyword":"Embedding","count":1},{"year":2024,"keyword":"Cache","count":1},{"year":2024,"keyword":"Consensus","count":2},{"year":2024,"keyword":"ChatGPT","count":2},{"year":2024,"keyword":"Multimodal","count":3},{"year":2024,"keyword":"Container","count":1},{"year":2024,"keyword":"Manipulation","count":5},{"year":2024,"keyword":"Storage","count":3},{"year":2024,"keyword":"Prompt","count":4},{"year":2024,"keyword":"Wireless","count":3},{"year":2024,"keyword":"Automotive","count":1},{"year":2024,"keyword":"VR","count":1},{"year":2024,"keyword":"Localization","count":1},{"year":2024,"keyword":"Vulnerability","count":4},{"year":2024,"keyword":"Encryption","count":2},{"year":2024,"keyword":"Wearable","count":2},{"year":2024,"keyword":"Cloud","count":1},{"year":2024,"keyword":"FPGA","count":1},{"year":2024,"keyword":"Watermark","count":2},{"year":2024,"keyword":"Usability","count":1},{"year":2024,"keyword":"Latency","count":1},{"year":2024,"keyword":"Cyber-Physical","count":1},{"year":2024,"keyword":"Simulation","count":2},{"year":2024,"keyword":"Transfer Learning","count":1},{"year":2024,"keyword":"Index","count":1},{"year":2024,"keyword":"TCP","count":1},{"year":2024,"keyword":"Authentication","count":2},{"year":2024,"keyword":"Trusted Execution","count":1},{"year":2024,"keyword":"Consistency","count":1},{"year":2024,"keyword":"Representation Learning","count":2},{"year":2024,"keyword":"Interconnect","count":1},{"year":2024,"keyword":"Text-to-Image","count":2},{"year":2024,"keyword":"Generative","count":2},{"year":2024,"keyword":"Data Center","count":1},{"year":2024,"keyword":"Real-Time","count":1},{"year":2024,"keyword":"Agent","count":1},{"year":2024,"keyword":"Routing","count":1},{"year":2024,"keyword":"Chain-of-Thought","count":1},{"year":2024,"keyword":"Pre-Training","count":1},{"year":2024,"keyword":"Post-Quantum","count":1},{"year":2024,"keyword":"Compression","count":1},{"year":2024,"keyword":"GPU","count":1},{"year":2024,"keyword":"Large Language Model","count":1},{"year":2024,"keyword":"Language Model","count":1},{"year":2024,"keyword":"Few-Shot","count":2},{"year":2024,"keyword":"3D","count":1},{"year":2024,"keyword":"TEE","count":1},{"year":2024,"keyword":"Optimization","count":1},{"year":2024,"keyword":"Fine-Tuning","count":1},{"year":2024,"keyword":"Sublinear","count":1},{"year":2025,"keyword":"Fine-Tuning","count":3},{"year":2025,"keyword":"Efficient","count":19},{"year":2025,"keyword":"Backdoor","count":3},{"year":2025,"keyword":"Reward Model","count":1},{"year":2025,"keyword":"Differential Privacy","count":6},{"year":2025,"keyword":"Privacy","count":36},{"year":2025,"keyword":"Index","count":1},{"year":2025,"keyword":"Homomorphic","count":2},{"year":2025,"keyword":"Encryption","count":3},{"year":2025,"keyword":"MPC","count":4},{"year":2025,"keyword":"Dataset","count":4},{"year":2025,"keyword":"Adversarial","count":8},{"year":2025,"keyword":"Storage","count":3},{"year":2025,"keyword":"Prompt","count":5},{"year":2025,"keyword":"Wireless","count":2},{"year":2025,"keyword":"ViT","count":2},{"year":2025,"keyword":"Quantization","count":1},{"year":2025,"keyword":"Real-Time","count":5},{"year":2025,"keyword":"Authentication","count":2},{"year":2025,"keyword":"Federated Learning","count":5},{"year":2025,"keyword":"Access Control","count":2},{"year":2025,"keyword":"5G","count":1},{"year":2025,"keyword":"Autonomous","count":4},{"year":2025,"keyword":"Conversational","count":1},{"year":2025,"keyword":"Post-Quantum","count":4},{"year":2025,"keyword":"Zero-Shot","count":1},{"year":2025,"keyword":"Fuzzing","count":6},{"year":2025,"keyword":"Blockchain","count":1},{"year":2025,"keyword":"Distributed","count":3},{"year":2025,"keyword":"Hash","count":1},{"year":2025,"keyword":"Usability","count":1},{"year":2025,"keyword":"Side-Channel","count":3},{"year":2025,"keyword":"Localization","count":2},{"year":2025,"keyword":"Embedded","count":2},{"year":2025,"keyword":"Intrusion Detection","count":2},{"year":2025,"keyword":"Reinforcement Learning","count":4},{"year":2025,"keyword":"Safety","count":4},{"year":2025,"keyword":"Embedding","count":2},{"year":2025,"keyword":"Testing","count":4},{"year":2025,"keyword":"TCP","count":1},{"year":2025,"keyword":"Generative","count":4},{"year":2025,"keyword":"NPU","count":1},{"year":2025,"keyword":"Few-Shot","count":1},{"year":2025,"keyword":"Malware","count":3},{"year":2025,"keyword":"LLM","count":6},{"year":2025,"keyword":"Image Generation","count":1},{"year":2025,"keyword":"Text-to-Image","count":3},{"year":2025,"keyword":"Zero-Knowledge","count":4},{"year":2025,"keyword":"Scheduling","count":1},{"year":2025,"keyword":"Robustness","count":4},{"year":2025,"keyword":"Simulation","count":1},{"year":2025,"keyword":"Manipulation","count":2},{"year":2025,"keyword":"Serverless","count":1},{"year":2025,"keyword":"Jailbreak","count":1},{"year":2025,"keyword":"OLAP","count":1},{"year":2025,"keyword":"Multi-Party Computation","count":1},{"year":2025,"keyword":"Memory Safety","count":2},{"year":2025,"keyword":"IoT","count":4},{"year":2025,"keyword":"Virtualization","count":2},{"year":2025,"keyword":"Large Language Model","count":3},{"year":2025,"keyword":"Language Model","count":3},{"year":2025,"keyword":"Vulnerability","count":7},{"year":2025,"keyword":"Speculative","count":1},{"year":2025,"keyword":"Bug Detection","count":1},{"year":2025,"keyword":"P4","count":1},{"year":2025,"keyword":"Cellular","count":2},{"year":2025,"keyword":"Agent","count":1},{"year":2025,"keyword":"Diffusion","count":1},{"year":2025,"keyword":"Microservice","count":1},{"year":2025,"keyword":"Graph","count":2},{"year":2025,"keyword":"GNN","count":1},{"year":2025,"keyword":"Trusted Execution","count":1},{"year":2025,"keyword":"Operating System","count":1},{"year":2025,"keyword":"Cache","count":2},{"year":2025,"keyword":"Latency","count":3},{"year":2025,"keyword":"TLS","count":1},{"year":2025,"keyword":"Crowdsourcing","count":1},{"year":2025,"keyword":"Lattice","count":1},{"year":2025,"keyword":"Attention","count":1},{"year":2025,"keyword":"Virtual Reality","count":1},{"year":2025,"keyword":"VR","count":1},{"year":2025,"keyword":"User Study","count":1},{"year":2025,"keyword":"Segmentation","count":1},{"year":2025,"keyword":"Signature","count":2},{"year":2025,"keyword":"Graph Neural Network","count":1},{"year":2025,"keyword":"Pre-Training","count":1},{"year":2025,"keyword":"Kernel","count":1},{"year":2025,"keyword":"Visualization","count":1},{"year":2025,"keyword":"Cloud","count":1},{"year":2025,"keyword":"Alignment","count":1},{"year":2025,"keyword":"TEE","count":1},{"year":2025,"keyword":"Fairness","count":2},{"year":2025,"keyword":"Pruning","count":1},{"year":2020,"keyword":"Replication","count":1},{"year":2020,"keyword":"Privacy","count":12},{"year":2020,"keyword":"Bias","count":1},{"year":2020,"keyword":"Fuzzing","count":5},{"year":2020,"keyword":"Manipulation","count":1},{"year":2020,"keyword":"Cyber-Physical","count":2},{"year":2020,"keyword":"JIT","count":1},{"year":2020,"keyword":"Adversarial","count":7},{"year":2020,"keyword":"TEE","count":1},{"year":2020,"keyword":"Autonomous","count":7},{"year":2020,"keyword":"IoT","count":7},{"year":2020,"keyword":"Efficient","count":6},{"year":2020,"keyword":"Testing","count":1},{"year":2020,"keyword":"Authentication","count":3},{"year":2020,"keyword":"Gesture","count":1},{"year":2020,"keyword":"Cache","count":2}]}
+{
+  "id": "f228155e-5e30-4950-8701-34c6ce109c45",
+  "slug": "sp",
+  "nameEn": "IEEE Symposium on Security and Privacy",
+  "nameKr": null,
+  "acronym": "S&P",
+  "field": "Security",
+  "subField": "Security",
+  "dblpKey": "conf/sp",
+  "websiteUrl": "https://sp2026.ieee-security.org",
+  "description": "IEEE's premier security conference, commonly known as 'Oakland,' and the oldest among the Big Four security venues. It covers a broad range of topics including system security, privacy, and cryptography, and is held annually in May near San Francisco.",
+  "nextDeadline": "2025-11-13T23:59:00Z",
+  "daysUntilDeadline": -133,
+  "deadlineTimezone": "AoE",
+  "venue": "San Francisco, USA",
+  "conferenceStart": "2026-05-18",
+  "conferenceEnd": "2026-05-21",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "4"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "최우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "최우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "최우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A*"
+    },
+    {
+      "institution": "CCF",
+      "tier": "A"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": "Included"
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "first",
+      "abstractDeadline": "2025-05-29T23:59:00Z",
+      "paperDeadline": "2025-06-05T23:59:00Z",
+      "notificationDate": "2025-09-09T00:00:00Z",
+      "conferenceStart": "2026-05-18",
+      "conferenceEnd": "2026-05-21",
+      "venue": "San Francisco, USA",
+      "timezone": "AoE"
+    },
+    {
+      "year": 2026,
+      "cycle": "second",
+      "abstractDeadline": "2025-11-06T23:59:00Z",
+      "paperDeadline": "2025-11-13T23:59:00Z",
+      "notificationDate": "2026-03-09T00:00:00Z",
+      "conferenceStart": "2026-05-18",
+      "conferenceEnd": "2026-05-21",
+      "venue": "San Francisco, USA",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "Compositional Security for Reentrant Applications",
+      "authors": "Ethan Cecchetti, Siqiu Yao, Haobin Ni, Andrew C. Myers",
+      "awardType": "best_paper",
+      "tags": [
+        "program security",
+        "reentrancy",
+        "smart contracts"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2103.08577v2"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "The EMV Standard: Break, Fix, Verify",
+      "authors": "David Basin, Ralf Sasse, Jorge Toro-Pozo",
+      "awardType": "best_paper",
+      "tags": [
+        "security protocols",
+        "formal verification",
+        "EMV",
+        "payment"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2006.08249v3"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Assessing the Security of GitHub Copilot's Code Contributions",
+      "authors": "Pearce, Ahmad, Tan, Dolan-Gavitt, Karri",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "AI Code",
+        "Security"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2108.09293v3"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects",
+      "authors": "Wermke, Woehler, Klemmer, Fourné, Acar, Fahl",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Open Source",
+        "Trust"
+      ],
+      "paperUrl": "https://doi.org/10.1109/sp46214.2022.9833686"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Four Attacks and a Proof for Telegram",
+      "authors": "Albrecht, Mareková, Paterson, Stepanovs",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Cryptography",
+        "Protocol"
+      ],
+      "paperUrl": "https://doi.org/10.1007/s00145-025-09566-1"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "MEGA: Malleable Encryption Goes Awry",
+      "authors": "Backendal et al.",
+      "awardType": "best_paper",
+      "tags": [
+        "Encryption",
+        "Cryptanalysis"
+      ],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10179290"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "WaVe: a verifiably secure WebAssembly sandboxing runtime",
+      "authors": "Johnson, Laufer, Zhao, Narayan, Savage, Stefan, Brown",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "WebAssembly",
+        "Sandbox"
+      ],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10179357"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Weak Fiat-Shamir Attacks on Modern Proof Systems",
+      "authors": "Dao, Miller, Wright, Grubbs",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Zero-Knowledge",
+        "Cryptography"
+      ],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10179408"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "BENZENE: A Practical Root Cause Analysis System with an Under-Constrained State Mutation",
+      "authors": "Park, Lee, Jung, Koo, Kim",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Fuzzing",
+        "Root Cause Analysis"
+      ],
+      "paperUrl": "https://doi.org/10.1109/SP54263.2024.00074"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "From Chatbots to Phishbots?: Phishing Scam Generation in Commercial Large Language Models",
+      "authors": "Roy, Thota, Naragam, Nilizadeh",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "LLM",
+        "Phishing"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2406.01964"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "SoK: Prudent Evaluation Practices for Fuzzing",
+      "authors": "Schloegel, Bars, Schiller, Bernhard et al.",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Fuzzing",
+        "SoK"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2405.10220v1"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "WESEE: Using Malicious #VC Interrupts to Break AMD SEV-SNP",
+      "authors": "Schlüter, Sridhara, Bertschi, Shinde",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "TEE",
+        "Microarchitecture"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2404.03526v1"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Breaking the Barrier: Post-Barrier Spectre Attacks",
+      "authors": "Wikner, Razavi",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Spectre",
+        "Microarchitecture"
+      ],
+      "paperUrl": "https://doi.org/10.1109/SP61157.2025.00089"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "The Inadequacy of Similarity-based Privacy Metrics: Privacy Attacks against 'Truly Anonymous' Synthetic Datasets",
+      "authors": "Ganev, De Cristofaro",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Privacy",
+        "Synthetic Data"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2312.05114v5"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Practically-exploitable Cryptographic Vulnerabilities in Matrix",
+      "authors": "Martin Albrecht, Sofía Celi, Benjamin Dowling, Daniel Jones",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10351027"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Typing High-Speed Cryptography against Spectre v1",
+      "authors": "Basavesh Ammanaghatta Shivakumar, Gilles Barthe, Benjamin Grégoire, Vincent Laporte, Tiago Oliviera, Swarn Priya, Peter Schwabe, Lucas Tabary-Maujean",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10179418"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations",
+      "authors": "Endres Puschner, Thorben Moos, Christian Kison, Steffen Becker, Amir Moradi, Christof Paar",
+      "awardType": "best_paper",
+      "tags": [
+        "Hardware",
+        "Detection"
+      ],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10179341"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "It's (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses",
+      "authors": "Soheil Khodayari & Giancarlo Pellegrino",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10179403"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web",
+      "authors": "Jannis Rautenstrauch, Giancarlo Pellegrino, Ben Stock",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10179311"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Characterizing Everyday Misuse of Smart Home Devices",
+      "authors": "Phoebe Moh, Pubali Datta, Noel Warford, Adam Bates, Nathan Malkin, Michelle Mazurek",
+      "awardType": "best_paper",
+      "tags": [
+        "Smart Home"
+      ],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10179476"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution",
+      "authors": "Boya Wang, Wouter Lueks, Justinas Sukaitis, Vincent Graf Narbel, Carmela Troncoso",
+      "awardType": "best_paper",
+      "tags": [
+        "Privacy"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2303.17343"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "\"In Eighty Percent of the Cases, I Select the Password for Them\": Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
+      "authors": "Collins W. Munyendo, Yasemin Acar, Adam J. Aviv",
+      "awardType": "best_paper",
+      "tags": [
+        "Privacy"
+      ],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10179410"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Space Odyssey: An Experimental Software Security Analysis of Satellites",
+      "authors": "Johannes Willbold, Moritz Schloegel, Manuel Vögele, Maximilian Gerhardt, Thorsten Holz, Ali Abbasi",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1109/SP46215.2023.10351029"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions",
+      "authors": "Hammond Pearce, Baleegh Ahmad, Benjamin Tan, Brendan Dolan-Gavitt, Ramesh Karri",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://arxiv.org/abs/2108.09293"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
+      "authors": "Haoqi Shan, Boyi Zhang, Zihao Zhan, Dean Sullivan, Shuo Wang, Yier Jin",
+      "awardType": "best_paper",
+      "tags": [
+        "Touch Interfaces"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2402.02227"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Hardware-Software Contracts for Secure Speculation",
+      "authors": "Marco Guarnieri, Boris Köpf, Jan Reineke, Pepe Vila",
+      "awardType": "best_paper",
+      "tags": [
+        "Hardware"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2006.03841"
+    },
+    {
+      "year": 2020,
+      "paperTitle": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
+      "authors": "Pietro Frigo, Emanuele Vannacci, Hasan Hassan, Victor van der Veen, Onur Mutlu, Cristiano Giuffrida, Herbert Bos, Kaveh Razavi",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://arxiv.org/abs/2004.01807"
+    }
+  ],
+  "acceptanceRates": [
+    {
+      "year": 2020,
+      "accepted": 104,
+      "submitted": 1012,
+      "rate": 10.3
+    },
+    {
+      "year": 2021,
+      "accepted": 115,
+      "submitted": 1134,
+      "rate": 10.1
+    },
+    {
+      "year": 2022,
+      "accepted": 147,
+      "submitted": 1202,
+      "rate": 12.2
+    },
+    {
+      "year": 2023,
+      "accepted": 196,
+      "submitted": 1331,
+      "rate": 14.7
+    },
+    {
+      "year": 2024,
+      "accepted": 171,
+      "submitted": 1466,
+      "rate": 11.7
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Backdoor",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Contrastive Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Zero-Shot",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "LoRA",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Object Detection",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Contrastive Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Chain-of-Thought",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "ChatGPT",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Prompt",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Text-to-Image",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Watermark",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Reward Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Image Generation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "LLM",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Backdoor",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Access Control",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Safety",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Malware",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Reinforcement Learning",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Multi-Agent",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Robot",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "DRAM",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "SGX",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedded",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "VAE",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Differential Privacy",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Convex",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "SDN",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Wireless",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Side-Channel",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Trusted Execution",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Autonomous Driving",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Localization",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Autonomous",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Cyber-Physical",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "CPS",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Transformer",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Adversarial",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Authentication",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Malware",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Differential Privacy",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 10
+    },
+    {
+      "year": 2021,
+      "keyword": "Safety",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Manipulation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fuzzing",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Post-Quantum",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Signature",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Intrusion Detection",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Dataset",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Federated Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "IoT",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cache",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Automotive",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Compiler",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Side-Channel",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Homomorphic",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Encryption",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Representation Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "RISC-V",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Vulnerability",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Access Control",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Zero-Knowledge",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Formal Verification",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "DevOps",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Speculative",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Adversarial",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "IoT",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Differential Privacy",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Privacy",
+      "count": 10
+    },
+    {
+      "year": 2022,
+      "keyword": "Malware",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "TLS",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Trusted Execution",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Embedded",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Smart Contract",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Fuzzing",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Vulnerability",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Wireless",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Post-Quantum",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Blockchain",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Access Control",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Manipulation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Prefetch",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cache",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Authentication",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Backdoor",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "DRAM",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Compiler",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Copilot",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Multi-Party Computation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Federated Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Zero-Knowledge",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Encryption",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Side-Channel",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Mesh",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cyber-Physical",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "TEE",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Summarization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Static Analysis",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "SGX",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Robustness",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Encryption",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Bias",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "RISC-V",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Post-Quantum",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Malware",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Privacy",
+      "count": 20
+    },
+    {
+      "year": 2023,
+      "keyword": "Fuzzing",
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "keyword": "Federated Learning",
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "keyword": "Intrusion Detection",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "keyword": "Blockchain",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "MPC",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Wireless",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Differential Privacy",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Adversarial",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "IoT",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Vulnerability",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Type System",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Kernel",
+      "count": 8
+    },
+    {
+      "year": 2023,
+      "keyword": "Compression",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Testing",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Object Detection",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "3D",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Abstract Interpretation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Authentication",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Compiler",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Embedded",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Side-Channel",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Backdoor",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "5G",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Access Control",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "TLS",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Zero-Shot",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "SQL",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Contrastive Learning",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Cellular",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Automotive",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "RL",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Reinforcement Learning",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Adversarial",
+      "count": 14
+    },
+    {
+      "year": 2024,
+      "keyword": "Safety",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Self-Supervised",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Privacy",
+      "count": 29
+    },
+    {
+      "year": 2024,
+      "keyword": "SGX",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Static Analysis",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Testing",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Fuzzing",
+      "count": 13
+    },
+    {
+      "year": 2024,
+      "keyword": "Malware",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "IoT",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "keyword": "Differential Privacy",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "keyword": "Blockchain",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "MPC",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Microservice",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 11
+    },
+    {
+      "year": 2024,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Federated Learning",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Smart Contract",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 16
+    },
+    {
+      "year": 2024,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Intrusion Detection",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Object Detection",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Backdoor",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "GNN",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Robustness",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Hash",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Reconstruction",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Zero-Knowledge",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Side-Channel",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consensus",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "ChatGPT",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Multimodal",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Manipulation",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Storage",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Prompt",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Wireless",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Automotive",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Localization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Vulnerability",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Encryption",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Wearable",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Watermark",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Cyber-Physical",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Simulation",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "TCP",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Authentication",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Trusted Execution",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Representation Learning",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Interconnect",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Text-to-Image",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Data Center",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Chain-of-Thought",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Post-Quantum",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Large Language Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Few-Shot",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "TEE",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fine-Tuning",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 19
+    },
+    {
+      "year": 2025,
+      "keyword": "Backdoor",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Reward Model",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Differential Privacy",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Privacy",
+      "count": 36
+    },
+    {
+      "year": 2025,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Homomorphic",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Encryption",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "MPC",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Dataset",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Adversarial",
+      "count": 8
+    },
+    {
+      "year": 2025,
+      "keyword": "Storage",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Prompt",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Wireless",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "ViT",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Real-Time",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Authentication",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Federated Learning",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Access Control",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "5G",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Conversational",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Post-Quantum",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Zero-Shot",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fuzzing",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Side-Channel",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Localization",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Embedded",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Intrusion Detection",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Reinforcement Learning",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Safety",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Embedding",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "TCP",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Generative",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "NPU",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Few-Shot",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Malware",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Image Generation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Text-to-Image",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Zero-Knowledge",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Robustness",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Manipulation",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Serverless",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Jailbreak",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "OLAP",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Multi-Party Computation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Memory Safety",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "IoT",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Virtualization",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Large Language Model",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Vulnerability",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Bug Detection",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "P4",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cellular",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Microservice",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Trusted Execution",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Operating System",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Latency",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "TLS",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Crowdsourcing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "User Study",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Signature",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "TEE",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fairness",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 12
+    },
+    {
+      "year": 2020,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Fuzzing",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Manipulation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cyber-Physical",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "JIT",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Adversarial",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "TEE",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Autonomous",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "IoT",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Authentication",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Gesture",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cache",
+      "count": 2
+    }
+  ],
+  "descriptionKo": "IEEE에서 주최하는 보안 분야 최고 권위의 학회로, 일명 'Oakland'이라 불린다. 보안 4대 탑티어 중에서도 가장 오래된 역사를 자랑하며, 시스템 보안, 프라이버시, 암호학 등 폭넓은 주제를 다룬다. 매년 5월 샌프란시스코 인근에서 개최된다.",
+  "descriptionEn": "IEEE's premier security conference, commonly known as 'Oakland,' and the oldest among the Big Four security venues. It covers a broad range of topics including system security, privacy, and cryptography, and is held annually in May near San Francisco."
+}

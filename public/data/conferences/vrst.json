@@ -1,1 +1,93 @@
-{"id":"8b6f25e0-ec39-430d-b82c-4b912b71c130","slug":"vrst","nameEn":"ACM Symposium on Virtual Reality Software and Technology","nameKr":null,"acronym":"VRST","field":"HCI","subField":"Virtual Reality","dblpKey":"conf/vrst","websiteUrl":"https://vrst.acm.org/vrst2026/","description":null,"nextDeadline":"2026-06-15T23:59:00Z","daysUntilDeadline":81,"deadlineTimezone":"AoE","venue":"Sendai, Japan","conferenceStart":"2026-11-16","conferenceEnd":"2026-11-18","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":"C"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":"2026-06-08T23:59:00Z","paperDeadline":"2026-06-15T23:59:00Z","notificationDate":null,"conferenceStart":"2026-11-16","conferenceEnd":"2026-11-18","venue":"Sendai, Japan","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Stand Alone or Stay Together: An In-situ Experiment of Mixed-Reality Applications in Embryonic Anatomy Education","authors":"Schott, Kunz, Heinrich, Mandel, Albrecht, Braun-Dullaeus & Hansen","awardType":"best_paper","tags":["Mixed Reality","Medical Education"],"paperUrl":"https://doi.org/10.1145/3641825.3687706"},{"year":2025,"paperTitle":"See It and Hear It: Multimodal Guidance in MR-Based Neurosurgical Simulation for Skill Retention","authors":"Cascarano, Loretti, Zanuttini, Giunchi, Bovo, Hajahmadi, Vallasciani, Martinoni & Marfia","awardType":"best_paper","tags":["Neurosurgical Simulation","Mixed Reality"],"paperUrl":"https://doi.org/10.1145/3756884.3766034"}],"acceptanceRates":[],"keywordTrends":[]}
+{
+  "id": "8b6f25e0-ec39-430d-b82c-4b912b71c130",
+  "slug": "vrst",
+  "nameEn": "ACM Symposium on Virtual Reality Software and Technology",
+  "nameKr": null,
+  "acronym": "VRST",
+  "field": "HCI",
+  "subField": "Virtual Reality",
+  "dblpKey": "conf/vrst",
+  "websiteUrl": "https://vrst.acm.org/vrst2026/",
+  "description": "An ACM symposium on virtual reality software and technology, covering VR/AR interaction, 3D user interfaces, and immersive systems. Alongside IEEE VR, VRST is a key venue in the VR field, with a particular focus on software and technical implementation aspects.",
+  "nextDeadline": "2026-06-15T23:59:00Z",
+  "daysUntilDeadline": 81,
+  "deadlineTimezone": "AoE",
+  "venue": "Sendai, Japan",
+  "conferenceStart": "2026-11-16",
+  "conferenceEnd": "2026-11-18",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": "C"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": "2026-06-08T23:59:00Z",
+      "paperDeadline": "2026-06-15T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-11-16",
+      "conferenceEnd": "2026-11-18",
+      "venue": "Sendai, Japan",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Stand Alone or Stay Together: An In-situ Experiment of Mixed-Reality Applications in Embryonic Anatomy Education",
+      "authors": "Schott, Kunz, Heinrich, Mandel, Albrecht, Braun-Dullaeus & Hansen",
+      "awardType": "best_paper",
+      "tags": [
+        "Mixed Reality",
+        "Medical Education"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3641825.3687706"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "See It and Hear It: Multimodal Guidance in MR-Based Neurosurgical Simulation for Skill Retention",
+      "authors": "Cascarano, Loretti, Zanuttini, Giunchi, Bovo, Hajahmadi, Vallasciani, Martinoni & Marfia",
+      "awardType": "best_paper",
+      "tags": [
+        "Neurosurgical Simulation",
+        "Mixed Reality"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3756884.3766034"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [],
+  "descriptionKo": "가상현실 소프트웨어와 기술에 특화된 ACM 심포지엄으로, VR/AR 인터랙션, 3D 사용자 인터페이스, 몰입형 시스템 등을 다룹니다. IEEE VR과 함께 VR 분야의 주요 학회이며, 소프트웨어와 기술적 구현에 더 초점을 맞춘 것이 특징입니다.",
+  "descriptionEn": "An ACM symposium on virtual reality software and technology, covering VR/AR interaction, 3D user interfaces, and immersive systems. Alongside IEEE VR, VRST is a key venue in the VR field, with a particular focus on software and technical implementation aspects."
+}
