@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import type { Metadata } from "next";
 import { getConferences } from "@/infrastructure/container";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
@@ -7,9 +8,21 @@ import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { FieldBadge } from "@/presentation/components/conferences/field-badge";
 import { DeadlineBadge } from "@/presentation/components/conferences/deadline-badge";
 import { BookmarkButton } from "@/presentation/components/conferences/bookmark-button";
-import { AcceptanceRateChart } from "@/presentation/components/charts/acceptance-rate-chart";
-import { ConferenceKeywordChart } from "@/presentation/components/charts/conference-keyword-chart";
 import { formatDate } from "@/shared/utils/date";
+
+const AcceptanceRateChart = dynamic(
+  () => import("@/presentation/components/charts/acceptance-rate-chart").then((m) => m.AcceptanceRateChart),
+  {
+    loading: () => <div className="w-full h-[250px] bg-zinc-50 rounded-xl animate-pulse" />,
+  }
+);
+
+const ConferenceKeywordChart = dynamic(
+  () => import("@/presentation/components/charts/conference-keyword-chart").then((m) => m.ConferenceKeywordChart),
+  {
+    loading: () => <div className="w-full h-[300px] bg-zinc-50 rounded-xl animate-pulse" />,
+  }
+);
 import { formatAuthors } from "@/shared/utils/url";
 import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";

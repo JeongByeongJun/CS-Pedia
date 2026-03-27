@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import {
   getAllAcceptanceRates,
   getAllKeywordTrends,
@@ -6,11 +7,23 @@ import {
 } from "@/infrastructure/container";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
-import { MultiConferenceChart } from "@/presentation/components/charts/multi-conference-chart";
 import { TrendsTabs } from "@/presentation/components/charts/trends-tabs";
-import { KeywordTrendChart } from "@/presentation/components/charts/keyword-trend-chart";
-import { KeywordBarChart } from "@/presentation/components/charts/keyword-bar-chart";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
+
+const MultiConferenceChart = dynamic(
+  () => import("@/presentation/components/charts/multi-conference-chart").then((m) => m.MultiConferenceChart),
+  { loading: () => <div className="w-full h-[400px] bg-zinc-50 rounded-xl animate-pulse" /> }
+);
+
+const KeywordTrendChart = dynamic(
+  () => import("@/presentation/components/charts/keyword-trend-chart").then((m) => m.KeywordTrendChart),
+  { loading: () => <div className="w-full h-[400px] bg-zinc-50 rounded-xl animate-pulse" /> }
+);
+
+const KeywordBarChart = dynamic(
+  () => import("@/presentation/components/charts/keyword-bar-chart").then((m) => m.KeywordBarChart),
+  { loading: () => <div className="w-full h-[300px] bg-zinc-50 rounded-xl animate-pulse" /> }
+);
 
 export const metadata: Metadata = {
   title: "Trends — CS-Pedia",
