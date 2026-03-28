@@ -18,9 +18,12 @@ export function DeadlineBadge({ ddays, deadline, timezone }: DeadlineBadgeProps)
   const resolvedDdays = useMemo(() => {
     if (deadline) {
       const utc = deadlineToUTC(deadline, timezone ?? "AoE");
-      const diff = utc.getTime() - Date.now();
-      if (diff <= 0) return -1;
-      return Math.floor(diff / (1000 * 60 * 60 * 24));
+      // 날짜(일) 단위로만 비교 — 시간 무시
+      const deadlineDate = new Date(utc.getFullYear(), utc.getMonth(), utc.getDate());
+      const now = new Date();
+      const todayDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const diff = deadlineDate.getTime() - todayDate.getTime();
+      return Math.round(diff / (1000 * 60 * 60 * 24));
     }
     return ddays;
   }, [ddays, deadline, timezone]);

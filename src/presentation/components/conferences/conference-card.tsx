@@ -28,9 +28,10 @@ export function ConferenceCard({
   const ddays = useMemo(() => {
     if (!conference.nextDeadline) return conference.daysUntilDeadline;
     const utc = deadlineToUTC(conference.nextDeadline, conference.deadlineTimezone ?? "AoE");
-    const diff = utc.getTime() - Date.now();
-    if (diff <= 0) return -1;
-    return Math.floor(diff / (1000 * 60 * 60 * 24));
+    const deadlineDate = new Date(utc.getFullYear(), utc.getMonth(), utc.getDate());
+    const now = new Date();
+    const todayDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    return Math.round((deadlineDate.getTime() - todayDate.getTime()) / (1000 * 60 * 60 * 24));
   }, [conference.nextDeadline, conference.deadlineTimezone, conference.daysUntilDeadline]);
 
   const editionYear =
