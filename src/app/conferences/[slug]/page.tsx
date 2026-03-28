@@ -227,17 +227,9 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                   {conference.acronym}
                 </h1>
                 <FieldBadge field={conference.field} />
-                <DeadlineBadge ddays={conference.daysUntilDeadline} />
+                <DeadlineBadge ddays={conference.daysUntilDeadline} deadline={conference.nextDeadline} timezone={conference.deadlineTimezone} />
               </div>
-              <p className="text-zinc-500 mb-2">{conference.nameEn}</p>
-              {(conference.descriptionKo || conference.descriptionEn) && (
-                <p className="text-sm text-zinc-600 leading-relaxed mb-3">
-                  <LocaleText
-                    ko={conference.descriptionKo ?? conference.descriptionEn ?? ""}
-                    en={conference.descriptionEn ?? conference.descriptionKo ?? ""}
-                  />
-                </p>
-              )}
+              <p className="text-zinc-500 mb-3">{conference.nameEn}</p>
               <div className="flex items-center gap-3 flex-wrap">
                 {conference.websiteUrl && (
                   <a

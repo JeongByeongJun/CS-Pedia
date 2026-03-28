@@ -7,8 +7,8 @@ import { FieldBadge } from "./field-badge";
 import { InstitutionBadges } from "./institution-badges";
 import { BestPaperAccordion } from "./best-paper-accordion";
 import { BookmarkButton } from "./bookmark-button";
-import { useState, useEffect } from "react";
-import { formatDate, formatDeadlineLocal } from "@/shared/utils/date";
+import { useState, useEffect, useMemo } from "react";
+import { formatDate, formatDeadlineLocal, deadlineToUTC } from "@/shared/utils/date";
 import { conferenceUrl } from "@/shared/utils/url";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
@@ -24,7 +24,14 @@ export function ConferenceCard({
   isLoggedIn,
 }: ConferenceCardProps) {
   const { isKorean } = useLocale();
-  const ddays = conference.daysUntilDeadline;
+  // 클라이언트 실시간 D-day 재계산 (ISR 캐시와 무관하게 정확한 값)
+  const ddays = useMemo(() => {
+    if (!conference.nextDeadline) return conference.daysUntilDeadline;
+    const utc = deadlineToUTC(conference.nextDeadline, conference.deadlineTimezone ?? "AoE");
+    const diff = utc.getTime() - Date.now();
+    if (diff <= 0) return -1;
+    return Math.ceil(diff / (1000 * 60 * 60 * 24));
+  }, [conference.nextDeadline, conference.deadlineTimezone, conference.daysUntilDeadline]);
 
   const editionYear =
     conference.conferenceStart?.getFullYear() ??

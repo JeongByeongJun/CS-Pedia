@@ -1,14 +1,34 @@
 "use client";
 
+import { useMemo } from "react";
 import { getDdayStatus, formatDday } from "@/domain/value-objects/d-day";
+import { deadlineToUTC } from "@/shared/utils/date";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
-export function DeadlineBadge({ ddays }: { ddays: number | null }) {
-  const { isKorean } = useLocale();
-  if (ddays === null) return null;
+interface DeadlineBadgeProps {
+  ddays: number | null;
+  /** 실시간 재계산용 (optional) — 전달하면 ddays 대신 클라이언트 시간 기준으로 계산 */
+  deadline?: Date | string | null;
+  timezone?: string;
+}
 
-  const status = getDdayStatus(ddays);
-  const text = formatDday(ddays, isKorean);
+export function DeadlineBadge({ ddays, deadline, timezone }: DeadlineBadgeProps) {
+  const { isKorean } = useLocale();
+
+  const resolvedDdays = useMemo(() => {
+    if (deadline) {
+      const utc = deadlineToUTC(deadline, timezone ?? "AoE");
+      const diff = utc.getTime() - Date.now();
+      if (diff <= 0) return -1;
+      return Math.ceil(diff / (1000 * 60 * 60 * 24));
+    }
+    return ddays;
+  }, [ddays, deadline, timezone]);
+
+  if (resolvedDdays === null || resolvedDdays === undefined) return null;
+
+  const status = getDdayStatus(resolvedDdays);
+  const text = formatDday(resolvedDdays, isKorean);
 
   const styles: Record<string, string> = {
     passed: "bg-zinc-100 text-zinc-400 border border-zinc-200",

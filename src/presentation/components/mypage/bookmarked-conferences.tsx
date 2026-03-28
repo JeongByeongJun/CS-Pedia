@@ -82,7 +82,7 @@ export function BookmarkedConferences({
                 {conf.acronym}
               </span>
               <FieldBadge field={conf.field} />
-              <DeadlineBadge ddays={conf.daysUntilDeadline} />
+              <DeadlineBadge ddays={conf.daysUntilDeadline} deadline={conf.nextDeadline} timezone={conf.deadlineTimezone} />
             </div>
             <span style={{ fontSize: "12px", color: "#d4d4d8" }}>→</span>
           </div>
