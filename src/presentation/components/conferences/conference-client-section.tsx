@@ -7,6 +7,7 @@ import { ConferenceFilters } from "./conference-filters";
 import { ConferenceList } from "./conference-list";
 import { useLocale } from "@/presentation/hooks/use-locale";
 import { useAuth } from "@/presentation/providers/auth-provider";
+import { deadlineToUTC } from "@/shared/utils/date";
 
 const STORAGE_KEY = "cs-pedia-filters";
 
@@ -119,11 +120,19 @@ export function ConferenceClientSection({
       });
     }
 
+    const liveDdays = (c: ConferenceWithRelations) => {
+      if (!c.nextDeadline) return Infinity;
+      const utc = deadlineToUTC(c.nextDeadline, c.deadlineTimezone ?? "AoE");
+      const diff = utc.getTime() - Date.now();
+      if (diff <= 0) return -1;
+      return Math.floor(diff / (1000 * 60 * 60 * 24));
+    };
+
     return [...result].sort((a, b) => {
       const rankDiff = acronymRank(a) - acronymRank(b);
       if (rankDiff !== 0) return rankDiff;
-      const aDays = a.daysUntilDeadline ?? Infinity;
-      const bDays = b.daysUntilDeadline ?? Infinity;
+      const aDays = liveDdays(a);
+      const bDays = liveDdays(b);
       if (aDays < 0 && bDays >= 0) return 1;
       if (aDays >= 0 && bDays < 0) return -1;
       if (aDays < 0 && bDays < 0) return bDays - aDays;
