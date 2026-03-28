@@ -106,7 +106,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
       const TZ: Record<string, number> = { AoE: -12, HST: -10, PST: -8, PT: -8, PDT: -7, EST: -5, EDT: -4, UTC: 0, GMT: 0, CET: 1 };
       const offset = TZ[(detail.deadlineTimezone as string) ?? "AoE"] ?? -12;
       const utc = new Date(d.getTime() - offset * 60 * 60 * 1000);
-      return Math.ceil((utc.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
+      return Math.floor((utc.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
     })(),
     deadlineTimezone: detail.deadlineTimezone as string,
     venue: detail.venue as string | null,
