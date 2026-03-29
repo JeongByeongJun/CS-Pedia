@@ -267,11 +267,34 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
               isLoggedIn={false}
             />
           </div>
-          {(conference.descriptionKo || conference.descriptionEn) && (
-            <p className="text-sm text-zinc-500 mt-4 leading-relaxed border-t border-zinc-100 pt-4">
-              <LocaleText ko={conference.descriptionKo} en={conference.descriptionEn} />
-            </p>
-          )}
+          {(() => {
+            const rates = (detail.acceptanceRates as Array<{year: number; rate: number | null; accepted: number | null; submitted: number | null}>) ?? [];
+            const validRates = rates.filter(r => r.rate != null && r.submitted != null).sort((a, b) => b.year - a.year);
+            const latestRate = validRates[0] ?? null;
+            const trends = (detail.keywordTrends as Array<{year: number; keyword: string; count: number}>) ?? [];
+            const latestYear = trends.length > 0 ? Math.max(...trends.map(t => t.year)) : 0;
+            const topKeywords = trends.filter(t => t.year === latestYear).sort((a, b) => b.count - a.count).slice(0, 5);
+            if (!latestRate && topKeywords.length === 0) return null;
+            return (
+              <div className="mt-4 border-t border-zinc-100 pt-4 space-y-2.5">
+                {latestRate && (
+                  <div className="flex items-center gap-2 text-sm">
+                    <span className="text-zinc-400 shrink-0"><LocaleText ko="채택률" en="Acceptance" /></span>
+                    <span className="font-medium text-zinc-700">{latestRate.rate}%</span>
+                    <span className="text-xs text-zinc-400">({latestRate.year}, {latestRate.accepted?.toLocaleString()}/{latestRate.submitted?.toLocaleString()})</span>
+                  </div>
+                )}
+                {topKeywords.length > 0 && (
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="text-sm text-zinc-400 shrink-0"><LocaleText ko="키워드" en="Topics" /></span>
+                    {topKeywords.map(k => (
+                      <span key={k.keyword} className="text-xs px-2 py-0.5 bg-indigo-50 text-indigo-500 rounded-full">{k.keyword}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })()}
         </div>
 
         {/* 기관 인정 현황 / Rankings */}
