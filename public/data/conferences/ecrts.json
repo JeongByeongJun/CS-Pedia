@@ -116,6 +116,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 17,
+      "submitted": 62,
+      "rate": 27.4
+    },
+    {
       "year": 2020,
       "accepted": 2,
       "submitted": null,
@@ -434,6 +440,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ECRTS은 시스템 분야(Real-Time Systems)의 주요 국제 학회입니다. 주요 연구 키워드: Real-Time, Embedded, Robot, Schedulability, WCET. 매년 7월 개최. CORE B, BK21 1점.",
-  "descriptionEn": "ECRTS is a leading international conference in Systems (Real-Time Systems). Top research topics: Real-Time, Embedded, Robot, Schedulability, WCET. Typically held in July. CORE B."
+  "descriptionKo": "ECRTS은 시스템 분야(Real-Time Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 27.4% (2024년, 17/62편)입니다. 주요 연구 키워드: Real-Time, Embedded, Robot, Schedulability, WCET. 매년 7월 개최. CORE B, BK21 1점.",
+  "descriptionEn": "ECRTS is a leading international conference in Systems (Real-Time Systems). Recent acceptance rate: 27.4% (2024, 17/62 papers). Top research topics: Real-Time, Embedded, Robot, Schedulability, WCET. Typically held in July. CORE B."
 }

@@ -65,6 +65,12 @@
   "bestPapers": [],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 22,
+      "submitted": 113,
+      "rate": 19.5
+    },
+    {
       "year": 2021,
       "accepted": 1,
       "submitted": null,
@@ -533,6 +539,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ER은 데이터베이스 분야(Data Modeling)의 주요 국제 학회입니다. 주요 연구 키워드: LLM, Graph, Generative, Testing, SQL. 매년 10월 개최. CCF C등급, CORE A.",
-  "descriptionEn": "ER is a leading international conference in Databases (Data Modeling). Top research topics: LLM, Graph, Generative, Testing, SQL. Typically held in October. CCF rank C, CORE A."
+  "descriptionKo": "ER은 데이터베이스 분야(Data Modeling)의 주요 국제 학회입니다. 최근 acceptance rate는 19.5% (2024년, 22/113편)입니다. 주요 연구 키워드: LLM, Graph, Generative, Testing, SQL. 매년 10월 개최. CCF C등급, CORE A.",
+  "descriptionEn": "ER is a leading international conference in Databases (Data Modeling). Recent acceptance rate: 19.5% (2024, 22/113 papers). Top research topics: LLM, Graph, Generative, Testing, SQL. Typically held in October. CCF rank C, CORE A."
 }

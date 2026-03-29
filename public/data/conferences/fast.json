@@ -202,7 +202,14 @@
       "paperUrl": "https://www.semanticscholar.org/paper/ea3126b88dc191200ea0bf275f092cb70cbad319"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 22,
+      "submitted": 123,
+      "rate": 17.9
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2023,
@@ -800,6 +807,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "FAST은 시스템 분야(Storage)의 주요 국제 학회입니다. 주요 연구 키워드: Storage, Efficient, Cloud, Distributed, LLM. 매년 2월 개최. CCF A등급, CORE A, BK21 3점.",
-  "descriptionEn": "FAST is a leading international conference in Systems (Storage). Top research topics: Storage, Efficient, Cloud, Distributed, LLM. Typically held in February. CCF rank A, CORE A."
+  "descriptionKo": "FAST은 시스템 분야(Storage)의 주요 국제 학회입니다. 최근 acceptance rate는 17.9% (2024년, 22/123편)입니다. 주요 연구 키워드: Storage, Efficient, Cloud, Distributed, LLM. 매년 2월 개최. CCF A등급, CORE A, BK21 3점.",
+  "descriptionEn": "FAST is a leading international conference in Systems (Storage). Recent acceptance rate: 17.9% (2024, 22/123 papers). Top research topics: Storage, Efficient, Cloud, Distributed, LLM. Typically held in February. CCF rank A, CORE A."
 }

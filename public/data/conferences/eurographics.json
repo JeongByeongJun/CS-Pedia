@@ -213,7 +213,14 @@
       "paperUrl": "https://doi.org/10.1111/cgf.70057"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 75,
+      "submitted": 205,
+      "rate": 36.6
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -1111,6 +1118,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "Eurographics은 그래픽스 분야(Computer Graphics)의 주요 국제 학회입니다. 주요 연구 키워드: 3D, Rendering, Real-Time, Diffusion, Gaussian Splatting. 매년 5월 개최. CCF B등급, BK21 2점.",
-  "descriptionEn": "Eurographics is a leading international conference in Graphics (Computer Graphics). Top research topics: 3D, Rendering, Real-Time, Diffusion, Gaussian Splatting. Typically held in May. CCF rank B."
+  "descriptionKo": "Eurographics은 그래픽스 분야(Computer Graphics)의 주요 국제 학회입니다. 최근 acceptance rate는 36.6% (2025년, 75/205편)입니다. 주요 연구 키워드: 3D, Rendering, Real-Time, Diffusion, Gaussian Splatting. 매년 5월 개최. CCF B등급, BK21 2점.",
+  "descriptionEn": "Eurographics is a leading international conference in Graphics (Computer Graphics). Recent acceptance rate: 36.6% (2025, 75/205 papers). Top research topics: 3D, Rendering, Real-Time, Diffusion, Gaussian Splatting. Typically held in May. CCF rank B."
 }

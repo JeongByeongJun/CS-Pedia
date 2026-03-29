@@ -163,7 +163,14 @@
       "paperUrl": "http://arxiv.org/abs/2410.05750v1"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 123,
+      "submitted": 602,
+      "rate": 20.4
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -716,6 +723,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "EUROCRYPT은 보안 분야(Cryptography)의 주요 국제 학회입니다. 주요 연구 키워드: Encryption, Efficient, Homomorphic, Complexity, MPC. 매년 5월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "EUROCRYPT is a leading international conference in Security (Cryptography). Top research topics: Encryption, Efficient, Homomorphic, Complexity, MPC. Typically held in May. CCF rank A, CORE A*."
+  "descriptionKo": "EUROCRYPT은 보안 분야(Cryptography)의 주요 국제 학회입니다. 최근 acceptance rate는 20.4% (2025년, 123/602편)입니다. 주요 연구 키워드: Encryption, Efficient, Homomorphic, Complexity, MPC. 매년 5월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "EUROCRYPT is a leading international conference in Security (Cryptography). Recent acceptance rate: 20.4% (2025, 123/602 papers). Top research topics: Encryption, Efficient, Homomorphic, Complexity, MPC. Typically held in May. CCF rank A, CORE A*."
 }

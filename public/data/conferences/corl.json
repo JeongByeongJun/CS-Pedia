@@ -129,6 +129,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 264,
+      "submitted": 671,
+      "rate": 39.3
+    },
+    {
       "year": 2021,
       "accepted": 2,
       "submitted": null,
@@ -1523,6 +1529,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "CoRL은 로보틱스 분야(Robot Learning)의 주요 국제 학회입니다. 주요 연구 키워드: Segmentation, Multi-Agent, Agent. 매년 11월 개최.",
-  "descriptionEn": "CoRL is a leading international conference in Robotics (Robot Learning). Top research topics: Segmentation, Multi-Agent, Agent. Typically held in November."
+  "descriptionKo": "CoRL은 로보틱스 분야(Robot Learning)의 주요 국제 학회입니다. 최근 acceptance rate는 39.3% (2024년, 264/671편)입니다. 주요 연구 키워드: Segmentation, Multi-Agent, Agent. 매년 11월 개최.",
+  "descriptionEn": "CoRL is a leading international conference in Robotics (Robot Learning). Recent acceptance rate: 39.3% (2024, 264/671 papers). Top research topics: Segmentation, Multi-Agent, Agent. Typically held in November."
 }

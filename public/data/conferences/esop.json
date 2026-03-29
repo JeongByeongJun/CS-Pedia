@@ -75,7 +75,14 @@
       "paperUrl": "https://doi.org/10.1007/978-3-031-91121-7_3"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 26,
+      "submitted": 72,
+      "rate": 36.1
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -318,6 +325,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ESOP은 프로그래밍 언어 분야(Programming Languages Theory)의 주요 국제 학회입니다. 주요 연구 키워드: Formal Verification, Dataflow, Robustness, RDMA, Type Theory. 매년 4월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ESOP is a leading international conference in Programming Languages (Programming Languages Theory). Top research topics: Formal Verification, Dataflow, Robustness, RDMA, Type Theory. Typically held in April. CCF rank B, CORE A."
+  "descriptionKo": "ESOP은 프로그래밍 언어 분야(Programming Languages Theory)의 주요 국제 학회입니다. 최근 acceptance rate는 36.1% (2024년, 26/72편)입니다. 주요 연구 키워드: Formal Verification, Dataflow, Robustness, RDMA, Type Theory. 매년 4월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ESOP is a leading international conference in Programming Languages (Programming Languages Theory). Recent acceptance rate: 36.1% (2024, 26/72 papers). Top research topics: Formal Verification, Dataflow, Robustness, RDMA, Type Theory. Typically held in April. CCF rank B, CORE A."
 }

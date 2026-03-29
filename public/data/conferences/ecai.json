@@ -143,6 +143,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 544,
+      "submitted": 2344,
+      "rate": 23.2
+    },
+    {
       "year": 2020,
       "accepted": 11,
       "submitted": null,
@@ -2471,6 +2477,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ECAI은 AI/ML 분야(Artificial Intelligence)의 주요 국제 학회입니다. 주요 연구 키워드: Graph, Reinforcement Learning, Efficient, Agent, Federated Learning. 매년 8월 개최. CCF B등급, CORE A, BK21 1점.",
-  "descriptionEn": "ECAI is a leading international conference in AI/ML (Artificial Intelligence). Top research topics: Graph, Reinforcement Learning, Efficient, Agent, Federated Learning. Typically held in August. CCF rank B, CORE A."
+  "descriptionKo": "ECAI은 AI/ML 분야(Artificial Intelligence)의 주요 국제 학회입니다. 최근 acceptance rate는 23.2% (2024년, 544/2344편)입니다. 주요 연구 키워드: Graph, Reinforcement Learning, Efficient, Agent, Federated Learning. 매년 8월 개최. CCF B등급, CORE A, BK21 1점.",
+  "descriptionEn": "ECAI is a leading international conference in AI/ML (Artificial Intelligence). Recent acceptance rate: 23.2% (2024, 544/2344 papers). Top research topics: Graph, Reinforcement Learning, Efficient, Agent, Federated Learning. Typically held in August. CCF rank B, CORE A."
 }

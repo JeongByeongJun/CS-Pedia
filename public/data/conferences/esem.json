@@ -80,7 +80,14 @@
       "paperUrl": "http://arxiv.org/abs/2108.03758v1"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 34,
+      "submitted": 139,
+      "rate": 24
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -533,6 +540,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ESEM은 소프트웨어 공학 분야(Empirical SE)의 주요 국제 학회입니다. 주요 연구 키워드: LLM, Testing, Transformer, Bias, Microservice. 매년 10월 개최. CCF B등급, CORE A.",
-  "descriptionEn": "ESEM is a leading international conference in Software Engineering (Empirical SE). Top research topics: LLM, Testing, Transformer, Bias, Microservice. Typically held in October. CCF rank B, CORE A."
+  "descriptionKo": "ESEM은 소프트웨어 공학 분야(Empirical SE)의 주요 국제 학회입니다. 최근 acceptance rate는 24% (2024년, 34/139편)입니다. 주요 연구 키워드: LLM, Testing, Transformer, Bias, Microservice. 매년 10월 개최. CCF B등급, CORE A.",
+  "descriptionEn": "ESEM is a leading international conference in Software Engineering (Empirical SE). Recent acceptance rate: 24% (2024, 34/139 papers). Top research topics: LLM, Testing, Transformer, Bias, Microservice. Typically held in October. CCF rank B, CORE A."
 }

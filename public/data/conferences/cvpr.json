@@ -264,6 +264,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 2878,
+      "submitted": 13008,
+      "rate": 22.1
+    },
+    {
       "year": 2024,
       "accepted": 2719,
       "submitted": 11532,
@@ -4561,6 +4567,6 @@
       "count": 17
     }
   ],
-  "descriptionKo": "CVPR은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 최근 acceptance rate는 23.6% (2024년, 2719/11532편)입니다. 주요 연구 키워드: 3D, Diffusion, Segmentation, Efficient, Multimodal. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "CVPR is a leading international conference in Computer Vision. Recent acceptance rate: 23.6% (2024, 2719/11532 papers). Top research topics: 3D, Diffusion, Segmentation, Efficient, Multimodal. Typically held in June. CCF rank A, CORE A*."
+  "descriptionKo": "CVPR은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 최근 acceptance rate는 22.1% (2025년, 2878/13008편)입니다. 주요 연구 키워드: 3D, Diffusion, Segmentation, Efficient, Multimodal. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "CVPR is a leading international conference in Computer Vision. Recent acceptance rate: 22.1% (2025, 2878/13008 papers). Top research topics: 3D, Diffusion, Segmentation, Efficient, Multimodal. Typically held in June. CCF rank A, CORE A*."
 }

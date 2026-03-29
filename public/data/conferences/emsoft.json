@@ -86,7 +86,14 @@
       "paperUrl": "https://arxiv.org/abs/2504.10325"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 28,
+      "submitted": 129,
+      "rate": 21.7
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2025,
@@ -119,6 +126,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "EMSOFT은 시스템 분야(Embedded Software)의 주요 국제 학회입니다. 주요 연구 키워드: Embedded, Cyber-Physical, Distributed, Optimization, Federated Learning. 매년 10월 개최. CCF B등급, BK21 2점.",
-  "descriptionEn": "EMSOFT is a leading international conference in Systems (Embedded Software). Top research topics: Embedded, Cyber-Physical, Distributed, Optimization, Federated Learning. Typically held in October. CCF rank B."
+  "descriptionKo": "EMSOFT은 시스템 분야(Embedded Software)의 주요 국제 학회입니다. 최근 acceptance rate는 21.7% (2024년, 28/129편)입니다. 주요 연구 키워드: Embedded, Cyber-Physical, Distributed, Optimization, Federated Learning. 매년 10월 개최. CCF B등급, BK21 2점.",
+  "descriptionEn": "EMSOFT is a leading international conference in Systems (Embedded Software). Recent acceptance rate: 21.7% (2024, 28/129 papers). Top research topics: Embedded, Cyber-Physical, Distributed, Optimization, Federated Learning. Typically held in October. CCF rank B."
 }

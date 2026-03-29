@@ -187,6 +187,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 143,
+      "submitted": 526,
+      "rate": 27.2
+    },
+    {
       "year": 2021,
       "accepted": 1,
       "submitted": null,
@@ -851,6 +857,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "CRYPTO은 보안 분야(Cryptography)의 주요 국제 학회입니다. 주요 연구 키워드: Encryption, Lattice, Homomorphic, Efficient, Zero-Knowledge. 매년 8월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "CRYPTO is a leading international conference in Security (Cryptography). Top research topics: Encryption, Lattice, Homomorphic, Efficient, Zero-Knowledge. Typically held in August. CCF rank A, CORE A*."
+  "descriptionKo": "CRYPTO은 보안 분야(Cryptography)의 주요 국제 학회입니다. 최근 acceptance rate는 27.2% (2024년, 143/526편)입니다. 주요 연구 키워드: Encryption, Lattice, Homomorphic, Efficient, Zero-Knowledge. 매년 8월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "CRYPTO is a leading international conference in Security (Cryptography). Recent acceptance rate: 27.2% (2024, 143/526 papers). Top research topics: Encryption, Lattice, Homomorphic, Efficient, Zero-Knowledge. Typically held in August. CCF rank A, CORE A*."
 }

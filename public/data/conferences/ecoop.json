@@ -88,6 +88,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 42,
+      "submitted": 102,
+      "rate": 41.2
+    },
+    {
       "year": 2021,
       "accepted": 1,
       "submitted": null,
@@ -472,6 +478,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ECOOP은 프로그래밍 언어 분야(Object-Oriented Programming)의 주요 국제 학회입니다. 주요 연구 키워드: Testing, Graph, Compiler, Efficient, Optimization. 매년 6월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ECOOP is a leading international conference in Programming Languages (Object-Oriented Programming). Top research topics: Testing, Graph, Compiler, Efficient, Optimization. Typically held in June. CCF rank B, CORE A."
+  "descriptionKo": "ECOOP은 프로그래밍 언어 분야(Object-Oriented Programming)의 주요 국제 학회입니다. 최근 acceptance rate는 41.2% (2025년, 42/102편)입니다. 주요 연구 키워드: Testing, Graph, Compiler, Efficient, Optimization. 매년 6월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ECOOP is a leading international conference in Programming Languages (Object-Oriented Programming). Recent acceptance rate: 41.2% (2025, 42/102 papers). Top research topics: Testing, Graph, Compiler, Efficient, Optimization. Typically held in June. CCF rank B, CORE A."
 }

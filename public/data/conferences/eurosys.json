@@ -170,6 +170,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 85,
+      "submitted": 696,
+      "rate": 12.2
+    },
+    {
       "year": 2024,
       "accepted": 52,
       "submitted": 285,
@@ -1152,6 +1158,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "EuroSys은 시스템 분야(Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 18.2% (2024년, 52/285편)입니다. 주요 연구 키워드: Efficient, Cloud, Kernel, Distributed, Congestion Control. 매년 4월 개최. CCF A등급, CORE A, BK21 2점.",
-  "descriptionEn": "EuroSys is a leading international conference in Systems. Recent acceptance rate: 18.2% (2024, 52/285 papers). Top research topics: Efficient, Cloud, Kernel, Distributed, Congestion Control. Typically held in April. CCF rank A, CORE A."
+  "descriptionKo": "EuroSys은 시스템 분야(Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 12.2% (2025년, 85/696편)입니다. 주요 연구 키워드: Efficient, Cloud, Kernel, Distributed, Congestion Control. 매년 4월 개최. CCF A등급, CORE A, BK21 2점.",
+  "descriptionEn": "EuroSys is a leading international conference in Systems. Recent acceptance rate: 12.2% (2025, 85/696 papers). Top research topics: Efficient, Cloud, Kernel, Distributed, Congestion Control. Typically held in April. CCF rank A, CORE A."
 }

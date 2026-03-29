@@ -109,6 +109,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 40,
+      "submitted": 97,
+      "rate": 41.2
+    },
+    {
       "year": 2021,
       "accepted": 1,
       "submitted": null,
@@ -538,6 +544,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "CoNLL은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 주요 연구 키워드: Transformer, Segmentation, Efficient, Benchmark, Large Language Model. 매년 7월 개최. CCF C등급, CORE B.",
-  "descriptionEn": "CoNLL is a leading international conference in Natural Language Processing. Top research topics: Transformer, Segmentation, Efficient, Benchmark, Large Language Model. Typically held in July. CCF rank C, CORE B."
+  "descriptionKo": "CoNLL은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 최근 acceptance rate는 41.2% (2024년, 40/97편)입니다. 주요 연구 키워드: Transformer, Segmentation, Efficient, Benchmark, Large Language Model. 매년 7월 개최. CCF C등급, CORE B.",
+  "descriptionEn": "CoNLL is a leading international conference in Natural Language Processing. Recent acceptance rate: 41.2% (2024, 40/97 papers). Top research topics: Transformer, Segmentation, Efficient, Benchmark, Large Language Model. Typically held in July. CCF rank C, CORE B."
 }

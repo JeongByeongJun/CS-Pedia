@@ -86,8 +86,15 @@
       "paperUrl": "https://arxiv.org/abs/2505.20915"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 55,
+      "submitted": 161,
+      "rate": 34.2
+    }
+  ],
   "keywordTrends": [],
-  "descriptionKo": "DISC은 이론 컴퓨터과학 분야(Distributed Computing)의 주요 국제 학회입니다. 매년 11월 개최. CORE A, BK21 2점.",
-  "descriptionEn": "DISC is a leading international conference in Theoretical Computer Science (Distributed Computing). Typically held in November. CORE A."
+  "descriptionKo": "DISC은 이론 컴퓨터과학 분야(Distributed Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 34.2% (2024년, 55/161편)입니다. 매년 11월 개최. CORE A, BK21 2점.",
+  "descriptionEn": "DISC is a leading international conference in Theoretical Computer Science (Distributed Computing). Recent acceptance rate: 34.2% (2024, 55/161 papers). Typically held in November. CORE A."
 }

@@ -182,7 +182,14 @@
       "paperUrl": "http://arxiv.org/abs/2007.10541v3"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 56,
+      "submitted": 277,
+      "rate": 20.2
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2024,
@@ -1720,6 +1727,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "DSN은 보안 분야(Dependable Systems)의 주요 국제 학회입니다. 주요 연구 키워드: Autonomous, Adversarial, Federated Learning, LLM, Testing. 매년 6월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "DSN is a leading international conference in Security (Dependable Systems). Top research topics: Autonomous, Adversarial, Federated Learning, LLM, Testing. Typically held in June. CCF rank B, CORE A."
+  "descriptionKo": "DSN은 보안 분야(Dependable Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 20.2% (2025년, 56/277편)입니다. 주요 연구 키워드: Autonomous, Adversarial, Federated Learning, LLM, Testing. 매년 6월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "DSN is a leading international conference in Security (Dependable Systems). Recent acceptance rate: 20.2% (2025, 56/277 papers). Top research topics: Autonomous, Adversarial, Federated Learning, LLM, Testing. Typically held in June. CCF rank B, CORE A."
 }

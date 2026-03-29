@@ -63,7 +63,14 @@
     }
   ],
   "bestPapers": [],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 46,
+      "submitted": 300,
+      "rate": 15.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -606,6 +613,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "FC은 보안 분야(Financial Cryptography)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, Transaction, Homomorphic, Graph, Consensus. 매년 3월 개최. CCF C등급, CORE A, BK21 1점.",
-  "descriptionEn": "FC is a leading international conference in Security (Financial Cryptography). Top research topics: Efficient, Transaction, Homomorphic, Graph, Consensus. Typically held in March. CCF rank C, CORE A."
+  "descriptionKo": "FC은 보안 분야(Financial Cryptography)의 주요 국제 학회입니다. 최근 acceptance rate는 15.3% (2025년, 46/300편)입니다. 주요 연구 키워드: Efficient, Transaction, Homomorphic, Graph, Consensus. 매년 3월 개최. CCF C등급, CORE A, BK21 1점.",
+  "descriptionEn": "FC is a leading international conference in Security (Financial Cryptography). Recent acceptance rate: 15.3% (2025, 46/300 papers). Top research topics: Efficient, Transaction, Homomorphic, Graph, Consensus. Typically held in March. CCF rank C, CORE A."
 }

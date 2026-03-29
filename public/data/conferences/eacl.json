@@ -179,7 +179,14 @@
       "paperUrl": "http://arxiv.org/abs/2402.03927v2"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 226,
+      "submitted": 1271,
+      "rate": 17.8
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1492,6 +1499,6 @@
       "count": 5
     }
   ],
-  "descriptionKo": "EACL은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 주요 연구 키워드: Contrastive Learning. 매년 3월 개최. CORE A, BK21 2점.",
-  "descriptionEn": "EACL is a leading international conference in Natural Language Processing. Top research topics: Contrastive Learning. Typically held in March. CORE A."
+  "descriptionKo": "EACL은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 최근 acceptance rate는 17.8% (2024년, 226/1271편)입니다. 주요 연구 키워드: Contrastive Learning. 매년 3월 개최. CORE A, BK21 2점.",
+  "descriptionEn": "EACL is a leading international conference in Natural Language Processing. Recent acceptance rate: 17.8% (2024, 226/1271 papers). Top research topics: Contrastive Learning. Typically held in March. CORE A."
 }

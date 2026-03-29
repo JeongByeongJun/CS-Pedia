@@ -126,7 +126,14 @@
       "paperUrl": "https://doi.org/10.1007/978-3-031-30637-2_23"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 136,
+      "submitted": 731,
+      "rate": 18.6
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -2139,6 +2146,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "DASFAA은 데이터베이스 분야(Database)의 주요 국제 학회입니다. 주요 연구 키워드: Graph, Knowledge Graph, Efficient, Language Model, LLM. 매년 4월 개최. CCF B등급, CORE B, BK21 1점.",
-  "descriptionEn": "DASFAA is a leading international conference in Databases (Database). Top research topics: Graph, Knowledge Graph, Efficient, Language Model, LLM. Typically held in April. CCF rank B, CORE B."
+  "descriptionKo": "DASFAA은 데이터베이스 분야(Database)의 주요 국제 학회입니다. 최근 acceptance rate는 18.6% (2025년, 136/731편)입니다. 주요 연구 키워드: Graph, Knowledge Graph, Efficient, Language Model, LLM. 매년 4월 개최. CCF B등급, CORE B, BK21 1점.",
+  "descriptionEn": "DASFAA is a leading international conference in Databases (Database). Recent acceptance rate: 18.6% (2025, 136/731 papers). Top research topics: Graph, Knowledge Graph, Efficient, Language Model, LLM. Typically held in April. CCF rank B, CORE B."
 }

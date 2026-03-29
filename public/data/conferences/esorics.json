@@ -106,6 +106,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 86,
+      "submitted": 535,
+      "rate": 16.1
+    },
+    {
       "year": 2021,
       "accepted": 1,
       "submitted": null,
@@ -1470,6 +1476,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ESORICS은 보안 분야(Security)의 주요 국제 학회입니다. 주요 연구 키워드: Privacy, Encryption, Efficient, Adversarial, Cache. 매년 9월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ESORICS is a leading international conference in Security. Top research topics: Privacy, Encryption, Efficient, Adversarial, Cache. Typically held in September. CCF rank B, CORE A."
+  "descriptionKo": "ESORICS은 보안 분야(Security)의 주요 국제 학회입니다. 최근 acceptance rate는 16.1% (2024년, 86/535편)입니다. 주요 연구 키워드: Privacy, Encryption, Efficient, Adversarial, Cache. 매년 9월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ESORICS is a leading international conference in Security. Recent acceptance rate: 16.1% (2024, 86/535 papers). Top research topics: Privacy, Encryption, Efficient, Adversarial, Cache. Typically held in September. CCF rank B, CORE A."
 }

@@ -91,7 +91,14 @@
       "paperUrl": "https://arxiv.org/abs/2002.06465"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 11,
+      "submitted": 31,
+      "rate": 35.5
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2024,
@@ -429,6 +436,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "FASE은 소프트웨어 공학 분야(Software Engineering)의 주요 국제 학회입니다. 주요 연구 키워드: Large Language Model, Language Model, Formal Verification, Fuzzing, Graph. 매년 4월 개최. CORE B, BK21 1점.",
-  "descriptionEn": "FASE is a leading international conference in Software Engineering. Top research topics: Large Language Model, Language Model, Formal Verification, Fuzzing, Graph. Typically held in April. CORE B."
+  "descriptionKo": "FASE은 소프트웨어 공학 분야(Software Engineering)의 주요 국제 학회입니다. 최근 acceptance rate는 35.5% (2025년, 11/31편)입니다. 주요 연구 키워드: Large Language Model, Language Model, Formal Verification, Fuzzing, Graph. 매년 4월 개최. CORE B, BK21 1점.",
+  "descriptionEn": "FASE is a leading international conference in Software Engineering. Recent acceptance rate: 35.5% (2025, 11/31 papers). Top research topics: Large Language Model, Language Model, Formal Verification, Fuzzing, Graph. Typically held in April. CORE B."
 }

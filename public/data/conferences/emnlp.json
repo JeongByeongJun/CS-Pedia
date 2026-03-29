@@ -191,8 +191,8 @@
     {
       "year": 2024,
       "accepted": 1271,
-      "submitted": 5684,
-      "rate": 22.4
+      "submitted": 6105,
+      "rate": 20.8
     },
     {
       "year": 2023,
@@ -3531,6 +3531,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "EMNLP은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 최근 acceptance rate는 22.4% (2024년, 1271/5684편)입니다. 주요 연구 키워드: LLM, Multimodal, Benchmark, Efficient, Agent. 매년 10월 개최. CCF B등급, CORE A*, BK21 3점.",
-  "descriptionEn": "EMNLP is a leading international conference in Natural Language Processing. Recent acceptance rate: 22.4% (2024, 1271/5684 papers). Top research topics: LLM, Multimodal, Benchmark, Efficient, Agent. Typically held in October. CCF rank B, CORE A*."
+  "descriptionKo": "EMNLP은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 최근 acceptance rate는 20.8% (2024년, 1271/6105편)입니다. 주요 연구 키워드: LLM, Multimodal, Benchmark, Efficient, Agent. 매년 10월 개최. CCF B등급, CORE A*, BK21 3점.",
+  "descriptionEn": "EMNLP is a leading international conference in Natural Language Processing. Recent acceptance rate: 20.8% (2024, 1271/6105 papers). Top research topics: LLM, Multimodal, Benchmark, Efficient, Agent. Typically held in October. CCF rank B, CORE A*."
 }

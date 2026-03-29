@@ -144,6 +144,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 337,
+      "submitted": 1545,
+      "rate": 21.8
+    },
+    {
       "year": 2021,
       "accepted": 1,
       "submitted": null,
@@ -3153,6 +3159,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "DAC은 컴퓨터 구조 분야(Design Automation)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, Accelerator, Optimization, LLM, Graph. 매년 7월 개최. CCF A등급, BK21 3점.",
-  "descriptionEn": "DAC is a leading international conference in Computer Architecture (Design Automation). Top research topics: Efficient, Accelerator, Optimization, LLM, Graph. Typically held in July. CCF rank A."
+  "descriptionKo": "DAC은 컴퓨터 구조 분야(Design Automation)의 주요 국제 학회입니다. 최근 acceptance rate는 21.8% (2024년, 337/1545편)입니다. 주요 연구 키워드: Efficient, Accelerator, Optimization, LLM, Graph. 매년 7월 개최. CCF A등급, BK21 3점.",
+  "descriptionEn": "DAC is a leading international conference in Computer Architecture (Design Automation). Recent acceptance rate: 21.8% (2024, 337/1545 papers). Top research topics: Efficient, Accelerator, Optimization, LLM, Graph. Typically held in July. CCF rank A."
 }

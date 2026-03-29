@@ -65,6 +65,12 @@
   "bestPapers": [],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 103,
+      "submitted": 333,
+      "rate": 31
+    },
+    {
       "year": 2020,
       "accepted": 3,
       "submitted": null,
@@ -663,6 +669,6 @@
       "count": 8
     }
   ],
-  "descriptionKo": "ESA은 이론 컴퓨터과학 분야(Algorithms)의 주요 국제 학회입니다. 주요 연구 키워드: Graph, Parameterized, Testing, Convex, Efficient. 매년 8월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ESA is a leading international conference in Theoretical Computer Science (Algorithms). Top research topics: Graph, Parameterized, Testing, Convex, Efficient. Typically held in August. CCF rank B, CORE A."
+  "descriptionKo": "ESA은 이론 컴퓨터과학 분야(Algorithms)의 주요 국제 학회입니다. 최근 acceptance rate는 31% (2024년, 103/333편)입니다. 주요 연구 키워드: Graph, Parameterized, Testing, Convex, Efficient. 매년 8월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ESA is a leading international conference in Theoretical Computer Science (Algorithms). Recent acceptance rate: 31% (2024, 103/333 papers). Top research topics: Graph, Parameterized, Testing, Convex, Efficient. Typically held in August. CCF rank B, CORE A."
 }

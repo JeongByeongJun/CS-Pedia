@@ -101,7 +101,14 @@
       "paperUrl": "https://doi.org/10.1111/cgf.14894"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 16,
+      "submitted": 50,
+      "rate": 32
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -389,6 +396,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "EGSR은 그래픽스 분야(Rendering)의 주요 국제 학회입니다. 주요 연구 키워드: Rendering, Diffusion, Real-Time, 3D, Radiance Field. 매년 7월 개최. CCF B등급.",
-  "descriptionEn": "EGSR is a leading international conference in Graphics (Rendering). Top research topics: Rendering, Diffusion, Real-Time, 3D, Radiance Field. Typically held in July. CCF rank B."
+  "descriptionKo": "EGSR은 그래픽스 분야(Rendering)의 주요 국제 학회입니다. 최근 acceptance rate는 32% (2024년, 16/50편)입니다. 주요 연구 키워드: Rendering, Diffusion, Real-Time, 3D, Radiance Field. 매년 7월 개최. CCF B등급.",
+  "descriptionEn": "EGSR is a leading international conference in Graphics (Rendering). Recent acceptance rate: 32% (2024, 16/50 papers). Top research topics: Rendering, Diffusion, Real-Time, 3D, Radiance Field. Typically held in July. CCF rank B."
 }
