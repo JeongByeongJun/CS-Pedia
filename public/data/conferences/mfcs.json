@@ -1,1 +1,471 @@
-{"id":"654e07b5-5aeb-4fbd-b847-66d3cb5f5de3","slug":"mfcs","nameEn":"International Symposium on Mathematical Foundations of Computer Science","nameKr":null,"acronym":"MFCS","field":"Theory","subField":"Foundations","dblpKey":"conf/mfcs","websiteUrl":null,"description":null,"nextDeadline":"2026-04-24T23:59:00Z","daysUntilDeadline":28,"deadlineTimezone":"AoE","venue":"Paris, France","conferenceStart":"2026-08-24","conferenceEnd":"2026-08-28","institutionRatings":[{"institution":"BK21","tier":null},{"institution":"KIISE","tier":"우수"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":"C"},{"institution":"CSRankings","tier":null},{"institution":"KAIST","tier":null},{"institution":"SNU","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-04-24T23:59:00Z","notificationDate":"2026-06-19T00:00:00Z","conferenceStart":"2026-08-24","conferenceEnd":"2026-08-28","venue":"Paris, France","timezone":"AoE"}],"bestPapers":[],"acceptanceRates":[],"keywordTrends":[{"year":2020,"keyword":"Efficient","count":2},{"year":2020,"keyword":"Graph","count":6},{"year":2020,"keyword":"Sparse","count":1},{"year":2020,"keyword":"Embedding","count":1},{"year":2021,"keyword":"Testing","count":1},{"year":2021,"keyword":"Parameterized","count":2},{"year":2021,"keyword":"Complexity","count":7},{"year":2021,"keyword":"Graph","count":4},{"year":2021,"keyword":"Efficient","count":2},{"year":2021,"keyword":"Convergence","count":1},{"year":2021,"keyword":"Distributed","count":1},{"year":2021,"keyword":"Kernel","count":1},{"year":2021,"keyword":"Lattice","count":1},{"year":2021,"keyword":"Join","count":1},{"year":2021,"keyword":"Approximation Algorithm","count":1},{"year":2021,"keyword":"Type Theory","count":1},{"year":2021,"keyword":"SAT","count":1},{"year":2021,"keyword":"Index","count":1},{"year":2021,"keyword":"Sublinear","count":1},{"year":2022,"keyword":"Parameterized","count":4},{"year":2022,"keyword":"Complexity","count":8},{"year":2022,"keyword":"Graph","count":4},{"year":2022,"keyword":"Lower Bound","count":1},{"year":2022,"keyword":"Agent","count":1},{"year":2022,"keyword":"Compression","count":2},{"year":2022,"keyword":"Approximation Algorithm","count":1},{"year":2022,"keyword":"NP-Hard","count":1},{"year":2022,"keyword":"SAT","count":1},{"year":2022,"keyword":"Model Checking","count":1},{"year":2023,"keyword":"Graph","count":5},{"year":2023,"keyword":"Fixed-Parameter","count":1},{"year":2023,"keyword":"Complexity","count":10},{"year":2023,"keyword":"Distributed","count":3},{"year":2023,"keyword":"Parameterized","count":7},{"year":2023,"keyword":"Simulation","count":1},{"year":2023,"keyword":"Testing","count":1},{"year":2023,"keyword":"Embedding","count":1},{"year":2023,"keyword":"Routing","count":1},{"year":2023,"keyword":"Efficient","count":1},{"year":2023,"keyword":"Join","count":1},{"year":2024,"keyword":"Sparse","count":4},{"year":2024,"keyword":"Sublinear","count":1},{"year":2024,"keyword":"Complexity","count":10},{"year":2024,"keyword":"Graph","count":5},{"year":2024,"keyword":"Shape","count":1},{"year":2024,"keyword":"Compression","count":1},{"year":2024,"keyword":"Parameterized","count":1},{"year":2024,"keyword":"Scheduling","count":1},{"year":2024,"keyword":"Routing","count":1},{"year":2024,"keyword":"Efficient","count":1},{"year":2024,"keyword":"Program Analysis","count":1},{"year":2024,"keyword":"Real-Time","count":1},{"year":2025,"keyword":"Routing","count":1},{"year":2025,"keyword":"Cellular","count":1},{"year":2025,"keyword":"Complexity","count":10},{"year":2025,"keyword":"Graph","count":4},{"year":2025,"keyword":"Optimization","count":2},{"year":2025,"keyword":"Convex","count":1},{"year":2025,"keyword":"Sublinear","count":1},{"year":2025,"keyword":"Low-Rank","count":1},{"year":2025,"keyword":"Model Checking","count":1},{"year":2025,"keyword":"Parameterized","count":2},{"year":2025,"keyword":"SAT","count":1},{"year":2025,"keyword":"Distributed","count":1},{"year":2025,"keyword":"Efficient","count":1},{"year":2023,"keyword":"Compression","count":1},{"year":2024,"keyword":"Optimization","count":1},{"year":2020,"keyword":"Kernel","count":1},{"year":2020,"keyword":"Complexity","count":9},{"year":2020,"keyword":"Testing","count":1},{"year":2020,"keyword":"AR","count":1},{"year":2020,"keyword":"Cellular","count":1},{"year":2020,"keyword":"Sublinear","count":1},{"year":2020,"keyword":"Low-Rank","count":1},{"year":2020,"keyword":"Model Checking","count":1},{"year":2020,"keyword":"Safety","count":1},{"year":2020,"keyword":"Parameterized","count":1},{"year":2020,"keyword":"Approximation Algorithm","count":1},{"year":2020,"keyword":"Scheduling","count":1},{"year":2021,"keyword":"Cellular","count":1}]}
+{
+  "id": "654e07b5-5aeb-4fbd-b847-66d3cb5f5de3",
+  "slug": "mfcs",
+  "nameEn": "International Symposium on Mathematical Foundations of Computer Science",
+  "nameKr": null,
+  "acronym": "MFCS",
+  "field": "Theory",
+  "subField": "Foundations",
+  "dblpKey": "conf/mfcs",
+  "websiteUrl": null,
+  "description": null,
+  "nextDeadline": "2026-04-24T23:59:00Z",
+  "daysUntilDeadline": 28,
+  "deadlineTimezone": "AoE",
+  "venue": "Paris, France",
+  "conferenceStart": "2026-08-24",
+  "conferenceEnd": "2026-08-28",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": null
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": "C"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": null
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-04-24T23:59:00Z",
+      "notificationDate": "2026-06-19T00:00:00Z",
+      "conferenceStart": "2026-08-24",
+      "conferenceEnd": "2026-08-28",
+      "venue": "Paris, France",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Parameterized",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Complexity",
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Join",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Approximation Algorithm",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Type Theory",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "SAT",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Parameterized",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Complexity",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Lower Bound",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Compression",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Approximation Algorithm",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "NP-Hard",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "SAT",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Fixed-Parameter",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Complexity",
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Parameterized",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Join",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Sparse",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Complexity",
+      "count": 10
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Shape",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Program Analysis",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cellular",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Complexity",
+      "count": 10
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Convex",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Parameterized",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "SAT",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Complexity",
+      "count": 9
+    },
+    {
+      "year": 2020,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "AR",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cellular",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Approximation Algorithm",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cellular",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "MFCS은 이론 컴퓨터과학 분야(Foundations)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Graph, Optimization, Parameterized, Routing. 매년 8월 개최. CCF C등급, CORE A.",
+  "descriptionEn": "MFCS is a leading international conference in Theoretical Computer Science (Foundations). Top research topics: Complexity, Graph, Optimization, Parameterized, Routing. Typically held in August. CCF rank C, CORE A."
+}

@@ -1,1 +1,161 @@
-{"id":"959a709f-bd20-41b3-8751-44a455221082","slug":"performance","nameEn":"IFIP International Symposium on Computer Performance, Modeling, Measurements and Evaluation","nameKr":null,"acronym":"PERFORMANCE","field":"Architecture","subField":"Performance Evaluation","dblpKey":"conf/performance","websiteUrl":"https://performance2025.sciencesconf.org/","description":null,"nextDeadline":null,"daysUntilDeadline":null,"deadlineTimezone":"AoE","venue":null,"conferenceStart":null,"conferenceEnd":null,"institutionRatings":[{"institution":"BK21","tier":"2"},{"institution":"KIISE","tier":null},{"institution":"KAIST","tier":null},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":null},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[],"bestPapers":[{"year":2024,"paperTitle":"Agents of Autonomy: A Systematic Study of Robotics on Modern Hardware","authors":"Bakhshalipour & Gibbons","awardType":"best_paper","tags":["Robotics","Performance"],"paperUrl":"https://doi.org/10.1145/3626774"}],"acceptanceRates":[],"keywordTrends":[{"year":2020,"keyword":"Scheduling","count":1},{"year":2020,"keyword":"Optimization","count":1},{"year":2020,"keyword":"Throughput","count":1},{"year":2020,"keyword":"Cloud","count":1},{"year":2021,"keyword":"Scheduling","count":3},{"year":2021,"keyword":"Load Balancing","count":2},{"year":2021,"keyword":"Concurrency","count":1},{"year":2021,"keyword":"Optimization","count":2},{"year":2021,"keyword":"Sublinear","count":1},{"year":2021,"keyword":"Convex","count":1},{"year":2021,"keyword":"Datacenter","count":1},{"year":2021,"keyword":"Cloud","count":1},{"year":2021,"keyword":"Fluid","count":1},{"year":2021,"keyword":"Throughput","count":1},{"year":2021,"keyword":"Cellular","count":1},{"year":2021,"keyword":"Message Passing","count":1},{"year":2021,"keyword":"Privacy","count":1},{"year":2021,"keyword":"Routing","count":1}]}
+{
+  "id": "959a709f-bd20-41b3-8751-44a455221082",
+  "slug": "performance",
+  "nameEn": "IFIP International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+  "nameKr": null,
+  "acronym": "PERFORMANCE",
+  "field": "Architecture",
+  "subField": "Performance Evaluation",
+  "dblpKey": "conf/performance",
+  "websiteUrl": "https://performance2025.sciencesconf.org/",
+  "description": null,
+  "nextDeadline": null,
+  "daysUntilDeadline": null,
+  "deadlineTimezone": "AoE",
+  "venue": null,
+  "conferenceStart": null,
+  "conferenceEnd": null,
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "2"
+    },
+    {
+      "institution": "KIISE",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": null
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": null
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Agents of Autonomy: A Systematic Study of Robotics on Modern Hardware",
+      "authors": "Bakhshalipour & Gibbons",
+      "awardType": "best_paper",
+      "tags": [
+        "Robotics",
+        "Performance"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3626774"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Scheduling",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Load Balancing",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Convex",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Datacenter",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fluid",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cellular",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Message Passing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Routing",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "PERFORMANCE은 컴퓨터 구조 분야(Performance Evaluation)의 주요 국제 학회입니다. 주요 연구 키워드: Scheduling, Load Balancing, Optimization, Concurrency, Sublinear. CCF B등급, BK21 2점.",
+  "descriptionEn": "PERFORMANCE is a leading international conference in Computer Architecture (Performance Evaluation). Top research topics: Scheduling, Load Balancing, Optimization, Concurrency, Sublinear. CCF rank B."
+}

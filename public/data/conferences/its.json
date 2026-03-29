@@ -1,1 +1,496 @@
-{"id":"90714e5e-ddff-4203-ba1d-2a974ba5edaa","slug":"its","nameEn":"International Conference on Intelligent Tutoring Systems","nameKr":null,"acronym":"ITS","field":"AI/ML","subField":"Intelligent Tutoring","dblpKey":"conf/its","websiteUrl":"https://iis-international.org/its2026/","description":null,"nextDeadline":"2026-02-28T23:59:00Z","daysUntilDeadline":-27,"deadlineTimezone":"AoE","venue":"Pafos, Cyprus","conferenceStart":"2026-06-01","conferenceEnd":"2026-06-05","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":null},{"institution":"KAIST","tier":null},{"institution":"SNU","tier":null},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":"B"},{"institution":"CCF","tier":null},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-02-28T23:59:00Z","notificationDate":null,"conferenceStart":"2026-06-01","conferenceEnd":"2026-06-05","venue":"Pafos, Cyprus","timezone":"AoE"}],"bestPapers":[],"acceptanceRates":[],"keywordTrends":[{"year":2020,"keyword":"Navigation","count":1},{"year":2020,"keyword":"Real-Time","count":1},{"year":2020,"keyword":"Virtual Reality","count":2},{"year":2020,"keyword":"Robot","count":1},{"year":2020,"keyword":"Reinforcement Learning","count":1},{"year":2020,"keyword":"Multimodal","count":2},{"year":2020,"keyword":"3D","count":1},{"year":2020,"keyword":"Distributed","count":1},{"year":2020,"keyword":"Augmented Reality","count":1},{"year":2020,"keyword":"Usability","count":1},{"year":2020,"keyword":"Bias","count":1},{"year":2020,"keyword":"Optimization","count":1},{"year":2020,"keyword":"Conversational","count":1},{"year":2020,"keyword":"Simulation","count":1},{"year":2021,"keyword":"Conversational","count":1},{"year":2021,"keyword":"Agent","count":2},{"year":2021,"keyword":"Simulation","count":1},{"year":2021,"keyword":"IoT","count":1},{"year":2021,"keyword":"Augmented Reality","count":2},{"year":2021,"keyword":"3D","count":2},{"year":2021,"keyword":"Embedding","count":1},{"year":2021,"keyword":"Graph","count":1},{"year":2021,"keyword":"Reinforcement Learning","count":1},{"year":2021,"keyword":"Alignment","count":1},{"year":2021,"keyword":"Privacy","count":1},{"year":2021,"keyword":"Virtual Reality","count":1},{"year":2021,"keyword":"Spectrum","count":1},{"year":2023,"keyword":"Agent","count":2},{"year":2023,"keyword":"Conversational","count":2},{"year":2023,"keyword":"Attention","count":3},{"year":2023,"keyword":"Eye Tracking","count":2},{"year":2023,"keyword":"Mixed Reality","count":2},{"year":2023,"keyword":"Chatbot","count":2},{"year":2023,"keyword":"Transformer","count":1},{"year":2023,"keyword":"Simulation","count":1},{"year":2023,"keyword":"Dataset","count":1},{"year":2023,"keyword":"Functional Programming","count":1},{"year":2023,"keyword":"Usability","count":1},{"year":2023,"keyword":"XR","count":1},{"year":2023,"keyword":"Reinforcement Learning","count":1},{"year":2023,"keyword":"Wearable","count":1},{"year":2023,"keyword":"Adversarial","count":1},{"year":2023,"keyword":"Gesture","count":1},{"year":2023,"keyword":"Virtual Reality","count":1},{"year":2023,"keyword":"GPT","count":1},{"year":2024,"keyword":"Reinforcement Learning","count":2},{"year":2024,"keyword":"Text-to-Image","count":1},{"year":2024,"keyword":"Generative","count":9},{"year":2024,"keyword":"Robustness","count":2},{"year":2024,"keyword":"Dataset","count":1},{"year":2024,"keyword":"Chatbot","count":3},{"year":2024,"keyword":"LLM","count":3},{"year":2024,"keyword":"Prompt","count":1},{"year":2024,"keyword":"ChatGPT","count":1},{"year":2024,"keyword":"Distributed","count":2},{"year":2024,"keyword":"Knowledge Graph","count":1},{"year":2024,"keyword":"Graph","count":1},{"year":2024,"keyword":"Conversational","count":3},{"year":2024,"keyword":"Agent","count":3},{"year":2024,"keyword":"Simulation","count":1},{"year":2024,"keyword":"Multi-Agent","count":1},{"year":2024,"keyword":"Attention","count":2},{"year":2024,"keyword":"BERT","count":1},{"year":2024,"keyword":"Usability","count":1},{"year":2024,"keyword":"Embedding","count":1},{"year":2024,"keyword":"Visualization","count":1},{"year":2025,"keyword":"LLM","count":2},{"year":2025,"keyword":"Optimization","count":1},{"year":2025,"keyword":"Chatbot","count":1},{"year":2025,"keyword":"Attention","count":1},{"year":2025,"keyword":"Efficient","count":1},{"year":2025,"keyword":"Fairness","count":1},{"year":2025,"keyword":"Multimodal","count":2},{"year":2025,"keyword":"Benchmark","count":1},{"year":2025,"keyword":"Dataset","count":1},{"year":2025,"keyword":"Virtual Reality","count":1},{"year":2025,"keyword":"Large Language Model","count":2},{"year":2025,"keyword":"Language Model","count":2},{"year":2025,"keyword":"Robot","count":1},{"year":2025,"keyword":"Navigation","count":1},{"year":2025,"keyword":"Real-Time","count":1},{"year":2025,"keyword":"Copilot","count":1},{"year":2025,"keyword":"Generative","count":1},{"year":2025,"keyword":"Agent","count":1},{"year":2026,"keyword":"Generative","count":2}]}
+{
+  "id": "90714e5e-ddff-4203-ba1d-2a974ba5edaa",
+  "slug": "its",
+  "nameEn": "International Conference on Intelligent Tutoring Systems",
+  "nameKr": null,
+  "acronym": "ITS",
+  "field": "AI/ML",
+  "subField": "Intelligent Tutoring",
+  "dblpKey": "conf/its",
+  "websiteUrl": "https://iis-international.org/its2026/",
+  "description": null,
+  "nextDeadline": "2026-02-28T23:59:00Z",
+  "daysUntilDeadline": -27,
+  "deadlineTimezone": "AoE",
+  "venue": "Pafos, Cyprus",
+  "conferenceStart": "2026-06-01",
+  "conferenceEnd": "2026-06-05",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": null
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": "B"
+    },
+    {
+      "institution": "CCF",
+      "tier": null
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-02-28T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-06-01",
+      "conferenceEnd": "2026-06-05",
+      "venue": "Pafos, Cyprus",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Navigation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Virtual Reality",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Robot",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Multimodal",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Augmented Reality",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Conversational",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Conversational",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Agent",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Augmented Reality",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "3D",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Spectrum",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Agent",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Conversational",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Attention",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Eye Tracking",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Mixed Reality",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Chatbot",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Functional Programming",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "XR",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Wearable",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Gesture",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GPT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Reinforcement Learning",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Text-to-Image",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Generative",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "Robustness",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Chatbot",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "LLM",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Prompt",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "ChatGPT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Conversational",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Agent",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Multi-Agent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Attention",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "BERT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Chatbot",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Multimodal",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Large Language Model",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Robot",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Navigation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Copilot",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Generative",
+      "count": 2
+    }
+  ],
+  "descriptionKo": "ITS은 AI/ML 분야(Intelligent Tutoring)의 주요 국제 학회입니다. 주요 연구 키워드: Generative. 매년 6월 개최. CORE B, BK21 1점.",
+  "descriptionEn": "ITS is a leading international conference in AI/ML (Intelligent Tutoring). Top research topics: Generative. Typically held in June. CORE B."
+}

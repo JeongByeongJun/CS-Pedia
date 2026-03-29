@@ -1,1 +1,111 @@
-{"id":"e8bbb308-155c-4040-b820-98cbfdb2889c","slug":"nossdav","nameEn":"ACM Workshop on Network and Operating System Support for Digital Audio and Video","nameKr":null,"acronym":"NOSSDAV","field":"Networks","subField":"Multimedia Networking","dblpKey":"conf/nossdav","websiteUrl":"https://nossdav.org/2026/","description":null,"nextDeadline":"2026-01-16T23:59:00Z","daysUntilDeadline":-70,"deadlineTimezone":"AoE","venue":"Hong Kong","conferenceStart":"2026-04-04","conferenceEnd":"2026-04-04","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":null},{"institution":"KAIST","tier":null},{"institution":"SNU","tier":null},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":"B"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-01-16T23:59:00Z","notificationDate":null,"conferenceStart":"2026-04-04","conferenceEnd":"2026-04-04","venue":"Hong Kong","timezone":"AoE"}],"bestPapers":[],"acceptanceRates":[],"keywordTrends":[{"year":2021,"keyword":"Virtual Reality","count":1},{"year":2021,"keyword":"Super-Resolution","count":2},{"year":2021,"keyword":"Bandwidth","count":1},{"year":2021,"keyword":"SDN","count":1},{"year":2021,"keyword":"Point Cloud","count":1},{"year":2021,"keyword":"Cloud","count":1},{"year":2021,"keyword":"3D","count":1},{"year":2021,"keyword":"Reinforcement Learning","count":1}]}
+{
+  "id": "e8bbb308-155c-4040-b820-98cbfdb2889c",
+  "slug": "nossdav",
+  "nameEn": "ACM Workshop on Network and Operating System Support for Digital Audio and Video",
+  "nameKr": null,
+  "acronym": "NOSSDAV",
+  "field": "Networks",
+  "subField": "Multimedia Networking",
+  "dblpKey": "conf/nossdav",
+  "websiteUrl": "https://nossdav.org/2026/",
+  "description": null,
+  "nextDeadline": "2026-01-16T23:59:00Z",
+  "daysUntilDeadline": -70,
+  "deadlineTimezone": "AoE",
+  "venue": "Hong Kong",
+  "conferenceStart": "2026-04-04",
+  "conferenceEnd": "2026-04-04",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": null
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": "B"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-01-16T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-04-04",
+      "conferenceEnd": "2026-04-04",
+      "venue": "Hong Kong",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2021,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Super-Resolution",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "SDN",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Point Cloud",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "NOSSDAV은 네트워크 분야(Multimedia Networking)의 주요 국제 학회입니다. 주요 연구 키워드: Super-Resolution, Virtual Reality, Bandwidth, SDN, Point Cloud. 매년 4월 개최. CCF B등급, CORE B, BK21 1점.",
+  "descriptionEn": "NOSSDAV is a leading international conference in Networks (Multimedia Networking). Top research topics: Super-Resolution, Virtual Reality, Bandwidth, SDN, Point Cloud. Typically held in April. CCF rank B, CORE B."
+}

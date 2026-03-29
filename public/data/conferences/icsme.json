@@ -1,1 +1,974 @@
-{"id":"06d5ed90-abf5-43a1-a20c-9c0e4e963514","slug":"icsme","nameEn":"IEEE International Conference on Software Maintenance and Evolution","nameKr":null,"acronym":"ICSME","field":"SE","subField":"Software Maintenance","dblpKey":"conf/icsm","websiteUrl":null,"description":null,"nextDeadline":"2026-03-06T23:59:00Z","daysUntilDeadline":-21,"deadlineTimezone":"AoE","venue":"Benevento, Italy","conferenceStart":"2026-09-14","conferenceEnd":"2026-09-18","institutionRatings":[{"institution":"BK21","tier":"2"},{"institution":"KIISE","tier":"우수"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":"2026-02-27T23:59:00Z","paperDeadline":"2026-03-06T23:59:00Z","notificationDate":"2026-05-29T00:00:00Z","conferenceStart":"2026-09-14","conferenceEnd":"2026-09-18","venue":"Benevento, Italy","timezone":"AoE"}],"bestPapers":[{"year":2021,"paperTitle":"Interactive Patch Filtering as Debugging Aid","authors":["Jingjing Liang","Ruyi Ji","Jiajun Jiang","Shurui Zhou","Yiling Lou","Yingfei Xiong","Gang Huang"],"awardType":"distinguished_paper","tags":["Debugging"],"paperUrl":"https://arxiv.org/abs/2004.08746"},{"year":2021,"paperTitle":"Towards Just-Enough Documentation for Agile Effort Estimation: What Information Should Be Documented?","authors":["Jirat Pasuksmit","Patanamon Thongtanunam","Shanika Karunasekera"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://arxiv.org/abs/2107.02420"},{"year":2022,"paperTitle":"Peeler: Learning to Effectively Predict Flakiness without Running Tests","authors":["Yihao Qin","Shangwen Wang","Kui Liu","Bo Lin","Hongjun Wu","Li Li","Xiaoguang Mao","Tegawendé F. Bissyandé"],"awardType":"distinguished_paper","tags":[],"paperUrl":"https://doi.org/10.1109/ICSME55016.2022.00031"}],"acceptanceRates":[],"keywordTrends":[{"year":2025,"keyword":"Dataset","count":1},{"year":2020,"keyword":"Knowledge Graph","count":1},{"year":2020,"keyword":"Complexity","count":1},{"year":2020,"keyword":"Efficient","count":2},{"year":2020,"keyword":"Testing","count":7},{"year":2020,"keyword":"Software Maintenance","count":4},{"year":2020,"keyword":"Code Review","count":3},{"year":2020,"keyword":"Sentiment Analysis","count":2},{"year":2020,"keyword":"BERT","count":1},{"year":2020,"keyword":"Microservice","count":1},{"year":2020,"keyword":"Virtual Reality","count":1},{"year":2020,"keyword":"Graph Neural Network","count":1},{"year":2020,"keyword":"Vulnerability","count":1},{"year":2020,"keyword":"Graph","count":1},{"year":2020,"keyword":"Technical Debt","count":2},{"year":2020,"keyword":"Compiler","count":2},{"year":2020,"keyword":"Localization","count":5},{"year":2020,"keyword":"Robot","count":1},{"year":2020,"keyword":"Differential Privacy","count":1},{"year":2020,"keyword":"Privacy","count":1},{"year":2020,"keyword":"Transfer Learning","count":1},{"year":2020,"keyword":"Optimization","count":2},{"year":2020,"keyword":"Few-Shot","count":1},{"year":2020,"keyword":"Dataset","count":2},{"year":2020,"keyword":"Concurrency","count":1},{"year":2020,"keyword":"Fuzzing","count":1},{"year":2020,"keyword":"Refactoring","count":1},{"year":2020,"keyword":"Visualization","count":1},{"year":2020,"keyword":"Static Analysis","count":1},{"year":2020,"keyword":"Cloud","count":1},{"year":2020,"keyword":"Blockchain","count":1},{"year":2020,"keyword":"Transformer","count":1},{"year":2020,"keyword":"Debugging","count":1},{"year":2020,"keyword":"Eye Tracking","count":1},{"year":2021,"keyword":"Embedded","count":1},{"year":2021,"keyword":"Testing","count":5},{"year":2021,"keyword":"Efficient","count":3},{"year":2021,"keyword":"Accessibility","count":1},{"year":2021,"keyword":"Refactoring","count":3},{"year":2021,"keyword":"Smart Contract","count":1},{"year":2021,"keyword":"Multimodal","count":1},{"year":2021,"keyword":"Fine-Tuning","count":1},{"year":2021,"keyword":"Embedding","count":2},{"year":2021,"keyword":"Navigation","count":1},{"year":2021,"keyword":"Benchmark","count":1},{"year":2021,"keyword":"Summarization","count":1},{"year":2021,"keyword":"Code Completion","count":1},{"year":2021,"keyword":"Debugging","count":1},{"year":2021,"keyword":"Graph","count":2},{"year":2021,"keyword":"DevOps","count":1},{"year":2021,"keyword":"Knowledge Graph","count":1},{"year":2021,"keyword":"Technical Debt","count":1},{"year":2021,"keyword":"Sentiment Analysis","count":1},{"year":2021,"keyword":"Bias","count":1},{"year":2021,"keyword":"CI/CD","count":1},{"year":2021,"keyword":"Software Maintenance","count":1},{"year":2022,"keyword":"Test Generation","count":1},{"year":2022,"keyword":"Localization","count":2},{"year":2022,"keyword":"Software Maintenance","count":2},{"year":2022,"keyword":"Authentication","count":1},{"year":2022,"keyword":"Microservice","count":1},{"year":2022,"keyword":"BERT","count":1},{"year":2022,"keyword":"Testing","count":2},{"year":2022,"keyword":"Refactoring","count":2},{"year":2022,"keyword":"Kernel","count":1},{"year":2022,"keyword":"Benchmark","count":1},{"year":2022,"keyword":"Transaction","count":1},{"year":2022,"keyword":"Contrastive Learning","count":1},{"year":2022,"keyword":"Vulnerability","count":1},{"year":2022,"keyword":"Adversarial","count":1},{"year":2022,"keyword":"Retrieval-Augmented","count":1},{"year":2022,"keyword":"Consistency","count":1},{"year":2022,"keyword":"Efficient","count":1},{"year":2023,"keyword":"Graph","count":3},{"year":2023,"keyword":"Knowledge Graph","count":1},{"year":2023,"keyword":"Refactoring","count":4},{"year":2023,"keyword":"Static Analysis","count":1},{"year":2023,"keyword":"Safety","count":1},{"year":2023,"keyword":"IoT","count":1},{"year":2023,"keyword":"Benchmark","count":1},{"year":2023,"keyword":"GPT","count":1},{"year":2023,"keyword":"Accessibility","count":1},{"year":2023,"keyword":"Complexity","count":1},{"year":2023,"keyword":"Testing","count":5},{"year":2023,"keyword":"Efficient","count":1},{"year":2023,"keyword":"Pipeline","count":2},{"year":2023,"keyword":"Fine-Tuning","count":1},{"year":2023,"keyword":"Localization","count":2},{"year":2023,"keyword":"Replication","count":1},{"year":2023,"keyword":"Virtual Reality","count":1},{"year":2023,"keyword":"Smart Contract","count":1},{"year":2023,"keyword":"Fuzzing","count":1},{"year":2023,"keyword":"Technical Debt","count":1},{"year":2023,"keyword":"Machine Translation","count":1},{"year":2023,"keyword":"Test Generation","count":1},{"year":2023,"keyword":"ChatGPT","count":2},{"year":2023,"keyword":"Fairness","count":1},{"year":2023,"keyword":"DevOps","count":2},{"year":2023,"keyword":"Data Augmentation","count":1},{"year":2023,"keyword":"Reinforcement Learning","count":1},{"year":2023,"keyword":"Representation Learning","count":1},{"year":2023,"keyword":"Self-Supervised","count":1},{"year":2023,"keyword":"Software Maintenance","count":1},{"year":2024,"keyword":"Microservice","count":3},{"year":2024,"keyword":"Testing","count":7},{"year":2024,"keyword":"Retrieval-Augmented","count":2},{"year":2024,"keyword":"Agent","count":1},{"year":2024,"keyword":"Reinforcement Learning","count":1},{"year":2024,"keyword":"Debugging","count":1},{"year":2024,"keyword":"Question Answering","count":1},{"year":2024,"keyword":"Chatbot","count":1},{"year":2024,"keyword":"CI/CD","count":1},{"year":2024,"keyword":"Code Completion","count":1},{"year":2024,"keyword":"Transformer","count":1},{"year":2024,"keyword":"Software Maintenance","count":3},{"year":2024,"keyword":"Optimization","count":2},{"year":2024,"keyword":"Data Augmentation","count":1},{"year":2024,"keyword":"Vulnerability","count":2},{"year":2024,"keyword":"Refactoring","count":3},{"year":2024,"keyword":"Visualization","count":1},{"year":2024,"keyword":"Prompt","count":1},{"year":2024,"keyword":"LLM","count":4},{"year":2024,"keyword":"Test Generation","count":1},{"year":2024,"keyword":"Bias","count":1},{"year":2024,"keyword":"Summarization","count":3},{"year":2024,"keyword":"Technical Debt","count":1},{"year":2024,"keyword":"Large Language Model","count":1},{"year":2024,"keyword":"Language Model","count":2},{"year":2024,"keyword":"ChatGPT","count":1},{"year":2024,"keyword":"Container","count":1},{"year":2024,"keyword":"Automated Program Repair","count":1},{"year":2024,"keyword":"Graph","count":1},{"year":2024,"keyword":"Scheduling","count":1},{"year":2024,"keyword":"Pipeline","count":1},{"year":2025,"keyword":"LLM","count":12},{"year":2025,"keyword":"Quantization","count":1},{"year":2025,"keyword":"Efficient","count":2},{"year":2025,"keyword":"Few-Shot","count":1},{"year":2025,"keyword":"Refactoring","count":6},{"year":2025,"keyword":"Embedding","count":1},{"year":2025,"keyword":"Vulnerability","count":6},{"year":2025,"keyword":"Adversarial","count":2},{"year":2025,"keyword":"Fuzzing","count":4},{"year":2025,"keyword":"Testing","count":7},{"year":2025,"keyword":"Agent","count":1},{"year":2025,"keyword":"Bug Detection","count":1},{"year":2025,"keyword":"Graph","count":4},{"year":2025,"keyword":"Large Language Model","count":1},{"year":2025,"keyword":"Language Model","count":1},{"year":2025,"keyword":"Visualization","count":1},{"year":2025,"keyword":"DevOps","count":1},{"year":2025,"keyword":"Automated Program Repair","count":2},{"year":2025,"keyword":"Throughput","count":1},{"year":2025,"keyword":"Pipeline","count":1},{"year":2025,"keyword":"SMT","count":2},{"year":2025,"keyword":"Technical Debt","count":2},{"year":2025,"keyword":"Fine-Tuning","count":1},{"year":2025,"keyword":"Localization","count":3},{"year":2025,"keyword":"Generative","count":1},{"year":2025,"keyword":"Complexity","count":1},{"year":2025,"keyword":"Code Review","count":1},{"year":2025,"keyword":"CI/CD","count":1},{"year":2025,"keyword":"Fairness","count":1},{"year":2025,"keyword":"Benchmark","count":1},{"year":2025,"keyword":"Code Generation","count":1},{"year":2025,"keyword":"Serverless","count":1},{"year":2025,"keyword":"Retrieval-Augmented","count":1},{"year":2025,"keyword":"Code Completion","count":1},{"year":2025,"keyword":"Smart Contract","count":2},{"year":2025,"keyword":"Code Clone","count":1},{"year":2025,"keyword":"Software Maintenance","count":1}]}
+{
+  "id": "06d5ed90-abf5-43a1-a20c-9c0e4e963514",
+  "slug": "icsme",
+  "nameEn": "IEEE International Conference on Software Maintenance and Evolution",
+  "nameKr": null,
+  "acronym": "ICSME",
+  "field": "SE",
+  "subField": "Software Maintenance",
+  "dblpKey": "conf/icsm",
+  "websiteUrl": null,
+  "description": null,
+  "nextDeadline": "2026-03-06T23:59:00Z",
+  "daysUntilDeadline": -21,
+  "deadlineTimezone": "AoE",
+  "venue": "Benevento, Italy",
+  "conferenceStart": "2026-09-14",
+  "conferenceEnd": "2026-09-18",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "2"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": "2026-02-27T23:59:00Z",
+      "paperDeadline": "2026-03-06T23:59:00Z",
+      "notificationDate": "2026-05-29T00:00:00Z",
+      "conferenceStart": "2026-09-14",
+      "conferenceEnd": "2026-09-18",
+      "venue": "Benevento, Italy",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "Interactive Patch Filtering as Debugging Aid",
+      "authors": [
+        "Jingjing Liang",
+        "Ruyi Ji",
+        "Jiajun Jiang",
+        "Shurui Zhou",
+        "Yiling Lou",
+        "Yingfei Xiong",
+        "Gang Huang"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Debugging"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2004.08746"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Towards Just-Enough Documentation for Agile Effort Estimation: What Information Should Be Documented?",
+      "authors": [
+        "Jirat Pasuksmit",
+        "Patanamon Thongtanunam",
+        "Shanika Karunasekera"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://arxiv.org/abs/2107.02420"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Peeler: Learning to Effectively Predict Flakiness without Running Tests",
+      "authors": [
+        "Yihao Qin",
+        "Shangwen Wang",
+        "Kui Liu",
+        "Bo Lin",
+        "Hongjun Wu",
+        "Li Li",
+        "Xiaoguang Mao",
+        "Tegawendé F. Bissyandé"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1109/ICSME55016.2022.00031"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2025,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Testing",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Software Maintenance",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Code Review",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Sentiment Analysis",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "BERT",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Microservice",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Vulnerability",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Technical Debt",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Compiler",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Localization",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Robot",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Few-Shot",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Dataset",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Refactoring",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Static Analysis",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Eye Tracking",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Accessibility",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Refactoring",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Smart Contract",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedding",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Navigation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Summarization",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Code Completion",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "DevOps",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Technical Debt",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Sentiment Analysis",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "CI/CD",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Software Maintenance",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Test Generation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Localization",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Software Maintenance",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Authentication",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Microservice",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "BERT",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Refactoring",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transaction",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Contrastive Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Vulnerability",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Retrieval-Augmented",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Refactoring",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Static Analysis",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GPT",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Accessibility",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Testing",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Pipeline",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Localization",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Smart Contract",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Technical Debt",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Machine Translation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Test Generation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "ChatGPT",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "DevOps",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Representation Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Software Maintenance",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Microservice",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Testing",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Retrieval-Augmented",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Chatbot",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "CI/CD",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Code Completion",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Software Maintenance",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Vulnerability",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Refactoring",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Prompt",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "LLM",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Test Generation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Summarization",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Technical Debt",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Large Language Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Language Model",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "ChatGPT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Automated Program Repair",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pipeline",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 12
+    },
+    {
+      "year": 2025,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Few-Shot",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Refactoring",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Vulnerability",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Adversarial",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Fuzzing",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Bug Detection",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Large Language Model",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "DevOps",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Automated Program Repair",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Pipeline",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "SMT",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Technical Debt",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Localization",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Code Review",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "CI/CD",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Serverless",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Retrieval-Augmented",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Code Completion",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Smart Contract",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Code Clone",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Software Maintenance",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "ICSME은 소프트웨어 공학 분야(Software Maintenance)의 주요 국제 학회입니다. 주요 연구 키워드: LLM, Testing, Refactoring, Vulnerability, Fuzzing. 매년 9월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ICSME is a leading international conference in Software Engineering (Software Maintenance). Top research topics: LLM, Testing, Refactoring, Vulnerability, Fuzzing. Typically held in September. CCF rank B, CORE A."
+}

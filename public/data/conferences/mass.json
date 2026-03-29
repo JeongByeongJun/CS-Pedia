@@ -1,1 +1,601 @@
-{"id":"6b4d0991-c634-46fa-945f-8e3dfae83434","slug":"mass","nameEn":"IEEE International Conference on Mobile Ad-Hoc and Smart Systems","nameKr":null,"acronym":"MASS","field":"Networks","subField":"Mobile Ad-Hoc Networks","dblpKey":"conf/mass","websiteUrl":null,"description":null,"nextDeadline":null,"daysUntilDeadline":null,"deadlineTimezone":"AoE","venue":null,"conferenceStart":null,"conferenceEnd":null,"institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"B"},{"institution":"CCF","tier":"C"},{"institution":"CSRankings","tier":null}],"deadlines":[],"bestPapers":[],"acceptanceRates":[{"year":2022,"accepted":128,"submitted":null,"rate":null}],"keywordTrends":[{"year":2020,"keyword":"Edge Computing","count":4},{"year":2020,"keyword":"Optimization","count":3},{"year":2020,"keyword":"Routing","count":5},{"year":2020,"keyword":"QoS","count":1},{"year":2020,"keyword":"Reinforcement Learning","count":6},{"year":2020,"keyword":"Scheduling","count":4},{"year":2020,"keyword":"Wireless","count":8},{"year":2020,"keyword":"Federated Learning","count":3},{"year":2020,"keyword":"Blockchain","count":7},{"year":2020,"keyword":"IoT","count":6},{"year":2020,"keyword":"Cyber-Physical","count":1},{"year":2020,"keyword":"Distributed","count":4},{"year":2020,"keyword":"UAV","count":1},{"year":2020,"keyword":"Conversational","count":1},{"year":2020,"keyword":"Privacy","count":2},{"year":2020,"keyword":"Robot","count":1},{"year":2020,"keyword":"Throughput","count":1},{"year":2020,"keyword":"Latency","count":1},{"year":2020,"keyword":"Authentication","count":4},{"year":2020,"keyword":"Autonomous","count":3},{"year":2020,"keyword":"Embedded","count":1},{"year":2020,"keyword":"SDN","count":1},{"year":2020,"keyword":"Storage","count":1},{"year":2020,"keyword":"Multi-Agent","count":2},{"year":2020,"keyword":"Agent","count":2},{"year":2020,"keyword":"Malware","count":1},{"year":2020,"keyword":"Sparse","count":1},{"year":2020,"keyword":"Localization","count":2},{"year":2020,"keyword":"Spectrum","count":1},{"year":2020,"keyword":"Real-Time","count":2},{"year":2020,"keyword":"Wearable","count":2},{"year":2020,"keyword":"Mixed Reality","count":1},{"year":2020,"keyword":"Multimodal","count":1},{"year":2020,"keyword":"Adversarial","count":1},{"year":2020,"keyword":"Efficient","count":4},{"year":2020,"keyword":"Watermark","count":1},{"year":2020,"keyword":"Attention","count":2},{"year":2020,"keyword":"Autonomous Driving","count":1},{"year":2020,"keyword":"Self-Attention","count":1},{"year":2020,"keyword":"Graph","count":1},{"year":2020,"keyword":"Semantic Segmentation","count":1},{"year":2020,"keyword":"Augmented Reality","count":1},{"year":2020,"keyword":"Segmentation","count":1},{"year":2020,"keyword":"3D","count":1},{"year":2025,"keyword":"Malware","count":3},{"year":2025,"keyword":"GCN","count":1},{"year":2025,"keyword":"Reconstruction","count":2},{"year":2025,"keyword":"3D","count":3},{"year":2025,"keyword":"Graph","count":1},{"year":2025,"keyword":"Federated Learning","count":7},{"year":2025,"keyword":"Scheduling","count":2},{"year":2025,"keyword":"Efficient","count":8},{"year":2025,"keyword":"Distributed","count":5},{"year":2025,"keyword":"Blockchain","count":4},{"year":2025,"keyword":"IoT","count":4},{"year":2025,"keyword":"Consensus","count":1},{"year":2025,"keyword":"Object Detection","count":2},{"year":2025,"keyword":"Adversarial","count":2},{"year":2025,"keyword":"Autonomous","count":3},{"year":2025,"keyword":"Throughput","count":1},{"year":2025,"keyword":"Cellular","count":2},{"year":2025,"keyword":"5G","count":4},{"year":2025,"keyword":"Generative","count":2},{"year":2025,"keyword":"Localization","count":2},{"year":2025,"keyword":"Simulation","count":1},{"year":2025,"keyword":"Authentication","count":3},{"year":2025,"keyword":"Privacy","count":6},{"year":2025,"keyword":"Optimization","count":2},{"year":2025,"keyword":"Transformer","count":3},{"year":2025,"keyword":"Testing","count":3},{"year":2025,"keyword":"Wearable","count":2},{"year":2025,"keyword":"UAV","count":4},{"year":2025,"keyword":"Wireless","count":3},{"year":2025,"keyword":"Real-Time","count":4},{"year":2025,"keyword":"Navigation","count":1},{"year":2025,"keyword":"Routing","count":2},{"year":2025,"keyword":"Cloud","count":3},{"year":2025,"keyword":"Language Model","count":2},{"year":2025,"keyword":"Drone","count":2},{"year":2025,"keyword":"NeRF","count":1},{"year":2025,"keyword":"Code Generation","count":1},{"year":2025,"keyword":"Multi-Agent","count":1},{"year":2025,"keyword":"Agent","count":1},{"year":2025,"keyword":"Depth Estimation","count":2},{"year":2025,"keyword":"Multimodal","count":3},{"year":2025,"keyword":"Semantic Segmentation","count":1},{"year":2025,"keyword":"Segmentation","count":1},{"year":2025,"keyword":"Autonomous Driving","count":1},{"year":2025,"keyword":"Robustness","count":1},{"year":2025,"keyword":"Intrusion Detection","count":3},{"year":2025,"keyword":"LoRA","count":2},{"year":2025,"keyword":"LLM","count":2},{"year":2025,"keyword":"Vision Transformer","count":1},{"year":2025,"keyword":"ViT","count":1},{"year":2025,"keyword":"Reinforcement Learning","count":2},{"year":2025,"keyword":"Serverless","count":1},{"year":2025,"keyword":"QoS","count":1},{"year":2025,"keyword":"Few-Shot","count":1},{"year":2025,"keyword":"Safety","count":1},{"year":2025,"keyword":"Access Control","count":1},{"year":2025,"keyword":"Automotive","count":1},{"year":2025,"keyword":"Combinatorial","count":1},{"year":2025,"keyword":"Alignment","count":1},{"year":2025,"keyword":"Continual Learning","count":1},{"year":2025,"keyword":"Spectrum","count":1},{"year":2025,"keyword":"Self-Supervised","count":1},{"year":2025,"keyword":"Backdoor","count":1}]}
+{
+  "id": "6b4d0991-c634-46fa-945f-8e3dfae83434",
+  "slug": "mass",
+  "nameEn": "IEEE International Conference on Mobile Ad-Hoc and Smart Systems",
+  "nameKr": null,
+  "acronym": "MASS",
+  "field": "Networks",
+  "subField": "Mobile Ad-Hoc Networks",
+  "dblpKey": "conf/mass",
+  "websiteUrl": null,
+  "description": null,
+  "nextDeadline": null,
+  "daysUntilDeadline": null,
+  "deadlineTimezone": "AoE",
+  "venue": null,
+  "conferenceStart": null,
+  "conferenceEnd": null,
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "B"
+    },
+    {
+      "institution": "CCF",
+      "tier": "C"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [],
+  "bestPapers": [],
+  "acceptanceRates": [
+    {
+      "year": 2022,
+      "accepted": 128,
+      "submitted": null,
+      "rate": null
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Edge Computing",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Routing",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "QoS",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Reinforcement Learning",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Wireless",
+      "count": 8
+    },
+    {
+      "year": 2020,
+      "keyword": "Federated Learning",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Blockchain",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "IoT",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Cyber-Physical",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "UAV",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Conversational",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Robot",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Authentication",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Autonomous",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "SDN",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Multi-Agent",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Agent",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Malware",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Localization",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Spectrum",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Real-Time",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Wearable",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Mixed Reality",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Watermark",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Attention",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Autonomous Driving",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Self-Attention",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Semantic Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Augmented Reality",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Malware",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "GCN",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Reconstruction",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "3D",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Federated Learning",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 8
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Blockchain",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "IoT",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Object Detection",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Adversarial",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cellular",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "5G",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Localization",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Authentication",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Privacy",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Transformer",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Wearable",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "UAV",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Wireless",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Real-Time",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Navigation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Routing",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Cloud",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Drone",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "NeRF",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Multi-Agent",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Depth Estimation",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Multimodal",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Semantic Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous Driving",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Intrusion Detection",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "LoRA",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Vision Transformer",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "ViT",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Reinforcement Learning",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Serverless",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "QoS",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Few-Shot",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Access Control",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Automotive",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Continual Learning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Spectrum",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Backdoor",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "MASS은 네트워크 분야(Mobile Ad-Hoc Networks)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, Federated Learning, Privacy, Distributed, Blockchain. CCF C등급, CORE B, BK21 1점.",
+  "descriptionEn": "MASS is a leading international conference in Networks (Mobile Ad-Hoc Networks). Top research topics: Efficient, Federated Learning, Privacy, Distributed, Blockchain. CCF rank C, CORE B."
+}

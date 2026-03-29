@@ -1,1 +1,93 @@
-{"id":"8b6f25e0-ec39-430d-b82c-4b912b71c130","slug":"vrst","nameEn":"ACM Symposium on Virtual Reality Software and Technology","nameKr":null,"acronym":"VRST","field":"HCI","subField":"Virtual Reality","dblpKey":"conf/vrst","websiteUrl":"https://vrst.acm.org/vrst2026/","description":null,"nextDeadline":"2026-06-15T23:59:00Z","daysUntilDeadline":80,"deadlineTimezone":"AoE","venue":"Sendai, Japan","conferenceStart":"2026-11-16","conferenceEnd":"2026-11-18","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":"C"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":"2026-06-08T23:59:00Z","paperDeadline":"2026-06-15T23:59:00Z","notificationDate":null,"conferenceStart":"2026-11-16","conferenceEnd":"2026-11-18","venue":"Sendai, Japan","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Stand Alone or Stay Together: An In-situ Experiment of Mixed-Reality Applications in Embryonic Anatomy Education","authors":"Schott, Kunz, Heinrich, Mandel, Albrecht, Braun-Dullaeus & Hansen","awardType":"best_paper","tags":["Mixed Reality","Medical Education"],"paperUrl":"https://doi.org/10.1145/3641825.3687706"},{"year":2025,"paperTitle":"See It and Hear It: Multimodal Guidance in MR-Based Neurosurgical Simulation for Skill Retention","authors":"Cascarano, Loretti, Zanuttini, Giunchi, Bovo, Hajahmadi, Vallasciani, Martinoni & Marfia","awardType":"best_paper","tags":["Neurosurgical Simulation","Mixed Reality"],"paperUrl":"https://doi.org/10.1145/3756884.3766034"}],"acceptanceRates":[],"keywordTrends":[]}
+{
+  "id": "8b6f25e0-ec39-430d-b82c-4b912b71c130",
+  "slug": "vrst",
+  "nameEn": "ACM Symposium on Virtual Reality Software and Technology",
+  "nameKr": null,
+  "acronym": "VRST",
+  "field": "HCI",
+  "subField": "Virtual Reality",
+  "dblpKey": "conf/vrst",
+  "websiteUrl": "https://vrst.acm.org/vrst2026/",
+  "description": null,
+  "nextDeadline": "2026-06-15T23:59:00Z",
+  "daysUntilDeadline": 80,
+  "deadlineTimezone": "AoE",
+  "venue": "Sendai, Japan",
+  "conferenceStart": "2026-11-16",
+  "conferenceEnd": "2026-11-18",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": "C"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": "2026-06-08T23:59:00Z",
+      "paperDeadline": "2026-06-15T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-11-16",
+      "conferenceEnd": "2026-11-18",
+      "venue": "Sendai, Japan",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Stand Alone or Stay Together: An In-situ Experiment of Mixed-Reality Applications in Embryonic Anatomy Education",
+      "authors": "Schott, Kunz, Heinrich, Mandel, Albrecht, Braun-Dullaeus & Hansen",
+      "awardType": "best_paper",
+      "tags": [
+        "Mixed Reality",
+        "Medical Education"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3641825.3687706"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "See It and Hear It: Multimodal Guidance in MR-Based Neurosurgical Simulation for Skill Retention",
+      "authors": "Cascarano, Loretti, Zanuttini, Giunchi, Bovo, Hajahmadi, Vallasciani, Martinoni & Marfia",
+      "awardType": "best_paper",
+      "tags": [
+        "Neurosurgical Simulation",
+        "Mixed Reality"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3756884.3766034"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [],
+  "descriptionKo": "VRST은 인간-컴퓨터 상호작용 분야(Virtual Reality)의 주요 국제 학회입니다. 매년 11월 개최. CCF C등급, CORE A, BK21 1점.",
+  "descriptionEn": "VRST is a leading international conference in Human-Computer Interaction (Virtual Reality). Typically held in November. CCF rank C, CORE A."
+}

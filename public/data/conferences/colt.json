@@ -1,1 +1,1009 @@
-{"id":"14940753-9042-429c-a2ea-47912bfd354b","slug":"colt","nameEn":"Conference on Learning Theory","nameKr":null,"acronym":"COLT","field":"AI/ML","subField":"Learning Theory","dblpKey":"conf/colt","websiteUrl":"https://learningtheory.org","description":null,"nextDeadline":"2026-02-04T23:59:00Z","daysUntilDeadline":-51,"deadlineTimezone":"AoE","venue":"San Diego, USA","conferenceStart":"2026-06-29","conferenceEnd":"2026-07-03","institutionRatings":[{"institution":"BK21","tier":"3"},{"institution":"KIISE","tier":"우수"},{"institution":"POSTECH","tier":"최우수"},{"institution":"SNU","tier":"인정"},{"institution":"CORE","tier":"A*"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null},{"institution":"KAIST","tier":"우수"}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-02-04T23:59:00Z","notificationDate":"2026-05-04T00:00:00Z","conferenceStart":"2026-06-29","conferenceEnd":"2026-07-03","venue":"San Diego, USA","timezone":"AoE"}],"bestPapers":[{"year":2021,"paperTitle":"Non-stationary Reinforcement Learning without Prior Knowledge: An Optimal Black-box Approach","authors":["Chen-Yu Wei","Haipeng Luo"],"awardType":"best_paper","tags":["Reinforcement Learning"],"paperUrl":"http://arxiv.org/abs/2102.05406v3"},{"year":2021,"paperTitle":"The Min-Max Complexity of Distributed Stochastic Convex Optimization with Intermittent Communication","authors":["Blake E. Woodworth","Brian Bullins","Ohad Shamir","Nathan Srebro"],"awardType":"best_paper","tags":["Optimization"],"paperUrl":"http://arxiv.org/abs/2102.01583v2"},{"year":2022,"paperTitle":"Efficient convex optimization requires superlinear memory","authors":["Annie Marsden","Vatsal Sharan","Aaron Sidford","Gregory Valiant"],"awardType":"best_paper","tags":["Optimization"],"paperUrl":"http://arxiv.org/abs/2203.15260v2"},{"year":2024,"paperTitle":"Smoothed Analysis for Learning Concepts with Low Intrinsic Dimension","authors":["Gautam Chandrasekaran","Adam Klivans","Vasilis Kontonis","Raghu Meka","Konstantinos Stavropoulos"],"awardType":"best_paper","tags":[],"paperUrl":"http://arxiv.org/abs/2407.00966v2"},{"year":2024,"paperTitle":"The Price of Adaptivity in Stochastic Convex Optimization","authors":["Yair Carmon","Oliver Hinder"],"awardType":"best_paper","tags":["Optimization"],"paperUrl":"http://arxiv.org/abs/2402.10898v3"},{"year":2025,"paperTitle":"What Makes Treatment Effects Identifiable? Characterizations and Estimators Beyond Unconfoundedness","authors":["Yang Cai","Alkis Kalavasis","Katerina Mamali","Anay Mehrotra","Manolis Zampetakis"],"awardType":"best_paper","tags":[],"paperUrl":"https://arxiv.org/abs/2506.04194"}],"acceptanceRates":[{"year":2021,"accepted":52,"submitted":null,"rate":null},{"year":2020,"accepted":48,"submitted":null,"rate":null}],"keywordTrends":[{"year":2020,"keyword":"Submodular","count":1},{"year":2020,"keyword":"Compression","count":1},{"year":2020,"keyword":"Distributed","count":3},{"year":2020,"keyword":"Reinforcement Learning","count":2},{"year":2020,"keyword":"Generative","count":1},{"year":2020,"keyword":"Gradient Descent","count":7},{"year":2020,"keyword":"Testing","count":4},{"year":2020,"keyword":"Convex","count":8},{"year":2020,"keyword":"Optimization","count":3},{"year":2020,"keyword":"Sparse","count":5},{"year":2020,"keyword":"Adversarial","count":3},{"year":2020,"keyword":"Complexity","count":5},{"year":2020,"keyword":"Robustness","count":1},{"year":2020,"keyword":"Sublinear","count":1},{"year":2020,"keyword":"Efficient","count":5},{"year":2020,"keyword":"Shape","count":1},{"year":2020,"keyword":"Bias","count":1},{"year":2020,"keyword":"Embedding","count":1},{"year":2020,"keyword":"Alignment","count":1},{"year":2020,"keyword":"Graph","count":2},{"year":2020,"keyword":"Convergence","count":2},{"year":2020,"keyword":"Low-Rank","count":1},{"year":2020,"keyword":"Worst-Case","count":1},{"year":2020,"keyword":"Combinatorial","count":1},{"year":2020,"keyword":"Kernel","count":1},{"year":2021,"keyword":"Efficient","count":6},{"year":2021,"keyword":"Convergence","count":8},{"year":2021,"keyword":"Optimization","count":7},{"year":2021,"keyword":"Convex","count":8},{"year":2021,"keyword":"Bias","count":3},{"year":2021,"keyword":"Gradient Descent","count":6},{"year":2021,"keyword":"Sparse","count":5},{"year":2021,"keyword":"Distributed","count":2},{"year":2021,"keyword":"Robustness","count":2},{"year":2021,"keyword":"Complexity","count":5},{"year":2021,"keyword":"Testing","count":5},{"year":2021,"keyword":"Adversarial","count":3},{"year":2021,"keyword":"Kernel","count":2},{"year":2021,"keyword":"Parameterized","count":2},{"year":2021,"keyword":"Reinforcement Learning","count":6},{"year":2021,"keyword":"Alignment","count":1},{"year":2021,"keyword":"Graph","count":2},{"year":2021,"keyword":"Combinatorial","count":1},{"year":2021,"keyword":"Shape","count":1},{"year":2021,"keyword":"Policy Optimization","count":1},{"year":2022,"keyword":"Sparse","count":2},{"year":2022,"keyword":"Optimization","count":16},{"year":2022,"keyword":"Reinforcement Learning","count":8},{"year":2022,"keyword":"Graph","count":3},{"year":2022,"keyword":"Complexity","count":4},{"year":2022,"keyword":"Testing","count":5},{"year":2022,"keyword":"Kernel","count":3},{"year":2022,"keyword":"Efficient","count":9},{"year":2022,"keyword":"Convex","count":15},{"year":2022,"keyword":"Policy Optimization","count":1},{"year":2022,"keyword":"Differential Privacy","count":2},{"year":2022,"keyword":"Privacy","count":2},{"year":2022,"keyword":"Convergence","count":4},{"year":2022,"keyword":"Gradient Descent","count":4},{"year":2022,"keyword":"Lattice","count":2},{"year":2022,"keyword":"Adversarial","count":2},{"year":2022,"keyword":"Multi-Agent","count":2},{"year":2022,"keyword":"Agent","count":2},{"year":2022,"keyword":"Bias","count":4},{"year":2022,"keyword":"Low-Rank","count":1},{"year":2022,"keyword":"Robustness","count":1},{"year":2022,"keyword":"Submodular","count":1},{"year":2022,"keyword":"Consistency","count":1},{"year":2022,"keyword":"Matroid","count":1},{"year":2023,"keyword":"Testing","count":8},{"year":2023,"keyword":"Index","count":1},{"year":2023,"keyword":"Complexity","count":12},{"year":2023,"keyword":"Graph","count":1},{"year":2023,"keyword":"Reinforcement Learning","count":6},{"year":2023,"keyword":"RL","count":3},{"year":2023,"keyword":"Optimization","count":15},{"year":2023,"keyword":"Convex","count":9},{"year":2023,"keyword":"Bias","count":2},{"year":2023,"keyword":"Sparse","count":6},{"year":2023,"keyword":"Convergence","count":10},{"year":2023,"keyword":"Efficient","count":6},{"year":2023,"keyword":"Fairness","count":1},{"year":2023,"keyword":"Multi-Agent","count":2},{"year":2023,"keyword":"Agent","count":3},{"year":2023,"keyword":"Diffusion","count":2},{"year":2023,"keyword":"Transfer Learning","count":1},{"year":2023,"keyword":"Combinatorial","count":2},{"year":2023,"keyword":"Kernel","count":2},{"year":2023,"keyword":"Spectrum","count":1},{"year":2023,"keyword":"Lower Bound","count":3},{"year":2023,"keyword":"Differential Privacy","count":1},{"year":2023,"keyword":"Privacy","count":1},{"year":2023,"keyword":"Worst-Case","count":1},{"year":2023,"keyword":"Lattice","count":1},{"year":2023,"keyword":"Gradient Descent","count":1},{"year":2023,"keyword":"Federated Learning","count":1},{"year":2024,"keyword":"Compression","count":3},{"year":2024,"keyword":"Message Passing","count":1},{"year":2024,"keyword":"Complexity","count":11},{"year":2024,"keyword":"Efficient","count":10},{"year":2024,"keyword":"Reinforcement Learning","count":9},{"year":2024,"keyword":"Adversarial","count":5},{"year":2024,"keyword":"Graph","count":3},{"year":2024,"keyword":"Sparse","count":4},{"year":2024,"keyword":"Differential Privacy","count":2},{"year":2024,"keyword":"Privacy","count":3},{"year":2024,"keyword":"Reconstruction","count":2},{"year":2024,"keyword":"Optimization","count":13},{"year":2024,"keyword":"Testing","count":4},{"year":2024,"keyword":"Convex","count":6},{"year":2024,"keyword":"In-Context Learning","count":1},{"year":2024,"keyword":"Convergence","count":7},{"year":2024,"keyword":"Attention","count":1},{"year":2024,"keyword":"Index","count":2},{"year":2024,"keyword":"Lower Bound","count":2},{"year":2024,"keyword":"Kernel","count":2},{"year":2024,"keyword":"Diffusion","count":1},{"year":2024,"keyword":"Gradient Descent","count":3},{"year":2024,"keyword":"Policy Optimization","count":1},{"year":2024,"keyword":"Sublinear","count":1},{"year":2024,"keyword":"Low-Rank","count":1},{"year":2024,"keyword":"Distributed","count":1},{"year":2024,"keyword":"Score Matching","count":1},{"year":2024,"keyword":"Combinatorial","count":1},{"year":2024,"keyword":"Pruning","count":1},{"year":2024,"keyword":"Alignment","count":1},{"year":2024,"keyword":"Robustness","count":1},{"year":2025,"keyword":"Reinforcement Learning","count":5},{"year":2025,"keyword":"Testing","count":6},{"year":2025,"keyword":"Convex","count":9},{"year":2025,"keyword":"Reconstruction","count":1},{"year":2025,"keyword":"Graph","count":5},{"year":2025,"keyword":"Gradient Descent","count":3},{"year":2025,"keyword":"Convergence","count":4},{"year":2025,"keyword":"Consensus","count":1},{"year":2025,"keyword":"Quantization","count":1},{"year":2025,"keyword":"Score Matching","count":3},{"year":2025,"keyword":"Efficient","count":7},{"year":2025,"keyword":"Complexity","count":12},{"year":2021,"keyword":"Differential Privacy","count":1},{"year":2021,"keyword":"Privacy","count":1},{"year":2025,"keyword":"Differential Privacy","count":1},{"year":2025,"keyword":"Robustness","count":1},{"year":2025,"keyword":"Privacy","count":1},{"year":2025,"keyword":"Optimization","count":11},{"year":2025,"keyword":"Sparse","count":3},{"year":2025,"keyword":"Adversarial","count":2},{"year":2025,"keyword":"Fine-Tuning","count":1},{"year":2025,"keyword":"Low-Rank","count":2},{"year":2025,"keyword":"Fairness","count":1},{"year":2025,"keyword":"Fixed-Parameter","count":1},{"year":2025,"keyword":"Kernel","count":1},{"year":2025,"keyword":"Diffusion","count":3},{"year":2025,"keyword":"Autoregressive","count":3},{"year":2025,"keyword":"Compression","count":1},{"year":2025,"keyword":"Worst-Case","count":2},{"year":2025,"keyword":"Distributed","count":1},{"year":2025,"keyword":"Multimodal","count":1},{"year":2025,"keyword":"Index","count":1},{"year":2025,"keyword":"Message Passing","count":1},{"year":2025,"keyword":"Data Augmentation","count":2},{"year":2025,"keyword":"Imitation Learning","count":2},{"year":2025,"keyword":"Scheduling","count":2},{"year":2025,"keyword":"RL","count":1},{"year":2020,"keyword":"Differential Privacy","count":1},{"year":2020,"keyword":"Privacy","count":1},{"year":2023,"keyword":"Robustness","count":1},{"year":2023,"keyword":"Score Matching","count":1}]}
+{
+  "id": "14940753-9042-429c-a2ea-47912bfd354b",
+  "slug": "colt",
+  "nameEn": "Conference on Learning Theory",
+  "nameKr": null,
+  "acronym": "COLT",
+  "field": "AI/ML",
+  "subField": "Learning Theory",
+  "dblpKey": "conf/colt",
+  "websiteUrl": "https://learningtheory.org",
+  "description": null,
+  "nextDeadline": "2026-02-04T23:59:00Z",
+  "daysUntilDeadline": -51,
+  "deadlineTimezone": "AoE",
+  "venue": "San Diego, USA",
+  "conferenceStart": "2026-06-29",
+  "conferenceEnd": "2026-07-03",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "3"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "최우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A*"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-02-04T23:59:00Z",
+      "notificationDate": "2026-05-04T00:00:00Z",
+      "conferenceStart": "2026-06-29",
+      "conferenceEnd": "2026-07-03",
+      "venue": "San Diego, USA",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "Non-stationary Reinforcement Learning without Prior Knowledge: An Optimal Black-box Approach",
+      "authors": [
+        "Chen-Yu Wei",
+        "Haipeng Luo"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "Reinforcement Learning"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2102.05406v3"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "The Min-Max Complexity of Distributed Stochastic Convex Optimization with Intermittent Communication",
+      "authors": [
+        "Blake E. Woodworth",
+        "Brian Bullins",
+        "Ohad Shamir",
+        "Nathan Srebro"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "Optimization"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2102.01583v2"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Efficient convex optimization requires superlinear memory",
+      "authors": [
+        "Annie Marsden",
+        "Vatsal Sharan",
+        "Aaron Sidford",
+        "Gregory Valiant"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "Optimization"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2203.15260v2"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "Smoothed Analysis for Learning Concepts with Low Intrinsic Dimension",
+      "authors": [
+        "Gautam Chandrasekaran",
+        "Adam Klivans",
+        "Vasilis Kontonis",
+        "Raghu Meka",
+        "Konstantinos Stavropoulos"
+      ],
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "http://arxiv.org/abs/2407.00966v2"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "The Price of Adaptivity in Stochastic Convex Optimization",
+      "authors": [
+        "Yair Carmon",
+        "Oliver Hinder"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "Optimization"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2402.10898v3"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "What Makes Treatment Effects Identifiable? Characterizations and Estimators Beyond Unconfoundedness",
+      "authors": [
+        "Yang Cai",
+        "Alkis Kalavasis",
+        "Katerina Mamali",
+        "Anay Mehrotra",
+        "Manolis Zampetakis"
+      ],
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://arxiv.org/abs/2506.04194"
+    }
+  ],
+  "acceptanceRates": [
+    {
+      "year": 2021,
+      "accepted": 52,
+      "submitted": null,
+      "rate": null
+    },
+    {
+      "year": 2020,
+      "accepted": 48,
+      "submitted": null,
+      "rate": null
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Submodular",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Reinforcement Learning",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Gradient Descent",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Testing",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Convex",
+      "count": 8
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Adversarial",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Complexity",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Shape",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Convergence",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Worst-Case",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Convergence",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "keyword": "Convex",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "keyword": "Bias",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Gradient Descent",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Robustness",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Complexity",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Adversarial",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Parameterized",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Shape",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Policy Optimization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Sparse",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Optimization",
+      "count": 16
+    },
+    {
+      "year": 2022,
+      "keyword": "Reinforcement Learning",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Complexity",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "Convex",
+      "count": 15
+    },
+    {
+      "year": 2022,
+      "keyword": "Policy Optimization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Differential Privacy",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Privacy",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Convergence",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Gradient Descent",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Lattice",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Adversarial",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Multi-Agent",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Agent",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Bias",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Submodular",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Matroid",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Testing",
+      "count": 8
+    },
+    {
+      "year": 2023,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Complexity",
+      "count": 12
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Reinforcement Learning",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "RL",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 15
+    },
+    {
+      "year": 2023,
+      "keyword": "Convex",
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "keyword": "Bias",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Sparse",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Convergence",
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Multi-Agent",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Agent",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Diffusion",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Combinatorial",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Spectrum",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Lower Bound",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Worst-Case",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Gradient Descent",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Federated Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Compression",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Message Passing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Complexity",
+      "count": 11
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 10
+    },
+    {
+      "year": 2024,
+      "keyword": "Reinforcement Learning",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "Adversarial",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Sparse",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Differential Privacy",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Privacy",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Reconstruction",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 13
+    },
+    {
+      "year": 2024,
+      "keyword": "Testing",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Convex",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "In-Context Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Convergence",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Index",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Lower Bound",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Gradient Descent",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Policy Optimization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Sublinear",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Score Matching",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Reinforcement Learning",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Convex",
+      "count": 9
+    },
+    {
+      "year": 2025,
+      "keyword": "Reconstruction",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Gradient Descent",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Convergence",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Score Matching",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "Complexity",
+      "count": 12
+    },
+    {
+      "year": 2021,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 11
+    },
+    {
+      "year": 2025,
+      "keyword": "Sparse",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Adversarial",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Low-Rank",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fixed-Parameter",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Diffusion",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Autoregressive",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Worst-Case",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Message Passing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Data Augmentation",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Imitation Learning",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Score Matching",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "COLT은 AI/ML 분야(Learning Theory)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Optimization, Convex, Efficient, Testing. 매년 6월 개최. CCF B등급, CORE A*, BK21 3점.",
+  "descriptionEn": "COLT is a leading international conference in AI/ML (Learning Theory). Top research topics: Complexity, Optimization, Convex, Efficient, Testing. Typically held in June. CCF rank B, CORE A*."
+}

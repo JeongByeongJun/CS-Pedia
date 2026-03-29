@@ -1,1 +1,1309 @@
-{"id":"b1c7a154-87cf-4d56-9ccc-5a5f1f0a9294","slug":"pldi","nameEn":"ACM SIGPLAN Conference on Programming Language Design and Implementation","nameKr":null,"acronym":"PLDI","field":"PL","subField":"Programming Languages","dblpKey":"conf/pldi","websiteUrl":null,"description":null,"nextDeadline":"2025-11-13T23:59:00Z","daysUntilDeadline":-134,"deadlineTimezone":"AoE","venue":"Boulder, CO, USA","conferenceStart":"2026-06-15","conferenceEnd":"2026-06-19","institutionRatings":[{"institution":"BK21","tier":"4"},{"institution":"KIISE","tier":"최우수"},{"institution":"KAIST","tier":"최우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"최우수"},{"institution":"CORE","tier":"A*"},{"institution":"CCF","tier":"A"},{"institution":"CSRankings","tier":"Included"}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2025-11-13T23:59:00Z","notificationDate":"2026-03-05T00:00:00Z","conferenceStart":"2026-06-15","conferenceEnd":"2026-06-19","venue":"Boulder, CO, USA","timezone":"AoE"}],"bestPapers":[{"year":2021,"paperTitle":"Alive2: Bounded Translation Validation for LLVM","authors":["Nuno P. Lopes","Juneyoung Lee","Chung-Kil Hur","Zhengyang Liu","John Regehr"],"awardType":"distinguished_paper","tags":["compilers","translation validation","llvm","correctness"],"paperUrl":"https://doi.org/10.1145/3453483.3454030"},{"year":2021,"paperTitle":"Cyclic Program Synthesis","authors":["Shachar Itzhaky","Hila Peleg","Nadia Polikarpova","Reuben N. S. Rowe","Ilya Sergey"],"awardType":"distinguished_paper","tags":["program synthesis","formal methods","cyclic proofs"],"paperUrl":"https://doi.org/10.1145/3453483.3454087"},{"year":2021,"paperTitle":"High Performance Correctly Rounded Math Libraries for 32-bit Floating Point Representations","authors":["Jay P. Lim","Santosh Nagarakatte"],"awardType":"distinguished_paper","tags":["numerical computing","floating point","performance","correctness"],"paperUrl":"https://arxiv.org/abs/2104.04043"},{"year":2021,"paperTitle":"Perceus: Garbage Free Reference Counting with Reuse","authors":["Alex Reinking","Ningning Xie","Leonardo de Moura","Daan Leijen"],"awardType":"distinguished_paper","tags":["memory management","reference counting","garbage collection"],"paperUrl":"https://doi.org/10.1145/3453483.3454032"},{"year":2021,"paperTitle":"Quantum Abstract Interpretation","authors":["Nengkun Yu","Jens Palsberg"],"awardType":"distinguished_paper","tags":["quantum computing","abstract interpretation","program analysis"],"paperUrl":"https://doi.org/10.1145/3453483.3454061"},{"year":2021,"paperTitle":"RefinedC: Automating the Foundational Verification of C Code with Refined Ownership Types","authors":["Michael Sammler","Rodolphe Lepigre","Robbert Krebbers","Kayvan Memarian","Derek Dreyer","Deepak Garg"],"awardType":"distinguished_paper","tags":["program verification","c language","ownership types","formal methods"],"paperUrl":"https://doi.org/10.1145/3453483.3454036"},{"year":2021,"paperTitle":"Specification Synthesis with Constrained Horn Clauses","authors":["Sumanth Prabhu","Grigory Fedyukovich","Kumar Madhukar","Deepak D'Souza"],"awardType":"distinguished_paper","tags":["program synthesis","formal methods","verification","horn clauses"],"paperUrl":"https://doi.org/10.1145/3453483.3454104"},{"year":2021,"paperTitle":"Unleashing the Hidden Power of Compiler Optimization on Binary Code Difference: An Empirical Study","authors":["Xiaolei Ren","Michael Ho","Jiang Ming","Jeff Yu Lei","Li Li"],"awardType":"distinguished_paper","tags":["compilers","binary analysis","optimization","security"],"paperUrl":"http://arxiv.org/abs/2103.12357v2"},{"year":2022,"paperTitle":"Finding Typing Compiler Bugs","authors":["Stefanos Chaliasos","Thodoris Sotiropoulos","Diomidis Spinellis","Arthur Gervais","Ben Livshits","Dimitris Mitropoulos"],"awardType":"distinguished_paper","tags":["compilers","type systems","testing","bug finding"],"paperUrl":"https://doi.org/10.1145/3519939.3523427"},{"year":2022,"paperTitle":"Kleene Algebra Modulo Theories: A Framework for Concrete KATs","authors":["Michael Greenberg","Ryan Beckett","Eric Campbell"],"awardType":"distinguished_paper","tags":["formal methods","kleene algebra","program analysis"],"paperUrl":"https://arxiv.org/abs/1707.02894"},{"year":2022,"paperTitle":"Low-Latency, High-Throughput Garbage Collection","authors":["Wenyu Zhao","Steve Blackburn","Kathryn S McKinley"],"awardType":"distinguished_paper","tags":["memory management","garbage collection","performance"],"paperUrl":"http://arxiv.org/abs/2210.17175v1"},{"year":2022,"paperTitle":"RustHornBelt: A Semantic Foundation for Functional Verification of Rust Programs with Unsafe Code","authors":["Yusuke Matsushita","Xavier Denis","Jacques-Henri Jourdan","Derek Dreyer"],"awardType":"distinguished_paper","tags":["program verification","rust","formal methods","separation logic"],"paperUrl":"https://doi.org/10.1145/3519939.3523704"},{"year":2022,"paperTitle":"Synthesizing Analytical SQL Queries from Computation Demonstration","authors":["Xiangyu Zhou","Rastislav Bodík","Alvin Cheung","Chenglong Wang"],"awardType":"distinguished_paper","tags":["program synthesis","databases","sql"],"paperUrl":"http://arxiv.org/abs/2204.07102v2"},{"year":2022,"paperTitle":"Visualization Question Answering Using Introspective Program Synthesis","authors":["Yanju Chen","Xifeng Yan","Yu Feng"],"awardType":"distinguished_paper","tags":["program synthesis","visualization","question answering"],"paperUrl":"https://doi.org/10.1145/3519939.3523709"},{"year":2023,"paperTitle":"Mosaic: An Interoperable Compiler for Tensor Algebra","authors":"Bansal et al.","awardType":"best_paper","tags":["Compiler","Tensor"],"paperUrl":"https://doi.org/10.1145/3591236"},{"year":2025,"paperTitle":"AWDIT: An Optimal Weak Database Isolation Tester","authors":["Lasse Møldrup","Andreas Pavlogiannis"],"awardType":"distinguished_paper","tags":["databases","isolation","testing","formal methods"],"paperUrl":"http://arxiv.org/abs/2504.06975v1"},{"year":2025,"paperTitle":"Destabilizing Iris: Non-Step-Indexed Separation Logic for Stored Higher-Order State","authors":["Simon Spies","Niklas Mück","Haoyi Zeng","Michael Sammler","Andrea Lattuada","Peter Müller","Derek Dreyer"],"awardType":"distinguished_paper","tags":["program verification","separation logic","formal methods","iris"],"paperUrl":"https://dl.acm.org/doi/10.1145/3729284"},{"year":2025,"paperTitle":"Practical Type Inference with Levels","authors":["Andong Fan","Han Xu","Ningning Xie"],"awardType":"distinguished_paper","tags":["type systems","type inference","programming languages"],"paperUrl":"https://doi.org/10.1145/3729338"},{"year":2025,"paperTitle":"Principal Type Inference under a Prefix: A Fresh Look at Static Overloading","authors":["Daan Leijen","Wenjia Ye"],"awardType":"distinguished_paper","tags":["type systems","type inference","overloading","programming languages"],"paperUrl":"https://doi.org/10.1145/3729308"},{"year":2025,"paperTitle":"Tree Borrows: A Permissive Aliasing Model for Rust","authors":["Neven Villani","Johannes Hostert","Derek Dreyer","Ralf Jung"],"awardType":"distinguished_paper","tags":["memory safety","rust","aliasing","formal methods"],"paperUrl":"https://dl.acm.org/doi/10.1145/3735592"},{"year":2025,"paperTitle":"Verifying General-Purpose RCU for Reclamation in Relaxed Memory Separation Logic","authors":["Jaehwang Jung","Sunho Park","Janggun Lee","Jeho Yeon","Jeehoon Kang"],"awardType":"distinguished_paper","tags":["memory safety","concurrency","formal methods","separation logic"],"paperUrl":"https://doi.org/10.1145/3729246"},{"year":2023,"paperTitle":"CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives","authors":"Joel Kuepper, Andres Erbsen, Jason Gross, Owen Conoly, Chuyue Sun, Samuel Tian, David Wu, Adam Chlipala","awardType":"best_paper","tags":["Randomized Algorithms","Search Algorithms"],"paperUrl":"https://doi.org/10.1145/3591272"},{"year":2023,"paperTitle":"Synthesizing MILP Constraints for Efficient and Robust Optimization","authors":"Jingbo Wang, Aarti Gupta, Chao Wang","awardType":"best_paper","tags":["Optimization","Robustness","Efficiency"],"paperUrl":"https://doi.org/10.1145/3591298"},{"year":2023,"paperTitle":"An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits","authors":"Yu-Fang Chen, Kai-Min Chung, Ondřej Lengál, Jyun-Ao Lin, Wei-Lun Tsai, Di-De Yen","awardType":"best_paper","tags":["Quantum Computing"],"paperUrl":"https://arxiv.org/abs/2301.07747"},{"year":2023,"paperTitle":"Covering All the Bases: Type-Based Verification of Test Input Generators","authors":"Zhe Zhou, Ashish Mishra, Benjamin Delaware, Suresh Jagannathan","awardType":"best_paper","tags":[],"paperUrl":"https://doi.org/10.1145/3591271"},{"year":2020,"paperTitle":"Data-Driven Inference of Representation Invariants","authors":"Anders Miltner, Saswat Padhi, Todd Millstein, David Walker","awardType":"best_paper","tags":[],"paperUrl":"https://arxiv.org/abs/2003.12106"},{"year":2020,"paperTitle":"Armada: Low-Effort Verification of High-Performance Concurrent Programs","authors":"Jacob R. Lorch, Yixuan Chen, Manos Kapritsos, Bryan Parno, Shaz Qadeer, Upamanyu Sharma, James R. Wilcox, Xueyuan Zhao","awardType":"best_paper","tags":["Concurrency"],"paperUrl":"https://doi.org/10.1145/3385412.3385971"},{"year":2020,"paperTitle":"Validating SMT Solvers via Semantic Fusion","authors":"Dominik Winterer, Chengyu Zhang, Zhendong Su","awardType":"best_paper","tags":["SMT Solving"],"paperUrl":"https://doi.org/10.1145/3385412.3385985"},{"year":2020,"paperTitle":"From Folklore to Fact: Comparing Implementations of Stacks and Continuations","authors":"Kavon Farvardin & John Reppy","awardType":"best_paper","tags":[],"paperUrl":"https://doi.org/10.1145/3385412.3385994"},{"year":2020,"paperTitle":"Fast Graph Simplification for Interleaved Dyck-Reachability","authors":"Yuanbo Li, Qirun Zhang, Thomas Reps","awardType":"best_paper","tags":[],"paperUrl":"https://doi.org/10.1145/3385412.3386021"}],"acceptanceRates":[],"keywordTrends":[{"year":2020,"keyword":"Optimization","count":2},{"year":2020,"keyword":"Out-of-Order","count":1},{"year":2020,"keyword":"Efficient","count":5},{"year":2020,"keyword":"Static Analysis","count":1},{"year":2020,"keyword":"Simulation","count":1},{"year":2020,"keyword":"Smart Contract","count":2},{"year":2020,"keyword":"Sparse","count":1},{"year":2020,"keyword":"Debugging","count":1},{"year":2020,"keyword":"Homomorphic","count":2},{"year":2020,"keyword":"Compiler","count":5},{"year":2020,"keyword":"Robustness","count":1},{"year":2020,"keyword":"Scheduling","count":2},{"year":2020,"keyword":"Program Synthesis","count":3},{"year":2020,"keyword":"GPU","count":1},{"year":2020,"keyword":"Concurrency","count":1},{"year":2020,"keyword":"Graph","count":2},{"year":2020,"keyword":"Parallelism","count":1},{"year":2020,"keyword":"Accelerator","count":1},{"year":2020,"keyword":"Safety","count":1},{"year":2020,"keyword":"Distributed","count":2},{"year":2020,"keyword":"SMT","count":1},{"year":2021,"keyword":"Abstract Interpretation","count":2},{"year":2021,"keyword":"Efficient","count":4},{"year":2021,"keyword":"Graph","count":1},{"year":2021,"keyword":"Distributed","count":2},{"year":2021,"keyword":"Compiler","count":8},{"year":2021,"keyword":"Generative","count":2},{"year":2021,"keyword":"DSL","count":1},{"year":2021,"keyword":"Question Answering","count":1},{"year":2021,"keyword":"Program Synthesis","count":5},{"year":2021,"keyword":"Homomorphic","count":1},{"year":2021,"keyword":"Encryption","count":1},{"year":2021,"keyword":"Testing","count":3},{"year":2021,"keyword":"Embedded","count":1},{"year":2021,"keyword":"Consistency","count":1},{"year":2021,"keyword":"Concurrency","count":1},{"year":2021,"keyword":"Fluid","count":1},{"year":2021,"keyword":"Optimization","count":3},{"year":2021,"keyword":"GPU","count":1},{"year":2021,"keyword":"Robustness","count":1},{"year":2021,"keyword":"Complexity","count":1},{"year":2021,"keyword":"Smart Contract","count":1},{"year":2021,"keyword":"Refactoring","count":1},{"year":2021,"keyword":"Parallelism","count":1},{"year":2021,"keyword":"Sparse","count":1},{"year":2021,"keyword":"Program Analysis","count":1},{"year":2021,"keyword":"SMT","count":1},{"year":2021,"keyword":"Fuzzing","count":1},{"year":2021,"keyword":"Kernel","count":1},{"year":2021,"keyword":"Reconstruction","count":1},{"year":2022,"keyword":"Efficient","count":4},{"year":2022,"keyword":"Cache","count":2},{"year":2022,"keyword":"Sparse","count":1},{"year":2022,"keyword":"Replication","count":1},{"year":2022,"keyword":"Abstract Interpretation","count":1},{"year":2022,"keyword":"Compiler","count":4},{"year":2022,"keyword":"Parallelism","count":1},{"year":2022,"keyword":"Question Answering","count":1},{"year":2022,"keyword":"Program Synthesis","count":2},{"year":2022,"keyword":"Visualization","count":1},{"year":2022,"keyword":"Concurrency","count":2},{"year":2022,"keyword":"Robustness","count":1},{"year":2022,"keyword":"P4","count":1},{"year":2022,"keyword":"Distributed","count":2},{"year":2022,"keyword":"RDMA","count":1},{"year":2022,"keyword":"Convergence","count":1},{"year":2022,"keyword":"Code Generation","count":1},{"year":2022,"keyword":"Throughput","count":2},{"year":2022,"keyword":"Type System","count":1},{"year":2022,"keyword":"Simulation","count":1},{"year":2022,"keyword":"Testing","count":2},{"year":2022,"keyword":"JIT","count":1},{"year":2022,"keyword":"DSL","count":1},{"year":2022,"keyword":"Garbage Collection","count":1},{"year":2022,"keyword":"Latency","count":1},{"year":2022,"keyword":"SQL","count":1},{"year":2023,"keyword":"Embedding","count":1},{"year":2023,"keyword":"Functional Programming","count":2},{"year":2023,"keyword":"Efficient","count":4},{"year":2023,"keyword":"Compiler","count":5},{"year":2023,"keyword":"Program Synthesis","count":3},{"year":2023,"keyword":"Transaction","count":1},{"year":2023,"keyword":"DSL","count":1},{"year":2023,"keyword":"Safety","count":3},{"year":2023,"keyword":"Parallelism","count":2},{"year":2023,"keyword":"Adversarial","count":2},{"year":2023,"keyword":"Abstract Interpretation","count":3},{"year":2023,"keyword":"Graph","count":1},{"year":2023,"keyword":"Fuzzing","count":2},{"year":2023,"keyword":"Parameterized","count":1},{"year":2023,"keyword":"Zero-Knowledge","count":1},{"year":2023,"keyword":"Homomorphic","count":1},{"year":2023,"keyword":"Encryption","count":1},{"year":2023,"keyword":"Testing","count":1},{"year":2023,"keyword":"Distributed","count":2},{"year":2023,"keyword":"Type System","count":1},{"year":2023,"keyword":"Consistency","count":1},{"year":2023,"keyword":"GPU","count":1},{"year":2023,"keyword":"Optimization","count":1},{"year":2023,"keyword":"Convergence","count":1},{"year":2023,"keyword":"Formal Verification","count":1},{"year":2023,"keyword":"Latency","count":1},{"year":2023,"keyword":"Memory Safety","count":1},{"year":2023,"keyword":"Debugging","count":1},{"year":2024,"keyword":"Consensus","count":1},{"year":2024,"keyword":"Convex","count":1},{"year":2024,"keyword":"SAT","count":1},{"year":2024,"keyword":"Embedded","count":1},{"year":2024,"keyword":"Accelerator","count":1},{"year":2024,"keyword":"Vulnerability","count":2},{"year":2024,"keyword":"Efficient","count":5},{"year":2024,"keyword":"Type System","count":2},{"year":2024,"keyword":"Robustness","count":2},{"year":2024,"keyword":"Proof Assistant","count":1},{"year":2024,"keyword":"Scheduling","count":1},{"year":2024,"keyword":"Program Synthesis","count":1},{"year":2024,"keyword":"Generative","count":1},{"year":2024,"keyword":"Graph","count":1},{"year":2024,"keyword":"GPU","count":1},{"year":2024,"keyword":"Homomorphic","count":1},{"year":2024,"keyword":"Encryption","count":1},{"year":2024,"keyword":"Compiler","count":4},{"year":2024,"keyword":"Sparse","count":3},{"year":2024,"keyword":"Static Analysis","count":3},{"year":2024,"keyword":"Abstract Interpretation","count":1},{"year":2024,"keyword":"Testing","count":1},{"year":2024,"keyword":"Program Analysis","count":1},{"year":2024,"keyword":"Refactoring","count":1},{"year":2024,"keyword":"SMT","count":1},{"year":2024,"keyword":"Cache","count":1},{"year":2024,"keyword":"Distributed","count":1},{"year":2024,"keyword":"Concurrency","count":1},{"year":2024,"keyword":"Complexity","count":1},{"year":2025,"keyword":"Efficient","count":7},{"year":2025,"keyword":"Optimization","count":7},{"year":2025,"keyword":"Simulation","count":1},{"year":2025,"keyword":"Compiler","count":4},{"year":2025,"keyword":"Program Synthesis","count":1},{"year":2025,"keyword":"Usability","count":1},{"year":2025,"keyword":"Dataflow","count":1},{"year":2025,"keyword":"Graph","count":1},{"year":2025,"keyword":"Testing","count":2},{"year":2025,"keyword":"Formal Verification","count":1},{"year":2025,"keyword":"Fuzzing","count":1},{"year":2025,"keyword":"Navigation","count":1},{"year":2025,"keyword":"Robustness","count":1},{"year":2025,"keyword":"Differential Privacy","count":1},{"year":2025,"keyword":"Privacy","count":1},{"year":2025,"keyword":"Code Generation","count":1},{"year":2025,"keyword":"Type System","count":1},{"year":2025,"keyword":"Garbage Collection","count":2},{"year":2025,"keyword":"Consensus","count":1},{"year":2025,"keyword":"Safety","count":2},{"year":2025,"keyword":"Sparse","count":1},{"year":2025,"keyword":"Concurrency","count":1},{"year":2025,"keyword":"Virtualization","count":1},{"year":2025,"keyword":"SQL","count":1},{"year":2025,"keyword":"Manipulation","count":1}]}
+{
+  "id": "b1c7a154-87cf-4d56-9ccc-5a5f1f0a9294",
+  "slug": "pldi",
+  "nameEn": "ACM SIGPLAN Conference on Programming Language Design and Implementation",
+  "nameKr": null,
+  "acronym": "PLDI",
+  "field": "PL",
+  "subField": "Programming Languages",
+  "dblpKey": "conf/pldi",
+  "websiteUrl": null,
+  "description": null,
+  "nextDeadline": "2025-11-13T23:59:00Z",
+  "daysUntilDeadline": -134,
+  "deadlineTimezone": "AoE",
+  "venue": "Boulder, CO, USA",
+  "conferenceStart": "2026-06-15",
+  "conferenceEnd": "2026-06-19",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "4"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "최우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "최우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "최우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A*"
+    },
+    {
+      "institution": "CCF",
+      "tier": "A"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": "Included"
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2025-11-13T23:59:00Z",
+      "notificationDate": "2026-03-05T00:00:00Z",
+      "conferenceStart": "2026-06-15",
+      "conferenceEnd": "2026-06-19",
+      "venue": "Boulder, CO, USA",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "Alive2: Bounded Translation Validation for LLVM",
+      "authors": [
+        "Nuno P. Lopes",
+        "Juneyoung Lee",
+        "Chung-Kil Hur",
+        "Zhengyang Liu",
+        "John Regehr"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "compilers",
+        "translation validation",
+        "llvm",
+        "correctness"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3453483.3454030"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Cyclic Program Synthesis",
+      "authors": [
+        "Shachar Itzhaky",
+        "Hila Peleg",
+        "Nadia Polikarpova",
+        "Reuben N. S. Rowe",
+        "Ilya Sergey"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "program synthesis",
+        "formal methods",
+        "cyclic proofs"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3453483.3454087"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "High Performance Correctly Rounded Math Libraries for 32-bit Floating Point Representations",
+      "authors": [
+        "Jay P. Lim",
+        "Santosh Nagarakatte"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "numerical computing",
+        "floating point",
+        "performance",
+        "correctness"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2104.04043"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Perceus: Garbage Free Reference Counting with Reuse",
+      "authors": [
+        "Alex Reinking",
+        "Ningning Xie",
+        "Leonardo de Moura",
+        "Daan Leijen"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "memory management",
+        "reference counting",
+        "garbage collection"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3453483.3454032"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Quantum Abstract Interpretation",
+      "authors": [
+        "Nengkun Yu",
+        "Jens Palsberg"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "quantum computing",
+        "abstract interpretation",
+        "program analysis"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3453483.3454061"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "RefinedC: Automating the Foundational Verification of C Code with Refined Ownership Types",
+      "authors": [
+        "Michael Sammler",
+        "Rodolphe Lepigre",
+        "Robbert Krebbers",
+        "Kayvan Memarian",
+        "Derek Dreyer",
+        "Deepak Garg"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "program verification",
+        "c language",
+        "ownership types",
+        "formal methods"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3453483.3454036"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Specification Synthesis with Constrained Horn Clauses",
+      "authors": [
+        "Sumanth Prabhu",
+        "Grigory Fedyukovich",
+        "Kumar Madhukar",
+        "Deepak D'Souza"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "program synthesis",
+        "formal methods",
+        "verification",
+        "horn clauses"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3453483.3454104"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Unleashing the Hidden Power of Compiler Optimization on Binary Code Difference: An Empirical Study",
+      "authors": [
+        "Xiaolei Ren",
+        "Michael Ho",
+        "Jiang Ming",
+        "Jeff Yu Lei",
+        "Li Li"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "compilers",
+        "binary analysis",
+        "optimization",
+        "security"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2103.12357v2"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Finding Typing Compiler Bugs",
+      "authors": [
+        "Stefanos Chaliasos",
+        "Thodoris Sotiropoulos",
+        "Diomidis Spinellis",
+        "Arthur Gervais",
+        "Ben Livshits",
+        "Dimitris Mitropoulos"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "compilers",
+        "type systems",
+        "testing",
+        "bug finding"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3519939.3523427"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Kleene Algebra Modulo Theories: A Framework for Concrete KATs",
+      "authors": [
+        "Michael Greenberg",
+        "Ryan Beckett",
+        "Eric Campbell"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "formal methods",
+        "kleene algebra",
+        "program analysis"
+      ],
+      "paperUrl": "https://arxiv.org/abs/1707.02894"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Low-Latency, High-Throughput Garbage Collection",
+      "authors": [
+        "Wenyu Zhao",
+        "Steve Blackburn",
+        "Kathryn S McKinley"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "memory management",
+        "garbage collection",
+        "performance"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2210.17175v1"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "RustHornBelt: A Semantic Foundation for Functional Verification of Rust Programs with Unsafe Code",
+      "authors": [
+        "Yusuke Matsushita",
+        "Xavier Denis",
+        "Jacques-Henri Jourdan",
+        "Derek Dreyer"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "program verification",
+        "rust",
+        "formal methods",
+        "separation logic"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3519939.3523704"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Synthesizing Analytical SQL Queries from Computation Demonstration",
+      "authors": [
+        "Xiangyu Zhou",
+        "Rastislav Bodík",
+        "Alvin Cheung",
+        "Chenglong Wang"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "program synthesis",
+        "databases",
+        "sql"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2204.07102v2"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Visualization Question Answering Using Introspective Program Synthesis",
+      "authors": [
+        "Yanju Chen",
+        "Xifeng Yan",
+        "Yu Feng"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "program synthesis",
+        "visualization",
+        "question answering"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3519939.3523709"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Mosaic: An Interoperable Compiler for Tensor Algebra",
+      "authors": "Bansal et al.",
+      "awardType": "best_paper",
+      "tags": [
+        "Compiler",
+        "Tensor"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3591236"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "AWDIT: An Optimal Weak Database Isolation Tester",
+      "authors": [
+        "Lasse Møldrup",
+        "Andreas Pavlogiannis"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "databases",
+        "isolation",
+        "testing",
+        "formal methods"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2504.06975v1"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Destabilizing Iris: Non-Step-Indexed Separation Logic for Stored Higher-Order State",
+      "authors": [
+        "Simon Spies",
+        "Niklas Mück",
+        "Haoyi Zeng",
+        "Michael Sammler",
+        "Andrea Lattuada",
+        "Peter Müller",
+        "Derek Dreyer"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "program verification",
+        "separation logic",
+        "formal methods",
+        "iris"
+      ],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3729284"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Practical Type Inference with Levels",
+      "authors": [
+        "Andong Fan",
+        "Han Xu",
+        "Ningning Xie"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "type systems",
+        "type inference",
+        "programming languages"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3729338"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Principal Type Inference under a Prefix: A Fresh Look at Static Overloading",
+      "authors": [
+        "Daan Leijen",
+        "Wenjia Ye"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "type systems",
+        "type inference",
+        "overloading",
+        "programming languages"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3729308"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Tree Borrows: A Permissive Aliasing Model for Rust",
+      "authors": [
+        "Neven Villani",
+        "Johannes Hostert",
+        "Derek Dreyer",
+        "Ralf Jung"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "memory safety",
+        "rust",
+        "aliasing",
+        "formal methods"
+      ],
+      "paperUrl": "https://dl.acm.org/doi/10.1145/3735592"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Verifying General-Purpose RCU for Reclamation in Relaxed Memory Separation Logic",
+      "authors": [
+        "Jaehwang Jung",
+        "Sunho Park",
+        "Janggun Lee",
+        "Jeho Yeon",
+        "Jeehoon Kang"
+      ],
+      "awardType": "distinguished_paper",
+      "tags": [
+        "memory safety",
+        "concurrency",
+        "formal methods",
+        "separation logic"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3729246"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives",
+      "authors": "Joel Kuepper, Andres Erbsen, Jason Gross, Owen Conoly, Chuyue Sun, Samuel Tian, David Wu, Adam Chlipala",
+      "awardType": "best_paper",
+      "tags": [
+        "Randomized Algorithms",
+        "Search Algorithms"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3591272"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Synthesizing MILP Constraints for Efficient and Robust Optimization",
+      "authors": "Jingbo Wang, Aarti Gupta, Chao Wang",
+      "awardType": "best_paper",
+      "tags": [
+        "Optimization",
+        "Robustness",
+        "Efficiency"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3591298"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits",
+      "authors": "Yu-Fang Chen, Kai-Min Chung, Ondřej Lengál, Jyun-Ao Lin, Wei-Lun Tsai, Di-De Yen",
+      "awardType": "best_paper",
+      "tags": [
+        "Quantum Computing"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2301.07747"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Covering All the Bases: Type-Based Verification of Test Input Generators",
+      "authors": "Zhe Zhou, Ashish Mishra, Benjamin Delaware, Suresh Jagannathan",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1145/3591271"
+    },
+    {
+      "year": 2020,
+      "paperTitle": "Data-Driven Inference of Representation Invariants",
+      "authors": "Anders Miltner, Saswat Padhi, Todd Millstein, David Walker",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://arxiv.org/abs/2003.12106"
+    },
+    {
+      "year": 2020,
+      "paperTitle": "Armada: Low-Effort Verification of High-Performance Concurrent Programs",
+      "authors": "Jacob R. Lorch, Yixuan Chen, Manos Kapritsos, Bryan Parno, Shaz Qadeer, Upamanyu Sharma, James R. Wilcox, Xueyuan Zhao",
+      "awardType": "best_paper",
+      "tags": [
+        "Concurrency"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3385412.3385971"
+    },
+    {
+      "year": 2020,
+      "paperTitle": "Validating SMT Solvers via Semantic Fusion",
+      "authors": "Dominik Winterer, Chengyu Zhang, Zhendong Su",
+      "awardType": "best_paper",
+      "tags": [
+        "SMT Solving"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3385412.3385985"
+    },
+    {
+      "year": 2020,
+      "paperTitle": "From Folklore to Fact: Comparing Implementations of Stacks and Continuations",
+      "authors": "Kavon Farvardin & John Reppy",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1145/3385412.3385994"
+    },
+    {
+      "year": 2020,
+      "paperTitle": "Fast Graph Simplification for Interleaved Dyck-Reachability",
+      "authors": "Yuanbo Li, Qirun Zhang, Thomas Reps",
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://doi.org/10.1145/3385412.3386021"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Out-of-Order",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Static Analysis",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Smart Contract",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Homomorphic",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Compiler",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Program Synthesis",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Abstract Interpretation",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Compiler",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "DSL",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Program Synthesis",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fluid",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Smart Contract",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Refactoring",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Program Analysis",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reconstruction",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Abstract Interpretation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Compiler",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Program Synthesis",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Concurrency",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "P4",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "RDMA",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Throughput",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Type System",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "JIT",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "DSL",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Garbage Collection",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "SQL",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Functional Programming",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Compiler",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Program Synthesis",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Transaction",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "DSL",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Safety",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Parallelism",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Adversarial",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Abstract Interpretation",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Fuzzing",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Zero-Knowledge",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Type System",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Formal Verification",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Memory Safety",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Convex",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "SAT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Vulnerability",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Type System",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Robustness",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Proof Assistant",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Program Synthesis",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Compiler",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Sparse",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Static Analysis",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Abstract Interpretation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Program Analysis",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Refactoring",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Compiler",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Program Synthesis",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Formal Verification",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Navigation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Type System",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Garbage Collection",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Safety",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Virtualization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "SQL",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Manipulation",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "PLDI은 프로그래밍 언어 분야(Programming Languages)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, Optimization, Compiler, Testing, Garbage Collection. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "PLDI is a leading international conference in Programming Languages. Top research topics: Efficient, Optimization, Compiler, Testing, Garbage Collection. Typically held in June. CCF rank A, CORE A*."
+}

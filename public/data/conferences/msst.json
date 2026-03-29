@@ -1,1 +1,82 @@
-{"id":"ea677599-bc12-4a6b-8dfd-518c76db19ad","slug":"msst","nameEn":"IEEE Conference on Mass Storage Systems and Technologies","nameKr":null,"acronym":"MSST","field":"Systems","subField":"Storage Systems","dblpKey":"conf/mss","websiteUrl":"https://www.msstconference.org/","description":null,"nextDeadline":null,"daysUntilDeadline":null,"deadlineTimezone":"AoE","venue":null,"conferenceStart":null,"conferenceEnd":null,"institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"B"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":null,"notificationDate":null,"conferenceStart":"2026-06-01","conferenceEnd":"2026-06-05","venue":"Santa Clara, CA, USA","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Revisiting HDD Rules of Thumb: 1/3 Is Not (Quite) the Average Seek Distance","authors":"Olmez, Bent, Arpaci-Dusseau & Dai","awardType":"best_paper","tags":["HDD","Storage Systems"],"paperUrl":"https://www.semanticscholar.org/paper/07e6b1742e9d65a51c16f4df36ed216528aaf99b"}],"acceptanceRates":[],"keywordTrends":[]}
+{
+  "id": "ea677599-bc12-4a6b-8dfd-518c76db19ad",
+  "slug": "msst",
+  "nameEn": "IEEE Conference on Mass Storage Systems and Technologies",
+  "nameKr": null,
+  "acronym": "MSST",
+  "field": "Systems",
+  "subField": "Storage Systems",
+  "dblpKey": "conf/mss",
+  "websiteUrl": "https://www.msstconference.org/",
+  "description": null,
+  "nextDeadline": null,
+  "daysUntilDeadline": null,
+  "deadlineTimezone": "AoE",
+  "venue": null,
+  "conferenceStart": null,
+  "conferenceEnd": null,
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "B"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": null,
+      "notificationDate": null,
+      "conferenceStart": "2026-06-01",
+      "conferenceEnd": "2026-06-05",
+      "venue": "Santa Clara, CA, USA",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Revisiting HDD Rules of Thumb: 1/3 Is Not (Quite) the Average Seek Distance",
+      "authors": "Olmez, Bent, Arpaci-Dusseau & Dai",
+      "awardType": "best_paper",
+      "tags": [
+        "HDD",
+        "Storage Systems"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/07e6b1742e9d65a51c16f4df36ed216528aaf99b"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [],
+  "descriptionKo": "MSST은 시스템 분야(Storage Systems)의 주요 국제 학회입니다. 매년 6월 개최. CCF B등급, CORE B, BK21 1점.",
+  "descriptionEn": "MSST is a leading international conference in Systems (Storage Systems). Typically held in June. CCF rank B, CORE B."
+}

@@ -1,1 +1,2347 @@
-{"id":"a1ba6840-eebf-403a-9f74-a4212a6a3baf","slug":"asplos","nameEn":"ACM International Conference on Architectural Support for Programming Languages and Operating Systems","nameKr":null,"acronym":"ASPLOS","field":"Architecture","subField":"Architecture & Systems","dblpKey":"conf/asplos","websiteUrl":null,"description":null,"nextDeadline":"2026-04-15T23:59:00Z","daysUntilDeadline":19,"deadlineTimezone":"AoE","venue":"Crete, Greece","conferenceStart":"2027-03-30","conferenceEnd":"2027-04-03","institutionRatings":[{"institution":"BK21","tier":"4"},{"institution":"KIISE","tier":"최우수"},{"institution":"POSTECH","tier":"최우수"},{"institution":"SNU","tier":"인정"},{"institution":"CORE","tier":"A*"},{"institution":"CCF","tier":"A"},{"institution":"CSRankings","tier":"Included"},{"institution":"KAIST","tier":"최우수"}],"deadlines":[{"year":2026,"cycle":"spring","abstractDeadline":"2025-03-05T23:59:00Z","paperDeadline":"2025-03-12T23:59:00Z","notificationDate":"2025-06-24T00:00:00Z","conferenceStart":"2026-03-22","conferenceEnd":"2026-03-26","venue":"Pittsburgh, USA","timezone":"AoE"},{"year":2026,"cycle":"summer","abstractDeadline":"2025-08-13T23:59:00Z","paperDeadline":"2025-08-20T23:59:00Z","notificationDate":"2025-11-24T00:00:00Z","conferenceStart":"2026-03-22","conferenceEnd":"2026-03-26","venue":"Pittsburgh, USA","timezone":"AoE"},{"year":2027,"cycle":"cycle1","abstractDeadline":null,"paperDeadline":"2026-04-15T23:59:00Z","notificationDate":"2026-07-27T00:00:00Z","conferenceStart":"2027-03-30","conferenceEnd":"2027-04-03","venue":"Crete, Greece","timezone":"AoE"},{"year":2027,"cycle":"cycle2","abstractDeadline":null,"paperDeadline":"2026-09-09T23:59:00Z","notificationDate":"2026-12-21T00:00:00Z","conferenceStart":"2027-03-30","conferenceEnd":"2027-04-03","venue":"Crete, Greece","timezone":"AoE"}],"bestPapers":[{"year":2021,"paperTitle":"Autonomous NIC Offloads","authors":"Boris Pismenny, Haggai Eran, Aviad Yehezkel, Liran Liss, Adam Morrison, Dan Tsafrir","awardType":"best_paper","tags":["NIC","Networking"],"paperUrl":"https://doi.org/10.1145/3445814.3446732"},{"year":2021,"paperTitle":"Benchmarking, Analysis, and Optimization of Serverless Function Snapshots","authors":"Dmitrii Ustiugov, Plamen Petrov, Marios Kogias, Edouard Bugnion, Boris Grot","awardType":"best_paper","tags":["Serverless","Systems"],"paperUrl":"http://arxiv.org/abs/2101.09355v3"},{"year":2021,"paperTitle":"Compiler-Driven FPGA Virtualization with SYNERGY","authors":"Joshua Landgraf, Tiffany Yang, Will Lin, Christopher J. P. O'Boyle","awardType":"best_paper","tags":["FPGA","Compilers"],"paperUrl":"http://arxiv.org/abs/2109.02484v1"},{"year":2021,"paperTitle":"Computing with Time: Microarchitectural Weird Machines","authors":"Dmitry Evtyushkin, Thomas Benjamin, Jesse Elwell, Jeffrey A. Rossbach, Eric Schkufza","awardType":"best_paper","tags":["Microarchitecture","Security"],"paperUrl":"https://doi.org/10.1145/3445814.3446729"},{"year":2021,"paperTitle":"Fast, Flexible, and Comprehensive Bug Detection for Persistent Memory Programs","authors":"Bang Di, Jiawen Liu, Hao Chen, Dong Li","awardType":"best_paper","tags":["Persistent Memory","Bug Detection"],"paperUrl":"https://doi.org/10.1145/3445814.3446744"},{"year":2021,"paperTitle":"VSync: Push-Button Verification and Optimization for Synchronization Primitives on Weak Memory Models","authors":"Jonas Oberhauser, Rafael Lourenco de Lima Chehab, Diogo Behrens, Ming Fu, Antonio Paolillo, Lilith Oberhauser, Koustubha Bhat, Yuzhong Wen, Haibo Chen, Jaeho Kim, Viktor Vafeiadis","awardType":"best_paper","tags":["Verification","Concurrency"],"paperUrl":"http://arxiv.org/abs/2102.06590v1"},{"year":2022,"paperTitle":"A Tree Clock Data Structure for Causal Orderings in Concurrent Executions","authors":"Umang Mathur, Andreas Pavlogiannis, Hünkar Can Tunç, Mahesh Viswanathan","awardType":"best_paper","tags":["Concurrency","Data Structures"],"paperUrl":"http://arxiv.org/abs/2201.06325v1"},{"year":2022,"paperTitle":"JSONSki: Streaming Semi-Structured Data with Bit-Parallel Fast-Forwarding","authors":"Lin Jiang, Zhijia Zhao","awardType":"best_paper","tags":["JSON","Data Processing"],"paperUrl":"https://doi.org/10.1145/3503222.3507719"},{"year":2022,"paperTitle":"TMO: Transparent Memory Offloading in Datacenters","authors":"Johannes Weiner, Niket Agarwal, Dan Schatzberg, Leon Yang, Hao Wang, Blaise Sanouillet, Bikash Sharma, Tejun Heo, Mayank Jain, Chunqiang Tang, Dimitrios Skarlatos","awardType":"best_paper","tags":["Memory","Datacenters"],"paperUrl":"https://doi.org/10.1145/3503222.3507731"},{"year":2022,"paperTitle":"Understanding and Exploiting Optimal Function Inlining","authors":"Theodoros Theodoridis, Thobias Grosser, Zhendong Su","awardType":"best_paper","tags":["Compilers","Optimization"],"paperUrl":"https://doi.org/10.1145/3503222.3507744"},{"year":2023,"paperTitle":"Junkyard Computing: Repurposing Discarded Smartphones to Minimize Carbon","authors":"Jennifer Switzer, Gongqi Huang, Rajesh K. Gupta, Pat Pannuto","awardType":"best_paper","tags":["Sustainability","Mobile"],"paperUrl":"http://arxiv.org/abs/2110.06870v2"},{"year":2023,"paperTitle":"MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications","authors":"Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, Tyler Sorensen","awardType":"best_paper","tags":["Memory Consistency","Testing"],"paperUrl":"https://doi.org/10.1145/3575693.3575750"},{"year":2023,"paperTitle":"Mosaic Pages: Big TLB Reach with Small Pages","authors":"Krishnan Gosakan, Jaehyun Han, William Kuszmaul, Ibrahim N. Mubarek, Nirjhar Mukherjee, Karthik Sriram, Guido Tagliavini, Evan West, Michael A. Bender, Abhishek Bhattacharjee, Alex Conway, Martin Farach-Colton, Jayneel Gandhi, Rob Johnson, Sudarsun Kannan, Donald E. Porter","awardType":"best_paper","tags":["TLB","Memory Management"],"paperUrl":"https://doi.org/10.1145/3582016.3582021"},{"year":2023,"paperTitle":"Pond: CXL-Based Memory Pooling Systems for Cloud Platforms","authors":"Huaicheng Li, Daniel S. Berger, Lisa Hsu, Daniel Ernst, Pantea Zardoshti, Stanko Novakovic, Monish Shah, Samir Rajadnya, Scott Lee, Ishwar Agarwal, Mark D. Hill, Marcus Fontoura, Ricardo Bianchini","awardType":"best_paper","tags":["CXL","Memory","Cloud"],"paperUrl":"http://arxiv.org/abs/2203.00241v4"},{"year":2024,"paperTitle":"Automatic Generation of Vectorizing Compilers for Customizable Digital Signal Processors","authors":"Samuel Thomas, James Bornholt","awardType":"best_paper","tags":["Compilers","DSP"],"paperUrl":"https://doi.org/10.1145/3617232.3624873"},{"year":2024,"paperTitle":"Centauri: Enabling Efficient Scheduling for Communication-Computation Overlap in Large Model Training via Communication Partitioning","authors":"Chang Chen, Xiuhong Li, Qianchao Zhu, Jiangfei Duan, Peng Sun, Xingcheng Zhang, Chao Yang","awardType":"best_paper","tags":["LLM Training","Distributed Systems"],"paperUrl":"https://doi.org/10.1145/3620666.3651379"},{"year":2024,"paperTitle":"GIANTSAN: Efficient Memory Sanitization with Segment Folding","authors":"Hao Ling, Heqing Huang, Chengpeng Wang, Yuandao Cai, Charles Zhang","awardType":"best_paper","tags":["Memory Safety"],"paperUrl":"https://doi.org/10.1145/3620665.3640391"},{"year":2024,"paperTitle":"PDIP: Priority Directed Instruction Prefetching","authors":"Bhargav Reddy Godala, Sankara Prasad Ramesh, Gilles A. Pokam, Jared Stark, Andre Seznec, Dean Tullsen, David I. August","awardType":"best_paper","tags":["Prefetching","Microarchitecture"],"paperUrl":"https://doi.org/10.1145/3620665.3640394"},{"year":2024,"paperTitle":"ngAP: Non-blocking Large-scale Automata Processing on GPUs","authors":"Tianao Ge, Tong Zhang, Hongyuan Liu","awardType":"best_paper","tags":["GPU","Automata"],"paperUrl":"https://doi.org/10.1145/3617232.3624848"},{"year":2025,"paperTitle":"CXLfork: Fast Remote Fork over CXL Fabrics","authors":"Chloe Alverti, Stratos Psomadakis, Burak Ocalan, Shashwat Jaiswal, Tianyin Xu, Josep Torrellas","awardType":"best_paper","tags":["CXL","Memory"],"paperUrl":"https://doi.org/10.1145/3676641.3715988"},{"year":2025,"paperTitle":"Orion: A Fully Homomorphic Encryption Framework for Deep Learning","authors":"Austin Ebel, Karthik Garimella, Brandon Reagen","awardType":"best_paper","tags":["Homomorphic Encryption","Deep Learning"],"paperUrl":"http://arxiv.org/abs/2311.03470v3"},{"year":2025,"paperTitle":"xUI: Extended User Interrupts","authors":"Berk Aydogmus, Linsong Guo, Danial Zuberi, Tal Garfinkel, Dean Tullsen, Amy Ousterhout, Kazem Taram","awardType":"best_paper","tags":["OS","Architecture"],"paperUrl":"https://dl.acm.org/doi/abs/10.1145/3676641.3716028"}],"acceptanceRates":[{"year":2021,"accepted":75,"submitted":398,"rate":18.8},{"year":2022,"accepted":80,"submitted":399,"rate":20.1},{"year":2023,"accepted":96,"submitted":475,"rate":20.2},{"year":2024,"accepted":105,"submitted":522,"rate":20.1}],"keywordTrends":[{"year":2024,"keyword":"Retrieval-Augmented","count":1},{"year":2024,"keyword":"Quantization","count":1},{"year":2024,"keyword":"Attention","count":1},{"year":2025,"keyword":"Image Generation","count":1},{"year":2025,"keyword":"Diffusion","count":1},{"year":2025,"keyword":"3D Gaussian","count":1},{"year":2020,"keyword":"Bug Detection","count":1},{"year":2020,"keyword":"Speculative","count":2},{"year":2020,"keyword":"Parallelism","count":2},{"year":2020,"keyword":"Efficient","count":12},{"year":2020,"keyword":"Distributed","count":2},{"year":2020,"keyword":"Storage","count":4},{"year":2020,"keyword":"LSM","count":1},{"year":2020,"keyword":"Cache","count":4},{"year":2020,"keyword":"Edge Computing","count":1},{"year":2020,"keyword":"Vulnerability","count":1},{"year":2020,"keyword":"Benchmark","count":1},{"year":2020,"keyword":"Serverless","count":1},{"year":2020,"keyword":"Compression","count":1},{"year":2020,"keyword":"Index","count":1},{"year":2020,"keyword":"Linear Programming","count":1},{"year":2020,"keyword":"GPU","count":2},{"year":2020,"keyword":"Graph","count":1},{"year":2020,"keyword":"FPGA","count":2},{"year":2020,"keyword":"Replication","count":1},{"year":2020,"keyword":"SGX","count":2},{"year":2020,"keyword":"Memory Management","count":2},{"year":2020,"keyword":"Model Checking","count":1},{"year":2020,"keyword":"Virtualization","count":2},{"year":2020,"keyword":"Memory Hierarchy","count":1},{"year":2020,"keyword":"VR","count":1},{"year":2020,"keyword":"Privacy","count":1},{"year":2020,"keyword":"Real-Time","count":1},{"year":2020,"keyword":"Pruning","count":1},{"year":2020,"keyword":"Data Center","count":2},{"year":2020,"keyword":"Accelerator","count":2},{"year":2020,"keyword":"SmartNIC","count":1},{"year":2020,"keyword":"QoS","count":1},{"year":2020,"keyword":"DNN Accelerator","count":1},{"year":2020,"keyword":"Adversarial","count":1},{"year":2020,"keyword":"Scheduling","count":1},{"year":2020,"keyword":"Concurrency","count":1},{"year":2020,"keyword":"Testing","count":1},{"year":2020,"keyword":"Cloud","count":2},{"year":2020,"keyword":"Consistency","count":1},{"year":2020,"keyword":"Optimization","count":1},{"year":2021,"keyword":"Simulation","count":3},{"year":2021,"keyword":"Latency","count":3},{"year":2021,"keyword":"Virtual Reality","count":1},{"year":2021,"keyword":"VR","count":1},{"year":2021,"keyword":"Efficient","count":5},{"year":2021,"keyword":"Embedding","count":1},{"year":2021,"keyword":"Sparse","count":1},{"year":2021,"keyword":"Debugging","count":3},{"year":2021,"keyword":"3D","count":1},{"year":2021,"keyword":"Robustness","count":1},{"year":2021,"keyword":"Optimization","count":3},{"year":2021,"keyword":"Speculative","count":2},{"year":2021,"keyword":"Data Center","count":1},{"year":2021,"keyword":"Scheduling","count":1},{"year":2021,"keyword":"Bug Detection","count":1},{"year":2021,"keyword":"Kernel","count":2},{"year":2021,"keyword":"Serverless","count":3},{"year":2021,"keyword":"Model Checking","count":1},{"year":2021,"keyword":"Autonomous","count":2},{"year":2021,"keyword":"Out-of-Order","count":1},{"year":2021,"keyword":"Compiler","count":4},{"year":2021,"keyword":"DRAM","count":1},{"year":2021,"keyword":"Accelerator","count":2},{"year":2021,"keyword":"Memory Safety","count":2},{"year":2021,"keyword":"Safety","count":2},{"year":2021,"keyword":"Stream Processing","count":1},{"year":2021,"keyword":"Adversarial","count":1},{"year":2021,"keyword":"Testing","count":1},{"year":2021,"keyword":"Virtualization","count":2},{"year":2021,"keyword":"FPGA","count":1},{"year":2021,"keyword":"Reconfigurable","count":1},{"year":2021,"keyword":"Cloud","count":3},{"year":2021,"keyword":"Concurrency","count":1},{"year":2021,"keyword":"Parameterized","count":1},{"year":2021,"keyword":"Robot","count":1},{"year":2021,"keyword":"Compression","count":1},{"year":2021,"keyword":"Cache","count":2},{"year":2021,"keyword":"Dataflow","count":1},{"year":2021,"keyword":"GPU","count":1},{"year":2021,"keyword":"QoS","count":1},{"year":2021,"keyword":"Quantization","count":1},{"year":2022,"keyword":"Cache","count":1},{"year":2022,"keyword":"Latency","count":2},{"year":2022,"keyword":"Program Synthesis","count":1},{"year":2022,"keyword":"Efficient","count":6},{"year":2022,"keyword":"Concurrency","count":2},{"year":2022,"keyword":"Parallelism","count":2},{"year":2022,"keyword":"Graph","count":1},{"year":2022,"keyword":"Memory Safety","count":1},{"year":2022,"keyword":"Safety","count":1},{"year":2022,"keyword":"FPGA","count":2},{"year":2022,"keyword":"Serverless","count":3},{"year":2022,"keyword":"Accelerator","count":2},{"year":2022,"keyword":"Cloud","count":3},{"year":2022,"keyword":"Distributed","count":1},{"year":2022,"keyword":"Optimization","count":5},{"year":2022,"keyword":"Simulation","count":1},{"year":2022,"keyword":"Compiler","count":2},{"year":2022,"keyword":"Scheduling","count":2},{"year":2022,"keyword":"Reconfigurable","count":2},{"year":2022,"keyword":"Debugging","count":1},{"year":2022,"keyword":"Storage","count":2},{"year":2022,"keyword":"Testing","count":1},{"year":2022,"keyword":"GPU","count":5},{"year":2022,"keyword":"Transformer","count":1},{"year":2022,"keyword":"Sparse","count":1},{"year":2022,"keyword":"Kernel","count":1},{"year":2022,"keyword":"Throughput","count":1},{"year":2022,"keyword":"QoS","count":1},{"year":2022,"keyword":"Embedded","count":1},{"year":2022,"keyword":"3D","count":1},{"year":2022,"keyword":"Test Generation","count":1},{"year":2022,"keyword":"Speculative","count":1},{"year":2022,"keyword":"Pipeline","count":1},{"year":2023,"keyword":"Efficient","count":14},{"year":2023,"keyword":"Graph","count":8},{"year":2023,"keyword":"Dataflow","count":4},{"year":2023,"keyword":"Bandwidth","count":1},{"year":2023,"keyword":"Concurrency","count":2},{"year":2023,"keyword":"Testing","count":4},{"year":2023,"keyword":"Storage","count":6},{"year":2023,"keyword":"Debugging","count":2},{"year":2023,"keyword":"File System","count":1},{"year":2023,"keyword":"Distributed","count":5},{"year":2023,"keyword":"Serverless","count":5},{"year":2023,"keyword":"Parallelism","count":4},{"year":2023,"keyword":"Cloud","count":4},{"year":2023,"keyword":"FPGA","count":3},{"year":2023,"keyword":"Simulation","count":3},{"year":2023,"keyword":"Optimization","count":5},{"year":2023,"keyword":"GPU","count":4},{"year":2023,"keyword":"Kernel","count":2},{"year":2023,"keyword":"Compiler","count":7},{"year":2023,"keyword":"Pruning","count":1},{"year":2023,"keyword":"Latency","count":1},{"year":2023,"keyword":"Deformable","count":1},{"year":2023,"keyword":"Sparse","count":7},{"year":2023,"keyword":"Query Optimization","count":1},{"year":2023,"keyword":"Attention","count":1},{"year":2023,"keyword":"Real-Time","count":1},{"year":2023,"keyword":"Embedding","count":2},{"year":2023,"keyword":"Reconfigurable","count":2},{"year":2023,"keyword":"Consistency","count":4},{"year":2023,"keyword":"CXL","count":2},{"year":2023,"keyword":"Virtualization","count":1},{"year":2023,"keyword":"Scheduling","count":1},{"year":2023,"keyword":"CPS","count":1},{"year":2023,"keyword":"Vulnerability","count":1},{"year":2023,"keyword":"IoT","count":2},{"year":2023,"keyword":"Zero-Knowledge","count":1},{"year":2023,"keyword":"Accelerator","count":2},{"year":2023,"keyword":"Throughput","count":1},{"year":2023,"keyword":"Worst-Case","count":1},{"year":2023,"keyword":"Disaggregation","count":1},{"year":2023,"keyword":"Key-Value Store","count":1},{"year":2023,"keyword":"Compression","count":1},{"year":2023,"keyword":"3D","count":1},{"year":2023,"keyword":"Datacenter","count":1},{"year":2023,"keyword":"Near-Data Processing","count":1},{"year":2023,"keyword":"Rendering","count":1},{"year":2023,"keyword":"RISC-V","count":1},{"year":2023,"keyword":"Replication","count":1},{"year":2023,"keyword":"GNN","count":1},{"year":2023,"keyword":"Cache","count":1},{"year":2023,"keyword":"Speculative","count":1},{"year":2023,"keyword":"QoS","count":1},{"year":2024,"keyword":"Homomorphic","count":2},{"year":2024,"keyword":"Encryption","count":2},{"year":2024,"keyword":"Parallelism","count":4},{"year":2024,"keyword":"Sparse","count":6},{"year":2024,"keyword":"Efficient","count":27},{"year":2024,"keyword":"GPU","count":10},{"year":2024,"keyword":"Transformer","count":4},{"year":2024,"keyword":"Generative","count":2},{"year":2024,"keyword":"PIM","count":7},{"year":2024,"keyword":"Optimization","count":12},{"year":2024,"keyword":"Throughput","count":1},{"year":2024,"keyword":"Real-Time","count":2},{"year":2024,"keyword":"Cache","count":4},{"year":2024,"keyword":"Graph","count":12},{"year":2024,"keyword":"Operating System","count":1},{"year":2024,"keyword":"Fuzzing","count":3},{"year":2024,"keyword":"Robot","count":1},{"year":2024,"keyword":"Localization","count":1},{"year":2024,"keyword":"Distributed","count":5},{"year":2024,"keyword":"Scheduling","count":4},{"year":2024,"keyword":"CXL","count":3},{"year":2024,"keyword":"Cloud","count":6},{"year":2024,"keyword":"Embedding","count":1},{"year":2024,"keyword":"Bandwidth","count":1},{"year":2024,"keyword":"Compiler","count":6},{"year":2024,"keyword":"Safety","count":1},{"year":2024,"keyword":"Compression","count":3},{"year":2024,"keyword":"Storage","count":6},{"year":2024,"keyword":"Speculative","count":3},{"year":2024,"keyword":"Pruning","count":1},{"year":2024,"keyword":"TEE","count":1},{"year":2024,"keyword":"Accelerator","count":5},{"year":2024,"keyword":"LLM","count":2},{"year":2024,"keyword":"NPU","count":2},{"year":2024,"keyword":"Kernel","count":3},{"year":2024,"keyword":"Near-Data Processing","count":1},{"year":2024,"keyword":"Gaussian Splatting","count":1},{"year":2024,"keyword":"Radiance Field","count":1},{"year":2024,"keyword":"3D Gaussian","count":1},{"year":2024,"keyword":"Rendering","count":1},{"year":2024,"keyword":"3D","count":2},{"year":2024,"keyword":"DRAM","count":1},{"year":2024,"keyword":"Dataflow","count":2},{"year":2024,"keyword":"Serverless","count":7},{"year":2024,"keyword":"Processing-in-Memory","count":1},{"year":2024,"keyword":"Concurrency","count":2},{"year":2024,"keyword":"Large Language Model","count":2},{"year":2024,"keyword":"Language Model","count":2},{"year":2024,"keyword":"RISC-V","count":1},{"year":2024,"keyword":"GNN","count":2},{"year":2024,"keyword":"Datacenter","count":1},{"year":2024,"keyword":"Program Synthesis","count":2},{"year":2024,"keyword":"FPGA","count":3},{"year":2024,"keyword":"SmartNIC","count":1},{"year":2024,"keyword":"Pipeline","count":2},{"year":2024,"keyword":"Consistency","count":1},{"year":2024,"keyword":"Virtual Reality","count":1},{"year":2024,"keyword":"Multi-Agent","count":1},{"year":2024,"keyword":"Robustness","count":1},{"year":2024,"keyword":"Autonomous","count":1},{"year":2024,"keyword":"Agent","count":1},{"year":2024,"keyword":"Simulation","count":1},{"year":2024,"keyword":"MPC","count":1},{"year":2024,"keyword":"Debugging","count":1},{"year":2024,"keyword":"Embedded","count":1},{"year":2024,"keyword":"Testing","count":1},{"year":2024,"keyword":"Bug Detection","count":1},{"year":2024,"keyword":"Shape","count":1},{"year":2024,"keyword":"Fine-Tuning","count":1},{"year":2024,"keyword":"Container","count":1},{"year":2024,"keyword":"Prefetch","count":1},{"year":2024,"keyword":"Side-Channel","count":1},{"year":2024,"keyword":"Gradient Descent","count":1},{"year":2024,"keyword":"Trusted Execution","count":1},{"year":2025,"keyword":"Graph","count":5},{"year":2025,"keyword":"Efficient","count":20},{"year":2025,"keyword":"GPU","count":11},{"year":2025,"keyword":"Large Language Model","count":4},{"year":2025,"keyword":"Language Model","count":4},{"year":2025,"keyword":"Speculative","count":1},{"year":2025,"keyword":"Encryption","count":4},{"year":2025,"keyword":"Graph Neural Network","count":1},{"year":2025,"keyword":"Storage","count":3},{"year":2025,"keyword":"CXL","count":8},{"year":2025,"keyword":"Pruning","count":3},{"year":2025,"keyword":"Compression","count":3},{"year":2025,"keyword":"Fault Tolerance","count":1},{"year":2025,"keyword":"Sparse","count":5},{"year":2025,"keyword":"Throughput","count":1},{"year":2025,"keyword":"MoE","count":1},{"year":2025,"keyword":"Cache","count":6},{"year":2025,"keyword":"Autonomous","count":3},{"year":2025,"keyword":"3D","count":1},{"year":2025,"keyword":"Optimization","count":3},{"year":2025,"keyword":"Scheduling","count":6},{"year":2025,"keyword":"Homomorphic","count":3},{"year":2025,"keyword":"Autonomous Driving","count":1},{"year":2025,"keyword":"Ray Tracing","count":1},{"year":2025,"keyword":"Compiler","count":3},{"year":2025,"keyword":"RISC-V","count":1},{"year":2025,"keyword":"Rendering","count":4},{"year":2025,"keyword":"Dataflow","count":1},{"year":2025,"keyword":"Simulation","count":3},{"year":2025,"keyword":"Pipeline","count":3},{"year":2025,"keyword":"Point Cloud","count":1},{"year":2025,"keyword":"Cloud","count":8},{"year":2025,"keyword":"Testing","count":3},{"year":2025,"keyword":"Distributed","count":5},{"year":2025,"keyword":"LLM","count":9},{"year":2025,"keyword":"Fuzzing","count":5},{"year":2025,"keyword":"Kernel","count":5},{"year":2025,"keyword":"PIM","count":2},{"year":2025,"keyword":"Consistency","count":1},{"year":2025,"keyword":"Robustness","count":2},{"year":2025,"keyword":"Processing-in-Memory","count":1},{"year":2025,"keyword":"Parallelism","count":5},{"year":2025,"keyword":"SmartNIC","count":1},{"year":2025,"keyword":"Attention","count":2},{"year":2025,"keyword":"Operating System","count":2},{"year":2025,"keyword":"SLAM","count":1},{"year":2025,"keyword":"FPGA","count":2},{"year":2025,"keyword":"Quantization","count":1},{"year":2025,"keyword":"Neural Rendering","count":2},{"year":2025,"keyword":"Real-Time","count":2},{"year":2025,"keyword":"Privacy","count":2},{"year":2025,"keyword":"Concurrency","count":2},{"year":2025,"keyword":"Serverless","count":4},{"year":2025,"keyword":"SGX","count":1},{"year":2025,"keyword":"Zero-Knowledge","count":2},{"year":2025,"keyword":"Microservice","count":1},{"year":2025,"keyword":"Side-Channel","count":2},{"year":2025,"keyword":"DRAM","count":1},{"year":2025,"keyword":"Memory Management","count":2},{"year":2025,"keyword":"Retrieval-Augmented","count":1},{"year":2025,"keyword":"Garbage Collection","count":1},{"year":2025,"keyword":"Mesh","count":1},{"year":2025,"keyword":"Disaggregation","count":1},{"year":2025,"keyword":"Latency","count":1},{"year":2025,"keyword":"Reinforcement Learning","count":1},{"year":2025,"keyword":"Multi-Agent","count":1},{"year":2025,"keyword":"Agent","count":1},{"year":2025,"keyword":"Transaction","count":1},{"year":2025,"keyword":"Accelerator","count":1},{"year":2025,"keyword":"Embedding","count":1},{"year":2025,"keyword":"Bandwidth","count":2},{"year":2025,"keyword":"Debugging","count":1},{"year":2025,"keyword":"VR","count":1},{"year":2026,"keyword":"Code Generation","count":1},{"year":2026,"keyword":"Efficient","count":27},{"year":2026,"keyword":"LLM","count":15},{"year":2026,"keyword":"GPU","count":10},{"year":2026,"keyword":"Homomorphic","count":6},{"year":2026,"keyword":"Encryption","count":6},{"year":2026,"keyword":"RL","count":2},{"year":2026,"keyword":"Simulation","count":3},{"year":2026,"keyword":"Compiler","count":3},{"year":2026,"keyword":"Accelerator","count":3},{"year":2026,"keyword":"Gaussian Splatting","count":5},{"year":2026,"keyword":"3D Gaussian","count":5},{"year":2026,"keyword":"3D","count":5},{"year":2026,"keyword":"Quantization","count":1},{"year":2026,"keyword":"Scheduling","count":3},{"year":2026,"keyword":"Generative","count":1},{"year":2026,"keyword":"Attention","count":4},{"year":2026,"keyword":"Chiplet","count":1},{"year":2026,"keyword":"Trusted Execution","count":2},{"year":2026,"keyword":"CXL","count":5},{"year":2026,"keyword":"Data Center","count":1},{"year":2026,"keyword":"Query Optimization","count":1},{"year":2026,"keyword":"Optimization","count":6},{"year":2026,"keyword":"Graph","count":4},{"year":2026,"keyword":"PIM","count":3},{"year":2026,"keyword":"Compression","count":1},{"year":2026,"keyword":"Fuzzing","count":2},{"year":2026,"keyword":"Distributed","count":1},{"year":2026,"keyword":"Model Checking","count":1},{"year":2026,"keyword":"Storage","count":4},{"year":2026,"keyword":"SLAM","count":1},{"year":2026,"keyword":"Reinforcement Learning","count":1},{"year":2026,"keyword":"Out-of-Order","count":1},{"year":2026,"keyword":"Dataflow","count":2},{"year":2026,"keyword":"Parallelism","count":3},{"year":2026,"keyword":"Throughput","count":1},{"year":2026,"keyword":"Latency","count":4},{"year":2026,"keyword":"Reconfigurable","count":3},{"year":2026,"keyword":"Cache","count":4},{"year":2026,"keyword":"Datacenter","count":1},{"year":2026,"keyword":"Consistency","count":1},{"year":2026,"keyword":"Sparse","count":3},{"year":2026,"keyword":"Static Analysis","count":2},{"year":2026,"keyword":"RISC-V","count":2},{"year":2026,"keyword":"Large Language Model","count":3},{"year":2026,"keyword":"Language Model","count":3},{"year":2026,"keyword":"MoE","count":3},{"year":2026,"keyword":"Speculative","count":5},{"year":2026,"keyword":"Prefetch","count":1},{"year":2026,"keyword":"FPGA","count":1},{"year":2026,"keyword":"Parameterized","count":1},{"year":2026,"keyword":"Real-Time","count":1},{"year":2026,"keyword":"Serverless","count":2},{"year":2026,"keyword":"Cloud","count":1},{"year":2026,"keyword":"Memory Hierarchy","count":1},{"year":2026,"keyword":"Pipeline","count":2},{"year":2026,"keyword":"SMT","count":1},{"year":2026,"keyword":"DRAM","count":2},{"year":2026,"keyword":"Image Generation","count":1},{"year":2026,"keyword":"Diffusion","count":1},{"year":2026,"keyword":"Augmented Reality","count":1},{"year":2026,"keyword":"Privacy","count":1},{"year":2026,"keyword":"Multimodal","count":1},{"year":2026,"keyword":"Kernel","count":2},{"year":2026,"keyword":"Virtualization","count":1},{"year":2026,"keyword":"Container","count":1},{"year":2026,"keyword":"SmartNIC","count":1},{"year":2026,"keyword":"Retrieval-Augmented","count":1},{"year":2026,"keyword":"Testing","count":1},{"year":2026,"keyword":"Rendering","count":1},{"year":2026,"keyword":"VR","count":1},{"year":2021,"keyword":"Attention","count":1},{"year":2023,"keyword":"Generative","count":1},{"year":2023,"keyword":"Large Language Model","count":1},{"year":2023,"keyword":"Language Model","count":1},{"year":2024,"keyword":"MoE","count":1}]}
+{
+  "id": "a1ba6840-eebf-403a-9f74-a4212a6a3baf",
+  "slug": "asplos",
+  "nameEn": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "nameKr": null,
+  "acronym": "ASPLOS",
+  "field": "Architecture",
+  "subField": "Architecture & Systems",
+  "dblpKey": "conf/asplos",
+  "websiteUrl": null,
+  "description": null,
+  "nextDeadline": "2026-04-15T23:59:00Z",
+  "daysUntilDeadline": 19,
+  "deadlineTimezone": "AoE",
+  "venue": "Crete, Greece",
+  "conferenceStart": "2027-03-30",
+  "conferenceEnd": "2027-04-03",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "4"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "최우수"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "최우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A*"
+    },
+    {
+      "institution": "CCF",
+      "tier": "A"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": "Included"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "최우수"
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "spring",
+      "abstractDeadline": "2025-03-05T23:59:00Z",
+      "paperDeadline": "2025-03-12T23:59:00Z",
+      "notificationDate": "2025-06-24T00:00:00Z",
+      "conferenceStart": "2026-03-22",
+      "conferenceEnd": "2026-03-26",
+      "venue": "Pittsburgh, USA",
+      "timezone": "AoE"
+    },
+    {
+      "year": 2026,
+      "cycle": "summer",
+      "abstractDeadline": "2025-08-13T23:59:00Z",
+      "paperDeadline": "2025-08-20T23:59:00Z",
+      "notificationDate": "2025-11-24T00:00:00Z",
+      "conferenceStart": "2026-03-22",
+      "conferenceEnd": "2026-03-26",
+      "venue": "Pittsburgh, USA",
+      "timezone": "AoE"
+    },
+    {
+      "year": 2027,
+      "cycle": "cycle1",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-04-15T23:59:00Z",
+      "notificationDate": "2026-07-27T00:00:00Z",
+      "conferenceStart": "2027-03-30",
+      "conferenceEnd": "2027-04-03",
+      "venue": "Crete, Greece",
+      "timezone": "AoE"
+    },
+    {
+      "year": 2027,
+      "cycle": "cycle2",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-09-09T23:59:00Z",
+      "notificationDate": "2026-12-21T00:00:00Z",
+      "conferenceStart": "2027-03-30",
+      "conferenceEnd": "2027-04-03",
+      "venue": "Crete, Greece",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "Autonomous NIC Offloads",
+      "authors": "Boris Pismenny, Haggai Eran, Aviad Yehezkel, Liran Liss, Adam Morrison, Dan Tsafrir",
+      "awardType": "best_paper",
+      "tags": [
+        "NIC",
+        "Networking"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3445814.3446732"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Benchmarking, Analysis, and Optimization of Serverless Function Snapshots",
+      "authors": "Dmitrii Ustiugov, Plamen Petrov, Marios Kogias, Edouard Bugnion, Boris Grot",
+      "awardType": "best_paper",
+      "tags": [
+        "Serverless",
+        "Systems"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2101.09355v3"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Compiler-Driven FPGA Virtualization with SYNERGY",
+      "authors": "Joshua Landgraf, Tiffany Yang, Will Lin, Christopher J. P. O'Boyle",
+      "awardType": "best_paper",
+      "tags": [
+        "FPGA",
+        "Compilers"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2109.02484v1"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Computing with Time: Microarchitectural Weird Machines",
+      "authors": "Dmitry Evtyushkin, Thomas Benjamin, Jesse Elwell, Jeffrey A. Rossbach, Eric Schkufza",
+      "awardType": "best_paper",
+      "tags": [
+        "Microarchitecture",
+        "Security"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3445814.3446729"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Fast, Flexible, and Comprehensive Bug Detection for Persistent Memory Programs",
+      "authors": "Bang Di, Jiawen Liu, Hao Chen, Dong Li",
+      "awardType": "best_paper",
+      "tags": [
+        "Persistent Memory",
+        "Bug Detection"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3445814.3446744"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "VSync: Push-Button Verification and Optimization for Synchronization Primitives on Weak Memory Models",
+      "authors": "Jonas Oberhauser, Rafael Lourenco de Lima Chehab, Diogo Behrens, Ming Fu, Antonio Paolillo, Lilith Oberhauser, Koustubha Bhat, Yuzhong Wen, Haibo Chen, Jaeho Kim, Viktor Vafeiadis",
+      "awardType": "best_paper",
+      "tags": [
+        "Verification",
+        "Concurrency"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2102.06590v1"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "A Tree Clock Data Structure for Causal Orderings in Concurrent Executions",
+      "authors": "Umang Mathur, Andreas Pavlogiannis, Hünkar Can Tunç, Mahesh Viswanathan",
+      "awardType": "best_paper",
+      "tags": [
+        "Concurrency",
+        "Data Structures"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2201.06325v1"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "JSONSki: Streaming Semi-Structured Data with Bit-Parallel Fast-Forwarding",
+      "authors": "Lin Jiang, Zhijia Zhao",
+      "awardType": "best_paper",
+      "tags": [
+        "JSON",
+        "Data Processing"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3503222.3507719"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "TMO: Transparent Memory Offloading in Datacenters",
+      "authors": "Johannes Weiner, Niket Agarwal, Dan Schatzberg, Leon Yang, Hao Wang, Blaise Sanouillet, Bikash Sharma, Tejun Heo, Mayank Jain, Chunqiang Tang, Dimitrios Skarlatos",
+      "awardType": "best_paper",
+      "tags": [
+        "Memory",
+        "Datacenters"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3503222.3507731"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Understanding and Exploiting Optimal Function Inlining",
+      "authors": "Theodoros Theodoridis, Thobias Grosser, Zhendong Su",
+      "awardType": "best_paper",
+      "tags": [
+        "Compilers",
+        "Optimization"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3503222.3507744"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Junkyard Computing: Repurposing Discarded Smartphones to Minimize Carbon",
+      "authors": "Jennifer Switzer, Gongqi Huang, Rajesh K. Gupta, Pat Pannuto",
+      "awardType": "best_paper",
+      "tags": [
+        "Sustainability",
+        "Mobile"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2110.06870v2"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications",
+      "authors": "Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, Tyler Sorensen",
+      "awardType": "best_paper",
+      "tags": [
+        "Memory Consistency",
+        "Testing"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3575693.3575750"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Mosaic Pages: Big TLB Reach with Small Pages",
+      "authors": "Krishnan Gosakan, Jaehyun Han, William Kuszmaul, Ibrahim N. Mubarek, Nirjhar Mukherjee, Karthik Sriram, Guido Tagliavini, Evan West, Michael A. Bender, Abhishek Bhattacharjee, Alex Conway, Martin Farach-Colton, Jayneel Gandhi, Rob Johnson, Sudarsun Kannan, Donald E. Porter",
+      "awardType": "best_paper",
+      "tags": [
+        "TLB",
+        "Memory Management"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3582016.3582021"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms",
+      "authors": "Huaicheng Li, Daniel S. Berger, Lisa Hsu, Daniel Ernst, Pantea Zardoshti, Stanko Novakovic, Monish Shah, Samir Rajadnya, Scott Lee, Ishwar Agarwal, Mark D. Hill, Marcus Fontoura, Ricardo Bianchini",
+      "awardType": "best_paper",
+      "tags": [
+        "CXL",
+        "Memory",
+        "Cloud"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2203.00241v4"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "Automatic Generation of Vectorizing Compilers for Customizable Digital Signal Processors",
+      "authors": "Samuel Thomas, James Bornholt",
+      "awardType": "best_paper",
+      "tags": [
+        "Compilers",
+        "DSP"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3617232.3624873"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "Centauri: Enabling Efficient Scheduling for Communication-Computation Overlap in Large Model Training via Communication Partitioning",
+      "authors": "Chang Chen, Xiuhong Li, Qianchao Zhu, Jiangfei Duan, Peng Sun, Xingcheng Zhang, Chao Yang",
+      "awardType": "best_paper",
+      "tags": [
+        "LLM Training",
+        "Distributed Systems"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3620666.3651379"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "GIANTSAN: Efficient Memory Sanitization with Segment Folding",
+      "authors": "Hao Ling, Heqing Huang, Chengpeng Wang, Yuandao Cai, Charles Zhang",
+      "awardType": "best_paper",
+      "tags": [
+        "Memory Safety"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3620665.3640391"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "PDIP: Priority Directed Instruction Prefetching",
+      "authors": "Bhargav Reddy Godala, Sankara Prasad Ramesh, Gilles A. Pokam, Jared Stark, Andre Seznec, Dean Tullsen, David I. August",
+      "awardType": "best_paper",
+      "tags": [
+        "Prefetching",
+        "Microarchitecture"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3620665.3640394"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "ngAP: Non-blocking Large-scale Automata Processing on GPUs",
+      "authors": "Tianao Ge, Tong Zhang, Hongyuan Liu",
+      "awardType": "best_paper",
+      "tags": [
+        "GPU",
+        "Automata"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3617232.3624848"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "CXLfork: Fast Remote Fork over CXL Fabrics",
+      "authors": "Chloe Alverti, Stratos Psomadakis, Burak Ocalan, Shashwat Jaiswal, Tianyin Xu, Josep Torrellas",
+      "awardType": "best_paper",
+      "tags": [
+        "CXL",
+        "Memory"
+      ],
+      "paperUrl": "https://doi.org/10.1145/3676641.3715988"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Orion: A Fully Homomorphic Encryption Framework for Deep Learning",
+      "authors": "Austin Ebel, Karthik Garimella, Brandon Reagen",
+      "awardType": "best_paper",
+      "tags": [
+        "Homomorphic Encryption",
+        "Deep Learning"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2311.03470v3"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "xUI: Extended User Interrupts",
+      "authors": "Berk Aydogmus, Linsong Guo, Danial Zuberi, Tal Garfinkel, Dean Tullsen, Amy Ousterhout, Kazem Taram",
+      "awardType": "best_paper",
+      "tags": [
+        "OS",
+        "Architecture"
+      ],
+      "paperUrl": "https://dl.acm.org/doi/abs/10.1145/3676641.3716028"
+    }
+  ],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 105,
+      "submitted": 522,
+      "rate": 20.1
+    },
+    {
+      "year": 2023,
+      "accepted": 96,
+      "submitted": 475,
+      "rate": 20.2
+    },
+    {
+      "year": 2022,
+      "accepted": 80,
+      "submitted": 399,
+      "rate": 20.1
+    },
+    {
+      "year": 2021,
+      "accepted": 75,
+      "submitted": 398,
+      "rate": 18.8
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2024,
+      "keyword": "Retrieval-Augmented",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Image Generation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "3D Gaussian",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Bug Detection",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Speculative",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Parallelism",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 12
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Storage",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "LSM",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cache",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Edge Computing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Vulnerability",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Serverless",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Linear Programming",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "GPU",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "FPGA",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "SGX",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Memory Management",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Virtualization",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Memory Hierarchy",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Data Center",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Accelerator",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "SmartNIC",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "QoS",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "DNN Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Simulation",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Latency",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Debugging",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Speculative",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Data Center",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Bug Detection",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Serverless",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Autonomous",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Out-of-Order",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Compiler",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "DRAM",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Accelerator",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Memory Safety",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Safety",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Virtualization",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reconfigurable",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Robot",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "QoS",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Latency",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Program Synthesis",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Concurrency",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Parallelism",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Memory Safety",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "FPGA",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Serverless",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Accelerator",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Cloud",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Optimization",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Compiler",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Reconfigurable",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Storage",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "GPU",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "QoS",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Test Generation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Pipeline",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 14
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 8
+    },
+    {
+      "year": 2023,
+      "keyword": "Dataflow",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Concurrency",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Testing",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Storage",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Debugging",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "File System",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Serverless",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Parallelism",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Cloud",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "FPGA",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Simulation",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "GPU",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Compiler",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Deformable",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Sparse",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Query Optimization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Embedding",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Reconfigurable",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Consistency",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "CXL",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Virtualization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "CPS",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Vulnerability",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "IoT",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Zero-Knowledge",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Accelerator",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Worst-Case",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Disaggregation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Key-Value Store",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Datacenter",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Near-Data Processing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Rendering",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "RISC-V",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "QoS",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Homomorphic",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Encryption",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Parallelism",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Sparse",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 27
+    },
+    {
+      "year": 2024,
+      "keyword": "GPU",
+      "count": 10
+    },
+    {
+      "year": 2024,
+      "keyword": "Transformer",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "PIM",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 12
+    },
+    {
+      "year": 2024,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Real-Time",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Cache",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 12
+    },
+    {
+      "year": 2024,
+      "keyword": "Operating System",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Fuzzing",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Robot",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Localization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Scheduling",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "CXL",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Cloud",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Compiler",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Compression",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Storage",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Speculative",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "TEE",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Accelerator",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "LLM",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "NPU",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Kernel",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Near-Data Processing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Gaussian Splatting",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Radiance Field",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "3D Gaussian",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Rendering",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "3D",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "DRAM",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Dataflow",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Serverless",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Processing-in-Memory",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Concurrency",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Large Language Model",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Language Model",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "RISC-V",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "GNN",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Datacenter",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Program Synthesis",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "FPGA",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "SmartNIC",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pipeline",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Multi-Agent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "MPC",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Bug Detection",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Shape",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Prefetch",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Side-Channel",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Gradient Descent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Trusted Execution",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 20
+    },
+    {
+      "year": 2025,
+      "keyword": "GPU",
+      "count": 11
+    },
+    {
+      "year": 2025,
+      "keyword": "Large Language Model",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Encryption",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Storage",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "CXL",
+      "count": 8
+    },
+    {
+      "year": 2025,
+      "keyword": "Pruning",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Compression",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Sparse",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "MoE",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cache",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Scheduling",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Homomorphic",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous Driving",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Ray Tracing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Compiler",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "RISC-V",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Rendering",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Simulation",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Pipeline",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Point Cloud",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cloud",
+      "count": 8
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 9
+    },
+    {
+      "year": 2025,
+      "keyword": "Fuzzing",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Kernel",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "PIM",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Robustness",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Processing-in-Memory",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Parallelism",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "SmartNIC",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Attention",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Operating System",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "SLAM",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "FPGA",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Neural Rendering",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Real-Time",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Privacy",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Concurrency",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Serverless",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "SGX",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Zero-Knowledge",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Microservice",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Side-Channel",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "DRAM",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Memory Management",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Retrieval-Augmented",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Garbage Collection",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Mesh",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Disaggregation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Multi-Agent",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Transaction",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Bandwidth",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Code Generation",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Efficient",
+      "count": 27
+    },
+    {
+      "year": 2026,
+      "keyword": "LLM",
+      "count": 15
+    },
+    {
+      "year": 2026,
+      "keyword": "GPU",
+      "count": 10
+    },
+    {
+      "year": 2026,
+      "keyword": "Homomorphic",
+      "count": 6
+    },
+    {
+      "year": 2026,
+      "keyword": "Encryption",
+      "count": 6
+    },
+    {
+      "year": 2026,
+      "keyword": "RL",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "Simulation",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Compiler",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Accelerator",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Gaussian Splatting",
+      "count": 5
+    },
+    {
+      "year": 2026,
+      "keyword": "3D Gaussian",
+      "count": 5
+    },
+    {
+      "year": 2026,
+      "keyword": "3D",
+      "count": 5
+    },
+    {
+      "year": 2026,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Scheduling",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Attention",
+      "count": 4
+    },
+    {
+      "year": 2026,
+      "keyword": "Chiplet",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Trusted Execution",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "CXL",
+      "count": 5
+    },
+    {
+      "year": 2026,
+      "keyword": "Data Center",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Query Optimization",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Optimization",
+      "count": 6
+    },
+    {
+      "year": 2026,
+      "keyword": "Graph",
+      "count": 4
+    },
+    {
+      "year": 2026,
+      "keyword": "PIM",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Fuzzing",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Storage",
+      "count": 4
+    },
+    {
+      "year": 2026,
+      "keyword": "SLAM",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Out-of-Order",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Dataflow",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "Parallelism",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Latency",
+      "count": 4
+    },
+    {
+      "year": 2026,
+      "keyword": "Reconfigurable",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Cache",
+      "count": 4
+    },
+    {
+      "year": 2026,
+      "keyword": "Datacenter",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Sparse",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Static Analysis",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "RISC-V",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "Large Language Model",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Language Model",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "MoE",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Speculative",
+      "count": 5
+    },
+    {
+      "year": 2026,
+      "keyword": "Prefetch",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Real-Time",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Serverless",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Memory Hierarchy",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Pipeline",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "DRAM",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "Image Generation",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Augmented Reality",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "Virtualization",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "SmartNIC",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Retrieval-Augmented",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Rendering",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Large Language Model",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "MoE",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "ASPLOS은 컴퓨터 구조 분야(Architecture & Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 20.1% (2024년, 105/522편)입니다. 주요 연구 키워드: Efficient, LLM, GPU, Homomorphic, Encryption. 매년 3월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "ASPLOS is a leading international conference in Computer Architecture (Architecture & Systems). Recent acceptance rate: 20.1% (2024, 105/522 papers). Top research topics: Efficient, LLM, GPU, Homomorphic, Encryption. Typically held in March. CCF rank A, CORE A*."
+}

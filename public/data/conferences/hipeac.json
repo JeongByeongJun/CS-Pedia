@@ -1,1 +1,70 @@
-{"id":"8a4d701d-d0c8-455e-bd2e-dd4e8e9a8b0c","slug":"hipeac","nameEn":"International Conference on High Performance Embedded Architectures and Compilers","nameKr":null,"acronym":"HiPEAC","field":"Architecture","subField":"Embedded Architecture","dblpKey":"conf/hipeac","websiteUrl":"https://www.hipeac.net/","description":null,"nextDeadline":"2025-06-01T23:59:00Z","daysUntilDeadline":-299,"deadlineTimezone":"AoE","venue":"Krakow, Poland","conferenceStart":"2026-01-26","conferenceEnd":"2026-01-28","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":null},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":null},{"institution":"POSTECH","tier":null},{"institution":"CORE","tier":null},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2025-06-01T23:59:00Z","notificationDate":null,"conferenceStart":"2026-01-26","conferenceEnd":"2026-01-28","venue":"Krakow, Poland","timezone":"AoE"}],"bestPapers":[],"acceptanceRates":[],"keywordTrends":[]}
+{
+  "id": "8a4d701d-d0c8-455e-bd2e-dd4e8e9a8b0c",
+  "slug": "hipeac",
+  "nameEn": "International Conference on High Performance Embedded Architectures and Compilers",
+  "nameKr": null,
+  "acronym": "HiPEAC",
+  "field": "Architecture",
+  "subField": "Embedded Architecture",
+  "dblpKey": "conf/hipeac",
+  "websiteUrl": "https://www.hipeac.net/",
+  "description": null,
+  "nextDeadline": "2025-06-01T23:59:00Z",
+  "daysUntilDeadline": -299,
+  "deadlineTimezone": "AoE",
+  "venue": "Krakow, Poland",
+  "conferenceStart": "2026-01-26",
+  "conferenceEnd": "2026-01-28",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": null
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2025-06-01T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-01-26",
+      "conferenceEnd": "2026-01-28",
+      "venue": "Krakow, Poland",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [],
+  "acceptanceRates": [],
+  "keywordTrends": [],
+  "descriptionKo": "HiPEAC은 컴퓨터 구조 분야(Embedded Architecture)의 주요 국제 학회입니다. 매년 1월 개최. CCF B등급, BK21 1점.",
+  "descriptionEn": "HiPEAC is a leading international conference in Computer Architecture (Embedded Architecture). Typically held in January. CCF rank B."
+}

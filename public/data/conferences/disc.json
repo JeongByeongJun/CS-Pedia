@@ -1,1 +1,93 @@
-{"id":"118f7ff8-b539-43e2-bf30-0e16ff3a00d3","slug":"disc","nameEn":"International Symposium on Distributed Computing","nameKr":null,"acronym":"DISC","field":"Theory","subField":"Distributed Computing","dblpKey":"conf/disc","websiteUrl":"https://www.disc-conference.org/wp/disc2026/","description":null,"nextDeadline":"2026-06-01T23:59:00Z","daysUntilDeadline":66,"deadlineTimezone":"AoE","venue":"Rome, Italy","conferenceStart":"2026-11-09","conferenceEnd":"2026-11-13","institutionRatings":[{"institution":"BK21","tier":"2"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":null},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":null},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":"2026-05-27T23:59:00Z","paperDeadline":"2026-06-01T23:59:00Z","notificationDate":null,"conferenceStart":"2026-11-09","conferenceEnd":"2026-11-13","venue":"Rome, Italy","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Lock-Free Augmented Trees","authors":"Fatourou & Ruppert","awardType":"best_paper","tags":["Lock-Free Algorithms","Data Structures"],"paperUrl":"https://arxiv.org/abs/2405.10506"},{"year":2025,"paperTitle":"Complexity landscape for local certification","authors":"Bousquet, Feuilloley & Zeitoun","awardType":"best_paper","tags":["Local Certification","Distributed Computing"],"paperUrl":"https://arxiv.org/abs/2505.20915"}],"acceptanceRates":[],"keywordTrends":[]}
+{
+  "id": "118f7ff8-b539-43e2-bf30-0e16ff3a00d3",
+  "slug": "disc",
+  "nameEn": "International Symposium on Distributed Computing",
+  "nameKr": null,
+  "acronym": "DISC",
+  "field": "Theory",
+  "subField": "Distributed Computing",
+  "dblpKey": "conf/disc",
+  "websiteUrl": "https://www.disc-conference.org/wp/disc2026/",
+  "description": null,
+  "nextDeadline": "2026-06-01T23:59:00Z",
+  "daysUntilDeadline": 66,
+  "deadlineTimezone": "AoE",
+  "venue": "Rome, Italy",
+  "conferenceStart": "2026-11-09",
+  "conferenceEnd": "2026-11-13",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "2"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": null
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": "2026-05-27T23:59:00Z",
+      "paperDeadline": "2026-06-01T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-11-09",
+      "conferenceEnd": "2026-11-13",
+      "venue": "Rome, Italy",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Lock-Free Augmented Trees",
+      "authors": "Fatourou & Ruppert",
+      "awardType": "best_paper",
+      "tags": [
+        "Lock-Free Algorithms",
+        "Data Structures"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2405.10506"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Complexity landscape for local certification",
+      "authors": "Bousquet, Feuilloley & Zeitoun",
+      "awardType": "best_paper",
+      "tags": [
+        "Local Certification",
+        "Distributed Computing"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2505.20915"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [],
+  "descriptionKo": "DISC은 이론 컴퓨터과학 분야(Distributed Computing)의 주요 국제 학회입니다. 매년 11월 개최. CORE A, BK21 2점.",
+  "descriptionEn": "DISC is a leading international conference in Theoretical Computer Science (Distributed Computing). Typically held in November. CORE A."
+}

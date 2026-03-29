@@ -43,10 +43,17 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const acronym = slug.toUpperCase();
+  const fs = await import("fs/promises");
+  const path = await import("path");
+  let detail: Record<string, unknown> | null = null;
+  try {
+    const raw = await fs.readFile(path.join(process.cwd(), `public/data/conferences/${slug}.json`), "utf8");
+    detail = JSON.parse(raw);
+  } catch { /* ignore */ }
+  const acronym = (detail?.acronym as string) ?? slug.toUpperCase();
   const year = new Date().getFullYear();
   const title = `${acronym} ${year} - Deadline, Acceptance Rate, Best Paper`;
-  const description = `${acronym} ${year} deadline, acceptance rate, best paper awards. CORE/CCF rankings included.`;
+  const description = (detail?.descriptionEn as string) ?? `${acronym} ${year} deadline, acceptance rate, best paper awards. CORE/CCF rankings included.`;
   // TODO: metadata is English-only for now. Consider making locale-aware
   // once headers() usage is resolved for performance (see PERF-004 / I18N-004).
   return {
@@ -260,6 +267,11 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
               isLoggedIn={false}
             />
           </div>
+          {(conference.descriptionKo || conference.descriptionEn) && (
+            <p className="text-sm text-zinc-500 mt-4 leading-relaxed border-t border-zinc-100 pt-4">
+              <LocaleText ko={conference.descriptionKo} en={conference.descriptionEn} />
+            </p>
+          )}
         </div>
 
         {/* 기관 인정 현황 / Rankings */}

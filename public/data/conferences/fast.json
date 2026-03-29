@@ -1,1 +1,805 @@
-{"id":"42ee1497-6061-4c3f-ab1e-c35f8030e174","slug":"fast","nameEn":"USENIX Conference on File and Storage Technologies","nameKr":null,"acronym":"FAST","field":"Systems","subField":"Storage","dblpKey":"conf/fast","websiteUrl":"https://usenix.org/conference/fast","description":null,"nextDeadline":"2026-09-15T23:59:00Z","daysUntilDeadline":172,"deadlineTimezone":"AoE","venue":"Renton, WA, USA","conferenceStart":"2027-02-23","conferenceEnd":"2027-02-25","institutionRatings":[{"institution":"BK21","tier":"3"},{"institution":"KIISE","tier":"최우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"최우수"},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":"A"},{"institution":"CSRankings","tier":"Included"},{"institution":"KAIST","tier":"최우수"}],"deadlines":[{"year":2027,"cycle":"fall","abstractDeadline":null,"paperDeadline":"2026-09-15T23:59:00Z","notificationDate":null,"conferenceStart":"2027-02-23","conferenceEnd":"2027-02-25","venue":"Renton, WA, USA","timezone":"AoE"},{"year":2027,"cycle":"spring","abstractDeadline":null,"paperDeadline":"2026-03-17T23:59:00Z","notificationDate":null,"conferenceStart":"2027-02-23","conferenceEnd":"2027-02-25","venue":"Renton, WA, USA","timezone":"AoE"}],"bestPapers":[{"year":2021,"paperTitle":"High Velocity Kernel File Systems with Bento","authors":["Samantha Miller","Kaiyuan Zhang","Mengqi Chen","Ryan Jennings","Ang Chen","Danyang Zhuo","Thomas Anderson"],"awardType":"best_paper","tags":["Operating Systems"],"paperUrl":"http://arxiv.org/abs/2005.09723v3"},{"year":2022,"paperTitle":"Improving the Reliability of Next Generation SSDs using WOM-v Codes","authors":["Shehbaz Jaffer","Kaveh Mahdaviani","Bianca Schroeder"],"awardType":"best_paper","tags":["Generative Models"],"paperUrl":"http://arxiv.org/abs/2208.00772v1"},{"year":2023,"paperTitle":"Perseus: A Fail-Slow Detection Framework for Cloud Storage Systems","authors":["Ruiming Lu","Erci Xu","Yiming Zhang","Fengyi Zhu","Zhaosheng Zhu","Mengtian Wang","Zongpeng Zhu","Guangtao Xue","Jiwu Shu","Minglu Li","Jiesheng Wu"],"awardType":"best_paper","tags":["Storage Systems"],"paperUrl":"https://www.semanticscholar.org/paper/e6b10bc3654befe0fe7b85f6cd83e5a70f7a9f32"},{"year":2024,"paperTitle":"We Ain't Afraid of No File Fragmentation: Causes and Prevention of Its Performance Impact on Modern Flash SSDs","authors":["Yuhun Jun","Shinhyun Park","Jeong-Uk Kang","Sang-Hoon Kim","Euiseong Seo"],"awardType":"best_paper","tags":["Storage Systems"],"paperUrl":"https://www.semanticscholar.org/paper/14ab3cba854158a669e45fa17eb483feef7bbe8e"},{"year":2024,"paperTitle":"What's the Story in EBS Glory: Evolutions and Lessons in Building Cloud Block Store","authors":["Weidong Zhang","Erci Xu","Qiuping Wang","Xiaolu Zhang","Yuesheng Gu","Zhenwei Lu","Tao Ouyang","Guanqun Dai","Wenwen Peng","Zhe Xu","Shuo Zhang","Dong Wu","Yilei Peng","Tianyun Wang","Haoran Zhang","Jiasheng Wang","Wenyuan Yan","Yuanyuan Dong","Wenhui Yao","Zhongjie Wu","Lingjun Zhu","Chao Shi","Yinhu Wang","Rong Liu","Junping Wu","Jiaji Zhu","Jiesheng Wu"],"awardType":"best_paper","tags":[],"paperUrl":"https://www.semanticscholar.org/paper/96b7eb8c3eb8c09c8ad062edeb38cc42ff4a374f"},{"year":2025,"paperTitle":"Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot","authors":["Ruoyu Qin","Zheming Li","Weiran He","Jialei Cui","Feng Ren","Mingxing Zhang","Yongwei Wu","Weimin Zheng","Xinran Xu"],"awardType":"best_paper","tags":["LLM","Storage Systems"],"paperUrl":"https://www.semanticscholar.org/paper/ea3126b88dc191200ea0bf275f092cb70cbad319"}],"acceptanceRates":[],"keywordTrends":[{"year":2023,"keyword":"Storage","count":7},{"year":2023,"keyword":"Distributed","count":2},{"year":2023,"keyword":"RDMA","count":2},{"year":2023,"keyword":"File System","count":3},{"year":2023,"keyword":"Cloud","count":4},{"year":2023,"keyword":"Key-Value Store","count":2},{"year":2023,"keyword":"Scheduling","count":1},{"year":2023,"keyword":"Latency","count":1},{"year":2023,"keyword":"Cache","count":1},{"year":2023,"keyword":"Dataflow","count":1},{"year":2023,"keyword":"Virtualization","count":1},{"year":2024,"keyword":"Blockchain","count":1},{"year":2024,"keyword":"Storage","count":5},{"year":2024,"keyword":"Kernel","count":2},{"year":2024,"keyword":"Latency","count":1},{"year":2024,"keyword":"Cache","count":2},{"year":2024,"keyword":"Index","count":1},{"year":2024,"keyword":"Serverless","count":1},{"year":2024,"keyword":"Memory Management","count":1},{"year":2024,"keyword":"DRAM","count":1},{"year":2024,"keyword":"Model Checking","count":1},{"year":2024,"keyword":"File System","count":1},{"year":2024,"keyword":"Distributed","count":1},{"year":2024,"keyword":"LSM","count":1},{"year":2024,"keyword":"Replication","count":1},{"year":2024,"keyword":"RDMA","count":1},{"year":2024,"keyword":"Graph","count":1},{"year":2024,"keyword":"Cloud","count":1},{"year":2024,"keyword":"Key-Value Store","count":1},{"year":2025,"keyword":"Garbage Collection","count":2},{"year":2025,"keyword":"File System","count":4},{"year":2025,"keyword":"Distributed","count":1},{"year":2025,"keyword":"GNN","count":1},{"year":2025,"keyword":"Large Language Model","count":1},{"year":2025,"keyword":"Language Model","count":1},{"year":2025,"keyword":"Storage","count":10},{"year":2025,"keyword":"Cloud","count":2},{"year":2025,"keyword":"Compression","count":2},{"year":2025,"keyword":"Generative","count":1},{"year":2025,"keyword":"Efficient","count":1},{"year":2025,"keyword":"Index","count":3},{"year":2025,"keyword":"Hash","count":1},{"year":2025,"keyword":"GPU","count":2},{"year":2025,"keyword":"Processing-in-Memory","count":1},{"year":2025,"keyword":"Learned Index","count":1},{"year":2025,"keyword":"Bandwidth","count":2},{"year":2025,"keyword":"Latency","count":2},{"year":2025,"keyword":"LSM","count":1},{"year":2025,"keyword":"RDMA","count":1},{"year":2025,"keyword":"Blockchain","count":1},{"year":2025,"keyword":"Consistency","count":1},{"year":2025,"keyword":"Microkernel","count":1},{"year":2025,"keyword":"Container","count":1},{"year":2025,"keyword":"Chatbot","count":1},{"year":2025,"keyword":"LLM","count":1},{"year":2025,"keyword":"Throughput","count":1},{"year":2025,"keyword":"Graph","count":1},{"year":2025,"keyword":"Cache","count":1},{"year":2026,"keyword":"Simulation","count":1},{"year":2026,"keyword":"CXL","count":2},{"year":2026,"keyword":"Distributed","count":4},{"year":2026,"keyword":"Garbage Collection","count":1},{"year":2026,"keyword":"Storage","count":16},{"year":2026,"keyword":"Efficient","count":7},{"year":2026,"keyword":"Graph","count":1},{"year":2026,"keyword":"Cloud","count":6},{"year":2026,"keyword":"Compression","count":2},{"year":2026,"keyword":"LLM","count":4},{"year":2026,"keyword":"File System","count":3},{"year":2026,"keyword":"Cache","count":4},{"year":2026,"keyword":"Generative","count":1},{"year":2026,"keyword":"Virtualization","count":1},{"year":2026,"keyword":"Scheduling","count":1},{"year":2026,"keyword":"LSM","count":1},{"year":2026,"keyword":"Prompt","count":1},{"year":2026,"keyword":"Container","count":1},{"year":2026,"keyword":"GPU","count":1},{"year":2026,"keyword":"Bandwidth","count":1},{"year":2026,"keyword":"Parallelism","count":1},{"year":2026,"keyword":"Index","count":1},{"year":2026,"keyword":"Latency","count":1},{"year":2023,"keyword":"Efficient","count":1},{"year":2024,"keyword":"Efficient","count":4},{"year":2020,"keyword":"Storage","count":12},{"year":2020,"keyword":"Cloud","count":2},{"year":2020,"keyword":"Key-Value Store","count":2},{"year":2020,"keyword":"Consistency","count":1},{"year":2020,"keyword":"Efficient","count":2},{"year":2020,"keyword":"Cache","count":2},{"year":2020,"keyword":"Bandwidth","count":1},{"year":2020,"keyword":"Serverless","count":1},{"year":2020,"keyword":"FPGA","count":1},{"year":2020,"keyword":"LSM","count":1},{"year":2021,"keyword":"Transaction","count":1},{"year":2021,"keyword":"Cache","count":3},{"year":2021,"keyword":"File System","count":3},{"year":2021,"keyword":"Kernel","count":2},{"year":2021,"keyword":"Storage","count":6},{"year":2021,"keyword":"LSM","count":2},{"year":2021,"keyword":"Distributed","count":2},{"year":2021,"keyword":"Compression","count":2},{"year":2021,"keyword":"Latency","count":1},{"year":2021,"keyword":"Accelerator","count":1},{"year":2021,"keyword":"Efficient","count":2},{"year":2021,"keyword":"Benchmark","count":1},{"year":2021,"keyword":"Cloud","count":2},{"year":2022,"keyword":"Compression","count":3},{"year":2022,"keyword":"Cache","count":1},{"year":2022,"keyword":"Storage","count":7},{"year":2022,"keyword":"LSM","count":2},{"year":2022,"keyword":"Distributed","count":4},{"year":2022,"keyword":"Authentication","count":1},{"year":2022,"keyword":"Efficient","count":3},{"year":2022,"keyword":"Transaction","count":1},{"year":2022,"keyword":"Graph","count":1},{"year":2022,"keyword":"Consistency","count":1},{"year":2022,"keyword":"Bandwidth","count":1},{"year":2022,"keyword":"DRAM","count":1},{"year":2022,"keyword":"RDMA","count":1}]}
+{
+  "id": "42ee1497-6061-4c3f-ab1e-c35f8030e174",
+  "slug": "fast",
+  "nameEn": "USENIX Conference on File and Storage Technologies",
+  "nameKr": null,
+  "acronym": "FAST",
+  "field": "Systems",
+  "subField": "Storage",
+  "dblpKey": "conf/fast",
+  "websiteUrl": "https://usenix.org/conference/fast",
+  "description": null,
+  "nextDeadline": "2026-09-15T23:59:00Z",
+  "daysUntilDeadline": 172,
+  "deadlineTimezone": "AoE",
+  "venue": "Renton, WA, USA",
+  "conferenceStart": "2027-02-23",
+  "conferenceEnd": "2027-02-25",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "3"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "최우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "최우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": "A"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": "Included"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "최우수"
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2027,
+      "cycle": "fall",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-09-15T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2027-02-23",
+      "conferenceEnd": "2027-02-25",
+      "venue": "Renton, WA, USA",
+      "timezone": "AoE"
+    },
+    {
+      "year": 2027,
+      "cycle": "spring",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-03-17T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2027-02-23",
+      "conferenceEnd": "2027-02-25",
+      "venue": "Renton, WA, USA",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "High Velocity Kernel File Systems with Bento",
+      "authors": [
+        "Samantha Miller",
+        "Kaiyuan Zhang",
+        "Mengqi Chen",
+        "Ryan Jennings",
+        "Ang Chen",
+        "Danyang Zhuo",
+        "Thomas Anderson"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "Operating Systems"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2005.09723v3"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Improving the Reliability of Next Generation SSDs using WOM-v Codes",
+      "authors": [
+        "Shehbaz Jaffer",
+        "Kaveh Mahdaviani",
+        "Bianca Schroeder"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "Generative Models"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2208.00772v1"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Perseus: A Fail-Slow Detection Framework for Cloud Storage Systems",
+      "authors": [
+        "Ruiming Lu",
+        "Erci Xu",
+        "Yiming Zhang",
+        "Fengyi Zhu",
+        "Zhaosheng Zhu",
+        "Mengtian Wang",
+        "Zongpeng Zhu",
+        "Guangtao Xue",
+        "Jiwu Shu",
+        "Minglu Li",
+        "Jiesheng Wu"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "Storage Systems"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/e6b10bc3654befe0fe7b85f6cd83e5a70f7a9f32"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "We Ain't Afraid of No File Fragmentation: Causes and Prevention of Its Performance Impact on Modern Flash SSDs",
+      "authors": [
+        "Yuhun Jun",
+        "Shinhyun Park",
+        "Jeong-Uk Kang",
+        "Sang-Hoon Kim",
+        "Euiseong Seo"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "Storage Systems"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/14ab3cba854158a669e45fa17eb483feef7bbe8e"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "What's the Story in EBS Glory: Evolutions and Lessons in Building Cloud Block Store",
+      "authors": [
+        "Weidong Zhang",
+        "Erci Xu",
+        "Qiuping Wang",
+        "Xiaolu Zhang",
+        "Yuesheng Gu",
+        "Zhenwei Lu",
+        "Tao Ouyang",
+        "Guanqun Dai",
+        "Wenwen Peng",
+        "Zhe Xu",
+        "Shuo Zhang",
+        "Dong Wu",
+        "Yilei Peng",
+        "Tianyun Wang",
+        "Haoran Zhang",
+        "Jiasheng Wang",
+        "Wenyuan Yan",
+        "Yuanyuan Dong",
+        "Wenhui Yao",
+        "Zhongjie Wu",
+        "Lingjun Zhu",
+        "Chao Shi",
+        "Yinhu Wang",
+        "Rong Liu",
+        "Junping Wu",
+        "Jiaji Zhu",
+        "Jiesheng Wu"
+      ],
+      "awardType": "best_paper",
+      "tags": [],
+      "paperUrl": "https://www.semanticscholar.org/paper/96b7eb8c3eb8c09c8ad062edeb38cc42ff4a374f"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot",
+      "authors": [
+        "Ruoyu Qin",
+        "Zheming Li",
+        "Weiran He",
+        "Jialei Cui",
+        "Feng Ren",
+        "Mingxing Zhang",
+        "Yongwei Wu",
+        "Weimin Zheng",
+        "Xinran Xu"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "LLM",
+        "Storage Systems"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/ea3126b88dc191200ea0bf275f092cb70cbad319"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2023,
+      "keyword": "Storage",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "RDMA",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "File System",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Cloud",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Key-Value Store",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Virtualization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Storage",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Serverless",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Memory Management",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "DRAM",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "File System",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "LSM",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "RDMA",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Key-Value Store",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Garbage Collection",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "File System",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Large Language Model",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Storage",
+      "count": 10
+    },
+    {
+      "year": 2025,
+      "keyword": "Cloud",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Compression",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Index",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "GPU",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Processing-in-Memory",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Learned Index",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Bandwidth",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Latency",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "LSM",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "RDMA",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Microkernel",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Chatbot",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "CXL",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "Distributed",
+      "count": 4
+    },
+    {
+      "year": 2026,
+      "keyword": "Garbage Collection",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Storage",
+      "count": 16
+    },
+    {
+      "year": 2026,
+      "keyword": "Efficient",
+      "count": 7
+    },
+    {
+      "year": 2026,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Cloud",
+      "count": 6
+    },
+    {
+      "year": 2026,
+      "keyword": "Compression",
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "keyword": "LLM",
+      "count": 4
+    },
+    {
+      "year": 2026,
+      "keyword": "File System",
+      "count": 3
+    },
+    {
+      "year": 2026,
+      "keyword": "Cache",
+      "count": 4
+    },
+    {
+      "year": 2026,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Virtualization",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "LSM",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Prompt",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Storage",
+      "count": 12
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Key-Value Store",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Serverless",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "LSM",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Transaction",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cache",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "File System",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Storage",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "LSM",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Compression",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Compression",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Storage",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "keyword": "LSM",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Authentication",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Transaction",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "DRAM",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "RDMA",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "FAST은 시스템 분야(Storage)의 주요 국제 학회입니다. 주요 연구 키워드: Storage, Efficient, Cloud, Distributed, LLM. 매년 2월 개최. CCF A등급, CORE A, BK21 3점.",
+  "descriptionEn": "FAST is a leading international conference in Systems (Storage). Top research topics: Storage, Efficient, Cloud, Distributed, LLM. Typically held in February. CCF rank A, CORE A."
+}

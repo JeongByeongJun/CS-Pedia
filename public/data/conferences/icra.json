@@ -1,1 +1,3894 @@
-{"id":"443a7f01-4df4-45d7-b9a8-725107b704a3","slug":"icra","nameEn":"IEEE International Conference on Robotics and Automation","nameKr":null,"acronym":"ICRA","field":"Robotics","subField":"Robotics","dblpKey":"conf/icra","websiteUrl":"https://ieee-icra.org","description":null,"nextDeadline":"2025-09-16T23:59:00Z","daysUntilDeadline":-192,"deadlineTimezone":"PDT","venue":"Vienna, Austria","conferenceStart":"2026-06-01","conferenceEnd":"2026-06-05","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"A*"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":"Included"},{"institution":"SNU","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2025-09-16T23:59:00Z","notificationDate":"2026-01-31T00:00:00Z","conferenceStart":"2026-06-01","conferenceEnd":"2026-06-05","venue":"Vienna, Austria","timezone":"PDT"}],"bestPapers":[{"year":2021,"paperTitle":"Extrinsic Contact Sensing with Relative-Motion Tracking from Distributed Tactile Measurements","authors":"Daolin Ma, Siyuan Dong, Alberto Rodriguez","awardType":"best_paper","tags":["robotics","tactile sensing","manipulation"],"paperUrl":"https://arxiv.org/abs/2103.08108"},{"year":2022,"paperTitle":"Translating Images into Maps","authors":"Saha, Mendez Maldonado, Russell, Bowden","awardType":"best_paper","tags":["Mapping","Perception"],"paperUrl":"https://arxiv.org/abs/2110.00966"},{"year":2023,"paperTitle":"Distributed Data-Driven Predictive Control for Multi-Agent Collaborative Legged Locomotion","authors":"Fawcett, Amanzadeh, Kim, Ames, Hamed","awardType":"best_paper","tags":["Locomotion","Multi-Agent"],"paperUrl":"https://arxiv.org/abs/2211.06917"},{"year":2025,"paperTitle":"MAC-VO: Metrics-aware Covariance for Learning-based Stereo Visual Odometry","authors":"Qiu, Chen, Zhang, Wang, Scherer","awardType":"best_paper","tags":["Visual Odometry","Robot Perception"],"paperUrl":"https://arxiv.org/abs/2409.09479"},{"year":2025,"paperTitle":"Robo-DM: Efficient Robot Big Data Management","authors":"Goldberg, Kubiatowicz et al.","awardType":"best_paper","tags":["Robot Learning","Data Management"],"paperUrl":"https://arxiv.org/abs/2505.15558"},{"year":2024,"paperTitle":"SARA-RT: Scaling up Robotics Transformers with Self-Adaptive Robust Attention","authors":"Leal, Ichter, Sermanet & Tompson","awardType":"best_paper","tags":["Robotics","Transformer"],"paperUrl":"https://arxiv.org/abs/2312.01990"}],"acceptanceRates":[{"year":2021,"accepted":1946,"submitted":5024,"rate":38.7},{"year":2022,"accepted":1951,"submitted":5234,"rate":37.3},{"year":2023,"accepted":2364,"submitted":6066,"rate":39},{"year":2024,"accepted":2639,"submitted":7007,"rate":37.7}],"keywordTrends":[{"year":2020,"keyword":"Meta-Learning","count":3},{"year":2020,"keyword":"Message Passing","count":1},{"year":2020,"keyword":"RL","count":1},{"year":2020,"keyword":"Data Augmentation","count":1},{"year":2020,"keyword":"Few-Shot","count":2},{"year":2020,"keyword":"Federated Learning","count":1},{"year":2020,"keyword":"Adversarial","count":8},{"year":2020,"keyword":"Dataset","count":16},{"year":2020,"keyword":"Multi-Agent","count":7},{"year":2020,"keyword":"Agent","count":8},{"year":2020,"keyword":"Multimodal","count":8},{"year":2022,"keyword":"Pre-Training","count":1},{"year":2022,"keyword":"Robustness","count":1},{"year":2022,"keyword":"Bias","count":1},{"year":2022,"keyword":"Language Model","count":1},{"year":2022,"keyword":"Diffusion","count":1},{"year":2022,"keyword":"Graph Transformer","count":1},{"year":2022,"keyword":"Question Answering","count":1},{"year":2024,"keyword":"In-Context Learning","count":1},{"year":2024,"keyword":"3D Gaussian","count":8},{"year":2024,"keyword":"Generative","count":5},{"year":2024,"keyword":"Mixture of Experts","count":1},{"year":2024,"keyword":"Fairness","count":1},{"year":2020,"keyword":"Reinforcement Learning","count":41},{"year":2020,"keyword":"Graph","count":14},{"year":2020,"keyword":"3D","count":53},{"year":2021,"keyword":"Fine-Tuning","count":1},{"year":2021,"keyword":"Differential Privacy","count":1},{"year":2021,"keyword":"Privacy","count":1},{"year":2021,"keyword":"GAN","count":1},{"year":2022,"keyword":"Meta-Learning","count":1},{"year":2023,"keyword":"ViT","count":3},{"year":2023,"keyword":"Large Language Model","count":2},{"year":2023,"keyword":"LLM","count":3},{"year":2023,"keyword":"CLIP","count":1},{"year":2023,"keyword":"Prompt","count":1},{"year":2020,"keyword":"Autonomous","count":47},{"year":2020,"keyword":"Optimization","count":29},{"year":2020,"keyword":"Efficient","count":36},{"year":2020,"keyword":"Navigation","count":42},{"year":2020,"keyword":"Localization","count":40},{"year":2020,"keyword":"Automotive","count":2},{"year":2020,"keyword":"Gesture","count":2},{"year":2020,"keyword":"Object Detection","count":6},{"year":2020,"keyword":"Segmentation","count":18},{"year":2020,"keyword":"Domain Adaptation","count":1},{"year":2020,"keyword":"Sim-to-Real","count":7},{"year":2020,"keyword":"Simulation","count":14},{"year":2020,"keyword":"Shape","count":13},{"year":2020,"keyword":"Motion Planning","count":22},{"year":2020,"keyword":"MPC","count":5},{"year":2020,"keyword":"Scheduling","count":3},{"year":2020,"keyword":"User Study","count":1},{"year":2020,"keyword":"Path Planning","count":17},{"year":2020,"keyword":"Attention","count":5},{"year":2020,"keyword":"Sparse","count":11},{"year":2020,"keyword":"Signature","count":1},{"year":2020,"keyword":"Haptic","count":7},{"year":2020,"keyword":"Embedding","count":3},{"year":2020,"keyword":"Texture","count":5},{"year":2020,"keyword":"Imitation Learning","count":8},{"year":2020,"keyword":"Generative","count":7},{"year":2020,"keyword":"Drone","count":5},{"year":2020,"keyword":"Real-Time","count":26},{"year":2020,"keyword":"Pruning","count":2},{"year":2020,"keyword":"Deformable","count":4},{"year":2020,"keyword":"Virtual Reality","count":1},{"year":2020,"keyword":"LoRA","count":1},{"year":2020,"keyword":"Self-Supervised","count":6},{"year":2020,"keyword":"Semantic Segmentation","count":6},{"year":2020,"keyword":"Bandwidth","count":3},{"year":2020,"keyword":"Latency","count":3},{"year":2020,"keyword":"Safety","count":8},{"year":2020,"keyword":"Distributed","count":14},{"year":2020,"keyword":"SLAM","count":25},{"year":2020,"keyword":"Instance Segmentation","count":2},{"year":2020,"keyword":"Kernel","count":1},{"year":2020,"keyword":"Embedded","count":4},{"year":2020,"keyword":"Privacy","count":2},{"year":2020,"keyword":"Autonomous Driving","count":11},{"year":2020,"keyword":"Cyber-Physical","count":1},{"year":2020,"keyword":"Robustness","count":2},{"year":2020,"keyword":"Humanoid","count":7},{"year":2020,"keyword":"Representation Learning","count":2},{"year":2020,"keyword":"GAN","count":1},{"year":2020,"keyword":"Accelerator","count":1},{"year":2020,"keyword":"Worst-Case","count":1},{"year":2020,"keyword":"UAV","count":10},{"year":2020,"keyword":"Physics-Based","count":2},{"year":2020,"keyword":"Benchmark","count":4},{"year":2020,"keyword":"Alignment","count":5},{"year":2020,"keyword":"Serverless","count":1},{"year":2020,"keyword":"Super-Resolution","count":2},{"year":2020,"keyword":"Augmented Reality","count":3},{"year":2020,"keyword":"Storage","count":1},{"year":2020,"keyword":"Policy Optimization","count":2},{"year":2020,"keyword":"Depth Estimation","count":5},{"year":2020,"keyword":"Transfer Learning","count":2},{"year":2020,"keyword":"Low-Rank","count":1},{"year":2020,"keyword":"Index","count":2},{"year":2020,"keyword":"GPU","count":1},{"year":2020,"keyword":"Self-Driving","count":2},{"year":2020,"keyword":"Pre-Training","count":1},{"year":2020,"keyword":"Convex","count":4},{"year":2020,"keyword":"Consensus","count":2},{"year":2020,"keyword":"Wireless","count":1},{"year":2020,"keyword":"Cellular","count":1},{"year":2020,"keyword":"Lattice","count":1},{"year":2020,"keyword":"Mixed Reality","count":1},{"year":2020,"keyword":"Legged Robot","count":3},{"year":2020,"keyword":"Zero-Shot","count":1},{"year":2020,"keyword":"Fault Tolerance","count":2},{"year":2020,"keyword":"Rendering","count":1},{"year":2020,"keyword":"Consistency","count":1},{"year":2020,"keyword":"Complexity","count":3},{"year":2020,"keyword":"Point Cloud","count":2},{"year":2020,"keyword":"Cloud","count":3},{"year":2020,"keyword":"Routing","count":2},{"year":2020,"keyword":"Pretraining","count":1},{"year":2020,"keyword":"Convergence","count":1},{"year":2020,"keyword":"Bias","count":1},{"year":2020,"keyword":"Graph Neural Network","count":1},{"year":2020,"keyword":"Wearable","count":1},{"year":2020,"keyword":"AR","count":1},{"year":2020,"keyword":"Submodular","count":1},{"year":2021,"keyword":"Combinatorial","count":1},{"year":2021,"keyword":"SMT","count":1},{"year":2021,"keyword":"Multi-Agent","count":19},{"year":2021,"keyword":"Agent","count":21},{"year":2021,"keyword":"Autonomous","count":83},{"year":2021,"keyword":"Object Detection","count":9},{"year":2021,"keyword":"Graph","count":30},{"year":2021,"keyword":"Robot","count":233},{"year":2021,"keyword":"Testing","count":4},{"year":2021,"keyword":"Reinforcement Learning","count":66},{"year":2021,"keyword":"Domain Adaptation","count":8},{"year":2021,"keyword":"Adversarial","count":13},{"year":2021,"keyword":"Navigation","count":55},{"year":2021,"keyword":"Efficient","count":58},{"year":2021,"keyword":"UAV","count":12},{"year":2021,"keyword":"Manipulation","count":68},{"year":2021,"keyword":"Segmentation","count":38},{"year":2021,"keyword":"Attention","count":15},{"year":2021,"keyword":"Haptic","count":8},{"year":2021,"keyword":"Grasping","count":24},{"year":2021,"keyword":"Real-Time","count":30},{"year":2021,"keyword":"Instance Segmentation","count":5},{"year":2021,"keyword":"Motion Planning","count":41},{"year":2021,"keyword":"Generative","count":8},{"year":2021,"keyword":"Simulation","count":15},{"year":2021,"keyword":"Rendering","count":3},{"year":2021,"keyword":"Policy Optimization","count":4},{"year":2021,"keyword":"Meta-Learning","count":3},{"year":2021,"keyword":"Optimization","count":46},{"year":2021,"keyword":"Depth Estimation","count":8},{"year":2021,"keyword":"Semantic Segmentation","count":13},{"year":2021,"keyword":"Reconstruction","count":16},{"year":2021,"keyword":"Shape","count":11},{"year":2021,"keyword":"Autonomous Driving","count":13},{"year":2021,"keyword":"Sim-to-Real","count":6},{"year":2021,"keyword":"Serverless","count":2},{"year":2021,"keyword":"Imitation Learning","count":11},{"year":2021,"keyword":"RL","count":4},{"year":2021,"keyword":"Fluid","count":2},{"year":2021,"keyword":"Benchmark","count":6},{"year":2021,"keyword":"Few-Shot","count":3},{"year":2021,"keyword":"Dataset","count":9},{"year":2021,"keyword":"Drone","count":5},{"year":2021,"keyword":"Deformable","count":17},{"year":2021,"keyword":"Multimodal","count":6},{"year":2021,"keyword":"SLAM","count":32},{"year":2021,"keyword":"Bandwidth","count":2},{"year":2021,"keyword":"Message Passing","count":2},{"year":2021,"keyword":"Self-Driving","count":4},{"year":2021,"keyword":"Localization","count":29},{"year":2021,"keyword":"3D","count":65},{"year":2021,"keyword":"Bias","count":1},{"year":2021,"keyword":"Graph Neural Network","count":4},{"year":2021,"keyword":"Path Planning","count":26},{"year":2021,"keyword":"Distributed","count":21},{"year":2021,"keyword":"Representation Learning","count":4},{"year":2021,"keyword":"Kernel","count":4},{"year":2021,"keyword":"Augmented Reality","count":2},{"year":2021,"keyword":"Self-Supervised","count":16},{"year":2021,"keyword":"Consistency","count":4},{"year":2021,"keyword":"Reconfigurable","count":3},{"year":2021,"keyword":"Low-Rank","count":1},{"year":2021,"keyword":"Zero-Shot","count":5},{"year":2021,"keyword":"Parameterized","count":2},{"year":2021,"keyword":"Safety","count":16},{"year":2021,"keyword":"Sparse","count":7},{"year":2021,"keyword":"Convex","count":5},{"year":2021,"keyword":"Point Cloud","count":12},{"year":2021,"keyword":"Compression","count":1},{"year":2021,"keyword":"Cloud","count":13},{"year":2021,"keyword":"Alignment","count":2},{"year":2021,"keyword":"Wearable","count":6},{"year":2021,"keyword":"Knowledge Graph","count":1},{"year":2021,"keyword":"VR","count":3},{"year":2021,"keyword":"Embedded","count":4},{"year":2021,"keyword":"Legged Robot","count":9},{"year":2021,"keyword":"Latency","count":3},{"year":2021,"keyword":"Mesh","count":4},{"year":2021,"keyword":"Gesture","count":6},{"year":2021,"keyword":"Robustness","count":4},{"year":2021,"keyword":"MPC","count":4},{"year":2021,"keyword":"Self-Attention","count":2},{"year":2021,"keyword":"Cellular","count":1},{"year":2021,"keyword":"GPU","count":2},{"year":2021,"keyword":"Crowdsourcing","count":1},{"year":2021,"keyword":"Data Augmentation","count":2},{"year":2021,"keyword":"IoT","count":1},{"year":2021,"keyword":"Humanoid","count":9},{"year":2021,"keyword":"Routing","count":3},{"year":2021,"keyword":"Formal Verification","count":1},{"year":2021,"keyword":"Automotive","count":2},{"year":2021,"keyword":"Transfer Learning","count":2},{"year":2021,"keyword":"Consensus","count":3},{"year":2021,"keyword":"Federated Learning","count":2},{"year":2021,"keyword":"Diffusion","count":2},{"year":2021,"keyword":"Approximation Algorithm","count":1},{"year":2021,"keyword":"Wireless","count":3},{"year":2021,"keyword":"Physics-Based","count":3},{"year":2021,"keyword":"Virtual Reality","count":1},{"year":2021,"keyword":"Embedding","count":2},{"year":2021,"keyword":"Texture","count":1},{"year":2021,"keyword":"Submodular","count":1},{"year":2021,"keyword":"Debugging","count":1},{"year":2021,"keyword":"User Study","count":1},{"year":2021,"keyword":"Super-Resolution","count":1},{"year":2021,"keyword":"TCP","count":1},{"year":2021,"keyword":"Contrastive Learning","count":1},{"year":2021,"keyword":"Fuzzing","count":1},{"year":2021,"keyword":"Pruning","count":1},{"year":2021,"keyword":"Mixed Reality","count":1},{"year":2021,"keyword":"Motion Capture","count":1},{"year":2021,"keyword":"Transformer","count":1},{"year":2022,"keyword":"Autonomous Driving","count":21},{"year":2022,"keyword":"Autonomous","count":62},{"year":2022,"keyword":"Adversarial","count":6},{"year":2022,"keyword":"Real-Time","count":19},{"year":2022,"keyword":"UAV","count":12},{"year":2022,"keyword":"Reconstruction","count":9},{"year":2022,"keyword":"SLAM","count":12},{"year":2022,"keyword":"Graph","count":23},{"year":2022,"keyword":"Combinatorial","count":1},{"year":2022,"keyword":"Manipulation","count":49},{"year":2022,"keyword":"Imitation Learning","count":9},{"year":2022,"keyword":"Robot","count":141},{"year":2022,"keyword":"Navigation","count":33},{"year":2022,"keyword":"Localization","count":20},{"year":2022,"keyword":"Optimization","count":32},{"year":2022,"keyword":"Grasping","count":16},{"year":2022,"keyword":"Depth Estimation","count":6},{"year":2022,"keyword":"Deformable","count":9},{"year":2022,"keyword":"3D","count":34},{"year":2022,"keyword":"Kernel","count":2},{"year":2022,"keyword":"Efficient","count":43},{"year":2022,"keyword":"Generative","count":4},{"year":2022,"keyword":"Distributed","count":9},{"year":2022,"keyword":"Reinforcement Learning","count":48},{"year":2022,"keyword":"Multimodal","count":6},{"year":2022,"keyword":"Instance Segmentation","count":3},{"year":2022,"keyword":"Segmentation","count":24},{"year":2022,"keyword":"Dataset","count":9},{"year":2022,"keyword":"Path Planning","count":7},{"year":2022,"keyword":"RL","count":4},{"year":2022,"keyword":"Simulation","count":9},{"year":2022,"keyword":"Embedded","count":3},{"year":2022,"keyword":"Testing","count":5},{"year":2022,"keyword":"GNN","count":1},{"year":2022,"keyword":"Haptic","count":7},{"year":2022,"keyword":"Shape","count":13},{"year":2022,"keyword":"Sparse","count":5},{"year":2022,"keyword":"Reconfigurable","count":7},{"year":2022,"keyword":"Humanoid","count":8},{"year":2022,"keyword":"Zero-Shot","count":1},{"year":2022,"keyword":"Automotive","count":2},{"year":2022,"keyword":"Point Cloud","count":7},{"year":2022,"keyword":"Cloud","count":7},{"year":2022,"keyword":"Multi-Agent","count":10},{"year":2022,"keyword":"Attention","count":16},{"year":2022,"keyword":"Agent","count":12},{"year":2022,"keyword":"Motion Planning","count":27},{"year":2022,"keyword":"Wearable","count":5},{"year":2022,"keyword":"Benchmark","count":6},{"year":2022,"keyword":"Image Generation","count":1},{"year":2022,"keyword":"Safety","count":10},{"year":2022,"keyword":"MPC","count":7},{"year":2022,"keyword":"Self-Supervised","count":13},{"year":2022,"keyword":"Representation Learning","count":3},{"year":2022,"keyword":"Sim-to-Real","count":3},{"year":2022,"keyword":"Semantic Segmentation","count":9},{"year":2022,"keyword":"Drone","count":3},{"year":2022,"keyword":"Domain Adaptation","count":5},{"year":2022,"keyword":"Object Detection","count":9},{"year":2022,"keyword":"Embedding","count":1},{"year":2022,"keyword":"Transformer","count":12},{"year":2022,"keyword":"Rendering","count":1},{"year":2022,"keyword":"Physics-Based","count":2},{"year":2022,"keyword":"Few-Shot","count":3},{"year":2022,"keyword":"Mesh","count":4},{"year":2022,"keyword":"Gesture","count":1},{"year":2022,"keyword":"Message Passing","count":1},{"year":2022,"keyword":"Texture","count":3},{"year":2022,"keyword":"Graph Neural Network","count":2},{"year":2022,"keyword":"Self-Driving","count":3},{"year":2022,"keyword":"Convex","count":6},{"year":2022,"keyword":"Mixed Reality","count":2},{"year":2022,"keyword":"Model Checking","count":1},{"year":2022,"keyword":"Throughput","count":1},{"year":2022,"keyword":"Super-Resolution","count":1},{"year":2022,"keyword":"Transfer Learning","count":1},{"year":2022,"keyword":"Data Augmentation","count":2},{"year":2022,"keyword":"NeRF","count":2},{"year":2022,"keyword":"Augmented Reality","count":2},{"year":2022,"keyword":"Complexity","count":2},{"year":2022,"keyword":"Contrastive Learning","count":2},{"year":2022,"keyword":"Motion Capture","count":1},{"year":2022,"keyword":"Consistency","count":4},{"year":2022,"keyword":"Legged Robot","count":1},{"year":2022,"keyword":"Consensus","count":1},{"year":2022,"keyword":"Compression","count":2},{"year":2022,"keyword":"Virtual Reality","count":1},{"year":2022,"keyword":"Differential Privacy","count":1},{"year":2022,"keyword":"Privacy","count":1},{"year":2022,"keyword":"Convergence","count":2},{"year":2022,"keyword":"GPU","count":2},{"year":2022,"keyword":"Latency","count":1},{"year":2022,"keyword":"Self-Attention","count":1},{"year":2022,"keyword":"Lattice","count":1},{"year":2022,"keyword":"Parameterized","count":1},{"year":2022,"keyword":"Alignment","count":1},{"year":2022,"keyword":"Refactoring","count":1},{"year":2022,"keyword":"Linear Programming","count":1},{"year":2022,"keyword":"Fine-Tuning","count":1},{"year":2022,"keyword":"Fluid","count":2},{"year":2022,"keyword":"Formal Verification","count":1},{"year":2022,"keyword":"Policy Optimization","count":1},{"year":2022,"keyword":"Radiance Field","count":1},{"year":2022,"keyword":"Scheduling","count":1},{"year":2022,"keyword":"Worst-Case","count":1},{"year":2022,"keyword":"Routing","count":1},{"year":2022,"keyword":"Fuzzing","count":1},{"year":2022,"keyword":"Pipeline","count":2},{"year":2022,"keyword":"Pruning","count":1},{"year":2022,"keyword":"Accessibility","count":1},{"year":2022,"keyword":"Vision Transformer","count":1},{"year":2023,"keyword":"Motion Planning","count":29},{"year":2023,"keyword":"3D","count":83},{"year":2023,"keyword":"Dataset","count":9},{"year":2023,"keyword":"Reinforcement Learning","count":61},{"year":2023,"keyword":"Attention","count":22},{"year":2023,"keyword":"Robot","count":191},{"year":2023,"keyword":"Diffusion","count":6},{"year":2023,"keyword":"Localization","count":37},{"year":2023,"keyword":"Manipulation","count":78},{"year":2023,"keyword":"Safety","count":20},{"year":2023,"keyword":"Sparse","count":13},{"year":2023,"keyword":"Navigation","count":61},{"year":2023,"keyword":"Imitation Learning","count":10},{"year":2023,"keyword":"Self-Supervised","count":12},{"year":2023,"keyword":"Mixed Reality","count":4},{"year":2023,"keyword":"Efficient","count":49},{"year":2023,"keyword":"Rendering","count":3},{"year":2023,"keyword":"Texture","count":2},{"year":2023,"keyword":"Haptic","count":10},{"year":2023,"keyword":"Segmentation","count":35},{"year":2023,"keyword":"Autonomous","count":71},{"year":2023,"keyword":"Testing","count":4},{"year":2023,"keyword":"Transformer","count":21},{"year":2023,"keyword":"Embedding","count":1},{"year":2023,"keyword":"Multi-Agent","count":30},{"year":2023,"keyword":"Agent","count":32},{"year":2023,"keyword":"Reconstruction","count":23},{"year":2023,"keyword":"Optimization","count":40},{"year":2023,"keyword":"Pipeline","count":2},{"year":2023,"keyword":"SLAM","count":18},{"year":2023,"keyword":"Few-Shot","count":6},{"year":2023,"keyword":"Grasping","count":23},{"year":2023,"keyword":"Real-Time","count":31},{"year":2023,"keyword":"Embedded","count":7},{"year":2023,"keyword":"Semantic Segmentation","count":9},{"year":2023,"keyword":"Graph","count":35},{"year":2023,"keyword":"Zero-Shot","count":6},{"year":2023,"keyword":"Drone","count":8},{"year":2023,"keyword":"Privacy","count":2},{"year":2023,"keyword":"Simulation","count":24},{"year":2023,"keyword":"Alignment","count":5},{"year":2023,"keyword":"Sim-to-Real","count":4},{"year":2023,"keyword":"Kernel","count":3},{"year":2023,"keyword":"Augmented Reality","count":3},{"year":2023,"keyword":"Policy Optimization","count":1},{"year":2023,"keyword":"Point Cloud","count":16},{"year":2023,"keyword":"Cloud","count":18},{"year":2023,"keyword":"Depth Estimation","count":14},{"year":2023,"keyword":"Adversarial","count":6},{"year":2023,"keyword":"Path Planning","count":20},{"year":2023,"keyword":"UAV","count":12},{"year":2023,"keyword":"Instance Segmentation","count":6},{"year":2023,"keyword":"Shape","count":17},{"year":2023,"keyword":"Generative","count":4},{"year":2023,"keyword":"Object Detection","count":21},{"year":2023,"keyword":"Fine-Tuning","count":1},{"year":2023,"keyword":"NeRF","count":6},{"year":2023,"keyword":"Autonomous Driving","count":20},{"year":2023,"keyword":"Consistency","count":5},{"year":2023,"keyword":"Scheduling","count":3},{"year":2023,"keyword":"Domain Adaptation","count":8},{"year":2023,"keyword":"Humanoid","count":3},{"year":2023,"keyword":"MPC","count":6},{"year":2023,"keyword":"Graph Neural Network","count":2},{"year":2023,"keyword":"Automotive","count":1},{"year":2023,"keyword":"Distributed","count":12},{"year":2023,"keyword":"Compression","count":1},{"year":2023,"keyword":"Benchmark","count":5},{"year":2023,"keyword":"Reconfigurable","count":5},{"year":2023,"keyword":"Wearable","count":4},{"year":2023,"keyword":"Lattice","count":2},{"year":2023,"keyword":"Routing","count":4},{"year":2023,"keyword":"Consensus","count":3},{"year":2023,"keyword":"GPU","count":1},{"year":2023,"keyword":"Virtual Reality","count":4},{"year":2023,"keyword":"Gradient Descent","count":1},{"year":2023,"keyword":"GAN","count":1},{"year":2023,"keyword":"Multimodal","count":8},{"year":2023,"keyword":"Robustness","count":3},{"year":2023,"keyword":"Meta-Learning","count":2},{"year":2023,"keyword":"Deformable","count":9},{"year":2023,"keyword":"Bias","count":2},{"year":2023,"keyword":"Fluid","count":1},{"year":2023,"keyword":"Language Model","count":1},{"year":2023,"keyword":"GNN","count":1},{"year":2023,"keyword":"Self-Attention","count":1},{"year":2023,"keyword":"Radiance Field","count":2},{"year":2023,"keyword":"Diffusion Model","count":1},{"year":2023,"keyword":"Mesh","count":1},{"year":2023,"keyword":"Graph Transformer","count":1},{"year":2023,"keyword":"Autoregressive","count":1},{"year":2023,"keyword":"Legged Robot","count":4},{"year":2023,"keyword":"Super-Resolution","count":1},{"year":2023,"keyword":"Knowledge Distillation","count":3},{"year":2023,"keyword":"Ray Tracing","count":1},{"year":2023,"keyword":"Data Augmentation","count":1},{"year":2023,"keyword":"Stream Processing","count":1},{"year":2023,"keyword":"Mixture of Experts","count":1},{"year":2023,"keyword":"Latency","count":1},{"year":2023,"keyword":"Bandwidth","count":1},{"year":2023,"keyword":"Pre-Training","count":1},{"year":2023,"keyword":"Transfer Learning","count":2},{"year":2023,"keyword":"Physics-Based","count":1},{"year":2023,"keyword":"Question Answering","count":1},{"year":2023,"keyword":"Wireless","count":2},{"year":2023,"keyword":"Self-Driving","count":1},{"year":2023,"keyword":"Convex","count":1},{"year":2023,"keyword":"Gesture","count":1},{"year":2023,"keyword":"Parameterized","count":1},{"year":2023,"keyword":"RL","count":1},{"year":2023,"keyword":"Contrastive Learning","count":1},{"year":2023,"keyword":"Vision Transformer","count":1},{"year":2023,"keyword":"Authentication","count":1},{"year":2023,"keyword":"Combinatorial","count":1},{"year":2023,"keyword":"Representation Learning","count":1},{"year":2024,"keyword":"Manipulation","count":110},{"year":2024,"keyword":"Grasping","count":24},{"year":2024,"keyword":"Autonomous Driving","count":38},{"year":2024,"keyword":"Motion Planning","count":48},{"year":2024,"keyword":"Autonomous","count":112},{"year":2024,"keyword":"APR","count":1},{"year":2024,"keyword":"Robot","count":289},{"year":2024,"keyword":"Reconstruction","count":25},{"year":2024,"keyword":"Shape","count":18},{"year":2024,"keyword":"3D","count":111},{"year":2024,"keyword":"Multi-Agent","count":29},{"year":2024,"keyword":"Agent","count":32},{"year":2024,"keyword":"Real-Time","count":35},{"year":2024,"keyword":"Point Cloud","count":36},{"year":2024,"keyword":"Benchmark","count":8},{"year":2024,"keyword":"Cloud","count":39},{"year":2024,"keyword":"Domain Adaptation","count":4},{"year":2024,"keyword":"Imitation Learning","count":10},{"year":2024,"keyword":"NeRF","count":8},{"year":2024,"keyword":"Semantic Segmentation","count":17},{"year":2024,"keyword":"Segmentation","count":41},{"year":2024,"keyword":"Transformer","count":24},{"year":2024,"keyword":"Navigation","count":89},{"year":2024,"keyword":"Reinforcement Learning","count":87},{"year":2024,"keyword":"Question Answering","count":1},{"year":2024,"keyword":"Continual Learning","count":3},{"year":2024,"keyword":"LLM","count":9},{"year":2024,"keyword":"SLAM","count":31},{"year":2024,"keyword":"Few-Shot","count":6},{"year":2024,"keyword":"Compression","count":5},{"year":2024,"keyword":"Optimization","count":47},{"year":2024,"keyword":"Deformable","count":19},{"year":2024,"keyword":"Attention","count":19},{"year":2024,"keyword":"GPU","count":7},{"year":2024,"keyword":"Localization","count":47},{"year":2024,"keyword":"Data Augmentation","count":2},{"year":2024,"keyword":"Path Planning","count":19},{"year":2024,"keyword":"Safety","count":31},{"year":2024,"keyword":"Convex","count":2},{"year":2024,"keyword":"Mixed Reality","count":3},{"year":2024,"keyword":"Adversarial","count":6},{"year":2024,"keyword":"Graph","count":19},{"year":2024,"keyword":"Dataset","count":21},{"year":2024,"keyword":"Self-Supervised","count":26},{"year":2024,"keyword":"Pretraining","count":2},{"year":2024,"keyword":"Pre-Training","count":5},{"year":2024,"keyword":"Haptic","count":9},{"year":2024,"keyword":"Prompt","count":3},{"year":2024,"keyword":"Efficient","count":67},{"year":2024,"keyword":"Zero-Shot","count":10},{"year":2024,"keyword":"Consistency","count":6},{"year":2024,"keyword":"Simulation","count":15},{"year":2024,"keyword":"Latency","count":3},{"year":2024,"keyword":"RL","count":10},{"year":2024,"keyword":"Virtual Reality","count":3},{"year":2024,"keyword":"Legged Robot","count":5},{"year":2024,"keyword":"Storage","count":1},{"year":2024,"keyword":"Sparse","count":7},{"year":2024,"keyword":"Texture","count":3},{"year":2024,"keyword":"Object Detection","count":31},{"year":2024,"keyword":"Policy Optimization","count":5},{"year":2024,"keyword":"Graph Neural Network","count":2},{"year":2024,"keyword":"Depth Estimation","count":11},{"year":2024,"keyword":"Large Language Model","count":3},{"year":2024,"keyword":"Language Model","count":4},{"year":2024,"keyword":"Vision Transformer","count":4},{"year":2024,"keyword":"Representation Learning","count":3},{"year":2024,"keyword":"Multimodal","count":18},{"year":2024,"keyword":"Robustness","count":5},{"year":2024,"keyword":"Foundation Model","count":1},{"year":2024,"keyword":"Fine-Tuning","count":3},{"year":2024,"keyword":"GPT","count":1},{"year":2024,"keyword":"Conversational","count":1},{"year":2024,"keyword":"Usability","count":1},{"year":2024,"keyword":"Testing","count":5},{"year":2024,"keyword":"Mesh","count":2},{"year":2024,"keyword":"Transfer Learning","count":3},{"year":2024,"keyword":"Radiance Field","count":2},{"year":2024,"keyword":"Accessibility","count":1},{"year":2024,"keyword":"Embedding","count":1},{"year":2024,"keyword":"Pruning","count":3},{"year":2024,"keyword":"CLIP","count":2},{"year":2024,"keyword":"Alignment","count":7},{"year":2024,"keyword":"Reconfigurable","count":5},{"year":2024,"keyword":"User Study","count":1},{"year":2024,"keyword":"Self-Driving","count":1},{"year":2024,"keyword":"Diffusion","count":10},{"year":2024,"keyword":"Privacy","count":1},{"year":2024,"keyword":"Submodular","count":1},{"year":2024,"keyword":"ViT","count":3},{"year":2024,"keyword":"Instance Segmentation","count":5},{"year":2024,"keyword":"Contrastive Learning","count":5},{"year":2024,"keyword":"Wearable","count":4},{"year":2024,"keyword":"Pipeline","count":3},{"year":2024,"keyword":"Bias","count":1},{"year":2024,"keyword":"ChatGPT","count":2},{"year":2024,"keyword":"Gradient Descent","count":1},{"year":2024,"keyword":"Consensus","count":3},{"year":2024,"keyword":"Diffusion Model","count":2},{"year":2024,"keyword":"Signature","count":1},{"year":2024,"keyword":"VR","count":1},{"year":2024,"keyword":"Rendering","count":2},{"year":2024,"keyword":"Cellular","count":1},{"year":2024,"keyword":"Automotive","count":1},{"year":2024,"keyword":"Knowledge Distillation","count":3},{"year":2024,"keyword":"Lattice","count":1},{"year":2024,"keyword":"Visualization","count":1},{"year":2024,"keyword":"Gesture","count":1},{"year":2024,"keyword":"Compiler","count":1},{"year":2024,"keyword":"Meta-Learning","count":1},{"year":2024,"keyword":"Video Generation","count":1},{"year":2024,"keyword":"Knowledge Graph","count":1},{"year":2024,"keyword":"Parameterized","count":1},{"year":2024,"keyword":"Embedded","count":2},{"year":2024,"keyword":"Operating System","count":1},{"year":2024,"keyword":"Wireless","count":2},{"year":2025,"keyword":"Simulation","count":25},{"year":2025,"keyword":"Attention","count":15},{"year":2025,"keyword":"Autonomous","count":109},{"year":2025,"keyword":"Efficient","count":78},{"year":2025,"keyword":"Point Cloud","count":24},{"year":2025,"keyword":"Cloud","count":26},{"year":2025,"keyword":"Manipulation","count":96},{"year":2025,"keyword":"Robot","count":263},{"year":2025,"keyword":"Autonomous Driving","count":33},{"year":2025,"keyword":"Graph","count":25},{"year":2025,"keyword":"Distributed","count":15},{"year":2025,"keyword":"Real-Time","count":30},{"year":2025,"keyword":"GPU","count":5},{"year":2025,"keyword":"Optimization","count":32},{"year":2025,"keyword":"Data Augmentation","count":6},{"year":2025,"keyword":"Prompt","count":3},{"year":2025,"keyword":"Navigation","count":102},{"year":2025,"keyword":"RL","count":8},{"year":2025,"keyword":"Grasping","count":29},{"year":2025,"keyword":"LLM","count":12},{"year":2025,"keyword":"Replication","count":1},{"year":2025,"keyword":"Reconstruction","count":32},{"year":2025,"keyword":"3D","count":113},{"year":2025,"keyword":"Reinforcement Learning","count":76},{"year":2025,"keyword":"Drone","count":12},{"year":2025,"keyword":"Adversarial","count":13},{"year":2025,"keyword":"Agent","count":42},{"year":2025,"keyword":"Instance Segmentation","count":6},{"year":2025,"keyword":"Segmentation","count":32},{"year":2025,"keyword":"Diffusion","count":58},{"year":2025,"keyword":"Path Planning","count":22},{"year":2025,"keyword":"Routing","count":5},{"year":2025,"keyword":"Few-Shot","count":3},{"year":2025,"keyword":"Sim-to-Real","count":4},{"year":2025,"keyword":"Localization","count":34},{"year":2025,"keyword":"Imitation Learning","count":26},{"year":2025,"keyword":"Generative","count":14},{"year":2025,"keyword":"Multi-Agent","count":33},{"year":2025,"keyword":"SLAM","count":38},{"year":2025,"keyword":"Motion Planning","count":31},{"year":2025,"keyword":"UAV","count":12},{"year":2025,"keyword":"Shape","count":17},{"year":2025,"keyword":"Humanoid","count":17},{"year":2025,"keyword":"AR","count":3},{"year":2025,"keyword":"Zero-Shot","count":28},{"year":2025,"keyword":"Graph Neural Network","count":3},{"year":2025,"keyword":"Legged Robot","count":4},{"year":2025,"keyword":"Continual Learning","count":1},{"year":2025,"keyword":"Safety","count":26},{"year":2025,"keyword":"Large Language Model","count":4},{"year":2025,"keyword":"Language Model","count":6},{"year":2025,"keyword":"Domain Adaptation","count":5},{"year":2025,"keyword":"Gesture","count":4},{"year":2025,"keyword":"Scheduling","count":2},{"year":2025,"keyword":"Compression","count":2},{"year":2025,"keyword":"Testing","count":3},{"year":2025,"keyword":"Reconfigurable","count":10},{"year":2025,"keyword":"Usability","count":1},{"year":2025,"keyword":"Robustness","count":6},{"year":2025,"keyword":"Combinatorial","count":1},{"year":2025,"keyword":"Gaussian Splatting","count":39},{"year":2025,"keyword":"Latency","count":5},{"year":2025,"keyword":"Transformer","count":15},{"year":2025,"keyword":"Augmented Reality","count":2},{"year":2025,"keyword":"Deformable","count":14},{"year":2025,"keyword":"Alignment","count":12},{"year":2025,"keyword":"Transfer Learning","count":1},{"year":2025,"keyword":"Pipeline","count":4},{"year":2025,"keyword":"Cellular","count":2},{"year":2025,"keyword":"Object Detection","count":24},{"year":2025,"keyword":"Dataset","count":28},{"year":2025,"keyword":"Wearable","count":3},{"year":2025,"keyword":"MPC","count":11},{"year":2025,"keyword":"Rendering","count":3},{"year":2025,"keyword":"Depth Estimation","count":7},{"year":2025,"keyword":"Semantic Segmentation","count":10},{"year":2025,"keyword":"Eye Tracking","count":2},{"year":2025,"keyword":"Foundation Model","count":1},{"year":2025,"keyword":"Contrastive Learning","count":6},{"year":2025,"keyword":"Embedded","count":5},{"year":2025,"keyword":"Consistency","count":4},{"year":2025,"keyword":"Benchmark","count":11},{"year":2025,"keyword":"Representation Learning","count":6},{"year":2025,"keyword":"Multimodal","count":21},{"year":2025,"keyword":"Sparse","count":9},{"year":2025,"keyword":"Policy Optimization","count":1},{"year":2025,"keyword":"Operating System","count":1},{"year":2025,"keyword":"Self-Supervised","count":13},{"year":2025,"keyword":"Bandwidth","count":1},{"year":2025,"keyword":"Pretraining","count":5},{"year":2025,"keyword":"Knowledge Distillation","count":5},{"year":2025,"keyword":"Diffusion Model","count":6},{"year":2025,"keyword":"NeRF","count":4},{"year":2025,"keyword":"Instruction Tuning","count":1},{"year":2025,"keyword":"Meta-Learning","count":2},{"year":2025,"keyword":"User Study","count":2},{"year":2025,"keyword":"Automotive","count":1},{"year":2025,"keyword":"3D Gaussian","count":18},{"year":2025,"keyword":"Fine-Tuning","count":7},{"year":2025,"keyword":"Lattice","count":1},{"year":2025,"keyword":"Quantization","count":1},{"year":2025,"keyword":"RAG","count":1},{"year":2025,"keyword":"Question Answering","count":1},{"year":2025,"keyword":"Embedding","count":6},{"year":2025,"keyword":"Radiance Field","count":2},{"year":2025,"keyword":"Bias","count":3},{"year":2025,"keyword":"Federated Learning","count":2},{"year":2025,"keyword":"Pruning","count":1},{"year":2025,"keyword":"Image Generation","count":1},{"year":2025,"keyword":"Wireless","count":1},{"year":2025,"keyword":"Motion Capture","count":1},{"year":2025,"keyword":"Physics-Based","count":2},{"year":2025,"keyword":"Haptic","count":5},{"year":2025,"keyword":"Pre-Training","count":2},{"year":2025,"keyword":"Reward Model","count":1},{"year":2025,"keyword":"Kernel","count":1},{"year":2025,"keyword":"Low-Rank","count":2},{"year":2025,"keyword":"Gradient Descent","count":1},{"year":2025,"keyword":"Crowdsourcing","count":1},{"year":2025,"keyword":"Vulnerability","count":1},{"year":2025,"keyword":"CLIP","count":3},{"year":2025,"keyword":"GAN","count":1},{"year":2025,"keyword":"Convex","count":2},{"year":2025,"keyword":"Mixed Reality","count":1},{"year":2025,"keyword":"Convergence","count":1},{"year":2025,"keyword":"Fairness","count":1},{"year":2025,"keyword":"Ray Tracing","count":1},{"year":2025,"keyword":"Retrieval-Augmented","count":1},{"year":2025,"keyword":"Consensus","count":2},{"year":2025,"keyword":"Mixture of Experts","count":1},{"year":2025,"keyword":"Submodular","count":1},{"year":2025,"keyword":"Complexity","count":2},{"year":2025,"keyword":"Parameterized","count":1},{"year":2025,"keyword":"Fluid","count":1},{"year":2025,"keyword":"Video Generation","count":1},{"year":2025,"keyword":"Texture","count":1},{"year":2025,"keyword":"Hash","count":1},{"year":2025,"keyword":"In-Context Learning","count":1},{"year":2025,"keyword":"Knowledge Graph","count":1},{"year":2025,"keyword":"Index","count":1},{"year":2025,"keyword":"Edge Computing","count":1},{"year":2025,"keyword":"Worst-Case","count":1},{"year":2025,"keyword":"GPT","count":1},{"year":2020,"keyword":"Manipulation","count":60},{"year":2020,"keyword":"Robot","count":142},{"year":2020,"keyword":"IoT","count":2},{"year":2020,"keyword":"Reconstruction","count":13},{"year":2020,"keyword":"Reconfigurable","count":9},{"year":2020,"keyword":"Grasping","count":25},{"year":2024,"keyword":"IoT","count":1},{"year":2024,"keyword":"Microservice","count":1},{"year":2024,"keyword":"Distributed","count":12},{"year":2024,"keyword":"Super-Resolution","count":2},{"year":2024,"keyword":"UAV","count":21},{"year":2024,"keyword":"MPC","count":8},{"year":2024,"keyword":"Autoregressive","count":1},{"year":2024,"keyword":"Augmented Reality","count":5},{"year":2024,"keyword":"Complexity","count":1},{"year":2024,"keyword":"Scheduling","count":3},{"year":2024,"keyword":"Throughput","count":1},{"year":2024,"keyword":"Drone","count":12},{"year":2024,"keyword":"Routing","count":4},{"year":2024,"keyword":"QoS","count":1},{"year":2024,"keyword":"5G","count":1},{"year":2024,"keyword":"Sim-to-Real","count":8},{"year":2024,"keyword":"Humanoid","count":8},{"year":2024,"keyword":"Bandwidth","count":1}]}
+{
+  "id": "443a7f01-4df4-45d7-b9a8-725107b704a3",
+  "slug": "icra",
+  "nameEn": "IEEE International Conference on Robotics and Automation",
+  "nameKr": null,
+  "acronym": "ICRA",
+  "field": "Robotics",
+  "subField": "Robotics",
+  "dblpKey": "conf/icra",
+  "websiteUrl": "https://ieee-icra.org",
+  "description": null,
+  "nextDeadline": "2025-09-16T23:59:00Z",
+  "daysUntilDeadline": -192,
+  "deadlineTimezone": "PDT",
+  "venue": "Vienna, Austria",
+  "conferenceStart": "2026-06-01",
+  "conferenceEnd": "2026-06-05",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A*"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": "Included"
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2025-09-16T23:59:00Z",
+      "notificationDate": "2026-01-31T00:00:00Z",
+      "conferenceStart": "2026-06-01",
+      "conferenceEnd": "2026-06-05",
+      "venue": "Vienna, Austria",
+      "timezone": "PDT"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "Extrinsic Contact Sensing with Relative-Motion Tracking from Distributed Tactile Measurements",
+      "authors": "Daolin Ma, Siyuan Dong, Alberto Rodriguez",
+      "awardType": "best_paper",
+      "tags": [
+        "robotics",
+        "tactile sensing",
+        "manipulation"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2103.08108"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Translating Images into Maps",
+      "authors": "Saha, Mendez Maldonado, Russell, Bowden",
+      "awardType": "best_paper",
+      "tags": [
+        "Mapping",
+        "Perception"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2110.00966"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "Distributed Data-Driven Predictive Control for Multi-Agent Collaborative Legged Locomotion",
+      "authors": "Fawcett, Amanzadeh, Kim, Ames, Hamed",
+      "awardType": "best_paper",
+      "tags": [
+        "Locomotion",
+        "Multi-Agent"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2211.06917"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "MAC-VO: Metrics-aware Covariance for Learning-based Stereo Visual Odometry",
+      "authors": "Qiu, Chen, Zhang, Wang, Scherer",
+      "awardType": "best_paper",
+      "tags": [
+        "Visual Odometry",
+        "Robot Perception"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2409.09479"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Robo-DM: Efficient Robot Big Data Management",
+      "authors": "Goldberg, Kubiatowicz et al.",
+      "awardType": "best_paper",
+      "tags": [
+        "Robot Learning",
+        "Data Management"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2505.15558"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "SARA-RT: Scaling up Robotics Transformers with Self-Adaptive Robust Attention",
+      "authors": "Leal, Ichter, Sermanet & Tompson",
+      "awardType": "best_paper",
+      "tags": [
+        "Robotics",
+        "Transformer"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2312.01990"
+    }
+  ],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 2639,
+      "submitted": 7007,
+      "rate": 37.7
+    },
+    {
+      "year": 2023,
+      "accepted": 2364,
+      "submitted": 6066,
+      "rate": 39
+    },
+    {
+      "year": 2022,
+      "accepted": 1951,
+      "submitted": 5234,
+      "rate": 37.3
+    },
+    {
+      "year": 2021,
+      "accepted": 1946,
+      "submitted": 5024,
+      "rate": 38.7
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Meta-Learning",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Message Passing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Few-Shot",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Federated Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Adversarial",
+      "count": 8
+    },
+    {
+      "year": 2020,
+      "keyword": "Dataset",
+      "count": 16
+    },
+    {
+      "year": 2020,
+      "keyword": "Multi-Agent",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Agent",
+      "count": 8
+    },
+    {
+      "year": 2020,
+      "keyword": "Multimodal",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph Transformer",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "In-Context Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "3D Gaussian",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "keyword": "Generative",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Mixture of Experts",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Reinforcement Learning",
+      "count": 41
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 14
+    },
+    {
+      "year": 2020,
+      "keyword": "3D",
+      "count": 53
+    },
+    {
+      "year": 2021,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Meta-Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "ViT",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Large Language Model",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "LLM",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "CLIP",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Prompt",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Autonomous",
+      "count": 47
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 29
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 36
+    },
+    {
+      "year": 2020,
+      "keyword": "Navigation",
+      "count": 42
+    },
+    {
+      "year": 2020,
+      "keyword": "Localization",
+      "count": 40
+    },
+    {
+      "year": 2020,
+      "keyword": "Automotive",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Gesture",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Object Detection",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Segmentation",
+      "count": 18
+    },
+    {
+      "year": 2020,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Sim-to-Real",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Simulation",
+      "count": 14
+    },
+    {
+      "year": 2020,
+      "keyword": "Shape",
+      "count": 13
+    },
+    {
+      "year": 2020,
+      "keyword": "Motion Planning",
+      "count": 22
+    },
+    {
+      "year": 2020,
+      "keyword": "MPC",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "User Study",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Path Planning",
+      "count": 17
+    },
+    {
+      "year": 2020,
+      "keyword": "Attention",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 11
+    },
+    {
+      "year": 2020,
+      "keyword": "Signature",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Haptic",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedding",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Texture",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Imitation Learning",
+      "count": 8
+    },
+    {
+      "year": 2020,
+      "keyword": "Generative",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Drone",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Real-Time",
+      "count": 26
+    },
+    {
+      "year": 2020,
+      "keyword": "Pruning",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Deformable",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "LoRA",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Self-Supervised",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Semantic Segmentation",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Bandwidth",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Latency",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Safety",
+      "count": 8
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 14
+    },
+    {
+      "year": 2020,
+      "keyword": "SLAM",
+      "count": 25
+    },
+    {
+      "year": 2020,
+      "keyword": "Instance Segmentation",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedded",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Autonomous Driving",
+      "count": 11
+    },
+    {
+      "year": 2020,
+      "keyword": "Cyber-Physical",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Robustness",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Humanoid",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Representation Learning",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Worst-Case",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "UAV",
+      "count": 10
+    },
+    {
+      "year": 2020,
+      "keyword": "Physics-Based",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Benchmark",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Alignment",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Serverless",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Super-Resolution",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Augmented Reality",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Policy Optimization",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Depth Estimation",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Transfer Learning",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Index",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Self-Driving",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Convex",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Consensus",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Wireless",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cellular",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Mixed Reality",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Legged Robot",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Zero-Shot",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Fault Tolerance",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Rendering",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Complexity",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Point Cloud",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Routing",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Pretraining",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Wearable",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "AR",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Submodular",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Multi-Agent",
+      "count": 19
+    },
+    {
+      "year": 2021,
+      "keyword": "Agent",
+      "count": 21
+    },
+    {
+      "year": 2021,
+      "keyword": "Autonomous",
+      "count": 83
+    },
+    {
+      "year": 2021,
+      "keyword": "Object Detection",
+      "count": 9
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 30
+    },
+    {
+      "year": 2021,
+      "keyword": "Robot",
+      "count": 233
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 66
+    },
+    {
+      "year": 2021,
+      "keyword": "Domain Adaptation",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "keyword": "Adversarial",
+      "count": 13
+    },
+    {
+      "year": 2021,
+      "keyword": "Navigation",
+      "count": 55
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 58
+    },
+    {
+      "year": 2021,
+      "keyword": "UAV",
+      "count": 12
+    },
+    {
+      "year": 2021,
+      "keyword": "Manipulation",
+      "count": 68
+    },
+    {
+      "year": 2021,
+      "keyword": "Segmentation",
+      "count": 38
+    },
+    {
+      "year": 2021,
+      "keyword": "Attention",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "keyword": "Haptic",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "keyword": "Grasping",
+      "count": 24
+    },
+    {
+      "year": 2021,
+      "keyword": "Real-Time",
+      "count": 30
+    },
+    {
+      "year": 2021,
+      "keyword": "Instance Segmentation",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Motion Planning",
+      "count": 41
+    },
+    {
+      "year": 2021,
+      "keyword": "Generative",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "keyword": "Simulation",
+      "count": 15
+    },
+    {
+      "year": 2021,
+      "keyword": "Rendering",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Policy Optimization",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Meta-Learning",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 46
+    },
+    {
+      "year": 2021,
+      "keyword": "Depth Estimation",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "keyword": "Semantic Segmentation",
+      "count": 13
+    },
+    {
+      "year": 2021,
+      "keyword": "Reconstruction",
+      "count": 16
+    },
+    {
+      "year": 2021,
+      "keyword": "Shape",
+      "count": 11
+    },
+    {
+      "year": 2021,
+      "keyword": "Autonomous Driving",
+      "count": 13
+    },
+    {
+      "year": 2021,
+      "keyword": "Sim-to-Real",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Serverless",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Imitation Learning",
+      "count": 11
+    },
+    {
+      "year": 2021,
+      "keyword": "RL",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Fluid",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Benchmark",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Few-Shot",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Dataset",
+      "count": 9
+    },
+    {
+      "year": 2021,
+      "keyword": "Drone",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Deformable",
+      "count": 17
+    },
+    {
+      "year": 2021,
+      "keyword": "Multimodal",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "SLAM",
+      "count": 32
+    },
+    {
+      "year": 2021,
+      "keyword": "Bandwidth",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Message Passing",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Self-Driving",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Localization",
+      "count": 29
+    },
+    {
+      "year": 2021,
+      "keyword": "3D",
+      "count": 65
+    },
+    {
+      "year": 2021,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph Neural Network",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Path Planning",
+      "count": 26
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 21
+    },
+    {
+      "year": 2021,
+      "keyword": "Representation Learning",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Augmented Reality",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Self-Supervised",
+      "count": 16
+    },
+    {
+      "year": 2021,
+      "keyword": "Consistency",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Reconfigurable",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Zero-Shot",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Parameterized",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Safety",
+      "count": 16
+    },
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "keyword": "Convex",
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "keyword": "Point Cloud",
+      "count": 12
+    },
+    {
+      "year": 2021,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 13
+    },
+    {
+      "year": 2021,
+      "keyword": "Alignment",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Wearable",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "VR",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedded",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Legged Robot",
+      "count": 9
+    },
+    {
+      "year": 2021,
+      "keyword": "Latency",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Mesh",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Gesture",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Robustness",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "MPC",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Self-Attention",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Cellular",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "GPU",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Crowdsourcing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Data Augmentation",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Humanoid",
+      "count": 9
+    },
+    {
+      "year": 2021,
+      "keyword": "Routing",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Formal Verification",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Automotive",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Transfer Learning",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Consensus",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Federated Learning",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Diffusion",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Approximation Algorithm",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Wireless",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Physics-Based",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedding",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Texture",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Submodular",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "User Study",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Super-Resolution",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "TCP",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Contrastive Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Mixed Reality",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Motion Capture",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Autonomous Driving",
+      "count": 21
+    },
+    {
+      "year": 2022,
+      "keyword": "Autonomous",
+      "count": 62
+    },
+    {
+      "year": 2022,
+      "keyword": "Adversarial",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Real-Time",
+      "count": 19
+    },
+    {
+      "year": 2022,
+      "keyword": "UAV",
+      "count": 12
+    },
+    {
+      "year": 2022,
+      "keyword": "Reconstruction",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "SLAM",
+      "count": 12
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 23
+    },
+    {
+      "year": 2022,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Manipulation",
+      "count": 49
+    },
+    {
+      "year": 2022,
+      "keyword": "Imitation Learning",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "Robot",
+      "count": 141
+    },
+    {
+      "year": 2022,
+      "keyword": "Navigation",
+      "count": 33
+    },
+    {
+      "year": 2022,
+      "keyword": "Localization",
+      "count": 20
+    },
+    {
+      "year": 2022,
+      "keyword": "Optimization",
+      "count": 32
+    },
+    {
+      "year": 2022,
+      "keyword": "Grasping",
+      "count": 16
+    },
+    {
+      "year": 2022,
+      "keyword": "Depth Estimation",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Deformable",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "3D",
+      "count": 34
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 43
+    },
+    {
+      "year": 2022,
+      "keyword": "Generative",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "Reinforcement Learning",
+      "count": 48
+    },
+    {
+      "year": 2022,
+      "keyword": "Multimodal",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Instance Segmentation",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Segmentation",
+      "count": 24
+    },
+    {
+      "year": 2022,
+      "keyword": "Dataset",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "Path Planning",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "keyword": "RL",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Simulation",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "Embedded",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Haptic",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "keyword": "Shape",
+      "count": 13
+    },
+    {
+      "year": 2022,
+      "keyword": "Sparse",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Reconfigurable",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "keyword": "Humanoid",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Zero-Shot",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Automotive",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Point Cloud",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "keyword": "Cloud",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "keyword": "Multi-Agent",
+      "count": 10
+    },
+    {
+      "year": 2022,
+      "keyword": "Attention",
+      "count": 16
+    },
+    {
+      "year": 2022,
+      "keyword": "Agent",
+      "count": 12
+    },
+    {
+      "year": 2022,
+      "keyword": "Motion Planning",
+      "count": 27
+    },
+    {
+      "year": 2022,
+      "keyword": "Wearable",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Benchmark",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Image Generation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Safety",
+      "count": 10
+    },
+    {
+      "year": 2022,
+      "keyword": "MPC",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "keyword": "Self-Supervised",
+      "count": 13
+    },
+    {
+      "year": 2022,
+      "keyword": "Representation Learning",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Sim-to-Real",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Semantic Segmentation",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "Drone",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Domain Adaptation",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Object Detection",
+      "count": 9
+    },
+    {
+      "year": 2022,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transformer",
+      "count": 12
+    },
+    {
+      "year": 2022,
+      "keyword": "Rendering",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Physics-Based",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Few-Shot",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Mesh",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Gesture",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Message Passing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Texture",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph Neural Network",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Self-Driving",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Convex",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Mixed Reality",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Super-Resolution",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Data Augmentation",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "NeRF",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Augmented Reality",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Complexity",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Contrastive Learning",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Motion Capture",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consistency",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Legged Robot",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Compression",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Virtual Reality",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Convergence",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "GPU",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Self-Attention",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Refactoring",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Linear Programming",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Fluid",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Formal Verification",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Policy Optimization",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Radiance Field",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Worst-Case",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Routing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Pipeline",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Accessibility",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Vision Transformer",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Motion Planning",
+      "count": 29
+    },
+    {
+      "year": 2023,
+      "keyword": "3D",
+      "count": 83
+    },
+    {
+      "year": 2023,
+      "keyword": "Dataset",
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "keyword": "Reinforcement Learning",
+      "count": 61
+    },
+    {
+      "year": 2023,
+      "keyword": "Attention",
+      "count": 22
+    },
+    {
+      "year": 2023,
+      "keyword": "Robot",
+      "count": 191
+    },
+    {
+      "year": 2023,
+      "keyword": "Diffusion",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Localization",
+      "count": 37
+    },
+    {
+      "year": 2023,
+      "keyword": "Manipulation",
+      "count": 78
+    },
+    {
+      "year": 2023,
+      "keyword": "Safety",
+      "count": 20
+    },
+    {
+      "year": 2023,
+      "keyword": "Sparse",
+      "count": 13
+    },
+    {
+      "year": 2023,
+      "keyword": "Navigation",
+      "count": 61
+    },
+    {
+      "year": 2023,
+      "keyword": "Imitation Learning",
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "keyword": "Self-Supervised",
+      "count": 12
+    },
+    {
+      "year": 2023,
+      "keyword": "Mixed Reality",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 49
+    },
+    {
+      "year": 2023,
+      "keyword": "Rendering",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Texture",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Haptic",
+      "count": 10
+    },
+    {
+      "year": 2023,
+      "keyword": "Segmentation",
+      "count": 35
+    },
+    {
+      "year": 2023,
+      "keyword": "Autonomous",
+      "count": 71
+    },
+    {
+      "year": 2023,
+      "keyword": "Testing",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Transformer",
+      "count": 21
+    },
+    {
+      "year": 2023,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Multi-Agent",
+      "count": 30
+    },
+    {
+      "year": 2023,
+      "keyword": "Agent",
+      "count": 32
+    },
+    {
+      "year": 2023,
+      "keyword": "Reconstruction",
+      "count": 23
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 40
+    },
+    {
+      "year": 2023,
+      "keyword": "Pipeline",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "SLAM",
+      "count": 18
+    },
+    {
+      "year": 2023,
+      "keyword": "Few-Shot",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Grasping",
+      "count": 23
+    },
+    {
+      "year": 2023,
+      "keyword": "Real-Time",
+      "count": 31
+    },
+    {
+      "year": 2023,
+      "keyword": "Embedded",
+      "count": 7
+    },
+    {
+      "year": 2023,
+      "keyword": "Semantic Segmentation",
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 35
+    },
+    {
+      "year": 2023,
+      "keyword": "Zero-Shot",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Drone",
+      "count": 8
+    },
+    {
+      "year": 2023,
+      "keyword": "Privacy",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Simulation",
+      "count": 24
+    },
+    {
+      "year": 2023,
+      "keyword": "Alignment",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Sim-to-Real",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Kernel",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Augmented Reality",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Policy Optimization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Point Cloud",
+      "count": 16
+    },
+    {
+      "year": 2023,
+      "keyword": "Cloud",
+      "count": 18
+    },
+    {
+      "year": 2023,
+      "keyword": "Depth Estimation",
+      "count": 14
+    },
+    {
+      "year": 2023,
+      "keyword": "Adversarial",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Path Planning",
+      "count": 20
+    },
+    {
+      "year": 2023,
+      "keyword": "UAV",
+      "count": 12
+    },
+    {
+      "year": 2023,
+      "keyword": "Instance Segmentation",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Shape",
+      "count": 17
+    },
+    {
+      "year": 2023,
+      "keyword": "Generative",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Object Detection",
+      "count": 21
+    },
+    {
+      "year": 2023,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "NeRF",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Autonomous Driving",
+      "count": 20
+    },
+    {
+      "year": 2023,
+      "keyword": "Consistency",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Scheduling",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Domain Adaptation",
+      "count": 8
+    },
+    {
+      "year": 2023,
+      "keyword": "Humanoid",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "MPC",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph Neural Network",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Automotive",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 12
+    },
+    {
+      "year": 2023,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Benchmark",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Reconfigurable",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Wearable",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Lattice",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Routing",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Consensus",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Virtual Reality",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Gradient Descent",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Multimodal",
+      "count": 8
+    },
+    {
+      "year": 2023,
+      "keyword": "Robustness",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Meta-Learning",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Deformable",
+      "count": 9
+    },
+    {
+      "year": 2023,
+      "keyword": "Bias",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Fluid",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Self-Attention",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Radiance Field",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Diffusion Model",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Mesh",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph Transformer",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Autoregressive",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Legged Robot",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Super-Resolution",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Knowledge Distillation",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Ray Tracing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Mixture of Experts",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Transfer Learning",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Physics-Based",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Wireless",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Self-Driving",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Convex",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Gesture",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Contrastive Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Vision Transformer",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Authentication",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Representation Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Manipulation",
+      "count": 110
+    },
+    {
+      "year": 2024,
+      "keyword": "Grasping",
+      "count": 24
+    },
+    {
+      "year": 2024,
+      "keyword": "Autonomous Driving",
+      "count": 38
+    },
+    {
+      "year": 2024,
+      "keyword": "Motion Planning",
+      "count": 48
+    },
+    {
+      "year": 2024,
+      "keyword": "Autonomous",
+      "count": 112
+    },
+    {
+      "year": 2024,
+      "keyword": "APR",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Robot",
+      "count": 289
+    },
+    {
+      "year": 2024,
+      "keyword": "Reconstruction",
+      "count": 25
+    },
+    {
+      "year": 2024,
+      "keyword": "Shape",
+      "count": 18
+    },
+    {
+      "year": 2024,
+      "keyword": "3D",
+      "count": 111
+    },
+    {
+      "year": 2024,
+      "keyword": "Multi-Agent",
+      "count": 29
+    },
+    {
+      "year": 2024,
+      "keyword": "Agent",
+      "count": 32
+    },
+    {
+      "year": 2024,
+      "keyword": "Real-Time",
+      "count": 35
+    },
+    {
+      "year": 2024,
+      "keyword": "Point Cloud",
+      "count": 36
+    },
+    {
+      "year": 2024,
+      "keyword": "Benchmark",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "keyword": "Cloud",
+      "count": 39
+    },
+    {
+      "year": 2024,
+      "keyword": "Domain Adaptation",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Imitation Learning",
+      "count": 10
+    },
+    {
+      "year": 2024,
+      "keyword": "NeRF",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "keyword": "Semantic Segmentation",
+      "count": 17
+    },
+    {
+      "year": 2024,
+      "keyword": "Segmentation",
+      "count": 41
+    },
+    {
+      "year": 2024,
+      "keyword": "Transformer",
+      "count": 24
+    },
+    {
+      "year": 2024,
+      "keyword": "Navigation",
+      "count": 89
+    },
+    {
+      "year": 2024,
+      "keyword": "Reinforcement Learning",
+      "count": 87
+    },
+    {
+      "year": 2024,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Continual Learning",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "LLM",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "SLAM",
+      "count": 31
+    },
+    {
+      "year": 2024,
+      "keyword": "Few-Shot",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Compression",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 47
+    },
+    {
+      "year": 2024,
+      "keyword": "Deformable",
+      "count": 19
+    },
+    {
+      "year": 2024,
+      "keyword": "Attention",
+      "count": 19
+    },
+    {
+      "year": 2024,
+      "keyword": "GPU",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Localization",
+      "count": 47
+    },
+    {
+      "year": 2024,
+      "keyword": "Data Augmentation",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Path Planning",
+      "count": 19
+    },
+    {
+      "year": 2024,
+      "keyword": "Safety",
+      "count": 31
+    },
+    {
+      "year": 2024,
+      "keyword": "Convex",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Mixed Reality",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Adversarial",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 19
+    },
+    {
+      "year": 2024,
+      "keyword": "Dataset",
+      "count": 21
+    },
+    {
+      "year": 2024,
+      "keyword": "Self-Supervised",
+      "count": 26
+    },
+    {
+      "year": 2024,
+      "keyword": "Pretraining",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Pre-Training",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Haptic",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "Prompt",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 67
+    },
+    {
+      "year": 2024,
+      "keyword": "Zero-Shot",
+      "count": 10
+    },
+    {
+      "year": 2024,
+      "keyword": "Consistency",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Simulation",
+      "count": 15
+    },
+    {
+      "year": 2024,
+      "keyword": "Latency",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "RL",
+      "count": 10
+    },
+    {
+      "year": 2024,
+      "keyword": "Virtual Reality",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Legged Robot",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Sparse",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Texture",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Object Detection",
+      "count": 31
+    },
+    {
+      "year": 2024,
+      "keyword": "Policy Optimization",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph Neural Network",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Depth Estimation",
+      "count": 11
+    },
+    {
+      "year": 2024,
+      "keyword": "Large Language Model",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Language Model",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Vision Transformer",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Representation Learning",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Multimodal",
+      "count": 18
+    },
+    {
+      "year": 2024,
+      "keyword": "Robustness",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Foundation Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Fine-Tuning",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "GPT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Conversational",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Testing",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Mesh",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Transfer Learning",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Radiance Field",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Accessibility",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pruning",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "CLIP",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Alignment",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Reconfigurable",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "User Study",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Self-Driving",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Diffusion",
+      "count": 10
+    },
+    {
+      "year": 2024,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Submodular",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "ViT",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Instance Segmentation",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Contrastive Learning",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Wearable",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Pipeline",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "ChatGPT",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Gradient Descent",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consensus",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Diffusion Model",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Signature",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Rendering",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Cellular",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Automotive",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Knowledge Distillation",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Visualization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Gesture",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Compiler",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Meta-Learning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Video Generation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedded",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Operating System",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Wireless",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Simulation",
+      "count": 25
+    },
+    {
+      "year": 2025,
+      "keyword": "Attention",
+      "count": 15
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous",
+      "count": 109
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 78
+    },
+    {
+      "year": 2025,
+      "keyword": "Point Cloud",
+      "count": 24
+    },
+    {
+      "year": 2025,
+      "keyword": "Cloud",
+      "count": 26
+    },
+    {
+      "year": 2025,
+      "keyword": "Manipulation",
+      "count": 96
+    },
+    {
+      "year": 2025,
+      "keyword": "Robot",
+      "count": 263
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous Driving",
+      "count": 33
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 25
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 15
+    },
+    {
+      "year": 2025,
+      "keyword": "Real-Time",
+      "count": 30
+    },
+    {
+      "year": 2025,
+      "keyword": "GPU",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 32
+    },
+    {
+      "year": 2025,
+      "keyword": "Data Augmentation",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Prompt",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Navigation",
+      "count": 102
+    },
+    {
+      "year": 2025,
+      "keyword": "RL",
+      "count": 8
+    },
+    {
+      "year": 2025,
+      "keyword": "Grasping",
+      "count": 29
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 12
+    },
+    {
+      "year": 2025,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Reconstruction",
+      "count": 32
+    },
+    {
+      "year": 2025,
+      "keyword": "3D",
+      "count": 113
+    },
+    {
+      "year": 2025,
+      "keyword": "Reinforcement Learning",
+      "count": 76
+    },
+    {
+      "year": 2025,
+      "keyword": "Drone",
+      "count": 12
+    },
+    {
+      "year": 2025,
+      "keyword": "Adversarial",
+      "count": 13
+    },
+    {
+      "year": 2025,
+      "keyword": "Agent",
+      "count": 42
+    },
+    {
+      "year": 2025,
+      "keyword": "Instance Segmentation",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Segmentation",
+      "count": 32
+    },
+    {
+      "year": 2025,
+      "keyword": "Diffusion",
+      "count": 58
+    },
+    {
+      "year": 2025,
+      "keyword": "Path Planning",
+      "count": 22
+    },
+    {
+      "year": 2025,
+      "keyword": "Routing",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Few-Shot",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Sim-to-Real",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Localization",
+      "count": 34
+    },
+    {
+      "year": 2025,
+      "keyword": "Imitation Learning",
+      "count": 26
+    },
+    {
+      "year": 2025,
+      "keyword": "Generative",
+      "count": 14
+    },
+    {
+      "year": 2025,
+      "keyword": "Multi-Agent",
+      "count": 33
+    },
+    {
+      "year": 2025,
+      "keyword": "SLAM",
+      "count": 38
+    },
+    {
+      "year": 2025,
+      "keyword": "Motion Planning",
+      "count": 31
+    },
+    {
+      "year": 2025,
+      "keyword": "UAV",
+      "count": 12
+    },
+    {
+      "year": 2025,
+      "keyword": "Shape",
+      "count": 17
+    },
+    {
+      "year": 2025,
+      "keyword": "Humanoid",
+      "count": 17
+    },
+    {
+      "year": 2025,
+      "keyword": "AR",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Zero-Shot",
+      "count": 28
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph Neural Network",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Legged Robot",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Continual Learning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Safety",
+      "count": 26
+    },
+    {
+      "year": 2025,
+      "keyword": "Large Language Model",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Domain Adaptation",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Gesture",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Compression",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Reconfigurable",
+      "count": 10
+    },
+    {
+      "year": 2025,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Robustness",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Gaussian Splatting",
+      "count": 39
+    },
+    {
+      "year": 2025,
+      "keyword": "Latency",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Transformer",
+      "count": 15
+    },
+    {
+      "year": 2025,
+      "keyword": "Augmented Reality",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Deformable",
+      "count": 14
+    },
+    {
+      "year": 2025,
+      "keyword": "Alignment",
+      "count": 12
+    },
+    {
+      "year": 2025,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Pipeline",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Cellular",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Object Detection",
+      "count": 24
+    },
+    {
+      "year": 2025,
+      "keyword": "Dataset",
+      "count": 28
+    },
+    {
+      "year": 2025,
+      "keyword": "Wearable",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "MPC",
+      "count": 11
+    },
+    {
+      "year": 2025,
+      "keyword": "Rendering",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Depth Estimation",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "Semantic Segmentation",
+      "count": 10
+    },
+    {
+      "year": 2025,
+      "keyword": "Eye Tracking",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Foundation Model",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Contrastive Learning",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Embedded",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Consistency",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Benchmark",
+      "count": 11
+    },
+    {
+      "year": 2025,
+      "keyword": "Representation Learning",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Multimodal",
+      "count": 21
+    },
+    {
+      "year": 2025,
+      "keyword": "Sparse",
+      "count": 9
+    },
+    {
+      "year": 2025,
+      "keyword": "Policy Optimization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Operating System",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Self-Supervised",
+      "count": 13
+    },
+    {
+      "year": 2025,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Pretraining",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Knowledge Distillation",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Diffusion Model",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "NeRF",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Instruction Tuning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Meta-Learning",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "User Study",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Automotive",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "3D Gaussian",
+      "count": 18
+    },
+    {
+      "year": 2025,
+      "keyword": "Fine-Tuning",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "Lattice",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "RAG",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Embedding",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Radiance Field",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Bias",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Federated Learning",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Image Generation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Wireless",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Motion Capture",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Physics-Based",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Haptic",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Pre-Training",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Reward Model",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Low-Rank",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Gradient Descent",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Crowdsourcing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Vulnerability",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "CLIP",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Convex",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Mixed Reality",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Ray Tracing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Retrieval-Augmented",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Consensus",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Mixture of Experts",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Submodular",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Complexity",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fluid",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Video Generation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Texture",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "In-Context Learning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Edge Computing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Worst-Case",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "GPT",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Manipulation",
+      "count": 60
+    },
+    {
+      "year": 2020,
+      "keyword": "Robot",
+      "count": 142
+    },
+    {
+      "year": 2020,
+      "keyword": "IoT",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Reconstruction",
+      "count": 13
+    },
+    {
+      "year": 2020,
+      "keyword": "Reconfigurable",
+      "count": 9
+    },
+    {
+      "year": 2020,
+      "keyword": "Grasping",
+      "count": 25
+    },
+    {
+      "year": 2024,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Microservice",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 12
+    },
+    {
+      "year": 2024,
+      "keyword": "Super-Resolution",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "UAV",
+      "count": 21
+    },
+    {
+      "year": 2024,
+      "keyword": "MPC",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "keyword": "Autoregressive",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Augmented Reality",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Complexity",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Scheduling",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Drone",
+      "count": 12
+    },
+    {
+      "year": 2024,
+      "keyword": "Routing",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "QoS",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "5G",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Sim-to-Real",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "keyword": "Humanoid",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "keyword": "Bandwidth",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "ICRA은 로보틱스 분야(Robotics)의 주요 국제 학회입니다. 최근 acceptance rate는 37.7% (2024년, 2639/7007편)입니다. 주요 연구 키워드: Robot, 3D, Autonomous, Navigation, Manipulation. 매년 6월 개최. CCF B등급, CORE A*, BK21 1점.",
+  "descriptionEn": "ICRA is a leading international conference in Robotics. Recent acceptance rate: 37.7% (2024, 2639/7007 papers). Top research topics: Robot, 3D, Autonomous, Navigation, Manipulation. Typically held in June. CCF rank B, CORE A*."
+}

@@ -1,1 +1,70 @@
-{"id":"1315e9c4-83fe-4212-b96a-8887bdce63ad","slug":"stacs","nameEn":"International Symposium on Theoretical Aspects of Computer Science","nameKr":null,"acronym":"STACS","field":"Theory","subField":"Theoretical CS","dblpKey":"conf/stacs","websiteUrl":"https://www.stacs-conf.org/","description":null,"nextDeadline":"2025-09-25T23:59:00Z","daysUntilDeadline":-183,"deadlineTimezone":"AoE","venue":"Grenoble, France","conferenceStart":"2026-03-10","conferenceEnd":"2026-03-13","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":"C"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2025-09-25T23:59:00Z","notificationDate":null,"conferenceStart":"2026-03-10","conferenceEnd":"2026-03-13","venue":"Grenoble, France","timezone":"AoE"}],"bestPapers":[],"acceptanceRates":[],"keywordTrends":[]}
+{
+  "id": "1315e9c4-83fe-4212-b96a-8887bdce63ad",
+  "slug": "stacs",
+  "nameEn": "International Symposium on Theoretical Aspects of Computer Science",
+  "nameKr": null,
+  "acronym": "STACS",
+  "field": "Theory",
+  "subField": "Theoretical CS",
+  "dblpKey": "conf/stacs",
+  "websiteUrl": "https://www.stacs-conf.org/",
+  "description": null,
+  "nextDeadline": "2025-09-25T23:59:00Z",
+  "daysUntilDeadline": -183,
+  "deadlineTimezone": "AoE",
+  "venue": "Grenoble, France",
+  "conferenceStart": "2026-03-10",
+  "conferenceEnd": "2026-03-13",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": "C"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2025-09-25T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-03-10",
+      "conferenceEnd": "2026-03-13",
+      "venue": "Grenoble, France",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [],
+  "acceptanceRates": [],
+  "keywordTrends": [],
+  "descriptionKo": "STACS은 이론 컴퓨터과학 분야(Theoretical CS)의 주요 국제 학회입니다. 매년 3월 개최. CCF C등급, CORE A, BK21 1점.",
+  "descriptionEn": "STACS is a leading international conference in Theoretical Computer Science (Theoretical CS). Typically held in March. CCF rank C, CORE A."
+}

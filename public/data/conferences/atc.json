@@ -1,1 +1,1586 @@
-{"id":"eda31bb7-df38-446c-b461-01a6f68bc9e3","slug":"atc","nameEn":"USENIX Annual Technical Conference","nameKr":null,"acronym":"USENIX ATC","field":"Systems","subField":"Systems","dblpKey":"conf/usenix","websiteUrl":"https://usenix.org/conference/atc","description":null,"nextDeadline":"2026-06-10T23:59:00Z","daysUntilDeadline":75,"deadlineTimezone":"AoE","venue":"Hong Kong","conferenceStart":"2026-11-15","conferenceEnd":"2026-11-18","institutionRatings":[{"institution":"BK21","tier":"3"},{"institution":"KIISE","tier":null},{"institution":"POSTECH","tier":null},{"institution":"SNU","tier":null},{"institution":"CORE","tier":null},{"institution":"CCF","tier":null},{"institution":"CSRankings","tier":null},{"institution":"KAIST","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-06-10T23:59:00Z","notificationDate":null,"conferenceStart":"2026-11-15","conferenceEnd":"2026-11-18","venue":"Hong Kong","timezone":"AoE"}],"bestPapers":[{"year":2021,"paperTitle":"Argus: Debugging Performance Issues in Modern Desktop Applications with Annotated Causal Tracing","authors":["Lingmei Weng","Junfeng Yang","Peng Huang","Jason Nieh"],"awardType":"best_paper","tags":["performance debugging","causal tracing","desktop applications"],"paperUrl":"https://www.semanticscholar.org/paper/0192b460429fc155035ee895c2a9d3383123fc29"},{"year":2021,"paperTitle":"INFaaS: Automated Model-less Inference Serving","authors":["Francisco Romero","Qian Li","Neeraja J. Yadwadkar","Christos Kozyrakis"],"awardType":"best_paper","tags":["inference serving","mlops","serverless"],"paperUrl":"https://www.semanticscholar.org/paper/021f6b1e8c328a4ce0e90dbd0d74e11e90aa4224"},{"year":2021,"paperTitle":"Scaling Large Production Clusters with Partitioned Synchronization","authors":["Yihui Feng","Yang Zhang","Zhi Liu","Yunjian Zhao","Tatiana Jin","Yidi Wu","James Cheng","Chao Li","Tao Guan"],"awardType":"best_paper","tags":["distributed systems","cluster scheduling","synchronization"],"paperUrl":"https://www.semanticscholar.org/paper/7b1eebaca8c02ea6ecd3ad39058a33bf7ca42bc2"},{"year":2022,"paperTitle":"Co-opting Linux Processes for High-Performance Network Simulation","authors":["Rob Jansen","Jim Newsome","Ryan Wails"],"awardType":"best_paper","tags":["network simulation","linux","high performance"],"paperUrl":"https://www.semanticscholar.org/paper/0635e75c72ff6b197ac595c03bd33bee6a16ce2c"},{"year":2023,"paperTitle":"On-demand Container Loading in AWS Lambda","authors":["Marc Brooker","Mike Danilov","Chris Greenwood","Phil Piwonka"],"awardType":"best_paper","tags":["serverless","containers","cloud computing"],"paperUrl":"http://arxiv.org/abs/2305.13162v2"},{"year":2023,"paperTitle":"zpoline: a system call hook mechanism based on binary rewriting","authors":["Kenichi Yasukata","Hajime Tazaki","Pierre-Louis Aublin","Kenta Ishiguro"],"awardType":"best_paper","tags":["system calls","binary rewriting","os"],"paperUrl":"https://www.semanticscholar.org/paper/21d96dd046db93e0b3964dbd68fd3d55e5bff801"},{"year":2024,"paperTitle":"An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise","authors":["Hongyu Li","Liwei Guo","Yexuan Yang","Shangguang Wang","Mengwei Xu"],"awardType":"best_paper","tags":["rust","linux","kernel","empirical study"],"paperUrl":"https://www.semanticscholar.org/paper/0606341a32e29c4e70333d4af68aabb02518d9b8"},{"year":2024,"paperTitle":"FastCommit: resource-efficient, performant and cost-effective file system journaling","authors":["Harshad Shirwadkar","Saurabh Kadekodi","Theodore Tso"],"awardType":"best_paper","tags":["file systems","journaling","storage"],"paperUrl":"https://www.semanticscholar.org/paper/d9c8cf376654db60aee0aae0f16d17e834ec4e95"},{"year":2024,"paperTitle":"SuperBench: Improving Cloud AI Infrastructure Reliability with Proactive Validation","authors":["Yifan Xiong","Yuting Jiang","Ziyue Yang","Lei Qu","Guoshuai Zhao","Shuguang Liu","Dong Zhong","Boris Pinzur","Jie Zhang","Yang Wang","Jithin Jose","Hossein Pourreza","Jeff Baxter","Kushal Datta","Prabhat Ram","Luke Melton","Joe Chau","Peng Cheng","Yongqiang Xiong","Lidong Zhou"],"awardType":"best_paper","tags":["cloud infrastructure","gpu","reliability","validation"],"paperUrl":"http://arxiv.org/abs/2402.06194v2"},{"year":2025,"paperTitle":"Accelerating Nested Virtualization with HyperTurtle","authors":["Ori Ben Zur","Jakob Krebs","Shai Aviram Bergman","Mark Silberstein"],"awardType":"best_paper","tags":["virtualization","hypervisor","performance"],"paperUrl":"https://www.semanticscholar.org/paper/3e6f59562cbb1f7351b1123b51af8da9b7c5fe42"},{"year":2025,"paperTitle":"The Koala Benchmarks for the Shell: Characterization and Implications","authors":["Evangelos Lamprou","Ethan Williams","Georgios Kaoukis","Zhuoxuan Zhang","Michael Greenberg","Konstantinos Kallas","Lukas Lazarek","Nikos Vasilakis"],"awardType":"best_paper","tags":["shell","benchmarks","systems"],"paperUrl":"https://www.semanticscholar.org/paper/2eefe4aee7b4a085068168d875e73343fca1f87a"}],"acceptanceRates":[{"year":2020,"accepted":33,"submitted":null,"rate":null},{"year":2021,"accepted":64,"submitted":341,"rate":18.8},{"year":2022,"accepted":64,"submitted":317,"rate":20.2},{"year":2023,"accepted":65,"submitted":353,"rate":18.4},{"year":2024,"accepted":70,"submitted":332,"rate":21.1}],"keywordTrends":[{"year":2020,"keyword":"Scheduling","count":1},{"year":2020,"keyword":"Graph","count":2},{"year":2020,"keyword":"GPU","count":3},{"year":2020,"keyword":"Stream Processing","count":1},{"year":2020,"keyword":"Optimization","count":2},{"year":2020,"keyword":"Autonomous","count":1},{"year":2020,"keyword":"Latency","count":1},{"year":2020,"keyword":"Storage","count":7},{"year":2020,"keyword":"Efficient","count":10},{"year":2020,"keyword":"Bandwidth","count":1},{"year":2020,"keyword":"Cache","count":3},{"year":2020,"keyword":"Debugging","count":1},{"year":2020,"keyword":"Kernel","count":3},{"year":2020,"keyword":"Key-Value Store","count":1},{"year":2020,"keyword":"Fuzzing","count":1},{"year":2020,"keyword":"SMT","count":1},{"year":2020,"keyword":"Memory Management","count":2},{"year":2020,"keyword":"Blockchain","count":1},{"year":2020,"keyword":"Throughput","count":1},{"year":2020,"keyword":"VR","count":1},{"year":2020,"keyword":"Distributed","count":1},{"year":2020,"keyword":"Cloud","count":5},{"year":2020,"keyword":"Container","count":2},{"year":2020,"keyword":"Parallelism","count":1},{"year":2020,"keyword":"Serverless","count":2},{"year":2020,"keyword":"Authentication","count":1},{"year":2020,"keyword":"Encryption","count":2},{"year":2020,"keyword":"Compression","count":1},{"year":2020,"keyword":"LSM","count":2},{"year":2020,"keyword":"Embedding","count":1},{"year":2020,"keyword":"Federated Learning","count":1},{"year":2020,"keyword":"Homomorphic","count":1},{"year":2021,"keyword":"Concurrency","count":1},{"year":2021,"keyword":"Reinforcement Learning","count":2},{"year":2021,"keyword":"Congestion Control","count":1},{"year":2021,"keyword":"Distributed","count":3},{"year":2021,"keyword":"Storage","count":9},{"year":2021,"keyword":"Consistency","count":1},{"year":2021,"keyword":"Fine-Tuning","count":1},{"year":2021,"keyword":"Parallelism","count":1},{"year":2021,"keyword":"Pipeline","count":1},{"year":2021,"keyword":"Efficient","count":2},{"year":2021,"keyword":"Scheduling","count":2},{"year":2022,"keyword":"GPU","count":2},{"year":2022,"keyword":"Compiler","count":2},{"year":2022,"keyword":"NoSQL","count":1},{"year":2022,"keyword":"Transformer","count":1},{"year":2022,"keyword":"Replication","count":1},{"year":2022,"keyword":"Throughput","count":1},{"year":2022,"keyword":"Disaggregation","count":1},{"year":2022,"keyword":"Stream Processing","count":1},{"year":2022,"keyword":"Latency","count":3},{"year":2022,"keyword":"Optimization","count":2},{"year":2022,"keyword":"Simulation","count":1},{"year":2022,"keyword":"Trusted Execution","count":1},{"year":2022,"keyword":"Consistency","count":1},{"year":2022,"keyword":"Testing","count":1},{"year":2022,"keyword":"JIT","count":1},{"year":2022,"keyword":"Convergence","count":1},{"year":2021,"keyword":"Testing","count":1},{"year":2021,"keyword":"Cloud","count":4},{"year":2021,"keyword":"Virtualization","count":1},{"year":2021,"keyword":"Graph","count":3},{"year":2021,"keyword":"Key-Value Store","count":1},{"year":2021,"keyword":"File System","count":1},{"year":2021,"keyword":"GPU","count":1},{"year":2021,"keyword":"Stream Processing","count":1},{"year":2021,"keyword":"Serverless","count":2},{"year":2021,"keyword":"Processing-in-Memory","count":1},{"year":2021,"keyword":"Kernel","count":2},{"year":2021,"keyword":"RDMA","count":4},{"year":2021,"keyword":"Transaction","count":1},{"year":2021,"keyword":"Index","count":1},{"year":2021,"keyword":"DRAM","count":1},{"year":2021,"keyword":"SGX","count":1},{"year":2021,"keyword":"Cache","count":2},{"year":2021,"keyword":"Dataflow","count":1},{"year":2021,"keyword":"Container","count":1},{"year":2021,"keyword":"Fuzzing","count":2},{"year":2021,"keyword":"Debugging","count":1},{"year":2021,"keyword":"Latency","count":1},{"year":2021,"keyword":"Quantization","count":1},{"year":2021,"keyword":"TCP","count":1},{"year":2022,"keyword":"Efficient","count":8},{"year":2022,"keyword":"Distributed","count":4},{"year":2022,"keyword":"Microservice","count":1},{"year":2022,"keyword":"Cloud","count":3},{"year":2022,"keyword":"FPGA","count":2},{"year":2022,"keyword":"File System","count":2},{"year":2022,"keyword":"Key-Value Store","count":1},{"year":2022,"keyword":"RDMA","count":2},{"year":2022,"keyword":"Encryption","count":1},{"year":2022,"keyword":"Datacenter","count":1},{"year":2023,"keyword":"Graph","count":4},{"year":2023,"keyword":"Serverless","count":3},{"year":2023,"keyword":"Blockchain","count":1},{"year":2023,"keyword":"Edge Computing","count":1},{"year":2023,"keyword":"Container","count":1},{"year":2023,"keyword":"Throughput","count":1},{"year":2023,"keyword":"GPU","count":5},{"year":2023,"keyword":"Optimization","count":2},{"year":2023,"keyword":"Cache","count":1},{"year":2023,"keyword":"Dataflow","count":2},{"year":2023,"keyword":"File System","count":1},{"year":2023,"keyword":"Distributed","count":6},{"year":2023,"keyword":"Approximate Query","count":1},{"year":2023,"keyword":"Microservice","count":2},{"year":2023,"keyword":"Disaggregation","count":1},{"year":2023,"keyword":"CXL","count":2},{"year":2023,"keyword":"Datacenter","count":1},{"year":2023,"keyword":"SmartNIC","count":1},{"year":2023,"keyword":"LSM","count":3},{"year":2023,"keyword":"Access Control","count":1},{"year":2023,"keyword":"Replication","count":1},{"year":2023,"keyword":"Efficient","count":4},{"year":2023,"keyword":"MoE","count":1},{"year":2023,"keyword":"Kernel","count":1},{"year":2023,"keyword":"Privacy","count":1},{"year":2023,"keyword":"Virtualization","count":1},{"year":2023,"keyword":"Storage","count":4},{"year":2023,"keyword":"Latency","count":3},{"year":2023,"keyword":"Reinforcement Learning","count":2},{"year":2023,"keyword":"Cloud","count":3},{"year":2023,"keyword":"Reconfigurable","count":1},{"year":2023,"keyword":"IoT","count":1},{"year":2023,"keyword":"OLAP","count":1},{"year":2023,"keyword":"OLTP","count":1},{"year":2023,"keyword":"QoS","count":2},{"year":2023,"keyword":"Stream Processing","count":1},{"year":2023,"keyword":"GNN","count":2},{"year":2023,"keyword":"Scheduling","count":2},{"year":2023,"keyword":"Accelerator","count":1},{"year":2023,"keyword":"Sparse","count":1},{"year":2023,"keyword":"Gradient Descent","count":1},{"year":2023,"keyword":"Compression","count":1},{"year":2023,"keyword":"Embedding","count":1},{"year":2023,"keyword":"Congestion Control","count":1},{"year":2023,"keyword":"TCP","count":1},{"year":2024,"keyword":"Cloud","count":4},{"year":2024,"keyword":"Storage","count":4},{"year":2024,"keyword":"RL","count":1},{"year":2024,"keyword":"Virtualization","count":1},{"year":2024,"keyword":"Distributed","count":3},{"year":2024,"keyword":"Fuzzing","count":2},{"year":2024,"keyword":"Serverless","count":4},{"year":2024,"keyword":"GPU","count":2},{"year":2024,"keyword":"Efficient","count":9},{"year":2024,"keyword":"Graph","count":1},{"year":2024,"keyword":"File System","count":2},{"year":2024,"keyword":"FPGA","count":1},{"year":2024,"keyword":"Simulation","count":1},{"year":2024,"keyword":"Chiplet","count":1},{"year":2024,"keyword":"Large Language Model","count":1},{"year":2024,"keyword":"Language Model","count":1},{"year":2024,"keyword":"Consistency","count":1},{"year":2024,"keyword":"SmartNIC","count":1},{"year":2024,"keyword":"Accelerator","count":1},{"year":2024,"keyword":"Intrusion Detection","count":1},{"year":2024,"keyword":"Embedded","count":1},{"year":2024,"keyword":"Parallelism","count":1},{"year":2024,"keyword":"Memory Hierarchy","count":1},{"year":2025,"keyword":"Efficient","count":16},{"year":2025,"keyword":"LLM","count":4},{"year":2025,"keyword":"Diffusion","count":1},{"year":2025,"keyword":"Serverless","count":4},{"year":2025,"keyword":"Cloud","count":6},{"year":2025,"keyword":"GAN","count":1},{"year":2025,"keyword":"Kernel","count":7},{"year":2025,"keyword":"TCP","count":1},{"year":2025,"keyword":"Distributed","count":6},{"year":2025,"keyword":"Container","count":1},{"year":2025,"keyword":"SmartNIC","count":2},{"year":2025,"keyword":"Datacenter","count":3},{"year":2025,"keyword":"Pipeline","count":3},{"year":2025,"keyword":"Microkernel","count":1},{"year":2025,"keyword":"Consistency","count":1},{"year":2025,"keyword":"Throughput","count":2},{"year":2025,"keyword":"Scheduling","count":3},{"year":2025,"keyword":"GPU","count":10},{"year":2025,"keyword":"Attention","count":1},{"year":2025,"keyword":"GNN","count":1},{"year":2025,"keyword":"Fuzzing","count":2},{"year":2025,"keyword":"Latency","count":3},{"year":2025,"keyword":"Embedding","count":1},{"year":2025,"keyword":"Load Balancing","count":1},{"year":2025,"keyword":"Large Language Model","count":3},{"year":2025,"keyword":"Language Model","count":3},{"year":2025,"keyword":"Congestion Control","count":2},{"year":2025,"keyword":"RDMA","count":2},{"year":2025,"keyword":"Consensus","count":1},{"year":2025,"keyword":"Fine-Tuning","count":3},{"year":2025,"keyword":"File System","count":2},{"year":2025,"keyword":"Accelerator","count":2},{"year":2025,"keyword":"Graph","count":3},{"year":2025,"keyword":"Parallelism","count":3},{"year":2025,"keyword":"Compiler","count":3},{"year":2025,"keyword":"Reconfigurable","count":1},{"year":2025,"keyword":"Hash","count":1},{"year":2025,"keyword":"Storage","count":2},{"year":2025,"keyword":"LSM","count":1},{"year":2025,"keyword":"Combinatorial","count":1},{"year":2025,"keyword":"Testing","count":1},{"year":2025,"keyword":"Model Checking","count":1},{"year":2025,"keyword":"Concurrency","count":1},{"year":2021,"keyword":"Sparse","count":1},{"year":2021,"keyword":"GNN","count":1},{"year":2022,"keyword":"MoE","count":1},{"year":2022,"keyword":"Reinforcement Learning","count":1},{"year":2022,"keyword":"Garbage Collection","count":1},{"year":2022,"keyword":"Concurrency","count":1},{"year":2022,"keyword":"Serverless","count":3},{"year":2022,"keyword":"Container","count":2},{"year":2022,"keyword":"Fault Tolerance","count":1},{"year":2022,"keyword":"Speculative","count":1},{"year":2022,"keyword":"Storage","count":3},{"year":2022,"keyword":"Transaction","count":1},{"year":2022,"keyword":"Scheduling","count":1},{"year":2022,"keyword":"SmartNIC","count":2},{"year":2022,"keyword":"Kernel","count":2},{"year":2022,"keyword":"SGX","count":1},{"year":2022,"keyword":"Fuzzing","count":1},{"year":2024,"keyword":"Ray Tracing","count":1},{"year":2024,"keyword":"Rendering","count":1},{"year":2024,"keyword":"Bandwidth","count":1},{"year":2024,"keyword":"Memory Management","count":2},{"year":2024,"keyword":"Kernel","count":1},{"year":2024,"keyword":"Datacenter","count":1},{"year":2024,"keyword":"RDMA","count":1},{"year":2024,"keyword":"Cache","count":2},{"year":2024,"keyword":"CXL","count":1},{"year":2024,"keyword":"Concurrency","count":1},{"year":2024,"keyword":"Encryption","count":1},{"year":2024,"keyword":"Bug Detection","count":1},{"year":2024,"keyword":"OLAP","count":1},{"year":2024,"keyword":"Embedding","count":1},{"year":2024,"keyword":"Load Balancing","count":1},{"year":2024,"keyword":"5G","count":1},{"year":2024,"keyword":"P4","count":1},{"year":2024,"keyword":"LLM","count":1},{"year":2025,"keyword":"Autonomous","count":1},{"year":2025,"keyword":"Cache","count":1},{"year":2025,"keyword":"TLS","count":1},{"year":2025,"keyword":"Processing-in-Memory","count":1},{"year":2025,"keyword":"PIM","count":1},{"year":2025,"keyword":"Optimization","count":2},{"year":2025,"keyword":"Sparse","count":1},{"year":2025,"keyword":"VR","count":1},{"year":2025,"keyword":"3D","count":1},{"year":2025,"keyword":"CXL","count":1},{"year":2025,"keyword":"Prefetch","count":1},{"year":2025,"keyword":"Transformer","count":1},{"year":2025,"keyword":"Rendering","count":1},{"year":2025,"keyword":"Fault Tolerance","count":1},{"year":2025,"keyword":"Virtualization","count":1}]}
+{
+  "id": "eda31bb7-df38-446c-b461-01a6f68bc9e3",
+  "slug": "atc",
+  "nameEn": "USENIX Annual Technical Conference",
+  "nameKr": null,
+  "acronym": "USENIX ATC",
+  "field": "Systems",
+  "subField": "Systems",
+  "dblpKey": "conf/usenix",
+  "websiteUrl": "https://usenix.org/conference/atc",
+  "description": null,
+  "nextDeadline": "2026-06-10T23:59:00Z",
+  "daysUntilDeadline": 75,
+  "deadlineTimezone": "AoE",
+  "venue": "Hong Kong",
+  "conferenceStart": "2026-11-15",
+  "conferenceEnd": "2026-11-18",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "3"
+    },
+    {
+      "institution": "KIISE",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "CORE",
+      "tier": null
+    },
+    {
+      "institution": "CCF",
+      "tier": null
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-06-10T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-11-15",
+      "conferenceEnd": "2026-11-18",
+      "venue": "Hong Kong",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2021,
+      "paperTitle": "Argus: Debugging Performance Issues in Modern Desktop Applications with Annotated Causal Tracing",
+      "authors": [
+        "Lingmei Weng",
+        "Junfeng Yang",
+        "Peng Huang",
+        "Jason Nieh"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "performance debugging",
+        "causal tracing",
+        "desktop applications"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/0192b460429fc155035ee895c2a9d3383123fc29"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "INFaaS: Automated Model-less Inference Serving",
+      "authors": [
+        "Francisco Romero",
+        "Qian Li",
+        "Neeraja J. Yadwadkar",
+        "Christos Kozyrakis"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "inference serving",
+        "mlops",
+        "serverless"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/021f6b1e8c328a4ce0e90dbd0d74e11e90aa4224"
+    },
+    {
+      "year": 2021,
+      "paperTitle": "Scaling Large Production Clusters with Partitioned Synchronization",
+      "authors": [
+        "Yihui Feng",
+        "Yang Zhang",
+        "Zhi Liu",
+        "Yunjian Zhao",
+        "Tatiana Jin",
+        "Yidi Wu",
+        "James Cheng",
+        "Chao Li",
+        "Tao Guan"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "distributed systems",
+        "cluster scheduling",
+        "synchronization"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/7b1eebaca8c02ea6ecd3ad39058a33bf7ca42bc2"
+    },
+    {
+      "year": 2022,
+      "paperTitle": "Co-opting Linux Processes for High-Performance Network Simulation",
+      "authors": [
+        "Rob Jansen",
+        "Jim Newsome",
+        "Ryan Wails"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "network simulation",
+        "linux",
+        "high performance"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/0635e75c72ff6b197ac595c03bd33bee6a16ce2c"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "On-demand Container Loading in AWS Lambda",
+      "authors": [
+        "Marc Brooker",
+        "Mike Danilov",
+        "Chris Greenwood",
+        "Phil Piwonka"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "serverless",
+        "containers",
+        "cloud computing"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2305.13162v2"
+    },
+    {
+      "year": 2023,
+      "paperTitle": "zpoline: a system call hook mechanism based on binary rewriting",
+      "authors": [
+        "Kenichi Yasukata",
+        "Hajime Tazaki",
+        "Pierre-Louis Aublin",
+        "Kenta Ishiguro"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "system calls",
+        "binary rewriting",
+        "os"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/21d96dd046db93e0b3964dbd68fd3d55e5bff801"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise",
+      "authors": [
+        "Hongyu Li",
+        "Liwei Guo",
+        "Yexuan Yang",
+        "Shangguang Wang",
+        "Mengwei Xu"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "rust",
+        "linux",
+        "kernel",
+        "empirical study"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/0606341a32e29c4e70333d4af68aabb02518d9b8"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "FastCommit: resource-efficient, performant and cost-effective file system journaling",
+      "authors": [
+        "Harshad Shirwadkar",
+        "Saurabh Kadekodi",
+        "Theodore Tso"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "file systems",
+        "journaling",
+        "storage"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/d9c8cf376654db60aee0aae0f16d17e834ec4e95"
+    },
+    {
+      "year": 2024,
+      "paperTitle": "SuperBench: Improving Cloud AI Infrastructure Reliability with Proactive Validation",
+      "authors": [
+        "Yifan Xiong",
+        "Yuting Jiang",
+        "Ziyue Yang",
+        "Lei Qu",
+        "Guoshuai Zhao",
+        "Shuguang Liu",
+        "Dong Zhong",
+        "Boris Pinzur",
+        "Jie Zhang",
+        "Yang Wang",
+        "Jithin Jose",
+        "Hossein Pourreza",
+        "Jeff Baxter",
+        "Kushal Datta",
+        "Prabhat Ram",
+        "Luke Melton",
+        "Joe Chau",
+        "Peng Cheng",
+        "Yongqiang Xiong",
+        "Lidong Zhou"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "cloud infrastructure",
+        "gpu",
+        "reliability",
+        "validation"
+      ],
+      "paperUrl": "http://arxiv.org/abs/2402.06194v2"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Accelerating Nested Virtualization with HyperTurtle",
+      "authors": [
+        "Ori Ben Zur",
+        "Jakob Krebs",
+        "Shai Aviram Bergman",
+        "Mark Silberstein"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "virtualization",
+        "hypervisor",
+        "performance"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/3e6f59562cbb1f7351b1123b51af8da9b7c5fe42"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "The Koala Benchmarks for the Shell: Characterization and Implications",
+      "authors": [
+        "Evangelos Lamprou",
+        "Ethan Williams",
+        "Georgios Kaoukis",
+        "Zhuoxuan Zhang",
+        "Michael Greenberg",
+        "Konstantinos Kallas",
+        "Lukas Lazarek",
+        "Nikos Vasilakis"
+      ],
+      "awardType": "best_paper",
+      "tags": [
+        "shell",
+        "benchmarks",
+        "systems"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/2eefe4aee7b4a085068168d875e73343fca1f87a"
+    }
+  ],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 70,
+      "submitted": 332,
+      "rate": 21.1
+    },
+    {
+      "year": 2023,
+      "accepted": 65,
+      "submitted": 353,
+      "rate": 18.4
+    },
+    {
+      "year": 2022,
+      "accepted": 64,
+      "submitted": 317,
+      "rate": 20.2
+    },
+    {
+      "year": 2021,
+      "accepted": 64,
+      "submitted": 341,
+      "rate": 18.8
+    },
+    {
+      "year": 2020,
+      "accepted": 33,
+      "submitted": null,
+      "rate": null
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "GPU",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Storage",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 10
+    },
+    {
+      "year": 2020,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cache",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Kernel",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Key-Value Store",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "SMT",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Memory Management",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Distributed",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 5
+    },
+    {
+      "year": 2020,
+      "keyword": "Container",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Serverless",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Authentication",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Encryption",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "LSM",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Federated Learning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Homomorphic",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Congestion Control",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Distributed",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Storage",
+      "count": 9
+    },
+    {
+      "year": 2021,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fine-Tuning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Pipeline",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "GPU",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Compiler",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "NoSQL",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Disaggregation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Latency",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Trusted Execution",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "JIT",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cloud",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Virtualization",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Key-Value Store",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "File System",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "GPU",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Serverless",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Processing-in-Memory",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "RDMA",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Transaction",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Index",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "DRAM",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "SGX",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Dataflow",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fuzzing",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Debugging",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Latency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "TCP",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Distributed",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "keyword": "Microservice",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Cloud",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "FPGA",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "File System",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Key-Value Store",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "RDMA",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Datacenter",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Serverless",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Blockchain",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Edge Computing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Throughput",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GPU",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Dataflow",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "File System",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Distributed",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Approximate Query",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Microservice",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Disaggregation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "CXL",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Datacenter",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "SmartNIC",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "LSM",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Access Control",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "MoE",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Virtualization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Storage",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Latency",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Reinforcement Learning",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Cloud",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Reconfigurable",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "IoT",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "OLAP",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "OLTP",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "QoS",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Stream Processing",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "GNN",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Scheduling",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Gradient Descent",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Congestion Control",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "TCP",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Cloud",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Storage",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Virtualization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Distributed",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Fuzzing",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Serverless",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "GPU",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "File System",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "FPGA",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Chiplet",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Large Language Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Language Model",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "SmartNIC",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Accelerator",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Intrusion Detection",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedded",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Parallelism",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Memory Hierarchy",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 16
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Diffusion",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Serverless",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Cloud",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Kernel",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "TCP",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Distributed",
+      "count": 6
+    },
+    {
+      "year": 2025,
+      "keyword": "Container",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "SmartNIC",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Datacenter",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Pipeline",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Microkernel",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Consistency",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Throughput",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Scheduling",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "GPU",
+      "count": 10
+    },
+    {
+      "year": 2025,
+      "keyword": "Attention",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fuzzing",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Latency",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Load Balancing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Large Language Model",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Congestion Control",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "RDMA",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Consensus",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fine-Tuning",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "File System",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Accelerator",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Parallelism",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Compiler",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Reconfigurable",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Storage",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "LSM",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Combinatorial",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Model Checking",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "GNN",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "MoE",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Reinforcement Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Garbage Collection",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Serverless",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Container",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Speculative",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Storage",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Transaction",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Scheduling",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "SmartNIC",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "SGX",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Fuzzing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Ray Tracing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Rendering",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Bandwidth",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Memory Management",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Datacenter",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "RDMA",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Cache",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "CXL",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Concurrency",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Bug Detection",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "OLAP",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Load Balancing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "5G",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "P4",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "LLM",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Cache",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "TLS",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Processing-in-Memory",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "PIM",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "VR",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "3D",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "CXL",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Prefetch",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Rendering",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Fault Tolerance",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Virtualization",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "USENIX ATC은 시스템 분야(Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 21.1% (2024년, 70/332편)입니다. 주요 연구 키워드: Efficient, GPU, Kernel, Cloud, Distributed. 매년 11월 개최. BK21 3점.",
+  "descriptionEn": "USENIX ATC is a leading international conference in Systems. Recent acceptance rate: 21.1% (2024, 70/332 papers). Top research topics: Efficient, GPU, Kernel, Cloud, Distributed. Typically held in November."
+}

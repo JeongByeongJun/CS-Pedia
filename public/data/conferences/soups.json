@@ -1,1 +1,237 @@
-{"id":"5ba90d32-f607-40a4-b461-24c56f586eab","slug":"soups","nameEn":"Symposium on Usable Privacy and Security","nameKr":null,"acronym":"SOUPS","field":"Security","subField":"Usable Security","dblpKey":"conf/soups","websiteUrl":"https://soups.page/","description":null,"nextDeadline":"2026-02-19T23:59:00Z","daysUntilDeadline":-36,"deadlineTimezone":"AoE","venue":"Hannover, Germany","conferenceStart":"2026-08-23","conferenceEnd":"2026-08-26","institutionRatings":[{"institution":"BK21","tier":"1"},{"institution":"KIISE","tier":"우수"},{"institution":"KAIST","tier":null},{"institution":"SNU","tier":"인정"},{"institution":"POSTECH","tier":"우수"},{"institution":"CORE","tier":"B"},{"institution":"CCF","tier":"C"},{"institution":"CSRankings","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-02-19T23:59:00Z","notificationDate":null,"conferenceStart":"2026-08-23","conferenceEnd":"2026-08-26","venue":"Hannover, Germany","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Beyond Fear and Frustration - Towards a Holistic Understanding of Emotions in Cybersecurity","authors":"von Preuschen, Schuhmacher & Zimmermann","awardType":"distinguished_paper","tags":["Cybersecurity","User Study"],"paperUrl":"https://www.semanticscholar.org/paper/a09b50eb0b0d39f6d661503b41237316b0c87fdd"},{"year":2025,"paperTitle":"I never reuse passwords! Development and Validation of a Security and Privacy Social Desirability Scale","authors":"Abels, Smith & Ortloff","awardType":"distinguished_paper","tags":["Password Security","Psychology"],"paperUrl":"https://www.semanticscholar.org/paper/2edc8a4a8f6aefeb79795dcb6ae3dc231163694a"}],"acceptanceRates":[{"year":2021,"accepted":19,"submitted":null,"rate":null},{"year":2020,"accepted":15,"submitted":null,"rate":null}],"keywordTrends":[{"year":2020,"keyword":"Static Analysis","count":1},{"year":2020,"keyword":"Usability","count":1},{"year":2020,"keyword":"Vulnerability","count":1},{"year":2020,"keyword":"Privacy","count":7},{"year":2020,"keyword":"Replication","count":2},{"year":2020,"keyword":"Storage","count":1},{"year":2020,"keyword":"Authentication","count":1},{"year":2020,"keyword":"Wireless","count":1},{"year":2020,"keyword":"Cloud","count":1},{"year":2021,"keyword":"Privacy","count":10},{"year":2021,"keyword":"Replication","count":1},{"year":2021,"keyword":"Authentication","count":2},{"year":2021,"keyword":"Storage","count":1},{"year":2021,"keyword":"Augmented Reality","count":1},{"year":2021,"keyword":"Usability","count":2},{"year":2021,"keyword":"Encryption","count":1},{"year":2025,"keyword":"Privacy","count":11},{"year":2025,"keyword":"Usability","count":3},{"year":2025,"keyword":"Authentication","count":2},{"year":2025,"keyword":"Replication","count":1},{"year":2025,"keyword":"Agent","count":1},{"year":2025,"keyword":"Conversational","count":1},{"year":2025,"keyword":"Generative","count":2},{"year":2025,"keyword":"Fairness","count":1},{"year":2025,"keyword":"Safety","count":1},{"year":2025,"keyword":"LLM","count":1}]}
+{
+  "id": "5ba90d32-f607-40a4-b461-24c56f586eab",
+  "slug": "soups",
+  "nameEn": "Symposium on Usable Privacy and Security",
+  "nameKr": null,
+  "acronym": "SOUPS",
+  "field": "Security",
+  "subField": "Usable Security",
+  "dblpKey": "conf/soups",
+  "websiteUrl": "https://soups.page/",
+  "description": null,
+  "nextDeadline": "2026-02-19T23:59:00Z",
+  "daysUntilDeadline": -36,
+  "deadlineTimezone": "AoE",
+  "venue": "Hannover, Germany",
+  "conferenceStart": "2026-08-23",
+  "conferenceEnd": "2026-08-26",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "1"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "KAIST",
+      "tier": null
+    },
+    {
+      "institution": "SNU",
+      "tier": "인정"
+    },
+    {
+      "institution": "POSTECH",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "B"
+    },
+    {
+      "institution": "CCF",
+      "tier": "C"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-02-19T23:59:00Z",
+      "notificationDate": null,
+      "conferenceStart": "2026-08-23",
+      "conferenceEnd": "2026-08-26",
+      "venue": "Hannover, Germany",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Beyond Fear and Frustration - Towards a Holistic Understanding of Emotions in Cybersecurity",
+      "authors": "von Preuschen, Schuhmacher & Zimmermann",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Cybersecurity",
+        "User Study"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/a09b50eb0b0d39f6d661503b41237316b0c87fdd"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "I never reuse passwords! Development and Validation of a Security and Privacy Social Desirability Scale",
+      "authors": "Abels, Smith & Ortloff",
+      "awardType": "distinguished_paper",
+      "tags": [
+        "Password Security",
+        "Psychology"
+      ],
+      "paperUrl": "https://www.semanticscholar.org/paper/2edc8a4a8f6aefeb79795dcb6ae3dc231163694a"
+    }
+  ],
+  "acceptanceRates": [
+    {
+      "year": 2021,
+      "accepted": 19,
+      "submitted": null,
+      "rate": null
+    },
+    {
+      "year": 2020,
+      "accepted": 15,
+      "submitted": null,
+      "rate": null
+    }
+  ],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Static Analysis",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Usability",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Vulnerability",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 7
+    },
+    {
+      "year": 2020,
+      "keyword": "Replication",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Authentication",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Wireless",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Cloud",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 10
+    },
+    {
+      "year": 2021,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Authentication",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Storage",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Augmented Reality",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Usability",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Privacy",
+      "count": 11
+    },
+    {
+      "year": 2025,
+      "keyword": "Usability",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Authentication",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Replication",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Agent",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Conversational",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "SOUPS은 보안 분야(Usable Security)의 주요 국제 학회입니다. 주요 연구 키워드: Privacy, Usability, Authentication, Generative, Replication. 매년 8월 개최. CCF C등급, CORE B, BK21 1점.",
+  "descriptionEn": "SOUPS is a leading international conference in Security (Usable Security). Top research topics: Privacy, Usability, Authentication, Generative, Replication. Typically held in August. CCF rank C, CORE B."
+}

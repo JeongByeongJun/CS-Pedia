@@ -1,1 +1,1699 @@
-{"id":"ec380ea8-e3f7-4cdc-863a-4bb88d891d4e","slug":"ccc","nameEn":"Computational Complexity Conference","nameKr":null,"acronym":"CCC","field":"Theory","subField":"Complexity Theory","dblpKey":"conf/coco","websiteUrl":null,"description":null,"nextDeadline":"2026-02-06T23:59:00Z","daysUntilDeadline":-49,"deadlineTimezone":"AoE","venue":"Lisbon, Portugal","conferenceStart":"2026-08-03","conferenceEnd":"2026-08-06","institutionRatings":[{"institution":"BK21","tier":"2"},{"institution":"KIISE","tier":"우수"},{"institution":"CORE","tier":"A"},{"institution":"CCF","tier":"B"},{"institution":"CSRankings","tier":null},{"institution":"KAIST","tier":"우수"},{"institution":"SNU","tier":null},{"institution":"POSTECH","tier":null}],"deadlines":[{"year":2026,"cycle":"main","abstractDeadline":null,"paperDeadline":"2026-02-06T23:59:00Z","notificationDate":"2026-05-01T00:00:00Z","conferenceStart":"2026-08-03","conferenceEnd":"2026-08-06","venue":"Lisbon, Portugal","timezone":"AoE"}],"bestPapers":[{"year":2024,"paperTitle":"Low-Depth Algebraic Circuit Lower Bounds over Any Field","authors":"Forbes","awardType":"best_paper","tags":["Circuit Complexity","Algebraic"],"paperUrl":"https://doi.org/10.4230/LIPIcs.CCC.2024.31"},{"year":2025,"paperTitle":"Quantum Threshold Is Powerful","authors":"Grier & Morris","awardType":"best_paper","tags":["Quantum Circuits","Complexity"],"paperUrl":"https://arxiv.org/abs/2411.04953"}],"acceptanceRates":[],"keywordTrends":[{"year":2020,"keyword":"Convergence","count":2},{"year":2020,"keyword":"Generative","count":4},{"year":2020,"keyword":"LoRA","count":1},{"year":2020,"keyword":"Point Cloud","count":1},{"year":2020,"keyword":"Pruning","count":1},{"year":2020,"keyword":"Question Answering","count":1},{"year":2020,"keyword":"Knowledge Graph","count":1},{"year":2020,"keyword":"Efficient","count":3},{"year":2020,"keyword":"Safety","count":1},{"year":2020,"keyword":"Gradient Descent","count":1},{"year":2020,"keyword":"GAN","count":1},{"year":2020,"keyword":"Domain Adaptation","count":1},{"year":2020,"keyword":"Quantization","count":2},{"year":2020,"keyword":"Embedding","count":2},{"year":2020,"keyword":"Sparse","count":1},{"year":2020,"keyword":"Privacy","count":2},{"year":2020,"keyword":"Few-Shot","count":2},{"year":2020,"keyword":"Differential Privacy","count":1},{"year":2020,"keyword":"Image Generation","count":1},{"year":2020,"keyword":"Robustness","count":1},{"year":2021,"keyword":"Multi-Agent","count":33},{"year":2021,"keyword":"Agent","count":35},{"year":2021,"keyword":"Knowledge Graph","count":2},{"year":2021,"keyword":"Safety","count":4},{"year":2021,"keyword":"Text Classification","count":1},{"year":2021,"keyword":"Attention","count":6},{"year":2021,"keyword":"Embedding","count":1},{"year":2021,"keyword":"Autonomous","count":13},{"year":2021,"keyword":"Reinforcement Learning","count":22},{"year":2021,"keyword":"Gradient Descent","count":3},{"year":2021,"keyword":"Sparse","count":4},{"year":2021,"keyword":"Semantic Segmentation","count":2},{"year":2021,"keyword":"Segmentation","count":8},{"year":2021,"keyword":"Adversarial","count":4},{"year":2021,"keyword":"Generative","count":3},{"year":2021,"keyword":"Diffusion Model","count":1},{"year":2021,"keyword":"Diffusion","count":4},{"year":2021,"keyword":"Instance Segmentation","count":2},{"year":2021,"keyword":"3D","count":7},{"year":2021,"keyword":"Point Cloud","count":2},{"year":2021,"keyword":"Domain Adaptation","count":1},{"year":2021,"keyword":"Object Detection","count":4},{"year":2021,"keyword":"Super-Resolution","count":1},{"year":2021,"keyword":"Fairness","count":1},{"year":2021,"keyword":"Transfer Learning","count":1},{"year":2021,"keyword":"Bias","count":2},{"year":2021,"keyword":"Graph Neural Network","count":1},{"year":2021,"keyword":"Autoregressive","count":1},{"year":2021,"keyword":"Convergence","count":1},{"year":2021,"keyword":"Compression","count":1},{"year":2021,"keyword":"Quantization","count":2},{"year":2021,"keyword":"GCN","count":1},{"year":2021,"keyword":"GAN","count":1},{"year":2021,"keyword":"Privacy","count":1},{"year":2021,"keyword":"LoRA","count":1},{"year":2021,"keyword":"Depth Estimation","count":1},{"year":2021,"keyword":"Self-Supervised","count":1},{"year":2021,"keyword":"Pruning","count":1},{"year":2021,"keyword":"Data Augmentation","count":1},{"year":2022,"keyword":"Multi-Agent","count":57},{"year":2022,"keyword":"Graph","count":14},{"year":2022,"keyword":"Agent","count":61},{"year":2022,"keyword":"Autonomous","count":20},{"year":2022,"keyword":"Segmentation","count":11},{"year":2022,"keyword":"Attention","count":18},{"year":2022,"keyword":"Reinforcement Learning","count":22},{"year":2022,"keyword":"Named Entity Recognition","count":2},{"year":2022,"keyword":"Object Detection","count":12},{"year":2022,"keyword":"Super-Resolution","count":1},{"year":2022,"keyword":"Adversarial","count":2},{"year":2022,"keyword":"Generative","count":1},{"year":2022,"keyword":"Transformer","count":3},{"year":2022,"keyword":"Knowledge Graph","count":3},{"year":2022,"keyword":"Embedding","count":1},{"year":2022,"keyword":"Point Cloud","count":8},{"year":2022,"keyword":"3D","count":5},{"year":2022,"keyword":"Robustness","count":1},{"year":2022,"keyword":"Benchmark","count":1},{"year":2022,"keyword":"Few-Shot","count":1},{"year":2022,"keyword":"Optimization","count":39},{"year":2022,"keyword":"Federated Learning","count":2},{"year":2022,"keyword":"Safety","count":8},{"year":2022,"keyword":"Quantization","count":6},{"year":2022,"keyword":"Data Augmentation","count":2},{"year":2022,"keyword":"Alignment","count":1},{"year":2022,"keyword":"Privacy","count":3},{"year":2022,"keyword":"Diffusion","count":5},{"year":2022,"keyword":"Representation Learning","count":1},{"year":2022,"keyword":"Semantic Segmentation","count":3},{"year":2022,"keyword":"Compression","count":1},{"year":2022,"keyword":"Bias","count":1},{"year":2022,"keyword":"Dataset","count":1},{"year":2022,"keyword":"Text Classification","count":1},{"year":2022,"keyword":"BERT","count":1},{"year":2022,"keyword":"LoRA","count":1},{"year":2022,"keyword":"Fairness","count":1},{"year":2022,"keyword":"Multimodal","count":1},{"year":2022,"keyword":"Low-Rank","count":1},{"year":2022,"keyword":"Convergence","count":3},{"year":2022,"keyword":"GAN","count":1},{"year":2022,"keyword":"Gradient Descent","count":1},{"year":2022,"keyword":"Depth Estimation","count":1},{"year":2022,"keyword":"Diffusion Model","count":1},{"year":2022,"keyword":"Instance Segmentation","count":1},{"year":2023,"keyword":"Attention","count":21},{"year":2023,"keyword":"Multi-Agent","count":45},{"year":2023,"keyword":"Agent","count":47},{"year":2023,"keyword":"Adversarial","count":8},{"year":2023,"keyword":"Robustness","count":2},{"year":2023,"keyword":"Autonomous","count":24},{"year":2023,"keyword":"Object Detection","count":15},{"year":2023,"keyword":"Transfer Learning","count":3},{"year":2023,"keyword":"Knowledge Graph","count":2},{"year":2023,"keyword":"3D","count":16},{"year":2023,"keyword":"Transformer","count":4},{"year":2023,"keyword":"Reinforcement Learning","count":26},{"year":2023,"keyword":"Safety","count":5},{"year":2023,"keyword":"GAN","count":5},{"year":2023,"keyword":"Convergence","count":2},{"year":2023,"keyword":"Sentiment Analysis","count":2},{"year":2023,"keyword":"Semantic Segmentation","count":2},{"year":2023,"keyword":"Segmentation","count":11},{"year":2023,"keyword":"Privacy","count":3},{"year":2023,"keyword":"Efficient","count":4},{"year":2023,"keyword":"Point Cloud","count":6},{"year":2023,"keyword":"Self-Attention","count":4},{"year":2023,"keyword":"Diffusion","count":4},{"year":2023,"keyword":"Gradient Descent","count":2},{"year":2023,"keyword":"Super-Resolution","count":3},{"year":2023,"keyword":"RL","count":1},{"year":2023,"keyword":"Few-Shot","count":2},{"year":2023,"keyword":"Data Augmentation","count":1},{"year":2023,"keyword":"Sparse","count":3},{"year":2023,"keyword":"Multimodal","count":2},{"year":2023,"keyword":"Compression","count":1},{"year":2023,"keyword":"Continual Learning","count":1},{"year":2023,"keyword":"Meta-Learning","count":1},{"year":2023,"keyword":"Policy Optimization","count":3},{"year":2023,"keyword":"Domain Adaptation","count":1},{"year":2023,"keyword":"Graph Neural Network","count":2},{"year":2023,"keyword":"Bias","count":1},{"year":2023,"keyword":"Knowledge Distillation","count":1},{"year":2023,"keyword":"Federated Learning","count":1},{"year":2023,"keyword":"Alignment","count":1},{"year":2023,"keyword":"Image Restoration","count":1},{"year":2024,"keyword":"Privacy","count":7},{"year":2024,"keyword":"Attention","count":15},{"year":2024,"keyword":"Segmentation","count":20},{"year":2024,"keyword":"Transformer","count":15},{"year":2024,"keyword":"Semantic Segmentation","count":3},{"year":2024,"keyword":"Autonomous","count":18},{"year":2024,"keyword":"Optimization","count":54},{"year":2024,"keyword":"Safety","count":5},{"year":2024,"keyword":"Reinforcement Learning","count":34},{"year":2024,"keyword":"Multi-Agent","count":43},{"year":2024,"keyword":"Agent","count":47},{"year":2024,"keyword":"Generative","count":2},{"year":2024,"keyword":"3D","count":17},{"year":2024,"keyword":"Object Detection","count":13},{"year":2024,"keyword":"Graph","count":11},{"year":2024,"keyword":"Alignment","count":1},{"year":2024,"keyword":"Sparse","count":6},{"year":2024,"keyword":"Gradient Descent","count":3},{"year":2024,"keyword":"Differential Privacy","count":2},{"year":2024,"keyword":"Convergence","count":4},{"year":2024,"keyword":"Federated Learning","count":3},{"year":2024,"keyword":"Compression","count":3},{"year":2024,"keyword":"Self-Supervised","count":2},{"year":2024,"keyword":"Depth Estimation","count":1},{"year":2024,"keyword":"Question Answering","count":1},{"year":2024,"keyword":"Pruning","count":1},{"year":2024,"keyword":"Knowledge Distillation","count":3},{"year":2024,"keyword":"Contrastive Learning","count":2},{"year":2024,"keyword":"Robustness","count":1},{"year":2024,"keyword":"Instance Segmentation","count":2},{"year":2024,"keyword":"GAN","count":2},{"year":2024,"keyword":"Multimodal","count":2},{"year":2024,"keyword":"Fairness","count":1},{"year":2024,"keyword":"Point Cloud","count":6},{"year":2024,"keyword":"Few-Shot","count":2},{"year":2024,"keyword":"Summarization","count":1},{"year":2024,"keyword":"Transfer Learning","count":2},{"year":2024,"keyword":"Diffusion","count":5},{"year":2024,"keyword":"Super-Resolution","count":1},{"year":2024,"keyword":"GCN","count":1},{"year":2024,"keyword":"Embedding","count":1},{"year":2024,"keyword":"Message Passing","count":1},{"year":2024,"keyword":"Quantization","count":1},{"year":2024,"keyword":"Low-Rank","count":1},{"year":2024,"keyword":"Pre-Training","count":1},{"year":2024,"keyword":"Named Entity Recognition","count":1},{"year":2024,"keyword":"BERT","count":1},{"year":2024,"keyword":"Policy Optimization","count":1},{"year":2024,"keyword":"Domain Adaptation","count":1},{"year":2024,"keyword":"RL","count":1},{"year":2024,"keyword":"Diffusion Model","count":2},{"year":2024,"keyword":"LLM","count":1},{"year":2024,"keyword":"Data Augmentation","count":1},{"year":2025,"keyword":"Agent","count":50},{"year":2025,"keyword":"Optimization","count":58},{"year":2025,"keyword":"Federated Learning","count":4},{"year":2025,"keyword":"Multi-Agent","count":47},{"year":2025,"keyword":"Multimodal","count":8},{"year":2025,"keyword":"RAG","count":2},{"year":2025,"keyword":"Segmentation","count":17},{"year":2025,"keyword":"Attention","count":27},{"year":2025,"keyword":"Reinforcement Learning","count":37},{"year":2025,"keyword":"Object Detection","count":13},{"year":2025,"keyword":"3D","count":15},{"year":2025,"keyword":"Knowledge Distillation","count":2},{"year":2025,"keyword":"Adversarial","count":5},{"year":2025,"keyword":"Generative","count":4},{"year":2025,"keyword":"Large Language Model","count":2},{"year":2025,"keyword":"Language Model","count":5},{"year":2025,"keyword":"Continual Learning","count":1},{"year":2025,"keyword":"Prompt","count":1},{"year":2025,"keyword":"Transformer","count":10},{"year":2025,"keyword":"Diffusion","count":7},{"year":2025,"keyword":"Safety","count":3},{"year":2025,"keyword":"Compression","count":2},{"year":2025,"keyword":"Self-Attention","count":2},{"year":2025,"keyword":"Embedding","count":5},{"year":2025,"keyword":"Autonomous","count":23},{"year":2025,"keyword":"GAN","count":3},{"year":2025,"keyword":"Fairness","count":1},{"year":2025,"keyword":"CLIP","count":1},{"year":2025,"keyword":"Depth Estimation","count":2},{"year":2025,"keyword":"Self-Supervised","count":1},{"year":2025,"keyword":"Efficient","count":9},{"year":2025,"keyword":"Point Cloud","count":5},{"year":2025,"keyword":"Convergence","count":3},{"year":2025,"keyword":"Low-Rank","count":1},{"year":2025,"keyword":"Sparse","count":9},{"year":2025,"keyword":"Alignment","count":2},{"year":2025,"keyword":"Super-Resolution","count":1},{"year":2025,"keyword":"Gradient Descent","count":2},{"year":2025,"keyword":"LLM","count":4},{"year":2025,"keyword":"Transfer Learning","count":2},{"year":2025,"keyword":"Robustness","count":2},{"year":2025,"keyword":"Privacy","count":3},{"year":2025,"keyword":"Domain Adaptation","count":1},{"year":2025,"keyword":"Text-to-Image","count":1},{"year":2025,"keyword":"Zero-Shot","count":3},{"year":2025,"keyword":"Dataset","count":2},{"year":2025,"keyword":"Graph Neural Network","count":1},{"year":2025,"keyword":"Contrastive Learning","count":2},{"year":2025,"keyword":"Vision Transformer","count":1},{"year":2025,"keyword":"Knowledge Graph","count":3},{"year":2025,"keyword":"Fine-Tuning","count":2},{"year":2025,"keyword":"LoRA","count":1},{"year":2025,"keyword":"BERT","count":1},{"year":2025,"keyword":"Semantic Segmentation","count":2},{"year":2025,"keyword":"Image Generation","count":1},{"year":2025,"keyword":"Diffusion Model","count":2},{"year":2025,"keyword":"Question Answering","count":1},{"year":2025,"keyword":"VAE","count":1},{"year":2025,"keyword":"NeRF","count":1},{"year":2025,"keyword":"Benchmark","count":1},{"year":2025,"keyword":"Message Passing","count":1},{"year":2025,"keyword":"3D Gaussian","count":1},{"year":2025,"keyword":"Policy Optimization","count":1},{"year":2025,"keyword":"Quantization","count":1},{"year":2020,"keyword":"Graph","count":1},{"year":2020,"keyword":"Multi-Agent","count":34},{"year":2020,"keyword":"Agent","count":34},{"year":2020,"keyword":"Data Augmentation","count":2},{"year":2020,"keyword":"Adversarial","count":6},{"year":2020,"keyword":"Object Detection","count":6},{"year":2020,"keyword":"Attention","count":4},{"year":2020,"keyword":"Bias","count":3},{"year":2020,"keyword":"Optimization","count":46},{"year":2020,"keyword":"3D","count":11},{"year":2020,"keyword":"Reinforcement Learning","count":11},{"year":2020,"keyword":"Segmentation","count":10},{"year":2020,"keyword":"Compression","count":3},{"year":2020,"keyword":"Transfer Learning","count":2},{"year":2020,"keyword":"Autonomous","count":17},{"year":2020,"keyword":"Transformer","count":1},{"year":2020,"keyword":"Sentiment Analysis","count":1},{"year":2020,"keyword":"Super-Resolution","count":3},{"year":2020,"keyword":"Dataset","count":1},{"year":2020,"keyword":"GCN","count":1},{"year":2023,"keyword":"Testing","count":1},{"year":2024,"keyword":"Kernel","count":1},{"year":2024,"keyword":"Complexity","count":6},{"year":2024,"keyword":"Efficient","count":1},{"year":2024,"keyword":"Zero-Knowledge","count":1},{"year":2024,"keyword":"Adversarial","count":1},{"year":2024,"keyword":"Parameterized","count":1},{"year":2024,"keyword":"Upper Bound","count":1},{"year":2025,"keyword":"Encryption","count":1},{"year":2025,"keyword":"Complexity","count":2},{"year":2025,"keyword":"Testing","count":1},{"year":2025,"keyword":"Signature","count":1},{"year":2025,"keyword":"Reconstruction","count":1},{"year":2025,"keyword":"Lower Bound","count":1},{"year":2025,"keyword":"Graph","count":1},{"year":2020,"keyword":"Simulation","count":1},{"year":2020,"keyword":"Complexity","count":6},{"year":2020,"keyword":"Lower Bound","count":2},{"year":2021,"keyword":"Lower Bound","count":4},{"year":2021,"keyword":"Complexity","count":10},{"year":2021,"keyword":"Testing","count":3},{"year":2021,"keyword":"Efficient","count":1},{"year":2021,"keyword":"Optimization","count":1},{"year":2021,"keyword":"Graph","count":1},{"year":2021,"keyword":"Reconstruction","count":1},{"year":2022,"keyword":"Efficient","count":2},{"year":2022,"keyword":"Hash","count":1},{"year":2022,"keyword":"Simulation","count":1},{"year":2022,"keyword":"Kernel","count":1},{"year":2022,"keyword":"Complexity","count":6},{"year":2022,"keyword":"Sparse","count":1},{"year":2022,"keyword":"Lower Bound","count":1},{"year":2022,"keyword":"Parameterized","count":1},{"year":2023,"keyword":"Complexity","count":6},{"year":2023,"keyword":"Optimization","count":1},{"year":2023,"keyword":"Simulation","count":1},{"year":2023,"keyword":"Generative","count":1},{"year":2023,"keyword":"Lower Bound","count":1},{"year":2023,"keyword":"Graph","count":1}]}
+{
+  "id": "ec380ea8-e3f7-4cdc-863a-4bb88d891d4e",
+  "slug": "ccc",
+  "nameEn": "Computational Complexity Conference",
+  "nameKr": null,
+  "acronym": "CCC",
+  "field": "Theory",
+  "subField": "Complexity Theory",
+  "dblpKey": "conf/coco",
+  "websiteUrl": null,
+  "description": null,
+  "nextDeadline": "2026-02-06T23:59:00Z",
+  "daysUntilDeadline": -49,
+  "deadlineTimezone": "AoE",
+  "venue": "Lisbon, Portugal",
+  "conferenceStart": "2026-08-03",
+  "conferenceEnd": "2026-08-06",
+  "institutionRatings": [
+    {
+      "institution": "BK21",
+      "tier": "2"
+    },
+    {
+      "institution": "KIISE",
+      "tier": "우수"
+    },
+    {
+      "institution": "CORE",
+      "tier": "A"
+    },
+    {
+      "institution": "CCF",
+      "tier": "B"
+    },
+    {
+      "institution": "CSRankings",
+      "tier": null
+    },
+    {
+      "institution": "KAIST",
+      "tier": "우수"
+    },
+    {
+      "institution": "SNU",
+      "tier": null
+    },
+    {
+      "institution": "POSTECH",
+      "tier": null
+    }
+  ],
+  "deadlines": [
+    {
+      "year": 2026,
+      "cycle": "main",
+      "abstractDeadline": null,
+      "paperDeadline": "2026-02-06T23:59:00Z",
+      "notificationDate": "2026-05-01T00:00:00Z",
+      "conferenceStart": "2026-08-03",
+      "conferenceEnd": "2026-08-06",
+      "venue": "Lisbon, Portugal",
+      "timezone": "AoE"
+    }
+  ],
+  "bestPapers": [
+    {
+      "year": 2024,
+      "paperTitle": "Low-Depth Algebraic Circuit Lower Bounds over Any Field",
+      "authors": "Forbes",
+      "awardType": "best_paper",
+      "tags": [
+        "Circuit Complexity",
+        "Algebraic"
+      ],
+      "paperUrl": "https://doi.org/10.4230/LIPIcs.CCC.2024.31"
+    },
+    {
+      "year": 2025,
+      "paperTitle": "Quantum Threshold Is Powerful",
+      "authors": "Grier & Morris",
+      "awardType": "best_paper",
+      "tags": [
+        "Quantum Circuits",
+        "Complexity"
+      ],
+      "paperUrl": "https://arxiv.org/abs/2411.04953"
+    }
+  ],
+  "acceptanceRates": [],
+  "keywordTrends": [
+    {
+      "year": 2020,
+      "keyword": "Convergence",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Generative",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "LoRA",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Point Cloud",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Knowledge Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Efficient",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Safety",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Gradient Descent",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Quantization",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Embedding",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Privacy",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Few-Shot",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Differential Privacy",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Image Generation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Multi-Agent",
+      "count": 33
+    },
+    {
+      "year": 2021,
+      "keyword": "Agent",
+      "count": 35
+    },
+    {
+      "year": 2021,
+      "keyword": "Knowledge Graph",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Safety",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Text Classification",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Attention",
+      "count": 6
+    },
+    {
+      "year": 2021,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Autonomous",
+      "count": 13
+    },
+    {
+      "year": 2021,
+      "keyword": "Reinforcement Learning",
+      "count": 22
+    },
+    {
+      "year": 2021,
+      "keyword": "Gradient Descent",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Sparse",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Semantic Segmentation",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Segmentation",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "keyword": "Adversarial",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Generative",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Diffusion Model",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Diffusion",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Instance Segmentation",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "3D",
+      "count": 7
+    },
+    {
+      "year": 2021,
+      "keyword": "Point Cloud",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Object Detection",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Super-Resolution",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Transfer Learning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Bias",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Autoregressive",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Convergence",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Quantization",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "GCN",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Privacy",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "LoRA",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Depth Estimation",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Multi-Agent",
+      "count": 57
+    },
+    {
+      "year": 2022,
+      "keyword": "Graph",
+      "count": 14
+    },
+    {
+      "year": 2022,
+      "keyword": "Agent",
+      "count": 61
+    },
+    {
+      "year": 2022,
+      "keyword": "Autonomous",
+      "count": 20
+    },
+    {
+      "year": 2022,
+      "keyword": "Segmentation",
+      "count": 11
+    },
+    {
+      "year": 2022,
+      "keyword": "Attention",
+      "count": 18
+    },
+    {
+      "year": 2022,
+      "keyword": "Reinforcement Learning",
+      "count": 22
+    },
+    {
+      "year": 2022,
+      "keyword": "Named Entity Recognition",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Object Detection",
+      "count": 12
+    },
+    {
+      "year": 2022,
+      "keyword": "Super-Resolution",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Adversarial",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Transformer",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Knowledge Graph",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Point Cloud",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "3D",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Few-Shot",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Optimization",
+      "count": 39
+    },
+    {
+      "year": 2022,
+      "keyword": "Federated Learning",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Safety",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "keyword": "Quantization",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Data Augmentation",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Privacy",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Diffusion",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "keyword": "Representation Learning",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Semantic Segmentation",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Text Classification",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "BERT",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "LoRA",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Multimodal",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Convergence",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "keyword": "GAN",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Gradient Descent",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Depth Estimation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Diffusion Model",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Instance Segmentation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Attention",
+      "count": 21
+    },
+    {
+      "year": 2023,
+      "keyword": "Multi-Agent",
+      "count": 45
+    },
+    {
+      "year": 2023,
+      "keyword": "Agent",
+      "count": 47
+    },
+    {
+      "year": 2023,
+      "keyword": "Adversarial",
+      "count": 8
+    },
+    {
+      "year": 2023,
+      "keyword": "Robustness",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Autonomous",
+      "count": 24
+    },
+    {
+      "year": 2023,
+      "keyword": "Object Detection",
+      "count": 15
+    },
+    {
+      "year": 2023,
+      "keyword": "Transfer Learning",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Knowledge Graph",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "3D",
+      "count": 16
+    },
+    {
+      "year": 2023,
+      "keyword": "Transformer",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Reinforcement Learning",
+      "count": 26
+    },
+    {
+      "year": 2023,
+      "keyword": "Safety",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "GAN",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "keyword": "Convergence",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Sentiment Analysis",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Semantic Segmentation",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Segmentation",
+      "count": 11
+    },
+    {
+      "year": 2023,
+      "keyword": "Privacy",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Efficient",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Point Cloud",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Self-Attention",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Diffusion",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "keyword": "Gradient Descent",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Super-Resolution",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Few-Shot",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Sparse",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Multimodal",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Compression",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Continual Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Meta-Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Policy Optimization",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph Neural Network",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "keyword": "Bias",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Knowledge Distillation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Federated Learning",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Image Restoration",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Privacy",
+      "count": 7
+    },
+    {
+      "year": 2024,
+      "keyword": "Attention",
+      "count": 15
+    },
+    {
+      "year": 2024,
+      "keyword": "Segmentation",
+      "count": 20
+    },
+    {
+      "year": 2024,
+      "keyword": "Transformer",
+      "count": 15
+    },
+    {
+      "year": 2024,
+      "keyword": "Semantic Segmentation",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Autonomous",
+      "count": 18
+    },
+    {
+      "year": 2024,
+      "keyword": "Optimization",
+      "count": 54
+    },
+    {
+      "year": 2024,
+      "keyword": "Safety",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Reinforcement Learning",
+      "count": 34
+    },
+    {
+      "year": 2024,
+      "keyword": "Multi-Agent",
+      "count": 43
+    },
+    {
+      "year": 2024,
+      "keyword": "Agent",
+      "count": 47
+    },
+    {
+      "year": 2024,
+      "keyword": "Generative",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "3D",
+      "count": 17
+    },
+    {
+      "year": 2024,
+      "keyword": "Object Detection",
+      "count": 13
+    },
+    {
+      "year": 2024,
+      "keyword": "Graph",
+      "count": 11
+    },
+    {
+      "year": 2024,
+      "keyword": "Alignment",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Sparse",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Gradient Descent",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Differential Privacy",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Convergence",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "keyword": "Federated Learning",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Compression",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Self-Supervised",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Depth Estimation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pruning",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Knowledge Distillation",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "keyword": "Contrastive Learning",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Robustness",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Instance Segmentation",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "GAN",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Multimodal",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Point Cloud",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Few-Shot",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Summarization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Transfer Learning",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "Diffusion",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "keyword": "Super-Resolution",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "GCN",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Embedding",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Message Passing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Pre-Training",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Named Entity Recognition",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "BERT",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Policy Optimization",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "RL",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Diffusion Model",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "keyword": "LLM",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Data Augmentation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Agent",
+      "count": 50
+    },
+    {
+      "year": 2025,
+      "keyword": "Optimization",
+      "count": 58
+    },
+    {
+      "year": 2025,
+      "keyword": "Federated Learning",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Multi-Agent",
+      "count": 47
+    },
+    {
+      "year": 2025,
+      "keyword": "Multimodal",
+      "count": 8
+    },
+    {
+      "year": 2025,
+      "keyword": "RAG",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Segmentation",
+      "count": 17
+    },
+    {
+      "year": 2025,
+      "keyword": "Attention",
+      "count": 27
+    },
+    {
+      "year": 2025,
+      "keyword": "Reinforcement Learning",
+      "count": 37
+    },
+    {
+      "year": 2025,
+      "keyword": "Object Detection",
+      "count": 13
+    },
+    {
+      "year": 2025,
+      "keyword": "3D",
+      "count": 15
+    },
+    {
+      "year": 2025,
+      "keyword": "Knowledge Distillation",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Adversarial",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Generative",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Large Language Model",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Language Model",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Continual Learning",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Prompt",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Transformer",
+      "count": 10
+    },
+    {
+      "year": 2025,
+      "keyword": "Diffusion",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "keyword": "Safety",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Compression",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Self-Attention",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Embedding",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Autonomous",
+      "count": 23
+    },
+    {
+      "year": 2025,
+      "keyword": "GAN",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Fairness",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "CLIP",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Depth Estimation",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Self-Supervised",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Efficient",
+      "count": 9
+    },
+    {
+      "year": 2025,
+      "keyword": "Point Cloud",
+      "count": 5
+    },
+    {
+      "year": 2025,
+      "keyword": "Convergence",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Low-Rank",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Sparse",
+      "count": 9
+    },
+    {
+      "year": 2025,
+      "keyword": "Alignment",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Super-Resolution",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Gradient Descent",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "LLM",
+      "count": 4
+    },
+    {
+      "year": 2025,
+      "keyword": "Transfer Learning",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Robustness",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Privacy",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Domain Adaptation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Text-to-Image",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Zero-Shot",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Dataset",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph Neural Network",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Contrastive Learning",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Vision Transformer",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Knowledge Graph",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "keyword": "Fine-Tuning",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "LoRA",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "BERT",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Semantic Segmentation",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Image Generation",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Diffusion Model",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Question Answering",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "VAE",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "NeRF",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Benchmark",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Message Passing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "3D Gaussian",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Policy Optimization",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Quantization",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Multi-Agent",
+      "count": 34
+    },
+    {
+      "year": 2020,
+      "keyword": "Agent",
+      "count": 34
+    },
+    {
+      "year": 2020,
+      "keyword": "Data Augmentation",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Adversarial",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Object Detection",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Attention",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "keyword": "Bias",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Optimization",
+      "count": 46
+    },
+    {
+      "year": 2020,
+      "keyword": "3D",
+      "count": 11
+    },
+    {
+      "year": 2020,
+      "keyword": "Reinforcement Learning",
+      "count": 11
+    },
+    {
+      "year": 2020,
+      "keyword": "Segmentation",
+      "count": 10
+    },
+    {
+      "year": 2020,
+      "keyword": "Compression",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Transfer Learning",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "keyword": "Autonomous",
+      "count": 17
+    },
+    {
+      "year": 2020,
+      "keyword": "Transformer",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Sentiment Analysis",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Super-Resolution",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "keyword": "Dataset",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "GCN",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Complexity",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Zero-Knowledge",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Adversarial",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "keyword": "Upper Bound",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Encryption",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Complexity",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "keyword": "Testing",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Signature",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Reconstruction",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Lower Bound",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "keyword": "Complexity",
+      "count": 6
+    },
+    {
+      "year": 2020,
+      "keyword": "Lower Bound",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "keyword": "Lower Bound",
+      "count": 4
+    },
+    {
+      "year": 2021,
+      "keyword": "Complexity",
+      "count": 10
+    },
+    {
+      "year": 2021,
+      "keyword": "Testing",
+      "count": 3
+    },
+    {
+      "year": 2021,
+      "keyword": "Efficient",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Graph",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "keyword": "Reconstruction",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Efficient",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "keyword": "Hash",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Kernel",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Complexity",
+      "count": 6
+    },
+    {
+      "year": 2022,
+      "keyword": "Sparse",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Lower Bound",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "keyword": "Parameterized",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Complexity",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "keyword": "Optimization",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Simulation",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Generative",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Lower Bound",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "keyword": "Graph",
+      "count": 1
+    }
+  ],
+  "descriptionKo": "CCC은 이론 컴퓨터과학 분야(Complexity Theory)의 주요 국제 학회입니다. 주요 연구 키워드: Optimization, Agent, Multi-Agent, Reinforcement Learning, Attention. 매년 8월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "CCC is a leading international conference in Theoretical Computer Science (Complexity Theory). Top research topics: Optimization, Agent, Multi-Agent, Reinforcement Learning, Attention. Typically held in August. CCF rank B, CORE A."
+}
