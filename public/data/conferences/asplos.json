@@ -341,10 +341,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 160,
+      "submitted": 912,
+      "rate": 17.5
+    },
+    {
       "year": 2024,
-      "accepted": 105,
-      "submitted": 522,
-      "rate": 20.1
+      "accepted": 193,
+      "submitted": 922,
+      "rate": 20.9
     },
     {
       "year": 2023,
@@ -2342,6 +2348,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ASPLOS은 컴퓨터 구조 분야(Architecture & Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 20.1% (2024년, 105/522편)입니다. 주요 연구 키워드: Efficient, LLM, GPU, Homomorphic, Encryption. 매년 3월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "ASPLOS is a leading international conference in Computer Architecture (Architecture & Systems). Recent acceptance rate: 20.1% (2024, 105/522 papers). Top research topics: Efficient, LLM, GPU, Homomorphic, Encryption. Typically held in March. CCF rank A, CORE A*."
+  "descriptionKo": "ASPLOS은 컴퓨터 구조 분야(Architecture & Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 17.5% (2025년, 160/912편)입니다. 주요 연구 키워드: Efficient, LLM, GPU, Homomorphic, Encryption. 매년 3월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "ASPLOS is a leading international conference in Computer Architecture (Architecture & Systems). Recent acceptance rate: 17.5% (2025, 160/912 papers). Top research topics: Efficient, LLM, GPU, Homomorphic, Encryption. Typically held in March. CCF rank A, CORE A*."
 }

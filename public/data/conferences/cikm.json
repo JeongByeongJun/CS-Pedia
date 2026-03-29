@@ -141,7 +141,14 @@
       "paperUrl": "https://arxiv.org/abs/2008.07939"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 347,
+      "submitted": 1496,
+      "rate": 23.2
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -3169,6 +3176,6 @@
       "count": 4
     }
   ],
-  "descriptionKo": "CIKM은 데이터베이스 분야(Information Management)의 주요 국제 학회입니다. 주요 연구 키워드: Graph, LLM, Efficient, Multimodal, Dataset. 매년 11월 개최. CCF B등급, CORE A, BK21 3점.",
-  "descriptionEn": "CIKM is a leading international conference in Databases (Information Management). Top research topics: Graph, LLM, Efficient, Multimodal, Dataset. Typically held in November. CCF rank B, CORE A."
+  "descriptionKo": "CIKM은 데이터베이스 분야(Information Management)의 주요 국제 학회입니다. 최근 acceptance rate는 23.2% (2024년, 347/1496편)입니다. 주요 연구 키워드: Graph, LLM, Efficient, Multimodal, Dataset. 매년 11월 개최. CCF B등급, CORE A, BK21 3점.",
+  "descriptionEn": "CIKM is a leading international conference in Databases (Information Management). Recent acceptance rate: 23.2% (2024, 347/1496 papers). Top research topics: Graph, LLM, Efficient, Multimodal, Dataset. Typically held in November. CCF rank B, CORE A."
 }

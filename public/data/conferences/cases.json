@@ -86,7 +86,14 @@
       "paperUrl": "https://doi.org/10.1145/3762154"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 29,
+      "submitted": 103,
+      "rate": 28.2
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -439,6 +446,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "CASES은 컴퓨터 구조 분야(Embedded Systems)의 주요 국제 학회입니다. 주요 연구 키워드: Optimization, Simulation, Transformer, Attention, Efficient. 매년 10월 개최. CCF C등급, BK21 2점.",
-  "descriptionEn": "CASES is a leading international conference in Computer Architecture (Embedded Systems). Top research topics: Optimization, Simulation, Transformer, Attention, Efficient. Typically held in October. CCF rank C."
+  "descriptionKo": "CASES은 컴퓨터 구조 분야(Embedded Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 28.2% (2024년, 29/103편)입니다. 주요 연구 키워드: Optimization, Simulation, Transformer, Attention, Efficient. 매년 10월 개최. CCF C등급, BK21 2점.",
+  "descriptionEn": "CASES is a leading international conference in Computer Architecture (Embedded Systems). Recent acceptance rate: 28.2% (2024, 29/103 papers). Top research topics: Optimization, Simulation, Transformer, Attention, Efficient. Typically held in October. CCF rank C."
 }

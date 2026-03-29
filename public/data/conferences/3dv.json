@@ -121,6 +121,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 154,
+      "submitted": 318,
+      "rate": 48.4
+    },
+    {
       "year": 2021,
       "accepted": 152,
       "submitted": null,
@@ -1404,6 +1410,6 @@
       "count": 6
     }
   ],
-  "descriptionKo": "3DV은 컴퓨터 비전 분야(3D Vision)의 주요 국제 학회입니다. 주요 연구 키워드: 3D, Reconstruction, Diffusion, Gaussian Splatting, Rendering. 매년 3월 개최. CCF C등급.",
-  "descriptionEn": "3DV is a leading international conference in Computer Vision (3D Vision). Top research topics: 3D, Reconstruction, Diffusion, Gaussian Splatting, Rendering. Typically held in March. CCF rank C."
+  "descriptionKo": "3DV은 컴퓨터 비전 분야(3D Vision)의 주요 국제 학회입니다. 최근 acceptance rate는 48.4% (2024년, 154/318편)입니다. 주요 연구 키워드: 3D, Reconstruction, Diffusion, Gaussian Splatting, Rendering. 매년 3월 개최. CCF C등급.",
+  "descriptionEn": "3DV is a leading international conference in Computer Vision (3D Vision). Recent acceptance rate: 48.4% (2024, 154/318 papers). Top research topics: 3D, Reconstruction, Diffusion, Gaussian Splatting, Rendering. Typically held in March. CCF rank C."
 }

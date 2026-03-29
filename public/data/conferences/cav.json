@@ -85,7 +85,14 @@
       "paperUrl": "https://doi.org/10.1007/978-3-031-98685-7_9"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 69,
+      "submitted": 317,
+      "rate": 21.8
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2022,
@@ -663,6 +670,6 @@
       "count": 3
     }
   ],
-  "descriptionKo": "CAV은 이론 컴퓨터과학 분야(Formal Verification)의 주요 국제 학회입니다. 주요 연구 키워드: Model Checking, Efficient, SMT, Parameterized, Concurrency. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "CAV is a leading international conference in Theoretical Computer Science (Formal Verification). Top research topics: Model Checking, Efficient, SMT, Parameterized, Concurrency. Typically held in July. CCF rank A, CORE A*."
+  "descriptionKo": "CAV은 이론 컴퓨터과학 분야(Formal Verification)의 주요 국제 학회입니다. 최근 acceptance rate는 21.8% (2024년, 69/317편)입니다. 주요 연구 키워드: Model Checking, Efficient, SMT, Parameterized, Concurrency. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "CAV is a leading international conference in Theoretical Computer Science (Formal Verification). Recent acceptance rate: 21.8% (2024, 69/317 papers). Top research topics: Model Checking, Efficient, SMT, Parameterized, Concurrency. Typically held in July. CCF rank A, CORE A*."
 }

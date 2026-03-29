@@ -160,7 +160,14 @@
       "paperUrl": "https://doi.org/10.1145/3579990.3580024"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 48,
+      "submitted": 164,
+      "rate": 29.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -818,6 +825,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "CGO은 컴퓨터 구조 분야(Code Generation)의 주요 국제 학회입니다. 주요 연구 키워드: Compiler, Optimization, Graph, Code Generation, Sparse. 매년 1월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "CGO is a leading international conference in Computer Architecture (Code Generation). Top research topics: Compiler, Optimization, Graph, Code Generation, Sparse. Typically held in January. CCF rank B, CORE A."
+  "descriptionKo": "CGO은 컴퓨터 구조 분야(Code Generation)의 주요 국제 학회입니다. 최근 acceptance rate는 29.3% (2025년, 48/164편)입니다. 주요 연구 키워드: Compiler, Optimization, Graph, Code Generation, Sparse. 매년 1월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "CGO is a leading international conference in Computer Architecture (Code Generation). Recent acceptance rate: 29.3% (2025, 48/164 papers). Top research topics: Compiler, Optimization, Graph, Code Generation, Sparse. Typically held in January. CCF rank B, CORE A."
 }

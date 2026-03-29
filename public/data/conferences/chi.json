@@ -2107,6 +2107,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 1249,
+      "submitted": 5014,
+      "rate": 24.9
+    },
+    {
       "year": 2024,
       "accepted": 1060,
       "submitted": 3664,
@@ -4804,6 +4810,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "CHI은 인간-컴퓨터 상호작용 분야(Human-Computer Interaction)의 주요 국제 학회입니다. 최근 acceptance rate는 28.9% (2024년, 1060/3664편)입니다. 주요 연구 키워드: LLM, Generative, Virtual Reality, VR, Multimodal. 매년 4월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "CHI is a leading international conference in Human-Computer Interaction. Recent acceptance rate: 28.9% (2024, 1060/3664 papers). Top research topics: LLM, Generative, Virtual Reality, VR, Multimodal. Typically held in April. CCF rank A, CORE A*."
+  "descriptionKo": "CHI은 인간-컴퓨터 상호작용 분야(Human-Computer Interaction)의 주요 국제 학회입니다. 최근 acceptance rate는 24.9% (2025년, 1249/5014편)입니다. 주요 연구 키워드: LLM, Generative, Virtual Reality, VR, Multimodal. 매년 4월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "CHI is a leading international conference in Human-Computer Interaction. Recent acceptance rate: 24.9% (2025, 1249/5014 papers). Top research topics: LLM, Generative, Virtual Reality, VR, Multimodal. Typically held in April. CCF rank A, CORE A*."
 }

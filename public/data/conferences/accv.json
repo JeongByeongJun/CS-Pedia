@@ -86,7 +86,14 @@
       "paperUrl": "http://arxiv.org/abs/2410.11702v1"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 270,
+      "submitted": 839,
+      "rate": 32.2
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1309,6 +1316,6 @@
       "count": 3
     }
   ],
-  "descriptionKo": "ACCV은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 주요 연구 키워드: Representation Learning. 매년 12월 개최. CCF C등급, CORE B, BK21 1점.",
-  "descriptionEn": "ACCV is a leading international conference in Computer Vision. Top research topics: Representation Learning. Typically held in December. CCF rank C, CORE B."
+  "descriptionKo": "ACCV은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 최근 acceptance rate는 32.2% (2024년, 270/839편)입니다. 주요 연구 키워드: Representation Learning. 매년 12월 개최. CCF C등급, CORE B, BK21 1점.",
+  "descriptionEn": "ACCV is a leading international conference in Computer Vision. Recent acceptance rate: 32.2% (2024, 270/839 papers). Top research topics: Representation Learning. Typically held in December. CCF rank C, CORE B."
 }

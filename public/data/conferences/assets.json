@@ -114,7 +114,14 @@
       "paperUrl": "https://doi.org/10.1145/3597638.3608422"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 83,
+      "submitted": 279,
+      "rate": 29.7
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -787,6 +794,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ASSETS은 인간-컴퓨터 상호작용 분야(Accessibility)의 주요 국제 학회입니다. 주요 연구 키워드: Accessibility, Generative, Multimodal, VR, LLM. 매년 10월 개최. CCF C등급, CORE A.",
-  "descriptionEn": "ASSETS is a leading international conference in Human-Computer Interaction (Accessibility). Top research topics: Accessibility, Generative, Multimodal, VR, LLM. Typically held in October. CCF rank C, CORE A."
+  "descriptionKo": "ASSETS은 인간-컴퓨터 상호작용 분야(Accessibility)의 주요 국제 학회입니다. 최근 acceptance rate는 29.7% (2025년, 83/279편)입니다. 주요 연구 키워드: Accessibility, Generative, Multimodal, VR, LLM. 매년 10월 개최. CCF C등급, CORE A.",
+  "descriptionEn": "ASSETS is a leading international conference in Human-Computer Interaction (Accessibility). Recent acceptance rate: 29.7% (2025, 83/279 papers). Top research topics: Accessibility, Generative, Multimodal, VR, LLM. Typically held in October. CCF rank C, CORE A."
 }

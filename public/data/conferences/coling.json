@@ -87,10 +87,10 @@
   ],
   "acceptanceRates": [
     {
-      "year": 2024,
-      "accepted": 685,
-      "submitted": 3104,
-      "rate": 22.1
+      "year": 2025,
+      "accepted": 853,
+      "submitted": 2723,
+      "rate": 31.3
     },
     {
       "year": 2022,
@@ -2013,6 +2013,6 @@
       "count": 7
     }
   ],
-  "descriptionKo": "COLING은 자연어 처리 분야(Computational Linguistics)의 주요 국제 학회입니다. 최근 acceptance rate는 22.1% (2024년, 685/3104편)입니다. 주요 연구 키워드: LLM, Dataset, Graph, Question Answering, Efficient. CCF B등급, CORE B, BK21 2점.",
-  "descriptionEn": "COLING is a leading international conference in Natural Language Processing (Computational Linguistics). Recent acceptance rate: 22.1% (2024, 685/3104 papers). Top research topics: LLM, Dataset, Graph, Question Answering, Efficient. CCF rank B, CORE B."
+  "descriptionKo": "COLING은 자연어 처리 분야(Computational Linguistics)의 주요 국제 학회입니다. 최근 acceptance rate는 31.3% (2025년, 853/2723편)입니다. 주요 연구 키워드: LLM, Dataset, Graph, Question Answering, Efficient. CCF B등급, CORE B, BK21 2점.",
+  "descriptionEn": "COLING is a leading international conference in Natural Language Processing (Computational Linguistics). Recent acceptance rate: 31.3% (2025, 853/2723 papers). Top research topics: LLM, Dataset, Graph, Question Answering, Efficient. CCF rank B, CORE B."
 }

@@ -313,9 +313,9 @@
   "acceptanceRates": [
     {
       "year": 2024,
-      "accepted": 249,
-      "submitted": 1280,
-      "rate": 19.5
+      "accepted": 328,
+      "submitted": 1964,
+      "rate": 16.7
     },
     {
       "year": 2023,
@@ -2734,6 +2734,6 @@
       "count": 5
     }
   ],
-  "descriptionKo": "CCS은 보안 분야(Security)의 주요 국제 학회입니다. 최근 acceptance rate는 19.5% (2024년, 249/1280편)입니다. 주요 연구 키워드: Privacy, Efficient, Adversarial, Vulnerability, Differential Privacy. 매년 11월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "CCS is a leading international conference in Security. Recent acceptance rate: 19.5% (2024, 249/1280 papers). Top research topics: Privacy, Efficient, Adversarial, Vulnerability, Differential Privacy. Typically held in November. CCF rank A, CORE A*."
+  "descriptionKo": "CCS은 보안 분야(Security)의 주요 국제 학회입니다. 최근 acceptance rate는 16.7% (2024년, 328/1964편)입니다. 주요 연구 키워드: Privacy, Efficient, Adversarial, Vulnerability, Differential Privacy. 매년 11월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "CCS is a leading international conference in Security. Recent acceptance rate: 16.7% (2024, 328/1964 papers). Top research topics: Privacy, Efficient, Adversarial, Vulnerability, Differential Privacy. Typically held in November. CCF rank A, CORE A*."
 }

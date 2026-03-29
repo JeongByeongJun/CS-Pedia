@@ -149,7 +149,14 @@
       "paperUrl": "http://arxiv.org/abs/2411.00119v4"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 229,
+      "submitted": 883,
+      "rate": 25.9
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -1102,6 +1109,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "AAMAS은 AI/ML 분야(Multi-Agent Systems)의 주요 국제 학회입니다. 주요 연구 키워드: Agent, Multi-Agent, Reinforcement Learning, Efficient, LLM. 매년 5월 개최. CCF B등급, CORE A*, BK21 2점.",
-  "descriptionEn": "AAMAS is a leading international conference in AI/ML (Multi-Agent Systems). Top research topics: Agent, Multi-Agent, Reinforcement Learning, Efficient, LLM. Typically held in May. CCF rank B, CORE A*."
+  "descriptionKo": "AAMAS은 AI/ML 분야(Multi-Agent Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 25.9% (2024년, 229/883편)입니다. 주요 연구 키워드: Agent, Multi-Agent, Reinforcement Learning, Efficient, LLM. 매년 5월 개최. CCF B등급, CORE A*, BK21 2점.",
+  "descriptionEn": "AAMAS is a leading international conference in AI/ML (Multi-Agent Systems). Recent acceptance rate: 25.9% (2024, 229/883 papers). Top research topics: Agent, Multi-Agent, Reinforcement Learning, Efficient, LLM. Typically held in May. CCF rank B, CORE A*."
 }

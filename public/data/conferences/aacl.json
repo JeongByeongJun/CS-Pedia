@@ -105,7 +105,14 @@
       "paperUrl": "http://arxiv.org/abs/2208.00318v2"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2023,
+      "accepted": 75,
+      "submitted": 363,
+      "rate": 20.7
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -588,6 +595,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "AACL은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 주요 연구 키워드: Dataset, Machine Translation, Summarization, Adversarial, Graph. 매년 12월 개최.",
-  "descriptionEn": "AACL is a leading international conference in Natural Language Processing. Top research topics: Dataset, Machine Translation, Summarization, Adversarial, Graph. Typically held in December."
+  "descriptionKo": "AACL은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 최근 acceptance rate는 20.7% (2023년, 75/363편)입니다. 주요 연구 키워드: Dataset, Machine Translation, Summarization, Adversarial, Graph. 매년 12월 개최.",
+  "descriptionEn": "AACL is a leading international conference in Natural Language Processing. Recent acceptance rate: 20.7% (2023, 75/363 papers). Top research topics: Dataset, Machine Translation, Summarization, Adversarial, Graph. Typically held in December."
 }

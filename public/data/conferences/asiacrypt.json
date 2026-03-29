@@ -106,7 +106,14 @@
       "paperUrl": "https://doi.org/10.1007/978-981-96-0941-3_8"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 143,
+      "submitted": 533,
+      "rate": 26.8
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -684,6 +691,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ASIACRYPT은 보안 분야(Cryptography)의 주요 국제 학회입니다. 주요 연구 키워드: Encryption, Lattice, Homomorphic, Efficient, Post-Quantum. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ASIACRYPT is a leading international conference in Security (Cryptography). Top research topics: Encryption, Lattice, Homomorphic, Efficient, Post-Quantum. CCF rank B, CORE A."
+  "descriptionKo": "ASIACRYPT은 보안 분야(Cryptography)의 주요 국제 학회입니다. 최근 acceptance rate는 26.8% (2025년, 143/533편)입니다. 주요 연구 키워드: Encryption, Lattice, Homomorphic, Efficient, Post-Quantum. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ASIACRYPT is a leading international conference in Security (Cryptography). Recent acceptance rate: 26.8% (2025, 143/533 papers). Top research topics: Encryption, Lattice, Homomorphic, Efficient, Post-Quantum. CCF rank B, CORE A."
 }

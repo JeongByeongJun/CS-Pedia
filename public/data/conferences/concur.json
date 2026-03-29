@@ -77,6 +77,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 37,
+      "submitted": 80,
+      "rate": 46.3
+    },
+    {
       "year": 2020,
       "accepted": 1,
       "submitted": null,
@@ -320,6 +326,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "CONCUR은 이론 컴퓨터과학 분야(Concurrency Theory)의 주요 국제 학회입니다. 주요 연구 키워드: Concurrency, Abstract Interpretation, Model Checking, Testing, Parameterized. 매년 9월 개최. CCF B등급, CORE A, BK21 1점.",
-  "descriptionEn": "CONCUR is a leading international conference in Theoretical Computer Science (Concurrency Theory). Top research topics: Concurrency, Abstract Interpretation, Model Checking, Testing, Parameterized. Typically held in September. CCF rank B, CORE A."
+  "descriptionKo": "CONCUR은 이론 컴퓨터과학 분야(Concurrency Theory)의 주요 국제 학회입니다. 최근 acceptance rate는 46.3% (2024년, 37/80편)입니다. 주요 연구 키워드: Concurrency, Abstract Interpretation, Model Checking, Testing, Parameterized. 매년 9월 개최. CCF B등급, CORE A, BK21 1점.",
+  "descriptionEn": "CONCUR is a leading international conference in Theoretical Computer Science (Concurrency Theory). Recent acceptance rate: 46.3% (2024, 37/80 papers). Top research topics: Concurrency, Abstract Interpretation, Model Checking, Testing, Parameterized. Typically held in September. CCF rank B, CORE A."
 }

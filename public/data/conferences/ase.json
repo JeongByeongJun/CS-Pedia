@@ -1120,10 +1120,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 246,
+      "submitted": 1181,
+      "rate": 20.8
+    },
+    {
       "year": 2024,
-      "accepted": 115,
-      "submitted": 620,
-      "rate": 18.5
+      "accepted": 155,
+      "submitted": 587,
+      "rate": 26.4
     },
     {
       "year": 2023,
@@ -3261,6 +3267,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ASE은 소프트웨어 공학 분야(Automated SE)의 주요 국제 학회입니다. 최근 acceptance rate는 18.5% (2024년, 115/620편)입니다. 주요 연구 키워드: LLM, Testing, Fuzzing, Agent, Code Generation. 매년 10월 개최. CCF A등급, CORE A*, BK21 3점.",
-  "descriptionEn": "ASE is a leading international conference in Software Engineering (Automated SE). Recent acceptance rate: 18.5% (2024, 115/620 papers). Top research topics: LLM, Testing, Fuzzing, Agent, Code Generation. Typically held in October. CCF rank A, CORE A*."
+  "descriptionKo": "ASE은 소프트웨어 공학 분야(Automated SE)의 주요 국제 학회입니다. 최근 acceptance rate는 20.8% (2025년, 246/1181편)입니다. 주요 연구 키워드: LLM, Testing, Fuzzing, Agent, Code Generation. 매년 10월 개최. CCF A등급, CORE A*, BK21 3점.",
+  "descriptionEn": "ASE is a leading international conference in Software Engineering (Automated SE). Recent acceptance rate: 20.8% (2025, 246/1181 papers). Top research topics: LLM, Testing, Fuzzing, Agent, Code Generation. Typically held in October. CCF rank A, CORE A*."
 }

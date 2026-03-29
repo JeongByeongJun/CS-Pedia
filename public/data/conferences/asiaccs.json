@@ -77,6 +77,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 114,
+      "submitted": 558,
+      "rate": 20.4
+    },
+    {
       "year": 2022,
       "accepted": 112,
       "submitted": null,
@@ -1440,6 +1446,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "ASIACCS은 보안 분야(Systems Security)의 주요 국제 학회입니다. 주요 연구 키워드: Privacy, Efficient, Graph, Adversarial, Side-Channel. 매년 6월 개최. CCF C등급, CORE A, BK21 1점.",
-  "descriptionEn": "ASIACCS is a leading international conference in Security (Systems Security). Top research topics: Privacy, Efficient, Graph, Adversarial, Side-Channel. Typically held in June. CCF rank C, CORE A."
+  "descriptionKo": "ASIACCS은 보안 분야(Systems Security)의 주요 국제 학회입니다. 최근 acceptance rate는 20.4% (2025년, 114/558편)입니다. 주요 연구 키워드: Privacy, Efficient, Graph, Adversarial, Side-Channel. 매년 6월 개최. CCF C등급, CORE A, BK21 1점.",
+  "descriptionEn": "ASIACCS is a leading international conference in Security (Systems Security). Recent acceptance rate: 20.4% (2025, 114/558 papers). Top research topics: Privacy, Efficient, Graph, Adversarial, Side-Channel. Typically held in June. CCF rank C, CORE A."
 }

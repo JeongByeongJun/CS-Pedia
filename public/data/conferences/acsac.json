@@ -187,6 +187,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 84,
+      "submitted": 406,
+      "rate": 20.7
+    },
+    {
       "year": 2023,
       "accepted": 59,
       "submitted": null,
@@ -1352,6 +1358,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ACSAC은 보안 분야(Security Applications)의 주요 국제 학회입니다. 주요 연구 키워드: Fuzzing, Privacy, LLM, Graph, Embedded. 매년 12월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ACSAC is a leading international conference in Security (Security Applications). Top research topics: Fuzzing, Privacy, LLM, Graph, Embedded. Typically held in December. CCF rank B, CORE A."
+  "descriptionKo": "ACSAC은 보안 분야(Security Applications)의 주요 국제 학회입니다. 최근 acceptance rate는 20.7% (2025년, 84/406편)입니다. 주요 연구 키워드: Fuzzing, Privacy, LLM, Graph, Embedded. 매년 12월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ACSAC is a leading international conference in Security (Security Applications). Recent acceptance rate: 20.7% (2025, 84/406 papers). Top research topics: Fuzzing, Privacy, LLM, Graph, Embedded. Typically held in December. CCF rank B, CORE A."
 }

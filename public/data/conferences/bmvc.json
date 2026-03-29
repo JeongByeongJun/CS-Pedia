@@ -88,6 +88,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 264,
+      "submitted": 1020,
+      "rate": 25.9
+    },
+    {
       "year": 2022,
       "accepted": 1,
       "submitted": null,
@@ -1902,6 +1908,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "BMVC은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 주요 연구 키워드: 3D, Diffusion, Self-Supervised, Segmentation, Attention. 매년 11월 개최. CCF C등급, CORE A.",
-  "descriptionEn": "BMVC is a leading international conference in Computer Vision. Top research topics: 3D, Diffusion, Self-Supervised, Segmentation, Attention. Typically held in November. CCF rank C, CORE A."
+  "descriptionKo": "BMVC은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 최근 acceptance rate는 25.9% (2024년, 264/1020편)입니다. 주요 연구 키워드: 3D, Diffusion, Self-Supervised, Segmentation, Attention. 매년 11월 개최. CCF C등급, CORE A.",
+  "descriptionEn": "BMVC is a leading international conference in Computer Vision. Recent acceptance rate: 25.9% (2024, 264/1020 papers). Top research topics: 3D, Diffusion, Self-Supervised, Segmentation, Attention. Typically held in November. CCF rank C, CORE A."
 }

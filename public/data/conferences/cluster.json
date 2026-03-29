@@ -75,7 +75,14 @@
       "paperUrl": "https://doi.org/10.1109/CLUSTER59578.2024.00008"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 39,
+      "submitted": 138,
+      "rate": 28.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1028,6 +1035,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "CLUSTER은 시스템 분야(Cluster Computing)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, GPU, Storage, Distributed, Scheduling. 매년 9월 개최. CCF B등급, CORE B, BK21 1점.",
-  "descriptionEn": "CLUSTER is a leading international conference in Systems (Cluster Computing). Top research topics: Efficient, GPU, Storage, Distributed, Scheduling. Typically held in September. CCF rank B, CORE B."
+  "descriptionKo": "CLUSTER은 시스템 분야(Cluster Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 28.3% (2024년, 39/138편)입니다. 주요 연구 키워드: Efficient, GPU, Storage, Distributed, Scheduling. 매년 9월 개최. CCF B등급, CORE B, BK21 1점.",
+  "descriptionEn": "CLUSTER is a leading international conference in Systems (Cluster Computing). Recent acceptance rate: 28.3% (2024, 39/138 papers). Top research topics: Efficient, GPU, Storage, Distributed, Scheduling. Typically held in September. CCF rank B, CORE B."
 }

@@ -150,6 +150,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 160,
+      "submitted": 448,
+      "rate": 35.7
+    },
+    {
       "year": 2021,
       "accepted": 52,
       "submitted": null,
@@ -1004,6 +1010,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "COLT은 AI/ML 분야(Learning Theory)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Optimization, Convex, Efficient, Testing. 매년 6월 개최. CCF B등급, CORE A*, BK21 3점.",
-  "descriptionEn": "COLT is a leading international conference in AI/ML (Learning Theory). Top research topics: Complexity, Optimization, Convex, Efficient, Testing. Typically held in June. CCF rank B, CORE A*."
+  "descriptionKo": "COLT은 AI/ML 분야(Learning Theory)의 주요 국제 학회입니다. 최근 acceptance rate는 35.7% (2024년, 160/448편)입니다. 주요 연구 키워드: Complexity, Optimization, Convex, Efficient, Testing. 매년 6월 개최. CCF B등급, CORE A*, BK21 3점.",
+  "descriptionEn": "COLT is a leading international conference in AI/ML (Learning Theory). Recent acceptance rate: 35.7% (2024, 160/448 papers). Top research topics: Complexity, Optimization, Convex, Efficient, Testing. Typically held in June. CCF rank B, CORE A*."
 }
