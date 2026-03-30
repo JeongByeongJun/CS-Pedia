@@ -63,8 +63,15 @@
     }
   ],
   "bestPapers": [],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 38,
+      "submitted": 149,
+      "rate": 25.5
+    }
+  ],
   "keywordTrends": [],
-  "descriptionKo": "SECON은 네트워크 분야(Sensor Networks)의 주요 국제 학회입니다. 매년 6월 개최. CCF B등급, CORE B, BK21 1점.",
-  "descriptionEn": "SECON is a leading international conference in Networks (Sensor Networks). Typically held in June. CCF rank B, CORE B."
+  "descriptionKo": "SECON은 네트워크 분야(Sensor Networks)의 주요 국제 학회입니다. 최근 acceptance rate는 25.5% (2024년, 38/149편)입니다. 매년 6월 개최. CCF B등급, CORE B, BK21 1점.",
+  "descriptionEn": "SECON is a leading international conference in Networks (Sensor Networks). Recent acceptance rate: 25.5% (2024, 38/149 papers). Typically held in June. CCF rank B, CORE B."
 }

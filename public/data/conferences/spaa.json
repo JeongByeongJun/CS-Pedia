@@ -75,7 +75,14 @@
       "paperUrl": "https://dl.acm.org/doi/10.1145/3626183.3659941"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 35,
+      "submitted": 117,
+      "rate": 29.9
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -548,6 +555,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SPAA은 이론 컴퓨터과학 분야(Parallel Algorithms)의 주요 국제 학회입니다. 주요 연구 키워드: Scheduling, Distributed, GPU, Optimization, Efficient. 매년 7월 개최. CCF B등급, CORE B, BK21 3점.",
-  "descriptionEn": "SPAA is a leading international conference in Theoretical Computer Science (Parallel Algorithms). Top research topics: Scheduling, Distributed, GPU, Optimization, Efficient. Typically held in July. CCF rank B, CORE B."
+  "descriptionKo": "SPAA은 이론 컴퓨터과학 분야(Parallel Algorithms)의 주요 국제 학회입니다. 최근 acceptance rate는 29.9% (2024년, 35/117편)입니다. 주요 연구 키워드: Scheduling, Distributed, GPU, Optimization, Efficient. 매년 7월 개최. CCF B등급, CORE B, BK21 3점.",
+  "descriptionEn": "SPAA is a leading international conference in Theoretical Computer Science (Parallel Algorithms). Recent acceptance rate: 29.9% (2024, 35/117 papers). Top research topics: Scheduling, Distributed, GPU, Optimization, Efficient. Typically held in July. CCF rank B, CORE B."
 }

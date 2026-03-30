@@ -63,8 +63,15 @@
     }
   ],
   "bestPapers": [],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 72,
+      "submitted": 259,
+      "rate": 27.8
+    }
+  ],
   "keywordTrends": [],
-  "descriptionKo": "STACS은 이론 컴퓨터과학 분야(Theoretical CS)의 주요 국제 학회입니다. 매년 3월 개최. CCF C등급, CORE A, BK21 1점.",
-  "descriptionEn": "STACS is a leading international conference in Theoretical Computer Science (Theoretical CS). Typically held in March. CCF rank C, CORE A."
+  "descriptionKo": "STACS은 이론 컴퓨터과학 분야(Theoretical CS)의 주요 국제 학회입니다. 최근 acceptance rate는 27.8% (2025년, 72/259편)입니다. 매년 3월 개최. CCF C등급, CORE A, BK21 1점.",
+  "descriptionEn": "STACS is a leading international conference in Theoretical Computer Science (Theoretical CS). Recent acceptance rate: 27.8% (2025, 72/259 papers). Typically held in March. CCF rank C, CORE A."
 }

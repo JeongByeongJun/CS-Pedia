@@ -86,7 +86,14 @@
       "paperUrl": "https://doi.org/10.1007/978-3-031-90653-4_4"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 46,
+      "submitted": 148,
+      "rate": 31.1
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -379,6 +386,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "TACAS은 소프트웨어 공학 분야(Software Verification)의 주요 국제 학회입니다. 주요 연구 키워드: Model Checking, Efficient, SAT, Fairness, Safety. 매년 4월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "TACAS is a leading international conference in Software Engineering (Software Verification). Top research topics: Model Checking, Efficient, SAT, Fairness, Safety. Typically held in April. CCF rank B, CORE A."
+  "descriptionKo": "TACAS은 소프트웨어 공학 분야(Software Verification)의 주요 국제 학회입니다. 최근 acceptance rate는 31.1% (2025년, 46/148편)입니다. 주요 연구 키워드: Model Checking, Efficient, SAT, Fairness, Safety. 매년 4월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "TACAS is a leading international conference in Software Engineering (Software Verification). Recent acceptance rate: 31.1% (2025, 46/148 papers). Top research topics: Model Checking, Efficient, SAT, Fairness, Safety. Typically held in April. CCF rank B, CORE A."
 }

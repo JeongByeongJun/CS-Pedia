@@ -279,10 +279,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 100,
+      "submitted": 634,
+      "rate": 15.8
+    },
+    {
       "year": 2024,
-      "accepted": 70,
-      "submitted": 332,
-      "rate": 21.1
+      "accepted": 77,
+      "submitted": 481,
+      "rate": 16
     },
     {
       "year": 2023,
@@ -1581,6 +1587,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "USENIX ATC은 시스템 분야(Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 21.1% (2024년, 70/332편)입니다. 주요 연구 키워드: Efficient, GPU, Kernel, Cloud, Distributed. 매년 11월 개최. BK21 3점.",
-  "descriptionEn": "USENIX ATC is a leading international conference in Systems. Recent acceptance rate: 21.1% (2024, 70/332 papers). Top research topics: Efficient, GPU, Kernel, Cloud, Distributed. Typically held in November."
+  "descriptionKo": "USENIX ATC은 시스템 분야(Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 15.8% (2025년, 100/634편)입니다. 주요 연구 키워드: Efficient, GPU, Kernel, Cloud, Distributed. 매년 11월 개최. BK21 3점.",
+  "descriptionEn": "USENIX ATC is a leading international conference in Systems. Recent acceptance rate: 15.8% (2025, 100/634 papers). Top research topics: Efficient, GPU, Kernel, Cloud, Distributed. Typically held in November."
 }

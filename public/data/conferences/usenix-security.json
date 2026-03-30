@@ -306,10 +306,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 407,
+      "submitted": 2385,
+      "rate": 17.1
+    },
+    {
       "year": 2024,
-      "accepted": 317,
-      "submitted": 1723,
-      "rate": 18.4
+      "accepted": 417,
+      "submitted": 2276,
+      "rate": 18.3
     },
     {
       "year": 2023,
@@ -2758,6 +2764,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "USENIX Security은 보안 분야(Security)의 주요 국제 학회입니다. 최근 acceptance rate는 18.4% (2024년, 317/1723편)입니다. 주요 연구 키워드: Privacy, LLM, Efficient, Vulnerability, Fuzzing. 매년 8월 개최. CCF A등급, CORE A*, BK21 3점.",
-  "descriptionEn": "USENIX Security is a leading international conference in Security. Recent acceptance rate: 18.4% (2024, 317/1723 papers). Top research topics: Privacy, LLM, Efficient, Vulnerability, Fuzzing. Typically held in August. CCF rank A, CORE A*."
+  "descriptionKo": "USENIX Security은 보안 분야(Security)의 주요 국제 학회입니다. 최근 acceptance rate는 17.1% (2025년, 407/2385편)입니다. 주요 연구 키워드: Privacy, LLM, Efficient, Vulnerability, Fuzzing. 매년 8월 개최. CCF A등급, CORE A*, BK21 3점.",
+  "descriptionEn": "USENIX Security is a leading international conference in Security. Recent acceptance rate: 17.1% (2025, 407/2385 papers). Top research topics: Privacy, LLM, Efficient, Vulnerability, Fuzzing. Typically held in August. CCF rank A, CORE A*."
 }

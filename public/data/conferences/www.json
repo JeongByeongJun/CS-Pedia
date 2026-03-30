@@ -138,15 +138,15 @@
   "acceptanceRates": [
     {
       "year": 2025,
-      "accepted": 170,
-      "submitted": null,
-      "rate": null
+      "accepted": 409,
+      "submitted": 2062,
+      "rate": 19.8
     },
     {
       "year": 2024,
-      "accepted": 420,
+      "accepted": 405,
       "submitted": 2008,
-      "rate": 20.9
+      "rate": 20.2
     },
     {
       "year": 2023,
@@ -3415,6 +3415,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "WWW은 AI/ML 분야(Web Mining)의 주요 국제 학회입니다. 최근 acceptance rate는 20.9% (2024년, 420/2008편)입니다. 주요 연구 키워드: Graph, LLM, Multimodal, Efficient, Agent. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "WWW is a leading international conference in AI/ML (Web Mining). Recent acceptance rate: 20.9% (2024, 420/2008 papers). Top research topics: Graph, LLM, Multimodal, Efficient, Agent. Typically held in June. CCF rank A, CORE A*."
+  "descriptionKo": "WWW은 AI/ML 분야(Web Mining)의 주요 국제 학회입니다. 최근 acceptance rate는 19.8% (2025년, 409/2062편)입니다. 주요 연구 키워드: Graph, LLM, Multimodal, Efficient, Agent. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "WWW is a leading international conference in AI/ML (Web Mining). Recent acceptance rate: 19.8% (2025, 409/2062 papers). Top research topics: Graph, LLM, Multimodal, Efficient, Agent. Typically held in June. CCF rank A, CORE A*."
 }

@@ -88,6 +88,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 33,
+      "submitted": 156,
+      "rate": 21.2
+    },
+    {
       "year": 2021,
       "accepted": 19,
       "submitted": null,
@@ -232,6 +238,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SOUPS은 보안 분야(Usable Security)의 주요 국제 학회입니다. 주요 연구 키워드: Privacy, Usability, Authentication, Generative, Replication. 매년 8월 개최. CCF C등급, CORE B, BK21 1점.",
-  "descriptionEn": "SOUPS is a leading international conference in Security (Usable Security). Top research topics: Privacy, Usability, Authentication, Generative, Replication. Typically held in August. CCF rank C, CORE B."
+  "descriptionKo": "SOUPS은 보안 분야(Usable Security)의 주요 국제 학회입니다. 최근 acceptance rate는 21.2% (2024년, 33/156편)입니다. 주요 연구 키워드: Privacy, Usability, Authentication, Generative, Replication. 매년 8월 개최. CCF C등급, CORE B, BK21 1점.",
+  "descriptionEn": "SOUPS is a leading international conference in Security (Usable Security). Recent acceptance rate: 21.2% (2024, 33/156 papers). Top research topics: Privacy, Usability, Authentication, Generative, Replication. Typically held in August. CCF rank C, CORE B."
 }

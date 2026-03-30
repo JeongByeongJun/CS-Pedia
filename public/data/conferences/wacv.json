@@ -177,9 +177,9 @@
   "acceptanceRates": [
     {
       "year": 2024,
-      "accepted": 855,
-      "submitted": 2042,
-      "rate": 41.9
+      "accepted": 846,
+      "submitted": 2043,
+      "rate": 41.4
     },
     {
       "year": 2023,
@@ -3102,6 +3102,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "WACV은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 최근 acceptance rate는 41.9% (2024년, 855/2042편)입니다. 주요 연구 키워드: Diffusion, Segmentation, 3D, Efficient, Dataset. 매년 3월 개최. CORE A.",
-  "descriptionEn": "WACV is a leading international conference in Computer Vision. Recent acceptance rate: 41.9% (2024, 855/2042 papers). Top research topics: Diffusion, Segmentation, 3D, Efficient, Dataset. Typically held in March. CORE A."
+  "descriptionKo": "WACV은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 최근 acceptance rate는 41.4% (2024년, 846/2043편)입니다. 주요 연구 키워드: Diffusion, Segmentation, 3D, Efficient, Dataset. 매년 3월 개최. CORE A.",
+  "descriptionEn": "WACV is a leading international conference in Computer Vision. Recent acceptance rate: 41.4% (2024, 846/2043 papers). Top research topics: Diffusion, Segmentation, 3D, Efficient, Dataset. Typically held in March. CORE A."
 }

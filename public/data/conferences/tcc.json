@@ -65,6 +65,12 @@
   "bestPapers": [],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 68,
+      "submitted": 172,
+      "rate": 39.5
+    },
+    {
       "year": 2020,
       "accepted": 1,
       "submitted": null,
@@ -353,6 +359,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "TCC은 보안 분야(Cryptography Theory)의 주요 국제 학회입니다. 주요 연구 키워드: Encryption, MPC, Complexity, Hash, Privacy. 매년 11월 개최. CCF B등급, CORE A, BK21 1점.",
-  "descriptionEn": "TCC is a leading international conference in Security (Cryptography Theory). Top research topics: Encryption, MPC, Complexity, Hash, Privacy. Typically held in November. CCF rank B, CORE A."
+  "descriptionKo": "TCC은 보안 분야(Cryptography Theory)의 주요 국제 학회입니다. 최근 acceptance rate는 39.5% (2024년, 68/172편)입니다. 주요 연구 키워드: Encryption, MPC, Complexity, Hash, Privacy. 매년 11월 개최. CCF B등급, CORE A, BK21 1점.",
+  "descriptionEn": "TCC is a leading international conference in Security (Cryptography Theory). Recent acceptance rate: 39.5% (2024, 68/172 papers). Top research topics: Encryption, MPC, Complexity, Hash, Privacy. Typically held in November. CCF rank B, CORE A."
 }

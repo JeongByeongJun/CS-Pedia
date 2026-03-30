@@ -75,7 +75,14 @@
       "paperUrl": "https://doi.org/10.1109/SRDS69199.2025.00015"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 27,
+      "submitted": 87,
+      "rate": 31
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -663,6 +670,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SRDS은 시스템 분야(Reliable Distributed Systems)의 주요 국제 학회입니다. 주요 연구 키워드: Distributed, Blockchain, Efficient, Federated Learning, Privacy. 매년 9월 개최. CCF B등급, CORE B, BK21 1점.",
-  "descriptionEn": "SRDS is a leading international conference in Systems (Reliable Distributed Systems). Top research topics: Distributed, Blockchain, Efficient, Federated Learning, Privacy. Typically held in September. CCF rank B, CORE B."
+  "descriptionKo": "SRDS은 시스템 분야(Reliable Distributed Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 31% (2024년, 27/87편)입니다. 주요 연구 키워드: Distributed, Blockchain, Efficient, Federated Learning, Privacy. 매년 9월 개최. CCF B등급, CORE B, BK21 1점.",
+  "descriptionEn": "SRDS is a leading international conference in Systems (Reliable Distributed Systems). Recent acceptance rate: 31% (2024, 27/87 papers). Top research topics: Distributed, Blockchain, Efficient, Federated Learning, Privacy. Typically held in September. CCF rank B, CORE B."
 }

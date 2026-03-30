@@ -113,7 +113,14 @@
       "paperUrl": "https://arxiv.org/abs/2402.15837"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 78,
+      "submitted": 225,
+      "rate": 34.7
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -581,6 +588,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SoCG은 이론 컴퓨터과학 분야(Computational Geometry)의 주요 국제 학회입니다. 주요 연구 키워드: Sparse, Convex, Sublinear, Motion Planning, 3D. 매년 6월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "SoCG is a leading international conference in Theoretical Computer Science (Computational Geometry). Top research topics: Sparse, Convex, Sublinear, Motion Planning, 3D. Typically held in June. CCF rank B, CORE A."
+  "descriptionKo": "SoCG은 이론 컴퓨터과학 분야(Computational Geometry)의 주요 국제 학회입니다. 최근 acceptance rate는 34.7% (2025년, 78/225편)입니다. 주요 연구 키워드: Sparse, Convex, Sublinear, Motion Planning, 3D. 매년 6월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "SoCG is a leading international conference in Theoretical Computer Science (Computational Geometry). Recent acceptance rate: 34.7% (2025, 78/225 papers). Top research topics: Sparse, Convex, Sublinear, Motion Planning, 3D. Typically held in June. CCF rank B, CORE A."
 }

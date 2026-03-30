@@ -263,7 +263,14 @@
       "paperUrl": null
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 219,
+      "submitted": 735,
+      "rate": 29.8
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -1226,6 +1233,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "STOC은 이론 컴퓨터과학 분야(Theory of Computation)의 주요 국제 학회입니다. 주요 연구 키워드: Testing, Complexity, Efficient, Distributed, Submodular. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "STOC is a leading international conference in Theoretical Computer Science (Theory of Computation). Top research topics: Testing, Complexity, Efficient, Distributed, Submodular. Typically held in June. CCF rank A, CORE A*."
+  "descriptionKo": "STOC은 이론 컴퓨터과학 분야(Theory of Computation)의 주요 국제 학회입니다. 최근 acceptance rate는 29.8% (2025년, 219/735편)입니다. 주요 연구 키워드: Testing, Complexity, Efficient, Distributed, Submodular. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "STOC is a leading international conference in Theoretical Computer Science (Theory of Computation). Recent acceptance rate: 29.8% (2025, 219/735 papers). Top research topics: Testing, Complexity, Efficient, Distributed, Submodular. Typically held in June. CCF rank A, CORE A*."
 }

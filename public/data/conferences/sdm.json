@@ -123,6 +123,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 98,
+      "submitted": 335,
+      "rate": 29.3
+    },
+    {
       "year": 2021,
       "accepted": 1,
       "submitted": null,
@@ -1241,6 +1247,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SDM은 AI/ML 분야(Data Mining)의 주요 국제 학회입니다. 주요 연구 키워드: Graph, Embedding, Multi-Agent, Agent, Efficient. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "SDM is a leading international conference in AI/ML (Data Mining). Top research topics: Graph, Embedding, Multi-Agent, Agent, Efficient. CCF rank B, CORE A."
+  "descriptionKo": "SDM은 AI/ML 분야(Data Mining)의 주요 국제 학회입니다. 최근 acceptance rate는 29.3% (2024년, 98/335편)입니다. 주요 연구 키워드: Graph, Embedding, Multi-Agent, Agent, Efficient. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "SDM is a leading international conference in AI/ML (Data Mining). Recent acceptance rate: 29.3% (2024, 98/335 papers). Top research topics: Graph, Embedding, Multi-Agent, Agent, Efficient. CCF rank B, CORE A."
 }

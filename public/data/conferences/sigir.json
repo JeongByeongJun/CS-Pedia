@@ -138,10 +138,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 239,
+      "submitted": 1071,
+      "rate": 22.3
+    },
+    {
       "year": 2024,
-      "accepted": 213,
-      "submitted": 1018,
-      "rate": 20.9
+      "accepted": 160,
+      "submitted": 791,
+      "rate": 20.2
     },
     {
       "year": 2023,
@@ -2269,6 +2275,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SIGIR은 AI/ML 분야(Information Retrieval)의 주요 국제 학회입니다. 최근 acceptance rate는 20.9% (2024년, 213/1018편)입니다. 주요 연구 키워드: LLM, Graph, Generative, Dataset, Multimodal. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "SIGIR is a leading international conference in AI/ML (Information Retrieval). Recent acceptance rate: 20.9% (2024, 213/1018 papers). Top research topics: LLM, Graph, Generative, Dataset, Multimodal. Typically held in July. CCF rank A, CORE A*."
+  "descriptionKo": "SIGIR은 AI/ML 분야(Information Retrieval)의 주요 국제 학회입니다. 최근 acceptance rate는 22.3% (2025년, 239/1071편)입니다. 주요 연구 키워드: LLM, Graph, Generative, Dataset, Multimodal. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "SIGIR is a leading international conference in AI/ML (Information Retrieval). Recent acceptance rate: 22.3% (2025, 239/1071 papers). Top research topics: LLM, Graph, Generative, Dataset, Multimodal. Typically held in July. CCF rank A, CORE A*."
 }

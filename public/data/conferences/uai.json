@@ -142,7 +142,14 @@
       "paperUrl": "https://www.semanticscholar.org/paper/f6ca18c782f796904ea73f80df080be25bbaa521"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 230,
+      "submitted": 750,
+      "rate": 30.7
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1680,6 +1687,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "UAI은 AI/ML 분야(Artificial Intelligence)의 주요 국제 학회입니다. 주요 연구 키워드: Optimization, Graph, Reinforcement Learning, Efficient, Generative. 매년 8월 개최. CCF B등급, CORE A, BK21 3점.",
-  "descriptionEn": "UAI is a leading international conference in AI/ML (Artificial Intelligence). Top research topics: Optimization, Graph, Reinforcement Learning, Efficient, Generative. Typically held in August. CCF rank B, CORE A."
+  "descriptionKo": "UAI은 AI/ML 분야(Artificial Intelligence)의 주요 국제 학회입니다. 최근 acceptance rate는 30.7% (2025년, 230/750편)입니다. 주요 연구 키워드: Optimization, Graph, Reinforcement Learning, Efficient, Generative. 매년 8월 개최. CCF B등급, CORE A, BK21 3점.",
+  "descriptionEn": "UAI is a leading international conference in AI/ML (Artificial Intelligence). Recent acceptance rate: 30.7% (2025, 230/750 papers). Top research topics: Optimization, Graph, Reinforcement Learning, Efficient, Generative. Typically held in August. CCF rank B, CORE A."
 }

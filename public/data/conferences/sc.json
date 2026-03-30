@@ -157,7 +157,14 @@
       "paperUrl": "http://arxiv.org/abs/2505.04802v2"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 137,
+      "submitted": 623,
+      "rate": 22
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1925,6 +1932,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SC은 시스템 분야(High Performance Computing)의 주요 국제 학회입니다. 주요 연구 키워드: GPU, Efficient, Distributed, Compression, LLM. 매년 11월 개최. CCF A등급, CORE A, BK21 3점.",
-  "descriptionEn": "SC is a leading international conference in Systems (High Performance Computing). Top research topics: GPU, Efficient, Distributed, Compression, LLM. Typically held in November. CCF rank A, CORE A."
+  "descriptionKo": "SC은 시스템 분야(High Performance Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 22% (2025년, 137/623편)입니다. 주요 연구 키워드: GPU, Efficient, Distributed, Compression, LLM. 매년 11월 개최. CCF A등급, CORE A, BK21 3점.",
+  "descriptionEn": "SC is a leading international conference in Systems (High Performance Computing). Recent acceptance rate: 22% (2025, 137/623 papers). Top research topics: GPU, Efficient, Distributed, Compression, LLM. Typically held in November. CCF rank A, CORE A."
 }

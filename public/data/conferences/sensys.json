@@ -151,7 +151,14 @@
       "paperUrl": "https://doi.org/10.1145/3715014.3722055"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 45,
+      "submitted": 235,
+      "rate": 19.2
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1579,6 +1586,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SenSys은 네트워크 분야(Sensor Networks)의 주요 국제 학회입니다. 주요 연구 키워드: IoT, LLM, Cloud, Multimodal, Real-Time. 매년 5월 개최. CCF B등급, CORE A*, BK21 3점.",
-  "descriptionEn": "SenSys is a leading international conference in Networks (Sensor Networks). Top research topics: IoT, LLM, Cloud, Multimodal, Real-Time. Typically held in May. CCF rank B, CORE A*."
+  "descriptionKo": "SenSys은 네트워크 분야(Sensor Networks)의 주요 국제 학회입니다. 최근 acceptance rate는 19.2% (2025년, 45/235편)입니다. 주요 연구 키워드: IoT, LLM, Cloud, Multimodal, Real-Time. 매년 5월 개최. CCF B등급, CORE A*, BK21 3점.",
+  "descriptionEn": "SenSys is a leading international conference in Networks (Sensor Networks). Recent acceptance rate: 19.2% (2025, 45/235 papers). Top research topics: IoT, LLM, Cloud, Multimodal, Real-Time. Typically held in May. CCF rank B, CORE A*."
 }

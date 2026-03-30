@@ -152,7 +152,14 @@
       "paperUrl": "https://arxiv.org/abs/2411.16680"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2023,
+      "accepted": 224,
+      "submitted": 665,
+      "rate": 33.7
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2023,
@@ -2175,6 +2182,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SIGGRAPH Asia은 그래픽스 분야(Computer Graphics)의 주요 국제 학회입니다. 주요 연구 키워드: 3D, Diffusion, Reconstruction, Rendering, Gaussian Splatting. 매년 12월 개최. BK21 1점.",
-  "descriptionEn": "SIGGRAPH Asia is a leading international conference in Graphics (Computer Graphics). Top research topics: 3D, Diffusion, Reconstruction, Rendering, Gaussian Splatting. Typically held in December."
+  "descriptionKo": "SIGGRAPH Asia은 그래픽스 분야(Computer Graphics)의 주요 국제 학회입니다. 최근 acceptance rate는 33.7% (2023년, 224/665편)입니다. 주요 연구 키워드: 3D, Diffusion, Reconstruction, Rendering, Gaussian Splatting. 매년 12월 개최. BK21 1점.",
+  "descriptionEn": "SIGGRAPH Asia is a leading international conference in Graphics (Computer Graphics). Recent acceptance rate: 33.7% (2023, 224/665 papers). Top research topics: 3D, Diffusion, Reconstruction, Rendering, Gaussian Splatting. Typically held in December."
 }

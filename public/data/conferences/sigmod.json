@@ -262,10 +262,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 250,
+      "submitted": 1008,
+      "rate": 24.8
+    },
+    {
       "year": 2024,
-      "accepted": 155,
-      "submitted": 780,
-      "rate": 19.9
+      "accepted": 213,
+      "submitted": 768,
+      "rate": 27.7
     },
     {
       "year": 2023,
@@ -2368,6 +2374,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SIGMOD은 데이터베이스 분야(Database)의 주요 국제 학회입니다. 최근 acceptance rate는 19.9% (2024년, 155/780편)입니다. 주요 연구 키워드: Graph, Efficient, LLM, SQL, Cloud. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "SIGMOD is a leading international conference in Databases (Database). Recent acceptance rate: 19.9% (2024, 155/780 papers). Top research topics: Graph, Efficient, LLM, SQL, Cloud. Typically held in June. CCF rank A, CORE A*."
+  "descriptionKo": "SIGMOD은 데이터베이스 분야(Database)의 주요 국제 학회입니다. 최근 acceptance rate는 24.8% (2025년, 250/1008편)입니다. 주요 연구 키워드: Graph, Efficient, LLM, SQL, Cloud. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "SIGMOD is a leading international conference in Databases (Database). Recent acceptance rate: 24.8% (2025, 250/1008 papers). Top research topics: Graph, Efficient, LLM, SQL, Cloud. Typically held in June. CCF rank A, CORE A*."
 }

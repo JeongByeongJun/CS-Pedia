@@ -135,7 +135,14 @@
       "paperUrl": "https://arxiv.org/abs/2408.16215"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 66,
+      "submitted": 382,
+      "rate": 17.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1063,6 +1070,6 @@
       "count": 3
     }
   ],
-  "descriptionKo": "SIGMETRICS은 시스템 분야(Performance Evaluation)의 주요 국제 학회입니다. 주요 연구 키워드: Routing, Optimization, Latency, Efficient, Distributed. 매년 6월 개최. CCF B등급, CORE A*, BK21 3점.",
-  "descriptionEn": "SIGMETRICS is a leading international conference in Systems (Performance Evaluation). Top research topics: Routing, Optimization, Latency, Efficient, Distributed. Typically held in June. CCF rank B, CORE A*."
+  "descriptionKo": "SIGMETRICS은 시스템 분야(Performance Evaluation)의 주요 국제 학회입니다. 최근 acceptance rate는 17.3% (2025년, 66/382편)입니다. 주요 연구 키워드: Routing, Optimization, Latency, Efficient, Distributed. 매년 6월 개최. CCF B등급, CORE A*, BK21 3점.",
+  "descriptionEn": "SIGMETRICS is a leading international conference in Systems (Performance Evaluation). Recent acceptance rate: 17.3% (2025, 66/382 papers). Top research topics: Routing, Optimization, Latency, Efficient, Distributed. Typically held in June. CCF rank B, CORE A*."
 }

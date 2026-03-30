@@ -242,10 +242,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 174,
+      "submitted": 771,
+      "rate": 22.6
+    },
+    {
       "year": 2024,
-      "accepted": 177,
-      "submitted": 550,
-      "rate": 32.2
+      "accepted": 252,
+      "submitted": 844,
+      "rate": 29.9
     },
     {
       "year": 2023,
@@ -2203,6 +2209,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SIGGRAPH은 그래픽스 분야(Computer Graphics)의 주요 국제 학회입니다. 최근 acceptance rate는 32.2% (2024년, 177/550편)입니다. 주요 연구 키워드: 3D, Rendering, Diffusion, Simulation, Reconstruction. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "SIGGRAPH is a leading international conference in Graphics (Computer Graphics). Recent acceptance rate: 32.2% (2024, 177/550 papers). Top research topics: 3D, Rendering, Diffusion, Simulation, Reconstruction. Typically held in July. CCF rank A, CORE A*."
+  "descriptionKo": "SIGGRAPH은 그래픽스 분야(Computer Graphics)의 주요 국제 학회입니다. 최근 acceptance rate는 22.6% (2025년, 174/771편)입니다. 주요 연구 키워드: 3D, Rendering, Diffusion, Simulation, Reconstruction. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "SIGGRAPH is a leading international conference in Graphics (Computer Graphics). Recent acceptance rate: 22.6% (2025, 174/771 papers). Top research topics: 3D, Rendering, Diffusion, Simulation, Reconstruction. Typically held in July. CCF rank A, CORE A*."
 }

@@ -475,7 +475,14 @@
       "paperUrl": "https://doi.org/10.1145/3379337.3415875"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 210,
+      "submitted": 945,
+      "rate": 22.2
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2022,
@@ -1908,6 +1915,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "UIST은 인간-컴퓨터 상호작용 분야(User Interfaces)의 주요 국제 학회입니다. 주요 연구 키워드: LLM, 3D, VR, Haptic, Generative. 매년 11월 개최. CCF A등급, CORE A*, BK21 2점.",
-  "descriptionEn": "UIST is a leading international conference in Human-Computer Interaction (User Interfaces). Top research topics: LLM, 3D, VR, Haptic, Generative. Typically held in November. CCF rank A, CORE A*."
+  "descriptionKo": "UIST은 인간-컴퓨터 상호작용 분야(User Interfaces)의 주요 국제 학회입니다. 최근 acceptance rate는 22.2% (2025년, 210/945편)입니다. 주요 연구 키워드: LLM, 3D, VR, Haptic, Generative. 매년 11월 개최. CCF A등급, CORE A*, BK21 2점.",
+  "descriptionEn": "UIST is a leading international conference in Human-Computer Interaction (User Interfaces). Recent acceptance rate: 22.2% (2025, 210/945 papers). Top research topics: LLM, 3D, VR, Haptic, Generative. Typically held in November. CCF rank A, CORE A*."
 }

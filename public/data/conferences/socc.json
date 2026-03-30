@@ -129,7 +129,14 @@
       "paperUrl": "https://doi.org/10.1145/3620678.3624645"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 63,
+      "submitted": 209,
+      "rate": 30.1
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -1172,6 +1179,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SoCC은 시스템 분야(Cloud Computing)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, Cloud, Serverless, Scheduling, GPU. 매년 11월 개최. CCF B등급, BK21 1점.",
-  "descriptionEn": "SoCC is a leading international conference in Systems (Cloud Computing). Top research topics: Efficient, Cloud, Serverless, Scheduling, GPU. Typically held in November. CCF rank B."
+  "descriptionKo": "SoCC은 시스템 분야(Cloud Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 30.1% (2024년, 63/209편)입니다. 주요 연구 키워드: Efficient, Cloud, Serverless, Scheduling, GPU. 매년 11월 개최. CCF B등급, BK21 1점.",
+  "descriptionEn": "SoCC is a leading international conference in Systems (Cloud Computing). Recent acceptance rate: 30.1% (2024, 63/209 papers). Top research topics: Efficient, Cloud, Serverless, Scheduling, GPU. Typically held in November. CCF rank B."
 }

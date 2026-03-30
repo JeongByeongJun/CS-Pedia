@@ -185,6 +185,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 43,
+      "submitted": 248,
+      "rate": 17.3
+    },
+    {
       "year": 2023,
       "accepted": 42,
       "submitted": 290,
@@ -839,6 +845,6 @@
       "count": 3
     }
   ],
-  "descriptionKo": "SOSP은 시스템 분야(Operating Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 14.5% (2023년, 42/290편)입니다. 주요 연구 키워드: LLM, Efficient, Storage, GPU, Distributed. 매년 9월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "SOSP is a leading international conference in Systems (Operating Systems). Recent acceptance rate: 14.5% (2023, 42/290 papers). Top research topics: LLM, Efficient, Storage, GPU, Distributed. Typically held in September. CCF rank A, CORE A*."
+  "descriptionKo": "SOSP은 시스템 분야(Operating Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 17.3% (2024년, 43/248편)입니다. 주요 연구 키워드: LLM, Efficient, Storage, GPU, Distributed. 매년 9월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "SOSP is a leading international conference in Systems (Operating Systems). Recent acceptance rate: 17.3% (2024, 43/248 papers). Top research topics: LLM, Efficient, Storage, GPU, Distributed. Typically held in September. CCF rank A, CORE A*."
 }

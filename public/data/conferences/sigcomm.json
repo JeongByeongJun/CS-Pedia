@@ -122,10 +122,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 75,
+      "submitted": 463,
+      "rate": 16.2
+    },
+    {
       "year": 2024,
-      "accepted": 55,
-      "submitted": 345,
-      "rate": 15.9
+      "accepted": 62,
+      "submitted": 366,
+      "rate": 16.9
     },
     {
       "year": 2023,
@@ -1453,6 +1459,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SIGCOMM은 네트워크 분야(Networking)의 주요 국제 학회입니다. 최근 acceptance rate는 15.9% (2024년, 55/345편)입니다. 주요 연구 키워드: Cloud, Efficient, Scheduling, RDMA, LLM. 매년 8월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "SIGCOMM is a leading international conference in Networks (Networking). Recent acceptance rate: 15.9% (2024, 55/345 papers). Top research topics: Cloud, Efficient, Scheduling, RDMA, LLM. Typically held in August. CCF rank A, CORE A*."
+  "descriptionKo": "SIGCOMM은 네트워크 분야(Networking)의 주요 국제 학회입니다. 최근 acceptance rate는 16.2% (2025년, 75/463편)입니다. 주요 연구 키워드: Cloud, Efficient, Scheduling, RDMA, LLM. 매년 8월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "SIGCOMM is a leading international conference in Networks (Networking). Recent acceptance rate: 16.2% (2025, 75/463 papers). Top research topics: Cloud, Efficient, Scheduling, RDMA, LLM. Typically held in August. CCF rank A, CORE A*."
 }

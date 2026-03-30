@@ -167,7 +167,14 @@
       "paperUrl": "https://arxiv.org/abs/1905.11877"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 192,
+      "submitted": 655,
+      "rate": 29.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -1200,6 +1207,6 @@
       "count": 3
     }
   ],
-  "descriptionKo": "SODA은 이론 컴퓨터과학 분야(Algorithms)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Graph, Efficient, Distributed, Convex. 매년 1월 개최. CCF A등급, CORE A*, BK21 3점.",
-  "descriptionEn": "SODA is a leading international conference in Theoretical Computer Science (Algorithms). Top research topics: Complexity, Graph, Efficient, Distributed, Convex. Typically held in January. CCF rank A, CORE A*."
+  "descriptionKo": "SODA은 이론 컴퓨터과학 분야(Algorithms)의 주요 국제 학회입니다. 최근 acceptance rate는 29.3% (2025년, 192/655편)입니다. 주요 연구 키워드: Complexity, Graph, Efficient, Distributed, Convex. 매년 1월 개최. CCF A등급, CORE A*, BK21 3점.",
+  "descriptionEn": "SODA is a leading international conference in Theoretical Computer Science (Algorithms). Recent acceptance rate: 29.3% (2025, 192/655 papers). Top research topics: Complexity, Graph, Efficient, Distributed, Convex. Typically held in January. CCF rank A, CORE A*."
 }

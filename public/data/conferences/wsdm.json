@@ -141,10 +141,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 106,
+      "submitted": 613,
+      "rate": 17.3
+    },
+    {
       "year": 2024,
-      "accepted": 83,
-      "submitted": 492,
-      "rate": 16.9
+      "accepted": 109,
+      "submitted": 615,
+      "rate": 17.7
     },
     {
       "year": 2023,
@@ -2012,6 +2018,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "WSDM은 AI/ML 분야(Web Search)의 주요 국제 학회입니다. 최근 acceptance rate는 16.9% (2024년, 83/492편)입니다. 주요 연구 키워드: Graph, LLM, Diffusion, Multimodal, Generative. 매년 2월 개최. CCF B등급, CORE A, BK21 3점.",
-  "descriptionEn": "WSDM is a leading international conference in AI/ML (Web Search). Recent acceptance rate: 16.9% (2024, 83/492 papers). Top research topics: Graph, LLM, Diffusion, Multimodal, Generative. Typically held in February. CCF rank B, CORE A."
+  "descriptionKo": "WSDM은 AI/ML 분야(Web Search)의 주요 국제 학회입니다. 최근 acceptance rate는 17.3% (2025년, 106/613편)입니다. 주요 연구 키워드: Graph, LLM, Diffusion, Multimodal, Generative. 매년 2월 개최. CCF B등급, CORE A, BK21 3점.",
+  "descriptionEn": "WSDM is a leading international conference in AI/ML (Web Search). Recent acceptance rate: 17.3% (2025, 106/613 papers). Top research topics: Graph, LLM, Diffusion, Multimodal, Generative. Typically held in February. CCF rank B, CORE A."
 }
