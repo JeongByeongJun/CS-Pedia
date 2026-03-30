@@ -89,15 +89,15 @@
   "acceptanceRates": [
     {
       "year": 2025,
-      "accepted": 183,
-      "submitted": null,
-      "rate": null
+      "accepted": 181,
+      "submitted": 501,
+      "rate": 36.1
     },
     {
       "year": 2024,
-      "accepted": 181,
-      "submitted": null,
-      "rate": null
+      "accepted": 178,
+      "submitted": 497,
+      "rate": 35.8
     },
     {
       "year": 2023,
@@ -2105,6 +2105,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "GECCO은 AI/ML 분야(Evolutionary Computation)의 주요 국제 학회입니다. 주요 연구 키워드: Optimization, Scheduling, Reinforcement Learning, Efficient, Multimodal. 매년 7월 개최. CCF C등급, CORE A, BK21 1점.",
-  "descriptionEn": "GECCO is a leading international conference in AI/ML (Evolutionary Computation). Top research topics: Optimization, Scheduling, Reinforcement Learning, Efficient, Multimodal. Typically held in July. CCF rank C, CORE A."
+  "descriptionKo": "GECCO은 AI/ML 분야(Evolutionary Computation)의 주요 국제 학회입니다. 최근 acceptance rate는 36.1% (2025년, 181/501편)입니다. 주요 연구 키워드: Optimization, Scheduling, Reinforcement Learning, Efficient, Multimodal. 매년 7월 개최. CCF C등급, CORE A, BK21 1점.",
+  "descriptionEn": "GECCO is a leading international conference in AI/ML (Evolutionary Computation). Recent acceptance rate: 36.1% (2025, 181/501 papers). Top research topics: Optimization, Scheduling, Reinforcement Learning, Efficient, Multimodal. Typically held in July. CCF rank C, CORE A."
 }
