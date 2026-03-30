@@ -126,7 +126,14 @@
       "paperUrl": "https://arxiv.org/abs/2311.09168"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 83,
+      "submitted": 320,
+      "rate": 25.9
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2024,
@@ -1074,6 +1081,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICS은 시스템 분야(Supercomputing)의 주요 국제 학회입니다. 주요 연구 키워드: GPU, Efficient, Sparse, Graph, Compression. 매년 7월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ICS is a leading international conference in Systems (Supercomputing). Top research topics: GPU, Efficient, Sparse, Graph, Compression. Typically held in July. CCF rank B, CORE A."
+  "descriptionKo": "ICS은 시스템 분야(Supercomputing)의 주요 국제 학회입니다. 최근 acceptance rate는 25.9% (2025년, 83/320편)입니다. 주요 연구 키워드: GPU, Efficient, Sparse, Graph, Compression. 매년 7월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ICS is a leading international conference in Systems (Supercomputing). Recent acceptance rate: 25.9% (2025, 83/320 papers). Top research topics: GPU, Efficient, Sparse, Graph, Compression. Typically held in July. CCF rank B, CORE A."
 }

@@ -164,6 +164,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 153,
+      "submitted": 519,
+      "rate": 29.5
+    },
+    {
       "year": 2021,
       "accepted": 6,
       "submitted": null,
@@ -952,6 +958,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICALP은 이론 컴퓨터과학 분야(Automata Theory)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Graph, Testing, Efficient, Parameterized. 매년 7월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ICALP is a leading international conference in Theoretical Computer Science (Automata Theory). Top research topics: Complexity, Graph, Testing, Efficient, Parameterized. Typically held in July. CCF rank B, CORE A."
+  "descriptionKo": "ICALP은 이론 컴퓨터과학 분야(Automata Theory)의 주요 국제 학회입니다. 최근 acceptance rate는 29.5% (2024년, 153/519편)입니다. 주요 연구 키워드: Complexity, Graph, Testing, Efficient, Parameterized. 매년 7월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ICALP is a leading international conference in Theoretical Computer Science (Automata Theory). Recent acceptance rate: 29.5% (2024, 153/519 papers). Top research topics: Complexity, Graph, Testing, Efficient, Parameterized. Typically held in July. CCF rank B, CORE A."
 }

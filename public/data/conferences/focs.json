@@ -176,6 +176,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 131,
+      "submitted": 500,
+      "rate": 26.2
+    },
+    {
       "year": 2022,
       "accepted": 118,
       "submitted": null,
@@ -949,6 +955,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "FOCS은 이론 컴퓨터과학 분야(Theory of Computation)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Testing, Convex, Graph, Distributed. 매년 11월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "FOCS is a leading international conference in Theoretical Computer Science (Theory of Computation). Top research topics: Complexity, Testing, Convex, Graph, Distributed. Typically held in November. CCF rank A, CORE A*."
+  "descriptionKo": "FOCS은 이론 컴퓨터과학 분야(Theory of Computation)의 주요 국제 학회입니다. 최근 acceptance rate는 26.2% (2024년, 131/500편)입니다. 주요 연구 키워드: Complexity, Testing, Convex, Graph, Distributed. 매년 11월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "FOCS is a leading international conference in Theoretical Computer Science (Theory of Computation). Recent acceptance rate: 26.2% (2024, 131/500 papers). Top research topics: Complexity, Testing, Convex, Graph, Distributed. Typically held in November. CCF rank A, CORE A*."
 }

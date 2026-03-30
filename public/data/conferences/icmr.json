@@ -86,7 +86,14 @@
       "paperUrl": "https://dl.acm.org/doi/10.1145/3731715.3733450"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 211,
+      "submitted": 515,
+      "rate": 41
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1199,6 +1206,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICMR은 컴퓨터 비전 분야(Multimedia Retrieval)의 주요 국제 학회입니다. 주요 연구 키워드: Multimodal, Diffusion, 3D, Graph, Adversarial. 매년 6월 개최. CCF B등급, CORE B, BK21 1점.",
-  "descriptionEn": "ICMR is a leading international conference in Computer Vision (Multimedia Retrieval). Top research topics: Multimodal, Diffusion, 3D, Graph, Adversarial. Typically held in June. CCF rank B, CORE B."
+  "descriptionKo": "ICMR은 컴퓨터 비전 분야(Multimedia Retrieval)의 주요 국제 학회입니다. 최근 acceptance rate는 41% (2025년, 211/515편)입니다. 주요 연구 키워드: Multimodal, Diffusion, 3D, Graph, Adversarial. 매년 6월 개최. CCF B등급, CORE B, BK21 1점.",
+  "descriptionEn": "ICMR is a leading international conference in Computer Vision (Multimedia Retrieval). Recent acceptance rate: 41% (2025, 211/515 papers). Top research topics: Multimodal, Diffusion, 3D, Graph, Adversarial. Typically held in June. CCF rank B, CORE B."
 }

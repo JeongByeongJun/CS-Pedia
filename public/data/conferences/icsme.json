@@ -111,7 +111,14 @@
       "paperUrl": "https://doi.org/10.1109/ICSME55016.2022.00031"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 49,
+      "submitted": 188,
+      "rate": 26.1
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2025,
@@ -969,6 +976,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICSME은 소프트웨어 공학 분야(Software Maintenance)의 주요 국제 학회입니다. 주요 연구 키워드: LLM, Testing, Refactoring, Vulnerability, Fuzzing. 매년 9월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ICSME is a leading international conference in Software Engineering (Software Maintenance). Top research topics: LLM, Testing, Refactoring, Vulnerability, Fuzzing. Typically held in September. CCF rank B, CORE A."
+  "descriptionKo": "ICSME은 소프트웨어 공학 분야(Software Maintenance)의 주요 국제 학회입니다. 최근 acceptance rate는 26.1% (2024년, 49/188편)입니다. 주요 연구 키워드: LLM, Testing, Refactoring, Vulnerability, Fuzzing. 매년 9월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ICSME is a leading international conference in Software Engineering (Software Maintenance). Recent acceptance rate: 26.1% (2024, 49/188 papers). Top research topics: LLM, Testing, Refactoring, Vulnerability, Fuzzing. Typically held in September. CCF rank B, CORE A."
 }

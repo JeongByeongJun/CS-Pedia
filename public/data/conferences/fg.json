@@ -89,6 +89,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 118,
+      "submitted": 299,
+      "rate": 39.4
+    },
+    {
       "year": 2021,
       "accepted": 160,
       "submitted": null,
@@ -1197,6 +1203,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "FG은 컴퓨터 비전 분야(Face Recognition)의 주요 국제 학회입니다. 주요 연구 키워드: Diffusion, Dataset, Transformer, Gesture, 3D. 매년 5월 개최. CCF C등급, CORE B.",
-  "descriptionEn": "FG is a leading international conference in Computer Vision (Face Recognition). Top research topics: Diffusion, Dataset, Transformer, Gesture, 3D. Typically held in May. CCF rank C, CORE B."
+  "descriptionKo": "FG은 컴퓨터 비전 분야(Face Recognition)의 주요 국제 학회입니다. 최근 acceptance rate는 39.4% (2024년, 118/299편)입니다. 주요 연구 키워드: Diffusion, Dataset, Transformer, Gesture, 3D. 매년 5월 개최. CCF C등급, CORE B.",
+  "descriptionEn": "FG is a leading international conference in Computer Vision (Face Recognition). Recent acceptance rate: 39.4% (2024, 118/299 papers). Top research topics: Diffusion, Dataset, Transformer, Gesture, 3D. Typically held in May. CCF rank C, CORE B."
 }

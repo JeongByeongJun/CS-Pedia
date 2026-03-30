@@ -109,7 +109,14 @@
       "paperUrl": "https://doi.org/10.1109/ICNP61940.2024.10858513"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2023,
+      "accepted": 34,
+      "submitted": 181,
+      "rate": 18.8
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -1167,6 +1174,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICNP은 네트워크 분야(Network Protocols)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, Cloud, Scheduling, Latency, Distributed. 매년 10월 개최. CCF B등급, CORE B, BK21 2점.",
-  "descriptionEn": "ICNP is a leading international conference in Networks (Network Protocols). Top research topics: Efficient, Cloud, Scheduling, Latency, Distributed. Typically held in October. CCF rank B, CORE B."
+  "descriptionKo": "ICNP은 네트워크 분야(Network Protocols)의 주요 국제 학회입니다. 최근 acceptance rate는 18.8% (2023년, 34/181편)입니다. 주요 연구 키워드: Efficient, Cloud, Scheduling, Latency, Distributed. 매년 10월 개최. CCF B등급, CORE B, BK21 2점.",
+  "descriptionEn": "ICNP is a leading international conference in Networks (Network Protocols). Recent acceptance rate: 18.8% (2023, 34/181 papers). Top research topics: Efficient, Cloud, Scheduling, Latency, Distributed. Typically held in October. CCF rank B, CORE B."
 }

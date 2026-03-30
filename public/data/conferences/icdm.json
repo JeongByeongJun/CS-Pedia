@@ -113,9 +113,9 @@
   "acceptanceRates": [
     {
       "year": 2024,
-      "accepted": 91,
-      "submitted": 912,
-      "rate": 10
+      "accepted": 106,
+      "submitted": 785,
+      "rate": 13.5
     },
     {
       "year": 2023,
@@ -2358,6 +2358,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICDM은 AI/ML 분야(Data Mining)의 주요 국제 학회입니다. 최근 acceptance rate는 10% (2024년, 91/912편)입니다. 주요 연구 키워드: Graph, Efficient, Privacy, Contrastive Learning, Prompt. 매년 11월 개최. CCF B등급, CORE A*, BK21 3점.",
-  "descriptionEn": "ICDM is a leading international conference in AI/ML (Data Mining). Recent acceptance rate: 10% (2024, 91/912 papers). Top research topics: Graph, Efficient, Privacy, Contrastive Learning, Prompt. Typically held in November. CCF rank B, CORE A*."
+  "descriptionKo": "ICDM은 AI/ML 분야(Data Mining)의 주요 국제 학회입니다. 최근 acceptance rate는 13.5% (2024년, 106/785편)입니다. 주요 연구 키워드: Graph, Efficient, Privacy, Contrastive Learning, Prompt. 매년 11월 개최. CCF B등급, CORE A*, BK21 3점.",
+  "descriptionEn": "ICDM is a leading international conference in AI/ML (Data Mining). Recent acceptance rate: 13.5% (2024, 106/785 papers). Top research topics: Graph, Efficient, Privacy, Contrastive Learning, Prompt. Typically held in November. CCF rank B, CORE A*."
 }

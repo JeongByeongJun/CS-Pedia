@@ -156,7 +156,14 @@
       "paperUrl": "https://doi.org/10.1145/3747530"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 35,
+      "submitted": 106,
+      "rate": 33
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -379,6 +386,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICFP은 프로그래밍 언어 분야(Programming Languages)의 주요 국제 학회입니다. 주요 연구 키워드: Type Theory, Proof Assistant, Kernel, Optimization, DSL. 매년 8월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ICFP is a leading international conference in Programming Languages. Top research topics: Type Theory, Proof Assistant, Kernel, Optimization, DSL. Typically held in August. CCF rank B, CORE A."
+  "descriptionKo": "ICFP은 프로그래밍 언어 분야(Programming Languages)의 주요 국제 학회입니다. 최근 acceptance rate는 33% (2024년, 35/106편)입니다. 주요 연구 키워드: Type Theory, Proof Assistant, Kernel, Optimization, DSL. 매년 8월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ICFP is a leading international conference in Programming Languages. Recent acceptance rate: 33% (2024, 35/106 papers). Top research topics: Type Theory, Proof Assistant, Kernel, Optimization, DSL. Typically held in August. CCF rank B, CORE A."
 }

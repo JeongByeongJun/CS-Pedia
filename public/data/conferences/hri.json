@@ -290,7 +290,14 @@
       "paperUrl": "https://arxiv.org/abs/2501.02583"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 100,
+      "submitted": 400,
+      "rate": 25
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1943,6 +1950,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "HRI은 로보틱스 분야(Human-Robot Interaction)의 주요 국제 학회입니다. 주요 연구 키워드: Robot, Multimodal, LLM, Agent, Navigation. 매년 3월 개최. CORE A.",
-  "descriptionEn": "HRI is a leading international conference in Robotics (Human-Robot Interaction). Top research topics: Robot, Multimodal, LLM, Agent, Navigation. Typically held in March. CORE A."
+  "descriptionKo": "HRI은 로보틱스 분야(Human-Robot Interaction)의 주요 국제 학회입니다. 최근 acceptance rate는 25% (2025년, 100/400편)입니다. 주요 연구 키워드: Robot, Multimodal, LLM, Agent, Navigation. 매년 3월 개최. CORE A.",
+  "descriptionEn": "HRI is a leading international conference in Robotics (Human-Robot Interaction). Recent acceptance rate: 25% (2025, 100/400 papers). Top research topics: Robot, Multimodal, LLM, Agent, Navigation. Typically held in March. CORE A."
 }

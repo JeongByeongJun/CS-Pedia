@@ -525,10 +525,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 245,
+      "submitted": 1150,
+      "rate": 21.3
+    },
+    {
       "year": 2024,
-      "accepted": 167,
-      "submitted": 782,
-      "rate": 21.4
+      "accepted": 234,
+      "submitted": 1051,
+      "rate": 22.3
     },
     {
       "year": 2023,
@@ -3027,6 +3033,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICSE은 소프트웨어 공학 분야(Software Engineering)의 주요 국제 학회입니다. 최근 acceptance rate는 21.4% (2024년, 167/782편)입니다. 주요 연구 키워드: LLM, Testing, Fuzzing, Code Generation, Vulnerability. 매년 4월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "ICSE is a leading international conference in Software Engineering. Recent acceptance rate: 21.4% (2024, 167/782 papers). Top research topics: LLM, Testing, Fuzzing, Code Generation, Vulnerability. Typically held in April. CCF rank A, CORE A*."
+  "descriptionKo": "ICSE은 소프트웨어 공학 분야(Software Engineering)의 주요 국제 학회입니다. 최근 acceptance rate는 21.3% (2025년, 245/1150편)입니다. 주요 연구 키워드: LLM, Testing, Fuzzing, Code Generation, Vulnerability. 매년 4월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "ICSE is a leading international conference in Software Engineering. Recent acceptance rate: 21.3% (2025, 245/1150 papers). Top research topics: LLM, Testing, Fuzzing, Code Generation, Vulnerability. Typically held in April. CCF rank A, CORE A*."
 }

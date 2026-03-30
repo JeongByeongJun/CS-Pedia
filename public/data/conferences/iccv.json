@@ -121,10 +121,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 2698,
+      "submitted": 11152,
+      "rate": 24.2
+    },
+    {
       "year": 2023,
-      "accepted": 2162,
-      "submitted": 8068,
-      "rate": 26.8
+      "accepted": 2160,
+      "submitted": 8088,
+      "rate": 26.7
     },
     {
       "year": 2021,
@@ -2545,6 +2551,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICCV은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 최근 acceptance rate는 26.8% (2023년, 2162/8068편)입니다. 주요 연구 키워드: Multimodal, Segmentation, Diffusion, 3D, Efficient. 매년 10월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "ICCV is a leading international conference in Computer Vision. Recent acceptance rate: 26.8% (2023, 2162/8068 papers). Top research topics: Multimodal, Segmentation, Diffusion, 3D, Efficient. Typically held in October. CCF rank A, CORE A*."
+  "descriptionKo": "ICCV은 컴퓨터 비전 분야(Computer Vision)의 주요 국제 학회입니다. 최근 acceptance rate는 24.2% (2025년, 2698/11152편)입니다. 주요 연구 키워드: Multimodal, Segmentation, Diffusion, 3D, Efficient. 매년 10월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "ICCV is a leading international conference in Computer Vision. Recent acceptance rate: 24.2% (2025, 2698/11152 papers). Top research topics: Multimodal, Segmentation, Diffusion, 3D, Efficient. Typically held in October. CCF rank A, CORE A*."
 }

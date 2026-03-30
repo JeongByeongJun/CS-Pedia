@@ -132,10 +132,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 112,
+      "submitted": 534,
+      "rate": 21
+    },
+    {
       "year": 2024,
-      "accepted": 62,
-      "submitted": 311,
-      "rate": 19.9
+      "accepted": 75,
+      "submitted": 410,
+      "rate": 18.3
     },
     {
       "year": 2023,
@@ -1653,6 +1659,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "HPCA은 컴퓨터 구조 분야(Computer Architecture)의 주요 국제 학회입니다. 최근 acceptance rate는 19.9% (2024년, 62/311편)입니다. 주요 연구 키워드: Efficient, LLM, Sparse, Graph, Quantization. 매년 1월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "HPCA is a leading international conference in Computer Architecture. Recent acceptance rate: 19.9% (2024, 62/311 papers). Top research topics: Efficient, LLM, Sparse, Graph, Quantization. Typically held in January. CCF rank A, CORE A*."
+  "descriptionKo": "HPCA은 컴퓨터 구조 분야(Computer Architecture)의 주요 국제 학회입니다. 최근 acceptance rate는 21% (2025년, 112/534편)입니다. 주요 연구 키워드: Efficient, LLM, Sparse, Graph, Quantization. 매년 1월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "HPCA is a leading international conference in Computer Architecture. Recent acceptance rate: 21% (2025, 112/534 papers). Top research topics: Efficient, LLM, Sparse, Graph, Quantization. Typically held in January. CCF rank A, CORE A*."
 }

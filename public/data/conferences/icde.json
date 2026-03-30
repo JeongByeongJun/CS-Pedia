@@ -175,10 +175,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 300,
+      "submitted": 1518,
+      "rate": 19.8
+    },
+    {
       "year": 2024,
-      "accepted": 194,
-      "submitted": 916,
-      "rate": 21.2
+      "accepted": 376,
+      "submitted": 1481,
+      "rate": 25.4
     },
     {
       "year": 2023,
@@ -2851,6 +2857,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "ICDE은 데이터베이스 분야(Data Engineering)의 주요 국제 학회입니다. 최근 acceptance rate는 21.2% (2024년, 194/916편)입니다. 주요 연구 키워드: Graph, Efficient, Privacy, Index, Cloud. 매년 5월 개최. CCF A등급, CORE A*, BK21 3점.",
-  "descriptionEn": "ICDE is a leading international conference in Databases (Data Engineering). Recent acceptance rate: 21.2% (2024, 194/916 papers). Top research topics: Graph, Efficient, Privacy, Index, Cloud. Typically held in May. CCF rank A, CORE A*."
+  "descriptionKo": "ICDE은 데이터베이스 분야(Data Engineering)의 주요 국제 학회입니다. 최근 acceptance rate는 19.8% (2025년, 300/1518편)입니다. 주요 연구 키워드: Graph, Efficient, Privacy, Index, Cloud. 매년 5월 개최. CCF A등급, CORE A*, BK21 3점.",
+  "descriptionEn": "ICDE is a leading international conference in Databases (Data Engineering). Recent acceptance rate: 19.8% (2025, 300/1518 papers). Top research topics: Graph, Efficient, Privacy, Index, Cloud. Typically held in May. CCF rank A, CORE A*."
 }

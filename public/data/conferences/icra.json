@@ -133,10 +133,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 1606,
+      "submitted": 4153,
+      "rate": 38.7
+    },
+    {
       "year": 2024,
-      "accepted": 2639,
-      "submitted": 7007,
-      "rate": 37.7
+      "accepted": 1765,
+      "submitted": 3937,
+      "rate": 44.8
     },
     {
       "year": 2023,
@@ -3889,6 +3895,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICRA은 로보틱스 분야(Robotics)의 주요 국제 학회입니다. 최근 acceptance rate는 37.7% (2024년, 2639/7007편)입니다. 주요 연구 키워드: Robot, 3D, Autonomous, Navigation, Manipulation. 매년 6월 개최. CCF B등급, CORE A*, BK21 1점.",
-  "descriptionEn": "ICRA is a leading international conference in Robotics. Recent acceptance rate: 37.7% (2024, 2639/7007 papers). Top research topics: Robot, 3D, Autonomous, Navigation, Manipulation. Typically held in June. CCF rank B, CORE A*."
+  "descriptionKo": "ICRA은 로보틱스 분야(Robotics)의 주요 국제 학회입니다. 최근 acceptance rate는 38.7% (2025년, 1606/4153편)입니다. 주요 연구 키워드: Robot, 3D, Autonomous, Navigation, Manipulation. 매년 6월 개최. CCF B등급, CORE A*, BK21 1점.",
+  "descriptionEn": "ICRA is a leading international conference in Robotics. Recent acceptance rate: 38.7% (2025, 1606/4153 papers). Top research topics: Robot, 3D, Autonomous, Navigation, Manipulation. Typically held in June. CCF rank B, CORE A*."
 }

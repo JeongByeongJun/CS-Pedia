@@ -80,7 +80,14 @@
       "paperUrl": "https://arxiv.org/abs/2110.08935"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 963,
+      "submitted": 2106,
+      "rate": 45.7
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -2343,6 +2350,6 @@
       "count": 3
     }
   ],
-  "descriptionKo": "ICPR은 컴퓨터 비전 분야(Pattern Recognition)의 주요 국제 학회입니다. 주요 연구 키워드: 3D, Prompt, Efficient, Bias, Generative. 매년 8월 개최. CCF C등급, CORE B, BK21 1점.",
-  "descriptionEn": "ICPR is a leading international conference in Computer Vision (Pattern Recognition). Top research topics: 3D, Prompt, Efficient, Bias, Generative. Typically held in August. CCF rank C, CORE B."
+  "descriptionKo": "ICPR은 컴퓨터 비전 분야(Pattern Recognition)의 주요 국제 학회입니다. 최근 acceptance rate는 45.7% (2024년, 963/2106편)입니다. 주요 연구 키워드: 3D, Prompt, Efficient, Bias, Generative. 매년 8월 개최. CCF C등급, CORE B, BK21 1점.",
+  "descriptionEn": "ICPR is a leading international conference in Computer Vision (Pattern Recognition). Recent acceptance rate: 45.7% (2024, 963/2106 papers). Top research topics: 3D, Prompt, Efficient, Bias, Generative. Typically held in August. CCF rank C, CORE B."
 }

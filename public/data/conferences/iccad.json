@@ -210,7 +210,14 @@
       "paperUrl": "https://doi.org/10.1109/ICCAD66269.2025.11240747"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 195,
+      "submitted": 802,
+      "rate": 24.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2024,
@@ -2503,6 +2510,6 @@
       "count": 6
     }
   ],
-  "descriptionKo": "ICCAD은 컴퓨터 구조 분야(CAD)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, Optimization, Accelerator, LLM, 3D. 매년 11월 개최. CCF B등급, CORE A, BK21 3점.",
-  "descriptionEn": "ICCAD is a leading international conference in Computer Architecture (CAD). Top research topics: Efficient, Optimization, Accelerator, LLM, 3D. Typically held in November. CCF rank B, CORE A."
+  "descriptionKo": "ICCAD은 컴퓨터 구조 분야(CAD)의 주요 국제 학회입니다. 최근 acceptance rate는 24.3% (2024년, 195/802편)입니다. 주요 연구 키워드: Efficient, Optimization, Accelerator, LLM, 3D. 매년 11월 개최. CCF B등급, CORE A, BK21 3점.",
+  "descriptionEn": "ICCAD is a leading international conference in Computer Architecture (CAD). Recent acceptance rate: 24.3% (2024, 195/802 papers). Top research topics: Efficient, Optimization, Accelerator, LLM, 3D. Typically held in November. CCF rank B, CORE A."
 }

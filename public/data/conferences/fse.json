@@ -482,10 +482,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 135,
+      "submitted": 612,
+      "rate": 22.1
+    },
+    {
       "year": 2024,
-      "accepted": 127,
-      "submitted": 523,
-      "rate": 24.3
+      "accepted": 121,
+      "submitted": 474,
+      "rate": 25.5
     },
     {
       "year": 2023,
@@ -2349,6 +2355,6 @@
       "count": 6
     }
   ],
-  "descriptionKo": "FSE은 소프트웨어 공학 분야(Software Engineering)의 주요 국제 학회입니다. 최근 acceptance rate는 24.3% (2024년, 127/523편)입니다. 주요 연구 키워드: LLM, Testing, Vulnerability, Language Model, Agent. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "FSE is a leading international conference in Software Engineering. Recent acceptance rate: 24.3% (2024, 127/523 papers). Top research topics: LLM, Testing, Vulnerability, Language Model, Agent. Typically held in July. CCF rank A, CORE A*."
+  "descriptionKo": "FSE은 소프트웨어 공학 분야(Software Engineering)의 주요 국제 학회입니다. 최근 acceptance rate는 22.1% (2025년, 135/612편)입니다. 주요 연구 키워드: LLM, Testing, Vulnerability, Language Model, Agent. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "FSE is a leading international conference in Software Engineering. Recent acceptance rate: 22.1% (2025, 135/612 papers). Top research topics: LLM, Testing, Vulnerability, Language Model, Agent. Typically held in July. CCF rank A, CORE A*."
 }

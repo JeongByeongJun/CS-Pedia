@@ -86,7 +86,14 @@
       "paperUrl": "https://arxiv.org/abs/2508.03876"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 124,
+      "submitted": 557,
+      "rate": 22.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -764,6 +771,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "IEEE VIS은 그래픽스 분야(Visualization)의 주요 국제 학회입니다. 주요 연구 키워드: Visualization, Visual Analytics, Reconstruction, 3D, Rendering. 매년 11월 개최. CCF A등급, CORE A, BK21 4점.",
-  "descriptionEn": "IEEE VIS is a leading international conference in Graphics (Visualization). Top research topics: Visualization, Visual Analytics, Reconstruction, 3D, Rendering. Typically held in November. CCF rank A, CORE A."
+  "descriptionKo": "IEEE VIS은 그래픽스 분야(Visualization)의 주요 국제 학회입니다. 최근 acceptance rate는 22.3% (2024년, 124/557편)입니다. 주요 연구 키워드: Visualization, Visual Analytics, Reconstruction, 3D, Rendering. 매년 11월 개최. CCF A등급, CORE A, BK21 4점.",
+  "descriptionEn": "IEEE VIS is a leading international conference in Graphics (Visualization). Recent acceptance rate: 22.3% (2024, 124/557 papers). Top research topics: Visualization, Visual Analytics, Reconstruction, 3D, Rendering. Typically held in November. CCF rank A, CORE A."
 }

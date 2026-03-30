@@ -74,7 +74,14 @@
       "paperUrl": "https://doi.org/10.1007/978-981-95-5012-8_7"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 57,
+      "submitted": 255,
+      "rate": 22.4
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1222,6 +1229,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICSOC은 소프트웨어 공학 분야(Service-Oriented Computing)의 주요 국제 학회입니다. 주요 연구 키워드: Microservice, IoT, LLM, Scheduling, Cloud. CCF B등급, CORE A, BK21 1점.",
-  "descriptionEn": "ICSOC is a leading international conference in Software Engineering (Service-Oriented Computing). Top research topics: Microservice, IoT, LLM, Scheduling, Cloud. CCF rank B, CORE A."
+  "descriptionKo": "ICSOC은 소프트웨어 공학 분야(Service-Oriented Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 22.4% (2024년, 57/255편)입니다. 주요 연구 키워드: Microservice, IoT, LLM, Scheduling, Cloud. CCF B등급, CORE A, BK21 1점.",
+  "descriptionEn": "ICSOC is a leading international conference in Software Engineering (Service-Oriented Computing). Recent acceptance rate: 22.4% (2024, 57/255 papers). Top research topics: Microservice, IoT, LLM, Scheduling, Cloud. CCF rank B, CORE A."
 }

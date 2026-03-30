@@ -126,7 +126,14 @@
       "paperUrl": "https://arxiv.org/abs/2407.06107"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 22,
+      "submitted": 47,
+      "rate": 46.8
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -199,6 +206,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "I3D은 그래픽스 분야(Interactive Graphics)의 주요 국제 학회입니다. 주요 연구 키워드: 3D, Real-Time, GPU, Compression, Animation. 매년 5월 개최. CCF B등급, CORE B, BK21 1점.",
-  "descriptionEn": "I3D is a leading international conference in Graphics (Interactive Graphics). Top research topics: 3D, Real-Time, GPU, Compression, Animation. Typically held in May. CCF rank B, CORE B."
+  "descriptionKo": "I3D은 그래픽스 분야(Interactive Graphics)의 주요 국제 학회입니다. 최근 acceptance rate는 46.8% (2024년, 22/47편)입니다. 주요 연구 키워드: 3D, Real-Time, GPU, Compression, Animation. 매년 5월 개최. CCF B등급, CORE B, BK21 1점.",
+  "descriptionEn": "I3D is a leading international conference in Graphics (Interactive Graphics). Recent acceptance rate: 46.8% (2024, 22/47 papers). Top research topics: 3D, Real-Time, GPU, Compression, Animation. Typically held in May. CCF rank B, CORE B."
 }

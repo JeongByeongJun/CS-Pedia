@@ -90,7 +90,14 @@
       "paperUrl": "http://arxiv.org/abs/2210.05889v3"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 26,
+      "submitted": 152,
+      "rate": 17.1
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -828,6 +835,6 @@
       "count": 4
     }
   ],
-  "descriptionKo": "HPDC은 시스템 분야(Distributed Computing)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, Compression, GPU, FPGA, Distributed. 매년 7월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "HPDC is a leading international conference in Systems (Distributed Computing). Top research topics: Efficient, Compression, GPU, FPGA, Distributed. Typically held in July. CCF rank B, CORE A."
+  "descriptionKo": "HPDC은 시스템 분야(Distributed Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 17.1% (2024년, 26/152편)입니다. 주요 연구 키워드: Efficient, Compression, GPU, FPGA, Distributed. 매년 7월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "HPDC is a leading international conference in Systems (Distributed Computing). Recent acceptance rate: 17.1% (2024, 26/152 papers). Top research topics: Efficient, Compression, GPU, FPGA, Distributed. Typically held in July. CCF rank B, CORE A."
 }

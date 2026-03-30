@@ -113,6 +113,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 121,
+      "submitted": 552,
+      "rate": 21.9
+    },
+    {
       "year": 2022,
       "accepted": 154,
       "submitted": null,
@@ -2056,6 +2062,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ICDCS은 시스템 분야(Distributed Computing)의 주요 국제 학회입니다. 주요 연구 키워드: Distributed, Efficient, Federated Learning, Scheduling, Consensus. 매년 6월 개최. CCF B등급, CORE A, BK21 3점.",
-  "descriptionEn": "ICDCS is a leading international conference in Systems (Distributed Computing). Top research topics: Distributed, Efficient, Federated Learning, Scheduling, Consensus. Typically held in June. CCF rank B, CORE A."
+  "descriptionKo": "ICDCS은 시스템 분야(Distributed Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 21.9% (2024년, 121/552편)입니다. 주요 연구 키워드: Distributed, Efficient, Federated Learning, Scheduling, Consensus. 매년 6월 개최. CCF B등급, CORE A, BK21 3점.",
+  "descriptionEn": "ICDCS is a leading international conference in Systems (Distributed Computing). Recent acceptance rate: 21.9% (2024, 121/552 papers). Top research topics: Distributed, Efficient, Federated Learning, Scheduling, Consensus. Typically held in June. CCF rank B, CORE A."
 }
