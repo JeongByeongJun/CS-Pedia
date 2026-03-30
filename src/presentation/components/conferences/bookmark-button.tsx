@@ -4,6 +4,7 @@ import { useOptimistic, useTransition } from "react";
 import { Bookmark, BookmarkCheck } from "lucide-react";
 import { toggleBookmark } from "@/app/actions/bookmark";
 import { useAuth } from "@/presentation/providers/auth-provider";
+import { useLocale } from "@/presentation/hooks/use-locale";
 
 interface BookmarkButtonProps {
   conferenceId: string;
@@ -17,6 +18,7 @@ export function BookmarkButton({
   isLoggedIn: serverIsLoggedIn,
 }: BookmarkButtonProps) {
   const auth = useAuth();
+  const { isKorean } = useLocale();
   const isLoggedIn = auth.isLoading ? serverIsLoggedIn : auth.isLoggedIn;
   const isBookmarked = auth.isLoading ? initialBookmarked : auth.bookmarkedIds.includes(conferenceId);
 
@@ -56,7 +58,7 @@ export function BookmarkButton({
           ? "text-indigo-600 hover:bg-indigo-50"
           : "text-zinc-300 hover:text-zinc-500 hover:bg-zinc-50"
       }`}
-      title={optimisticBookmarked ? "북마크 해제" : "북마크 추가"}
+      title={optimisticBookmarked ? (isKorean ? "북마크 해제" : "Remove bookmark") : (isKorean ? "북마크 추가" : "Add bookmark")}
     >
       {optimisticBookmarked ? (
         <BookmarkCheck className="w-5 h-5" />

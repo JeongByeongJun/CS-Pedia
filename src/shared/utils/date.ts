@@ -36,8 +36,13 @@ const TZ_OFFSETS: Record<string, number> = {
   "EDT": -4,
   "UTC": 0,
   "GMT": 0,
+  "BST": 1,    // British Summer Time
   "CET": 1,
   "CEST": 2,
+  "IST": 5.5,  // India Standard Time
+  "JST": 9,    // Japan Standard Time
+  "KST": 9,    // Korea Standard Time
+  "AEST": 10,  // Australian Eastern Standard Time
 };
 
 /**
@@ -77,10 +82,14 @@ export function formatDeadlineLocal(deadline: Date | string, timezone: string): 
   // Map GMT offset → readable abbreviation
   const offsetMin = -utcDate.getTimezoneOffset();
   const tzMap: Record<number, string> = {
-    540: "KST",    // UTC+9
-    330: "IST",    // UTC+5:30
-    60: "CET",     // UTC+1
+    600: "AEST",   // UTC+10 (Australian Eastern)
+    540: "KST",    // UTC+9 (Korea/Japan — JST shares same offset)
+    480: "SGT",    // UTC+8 (Singapore/China)
+    330: "IST",    // UTC+5:30 (India)
+    120: "CEST",   // UTC+2 (Central European Summer)
+    60: "CET",     // UTC+1 (Central European)
     0: "UTC",
+    [-180]: "BRT", // UTC-3 (Brazil)
     [-300]: "EST", // UTC-5
     [-240]: "EDT", // UTC-4
     [-360]: "CST", // UTC-6

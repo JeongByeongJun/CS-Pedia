@@ -199,6 +199,7 @@ export const metadata: Metadata = {
     url: "https://cs-pedia.io",
     siteName: "CS-Pedia",
     locale: "ko_KR",
+    alternateLocale: "en_US",
     type: "website",
   },
   twitter: {

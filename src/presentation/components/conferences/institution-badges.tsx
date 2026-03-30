@@ -40,20 +40,21 @@ const NOT_RECOGNIZED_STYLE =
   "bg-zinc-100 text-zinc-400 border border-zinc-200";
 
 // BK21 점수 표시
-const BK21_DISPLAY: Record<string, string> = {
+const BK21_DISPLAY_KR: Record<string, string> = {
   "4": "4점",
   "3": "3점",
   "2": "2점",
   "1": "1점",
 };
 
-function getTierDisplay(institution: string, tier: string | null): { text: string; style: string } {
+function getTierDisplay(institution: string, tier: string | null, isKorean: boolean): { text: string; style: string } {
   if (!tier) {
     return { text: "—", style: NOT_RECOGNIZED_STYLE };
   }
 
   if (institution === "BK21") {
-    return { text: BK21_DISPLAY[tier] ?? tier, style: BK21_STYLES[tier] ?? RECOGNIZED_STYLE };
+    const text = isKorean ? (BK21_DISPLAY_KR[tier] ?? tier) : tier;
+    return { text, style: BK21_STYLES[tier] ?? RECOGNIZED_STYLE };
   }
 
   if (institution === "KIISE" || institution === "POSTECH") {
@@ -94,7 +95,7 @@ export function InstitutionBadges({ ratings, isKorean }: InstitutionBadgesProps)
     <div className="flex gap-1 flex-wrap justify-end">
       {institutions.map((inst) => {
         const tier = ratingMap.get(inst) ?? null;
-        const { text, style } = getTierDisplay(inst, tier);
+        const { text, style } = getTierDisplay(inst, tier, isKorean);
         const label = SHORT_LABELS[inst] ?? inst;
 
         return (

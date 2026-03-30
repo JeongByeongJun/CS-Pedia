@@ -51,7 +51,7 @@ export function ConferenceFilters({
                   : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
               }`}
             >
-              {f}
+              {f === "전체" ? (isKorean ? "전체" : "All") : f}
             </button>
           ))}
         </div>
