@@ -341,10 +341,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 5290,
+      "submitted": 21575,
+      "rate": 24.5
+    },
+    {
       "year": 2024,
-      "accepted": 3584,
+      "accepted": 4035,
       "submitted": 15671,
-      "rate": 22.9
+      "rate": 25.8
     },
     {
       "year": 2023,
@@ -4458,6 +4464,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "NeurIPS은 AI/ML 분야(Machine Learning)의 주요 국제 학회입니다. 최근 acceptance rate는 22.9% (2024년, 3584/15671편)입니다. 주요 연구 키워드: Complexity, LLM. 매년 12월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "NeurIPS is a leading international conference in AI/ML (Machine Learning). Recent acceptance rate: 22.9% (2024, 3584/15671 papers). Top research topics: Complexity, LLM. Typically held in December. CCF rank A, CORE A*."
+  "descriptionKo": "NeurIPS은 AI/ML 분야(Machine Learning)의 주요 국제 학회입니다. 최근 acceptance rate는 24.5% (2025년, 5290/21575편)입니다. 주요 연구 키워드: Complexity, LLM. 매년 12월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "NeurIPS is a leading international conference in AI/ML (Machine Learning). Recent acceptance rate: 24.5% (2025, 5290/21575 papers). Top research topics: Complexity, LLM. Typically held in December. CCF rank A, CORE A*."
 }

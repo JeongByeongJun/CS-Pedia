@@ -187,10 +187,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 53,
+      "submitted": 339,
+      "rate": 15.6
+    },
+    {
       "year": 2024,
-      "accepted": 50,
-      "submitted": 315,
-      "rate": 15.9
+      "accepted": 53,
+      "submitted": 276,
+      "rate": 19.2
     },
     {
       "year": 2022,
@@ -1012,6 +1018,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "OSDI은 시스템 분야(Operating Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 15.9% (2024년, 50/315편)입니다. 주요 연구 키워드: Efficient, Distributed, Latency, Large Language Model, Language Model. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "OSDI is a leading international conference in Systems (Operating Systems). Recent acceptance rate: 15.9% (2024, 50/315 papers). Top research topics: Efficient, Distributed, Latency, Large Language Model, Language Model. Typically held in July. CCF rank A, CORE A*."
+  "descriptionKo": "OSDI은 시스템 분야(Operating Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 15.6% (2025년, 53/339편)입니다. 주요 연구 키워드: Efficient, Distributed, Latency, Large Language Model, Language Model. 매년 7월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "OSDI is a leading international conference in Systems (Operating Systems). Recent acceptance rate: 15.6% (2025, 53/339 papers). Top research topics: Efficient, Distributed, Latency, Large Language Model, Language Model. Typically held in July. CCF rank A, CORE A*."
 }

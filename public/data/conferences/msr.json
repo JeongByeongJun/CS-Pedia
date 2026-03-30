@@ -243,7 +243,14 @@
       "paperUrl": "https://ieeexplore.ieee.org/document/11025657/"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 45,
+      "submitted": 171,
+      "rate": 26.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2024,
@@ -931,6 +938,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "MSR은 소프트웨어 공학 분야(Mining SE)의 주요 국제 학회입니다. 주요 연구 키워드: Dataset, Vulnerability, LLM, Prompt, Benchmark. 매년 4월 개최. CCF C등급, CORE A.",
-  "descriptionEn": "MSR is a leading international conference in Software Engineering (Mining SE). Top research topics: Dataset, Vulnerability, LLM, Prompt, Benchmark. Typically held in April. CCF rank C, CORE A."
+  "descriptionKo": "MSR은 소프트웨어 공학 분야(Mining SE)의 주요 국제 학회입니다. 최근 acceptance rate는 26.3% (2025년, 45/171편)입니다. 주요 연구 키워드: Dataset, Vulnerability, LLM, Prompt, Benchmark. 매년 4월 개최. CCF C등급, CORE A.",
+  "descriptionEn": "MSR is a leading international conference in Software Engineering (Mining SE). Recent acceptance rate: 26.3% (2025, 45/171 papers). Top research topics: Dataset, Vulnerability, LLM, Prompt, Benchmark. Typically held in April. CCF rank C, CORE A."
 }

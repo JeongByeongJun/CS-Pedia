@@ -225,7 +225,14 @@
       "paperUrl": "https://arxiv.org/abs/2506.23174"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 42,
+      "submitted": 233,
+      "rate": 18
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1338,6 +1345,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "MobiSys은 네트워크 분야(Mobile Systems)의 주요 국제 학회입니다. 주요 연구 키워드: Real-Time, Wireless, LLM, Embedded, Efficient. 매년 6월 개최. CCF B등급, CORE A, BK21 3점.",
-  "descriptionEn": "MobiSys is a leading international conference in Networks (Mobile Systems). Top research topics: Real-Time, Wireless, LLM, Embedded, Efficient. Typically held in June. CCF rank B, CORE A."
+  "descriptionKo": "MobiSys은 네트워크 분야(Mobile Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 18% (2025년, 42/233편)입니다. 주요 연구 키워드: Real-Time, Wireless, LLM, Embedded, Efficient. 매년 6월 개최. CCF B등급, CORE A, BK21 3점.",
+  "descriptionEn": "MobiSys is a leading international conference in Networks (Mobile Systems). Recent acceptance rate: 18% (2025, 42/233 papers). Top research topics: Real-Time, Wireless, LLM, Embedded, Efficient. Typically held in June. CCF rank B, CORE A."
 }

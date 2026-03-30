@@ -112,10 +112,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 163,
+      "submitted": 594,
+      "rate": 27.4
+    },
+    {
       "year": 2024,
-      "accepted": 71,
-      "submitted": 376,
-      "rate": 18.9
+      "accepted": 135,
+      "submitted": 423,
+      "rate": 31.9
     },
     {
       "year": 2023,
@@ -1194,6 +1200,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "RSS은 로보틱스 분야(Robotics)의 주요 국제 학회입니다. 최근 acceptance rate는 18.9% (2024년, 71/376편)입니다. 주요 연구 키워드: Manipulation, Robot, Navigation, Simulation, Diffusion. 매년 7월 개최. BK21 2점.",
-  "descriptionEn": "RSS is a leading international conference in Robotics. Recent acceptance rate: 18.9% (2024, 71/376 papers). Top research topics: Manipulation, Robot, Navigation, Simulation, Diffusion. Typically held in July."
+  "descriptionKo": "RSS은 로보틱스 분야(Robotics)의 주요 국제 학회입니다. 최근 acceptance rate는 27.4% (2025년, 163/594편)입니다. 주요 연구 키워드: Manipulation, Robot, Navigation, Simulation, Diffusion. 매년 7월 개최. BK21 2점.",
+  "descriptionEn": "RSS is a leading international conference in Robotics. Recent acceptance rate: 27.4% (2025, 163/594 papers). Top research topics: Manipulation, Robot, Navigation, Simulation, Diffusion. Typically held in July."
 }

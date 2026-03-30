@@ -94,7 +94,14 @@
       "paperUrl": "https://ieeexplore.ieee.org/document/10155708/"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 30,
+      "submitted": 109,
+      "rate": 27.5
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -777,6 +784,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "RTAS은 시스템 분야(Embedded Systems)의 주요 국제 학회입니다. 주요 연구 키워드: Scheduling, Real-Time, Cyber-Physical, Safety, Schedulability. 매년 5월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "RTAS is a leading international conference in Systems (Embedded Systems). Top research topics: Scheduling, Real-Time, Cyber-Physical, Safety, Schedulability. Typically held in May. CCF rank B, CORE A."
+  "descriptionKo": "RTAS은 시스템 분야(Embedded Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 27.5% (2025년, 30/109편)입니다. 주요 연구 키워드: Scheduling, Real-Time, Cyber-Physical, Safety, Schedulability. 매년 5월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "RTAS is a leading international conference in Systems (Embedded Systems). Recent acceptance rate: 27.5% (2025, 30/109 papers). Top research topics: Scheduling, Real-Time, Cyber-Physical, Safety, Schedulability. Typically held in May. CCF rank B, CORE A."
 }

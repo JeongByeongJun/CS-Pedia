@@ -351,10 +351,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 257,
+      "submitted": 1740,
+      "rate": 14.8
+    },
+    {
       "year": 2024,
-      "accepted": 171,
+      "accepted": 261,
       "submitted": 1466,
-      "rate": 11.7
+      "rate": 17.8
     },
     {
       "year": 2023,
@@ -2488,6 +2494,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "S&P은 보안 분야(Security)의 주요 국제 학회입니다. 최근 acceptance rate는 11.7% (2024년, 171/1466편)입니다. 주요 연구 키워드: Privacy, Efficient, Adversarial, Vulnerability, Differential Privacy. 매년 5월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "S&P is a leading international conference in Security. Recent acceptance rate: 11.7% (2024, 171/1466 papers). Top research topics: Privacy, Efficient, Adversarial, Vulnerability, Differential Privacy. Typically held in May. CCF rank A, CORE A*."
+  "descriptionKo": "S&P은 보안 분야(Security)의 주요 국제 학회입니다. 최근 acceptance rate는 14.8% (2025년, 257/1740편)입니다. 주요 연구 키워드: Privacy, Efficient, Adversarial, Vulnerability, Differential Privacy. 매년 5월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "S&P is a leading international conference in Security. Recent acceptance rate: 14.8% (2025, 257/1740 papers). Top research topics: Privacy, Efficient, Adversarial, Vulnerability, Differential Privacy. Typically held in May. CCF rank A, CORE A*."
 }

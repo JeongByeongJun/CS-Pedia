@@ -111,6 +111,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 62,
+      "submitted": 242,
+      "rate": 25.6
+    },
+    {
       "year": 2022,
       "accepted": 156,
       "submitted": null,
@@ -719,6 +725,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "SANER은 소프트웨어 공학 분야(Software Analysis)의 주요 국제 학회입니다. 주요 연구 키워드: Graph, Fairness, LLM, Bias, Language Model. 매년 3월 개최. CCF B등급, CORE A.",
-  "descriptionEn": "SANER is a leading international conference in Software Engineering (Software Analysis). Top research topics: Graph, Fairness, LLM, Bias, Language Model. Typically held in March. CCF rank B, CORE A."
+  "descriptionKo": "SANER은 소프트웨어 공학 분야(Software Analysis)의 주요 국제 학회입니다. 최근 acceptance rate는 25.6% (2024년, 62/242편)입니다. 주요 연구 키워드: Graph, Fairness, LLM, Bias, Language Model. 매년 3월 개최. CCF B등급, CORE A.",
+  "descriptionEn": "SANER is a leading international conference in Software Engineering (Software Analysis). Recent acceptance rate: 25.6% (2024, 62/242 papers). Top research topics: Graph, Fairness, LLM, Bias, Language Model. Typically held in March. CCF rank B, CORE A."
 }

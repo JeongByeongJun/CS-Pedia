@@ -185,7 +185,14 @@
       "paperUrl": "http://arxiv.org/abs/2504.08946v1"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 148,
+      "submitted": 384,
+      "rate": 38.5
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1258,6 +1265,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "OOPSLA은 프로그래밍 언어 분야(Programming Languages)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, Compiler, Testing, Safety, Fuzzing. 매년 10월 개최. CCF A등급, CORE A, BK21 4점.",
-  "descriptionEn": "OOPSLA is a leading international conference in Programming Languages. Top research topics: Efficient, Compiler, Testing, Safety, Fuzzing. Typically held in October. CCF rank A, CORE A."
+  "descriptionKo": "OOPSLA은 프로그래밍 언어 분야(Programming Languages)의 주요 국제 학회입니다. 최근 acceptance rate는 38.5% (2024년, 148/384편)입니다. 주요 연구 키워드: Efficient, Compiler, Testing, Safety, Fuzzing. 매년 10월 개최. CCF A등급, CORE A, BK21 4점.",
+  "descriptionEn": "OOPSLA is a leading international conference in Programming Languages. Recent acceptance rate: 38.5% (2024, 148/384 papers). Top research topics: Efficient, Compiler, Testing, Safety, Fuzzing. Typically held in October. CCF rank A, CORE A."
 }

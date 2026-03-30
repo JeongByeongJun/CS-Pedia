@@ -119,7 +119,14 @@
       "paperUrl": "https://arxiv.org/abs/2405.14975"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 169,
+      "submitted": 674,
+      "rate": 25.1
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2024,
@@ -137,6 +144,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "PETS은 보안 분야(Privacy)의 주요 국제 학회입니다. 주요 연구 키워드: Attention, Safety, Optimization. 매년 7월 개최. CCF C등급, CORE A.",
-  "descriptionEn": "PETS is a leading international conference in Security (Privacy). Top research topics: Attention, Safety, Optimization. Typically held in July. CCF rank C, CORE A."
+  "descriptionKo": "PETS은 보안 분야(Privacy)의 주요 국제 학회입니다. 최근 acceptance rate는 25.1% (2025년, 169/674편)입니다. 주요 연구 키워드: Attention, Safety, Optimization. 매년 7월 개최. CCF C등급, CORE A.",
+  "descriptionEn": "PETS is a leading international conference in Security (Privacy). Recent acceptance rate: 25.1% (2025, 169/674 papers). Top research topics: Attention, Safety, Optimization. Typically held in July. CCF rank C, CORE A."
 }

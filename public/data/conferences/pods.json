@@ -208,7 +208,14 @@
       "paperUrl": "https://arxiv.org/abs/2003.14265"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 45,
+      "submitted": 127,
+      "rate": 35.4
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -566,6 +573,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "PODS은 데이터베이스 분야(Database Theory)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Efficient, Graph, Fairness, Dataset. 매년 6월 개최. CCF B등급, CORE A*, BK21 3점.",
-  "descriptionEn": "PODS is a leading international conference in Databases (Database Theory). Top research topics: Complexity, Efficient, Graph, Fairness, Dataset. Typically held in June. CCF rank B, CORE A*."
+  "descriptionKo": "PODS은 데이터베이스 분야(Database Theory)의 주요 국제 학회입니다. 최근 acceptance rate는 35.4% (2025년, 45/127편)입니다. 주요 연구 키워드: Complexity, Efficient, Graph, Fairness, Dataset. 매년 6월 개최. CCF B등급, CORE A*, BK21 3점.",
+  "descriptionEn": "PODS is a leading international conference in Databases (Database Theory). Recent acceptance rate: 35.4% (2025, 45/127 papers). Top research topics: Complexity, Efficient, Graph, Fairness, Dataset. Typically held in June. CCF rank B, CORE A*."
 }

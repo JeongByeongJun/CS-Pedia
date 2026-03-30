@@ -178,7 +178,14 @@
       "paperUrl": "https://doi.org/10.1145/3743740"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 40,
+      "submitted": 147,
+      "rate": 27.2
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -856,6 +863,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "MobileHCI은 인간-컴퓨터 상호작용 분야(Mobile HCI)의 주요 국제 학회입니다. 주요 연구 키워드: Augmented Reality, Gesture, Privacy, Virtual Reality, AR. 매년 8월 개최. CCF B등급, CORE B.",
-  "descriptionEn": "MobileHCI is a leading international conference in Human-Computer Interaction (Mobile HCI). Top research topics: Augmented Reality, Gesture, Privacy, Virtual Reality, AR. Typically held in August. CCF rank B, CORE B."
+  "descriptionKo": "MobileHCI은 인간-컴퓨터 상호작용 분야(Mobile HCI)의 주요 국제 학회입니다. 최근 acceptance rate는 27.2% (2025년, 40/147편)입니다. 주요 연구 키워드: Augmented Reality, Gesture, Privacy, Virtual Reality, AR. 매년 8월 개최. CCF B등급, CORE B.",
+  "descriptionEn": "MobileHCI is a leading international conference in Human-Computer Interaction (Mobile HCI). Recent acceptance rate: 27.2% (2025, 40/147 papers). Top research topics: Augmented Reality, Gesture, Privacy, Virtual Reality, AR. Typically held in August. CCF rank B, CORE B."
 }

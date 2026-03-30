@@ -154,10 +154,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 719,
+      "submitted": 3185,
+      "rate": 22.6
+    },
+    {
       "year": 2024,
       "accepted": 565,
-      "submitted": 2171,
-      "rate": 26
+      "submitted": 2434,
+      "rate": 23.2
     },
     {
       "year": 2022,
@@ -2514,6 +2520,6 @@
       "count": 7
     }
   ],
-  "descriptionKo": "NAACL은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 최근 acceptance rate는 26% (2024년, 565/2171편)입니다. 주요 연구 키워드: LLM, Benchmark, Efficient, Multimodal, Language Model. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "NAACL is a leading international conference in Natural Language Processing. Recent acceptance rate: 26% (2024, 565/2171 papers). Top research topics: LLM, Benchmark, Efficient, Multimodal, Language Model. CCF rank B, CORE A."
+  "descriptionKo": "NAACL은 자연어 처리 분야(Natural Language Processing)의 주요 국제 학회입니다. 최근 acceptance rate는 22.6% (2025년, 719/3185편)입니다. 주요 연구 키워드: LLM, Benchmark, Efficient, Multimodal, Language Model. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "NAACL is a leading international conference in Natural Language Processing. Recent acceptance rate: 22.6% (2025, 719/3185 papers). Top research topics: LLM, Benchmark, Efficient, Multimodal, Language Model. CCF rank B, CORE A."
 }

@@ -126,7 +126,14 @@
       "paperUrl": "https://doi.org/10.1109/RTSS66672.2025.00049"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 43,
+      "submitted": 200,
+      "rate": 21.5
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -919,6 +926,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "RTSS은 시스템 분야(Real-Time Systems)의 주요 국제 학회입니다. 주요 연구 키워드: Real-Time, Scheduling, WCET, Efficient, Latency. 매년 12월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "RTSS is a leading international conference in Systems (Real-Time Systems). Top research topics: Real-Time, Scheduling, WCET, Efficient, Latency. Typically held in December. CCF rank A, CORE A*."
+  "descriptionKo": "RTSS은 시스템 분야(Real-Time Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 21.5% (2025년, 43/200편)입니다. 주요 연구 키워드: Real-Time, Scheduling, WCET, Efficient, Latency. 매년 12월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "RTSS is a leading international conference in Systems (Real-Time Systems). Recent acceptance rate: 21.5% (2025, 43/200 papers). Top research topics: Real-Time, Scheduling, WCET, Efficient, Latency. Typically held in December. CCF rank A, CORE A*."
 }

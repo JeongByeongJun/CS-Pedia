@@ -63,7 +63,14 @@
       "paperUrl": "https://doi.org/10.1145/3626774"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 66,
+      "submitted": 382,
+      "rate": 17.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -156,6 +163,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "PERFORMANCE은 컴퓨터 구조 분야(Performance Evaluation)의 주요 국제 학회입니다. 주요 연구 키워드: Scheduling, Load Balancing, Optimization, Concurrency, Sublinear. CCF B등급, BK21 2점.",
-  "descriptionEn": "PERFORMANCE is a leading international conference in Computer Architecture (Performance Evaluation). Top research topics: Scheduling, Load Balancing, Optimization, Concurrency, Sublinear. CCF rank B."
+  "descriptionKo": "PERFORMANCE은 컴퓨터 구조 분야(Performance Evaluation)의 주요 국제 학회입니다. 최근 acceptance rate는 17.3% (2025년, 66/382편)입니다. 주요 연구 키워드: Scheduling, Load Balancing, Optimization, Concurrency, Sublinear. CCF B등급, BK21 2점.",
+  "descriptionEn": "PERFORMANCE is a leading international conference in Computer Architecture (Performance Evaluation). Recent acceptance rate: 17.3% (2025, 66/382 papers). Top research topics: Scheduling, Load Balancing, Optimization, Concurrency, Sublinear. CCF rank B."
 }

@@ -124,7 +124,14 @@
       "paperUrl": "https://doi.org/10.2312/pg.20211385"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 97,
+      "submitted": 257,
+      "rate": 37.7
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -567,6 +574,6 @@
       "count": 4
     }
   ],
-  "descriptionKo": "Pacific Graphics은 그래픽스 분야(Computer Graphics)의 주요 국제 학회입니다. 주요 연구 키워드: Cloud, 3D, Shape, Point Cloud, Real-Time. 매년 10월 개최. CCF B등급, BK21 2점.",
-  "descriptionEn": "Pacific Graphics is a leading international conference in Graphics (Computer Graphics). Top research topics: Cloud, 3D, Shape, Point Cloud, Real-Time. Typically held in October. CCF rank B."
+  "descriptionKo": "Pacific Graphics은 그래픽스 분야(Computer Graphics)의 주요 국제 학회입니다. 최근 acceptance rate는 37.7% (2025년, 97/257편)입니다. 주요 연구 키워드: Cloud, 3D, Shape, Point Cloud, Real-Time. 매년 10월 개최. CCF B등급, BK21 2점.",
+  "descriptionEn": "Pacific Graphics is a leading international conference in Graphics (Computer Graphics). Recent acceptance rate: 37.7% (2025, 97/257 papers). Top research topics: Cloud, 3D, Shape, Point Cloud, Real-Time. Typically held in October. CCF rank B."
 }

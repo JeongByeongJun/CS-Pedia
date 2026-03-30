@@ -77,6 +77,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 216,
+      "submitted": 939,
+      "rate": 23
+    },
+    {
       "year": 2022,
       "accepted": 301,
       "submitted": null,
@@ -84,6 +90,6 @@
     }
   ],
   "keywordTrends": [],
-  "descriptionKo": "SAC은 소프트웨어 공학 분야(Applied Computing)의 주요 국제 학회입니다. 매년 3월 개최. CCF C등급, BK21 1점.",
-  "descriptionEn": "SAC is a leading international conference in Software Engineering (Applied Computing). Typically held in March. CCF rank C."
+  "descriptionKo": "SAC은 소프트웨어 공학 분야(Applied Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 23% (2025년, 216/939편)입니다. 매년 3월 개최. CCF C등급, BK21 1점.",
+  "descriptionEn": "SAC is a leading international conference in Software Engineering (Applied Computing). Recent acceptance rate: 23% (2025, 216/939 papers). Typically held in March. CCF rank C."
 }

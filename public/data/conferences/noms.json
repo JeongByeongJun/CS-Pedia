@@ -88,6 +88,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 50,
+      "submitted": 170,
+      "rate": 29.4
+    },
+    {
       "year": 2022,
       "accepted": 201,
       "submitted": null,
@@ -716,6 +722,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "NOMS은 네트워크 분야(Network Management)의 주요 국제 학회입니다. 주요 연구 키워드: IoT, 5G, Cloud, Reinforcement Learning, Efficient. 매년 5월 개최. CORE B, BK21 1점.",
-  "descriptionEn": "NOMS is a leading international conference in Networks (Network Management). Top research topics: IoT, 5G, Cloud, Reinforcement Learning, Efficient. Typically held in May. CORE B."
+  "descriptionKo": "NOMS은 네트워크 분야(Network Management)의 주요 국제 학회입니다. 최근 acceptance rate는 29.4% (2024년, 50/170편)입니다. 주요 연구 키워드: IoT, 5G, Cloud, Reinforcement Learning, Efficient. 매년 5월 개최. CORE B, BK21 1점.",
+  "descriptionEn": "NOMS is a leading international conference in Networks (Network Management). Recent acceptance rate: 29.4% (2024, 50/170 papers). Top research topics: IoT, 5G, Cloud, Reinforcement Learning, Efficient. Typically held in May. CORE B."
 }

@@ -113,6 +113,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 134,
+      "submitted": 557,
+      "rate": 24.1
+    },
+    {
       "year": 2021,
       "accepted": 1,
       "submitted": null,
@@ -1751,6 +1757,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "PAKDD은 AI/ML 분야(Data Mining)의 주요 국제 학회입니다. 주요 연구 키워드: Graph, Efficient, Multimodal, Attention, Contrastive Learning. 매년 6월 개최. CCF C등급, CORE B, BK21 1점.",
-  "descriptionEn": "PAKDD is a leading international conference in AI/ML (Data Mining). Top research topics: Graph, Efficient, Multimodal, Attention, Contrastive Learning. Typically held in June. CCF rank C, CORE B."
+  "descriptionKo": "PAKDD은 AI/ML 분야(Data Mining)의 주요 국제 학회입니다. 최근 acceptance rate는 24.1% (2025년, 134/557편)입니다. 주요 연구 키워드: Graph, Efficient, Multimodal, Attention, Contrastive Learning. 매년 6월 개최. CCF C등급, CORE B, BK21 1점.",
+  "descriptionEn": "PAKDD is a leading international conference in AI/ML (Data Mining). Recent acceptance rate: 24.1% (2025, 134/557 papers). Top research topics: Graph, Efficient, Multimodal, Attention, Contrastive Learning. Typically held in June. CCF rank C, CORE B."
 }

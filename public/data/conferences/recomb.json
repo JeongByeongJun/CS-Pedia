@@ -86,8 +86,15 @@
       "paperUrl": "https://www.biorxiv.org/content/10.1101/2025.02.17.638151v1"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 55,
+      "submitted": 339,
+      "rate": 16.2
+    }
+  ],
   "keywordTrends": [],
-  "descriptionKo": "RECOMB은 AI/ML 분야(Computational Biology)의 주요 국제 학회입니다. 매년 5월 개최. CORE B, BK21 1점.",
-  "descriptionEn": "RECOMB is a leading international conference in AI/ML (Computational Biology). Typically held in May. CORE B."
+  "descriptionKo": "RECOMB은 AI/ML 분야(Computational Biology)의 주요 국제 학회입니다. 최근 acceptance rate는 16.2% (2025년, 55/339편)입니다. 매년 5월 개최. CORE B, BK21 1점.",
+  "descriptionEn": "RECOMB is a leading international conference in AI/ML (Computational Biology). Recent acceptance rate: 16.2% (2025, 55/339 papers). Typically held in May. CORE B."
 }

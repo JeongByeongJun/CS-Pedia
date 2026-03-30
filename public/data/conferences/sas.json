@@ -86,8 +86,15 @@
       "paperUrl": "https://doi.org/10.1007/978-3-032-07106-4_11"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 18,
+      "submitted": 45,
+      "rate": 40
+    }
+  ],
   "keywordTrends": [],
-  "descriptionKo": "SAS은 프로그래밍 언어 분야(Static Analysis)의 주요 국제 학회입니다. 매년 10월 개최. CCF B등급, CORE B, BK21 1점.",
-  "descriptionEn": "SAS is a leading international conference in Programming Languages (Static Analysis). Typically held in October. CCF rank B, CORE B."
+  "descriptionKo": "SAS은 프로그래밍 언어 분야(Static Analysis)의 주요 국제 학회입니다. 최근 acceptance rate는 40% (2024년, 18/45편)입니다. 매년 10월 개최. CCF B등급, CORE B, BK21 1점.",
+  "descriptionEn": "SAS is a leading international conference in Programming Languages (Static Analysis). Recent acceptance rate: 40% (2024, 18/45 papers). Typically held in October. CCF rank B, CORE B."
 }

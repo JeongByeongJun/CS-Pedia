@@ -260,10 +260,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 211,
+      "submitted": 1311,
+      "rate": 16.1
+    },
+    {
       "year": 2024,
-      "accepted": 104,
+      "accepted": 140,
       "submitted": 694,
-      "rate": 15
+      "rate": 20.2
     },
     {
       "year": 2023,
@@ -1727,6 +1733,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "NDSS은 보안 분야(Network Security)의 주요 국제 학회입니다. 최근 acceptance rate는 15% (2024년, 104/694편)입니다. 주요 연구 키워드: Privacy, Fuzzing, Adversarial, Malware, LLM. 매년 2월 개최. CCF A등급, CORE A*, BK21 2점.",
-  "descriptionEn": "NDSS is a leading international conference in Security (Network Security). Recent acceptance rate: 15% (2024, 104/694 papers). Top research topics: Privacy, Fuzzing, Adversarial, Malware, LLM. Typically held in February. CCF rank A, CORE A*."
+  "descriptionKo": "NDSS은 보안 분야(Network Security)의 주요 국제 학회입니다. 최근 acceptance rate는 16.1% (2025년, 211/1311편)입니다. 주요 연구 키워드: Privacy, Fuzzing, Adversarial, Malware, LLM. 매년 2월 개최. CCF A등급, CORE A*, BK21 2점.",
+  "descriptionEn": "NDSS is a leading international conference in Security (Network Security). Recent acceptance rate: 16.1% (2025, 211/1311 papers). Top research topics: Privacy, Fuzzing, Adversarial, Malware, LLM. Typically held in February. CCF rank A, CORE A*."
 }

@@ -712,7 +712,14 @@
       "paperUrl": "http://arxiv.org/abs/2511.17838v1"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 79,
+      "submitted": 298,
+      "rate": 26.5
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -1325,6 +1332,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "POPL은 프로그래밍 언어 분야(Programming Languages)의 주요 국제 학회입니다. 주요 연구 키워드: Type Theory, Parameterized, Dependent Type, Consistency, Program Synthesis. 매년 1월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "POPL is a leading international conference in Programming Languages. Top research topics: Type Theory, Parameterized, Dependent Type, Consistency, Program Synthesis. Typically held in January. CCF rank A, CORE A*."
+  "descriptionKo": "POPL은 프로그래밍 언어 분야(Programming Languages)의 주요 국제 학회입니다. 최근 acceptance rate는 26.5% (2025년, 79/298편)입니다. 주요 연구 키워드: Type Theory, Parameterized, Dependent Type, Consistency, Program Synthesis. 매년 1월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "POPL is a leading international conference in Programming Languages. Recent acceptance rate: 26.5% (2025, 79/298 papers). Top research topics: Type Theory, Parameterized, Dependent Type, Consistency, Program Synthesis. Typically held in January. CCF rank A, CORE A*."
 }

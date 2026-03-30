@@ -121,7 +121,14 @@
       "paperUrl": "https://doi.org/10.1145/3710848.3710875"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 38,
+      "submitted": 189,
+      "rate": 20.1
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -839,6 +846,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "PPoPP은 시스템 분야(Parallel Programming)의 주요 국제 학회입니다. 주요 연구 키워드: Efficient, GPU, Distributed, Sparse, Attention. 매년 1월 개최. CCF A등급, CORE B, BK21 3점.",
-  "descriptionEn": "PPoPP is a leading international conference in Systems (Parallel Programming). Top research topics: Efficient, GPU, Distributed, Sparse, Attention. Typically held in January. CCF rank A, CORE B."
+  "descriptionKo": "PPoPP은 시스템 분야(Parallel Programming)의 주요 국제 학회입니다. 최근 acceptance rate는 20.1% (2025년, 38/189편)입니다. 주요 연구 키워드: Efficient, GPU, Distributed, Sparse, Attention. 매년 1월 개최. CCF A등급, CORE B, BK21 3점.",
+  "descriptionEn": "PPoPP is a leading international conference in Systems (Parallel Programming). Recent acceptance rate: 20.1% (2025, 38/189 papers). Top research topics: Efficient, GPU, Distributed, Sparse, Attention. Typically held in January. CCF rank A, CORE B."
 }

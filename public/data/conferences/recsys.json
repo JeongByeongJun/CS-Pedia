@@ -340,10 +340,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 49,
+      "submitted": 261,
+      "rate": 18.8
+    },
+    {
       "year": 2024,
-      "accepted": 73,
-      "submitted": 383,
-      "rate": 19.1
+      "accepted": 58,
+      "submitted": 266,
+      "rate": 21.8
     },
     {
       "year": 2023,
@@ -1411,6 +1417,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "RecSys은 AI/ML 분야(Recommender Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 19.1% (2024년, 73/383편)입니다. 주요 연구 키워드: LLM, Multimodal, Bias, Dataset, Conversational. 매년 9월 개최. CCF B등급, CORE A, BK21 1점.",
-  "descriptionEn": "RecSys is a leading international conference in AI/ML (Recommender Systems). Recent acceptance rate: 19.1% (2024, 73/383 papers). Top research topics: LLM, Multimodal, Bias, Dataset, Conversational. Typically held in September. CCF rank B, CORE A."
+  "descriptionKo": "RecSys은 AI/ML 분야(Recommender Systems)의 주요 국제 학회입니다. 최근 acceptance rate는 18.8% (2025년, 49/261편)입니다. 주요 연구 키워드: LLM, Multimodal, Bias, Dataset, Conversational. 매년 9월 개최. CCF B등급, CORE A, BK21 1점.",
+  "descriptionEn": "RecSys is a leading international conference in AI/ML (Recommender Systems). Recent acceptance rate: 18.8% (2025, 49/261 papers). Top research topics: LLM, Multimodal, Bias, Dataset, Conversational. Typically held in September. CCF rank B, CORE A."
 }
