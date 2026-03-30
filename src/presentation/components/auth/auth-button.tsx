@@ -26,7 +26,7 @@ export function AuthButton({ user }: AuthButtonProps) {
         <form action={signOut}>
           <button
             type="submit"
-            className="px-3 py-2 text-sm rounded-lg bg-white/10 hover:bg-white/20 transition-colors flex items-center gap-1.5"
+            className="px-3 py-2.5 text-sm rounded-lg bg-white/10 hover:bg-white/20 transition-colors flex items-center gap-1.5"
           >
             <LogOut className="w-4 h-4" />
             <span className="hidden sm:inline">{isKorean ? "로그아웃" : "Sign out"}</span>
@@ -40,7 +40,7 @@ export function AuthButton({ user }: AuthButtonProps) {
     <div className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="px-4 py-2 text-sm rounded-lg bg-indigo-500 hover:bg-indigo-400 text-white transition-colors flex items-center gap-1.5"
+        className="px-4 py-2.5 text-sm rounded-lg bg-indigo-500 hover:bg-indigo-400 text-white transition-colors flex items-center gap-1.5"
       >
         <LogIn className="w-4 h-4" />
         {isKorean ? "로그인" : "Sign in"}
@@ -61,7 +61,7 @@ export function AuthButton({ user }: AuthButtonProps) {
             <form action={signInWithGoogle}>
               <button
                 type="submit"
-                className="w-full px-3 py-2 text-sm rounded-lg hover:bg-zinc-50 flex items-center gap-2.5 whitespace-nowrap transition-colors"
+                className="w-full px-3 py-2.5 text-sm rounded-lg hover:bg-zinc-50 flex items-center gap-2.5 whitespace-nowrap transition-colors"
                 style={{ color: "#374151" }}
               >
                 <GoogleIcon />
@@ -71,7 +71,7 @@ export function AuthButton({ user }: AuthButtonProps) {
             <form action={signInWithGithub}>
               <button
                 type="submit"
-                className="w-full px-3 py-2 text-sm rounded-lg hover:bg-zinc-50 flex items-center gap-2.5 whitespace-nowrap transition-colors"
+                className="w-full px-3 py-2.5 text-sm rounded-lg hover:bg-zinc-50 flex items-center gap-2.5 whitespace-nowrap transition-colors"
                 style={{ color: "#374151" }}
               >
                 <GitHubIcon />

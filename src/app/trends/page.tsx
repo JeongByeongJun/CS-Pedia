@@ -26,7 +26,7 @@ const KeywordBarChart = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Trends — CS-Pedia",
+  title: "Trends",
   description: "Compare acceptance rate trends and research keyword trends across top CS conferences.",
   openGraph: {
     title: "Trends — CS-Pedia",

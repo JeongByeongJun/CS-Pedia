@@ -37,9 +37,13 @@ export async function GET(request: Request) {
       },
     );
 
-    const { error } = await supabase.auth.exchangeCodeForSession(code);
-    if (!error) {
-      return response;
+    try {
+      const { error } = await supabase.auth.exchangeCodeForSession(code);
+      if (!error) {
+        return response;
+      }
+    } catch {
+      // SDK threw unexpectedly — fall through to error redirect
     }
   }
 

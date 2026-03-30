@@ -6,7 +6,7 @@ import { useLocale } from "@/presentation/hooks/use-locale";
 const UPDATES_KR = [
   { date: "2026.03.25", text: "BK21 학회 55개 추가 — 총 209개 학회 (PODC, ECOOP, IPDPS, TACAS 등)" },
   { date: "2026.03.25", text: "Best Paper 논문 제목 클릭 시 원문 링크 연결 (1,500+ 논문)" },
-  { date: "2026.03.17", text: "마감 시간이 한국 시간(KST)으로 표시됩니다" },
+  { date: "2026.03.17", text: "마감 시간이 내 현지 시간으로 표시됩니다" },
 ];
 
 const UPDATES_EN = [

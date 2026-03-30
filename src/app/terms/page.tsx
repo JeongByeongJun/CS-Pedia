@@ -6,7 +6,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const country = (await headers()).get("x-vercel-ip-country");
   const isKorean = country === "KR";
   return {
-    title: isKorean ? "이용약관 — CS-Pedia" : "Terms of Service — CS-Pedia",
+    title: isKorean ? "이용약관" : "Terms of Service",
     description: isKorean
       ? "CS-Pedia 이용약관"
       : "CS-Pedia Terms of Service",

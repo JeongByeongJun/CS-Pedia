@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const years = [...new Set(papers.map((p) => p.year))].sort((a, b) => b - a);
   const yearRange = years.length > 0 ? `${years[years.length - 1]}–${years[0]}` : "";
 
-  const title = `${info.acronym} Best Papers ${yearRange} — CS-Pedia`;
+  const title = `${info.acronym} Best Papers ${yearRange}`;
   const description = `${info.acronym} (${info.nameEn}) Best Paper Award winners and distinguished papers. ${papers.length} papers from ${yearRange}.`;
 
   return {
@@ -124,7 +124,7 @@ export default async function ConferenceBestPapersPage({ params }: { params: Pro
             href={conferenceUrl(slug)}
             className="inline-flex items-center gap-1 text-xs text-indigo-500 hover:text-indigo-700 mt-2 transition-colors"
           >
-            ← {info.acronym} 학회 정보
+            ← {info.acronym} Conference Info
           </Link>
         </div>
 

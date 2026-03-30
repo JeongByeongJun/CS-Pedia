@@ -2217,7 +2217,7 @@
     "conference_start": "2027-08-23",
     "conference_end": "2027-08-27",
     "venue": "Athens, Greece",
-    "timezone": "PT"
+    "timezone": "PDT"
   },
   {
     "conference_slug": "wacv",

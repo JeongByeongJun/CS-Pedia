@@ -4,7 +4,7 @@ import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { BestPaperClientSection } from "@/presentation/components/best-papers/best-paper-client-section";
 
 export const metadata: Metadata = {
-  title: "Best Papers — CS-Pedia",
+  title: "Best Papers",
   description: "Best Paper award archive across top CS conferences. Browse by year and venue.",
   openGraph: {
     title: "Best Papers — CS-Pedia",

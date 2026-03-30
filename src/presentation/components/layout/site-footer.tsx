@@ -19,21 +19,21 @@ export function SiteFooter() {
         </p>
         <p>{isKorean ? "제출 전 데드라인·학회 일정은 공식 웹사이트에서 반드시 확인하세요." : "Always verify deadlines on the official website before submitting."}</p>
         <div className="flex items-center justify-center gap-3 pt-1">
-          <Link href="/about" className="underline underline-offset-2 hover:text-zinc-600 transition-colors">
+          <Link href="/about" className="underline underline-offset-2 hover:text-zinc-600 transition-colors py-2 inline-block">
             {isKorean ? "소개" : "About"}
           </Link>
           <span className="text-zinc-300">·</span>
-          <Link href="/privacy" className="underline underline-offset-2 hover:text-zinc-600 transition-colors">
+          <Link href="/privacy" className="underline underline-offset-2 hover:text-zinc-600 transition-colors py-2 inline-block">
             {isKorean ? "개인정보 처리방침" : "Privacy"}
           </Link>
           <span className="text-zinc-300">·</span>
-          <Link href="/terms" className="underline underline-offset-2 hover:text-zinc-600 transition-colors">
+          <Link href="/terms" className="underline underline-offset-2 hover:text-zinc-600 transition-colors py-2 inline-block">
             {isKorean ? "이용약관" : "Terms"}
           </Link>
           <span className="text-zinc-300">·</span>
           <a
             href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer"
-            className="underline underline-offset-2 hover:text-zinc-600 transition-colors"
+            className="underline underline-offset-2 hover:text-zinc-600 transition-colors py-2 inline-block"
           >
             {isKorean ? "문의" : "Contact"}
           </a>
