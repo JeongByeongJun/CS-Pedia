@@ -12,6 +12,11 @@ import { createGetConferencesFromStatic } from "@/domain/use-cases/get-conferenc
 import { createGetConferenceDetailUseCase } from "@/domain/use-cases/get-conference-detail";
 import { createGetBestPapersUseCase } from "@/domain/use-cases/get-best-papers";
 import { createGetUpcomingDeadlinesUseCase } from "@/domain/use-cases/get-upcoming-deadlines";
+import {
+  getAllAcceptanceRatesStatic,
+  getAllKeywordTrendsStatic,
+  getTopKeywordsStatic,
+} from "@/domain/use-cases/get-trends-static";
 
 // Repository instances
 const conferenceRepo = new SupabaseConferenceRepository();
@@ -39,9 +44,8 @@ export const getUpcomingDeadlines =
 
 // Repository exports (Server Actions에서 직접 사용)
 export { bookmarkRepo, userRepo };
-export const getAllAcceptanceRates = () => acceptanceRateRepo.findAll();
-export const getAllKeywordTrends = () => keywordTrendRepo.findAll();
-export const getTopKeywords = (limit?: number) =>
-  keywordTrendRepo.findTopKeywords(limit);
+export const getAllAcceptanceRates = getAllAcceptanceRatesStatic;
+export const getAllKeywordTrends = getAllKeywordTrendsStatic;
+export const getTopKeywords = getTopKeywordsStatic;
 export const getKeywordTrendsByConference = (conferenceId: string) =>
   keywordTrendRepo.findByConferenceId(conferenceId);

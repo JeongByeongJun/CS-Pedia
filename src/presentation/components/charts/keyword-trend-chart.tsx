@@ -45,14 +45,14 @@ export function KeywordTrendChart({
   fields,
 }: KeywordTrendChartProps) {
   const { isKorean } = useLocale();
-  const [selectedField, setSelectedField] = useState<string>("전체");
+  const [selectedField, setSelectedField] = useState<string>("");
   const [selectedKeywords, setSelectedKeywords] = useState<Set<string>>(() => {
     return new Set(topKeywords.slice(0, 6).map((k) => k.keyword));
   });
 
   // Filter data by field
   const filteredData = useMemo(() => {
-    if (selectedField === "전체") return data;
+    if (!selectedField) return data;
     return data.filter((d) => d.conferenceField === selectedField);
   }, [data, selectedField]);
 
@@ -104,9 +104,9 @@ export function KeywordTrendChart({
     <div>
       {/* Field filter */}
       <div className="flex flex-wrap gap-2 mb-4">
-        {["전체", ...fields].map((f) => (
+        {["", ...fields].map((f) => (
           <button
-            key={f}
+            key={f || "__all__"}
             onClick={() => setSelectedField(f)}
             className={`px-3 py-1.5 text-xs rounded-lg transition-colors ${
               selectedField === f
@@ -114,7 +114,7 @@ export function KeywordTrendChart({
                 : "bg-zinc-100 text-zinc-600 hover:bg-zinc-200"
             }`}
           >
-            {f === "전체" ? (isKorean ? "전체" : "All") : f}
+            {f === "" ? (isKorean ? "전체" : "All") : f}
           </button>
         ))}
       </div>

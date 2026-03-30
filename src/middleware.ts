@@ -4,6 +4,19 @@ import { NextResponse, type NextRequest } from "next/server";
 export async function middleware(request: NextRequest) {
   let response = NextResponse.next({ request });
 
+  // Detect preferred language from Accept-Language header
+  const needsLangCookie = !request.cookies.has("preferred-lang");
+  let preferredLang: "ko" | "en" | null = null;
+  if (needsLangCookie) {
+    const acceptLanguage = request.headers.get("accept-language") ?? "";
+    preferredLang = acceptLanguage.toLowerCase().includes("ko") ? "ko" : "en";
+    response.cookies.set("preferred-lang", preferredLang, {
+      maxAge: 31536000,
+      path: "/",
+      sameSite: "lax",
+    });
+  }
+
   // Only create Supabase client and refresh session if user has auth cookies
   const hasAuthCookie = request.cookies.getAll().some((c) => c.name.startsWith("sb-"));
   if (hasAuthCookie) {
@@ -23,6 +36,14 @@ export async function middleware(request: NextRequest) {
             cookiesToSet.forEach(({ name, value, options }) => {
               response.cookies.set(name, value, options);
             });
+            // Re-apply preferred-lang cookie after response recreation
+            if (preferredLang) {
+              response.cookies.set("preferred-lang", preferredLang, {
+                maxAge: 31536000,
+                path: "/",
+                sameSite: "lax",
+              });
+            }
           },
         },
       },

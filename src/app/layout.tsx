@@ -215,10 +215,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko">
+    <html lang="ko" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href={process.env.NEXT_PUBLIC_SUPABASE_URL!} />
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <script dangerouslySetInnerHTML={{ __html: `(function(){var m=document.cookie.match(/preferred-lang=([^;]+)/);if(m&&m[1]==='en')document.documentElement.lang='en'})()` }} />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
