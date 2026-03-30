@@ -132,10 +132,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 132,
+      "submitted": 570,
+      "rate": 23.2
+    },
+    {
       "year": 2024,
-      "accepted": 84,
-      "submitted": 528,
-      "rate": 15.9
+      "accepted": 83,
+      "submitted": 423,
+      "rate": 19.6
     },
     {
       "year": 2023,
@@ -1528,6 +1534,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ISCA은 컴퓨터 구조 분야(Computer Architecture)의 주요 국제 학회입니다. 최근 acceptance rate는 15.9% (2024년, 84/528편)입니다. 주요 연구 키워드: Efficient, Accelerator, LLM, Cache, GPU. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "ISCA is a leading international conference in Computer Architecture. Recent acceptance rate: 15.9% (2024, 84/528 papers). Top research topics: Efficient, Accelerator, LLM, Cache, GPU. Typically held in June. CCF rank A, CORE A*."
+  "descriptionKo": "ISCA은 컴퓨터 구조 분야(Computer Architecture)의 주요 국제 학회입니다. 최근 acceptance rate는 23.2% (2025년, 132/570편)입니다. 주요 연구 키워드: Efficient, Accelerator, LLM, Cache, GPU. 매년 6월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "ISCA is a leading international conference in Computer Architecture. Recent acceptance rate: 23.2% (2025, 132/570 papers). Top research topics: Efficient, Accelerator, LLM, Cache, GPU. Typically held in June. CCF rank A, CORE A*."
 }

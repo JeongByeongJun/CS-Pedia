@@ -125,7 +125,14 @@
       "paperUrl": "https://doi.org/10.1145/3533767.3534400"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 143,
+      "submitted": 694,
+      "rate": 20.6
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2024,
@@ -1368,6 +1375,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ISSTA은 소프트웨어 공학 분야(Software Testing)의 주요 국제 학회입니다. 주요 연구 키워드: Testing, Fuzzing, LLM, Vulnerability, Language Model. 매년 10월 개최. CCF A등급, CORE A, BK21 2점.",
-  "descriptionEn": "ISSTA is a leading international conference in Software Engineering (Software Testing). Top research topics: Testing, Fuzzing, LLM, Vulnerability, Language Model. Typically held in October. CCF rank A, CORE A."
+  "descriptionKo": "ISSTA은 소프트웨어 공학 분야(Software Testing)의 주요 국제 학회입니다. 최근 acceptance rate는 20.6% (2024년, 143/694편)입니다. 주요 연구 키워드: Testing, Fuzzing, LLM, Vulnerability, Language Model. 매년 10월 개최. CCF A등급, CORE A, BK21 2점.",
+  "descriptionEn": "ISSTA is a leading international conference in Software Engineering (Software Testing). Recent acceptance rate: 20.6% (2024, 143/694 papers). Top research topics: Testing, Fuzzing, LLM, Vulnerability, Language Model. Typically held in October. CCF rank A, CORE A."
 }

@@ -75,7 +75,14 @@
       "paperUrl": "https://arxiv.org/abs/2402.10494"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 45,
+      "submitted": 115,
+      "rate": 39.1
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2021,
@@ -163,6 +170,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "IJCAR은 이론 컴퓨터과학 분야(Automated Reasoning)의 주요 국제 학회입니다. 주요 연구 키워드: SMT, Model Checking, Efficient, SAT, Debugging. 매년 7월 개최. CCF B등급, CORE A, BK21 1점.",
-  "descriptionEn": "IJCAR is a leading international conference in Theoretical Computer Science (Automated Reasoning). Top research topics: SMT, Model Checking, Efficient, SAT, Debugging. Typically held in July. CCF rank B, CORE A."
+  "descriptionKo": "IJCAR은 이론 컴퓨터과학 분야(Automated Reasoning)의 주요 국제 학회입니다. 최근 acceptance rate는 39.1% (2024년, 45/115편)입니다. 주요 연구 키워드: SMT, Model Checking, Efficient, SAT, Debugging. 매년 7월 개최. CCF B등급, CORE A, BK21 1점.",
+  "descriptionEn": "IJCAR is a leading international conference in Theoretical Computer Science (Automated Reasoning). Recent acceptance rate: 39.1% (2024, 45/115 papers). Top research topics: SMT, Model Checking, Efficient, SAT, Debugging. Typically held in July. CCF rank B, CORE A."
 }

@@ -119,10 +119,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 1027,
+      "submitted": 3447,
+      "rate": 29.8
+    },
+    {
       "year": 2024,
-      "accepted": 862,
-      "submitted": 2869,
-      "rate": 30
+      "accepted": 857,
+      "submitted": 2879,
+      "rate": 29.8
     },
     {
       "year": 2023,
@@ -2945,6 +2951,6 @@
       "count": 5
     }
   ],
-  "descriptionKo": "MICCAI은 컴퓨터 비전 분야(Medical Imaging)의 주요 국제 학회입니다. 최근 acceptance rate는 30% (2024년, 862/2869편)입니다. 주요 연구 키워드: Segmentation, Diffusion, 3D, Reconstruction, Multimodal. 매년 10월 개최. CCF B등급, CORE A, BK21 1점.",
-  "descriptionEn": "MICCAI is a leading international conference in Computer Vision (Medical Imaging). Recent acceptance rate: 30% (2024, 862/2869 papers). Top research topics: Segmentation, Diffusion, 3D, Reconstruction, Multimodal. Typically held in October. CCF rank B, CORE A."
+  "descriptionKo": "MICCAI은 컴퓨터 비전 분야(Medical Imaging)의 주요 국제 학회입니다. 최근 acceptance rate는 29.8% (2025년, 1027/3447편)입니다. 주요 연구 키워드: Segmentation, Diffusion, 3D, Reconstruction, Multimodal. 매년 10월 개최. CCF B등급, CORE A, BK21 1점.",
+  "descriptionEn": "MICCAI is a leading international conference in Computer Vision (Medical Imaging). Recent acceptance rate: 29.8% (2025, 1027/3447 papers). Top research topics: Segmentation, Diffusion, 3D, Reconstruction, Multimodal. Typically held in October. CCF rank B, CORE A."
 }

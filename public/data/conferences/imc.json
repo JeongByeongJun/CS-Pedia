@@ -125,7 +125,14 @@
       "paperUrl": "https://doi.org/10.1145/3646547.3688427"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 30,
+      "submitted": 158,
+      "rate": 19
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2024,
@@ -688,6 +695,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "IMC은 네트워크 분야(Internet Measurement)의 주요 국제 학회입니다. 주요 연구 키워드: 5G, Routing, Replication, Efficient, Cloud. 매년 10월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "IMC is a leading international conference in Networks (Internet Measurement). Top research topics: 5G, Routing, Replication, Efficient, Cloud. Typically held in October. CCF rank B, CORE A."
+  "descriptionKo": "IMC은 네트워크 분야(Internet Measurement)의 주요 국제 학회입니다. 최근 acceptance rate는 19% (2024년, 30/158편)입니다. 주요 연구 키워드: 5G, Routing, Replication, Efficient, Cloud. 매년 10월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "IMC is a leading international conference in Networks (Internet Measurement). Recent acceptance rate: 19% (2024, 30/158 papers). Top research topics: 5G, Routing, Replication, Efficient, Cloud. Typically held in October. CCF rank B, CORE A."
 }

@@ -63,7 +63,14 @@
     }
   ],
   "bestPapers": [],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 96,
+      "submitted": 303,
+      "rate": 31.7
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2025,
@@ -921,6 +928,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ITCS은 이론 컴퓨터과학 분야(Theory of Computation)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Testing, Efficient, Graph, Reconstruction. 매년 1월 개최. CORE A.",
-  "descriptionEn": "ITCS is a leading international conference in Theoretical Computer Science (Theory of Computation). Top research topics: Complexity, Testing, Efficient, Graph, Reconstruction. Typically held in January. CORE A."
+  "descriptionKo": "ITCS은 이론 컴퓨터과학 분야(Theory of Computation)의 주요 국제 학회입니다. 최근 acceptance rate는 31.7% (2025년, 96/303편)입니다. 주요 연구 키워드: Complexity, Testing, Efficient, Graph, Reconstruction. 매년 1월 개최. CORE A.",
+  "descriptionEn": "ITCS is a leading international conference in Theoretical Computer Science (Theory of Computation). Recent acceptance rate: 31.7% (2025, 96/303 papers). Top research topics: Complexity, Testing, Efficient, Graph, Reconstruction. Typically held in January. CORE A."
 }

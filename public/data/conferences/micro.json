@@ -133,10 +133,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 124,
+      "submitted": 597,
+      "rate": 20.8
+    },
+    {
       "year": 2024,
-      "accepted": 96,
-      "submitted": 438,
-      "rate": 21.9
+      "accepted": 113,
+      "submitted": 497,
+      "rate": 22.7
     },
     {
       "year": 2023,
@@ -1639,6 +1645,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "MICRO은 컴퓨터 구조 분야(Microarchitecture)의 주요 국제 학회입니다. 최근 acceptance rate는 21.9% (2024년, 96/438편)입니다. 주요 연구 키워드: Efficient, Sparse, Accelerator, LLM, GPU. 매년 10월 개최. CCF A등급, BK21 4점.",
-  "descriptionEn": "MICRO is a leading international conference in Computer Architecture (Microarchitecture). Recent acceptance rate: 21.9% (2024, 96/438 papers). Top research topics: Efficient, Sparse, Accelerator, LLM, GPU. Typically held in October. CCF rank A."
+  "descriptionKo": "MICRO은 컴퓨터 구조 분야(Microarchitecture)의 주요 국제 학회입니다. 최근 acceptance rate는 20.8% (2025년, 124/597편)입니다. 주요 연구 키워드: Efficient, Sparse, Accelerator, LLM, GPU. 매년 10월 개최. CCF A등급, BK21 4점.",
+  "descriptionEn": "MICRO is a leading international conference in Computer Architecture (Microarchitecture). Recent acceptance rate: 20.8% (2025, 124/597 papers). Top research topics: Efficient, Sparse, Accelerator, LLM, GPU. Typically held in October. CCF rank A."
 }

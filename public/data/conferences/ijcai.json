@@ -186,6 +186,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 1042,
+      "submitted": 5404,
+      "rate": 19.3
+    },
+    {
       "year": 2024,
       "accepted": 791,
       "submitted": 5651,
@@ -4103,6 +4109,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "IJCAI은 AI/ML 분야(Artificial Intelligence)의 주요 국제 학회입니다. 최근 acceptance rate는 14% (2024년, 791/5651편)입니다. 주요 연구 키워드: Graph, Diffusion, Efficient, Multimodal, Reinforcement Learning. 매년 8월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "IJCAI is a leading international conference in AI/ML (Artificial Intelligence). Recent acceptance rate: 14% (2024, 791/5651 papers). Top research topics: Graph, Diffusion, Efficient, Multimodal, Reinforcement Learning. Typically held in August. CCF rank A, CORE A*."
+  "descriptionKo": "IJCAI은 AI/ML 분야(Artificial Intelligence)의 주요 국제 학회입니다. 최근 acceptance rate는 19.3% (2025년, 1042/5404편)입니다. 주요 연구 키워드: Graph, Diffusion, Efficient, Multimodal, Reinforcement Learning. 매년 8월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "IJCAI is a leading international conference in AI/ML (Artificial Intelligence). Recent acceptance rate: 19.3% (2025, 1042/5404 papers). Top research topics: Graph, Diffusion, Efficient, Multimodal, Reinforcement Learning. Typically held in August. CCF rank A, CORE A*."
 }

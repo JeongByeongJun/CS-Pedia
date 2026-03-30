@@ -202,6 +202,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 272,
+      "submitted": 1458,
+      "rate": 18.7
+    },
+    {
       "year": 2024,
       "accepted": 267,
       "submitted": 1857,
@@ -3348,6 +3354,6 @@
       "count": 6
     }
   ],
-  "descriptionKo": "INFOCOM은 네트워크 분야(Computer Communications)의 주요 국제 학회입니다. 최근 acceptance rate는 14.4% (2024년, 267/1857편)입니다. 주요 연구 키워드: Efficient, Federated Learning, Optimization, Scheduling, Wireless. 매년 5월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "INFOCOM is a leading international conference in Networks (Computer Communications). Recent acceptance rate: 14.4% (2024, 267/1857 papers). Top research topics: Efficient, Federated Learning, Optimization, Scheduling, Wireless. Typically held in May. CCF rank A, CORE A*."
+  "descriptionKo": "INFOCOM은 네트워크 분야(Computer Communications)의 주요 국제 학회입니다. 최근 acceptance rate는 18.7% (2025년, 272/1458편)입니다. 주요 연구 키워드: Efficient, Federated Learning, Optimization, Scheduling, Wireless. 매년 5월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "INFOCOM is a leading international conference in Networks (Computer Communications). Recent acceptance rate: 18.7% (2025, 272/1458 papers). Top research topics: Efficient, Federated Learning, Optimization, Scheduling, Wireless. Typically held in May. CCF rank A, CORE A*."
 }

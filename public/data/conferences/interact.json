@@ -101,7 +101,14 @@
       "paperUrl": "https://link.springer.com/chapter/10.1007/978-3-032-04999-5_32"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 69,
+      "submitted": 330,
+      "rate": 20.9
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2025,
@@ -669,6 +676,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "INTERACT은 인간-컴퓨터 상호작용 분야(Human-Computer Interaction)의 주요 국제 학회입니다. 주요 연구 키워드: Accessibility, Usability, Robot, Drone, Virtual Reality. 매년 8월 개최. CCF C등급, CORE B.",
-  "descriptionEn": "INTERACT is a leading international conference in Human-Computer Interaction. Top research topics: Accessibility, Usability, Robot, Drone, Virtual Reality. Typically held in August. CCF rank C, CORE B."
+  "descriptionKo": "INTERACT은 인간-컴퓨터 상호작용 분야(Human-Computer Interaction)의 주요 국제 학회입니다. 최근 acceptance rate는 20.9% (2025년, 69/330편)입니다. 주요 연구 키워드: Accessibility, Usability, Robot, Drone, Virtual Reality. 매년 8월 개최. CCF C등급, CORE B.",
+  "descriptionEn": "INTERACT is a leading international conference in Human-Computer Interaction. Recent acceptance rate: 20.9% (2025, 69/330 papers). Top research topics: Accessibility, Usability, Robot, Drone, Virtual Reality. Typically held in August. CCF rank C, CORE B."
 }

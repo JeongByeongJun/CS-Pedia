@@ -161,10 +161,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 77,
+      "submitted": 588,
+      "rate": 13.1
+    },
+    {
       "year": 2024,
-      "accepted": 66,
-      "submitted": 380,
-      "rate": 17.4
+      "accepted": 103,
+      "submitted": 495,
+      "rate": 20.8
     },
     {
       "year": 2023,
@@ -1727,6 +1733,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "MobiCom은 네트워크 분야(Mobile Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 17.4% (2024년, 66/380편)입니다. 주요 연구 키워드: Real-Time, 3D, LLM, Localization, 5G. 매년 10월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "MobiCom is a leading international conference in Networks (Mobile Computing). Recent acceptance rate: 17.4% (2024, 66/380 papers). Top research topics: Real-Time, 3D, LLM, Localization, 5G. Typically held in October. CCF rank A, CORE A*."
+  "descriptionKo": "MobiCom은 네트워크 분야(Mobile Computing)의 주요 국제 학회입니다. 최근 acceptance rate는 13.1% (2025년, 77/588편)입니다. 주요 연구 키워드: Real-Time, 3D, LLM, Localization, 5G. 매년 10월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "MobiCom is a leading international conference in Networks (Mobile Computing). Recent acceptance rate: 13.1% (2025, 77/588 papers). Top research topics: Real-Time, 3D, LLM, Localization, 5G. Typically held in October. CCF rank A, CORE A*."
 }

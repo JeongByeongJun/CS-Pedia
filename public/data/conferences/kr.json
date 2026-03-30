@@ -97,7 +97,14 @@
       "paperUrl": "https://arxiv.org/abs/2508.11946"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 66,
+      "submitted": 242,
+      "rate": 27.3
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -415,6 +422,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "KR은 AI/ML 분야(Knowledge Representation)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Multi-Agent, Agent, Model Checking, Optimization. 매년 7월 개최. CCF B등급, CORE A*, BK21 3점.",
-  "descriptionEn": "KR is a leading international conference in AI/ML (Knowledge Representation). Top research topics: Complexity, Multi-Agent, Agent, Model Checking, Optimization. Typically held in July. CCF rank B, CORE A*."
+  "descriptionKo": "KR은 AI/ML 분야(Knowledge Representation)의 주요 국제 학회입니다. 최근 acceptance rate는 27.3% (2024년, 66/242편)입니다. 주요 연구 키워드: Complexity, Multi-Agent, Agent, Model Checking, Optimization. 매년 7월 개최. CCF B등급, CORE A*, BK21 3점.",
+  "descriptionEn": "KR is a leading international conference in AI/ML (Knowledge Representation). Recent acceptance rate: 27.3% (2024, 66/242 papers). Top research topics: Complexity, Multi-Agent, Agent, Model Checking, Optimization. Typically held in July. CCF rank B, CORE A*."
 }

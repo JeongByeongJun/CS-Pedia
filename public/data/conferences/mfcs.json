@@ -63,7 +63,14 @@
     }
   ],
   "bestPapers": [],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 80,
+      "submitted": 239,
+      "rate": 33.5
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -466,6 +473,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "MFCS은 이론 컴퓨터과학 분야(Foundations)의 주요 국제 학회입니다. 주요 연구 키워드: Complexity, Graph, Optimization, Parameterized, Routing. 매년 8월 개최. CCF C등급, CORE A.",
-  "descriptionEn": "MFCS is a leading international conference in Theoretical Computer Science (Foundations). Top research topics: Complexity, Graph, Optimization, Parameterized, Routing. Typically held in August. CCF rank C, CORE A."
+  "descriptionKo": "MFCS은 이론 컴퓨터과학 분야(Foundations)의 주요 국제 학회입니다. 최근 acceptance rate는 33.5% (2024년, 80/239편)입니다. 주요 연구 키워드: Complexity, Graph, Optimization, Parameterized, Routing. 매년 8월 개최. CCF C등급, CORE A.",
+  "descriptionEn": "MFCS is a leading international conference in Theoretical Computer Science (Foundations). Recent acceptance rate: 33.5% (2024, 80/239 papers). Top research topics: Complexity, Graph, Optimization, Parameterized, Routing. Typically held in August. CCF rank C, CORE A."
 }

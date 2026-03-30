@@ -75,7 +75,14 @@
       "paperUrl": null
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2024,
+      "accepted": 58,
+      "submitted": 318,
+      "rate": 18.2
+    }
+  ],
   "keywordTrends": [
     {
       "year": 2020,
@@ -653,6 +660,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ISMB은 AI/ML 분야(Computational Biology)의 주요 국제 학회입니다. 주요 연구 키워드: 3D, Graph, Alignment, Throughput, Efficient. 매년 7월 개최. CORE A, BK21 1점.",
-  "descriptionEn": "ISMB is a leading international conference in AI/ML (Computational Biology). Top research topics: 3D, Graph, Alignment, Throughput, Efficient. Typically held in July. CORE A."
+  "descriptionKo": "ISMB은 AI/ML 분야(Computational Biology)의 주요 국제 학회입니다. 최근 acceptance rate는 18.2% (2024년, 58/318편)입니다. 주요 연구 키워드: 3D, Graph, Alignment, Throughput, Efficient. 매년 7월 개최. CORE A, BK21 1점.",
+  "descriptionEn": "ISMB is a leading international conference in AI/ML (Computational Biology). Recent acceptance rate: 18.2% (2024, 58/318 papers). Top research topics: 3D, Graph, Alignment, Throughput, Efficient. Typically held in July. CORE A."
 }

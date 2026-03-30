@@ -88,6 +88,12 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2024,
+      "accepted": 177,
+      "submitted": 646,
+      "rate": 27.4
+    },
+    {
       "year": 2022,
       "accepted": 215,
       "submitted": null,
@@ -1381,6 +1387,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ISMAR은 인간-컴퓨터 상호작용 분야(Mixed/Augmented Reality)의 주요 국제 학회입니다. 주요 연구 키워드: VR, Virtual Reality, Augmented Reality, Mixed Reality, AR. 매년 10월 개최. CCF B등급, CORE A*, BK21 1점.",
-  "descriptionEn": "ISMAR is a leading international conference in Human-Computer Interaction (Mixed/Augmented Reality). Top research topics: VR, Virtual Reality, Augmented Reality, Mixed Reality, AR. Typically held in October. CCF rank B, CORE A*."
+  "descriptionKo": "ISMAR은 인간-컴퓨터 상호작용 분야(Mixed/Augmented Reality)의 주요 국제 학회입니다. 최근 acceptance rate는 27.4% (2024년, 177/646편)입니다. 주요 연구 키워드: VR, Virtual Reality, Augmented Reality, Mixed Reality, AR. 매년 10월 개최. CCF B등급, CORE A*, BK21 1점.",
+  "descriptionEn": "ISMAR is a leading international conference in Human-Computer Interaction (Mixed/Augmented Reality). Recent acceptance rate: 27.4% (2024, 177/646 papers). Top research topics: VR, Virtual Reality, Augmented Reality, Mixed Reality, AR. Typically held in October. CCF rank B, CORE A*."
 }

@@ -86,8 +86,15 @@
       "paperUrl": "https://doi.org/10.1109/IPDPS64566.2025.00040"
     }
   ],
-  "acceptanceRates": [],
+  "acceptanceRates": [
+    {
+      "year": 2025,
+      "accepted": 105,
+      "submitted": 425,
+      "rate": 24.7
+    }
+  ],
   "keywordTrends": [],
-  "descriptionKo": "IPDPS은 컴퓨터 구조 분야(Parallel & Distributed Processing)의 주요 국제 학회입니다. 매년 5월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "IPDPS is a leading international conference in Computer Architecture (Parallel & Distributed Processing). Typically held in May. CCF rank B, CORE A."
+  "descriptionKo": "IPDPS은 컴퓨터 구조 분야(Parallel & Distributed Processing)의 주요 국제 학회입니다. 최근 acceptance rate는 24.7% (2025년, 105/425편)입니다. 매년 5월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "IPDPS is a leading international conference in Computer Architecture (Parallel & Distributed Processing). Recent acceptance rate: 24.7% (2025, 105/425 papers). Typically held in May. CCF rank B, CORE A."
 }

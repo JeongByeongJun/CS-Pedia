@@ -113,10 +113,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 1991,
+      "submitted": 4306,
+      "rate": 46.2
+    },
+    {
       "year": 2024,
-      "accepted": 1744,
-      "submitted": 4289,
-      "rate": 40.7
+      "accepted": 1587,
+      "submitted": 3344,
+      "rate": 47.5
     },
     {
       "year": 2023,
@@ -3814,6 +3820,6 @@
       "count": 2
     }
   ],
-  "descriptionKo": "IROS은 로보틱스 분야(Intelligent Robots)의 주요 국제 학회입니다. 최근 acceptance rate는 40.7% (2024년, 1744/4289편)입니다. 주요 연구 키워드: Robot, 3D, Efficient, Autonomous, Manipulation. 매년 9월 개최. CCF C등급, CORE A.",
-  "descriptionEn": "IROS is a leading international conference in Robotics (Intelligent Robots). Recent acceptance rate: 40.7% (2024, 1744/4289 papers). Top research topics: Robot, 3D, Efficient, Autonomous, Manipulation. Typically held in September. CCF rank C, CORE A."
+  "descriptionKo": "IROS은 로보틱스 분야(Intelligent Robots)의 주요 국제 학회입니다. 최근 acceptance rate는 46.2% (2025년, 1991/4306편)입니다. 주요 연구 키워드: Robot, 3D, Efficient, Autonomous, Manipulation. 매년 9월 개최. CCF C등급, CORE A.",
+  "descriptionEn": "IROS is a leading international conference in Robotics (Intelligent Robots). Recent acceptance rate: 46.2% (2025, 1991/4306 papers). Top research topics: Robot, 3D, Efficient, Autonomous, Manipulation. Typically held in September. CCF rank C, CORE A."
 }

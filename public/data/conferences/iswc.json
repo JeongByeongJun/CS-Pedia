@@ -107,9 +107,9 @@
   "acceptanceRates": [
     {
       "year": 2024,
-      "accepted": 26,
-      "submitted": 111,
-      "rate": 23.4
+      "accepted": 44,
+      "submitted": 155,
+      "rate": 28.4
     },
     {
       "year": 2023,
@@ -1018,6 +1018,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "ISWC은 데이터베이스 분야(Semantic Web)의 주요 국제 학회입니다. 최근 acceptance rate는 23.4% (2024년, 26/111편)입니다. 주요 연구 키워드: Graph, Knowledge Graph, Efficient, LLM, Benchmark. 매년 10월 개최. CCF B등급, CORE A, BK21 2점.",
-  "descriptionEn": "ISWC is a leading international conference in Databases (Semantic Web). Recent acceptance rate: 23.4% (2024, 26/111 papers). Top research topics: Graph, Knowledge Graph, Efficient, LLM, Benchmark. Typically held in October. CCF rank B, CORE A."
+  "descriptionKo": "ISWC은 데이터베이스 분야(Semantic Web)의 주요 국제 학회입니다. 최근 acceptance rate는 28.4% (2024년, 44/155편)입니다. 주요 연구 키워드: Graph, Knowledge Graph, Efficient, LLM, Benchmark. 매년 10월 개최. CCF B등급, CORE A, BK21 2점.",
+  "descriptionEn": "ISWC is a leading international conference in Databases (Semantic Web). Recent acceptance rate: 28.4% (2024, 44/155 papers). Top research topics: Graph, Knowledge Graph, Efficient, LLM, Benchmark. Typically held in October. CCF rank B, CORE A."
 }

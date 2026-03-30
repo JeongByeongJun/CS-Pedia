@@ -143,10 +143,16 @@
   ],
   "acceptanceRates": [
     {
+      "year": 2025,
+      "accepted": 552,
+      "submitted": 2955,
+      "rate": 18.7
+    },
+    {
       "year": 2024,
-      "accepted": 453,
-      "submitted": 2013,
-      "rate": 22.5
+      "accepted": 411,
+      "submitted": 2046,
+      "rate": 20.1
     },
     {
       "year": 2023,
@@ -2985,6 +2991,6 @@
       "count": 1
     }
   ],
-  "descriptionKo": "KDD은 AI/ML 분야(Data Mining)의 주요 국제 학회입니다. 최근 acceptance rate는 22.5% (2024년, 453/2013편)입니다. 주요 연구 키워드: Graph, Efficient, Optimization, Diffusion, Benchmark. 매년 8월 개최. CCF A등급, CORE A*, BK21 4점.",
-  "descriptionEn": "KDD is a leading international conference in AI/ML (Data Mining). Recent acceptance rate: 22.5% (2024, 453/2013 papers). Top research topics: Graph, Efficient, Optimization, Diffusion, Benchmark. Typically held in August. CCF rank A, CORE A*."
+  "descriptionKo": "KDD은 AI/ML 분야(Data Mining)의 주요 국제 학회입니다. 최근 acceptance rate는 18.7% (2025년, 552/2955편)입니다. 주요 연구 키워드: Graph, Efficient, Optimization, Diffusion, Benchmark. 매년 8월 개최. CCF A등급, CORE A*, BK21 4점.",
+  "descriptionEn": "KDD is a leading international conference in AI/ML (Data Mining). Recent acceptance rate: 18.7% (2025, 552/2955 papers). Top research topics: Graph, Efficient, Optimization, Diffusion, Benchmark. Typically held in August. CCF rank A, CORE A*."
 }
