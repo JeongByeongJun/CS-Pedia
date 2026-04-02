@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createServerClient } from "@supabase/ssr";
 import type { Database } from "@/infrastructure/supabase/types/database.types";
+import { sendTelegram } from "@/infrastructure/telegram";
 
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);
@@ -38,8 +39,20 @@ export async function GET(request: Request) {
     );
 
     try {
-      const { error } = await supabase.auth.exchangeCodeForSession(code);
-      if (!error) {
+      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+      if (!error && data.user) {
+        const user = data.user;
+        const createdAt = new Date(user.created_at).getTime();
+        const isNewUser = Date.now() - createdAt < 60_000; // 1분 이내 = 신규
+
+        if (isNewUser) {
+          sendTelegram(
+            `🎉 <b>새 회원 가입!</b>\n` +
+            `이메일: ${user.email ?? "unknown"}\n` +
+            `Provider: ${user.app_metadata?.provider ?? "unknown"}`
+          );
+        }
+
         return response;
       }
     } catch {
