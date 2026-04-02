@@ -59,7 +59,7 @@ export async function middleware(request: NextRequest) {
     const city = request.headers.get("x-vercel-ip-city") ?? "";
     const lang = request.cookies.get("preferred-lang")?.value ?? preferredLang ?? "?";
     const location = city ? `${city}, ${geo}` : geo;
-    sendTelegram(`👀 <b>${path}</b>\n📍 ${location} · 🌐 ${lang}`);
+    await sendTelegram(`👀 <b>${path}</b>\n📍 ${location} · 🌐 ${lang}`);
   }
 
   return response;
