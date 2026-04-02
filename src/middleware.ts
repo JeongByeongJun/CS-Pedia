@@ -52,15 +52,17 @@ export async function middleware(request: NextRequest) {
     await supabase.auth.getUser();
   }
 
-  // 페이지 접속 알림 — 실제 사용자 페이지 뷰만
+  // 페이지 접속 알림 — 실제 브라우저 네비게이션만
   const path = request.nextUrl.pathname;
   const isPage = !path.startsWith("/api/") && !path.startsWith("/auth/") && !path.startsWith("/_next/")
     && !path.includes("opengraph-image") && !path.includes("twitter-image")
     && !path.endsWith(".xml") && !path.endsWith(".txt") && !path.endsWith(".png") && !path.endsWith(".ico");
+  // sec-fetch-mode: navigate = 실제 브라우저 페이지 이동 (ISR 재생성, prefetch 제외)
+  const isRealNavigation = request.headers.get("sec-fetch-mode") === "navigate";
   const ua = request.headers.get("user-agent") ?? "";
   const isBot = /bot|crawler|spider|preview|slurp|facebookexternalhit|Twitterbot|LinkedInBot/i.test(ua);
 
-  if (isPage && !isBot) {
+  if (isPage && isRealNavigation && !isBot) {
     const geo = request.headers.get("x-vercel-ip-country") ?? "??";
     const city = decodeURIComponent(request.headers.get("x-vercel-ip-city") ?? "");
     const lang = request.cookies.get("preferred-lang")?.value ?? preferredLang ?? "?";
