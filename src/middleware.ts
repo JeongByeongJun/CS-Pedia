@@ -52,11 +52,17 @@ export async function middleware(request: NextRequest) {
     await supabase.auth.getUser();
   }
 
-  // 페이지 접속 알림 (API, static, auth 제외)
+  // 페이지 접속 알림 — 실제 사용자 페이지 뷰만
   const path = request.nextUrl.pathname;
-  if (!path.startsWith("/api/") && !path.startsWith("/auth/") && !path.startsWith("/_next/")) {
+  const isPage = !path.startsWith("/api/") && !path.startsWith("/auth/") && !path.startsWith("/_next/")
+    && !path.includes("opengraph-image") && !path.includes("twitter-image")
+    && !path.endsWith(".xml") && !path.endsWith(".txt") && !path.endsWith(".png") && !path.endsWith(".ico");
+  const ua = request.headers.get("user-agent") ?? "";
+  const isBot = /bot|crawler|spider|preview|slurp|facebookexternalhit|Twitterbot|LinkedInBot/i.test(ua);
+
+  if (isPage && !isBot) {
     const geo = request.headers.get("x-vercel-ip-country") ?? "??";
-    const city = request.headers.get("x-vercel-ip-city") ?? "";
+    const city = decodeURIComponent(request.headers.get("x-vercel-ip-city") ?? "");
     const lang = request.cookies.get("preferred-lang")?.value ?? preferredLang ?? "?";
     const location = city ? `${city}, ${geo}` : geo;
     await sendTelegram(`👀 <b>${path}</b>\n📍 ${location} · 🌐 ${lang}`);
