@@ -11,7 +11,7 @@ export function ConferenceSearch({ value, onChange }: ConferenceSearchProps) {
   const { isKorean } = useLocale();
 
   return (
-    <div className="relative mb-4">
+    <div className="relative">
       <svg
         className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400"
         fill="none"
@@ -32,7 +32,7 @@ export function ConferenceSearch({ value, onChange }: ConferenceSearchProps) {
         placeholder={isKorean ? "학회명 검색 (예: NeurIPS, CVPR, ACL...)" : "Search conferences (e.g. NeurIPS, CVPR, ACL...)"}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full pl-10 pr-9 py-2.5 rounded-xl border border-zinc-200 text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all bg-zinc-50"
+        className="w-full pl-10 pr-9 py-2.5 rounded-lg border border-zinc-200 text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 transition-all bg-zinc-50"
       />
       {value && (
         <button

@@ -143,13 +143,13 @@ export function ConferenceClientSection({
 
   return (
     <>
-      <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-3 sm:p-5 mb-4 sm:mb-5">
-        <div className="flex items-center gap-2 mb-2 sm:mb-3">
+      <div className="mb-4">
+        <div className="flex items-center gap-2 mb-3">
           <div className="flex-1">
             <ConferenceSearch value={search} onChange={setSearch} />
           </div>
           <button
-            className="md:hidden flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium bg-zinc-100 text-zinc-600 hover:bg-zinc-200 transition-all shrink-0"
+            className="md:hidden flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-medium bg-zinc-100 text-zinc-500 hover:bg-zinc-200 transition-all shrink-0"
             onClick={() => setShowFilters((v) => !v)}
           >
             {isKorean ? "필터" : "Filter"}
@@ -158,10 +158,10 @@ export function ConferenceClientSection({
                 {activeFilterCount}
               </span>
             )}
-            <span className="text-xs">{showFilters ? "▲" : "▼"}</span>
+            <span className="text-[10px]">{showFilters ? "▲" : "▼"}</span>
           </button>
         </div>
-        <div className={`${showFilters ? "block" : "hidden"} md:block border-t border-zinc-100 pt-3 sm:pt-4 mt-1`}>
+        <div className={`${showFilters ? "block" : "hidden"} md:block`}>
           <ConferenceFilters
             selectedField={field}
             selectedInstitution={institution}
