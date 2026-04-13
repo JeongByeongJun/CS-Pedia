@@ -6,6 +6,7 @@ import { DeadlineBadge } from "./deadline-badge";
 import { FieldBadge } from "./field-badge";
 import { InstitutionBadges } from "./institution-badges";
 import { BestPaperAccordion } from "./best-paper-accordion";
+import { DeadlineTimeline } from "./deadline-timeline";
 import { BookmarkButton } from "./bookmark-button";
 import { useState, useEffect, useMemo } from "react";
 import { formatDate, formatDeadlineLocal, deadlineToUTC } from "@/shared/utils/date";
@@ -107,11 +108,18 @@ export function ConferenceCard({
             <div className="hidden sm:block">
               <InstitutionBadges ratings={conference.institutionRatings} isKorean={isKorean} />
             </div>
-            <BookmarkButton
-              conferenceId={conference.id}
-              initialBookmarked={isBookmarked}
-              isLoggedIn={isLoggedIn}
-            />
+            <div className="flex items-center gap-2">
+              <DeadlineTimeline
+                abstractDeadline={conference.abstractDeadline}
+                paperDeadline={conference.nextDeadline}
+                notificationDate={conference.notificationDate}
+              />
+              <BookmarkButton
+                conferenceId={conference.id}
+                initialBookmarked={isBookmarked}
+                isLoggedIn={isLoggedIn}
+              />
+            </div>
           </div>
         </div>
 

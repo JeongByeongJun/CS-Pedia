@@ -25,6 +25,8 @@ function makeConference(
     nextDeadline: null,
     daysUntilDeadline: null,
     deadlineTimezone: "AoE",
+    abstractDeadline: null,
+    notificationDate: null,
     venue: null,
     conferenceStart: null,
     conferenceEnd: null,

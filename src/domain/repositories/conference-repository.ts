@@ -11,6 +11,8 @@ export interface ConferenceWithRelations extends Conference {
   nextDeadline: Date | null;
   daysUntilDeadline: number | null;
   deadlineTimezone: string;
+  abstractDeadline: Date | null;
+  notificationDate: Date | null;
   venue: string | null;
   conferenceStart: Date | null;
   conferenceEnd: Date | null;

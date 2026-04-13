@@ -14,6 +14,8 @@ interface StaticConference {
   nextDeadline: string | null;
   daysUntilDeadline: number | null;
   deadlineTimezone: string;
+  abstractDeadline: string | null;
+  notificationDate: string | null;
   venue: string | null;
   conferenceStart: string | null;
   conferenceEnd: string | null;
@@ -68,6 +70,8 @@ export function createGetConferencesFromStatic() {
       nextDeadline: toDate(c.nextDeadline),
       daysUntilDeadline: recalcDaysUntil(c.nextDeadline, c.deadlineTimezone),
       deadlineTimezone: c.deadlineTimezone,
+      abstractDeadline: toDate(c.abstractDeadline),
+      notificationDate: toDate(c.notificationDate),
       venue: c.venue,
       conferenceStart: toDate(c.conferenceStart),
       conferenceEnd: toDate(c.conferenceEnd),

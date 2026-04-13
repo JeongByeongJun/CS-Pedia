@@ -49,18 +49,22 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
         .select("conference_id, paper_title, year, award_type, paper_url"),
       supabase
         .from("deadlines")
-        .select("conference_id, timezone, paper_deadline")
+        .select("conference_id, timezone, paper_deadline, abstract_deadline, notification_date")
         .not("paper_deadline", "is", null)
         .order("paper_deadline", { ascending: false }),
     ]);
 
     if (error) throw error;
 
-    // Map conference_id → timezone (from the nearest deadline)
+    // Map conference_id → timezone + abstract/notification (from the nearest deadline)
     const tzByConf = new Map<string, string>();
-    for (const d of (deadlineTzData ?? []) as Array<{ conference_id: string; timezone: string; paper_deadline: string }>) {
+    const abstractByConf = new Map<string, string | null>();
+    const notifByConf = new Map<string, string | null>();
+    for (const d of (deadlineTzData ?? []) as Array<{ conference_id: string; timezone: string; paper_deadline: string; abstract_deadline: string | null; notification_date: string | null }>) {
       if (!tzByConf.has(d.conference_id)) {
         tzByConf.set(d.conference_id, d.timezone ?? "AoE");
+        abstractByConf.set(d.conference_id, d.abstract_deadline);
+        notifByConf.set(d.conference_id, d.notification_date);
       }
     }
 
@@ -96,6 +100,8 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
           nextDeadline: parseOptionalDate(row.next_deadline),
           daysUntilDeadline: row.days_until_deadline,
           deadlineTimezone: tzByConf.get(row.id ?? "") ?? "AoE",
+          abstractDeadline: parseOptionalDate(abstractByConf.get(row.id ?? "") ?? null),
+          notificationDate: parseOptionalDate(notifByConf.get(row.id ?? "") ?? null),
           venue: row.next_venue,
           conferenceStart: parseOptionalDate(row.conference_start),
           conferenceEnd: parseOptionalDate(row.conference_end),
@@ -131,20 +137,23 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
         .eq("conference_id", row.id!),
       supabase
         .from("deadlines")
-        .select("timezone")
+        .select("timezone, abstract_deadline, notification_date")
         .eq("conference_id", row.id!)
         .not("paper_deadline", "is", null)
         .order("paper_deadline", { ascending: false })
         .limit(1),
     ]);
 
-    const tz = ((tzData ?? []) as Array<{ timezone: string }>)[0]?.timezone ?? "AoE";
+    const dlRow = ((tzData ?? []) as Array<{ timezone: string; abstract_deadline: string | null; notification_date: string | null }>)[0];
+    const tz = dlRow?.timezone ?? "AoE";
 
     return {
       ...toDomainConference(row),
       nextDeadline: parseOptionalDate(row.next_deadline),
       daysUntilDeadline: row.days_until_deadline,
       deadlineTimezone: tz,
+      abstractDeadline: parseOptionalDate(dlRow?.abstract_deadline ?? null),
+      notificationDate: parseOptionalDate(dlRow?.notification_date ?? null),
       venue: row.next_venue,
       conferenceStart: parseOptionalDate(row.conference_start),
       conferenceEnd: parseOptionalDate(row.conference_end),

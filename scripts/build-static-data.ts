@@ -119,6 +119,8 @@ async function main() {
       daysUntilDeadline: daysUntil,
       deadlineTimezone: dl?.timezone ?? "AoE",
       venue: dl?.venue ?? null,
+      abstractDeadline: dl?.abstract_deadline ?? null,
+      notificationDate: dl?.notification_date ?? null,
       conferenceStart: dl?.conference_start ?? null,
       conferenceEnd: dl?.conference_end ?? null,
       institutionRatings: ratingsBySlug.get(c.slug as string) ?? [],
