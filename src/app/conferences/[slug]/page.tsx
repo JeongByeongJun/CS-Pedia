@@ -205,7 +205,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
 
   return (
     <div
-      className="min-h-screen bg-page-gradient"
+      className="min-h-screen bg-white"
     >
       {jsonLd && (
         <script
@@ -239,7 +239,20 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                 <FieldBadge field={conference.field} />
                 <DeadlineBadge ddays={conference.daysUntilDeadline} deadline={conference.nextDeadline} timezone={conference.deadlineTimezone} />
               </div>
-              <p className="text-zinc-500 mb-3">{conference.nameEn}</p>
+              <p className="text-zinc-500 mb-1">{conference.nameEn}</p>
+              {(resolvedVenue || resolvedStartDate) && (
+                <p className="text-sm text-zinc-400 mb-3">
+                  {resolvedVenue && <span>📍 {resolvedVenue}</span>}
+                  {resolvedVenue && resolvedStartDate && <span> · </span>}
+                  {resolvedStartDate && (
+                    <span>
+                      {formatDate(resolvedStartDate)}
+                      {conference.conferenceEnd && ` ~ ${formatDate(conference.conferenceEnd).replace(/^\d{4}\.\s*/, '')}`}
+                    </span>
+                  )}
+                </p>
+              )}
+              {!resolvedVenue && !resolvedStartDate && <div className="mb-3" />}
               <div className="flex items-center gap-3 flex-wrap">
                 {conference.websiteUrl && (
                   <a
@@ -249,6 +262,16 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                     className="inline-flex items-center gap-1 text-xs px-3 py-2 rounded-lg border border-indigo-200 text-indigo-500 hover:text-indigo-700 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
                   >
                     <LocaleText ko="공식 웹사이트" en="Official Website" />
+                  </a>
+                )}
+                {conference.dblpKey && (
+                  <a
+                    href={`https://dblp.org/db/${conference.dblpKey}/`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-xs px-3 py-2 rounded-lg border border-zinc-200 text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 hover:bg-zinc-50 transition-all"
+                  >
+                    DBLP
                   </a>
                 )}
                 <a
@@ -317,12 +340,18 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
                       {d.venue && `📍 ${d.venue}`}
                     </div>
                   </div>
-                  <div className="text-xs text-zinc-500 sm:text-right">
-                    {(d.paperDeadline || d.conferenceStart) && (
-                      <>
-                        <div>📝 <LocaleText ko="마감" en="Deadline" />: {d.paperDeadline ? <DeadlineLocalTime deadline={d.paperDeadline} timezone={d.timezone} /> : "TBD"}</div>
-                        <div>📅 <LocaleText ko="학회" en="Conference" />: {d.conferenceStart ? formatDate(d.conferenceStart) : "TBD"}</div>
-                      </>
+                  <div className="text-xs text-zinc-500 sm:text-right space-y-0.5">
+                    {d.abstractDeadline && (
+                      <div>📋 Abstract: <DeadlineLocalTime deadline={d.abstractDeadline} timezone={d.timezone} /></div>
+                    )}
+                    {d.paperDeadline && (
+                      <div>📝 Paper: <DeadlineLocalTime deadline={d.paperDeadline} timezone={d.timezone} /></div>
+                    )}
+                    {d.notificationDate && (
+                      <div>📬 Notification: {formatDate(d.notificationDate)}</div>
+                    )}
+                    {d.conferenceStart && (
+                      <div>📅 <LocaleText ko="학회" en="Conference" />: {formatDate(d.conferenceStart)}{d.conferenceEnd && ` ~ ${formatDate(d.conferenceEnd).replace(/^\d{4}\.\s*/, '')}`}</div>
                     )}
                   </div>
                 </div>
