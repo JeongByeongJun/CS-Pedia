@@ -31,8 +31,7 @@ export function DeadlineTimeline({
       candidates.push({ label: "Abstract", date: abstractDeadline, dotColor: "border-violet-400", activeColor: "bg-violet-400" });
     if (paperDeadline)
       candidates.push({ label: "Paper", date: paperDeadline, dotColor: "border-rose-400", activeColor: "bg-rose-400" });
-    if (notificationDate)
-      candidates.push({ label: "Notification", date: notificationDate, dotColor: "border-amber-400", activeColor: "bg-amber-400" });
+    // notificationDate는 상세페이지에서만 표시
 
     // 날짜가 하나도 없으면 표시 안함
     if (candidates.length === 0) return { points: [], todayPercent: null };
@@ -80,7 +79,10 @@ export function DeadlineTimeline({
             className="absolute -translate-x-1/2 group/today"
             style={{ left: `${Math.min(Math.max(todayPercent, 0), 100)}%`, top: "1px" }}
           >
-            <div className="w-[10px] h-[10px] rounded-full bg-indigo-500 border-2 border-white shadow" />
+            <div className="relative">
+              <div className="absolute inset-0 w-[10px] h-[10px] rounded-full bg-indigo-400 animate-ping opacity-50" />
+              <div className="relative w-[10px] h-[10px] rounded-full bg-indigo-500 border-2 border-white shadow" />
+            </div>
             <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-1 px-1.5 py-0.5 bg-zinc-800 text-white text-[10px] rounded whitespace-nowrap opacity-0 group-hover/today:opacity-100 transition-opacity pointer-events-none z-10">
               Today {fmtDate(new Date())}
             </span>

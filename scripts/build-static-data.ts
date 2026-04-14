@@ -198,6 +198,70 @@ async function main() {
     const id = slugToId[slug] ?? slug;
     const dl = deadlineBySlug.get(slug);
 
+    // Data-driven description generation
+    const acronym = c.acronym as string;
+    const nameEn = c.name_en as string;
+    const confRatings = ratingsBySlug.get(slug) ?? [];
+    const confBestPapers = allBestPapersBySlug.get(slug) ?? [];
+    const confRates = (dbRatesByConfId.get(id) ?? []) as Array<{ year: unknown; rate: unknown; submitted: unknown }>;
+    const latestRate = confRates
+      .filter((r) => r.rate != null)
+      .sort((a, b) => (b.year as number) - (a.year as number))[0];
+
+    const descParts: string[] = [];
+    // Deadline
+    if (dl?.paper_deadline) {
+      const dStr = dl.paper_deadline.split("T")[0];
+      descParts.push(`Paper deadline: ${dStr}`);
+    }
+    // Venue & date
+    if (dl?.venue && dl?.conference_start) {
+      const sStr = dl.conference_start.split("T")[0];
+      descParts.push(`${sStr}, ${dl.venue}`);
+    } else if (dl?.venue) {
+      descParts.push(dl.venue);
+    }
+    // Rankings
+    const rankParts: string[] = [];
+    for (const r of confRatings) {
+      if (r.tier) rankParts.push(`${r.institution} ${r.tier}`);
+    }
+    if (rankParts.length > 0) descParts.push(rankParts.join(", "));
+    // Acceptance rate
+    if (latestRate) {
+      descParts.push(`Acceptance rate ${latestRate.rate}% (${latestRate.year})`);
+    }
+    // Best papers
+    if (confBestPapers.length > 0) {
+      descParts.push(`${confBestPapers.length} best paper awards`);
+    }
+
+    const descriptionEn = descParts.length > 0
+      ? `${acronym} (${nameEn}). ${descParts.join(". ")}.`
+      : `${acronym} (${nameEn}).`;
+
+    // Korean version
+    const descPartsKo: string[] = [];
+    if (dl?.paper_deadline) {
+      descPartsKo.push(`논문 마감: ${dl.paper_deadline.split("T")[0]}`);
+    }
+    if (dl?.venue && dl?.conference_start) {
+      descPartsKo.push(`${dl.conference_start.split("T")[0]}, ${dl.venue}`);
+    } else if (dl?.venue) {
+      descPartsKo.push(dl.venue);
+    }
+    if (rankParts.length > 0) descPartsKo.push(rankParts.join(", "));
+    if (latestRate) {
+      descPartsKo.push(`채택률 ${latestRate.rate}% (${latestRate.year})`);
+    }
+    if (confBestPapers.length > 0) {
+      descPartsKo.push(`Best Paper ${confBestPapers.length}편`);
+    }
+
+    const descriptionKo = descPartsKo.length > 0
+      ? `${acronym} (${nameEn}). ${descPartsKo.join(". ")}.`
+      : `${acronym} (${nameEn}).`;
+
     const detail = {
       id,
       slug,
@@ -209,6 +273,8 @@ async function main() {
       dblpKey: c.dblp_key,
       websiteUrl: c.website_url,
       description: null,
+      descriptionEn,
+      descriptionKo,
       nextDeadline: dl?.paper_deadline ?? null,
       daysUntilDeadline: dl?.paper_deadline ? Math.floor((new Date(dl.paper_deadline).getTime() - now.getTime()) / (1000 * 60 * 60 * 24)) : null,
       deadlineTimezone: dl?.timezone ?? "AoE",
