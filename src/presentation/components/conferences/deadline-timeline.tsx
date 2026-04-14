@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useState, useEffect } from "react";
 
 interface DeadlineTimelineProps {
   abstractDeadline: Date | null;
@@ -13,51 +13,54 @@ interface TimelinePoint {
   date: Date;
   dotColor: string;
   activeColor: string;
-  isToday?: boolean;
+  percent: number;
 }
 
 function fmtDate(d: Date): string {
   return `${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}`;
 }
 
+function compute(abstractDeadline: Date | null, paperDeadline: Date | null) {
+  const candidates: { label: string; date: Date; dotColor: string; activeColor: string }[] = [];
+  if (abstractDeadline)
+    candidates.push({ label: "Abstract", date: abstractDeadline, dotColor: "border-violet-400", activeColor: "bg-violet-400" });
+  if (paperDeadline)
+    candidates.push({ label: "Paper", date: paperDeadline, dotColor: "border-rose-400", activeColor: "bg-rose-400" });
+
+  if (candidates.length === 0) return null;
+
+  const now = new Date();
+  const allDates = [...candidates.map((c) => c.date.getTime()), now.getTime()];
+  const minT = Math.min(...allDates);
+  const maxT = Math.max(...allDates);
+  const range = maxT - minT;
+  if (range === 0) return null;
+
+  candidates.sort((a, b) => a.date.getTime() - b.date.getTime());
+
+  const points: TimelinePoint[] = candidates.map((p) => ({
+    ...p,
+    percent: Math.round(((p.date.getTime() - minT) / range) * 10000) / 100,
+  }));
+
+  const todayPercent = Math.round(((now.getTime() - minT) / range) * 10000) / 100;
+
+  return { points, todayPercent };
+}
+
 export function DeadlineTimeline({
   abstractDeadline,
   paperDeadline,
-  notificationDate,
 }: DeadlineTimelineProps) {
-  const { points, todayPercent } = useMemo(() => {
-    const candidates: TimelinePoint[] = [];
-    if (abstractDeadline)
-      candidates.push({ label: "Abstract", date: abstractDeadline, dotColor: "border-violet-400", activeColor: "bg-violet-400" });
-    if (paperDeadline)
-      candidates.push({ label: "Paper", date: paperDeadline, dotColor: "border-rose-400", activeColor: "bg-rose-400" });
-    // notificationDate는 상세페이지에서만 표시
+  const [data, setData] = useState<{ points: TimelinePoint[]; todayPercent: number } | null>(null);
 
-    // 날짜가 하나도 없으면 표시 안함
-    if (candidates.length === 0) return { points: [], todayPercent: null };
+  useEffect(() => {
+    setData(compute(abstractDeadline, paperDeadline));
+  }, [abstractDeadline, paperDeadline]);
 
-    // Today를 범위 계산에 항상 포함
-    const now = new Date();
-    const allDates = [...candidates.map((c) => c.date.getTime()), now.getTime()];
-    const minT = Math.min(...allDates);
-    const maxT = Math.max(...allDates);
-    const range = maxT - minT;
+  if (!data) return null;
 
-    if (range === 0) return { points: [], todayPercent: null };
-
-    candidates.sort((a, b) => a.date.getTime() - b.date.getTime());
-
-    const pts = candidates.map((p) => ({
-      ...p,
-      percent: ((p.date.getTime() - minT) / range) * 100,
-    }));
-
-    const tp = ((now.getTime() - minT) / range) * 100;
-
-    return { points: pts, todayPercent: tp };
-  }, [abstractDeadline, paperDeadline, notificationDate]);
-
-  if (points.length === 0) return null;
+  const { points, todayPercent } = data;
 
   return (
     <div className="hidden sm:block w-[300px]">
@@ -66,32 +69,28 @@ export function DeadlineTimeline({
         <div className="absolute top-[5px] left-0 right-0 h-[2px] bg-zinc-200 rounded-full" />
 
         {/* Filled track up to today */}
-        {todayPercent !== null && (
-          <div
-            className="absolute top-[5px] left-0 h-[2px] bg-indigo-300 rounded-full"
-            style={{ width: `${Math.min(todayPercent, 100)}%` }}
-          />
-        )}
+        <div
+          className="absolute top-[5px] left-0 h-[2px] bg-indigo-300 rounded-full"
+          style={{ width: `${Math.min(todayPercent, 100)}%` }}
+        />
 
-        {/* Today marker — always visible */}
-        {todayPercent !== null && (
-          <div
-            className="absolute -translate-x-1/2 group/today"
-            style={{ left: `${Math.min(Math.max(todayPercent, 0), 100)}%`, top: "1px" }}
-          >
-            <div className="relative">
-              <div className="absolute inset-0 w-[10px] h-[10px] rounded-full bg-indigo-400 animate-ping opacity-50" />
-              <div className="relative w-[10px] h-[10px] rounded-full bg-indigo-500 border-2 border-white shadow" />
-            </div>
-            <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-1 px-1.5 py-0.5 bg-zinc-800 text-white text-[10px] rounded whitespace-nowrap opacity-0 group-hover/today:opacity-100 transition-opacity pointer-events-none z-10">
-              Today {fmtDate(new Date())}
-            </span>
+        {/* Today marker */}
+        <div
+          className="absolute -translate-x-1/2 group/today"
+          style={{ left: `${Math.min(Math.max(todayPercent, 0), 100)}%`, top: "1px" }}
+        >
+          <div className="relative">
+            <div className="absolute inset-0 w-[10px] h-[10px] rounded-full bg-indigo-400 animate-ping opacity-50" />
+            <div className="relative w-[10px] h-[10px] rounded-full bg-indigo-500 border-2 border-white shadow" />
           </div>
-        )}
+          <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-1 px-1.5 py-0.5 bg-zinc-800 text-white text-[10px] rounded whitespace-nowrap opacity-0 group-hover/today:opacity-100 transition-opacity pointer-events-none z-10">
+            Today {fmtDate(new Date())}
+          </span>
+        </div>
 
         {/* Points */}
         {points.map((p) => {
-          const isPast = todayPercent !== null && p.percent <= todayPercent;
+          const isPast = p.percent <= todayPercent;
           return (
             <div
               key={p.label}
