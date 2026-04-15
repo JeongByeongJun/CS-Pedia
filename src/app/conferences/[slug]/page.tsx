@@ -51,15 +51,31 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     detail = JSON.parse(raw);
   } catch { /* ignore */ }
   const acronym = (detail?.acronym as string) ?? slug.toUpperCase();
-  const year = new Date().getFullYear();
-  const title = `${acronym} ${year} - Deadline, Acceptance Rate, Best Paper`;
-  const description = (detail?.descriptionEn as string) ?? `${acronym} ${year} deadline, acceptance rate, best paper awards. CORE/CCF rankings included.`;
-  // TODO: metadata is English-only for now. Consider making locale-aware
-  // once headers() usage is resolved for performance (see PERF-004 / I18N-004).
+  const nameEn = (detail?.nameEn as string) ?? "";
+  // Use actual conference year from data, not current year
+  const confStart = detail?.conferenceStart as string | null;
+  const paperDl = detail?.nextDeadline as string | null;
+  const year = confStart ? new Date(confStart).getFullYear()
+    : paperDl ? new Date(paperDl).getFullYear()
+    : new Date().getFullYear();
+  const venue = detail?.venue as string | null;
+  const descEn = detail?.descriptionEn as string | null;
+
+  const titleParts = [`${acronym} ${year}`];
+  if (venue) {
+    // Extract city only (e.g., "Denver, USA" → "Denver")
+    const city = venue.split(",")[0].trim();
+    titleParts.push(city);
+  }
+  titleParts.push("Deadline & Acceptance Rate");
+  const title = titleParts.join(" | ");
+
+  const description = descEn ?? `${acronym} (${nameEn}). Paper deadline, acceptance rate, best paper awards, and CORE/CCF rankings.`;
+
   return {
     title,
     description,
-    keywords: [`${acronym} deadline`, `${acronym} ${year} deadline`, `${acronym} acceptance rate`, `${acronym} best paper`, `${acronym} CFP`, `${acronym} 데드라인`, `${acronym} 채택률`],
+    keywords: [`${acronym} deadline`, `${acronym} ${year}`, `${acronym} acceptance rate`, `${acronym} CFP`, `${acronym} 데드라인`],
     openGraph: {
       title,
       description,
