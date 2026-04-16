@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { headers } from "next/headers";
+import { SiteHeader } from "@/presentation/components/layout/site-header";
+import { SiteFooter } from "@/presentation/components/layout/site-footer";
 
 export async function generateMetadata(): Promise<Metadata> {
   const country = (await headers()).get("x-vercel-ip-country");
@@ -18,10 +19,10 @@ export default async function PrivacyPage() {
   const isKorean = country === "KR";
 
   return (
-    <div className="min-h-screen bg-page-gradient">
-      <div className="max-w-3xl mx-auto px-4 py-12 sm:px-6">
-        <Link href="/" className="text-sm text-zinc-400 hover:text-zinc-600 mb-6 inline-block">← {isKorean ? "홈으로" : "Back to Home"}</Link>
+    <div className="min-h-screen bg-white">
+      <SiteHeader />
 
+      <main className="max-w-3xl mx-auto px-4 py-8 sm:px-6">
         {isKorean ? (
           <article className="prose prose-zinc prose-sm max-w-none">
             <h1>개인정보 처리방침</h1>
@@ -65,6 +66,7 @@ export default async function PrivacyPage() {
               <li><strong>Supabase Auth</strong>: 로그인 세션 관리를 위한 쿠키</li>
               <li><strong>Vercel Analytics</strong>: 익명화된 페이지 방문 통계</li>
               <li><strong>Vercel Speed Insights</strong>: 성능 모니터링</li>
+              <li><strong>Google Analytics</strong>: 방문자 행동 분석 (Google의 개인정보 처리방침 적용)</li>
               <li><strong>Google AdSense</strong>: 광고 서비스 (Google의 개인정보 처리방침 적용)</li>
             </ul>
 
@@ -112,6 +114,7 @@ export default async function PrivacyPage() {
               <li><strong>Supabase Auth</strong>: Session cookies for authentication</li>
               <li><strong>Vercel Analytics</strong>: Anonymous page visit statistics</li>
               <li><strong>Vercel Speed Insights</strong>: Performance monitoring</li>
+              <li><strong>Google Analytics</strong>: Visitor behavior analytics (subject to Google&apos;s privacy policy)</li>
               <li><strong>Google AdSense</strong>: Advertising (subject to Google&apos;s privacy policy)</li>
             </ul>
 
@@ -122,7 +125,9 @@ export default async function PrivacyPage() {
             <p>For privacy inquiries: <a href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer">contact@cs-pedia.io</a></p>
           </article>
         )}
-      </div>
+
+        <SiteFooter />
+      </main>
     </div>
   );
 }

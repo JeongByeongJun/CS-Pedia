@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { headers } from "next/headers";
+import { SiteHeader } from "@/presentation/components/layout/site-header";
+import { SiteFooter } from "@/presentation/components/layout/site-footer";
 
 export async function generateMetadata(): Promise<Metadata> {
   const country = (await headers()).get("x-vercel-ip-country");
@@ -18,10 +19,10 @@ export default async function TermsPage() {
   const isKorean = country === "KR";
 
   return (
-    <div className="min-h-screen bg-page-gradient">
-      <div className="max-w-3xl mx-auto px-4 py-12 sm:px-6">
-        <Link href="/" className="text-sm text-zinc-400 hover:text-zinc-600 mb-6 inline-block">← {isKorean ? "홈으로" : "Back to Home"}</Link>
+    <div className="min-h-screen bg-white">
+      <SiteHeader />
 
+      <main className="max-w-3xl mx-auto px-4 py-8 sm:px-6">
         {isKorean ? (
           <article className="prose prose-zinc prose-sm max-w-none">
             <h1>이용약관</h1>
@@ -119,7 +120,9 @@ export default async function TermsPage() {
             <p>For inquiries: <a href="https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io" target="_blank" rel="noopener noreferrer">contact@cs-pedia.io</a></p>
           </article>
         )}
-      </div>
+
+        <SiteFooter />
+      </main>
     </div>
   );
 }

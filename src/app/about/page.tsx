@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { headers } from "next/headers";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
@@ -56,7 +55,7 @@ export default async function AboutPage() {
       ];
 
   return (
-    <div className="min-h-screen bg-page-gradient">
+    <div className="min-h-screen bg-white">
       <SiteHeader />
 
       <main className="max-w-3xl mx-auto px-4 py-8 sm:px-6">
