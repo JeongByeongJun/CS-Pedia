@@ -179,7 +179,7 @@ export function ConferenceClientSection({
             : `${filtered.length} conferences`}
         </p>
         <p className="text-xs text-zinc-400">
-          {isKorean ? "데이터 업데이트: 2026.04.26" : "Updated: 2026.04.26"}
+          {isKorean ? "데이터 업데이트: 2026.05.04" : "Updated: 2026.05.04"}
         </p>
       </div>
       <ConferenceList
