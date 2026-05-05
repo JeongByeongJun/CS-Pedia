@@ -1,6 +1,6 @@
 export default function Loading() {
   return (
-    <div className="min-h-screen bg-page-gradient">
+    <div className="min-h-screen bg-white">
       {/* Header skeleton */}
       <div className="bg-header-gradient h-14" />
 

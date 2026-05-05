@@ -99,7 +99,7 @@ export default async function ConferenceBestPapersPage({ params }: { params: Pro
   };
 
   return (
-    <div className="min-h-screen bg-page-gradient">
+    <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}

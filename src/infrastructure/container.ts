@@ -6,6 +6,7 @@ import { SupabaseAcceptanceRateRepository } from "./supabase/repositories/supaba
 import { SupabaseBookmarkRepository } from "./supabase/repositories/supabase-bookmark-repository";
 import { SupabaseUserRepository } from "./supabase/repositories/supabase-user-repository";
 import { SupabaseKeywordTrendRepository } from "./supabase/repositories/supabase-keyword-trend-repository";
+import { SupabaseProfessorRepository } from "./supabase/repositories/supabase-professor-repository";
 
 import { createGetConferencesUseCase } from "@/domain/use-cases/get-conferences";
 import { createGetConferencesFromStatic } from "@/domain/use-cases/get-conferences-static";
@@ -17,6 +18,7 @@ import {
   getAllKeywordTrendsStatic,
   getTopKeywordsStatic,
 } from "@/domain/use-cases/get-trends-static";
+import { createGetProfessorsUseCase } from "@/domain/use-cases/get-professors";
 
 // Repository instances
 const conferenceRepo = new SupabaseConferenceRepository();
@@ -27,6 +29,7 @@ const acceptanceRateRepo = new SupabaseAcceptanceRateRepository();
 const bookmarkRepo = new SupabaseBookmarkRepository();
 const userRepo = new SupabaseUserRepository();
 const keywordTrendRepo = new SupabaseKeywordTrendRepository();
+const professorRepo = new SupabaseProfessorRepository();
 
 // Use cases
 export const getConferences = createGetConferencesFromStatic();
@@ -49,3 +52,4 @@ export const getAllKeywordTrends = getAllKeywordTrendsStatic;
 export const getTopKeywords = getTopKeywordsStatic;
 export const getKeywordTrendsByConference = (conferenceId: string) =>
   keywordTrendRepo.findByConferenceId(conferenceId);
+export const getProfessorsUseCase = createGetProfessorsUseCase(professorRepo);

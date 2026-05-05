@@ -4,6 +4,7 @@ import ratings from "../src/infrastructure/seed/institution-ratings.json";
 import deadlines from "../src/infrastructure/seed/deadlines.json";
 import bestPapers from "../src/infrastructure/seed/best-papers.json";
 import acceptanceRates from "../src/infrastructure/seed/acceptance-rates.json";
+import professors from "../src/infrastructure/seed/professors.json";
 import { ConferenceFieldEnum } from "../src/domain/entities/conference";
 import { AwardTypeEnum } from "../src/domain/entities/best-paper";
 import { InstitutionEnum, TierEnum } from "../src/domain/entities/institution-rating";
@@ -145,6 +146,24 @@ async function seed() {
     .upsert(arRows, { onConflict: "conference_id,year" });
   if (arError) throw arError;
   console.log(`  Inserted ${arRows.length} acceptance rates`);
+
+  console.log("Seeding professors...");
+  const professorRows = professors.map((p) => ({
+    name_ko: p.name_ko,
+    name_en: p.name_en ?? null,
+    university: p.university,
+    department: p.department ?? null,
+    rank: p.rank ?? "professor",
+    dblp_pid: (p as Record<string, unknown>).dblp_pid as string ?? null,
+    homepage_url: (p as Record<string, unknown>).homepage_url as string ?? null,
+    dblp_status: p.dblp_status ?? "not_found",
+    scholar_id: (p as Record<string, unknown>).scholar_id as string ?? null,
+  }));
+  const { error: profError } = await supabase
+    .from("professors")
+    .upsert(professorRows, { onConflict: "name_ko,university" });
+  if (profError) throw profError;
+  console.log(`  Inserted ${professorRows.length} professors`);
 
   console.log("Seed complete!");
 }

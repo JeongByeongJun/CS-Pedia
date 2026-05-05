@@ -26,18 +26,12 @@ export default async function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-page-gradient">
+    <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
-      <SiteHeader
-        stats={{
-          upcomingCount: conferences.filter((c) => (c.daysUntilDeadline ?? -1) >= 0).length,
-          totalCount: conferences.length,
-          bookmarkCount: 0,
-        }}
-      />
+      <SiteHeader />
 
       <main className="max-w-6xl mx-auto px-4 py-4 sm:px-6 sm:py-6">
         <UpdateBanner />

@@ -1,0 +1,1201 @@
+{
+  "updatedAt": "2026-04-11T05:52:40.862Z",
+  "anthropic": [
+    {
+      "date": "2026-04-09",
+      "title": "We've launched the advisor tool in public beta.",
+      "content": "We've launched the advisor tool in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo quality while the bulk of token generation happens at executor-mo...",
+      "source": "anthropic",
+      "tags": [
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "title": "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an auto...",
+      "content": "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require t...",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "title": "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Cl...",
+      "content": "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Code",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "title": "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part ...",
+      "content": "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing. Access is invitation-only.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Mythos",
+        "Beta",
+        "GA"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "title": "The Messages API is now available on Amazon Bedrock as a research preview.",
+      "content": "The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1; contac...",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "title": "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6.",
+      "content": "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6",
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "title": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026.",
+      "content": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026. After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To co...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Sonnet 4.5",
+        "Claude Sonnet 4",
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.6",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "title": "We've added model capability fields to the Models API.",
+      "content": "We've added model capability fields to the Models API. GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens, max_tokens, and a capabilities object. Query the API to discover what each model supports.",
+      "source": "anthropic",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "title": "We've launched the display field for extended thinking, letting you omit thinking content from responses for fas...",
+      "content": "We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: \"omitted\" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is u...",
+      "source": "anthropic",
+      "tags": []
+    },
+    {
+      "date": "2026-03-13",
+      "title": "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing.",
+      "content": "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.5",
+        "Beta",
+        "GA",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "title": "We've removed the dedicated 1M rate limits for all supported models.",
+      "content": "We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.",
+      "source": "anthropic",
+      "tags": [
+        "Rate Limit"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "title": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context win...",
+      "content": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.",
+      "source": "anthropic",
+      "tags": []
+    },
+    {
+      "date": "2026-02-19",
+      "title": "We've launched automatic caching for the Messages API.",
+      "content": "We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing ...",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "title": "We've retired the Claude Sonnet 3.7 model (claude-3-7-sonnet-20250219) and the Claude Haiku 3.5 model (claude-3-...",
+      "content": "We've retired the Claude Sonnet 3.7 model (claude-3-7-sonnet-20250219) and the Claude Haiku 3.5 model (claude-3-5-haiku-20241022). All requests to these models will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Haiku 4.5 respectively. Researchers can request ong...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Sonnet 3.7",
+        "Claude Haiku 3.5",
+        "Claude Sonnet 4.6",
+        "Claude Haiku 4.5",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "title": "We announced the deprecation of the Claude Haiku 3 model (claude-3-haiku-20240307), with retirement scheduled for Apr...",
+      "content": "We announced the deprecation of the Claude Haiku 3 model (claude-3-haiku-20240307), with retirement scheduled for April 19, 2026. We recommend migrating to Claude Haiku 4.5. Read more in model deprecations.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Haiku 3",
+        "Claude Haiku 4.5.",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "title": "We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks.",
+      "content": "We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & ...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Sonnet 4.6",
+        "Beta",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "title": "API code execution is now free when used with web search or web fetch.",
+      "content": "API code execution is now free when used with web search or web fetch. Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage.",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "title": "The web search tool and programmatic tool calling are now generally available (no beta header required).",
+      "content": "The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering, which uses code execution to filter results before they reach the context window for better performance and reduced token cost.",
+      "source": "anthropic",
+      "tags": [
+        "Beta",
+        "GA",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "title": "The code execution tool, web fetch tool, tool search tool, tool use examples, and memory tool are now generally avail...",
+      "content": "The code execution tool, web fetch tool, tool search tool, tool use examples, and memory tool are now generally available (no beta header required).",
+      "source": "anthropic",
+      "tags": [
+        "Beta",
+        "GA"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "title": "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generatio...",
+      "content": "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist.",
+      "source": "anthropic",
+      "tags": [
+        "Beta",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "We've launched Claude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work.",
+      "content": "We've launched Claude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends adaptive thinking (thinking: {type: \"adaptive\"}); manual thinking (type: \"enabled\" with budget_tokens) is deprecated. Opus 4.6 does not support ...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6.",
+      "content": "The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling thinking depth on new models.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6.",
+        "Beta",
+        "GA"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "We've launched the compaction API in beta, providing server-side context summarization for effectively infinite ...",
+      "content": "We've launched the compaction API in beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6.",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "We've introduced data residency controls, allowing you to specify where model inference runs with the inference_...",
+      "content": "We've introduced data residency controls, allowing you to specify where model inference runs with the inference_geo parameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026.",
+      "source": "anthropic",
+      "tags": [
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4.",
+      "content": "The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. applies to requests exceeding 200k input tokens.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-01-29",
+      "title": "Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude H...",
+      "content": "Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output_format parameter has...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Sonnet 4.5",
+        "Claude Opus 4.5",
+        "Claude Haiku 4.5.",
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-01-12",
+      "title": "console.anthropic.com now redirects to platform.claude.com.",
+      "content": "console.anthropic.com now redirects to platform.claude.com. The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the September 16, 2025 announcement.",
+      "source": "anthropic",
+      "tags": []
+    },
+    {
+      "date": "2026-01-05",
+      "title": "We've retired the Claude Opus 3 model (claude-3-opus-20240229).",
+      "content": "We've retired the Claude Opus 3 model (claude-3-opus-20240229). All requests to this model will now return an error. We recommend upgrading to Claude Opus 4.5, which offers significantly improved intelligence at a third of the cost. Researchers can request ongoing access to Claude Opus 3 on ...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 3",
+        "Claude Opus 4.5",
+        "API",
+        "Deprecation",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2025-12-19",
+      "title": "We announced the deprecation of the Claude Haiku 3.5 model.",
+      "content": "We announced the deprecation of the Claude Haiku 3.5 model. Read more in Model deprecations.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Haiku 3.5",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2025-12-04",
+      "title": "Structured outputs now supports Claude Haiku 4.5..",
+      "content": "Structured outputs now supports Claude Haiku 4.5.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Haiku 4.5."
+      ]
+    }
+  ],
+  "openai": [
+    {
+      "date": "2026-03-17",
+      "title": "Feature gpt-5.4-mini gpt-5.4-nano v1/responses v1/chat/completions Released GPT-5.4 mini and GPT-5.4 nano to the Chat...",
+      "content": "Feature gpt-5.4-mini gpt-5.4-nano v1/responses v1/chat/completions Released GPT-5.4 mini and GPT-5.4 nano to the Chat Completions and Responses API. GPT-5.4 mini brings GPT-5.4-class capabilities to a faster, more efficient model for high-volume workloads, while GPT-5.4 nano is optimized for simp...",
+      "source": "openai",
+      "tags": [
+        "gpt-5.4-mini",
+        "gpt-5.4-nano",
+        "GPT-5.4",
+        "GPT-5.4-class",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Update gpt-5.3-chat-latest Updated the gpt-5.3-chat-latest slug to point to the latest model currently used in ChatGPT..",
+      "content": "Update gpt-5.3-chat-latest Updated the gpt-5.3-chat-latest slug to point to the latest model currently used in ChatGPT.",
+      "source": "openai",
+      "tags": [
+        "gpt-5.3-chat-latest"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Fix gpt-5.4 v1/responses v1/chat/completions Updated our image encoder to fix a small bug with input_image inputs in ...",
+      "content": "Fix gpt-5.4 v1/responses v1/chat/completions Updated our image encoder to fix a small bug with input_image inputs in GPT-5.4. Some image understanding use cases may now see improved quality. No action is required.",
+      "source": "openai",
+      "tags": [
+        "gpt-5.4",
+        "GPT-5.4."
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "title": "Feature sora-2 sora-2-pro v1/videos v1/videos/characters v1/videos/extensions v1/batch Expanded the Sora API with reu...",
+      "content": "Feature sora-2 sora-2-pro v1/videos v1/videos/characters v1/videos/extensions v1/batch Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro , video extensions, and Batch API support for POST /v1/videos . 1080p generations on so...",
+      "source": "openai",
+      "tags": [
+        "sora-2",
+        "sora-2-pro",
+        "Sora",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "title": "Update sora-2 sora-2-pro v1/videos/edits v1/videos/{video_id}/remix Added POST /v1/videos/edits for editing existing ...",
+      "content": "Update sora-2 sora-2-pro v1/videos/edits v1/videos/{video_id}/remix Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix , which will be deprecated in 6 months. Learn more here .",
+      "source": "openai",
+      "tags": [
+        "sora-2",
+        "sora-2-pro",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-03-05",
+      "title": "Feature gpt-5.4 gpt-5.4-pro v1/responses v1/chat/completions Released GPT-5.4 , our newest frontier model for profess...",
+      "content": "Feature gpt-5.4 gpt-5.4-pro v1/responses v1/chat/completions Released GPT-5.4 , our newest frontier model for professional work, to the Chat Completions and Responses API, and released GPT-5.4 pro to the Responses API for tougher problems that benefit from more compute. Also released: Tool search...",
+      "source": "openai",
+      "tags": [
+        "gpt-5.4",
+        "gpt-5.4-pro",
+        "GPT-5.4",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Feature gpt-5.3-chat-latest v1/chat/completions v1/responses Released gpt-5.3-chat-latest to the Chat Completions and...",
+      "content": "Feature gpt-5.3-chat-latest v1/chat/completions v1/responses Released gpt-5.3-chat-latest to the Chat Completions and Responses API. This model points to the GPT-5.3 Instant snapshot currently used in ChatGPT. Read more here . February, 2026",
+      "source": "openai",
+      "tags": [
+        "gpt-5.3-chat-latest",
+        "GPT-5.3",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Feature v1/responses v1/chat/completions Expanded input_file support to accept more document, presentation, spreadshe...",
+      "content": "Feature v1/responses v1/chat/completions Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types. Learn more here .",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Feature v1/responses Released phase to the Responses API.",
+      "content": "Feature v1/responses Released phase to the Responses API. It labels an assistant message as intermediate commentary ( commentary ) or the final answer ( final_answer ). Read more here .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Feature gpt-5.3-codex v1/responses Released gpt-5.3-codex to the Responses API.",
+      "content": "Feature gpt-5.3-codex v1/responses Released gpt-5.3-codex to the Responses API. Read more here .",
+      "source": "openai",
+      "tags": [
+        "gpt-5.3-codex",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "title": "Feature v1/responses Launched WebSocket mode for the Responses API.",
+      "content": "Feature v1/responses Launched WebSocket mode for the Responses API. Learn more here .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "title": "Feature gpt-realtime-1.5 gpt-audio-1.5 v1/realtime v1/chat/completions Released gpt-realtime-1.5 to the Realtime API.",
+      "content": "Feature gpt-realtime-1.5 gpt-audio-1.5 v1/realtime v1/chat/completions Released gpt-realtime-1.5 to the Realtime API. Read more here . Released gpt-audio-1.5 to the Chat Completions API. Read more here .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Feature gpt-image-1.5 gpt-image-1 gpt-image-1-mini chatgpt-image-latest v1/batch Batch API is now supported for GPT I...",
+      "content": "Feature gpt-image-1.5 gpt-image-1 gpt-image-1-mini chatgpt-image-latest v1/batch Batch API is now supported for GPT Image models: gpt-image-1.5 , chatgpt-image-latest , gpt-image-1 , and gpt-image-1-mini .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Update gpt-5.2-chat-latest Updated the gpt-5.2-chat-latest slug to point to the latest model currently used in ChatGPT..",
+      "content": "Update gpt-5.2-chat-latest Updated the gpt-5.2-chat-latest slug to point to the latest model currently used in ChatGPT.",
+      "source": "openai",
+      "tags": [
+        "gpt-5.2-chat-latest"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Feature v1/responses Launched server-side compaction in the Responses API..",
+      "content": "Feature v1/responses Launched server-side compaction in the Responses API.",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Feature v1/responses Launched support for Skills in the Responses API.",
+      "content": "Feature v1/responses Launched support for Skills in the Responses API. We support Skills across both local execution and hosted container-based execution.",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Feature v1/responses Launched a new Hosted Shell tool, as well as support for networking in containers..",
+      "content": "Feature v1/responses Launched a new Hosted Shell tool, as well as support for networking in containers.",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2026-02-09",
+      "title": "Feature gpt-image-1.5 gpt-image-1 gpt-image-1-mini chatgpt-image-latest v1/images/edits Added support for application...",
+      "content": "Feature gpt-image-1.5 gpt-image-1 gpt-image-1-mini chatgpt-image-latest v1/images/edits Added support for application/json requests on /v1/images/edits for GPT image models. JSON requests use images (and optional mask ) with image_url or file_id references instead of multipart uploads.",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2026-02-03",
+      "title": "Update gpt-5.2 gpt-5.2-codex We have optimized our inference stack for API customers and GPT-5.2 and GPT-5.2-Codex no...",
+      "content": "Update gpt-5.2 gpt-5.2-codex We have optimized our inference stack for API customers and GPT-5.2 and GPT-5.2-Codex now run ~40% faster. Model and model weights are unchanged. January, 2026",
+      "source": "openai",
+      "tags": [
+        "gpt-5.2",
+        "gpt-5.2-codex",
+        "GPT-5.2",
+        "GPT-5.2-Codex",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "title": "Announcement Announced Open Responses : an open-source spec for building multi-provider, interoperable LLM interfaces...",
+      "content": "Announcement Announced Open Responses : an open-source spec for building multi-provider, interoperable LLM interfaces built on top of the original OpenAI Responses API.",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "title": "Feature gpt-5.2-codex v1/responses Released gpt-5.2-codex to the Responses API.",
+      "content": "Feature gpt-5.2-codex v1/responses Released gpt-5.2-codex to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more here .",
+      "source": "openai",
+      "tags": [
+        "gpt-5.2-codex",
+        "GPT-5.2-Codex",
+        "GPT-5.2",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Feature v1/realtime Added dedicated SIP IP ranges for Realtime API.",
+      "content": "Feature v1/realtime Added dedicated SIP IP ranges for Realtime API. sip.api.openai.com does GeoIP routing, and will direct SIP traffic to the closest region. Learn more .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Update gpt-realtime-mini gpt-audio-mini Updated the gpt-realtime-mini and gpt-audio-mini slugs to point to the 2025-1...",
+      "content": "Update gpt-realtime-mini gpt-audio-mini Updated the gpt-realtime-mini and gpt-audio-mini slugs to point to the 2025-12-15 snapshots. If you need the previous model snapshots, use gpt-realtime-mini-2025-10-06 and gpt-audio-mini-2025-10-06 .",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Update sora-2 Updated the sora-2 slug to point to sora-2-2025-12-08 .",
+      "content": "Update sora-2 Updated the sora-2 slug to point to sora-2-2025-12-08 . If you need the previous model snapshot, use sora-2-2025-10-06 .",
+      "source": "openai",
+      "tags": [
+        "sora-2",
+        "sora-2-2025-12-08",
+        "sora-2-2025-10-06"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Update gpt-4o-mini-tts gpt-4o-mini-transcribe Updated the gpt-4o-mini-tts and gpt-4o-mini-transcribe slugs to point t...",
+      "content": "Update gpt-4o-mini-tts gpt-4o-mini-transcribe Updated the gpt-4o-mini-tts and gpt-4o-mini-transcribe slugs to point to the 2025-12-15 snapshots. If you need the previous model snapshots, use gpt-4o-mini-tts-2025-03-20 and gpt-4o-mini-transcribe-2025-03-20 . We currently recomend using gpt-4o-mini...",
+      "source": "openai",
+      "tags": [
+        "gpt-4o-mini-tts",
+        "gpt-4o-mini-transcribe",
+        "gpt-4o-mini-tts-2025-03-20",
+        "gpt-4o-mini-transcribe-2025-03-20",
+        "gpt-4o-transcribe"
+      ]
+    },
+    {
+      "date": "2026-01-09",
+      "title": "Fix gpt-image-1.5 chatgpt-image-latest Fixed an issue where gpt-image-1.5 and chatgpt-image-latest were incorrectly u...",
+      "content": "Fix gpt-image-1.5 chatgpt-image-latest Fixed an issue where gpt-image-1.5 and chatgpt-image-latest were incorrectly using high fidelity for image edits through /v1/images/edits , even when fidelity was explicitly set to low (the default). December, 2025",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2025-12-19",
+      "title": "Update gpt-image-1.5 chatgpt-image-latest Added gpt-image-1.5 and chatgpt-image-latest to the Responses API image gen...",
+      "content": "Update gpt-image-1.5 chatgpt-image-latest Added gpt-image-1.5 and chatgpt-image-latest to the Responses API image generation tool.",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2025-12-16",
+      "title": "Feature gpt-image-1.5 chatgpt-image-latest Released gpt-image-1.5 and chatgpt-image-latest , our latest and most adva...",
+      "content": "Feature gpt-image-1.5 chatgpt-image-latest Released gpt-image-1.5 and chatgpt-image-latest , our latest and most advanced models for image generation. Read more here .",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2025-12-15",
+      "title": "Feature gpt-realtime-mini gpt-audio-mini gpt-4o-mini-transcribe gpt-4o-mini-tts Released four new dated audio snapshots.",
+      "content": "Feature gpt-realtime-mini gpt-audio-mini gpt-4o-mini-transcribe gpt-4o-mini-tts Released four new dated audio snapshots. These updates deliver reliability, quality, and voice fidelity improvements for real-time, voice-driven applications. Read more here . gpt-realtime-mini-2025-12-15 gpt-audio-mi...",
+      "source": "openai",
+      "tags": [
+        "gpt-4o-mini-transcribe",
+        "gpt-4o-mini-tts",
+        "gpt-4o-mini-transcribe-2025-12-15",
+        "gpt-4o-mini-tts-2025-12-15"
+      ]
+    },
+    {
+      "date": "2025-12-11",
+      "title": "Feature gpt-5.2 gpt-5.2-chat-latest v1/responses v1/chat/completions Released GPT-5.2 , the newest flagship model in ...",
+      "content": "Feature gpt-5.2 gpt-5.2-chat-latest v1/responses v1/chat/completions Released GPT-5.2 , the newest flagship model in the GPT-5 model family. GPT-5.2 shows improvements over the previous GPT-5.1 in: General intelligence Instruction following Accuracy and token efficiency Multimodality—especially v...",
+      "source": "openai",
+      "tags": [
+        "gpt-5.2",
+        "gpt-5.2-chat-latest",
+        "GPT-5.2",
+        "GPT-5",
+        "GPT-5.1"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-04-09",
+      "title": "We've launched the advisor tool in public beta.",
+      "content": "We've launched the advisor tool in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo quality while the bulk of token generation happens at executor-mo...",
+      "source": "anthropic",
+      "tags": [
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "title": "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an auto...",
+      "content": "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require t...",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "title": "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Cl...",
+      "content": "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Code",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "title": "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part ...",
+      "content": "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing. Access is invitation-only.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Mythos",
+        "Beta",
+        "GA"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "title": "The Messages API is now available on Amazon Bedrock as a research preview.",
+      "content": "The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1; contac...",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "title": "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6.",
+      "content": "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6",
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "title": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026.",
+      "content": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026. After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To co...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Sonnet 4.5",
+        "Claude Sonnet 4",
+        "Claude Sonnet 4.6",
+        "Claude Opus 4.6",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "title": "We've added model capability fields to the Models API.",
+      "content": "We've added model capability fields to the Models API. GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens, max_tokens, and a capabilities object. Query the API to discover what each model supports.",
+      "source": "anthropic",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "title": "Feature gpt-5.4-mini gpt-5.4-nano v1/responses v1/chat/completions Released GPT-5.4 mini and GPT-5.4 nano to the Chat...",
+      "content": "Feature gpt-5.4-mini gpt-5.4-nano v1/responses v1/chat/completions Released GPT-5.4 mini and GPT-5.4 nano to the Chat Completions and Responses API. GPT-5.4 mini brings GPT-5.4-class capabilities to a faster, more efficient model for high-volume workloads, while GPT-5.4 nano is optimized for simp...",
+      "source": "openai",
+      "tags": [
+        "gpt-5.4-mini",
+        "gpt-5.4-nano",
+        "GPT-5.4",
+        "GPT-5.4-class",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "title": "We've launched the display field for extended thinking, letting you omit thinking content from responses for fas...",
+      "content": "We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: \"omitted\" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is u...",
+      "source": "anthropic",
+      "tags": []
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Update gpt-5.3-chat-latest Updated the gpt-5.3-chat-latest slug to point to the latest model currently used in ChatGPT..",
+      "content": "Update gpt-5.3-chat-latest Updated the gpt-5.3-chat-latest slug to point to the latest model currently used in ChatGPT.",
+      "source": "openai",
+      "tags": [
+        "gpt-5.3-chat-latest"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "title": "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing.",
+      "content": "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.5",
+        "Beta",
+        "GA",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "title": "We've removed the dedicated 1M rate limits for all supported models.",
+      "content": "We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.",
+      "source": "anthropic",
+      "tags": [
+        "Rate Limit"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "title": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context win...",
+      "content": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.",
+      "source": "anthropic",
+      "tags": []
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Fix gpt-5.4 v1/responses v1/chat/completions Updated our image encoder to fix a small bug with input_image inputs in ...",
+      "content": "Fix gpt-5.4 v1/responses v1/chat/completions Updated our image encoder to fix a small bug with input_image inputs in GPT-5.4. Some image understanding use cases may now see improved quality. No action is required.",
+      "source": "openai",
+      "tags": [
+        "gpt-5.4",
+        "GPT-5.4."
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "title": "Feature sora-2 sora-2-pro v1/videos v1/videos/characters v1/videos/extensions v1/batch Expanded the Sora API with reu...",
+      "content": "Feature sora-2 sora-2-pro v1/videos v1/videos/characters v1/videos/extensions v1/batch Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro , video extensions, and Batch API support for POST /v1/videos . 1080p generations on so...",
+      "source": "openai",
+      "tags": [
+        "sora-2",
+        "sora-2-pro",
+        "Sora",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "title": "Update sora-2 sora-2-pro v1/videos/edits v1/videos/{video_id}/remix Added POST /v1/videos/edits for editing existing ...",
+      "content": "Update sora-2 sora-2-pro v1/videos/edits v1/videos/{video_id}/remix Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix , which will be deprecated in 6 months. Learn more here .",
+      "source": "openai",
+      "tags": [
+        "sora-2",
+        "sora-2-pro",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-03-05",
+      "title": "Feature gpt-5.4 gpt-5.4-pro v1/responses v1/chat/completions Released GPT-5.4 , our newest frontier model for profess...",
+      "content": "Feature gpt-5.4 gpt-5.4-pro v1/responses v1/chat/completions Released GPT-5.4 , our newest frontier model for professional work, to the Chat Completions and Responses API, and released GPT-5.4 pro to the Responses API for tougher problems that benefit from more compute. Also released: Tool search...",
+      "source": "openai",
+      "tags": [
+        "gpt-5.4",
+        "gpt-5.4-pro",
+        "GPT-5.4",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Feature gpt-5.3-chat-latest v1/chat/completions v1/responses Released gpt-5.3-chat-latest to the Chat Completions and...",
+      "content": "Feature gpt-5.3-chat-latest v1/chat/completions v1/responses Released gpt-5.3-chat-latest to the Chat Completions and Responses API. This model points to the GPT-5.3 Instant snapshot currently used in ChatGPT. Read more here . February, 2026",
+      "source": "openai",
+      "tags": [
+        "gpt-5.3-chat-latest",
+        "GPT-5.3",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Feature v1/responses v1/chat/completions Expanded input_file support to accept more document, presentation, spreadshe...",
+      "content": "Feature v1/responses v1/chat/completions Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types. Learn more here .",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Feature v1/responses Released phase to the Responses API.",
+      "content": "Feature v1/responses Released phase to the Responses API. It labels an assistant message as intermediate commentary ( commentary ) or the final answer ( final_answer ). Read more here .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Feature gpt-5.3-codex v1/responses Released gpt-5.3-codex to the Responses API.",
+      "content": "Feature gpt-5.3-codex v1/responses Released gpt-5.3-codex to the Responses API. Read more here .",
+      "source": "openai",
+      "tags": [
+        "gpt-5.3-codex",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "title": "Feature v1/responses Launched WebSocket mode for the Responses API.",
+      "content": "Feature v1/responses Launched WebSocket mode for the Responses API. Learn more here .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "title": "Feature gpt-realtime-1.5 gpt-audio-1.5 v1/realtime v1/chat/completions Released gpt-realtime-1.5 to the Realtime API.",
+      "content": "Feature gpt-realtime-1.5 gpt-audio-1.5 v1/realtime v1/chat/completions Released gpt-realtime-1.5 to the Realtime API. Read more here . Released gpt-audio-1.5 to the Chat Completions API. Read more here .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "title": "We've launched automatic caching for the Messages API.",
+      "content": "We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing ...",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "title": "We've retired the Claude Sonnet 3.7 model (claude-3-7-sonnet-20250219) and the Claude Haiku 3.5 model (claude-3-...",
+      "content": "We've retired the Claude Sonnet 3.7 model (claude-3-7-sonnet-20250219) and the Claude Haiku 3.5 model (claude-3-5-haiku-20241022). All requests to these models will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Haiku 4.5 respectively. Researchers can request ong...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Sonnet 3.7",
+        "Claude Haiku 3.5",
+        "Claude Sonnet 4.6",
+        "Claude Haiku 4.5",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "title": "We announced the deprecation of the Claude Haiku 3 model (claude-3-haiku-20240307), with retirement scheduled for Apr...",
+      "content": "We announced the deprecation of the Claude Haiku 3 model (claude-3-haiku-20240307), with retirement scheduled for April 19, 2026. We recommend migrating to Claude Haiku 4.5. Read more in model deprecations.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Haiku 3",
+        "Claude Haiku 4.5.",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "title": "We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks.",
+      "content": "We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & ...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Sonnet 4.6",
+        "Beta",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "title": "API code execution is now free when used with web search or web fetch.",
+      "content": "API code execution is now free when used with web search or web fetch. Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage.",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "title": "The web search tool and programmatic tool calling are now generally available (no beta header required).",
+      "content": "The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering, which uses code execution to filter results before they reach the context window for better performance and reduced token cost.",
+      "source": "anthropic",
+      "tags": [
+        "Beta",
+        "GA",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "title": "The code execution tool, web fetch tool, tool search tool, tool use examples, and memory tool are now generally avail...",
+      "content": "The code execution tool, web fetch tool, tool search tool, tool use examples, and memory tool are now generally available (no beta header required).",
+      "source": "anthropic",
+      "tags": [
+        "Beta",
+        "GA"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Feature gpt-image-1.5 gpt-image-1 gpt-image-1-mini chatgpt-image-latest v1/batch Batch API is now supported for GPT I...",
+      "content": "Feature gpt-image-1.5 gpt-image-1 gpt-image-1-mini chatgpt-image-latest v1/batch Batch API is now supported for GPT Image models: gpt-image-1.5 , chatgpt-image-latest , gpt-image-1 , and gpt-image-1-mini .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Update gpt-5.2-chat-latest Updated the gpt-5.2-chat-latest slug to point to the latest model currently used in ChatGPT..",
+      "content": "Update gpt-5.2-chat-latest Updated the gpt-5.2-chat-latest slug to point to the latest model currently used in ChatGPT.",
+      "source": "openai",
+      "tags": [
+        "gpt-5.2-chat-latest"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Feature v1/responses Launched server-side compaction in the Responses API..",
+      "content": "Feature v1/responses Launched server-side compaction in the Responses API.",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Feature v1/responses Launched support for Skills in the Responses API.",
+      "content": "Feature v1/responses Launched support for Skills in the Responses API. We support Skills across both local execution and hosted container-based execution.",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Feature v1/responses Launched a new Hosted Shell tool, as well as support for networking in containers..",
+      "content": "Feature v1/responses Launched a new Hosted Shell tool, as well as support for networking in containers.",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2026-02-09",
+      "title": "Feature gpt-image-1.5 gpt-image-1 gpt-image-1-mini chatgpt-image-latest v1/images/edits Added support for application...",
+      "content": "Feature gpt-image-1.5 gpt-image-1 gpt-image-1-mini chatgpt-image-latest v1/images/edits Added support for application/json requests on /v1/images/edits for GPT image models. JSON requests use images (and optional mask ) with image_url or file_id references instead of multipart uploads.",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2026-02-07",
+      "title": "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generatio...",
+      "content": "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist.",
+      "source": "anthropic",
+      "tags": [
+        "Beta",
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "We've launched Claude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work.",
+      "content": "We've launched Claude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends adaptive thinking (thinking: {type: \"adaptive\"}); manual thinking (type: \"enabled\" with budget_tokens) is deprecated. Opus 4.6 does not support ...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6",
+        "Deprecation"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6.",
+      "content": "The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling thinking depth on new models.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6.",
+        "Beta",
+        "GA"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "We've launched the compaction API in beta, providing server-side context summarization for effectively infinite ...",
+      "content": "We've launched the compaction API in beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6.",
+      "source": "anthropic",
+      "tags": [
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "We've introduced data residency controls, allowing you to specify where model inference runs with the inference_...",
+      "content": "We've introduced data residency controls, allowing you to specify where model inference runs with the inference_geo parameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026.",
+      "source": "anthropic",
+      "tags": [
+        "Pricing"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "title": "The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4.",
+      "content": "The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. applies to requests exceeding 200k input tokens.",
+      "source": "anthropic",
+      "tags": [
+        "Claude Opus 4.6",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "title": "Update gpt-5.2 gpt-5.2-codex We have optimized our inference stack for API customers and GPT-5.2 and GPT-5.2-Codex no...",
+      "content": "Update gpt-5.2 gpt-5.2-codex We have optimized our inference stack for API customers and GPT-5.2 and GPT-5.2-Codex now run ~40% faster. Model and model weights are unchanged. January, 2026",
+      "source": "openai",
+      "tags": [
+        "gpt-5.2",
+        "gpt-5.2-codex",
+        "GPT-5.2",
+        "GPT-5.2-Codex",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-01-29",
+      "title": "Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude H...",
+      "content": "Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output_format parameter has...",
+      "source": "anthropic",
+      "tags": [
+        "Claude Sonnet 4.5",
+        "Claude Opus 4.5",
+        "Claude Haiku 4.5.",
+        "API",
+        "Beta"
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "title": "Announcement Announced Open Responses : an open-source spec for building multi-provider, interoperable LLM interfaces...",
+      "content": "Announcement Announced Open Responses : an open-source spec for building multi-provider, interoperable LLM interfaces built on top of the original OpenAI Responses API.",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "title": "Feature gpt-5.2-codex v1/responses Released gpt-5.2-codex to the Responses API.",
+      "content": "Feature gpt-5.2-codex v1/responses Released gpt-5.2-codex to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more here .",
+      "source": "openai",
+      "tags": [
+        "gpt-5.2-codex",
+        "GPT-5.2-Codex",
+        "GPT-5.2",
+        "API"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Feature v1/realtime Added dedicated SIP IP ranges for Realtime API.",
+      "content": "Feature v1/realtime Added dedicated SIP IP ranges for Realtime API. sip.api.openai.com does GeoIP routing, and will direct SIP traffic to the closest region. Learn more .",
+      "source": "openai",
+      "tags": [
+        "API"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Update gpt-realtime-mini gpt-audio-mini Updated the gpt-realtime-mini and gpt-audio-mini slugs to point to the 2025-1...",
+      "content": "Update gpt-realtime-mini gpt-audio-mini Updated the gpt-realtime-mini and gpt-audio-mini slugs to point to the 2025-12-15 snapshots. If you need the previous model snapshots, use gpt-realtime-mini-2025-10-06 and gpt-audio-mini-2025-10-06 .",
+      "source": "openai",
+      "tags": []
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Update sora-2 Updated the sora-2 slug to point to sora-2-2025-12-08 .",
+      "content": "Update sora-2 Updated the sora-2 slug to point to sora-2-2025-12-08 . If you need the previous model snapshot, use sora-2-2025-10-06 .",
+      "source": "openai",
+      "tags": [
+        "sora-2",
+        "sora-2-2025-12-08",
+        "sora-2-2025-10-06"
+      ]
+    }
+  ],
+  "youtubeVideos": [
+    {
+      "videoId": "pRoIjB5eNKo",
+      "title": "Claude Mythos Explained",
+      "channelTitle": "Matt Wolfe",
+      "publishedAt": "2026-04-10T21:23:54Z",
+      "thumbnail": "https://i.ytimg.com/vi/pRoIjB5eNKo/hqdefault.jpg",
+      "viewCount": 7004
+    },
+    {
+      "videoId": "d3Qq-rkp_to",
+      "title": "Claude Mythos is too dangerous for public consumption...",
+      "channelTitle": "Fireship",
+      "publishedAt": "2026-04-10T19:29:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/d3Qq-rkp_to/hqdefault.jpg",
+      "viewCount": 453019
+    },
+    {
+      "videoId": "SguncMvE77I",
+      "title": "AI News: The Scariest AI Model Ever!",
+      "channelTitle": "Matt Wolfe",
+      "publishedAt": "2026-04-10T15:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/SguncMvE77I/hqdefault.jpg",
+      "viewCount": 50132
+    },
+    {
+      "videoId": "OvJp5Z3vCP8",
+      "title": "방금 나온 클로드 더 똑똑하게 만들어주는 공식 기능. 클로드 Advisor Tool",
+      "channelTitle": "코드팩토리",
+      "publishedAt": "2026-04-10T09:00:40Z",
+      "thumbnail": "https://i.ytimg.com/vi/OvJp5Z3vCP8/hqdefault.jpg",
+      "viewCount": 17661
+    },
+    {
+      "videoId": "kMeCuDnGh9I",
+      "title": "스파이더맨 현실판이 된 일본 로봇기술 근황",
+      "channelTitle": "조코딩 JoCoding",
+      "publishedAt": "2026-04-10T09:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/kMeCuDnGh9I/hqdefault.jpg",
+      "viewCount": 69524
+    },
+    {
+      "videoId": "-THVEhqwopo",
+      "title": "사람 대신 일하는 AI, 실제 현업에선 이렇게 씁니다 || 인핸스 이승현 대표",
+      "channelTitle": "조코딩 JoCoding",
+      "publishedAt": "2026-04-10T08:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/-THVEhqwopo/hqdefault.jpg",
+      "viewCount": 2224
+    },
+    {
+      "videoId": "-01ZCTt-CJw",
+      "title": "Google just casually disrupted the open-source AI narrative…",
+      "channelTitle": "Fireship",
+      "publishedAt": "2026-04-08T19:00:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/-01ZCTt-CJw/hqdefault.jpg",
+      "viewCount": 1074165
+    },
+    {
+      "videoId": "txx6ec6MLNY",
+      "title": "Claude Mythos: Highlights from 244-page Release",
+      "channelTitle": "AI Explained",
+      "publishedAt": "2026-04-08T17:39:20Z",
+      "thumbnail": "https://i.ytimg.com/vi/txx6ec6MLNY/hqdefault.jpg",
+      "viewCount": 102032
+    },
+    {
+      "videoId": "z3yefLP9C3w",
+      "title": "바이브 코딩 한다면 무조건 알아야하는 권한 시스템 RBAC",
+      "channelTitle": "코드팩토리",
+      "publishedAt": "2026-04-08T09:01:23Z",
+      "thumbnail": "https://i.ytimg.com/vi/z3yefLP9C3w/hqdefault.jpg",
+      "viewCount": 17674
+    },
+    {
+      "videoId": "ZQAz_HrUq68",
+      "title": "NVIDIA’s New AI Just Changed Everything",
+      "channelTitle": "Two Minute Papers",
+      "publishedAt": "2026-04-07T17:38:09Z",
+      "thumbnail": "https://i.ytimg.com/vi/ZQAz_HrUq68/hqdefault.jpg",
+      "viewCount": 164592
+    },
+    {
+      "videoId": "7YVrb3-ABYE",
+      "title": "Google’s New AI Just Broke My Brain",
+      "channelTitle": "Two Minute Papers",
+      "publishedAt": "2026-04-01T14:21:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/7YVrb3-ABYE/hqdefault.jpg",
+      "viewCount": 159375
+    }
+  ]
+}
