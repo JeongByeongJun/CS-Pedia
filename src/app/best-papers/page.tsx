@@ -5,10 +5,10 @@ import { BestPaperClientSection } from "@/presentation/components/best-papers/be
 
 export const metadata: Metadata = {
   title: "Best Papers",
-  description: "Best Paper award archive across top CS conferences. Browse by year and venue.",
+  description: "Browse 1,400+ Best Paper and Distinguished Paper awards across 209 top CS conferences. Filter by year, venue, and research field to discover award-winning research.",
   openGraph: {
     title: "Best Papers — CS-Pedia",
-    description: "Best Paper award archive across top CS conferences. Browse by year and venue.",
+    description: "Browse 1,400+ Best Paper and Distinguished Paper awards across 209 top CS conferences. Filter by year, venue, and research field to discover award-winning research.",
     url: "https://cs-pedia.io/best-papers",
     siteName: "CS-Pedia",
     locale: "en_US",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Papers — CS-Pedia",
-    description: "Best Paper award archive across top CS conferences. Browse by year and venue.",
+    description: "Browse 1,400+ Best Paper and Distinguished Paper awards across 209 top CS conferences. Filter by year, venue, and research field to discover award-winning research.",
   },
   alternates: {
     canonical: "https://cs-pedia.io/best-papers",
@@ -42,7 +42,7 @@ export default async function BestPapersPage() {
   };
 
   return (
-    <div className="min-h-screen bg-page-gradient">
+    <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}

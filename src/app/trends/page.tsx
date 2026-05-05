@@ -27,10 +27,10 @@ const KeywordBarChart = dynamic(
 
 export const metadata: Metadata = {
   title: "Trends",
-  description: "Compare acceptance rate trends and research keyword trends across top CS conferences.",
+  description: "Compare acceptance rate trends and research keyword trends across 209 top CS conferences. Visualize multi-year acceptance rates and discover emerging topics in AI, systems, security, and more.",
   openGraph: {
     title: "Trends — CS-Pedia",
-    description: "Compare acceptance rate trends and research keyword trends across top CS conferences.",
+    description: "Compare acceptance rate trends and research keyword trends across 209 top CS conferences. Visualize multi-year acceptance rates and discover emerging topics in AI, systems, security, and more.",
     url: "https://cs-pedia.io/trends",
     siteName: "CS-Pedia",
     locale: "en_US",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Trends — CS-Pedia",
-    description: "Compare acceptance rate trends and research keyword trends across top CS conferences.",
+    description: "Compare acceptance rate trends and research keyword trends across 209 top CS conferences. Visualize multi-year acceptance rates and discover emerging topics in AI, systems, security, and more.",
   },
   alternates: {
     canonical: "https://cs-pedia.io/trends",
@@ -109,7 +109,7 @@ export default async function TrendsPage() {
   };
 
   return (
-    <div className="min-h-screen bg-page-gradient">
+    <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}

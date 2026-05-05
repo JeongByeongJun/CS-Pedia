@@ -70,7 +70,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   titleParts.push("Deadline & Acceptance Rate");
   const title = titleParts.join(" | ");
 
-  const description = descEn ?? `${acronym} (${nameEn}). Paper deadline, acceptance rate, best paper awards, and CORE/CCF rankings.`;
+  const venueStr = venue ? ` in ${venue}` : "";
+  const description = descEn ?? `${acronym} ${year} (${nameEn})${venueStr}. Check paper submission deadline, CFP details, acceptance rate history, best paper awards, and CORE/CCF rankings on CS-Pedia.`;
 
   return {
     title,
