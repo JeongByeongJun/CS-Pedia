@@ -26,7 +26,7 @@ export default async function AboutPage() {
         { icon: "🌍", text: "해외 랭킹: CORE, CCF, CSRankings 등급 제공" },
         { icon: "📊", text: "채택률 트렌드: DBLP/OpenAlex 데이터 기반 연도별 채택률" },
         { icon: "🔍", text: "연구 키워드 트렌드: Semantic Scholar 논문 제목 분석" },
-        { icon: "🏆", text: "Best Paper 아카이브: 2020년 이후 1,400편 이상 수록" },
+        { icon: "🏆", text: "Best Paper 아카이브: 2020년 이후 1,650편 이상 수록" },
       ]
     : [
         { icon: "📅", text: "209 CS conferences with deadlines, dates, and venues" },
@@ -35,7 +35,7 @@ export default async function AboutPage() {
         { icon: "🏛️", text: "Korean institutional ratings: BK21, KIISE, KAIST, SNU, POSTECH" },
         { icon: "📊", text: "Acceptance rate trends: Year-over-year data from DBLP/OpenAlex" },
         { icon: "🔍", text: "Research keyword trends: Based on Semantic Scholar paper titles" },
-        { icon: "🏆", text: "Best Paper archive: 1,400+ awards since 2020" },
+        { icon: "🏆", text: "Best Paper archive: 1,650+ awards since 2020" },
       ];
 
   const sources = isKorean

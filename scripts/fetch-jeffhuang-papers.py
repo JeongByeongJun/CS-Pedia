@@ -24,6 +24,7 @@ CONF_MAP = {
     "oakland": "sp", "ieeesecpriv": "sp",
     "osdi": "osdi", "pldi": "pldi", "popl": "popl",
     "sc": "sc", "sigcomm": "sigcomm", "siggraph": "siggraph",
+    "sigmetrics": "sigmetrics",
     "sigir": "sigir", "sigmod": "sigmod", "sosp": "sosp", "stoc": "stoc",
     "uist": "uist", "usenixsec": "usenix-security",
     "usenixatc": "usenix-atc", "vldb": "vldb", "www": "www",
@@ -66,7 +67,8 @@ CONF_MAP = {
 }
 
 def normalize_title(title):
-    return re.sub(r'[^a-z0-9 ]', '', title.lower()).strip()
+    normalized = re.sub(r'[^a-z0-9 ]', ' ', title.lower())
+    return re.sub(r'\s+', ' ', normalized).strip()
 
 def parse_authors(td):
     """Extract clean author list (names only, no institutions) from authors <td>."""

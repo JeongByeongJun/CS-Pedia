@@ -127,13 +127,13 @@ export default async function OGImage() {
           <div style={{ fontSize: 22, color: "#71717a", lineHeight: 1.5, display: "flex" }}>
             {isKorean
               ? "BK21 · KIISE · Acceptance Rate · 데드라인 — 한국 CS 연구자를 위한 학회 통합 플랫폼"
-              : "CORE · CCF · Acceptance Rates · 209 CS conferences tracked with 1,400+ best papers"}
+              : "CORE · CCF · Acceptance Rates · 209 CS conferences tracked with 1,650+ best papers"}
           </div>
 
           {/* Stats row */}
           <div style={{ display: "flex", gap: 32, marginTop: 40 }}>
             <StatPill value="209" label="Conferences" color="#818cf8" />
-            <StatPill value="1,480+" label="Best Papers" color="#a78bfa" />
+            <StatPill value="1,650+" label="Best Papers" color="#a78bfa" />
             <StatPill value="8" label={isKorean ? "기관 인정" : "Rankings"} color="#f59e0b" />
           </div>
         </div>

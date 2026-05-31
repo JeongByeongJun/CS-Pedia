@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
-    description: "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,400+ best papers.",
+    description: "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,650+ best papers.",
     url: "https://cs-pedia.io",
     siteName: "CS-Pedia",
     locale: "ko_KR",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
-    description: "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,400+ best papers.",
+    description: "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,650+ best papers.",
   },
 };
 
