@@ -77,7 +77,7 @@
     "field": "AI/ML",
     "sub_field": "Web Search",
     "dblp_key": "conf/wsdm",
-    "website_url": "https://wsdm-conference.org/2026/index.php/call-for-papers/"
+    "website_url": "https://wsdm-conference.org/2027/cffp.html"
   },
   {
     "slug": "sigir",
@@ -287,7 +287,7 @@
     "field": "NLP",
     "sub_field": "Natural Language Processing",
     "dblp_key": "conf/aacl",
-    "website_url": "https://2025.aaclnet.org/calls/main_conference_papers/"
+    "website_url": "https://2026.aaclnet.org/"
   },
   {
     "slug": "conll",
@@ -347,7 +347,7 @@
     "field": "CV",
     "sub_field": "Computer Vision",
     "dblp_key": "conf/wacv",
-    "website_url": "https://wacv.thecvf.com/Conferences/2026/CallForPapers"
+    "website_url": "https://wacv.thecvf.com/Conferences/2027/CallForPapers"
   },
   {
     "slug": "accv",
@@ -387,7 +387,7 @@
     "field": "CV",
     "sub_field": "3D Vision",
     "dblp_key": "conf/3dim",
-    "website_url": "https://3dvconf.github.io/2026/"
+    "website_url": "https://3dvconf.github.io/2027/"
   },
   {
     "slug": "icip",
@@ -397,7 +397,7 @@
     "field": "CV",
     "sub_field": "Image Processing",
     "dblp_key": "conf/icip",
-    "website_url": "https://2026.ieeeicip.org/"
+    "website_url": "https://2027.ieeeicip.org/"
   },
   {
     "slug": "icpr",
@@ -597,7 +597,7 @@
     "field": "Security",
     "sub_field": "Security",
     "dblp_key": "conf/sp",
-    "website_url": "https://sp2026.ieee-security.org"
+    "website_url": "https://sp2027.ieee-security.org/cfpapers.html"
   },
   {
     "slug": "usenix-security",
@@ -677,7 +677,7 @@
     "field": "Security",
     "sub_field": "Privacy",
     "dblp_key": "conf/pet",
-    "website_url": "https://petsymposium.org/cfp26.php"
+    "website_url": "https://petsymposium.org/cfp27.php"
   },
   {
     "slug": "raid",
@@ -807,7 +807,7 @@
     "field": "HCI",
     "sub_field": "Human-Computer Interaction",
     "dblp_key": "conf/chi",
-    "website_url": "https://chi2026.acm.org/authors/papers/"
+    "website_url": "https://chi2027.acm.org/papers/"
   },
   {
     "slug": "uist",
@@ -847,7 +847,7 @@
     "field": "HCI",
     "sub_field": "Intelligent Interfaces",
     "dblp_key": "conf/iui",
-    "website_url": "https://iui.acm.org/2026/"
+    "website_url": "https://iui.acm.org/2027/call-for-papers/"
   },
   {
     "slug": "dis",
@@ -1267,7 +1267,7 @@
     "field": "Architecture",
     "sub_field": "Design Automation",
     "dblp_key": "conf/date",
-    "website_url": "https://www.date-conference.com/"
+    "website_url": "https://www.date-conference.com/date-2027-call-papers"
   },
   {
     "slug": "iccad",
@@ -1287,7 +1287,7 @@
     "field": "Architecture",
     "sub_field": "Code Generation",
     "dblp_key": "conf/cgo",
-    "website_url": "https://2026.cgo.org/"
+    "website_url": "https://conf.researchr.org/track/cgo-2027/cgo-2027-papers"
   },
   {
     "slug": "pact",
@@ -1377,7 +1377,7 @@
     "field": "Robotics",
     "sub_field": "Robotics",
     "dblp_key": "conf/icra",
-    "website_url": "https://2026.ieee-icra.org/contribute/call-for-icra-2026-papers-now-accepting-submissions/"
+    "website_url": "https://www.ieee-ras.org/event/2027-ieee-international-conference-on-robotics-and-automation-icra-64212/"
   },
   {
     "slug": "iros",
@@ -1387,7 +1387,7 @@
     "field": "Robotics",
     "sub_field": "Intelligent Robots",
     "dblp_key": "conf/iros",
-    "website_url": "https://2026.ieee-iros.org/"
+    "website_url": "https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/"
   },
   {
     "slug": "rss",
@@ -1517,7 +1517,7 @@
     "field": "Graphics",
     "sub_field": "Virtual Reality",
     "dblp_key": "conf/vr",
-    "website_url": "https://ieeevr.org"
+    "website_url": "https://ieeevr.org/2027/"
   },
   {
     "slug": "iswc",
@@ -1557,7 +1557,7 @@
     "field": "Networks",
     "sub_field": "Pervasive Computing",
     "dblp_key": "conf/percom",
-    "website_url": "https://percom.org/"
+    "website_url": "https://percom.org/call-for-papers/"
   },
   {
     "slug": "podc",
@@ -1657,7 +1657,7 @@
     "field": "PL",
     "sub_field": "Programming Languages Theory",
     "dblp_key": "conf/esop",
-    "website_url": "https://etaps.org/2026/conferences/esop/"
+    "website_url": "https://www.etaps.org/2027/cfp/"
   },
   {
     "slug": "icpp",
@@ -1717,7 +1717,7 @@
     "field": "Architecture",
     "sub_field": "Performance Evaluation",
     "dblp_key": "conf/performance",
-    "website_url": "https://performance2025.sciencesconf.org/"
+    "website_url": "https://performance2026.github.io/call/"
   },
   {
     "slug": "re",
@@ -1737,7 +1737,7 @@
     "field": "SE",
     "sub_field": "Software Verification",
     "dblp_key": "conf/tacas",
-    "website_url": "https://etaps.org/2026/conferences/tacas/"
+    "website_url": "https://etaps.org/2027/cfp/"
   },
   {
     "slug": "asiaccs",
@@ -1747,7 +1747,7 @@
     "field": "Security",
     "sub_field": "Systems Security",
     "dblp_key": "conf/asiaccs",
-    "website_url": "https://asiaccs2026.cse.iitkgp.ac.in/"
+    "website_url": "https://asiaccs2027.cityu.edu.mo/call-for-papers/index.html"
   },
   {
     "slug": "avss",
@@ -1827,7 +1827,7 @@
     "field": "Systems",
     "sub_field": "High Performance Computing",
     "dblp_key": "conf/hipc",
-    "website_url": "https://hipc.org/"
+    "website_url": "https://hipc.org/papers/"
   },
   {
     "slug": "hipeac",
@@ -1847,7 +1847,7 @@
     "field": "Architecture",
     "sub_field": "Computer Design",
     "dblp_key": "conf/iccd",
-    "website_url": "http://www.iccd-conf.com/"
+    "website_url": "https://www.iccd-conf.com/2026/Submission_guide.html"
   },
   {
     "slug": "iclp",
@@ -1917,7 +1917,7 @@
     "field": "AI/ML",
     "sub_field": "Computational Biology",
     "dblp_key": "conf/ismb",
-    "website_url": "https://www.iscb.org/ismb2026/home"
+    "website_url": "https://transition.iscb.org/about-ismb"
   },
   {
     "slug": "ispass",
