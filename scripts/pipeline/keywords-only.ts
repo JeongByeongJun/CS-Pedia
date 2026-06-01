@@ -3,8 +3,31 @@ import { extractKeywords } from "./keywords";
 import { getConferenceSlugsAndIds, upsertKeywordTrends } from "./supabase-writer";
 import { createClient } from "@supabase/supabase-js";
 
+type Options = {
+  startFrom: string | null;
+};
+
+function parseArgs(argv: string[]): Options {
+  const options: Options = {
+    startFrom: null,
+  };
+
+  for (const arg of argv) {
+    const [key, value] = arg.split("=");
+    if (key === "--start-from" && value) {
+      options.startFrom = value;
+    }
+  }
+
+  return options;
+}
+
 async function run() {
+  const options = parseArgs(process.argv.slice(2));
   console.log("── Phase 3 only: Keyword Trends (DBLP) ──\n");
+  if (options.startFrom) {
+    console.log(`Resuming from slug: ${options.startFrom}\n`);
+  }
 
   const conferences = await getConferenceSlugsAndIds();
   console.log(`Found ${conferences.size} conferences in DB\n`);
@@ -30,10 +53,19 @@ async function run() {
 
   let kwProcessed = 0;
   let kwTotal = 0;
+  let started = !options.startFrom;
   const total = conferences.size;
 
   for (const [slug, conf] of conferences) {
     kwProcessed++;
+    if (!started) {
+      if (slug !== options.startFrom) {
+        console.log(`[KW ${kwProcessed}/${total}] ${slug}: skipped before resume point`);
+        continue;
+      }
+      started = true;
+    }
+
     if (!conf.dblpKey) continue;
 
     console.log(`[KW ${kwProcessed}/${total}] ${slug}...`);
@@ -82,6 +114,10 @@ async function run() {
       kwTotal += n;
       console.log(`  → Saved ${n} keyword entries`);
     }
+  }
+
+  if (!started && options.startFrom) {
+    throw new Error(`Resume slug not found: ${options.startFrom}`);
   }
 
   console.log(`\nTotal keyword entries upserted: ${kwTotal}`);
