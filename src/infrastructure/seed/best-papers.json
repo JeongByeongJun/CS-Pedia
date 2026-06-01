@@ -9294,7 +9294,7 @@
     "tags": [
       "Side-Channel Attacks"
     ],
-    "paper_url": null
+    "paper_url": "https://doi.org/10.1007/978-981-92-0366-6_18"
   },
   {
     "conference_slug": "ndss",
@@ -19254,7 +19254,7 @@
       "Drug-Gene Interaction",
       "Biomedical NLP"
     ],
-    "paper_url": null
+    "paper_url": "https://zenodo.org/records/18838678"
   },
   {
     "conference_slug": "icmr",
@@ -19770,7 +19770,7 @@
       "PCP",
       "Complexity Theory"
     ],
-    "paper_url": null
+    "paper_url": "https://rtcl.dgist.ac.kr/index.php/zeroswap"
   },
   {
     "conference_slug": "stoc",
@@ -19782,7 +19782,7 @@
       "Parameterized Complexity",
       "Inapproximability"
     ],
-    "paper_url": null
+    "paper_url": "https://doi.org/10.1145/3779212.3790145"
   },
   {
     "conference_slug": "chi",
@@ -21593,5 +21593,375 @@
     "award_type": "best_student_paper",
     "tags": [],
     "paper_url": "https://doi.org/10.1145/3689031.3717463"
+  },
+  {
+    "conference_slug": "aacl",
+    "year": 2025,
+    "paper_title": "Beyond statistical significance: Quantifying uncertainty and statistical variability in multilingual and multitask NLP evaluation",
+    "authors": "Jonne Sälevä, Duygu Ataman, Constantine Lignos",
+    "award_type": "best_paper",
+    "tags": [
+      "NLP Evaluation",
+      "Statistical Significance"
+    ],
+    "paper_url": "https://aclanthology.org/2025.ijcnlp-long.125/"
+  },
+  {
+    "conference_slug": "ppopp",
+    "year": 2026,
+    "paper_title": "Binary Compatible Critical Section Delegation",
+    "authors": "Junyao Zhang, Zhuo Wang, Zhe Zhou",
+    "award_type": "best_paper",
+    "tags": [
+      "Parallel Programming",
+      "Concurrency"
+    ],
+    "paper_url": "https://doi.org/10.1145/3774934.3786439"
+  },
+  {
+    "conference_slug": "wsdm",
+    "year": 2026,
+    "paper_title": "Diversification as Risk Minimization",
+    "authors": "Rikiya Takehi, Fernando Diaz, Tetsuya Sakai",
+    "award_type": "best_paper",
+    "tags": [
+      "Information Retrieval",
+      "Ranking"
+    ],
+    "paper_url": "https://doi.org/10.1145/3773966.3777985"
+  },
+  {
+    "conference_slug": "3dv",
+    "year": 2026,
+    "paper_title": "Look Around and Pay Attention: Multi-camera Point Tracking Reimagined with Transformers",
+    "authors": "Bishoy Galoaa, Xiangyu Bai, Shayda Moezzi, Utsav Nandi, Sai Siddhartha Vivek Dhir Rangoju, Somaieh Amraee, Sarah Ostadabbas",
+    "award_type": "best_paper",
+    "tags": [
+      "3D Vision",
+      "Point Tracking"
+    ],
+    "paper_url": "https://arxiv.org/abs/2512.04213"
+  },
+  {
+    "conference_slug": "edbt",
+    "year": 2026,
+    "paper_title": "In-memory Incremental Maintenance of Provenance Sketches",
+    "authors": "Pengyuan Li, Boris Glavic, Dieter Gawlick, Vasudha Krishnaswamy, Zhen Hua Liu, Danica Porobic, Xing Niu",
+    "award_type": "best_paper",
+    "tags": [
+      "Database Systems",
+      "Provenance"
+    ],
+    "paper_url": "https://doi.org/10.48786/EDBT.2026.05"
+  },
+  {
+    "conference_slug": "dasfaa",
+    "year": 2026,
+    "paper_title": "DynamicPO: Dynamic Preference Optimization for Recommendation",
+    "authors": "Xingyu Hu, Kai Zhang, Jiancan Wu, Shuli Wang, Chi Wang, Wenshuai Chen, Yinhua Zhu, Haitao Wang, Xingxing Wang, Xiang Wang",
+    "award_type": "best_paper",
+    "tags": [
+      "Recommendation",
+      "Preference Optimization"
+    ],
+    "paper_url": "https://arxiv.org/abs/2605.00327"
+  },
+  {
+    "conference_slug": "dasfaa",
+    "year": 2026,
+    "paper_title": "Mitigating Generic Token Dominance in Cross-Domain Foundation Model for Text-Attributed Graphs",
+    "authors": "Heng Zheng, Haochen You, Zijian Zhang, Lubin Gan, Hao Zhang, Wenjun Huang, Jin Huang",
+    "award_type": "best_paper_runner_up",
+    "tags": [
+      "Graph Learning",
+      "Foundation Models"
+    ],
+    "paper_url": "https://doi.org/10.1145/3779212.3790162"
+  },
+  {
+    "conference_slug": "ispass",
+    "year": 2026,
+    "paper_title": "LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure",
+    "authors": "Jaehong Cho, Hyunmin Choi, Guseul Heo, Jongse Park",
+    "award_type": "best_paper",
+    "tags": [
+      "LLM Serving",
+      "Simulation"
+    ],
+    "paper_url": "https://arxiv.org/abs/2602.23036"
+  },
+  {
+    "conference_slug": "ispass",
+    "year": 2026,
+    "paper_title": "Hardware Generation and Exploration of Lookup Table-Based Accelerators for 1.58-bit LLM Inference",
+    "authors": "Joran Heldens, Robin Geens, Joren Dumoulin, Marian Verhelst",
+    "award_type": "best_paper",
+    "tags": [
+      "Computer Architecture",
+      "LLM Inference"
+    ],
+    "paper_url": "https://arxiv.org/abs/2604.25183"
+  },
+  {
+    "conference_slug": "ispass",
+    "year": 2026,
+    "paper_title": "An Empirical Study of LLM Serving in Confidential GPUs",
+    "authors": "Eunseong Park, Timo Thans, Vishnu Kumar Kalidasan, Qinghao Hu, Wenjie Xiong",
+    "award_type": "honorable_mention",
+    "tags": [
+      "LLM Serving",
+      "Confidential Computing"
+    ],
+    "paper_url": "https://arxiv.org/abs/2509.08193"
+  },
+  {
+    "conference_slug": "rtas",
+    "year": 2026,
+    "paper_title": "ZeroSwap: Minimizing Swap Overhead for Real-Time Multi-DNN Inference via SSD-based GPU Memory Extension",
+    "authors": "Jisung Park et al.",
+    "award_type": "best_paper",
+    "tags": [
+      "Real-Time Systems",
+      "DNN Inference"
+    ],
+    "paper_url": "https://doi.org/10.1145/3779212.3790202"
+  },
+  {
+    "conference_slug": "rtas",
+    "year": 2026,
+    "paper_title": "Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems",
+    "authors": "Connor Rudy Sullivan, Amin Mamandipoor, Cole Ridge Strickler, Heechul Yun",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Real-Time Systems",
+      "Memory Bandwidth"
+    ],
+    "paper_url": "https://ittc.ku.edu/~heechul/papers/perbank-dram-bru-rtas2026-camera.pdf"
+  },
+  {
+    "conference_slug": "asplos",
+    "year": 2026,
+    "paper_title": "CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions",
+    "authors": "Nick Lindsay, Caroline Trippel, Anurag Khandelwal, Abhishek Bhattacharjee",
+    "award_type": "best_paper",
+    "tags": [
+      "Computer Architecture"
+    ],
+    "paper_url": "https://doi.org/10.1145/3779212.3790145"
+  },
+  {
+    "conference_slug": "asplos",
+    "year": 2026,
+    "paper_title": "Finding Reusable Instructions via E-Graph Anti-Unification",
+    "authors": "Youwei Xiao, Chenyun Yin, Yitian Sun, Yuyang Zou, Yun Liang",
+    "award_type": "best_paper",
+    "tags": [
+      "Compilers",
+      "E-Graphs"
+    ],
+    "paper_url": "https://doi.org/10.1145/3779212.3790162"
+  },
+  {
+    "conference_slug": "asplos",
+    "year": 2026,
+    "paper_title": "Lifetime-Aware Design of Item-Level Intelligence",
+    "authors": "Shvetank Prakash, Andrew Cheng, Olof Kindgren, Ashiq Ahamed, Graham Knight, Jed Kufel, Francisco Rodriguez, Arya Tschand, David Kong, Mariam Elgamal, Jerry Huang, Emma Chen, Gage Hills, Richard Price, Emre Ozer, Vijay Janapa Reddi",
+    "award_type": "best_paper",
+    "tags": [
+      "Computer Architecture"
+    ],
+    "paper_url": "https://arxiv.org/abs/2509.08193"
+  },
+  {
+    "conference_slug": "asplos",
+    "year": 2026,
+    "paper_title": "PF-LLM: Large Language Model Hinted Hardware Prefetching",
+    "authors": "Ceyu Xu, Xiangfeng Sun, Weihang Li, Chen Bai, Bangyan Wang, Mengming Li, Zhiyao Xie, Yuan Xie",
+    "award_type": "best_paper",
+    "tags": [
+      "Prefetching",
+      "LLM"
+    ],
+    "paper_url": "https://doi.org/10.1145/3779212.3790202"
+  },
+  {
+    "conference_slug": "asplos",
+    "year": 2026,
+    "paper_title": "vCXLGen: Automated Synthesis and Verification of CXL Bridges for Heterogeneous Architectures",
+    "authors": "Anatole Lefort, Julian Pritzi, Nicolò Carpentieri, David Schall, Simon Dittrich, Soham Chakraborty, Nicolai Oswald, Pramod Bhatotia",
+    "award_type": "best_paper",
+    "tags": [
+      "CXL",
+      "Verification"
+    ],
+    "paper_url": "https://doi.org/10.1145/3779212.3790245"
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "year": 2026,
+    "paper_title": "How Much Is Too Much? Comfort Envelopes for Distortions in Virtual Reality Interaction",
+    "authors": "Hayeon Kim, In-Kwon Lee",
+    "award_type": "best_paper",
+    "tags": [
+      "Virtual Reality",
+      "Interaction"
+    ],
+    "paper_url": "https://doi.org/10.1109/TVCG.2026.3679920"
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "year": 2026,
+    "paper_title": "Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector",
+    "authors": "Takahiro Okamoto, Masaki Takeuchi, Masataka Sawayama, Daisuke Iwai",
+    "award_type": "best_paper",
+    "tags": [
+      "Projection Mapping",
+      "Virtual Reality"
+    ],
+    "paper_url": "https://arxiv.org/abs/2603.11551"
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "year": 2026,
+    "paper_title": "Dynamic Worlds, Dynamic Humans: Generating Virtual Human-Scene Interaction Motion in Dynamic Scenes",
+    "authors": "Yin Wang, Zhiying Leng, Haitian Liu, Frederick W. B. Li, Mu Li, Xiaohui Liang",
+    "award_type": "best_paper",
+    "tags": [
+      "Virtual Humans",
+      "Motion Generation"
+    ],
+    "paper_url": "https://arxiv.org/abs/2601.19484"
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "year": 2026,
+    "paper_title": "A Large-Scale Quantitative Analysis of Avatars in VR and AR",
+    "authors": "Natalie Hube, Alexander Achberger, Michael Sedlmair",
+    "award_type": "best_paper",
+    "tags": [
+      "VR Avatars",
+      "AR"
+    ],
+    "paper_url": "https://doi.org/10.1109/TVCG.2026.3679106"
+  },
+  {
+    "conference_slug": "ieee-vr",
+    "year": 2026,
+    "paper_title": "Setup-Independent Full Projector Compensation",
+    "authors": "Haibo Li, Qingyue Deng, Jijiang Li, Haibin Ling, Bingyao Huang",
+    "award_type": "best_paper",
+    "tags": [
+      "Projection",
+      "Computer Graphics"
+    ],
+    "paper_url": "https://arxiv.org/abs/2604.01736"
+  },
+  {
+    "conference_slug": "saner",
+    "year": 2026,
+    "paper_title": "STELLAR: A Search-Based Testing Framework for Large Language Model Applications",
+    "authors": "Lev Sorokin, Ivan Vasilev, Ken Friedl, Andrea Stocco",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Software Testing",
+      "LLM Applications"
+    ],
+    "paper_url": "https://arxiv.org/abs/2601.00497"
+  },
+  {
+    "conference_slug": "saner",
+    "year": 2026,
+    "paper_title": "Leveraging Commit-Size Context and Hyper Co-Change Graph Centralities for Defect Prediction",
+    "authors": "Amit Kumar, Ethari Hrishikesh, Sonali Agarwal",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Defect Prediction",
+      "Software Analytics"
+    ],
+    "paper_url": "https://arxiv.org/abs/2604.01132"
+  },
+  {
+    "conference_slug": "saner",
+    "year": 2026,
+    "paper_title": "Beyond Lexical: Functional Semantics and Fusion for Precise Architecture Recovery",
+    "authors": "Chunguang Zhang, Bixin Li, Yan Xiao",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Architecture Recovery",
+      "Program Analysis"
+    ],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "saner",
+    "year": 2026,
+    "paper_title": "What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice",
+    "authors": "Yuqing Niu, Jieke Shi, Rundong Han, Ye Liu, Chengyan Ma, Yunbo Lyu, David Lo",
+    "award_type": "distinguished_paper",
+    "tags": [
+      "Trusted Execution Environments",
+      "Software Security"
+    ],
+    "paper_url": "https://arxiv.org/abs/2512.17363"
+  },
+  {
+    "conference_slug": "sac",
+    "year": 2026,
+    "paper_title": "Aurora: Neuro-Symbolic AI Driven Advising Agent",
+    "authors": "Lorena Amanda Quincoso Lugones, Christopher Kverne, Nityam Sharadkumar Bhimani, Ana Carolina Oliveira, Agoritsa Polyzou, Christine Lisetti, Janki Bhimani",
+    "award_type": "best_paper",
+    "tags": [
+      "AI Agents",
+      "Neuro-Symbolic AI"
+    ],
+    "paper_url": "https://arxiv.org/abs/2602.17999"
+  },
+  {
+    "conference_slug": "sac",
+    "year": 2026,
+    "paper_title": "ShipNN: On-Device, Ship Identification from Underwater Noise",
+    "authors": "Kainat Altaf, Momin Ali, Laura Harms, Christian Renner, Olaf Landsiedel",
+    "award_type": "best_paper",
+    "tags": [
+      "Distributed Systems",
+      "On-Device AI"
+    ],
+    "paper_url": "https://www.tuhh.de/ncps/archived-news/2026-03-26-best-paper-award-at-acm-sac-2026"
+  },
+  {
+    "conference_slug": "sac",
+    "year": 2026,
+    "paper_title": "Advancing Normal Tissue Complication Probability Modeling with Supervised Contrastive Learning for Predicting Osteoradionecrosis",
+    "authors": "Eric Ababio Anyimadu, Xinhua Zhang, Clifton Fuller, Elisabeta Marai, Guadalupe Canahuate",
+    "award_type": "best_paper",
+    "tags": [
+      "Health Informatics",
+      "Contrastive Learning"
+    ],
+    "paper_url": "https://doi.org/10.1145/3748522.3779983"
+  },
+  {
+    "conference_slug": "sac",
+    "year": 2026,
+    "paper_title": "Supporting Agility at Scale Through an Organization-wide Software Engineering Community of Practice: Insights from a Large Software Development Organization",
+    "authors": "Franziska Tobisch, Klaus Häuptle, Florian Matthes",
+    "award_type": "best_paper",
+    "tags": [
+      "Software Engineering",
+      "Agile"
+    ],
+    "paper_url": "https://www.sigapp.org/sac/sac2026/file2026/SAC26-FinalProgramv1.3.pdf"
+  },
+  {
+    "conference_slug": "sac",
+    "year": 2026,
+    "paper_title": "Adaptive Page Migration for Tiered Memory Systems via Working Set Awareness",
+    "authors": "Hyolim Hong, Hyungsoo Jung",
+    "award_type": "best_paper",
+    "tags": [
+      "System Software",
+      "Tiered Memory"
+    ],
+    "paper_url": "https://dbx.snu.ac.kr/publications"
   }
 ]
