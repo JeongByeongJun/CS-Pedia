@@ -174,7 +174,7 @@
     "abstract_deadline": null,
     "paper_deadline": "2026-06-10T23:59:00Z",
     "notification_date": null,
-    "conference_start": "2026-11-15",
+    "conference_start": "2026-11-16",
     "conference_end": "2026-11-18",
     "venue": "Hong Kong",
     "timezone": "AoE"
@@ -2747,7 +2747,7 @@
     "year": 2026,
     "cycle": "main",
     "abstract_deadline": null,
-    "paper_deadline": "2025-10-13T23:59:00Z",
+    "paper_deadline": "2025-11-10T23:59:00Z",
     "notification_date": null,
     "conference_start": "2026-05-18",
     "conference_end": "2026-05-22",
@@ -2951,6 +2951,18 @@
     "conference_start": "2026-03-24",
     "conference_end": "2026-03-29",
     "venue": "Rabat, Morocco",
+    "timezone": "AoE"
+  },
+  {
+    "conference_slug": "eacl",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-08-03T23:59:00Z",
+    "notification_date": null,
+    "conference_start": "2027-03-09",
+    "conference_end": "2027-03-14",
+    "venue": "Athens, Greece",
     "timezone": "AoE"
   },
   {
