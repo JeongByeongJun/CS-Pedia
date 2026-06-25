@@ -37,7 +37,7 @@
     "field": "AI/ML",
     "sub_field": "Artificial Intelligence",
     "dblp_key": "conf/aaai",
-    "website_url": "https://aaai.org"
+    "website_url": "https://aaai.org/conference/aaai/aaai-27/"
   },
   {
     "slug": "ijcai",
@@ -277,7 +277,7 @@
     "field": "NLP",
     "sub_field": "Natural Language Processing",
     "dblp_key": "conf/eacl",
-    "website_url": "https://2026.eacl.org/"
+    "website_url": "https://2027.eacl.org/"
   },
   {
     "slug": "aacl",
@@ -377,7 +377,7 @@
     "field": "CV",
     "sub_field": "Medical Imaging",
     "dblp_key": "conf/miccai",
-    "website_url": "https://miccai.org"
+    "website_url": "https://miccai.org/index.php/events/upcoming-conferences/"
   },
   {
     "slug": "3dv",
@@ -467,7 +467,7 @@
     "field": "Systems",
     "sub_field": "Parallel Programming",
     "dblp_key": "conf/ppopp",
-    "website_url": "https://ppopp26.sigplan.org/"
+    "website_url": "https://ppopp27.sigplan.org/"
   },
   {
     "slug": "socc",
@@ -477,7 +477,7 @@
     "field": "Systems",
     "sub_field": "Cloud Computing",
     "dblp_key": "conf/cloud",
-    "website_url": "https://acmsocc.org/2026/"
+    "website_url": "https://acmsocc.org/2026/papers.html"
   },
   {
     "slug": "fast",
@@ -817,7 +817,7 @@
     "field": "HCI",
     "sub_field": "User Interfaces",
     "dblp_key": "conf/uist",
-    "website_url": "https://uist.acm.org/2026/"
+    "website_url": "https://uist.acm.org/2026/cfp/"
   },
   {
     "slug": "cscw",
@@ -987,7 +987,7 @@
     "field": "SE",
     "sub_field": "Software Testing",
     "dblp_key": "conf/icst",
-    "website_url": "https://conf.researchr.org/home/icst-2026"
+    "website_url": "https://conf.researchr.org/track/icst-2027/icst-2027-research-papers"
   },
   {
     "slug": "models",
@@ -1337,7 +1337,7 @@
     "field": "Graphics",
     "sub_field": "Computer Graphics",
     "dblp_key": "conf/pg",
-    "website_url": "https://pacificgraphics2026.github.io/"
+    "website_url": "https://pacificgraphics2026.github.io/cfp.html"
   },
   {
     "slug": "i3d",
@@ -1487,7 +1487,7 @@
     "field": "Systems",
     "sub_field": "Performance Evaluation",
     "dblp_key": "conf/sigmetrics",
-    "website_url": "https://www.sigmetrics.org/sigmetrics2026/call_for_papers.html"
+    "website_url": "https://www.sigmetrics.org/sigmetrics2027/"
   },
   {
     "slug": "icfp",
@@ -1777,7 +1777,7 @@
     "field": "Systems",
     "sub_field": "Cluster/Cloud Computing",
     "dblp_key": "conf/ccgrid",
-    "website_url": "https://ccgrid2026.org/"
+    "website_url": "https://hpcclab.org/ccgrid27/"
   },
   {
     "slug": "cloud",
@@ -1867,7 +1867,7 @@
     "field": "CV",
     "sub_field": "Multimedia Retrieval",
     "dblp_key": "conf/mir",
-    "website_url": "https://icmr2026.org/"
+    "website_url": "https://www.icmr2026.org/calls.html"
   },
   {
     "slug": "icsoc",
@@ -2007,7 +2007,7 @@
     "field": "PL",
     "sub_field": "Static Analysis",
     "dblp_key": "conf/sas",
-    "website_url": "https://staticanalysis.org/"
+    "website_url": "https://conf.researchr.org/home/splash-issta-2026/sas-2026"
   },
   {
     "slug": "sec",
@@ -2037,7 +2037,7 @@
     "field": "Graphics",
     "sub_field": "Geometry Processing",
     "dblp_key": "conf/sgp",
-    "website_url": "https://sgp26.org/"
+    "website_url": "https://sgp26.org/submit/"
   },
   {
     "slug": "soups",
