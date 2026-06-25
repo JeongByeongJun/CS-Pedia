@@ -26,20 +26,20 @@ const KeywordBarChart = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Trends",
-  description: "Compare acceptance rate trends and research keyword trends across 209 top CS conferences. Visualize multi-year acceptance rates and discover emerging topics in AI, systems, security, and more.",
+  title: "CS 학회 채택률 및 키워드 트렌드",
+  description: "209개 주요 CS 학회의 연도별 채택률, 논문 수, 연구 키워드 트렌드를 비교하세요. AI, 시스템, 보안 등 분야별 연구 흐름을 확인할 수 있습니다.",
   openGraph: {
-    title: "Trends — CS-Pedia",
-    description: "Compare acceptance rate trends and research keyword trends across 209 top CS conferences. Visualize multi-year acceptance rates and discover emerging topics in AI, systems, security, and more.",
+    title: "CS 학회 채택률 및 키워드 트렌드 — CS-Pedia",
+    description: "209개 주요 CS 학회의 연도별 채택률, 논문 수, 연구 키워드 트렌드를 비교하세요.",
     url: "https://cs-pedia.io/trends",
     siteName: "CS-Pedia",
-    locale: "en_US",
+    locale: "ko_KR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Trends — CS-Pedia",
-    description: "Compare acceptance rate trends and research keyword trends across 209 top CS conferences. Visualize multi-year acceptance rates and discover emerging topics in AI, systems, security, and more.",
+    title: "CS 학회 채택률 및 키워드 트렌드 — CS-Pedia",
+    description: "209개 주요 CS 학회의 연도별 채택률, 논문 수, 연구 키워드 트렌드를 비교하세요.",
   },
   alternates: {
     canonical: "https://cs-pedia.io/trends",
@@ -118,10 +118,10 @@ export default async function TrendsPage() {
 
       <main className="max-w-6xl mx-auto px-4 py-8 sm:px-6">
         <h1 className="text-2xl font-bold text-zinc-900 mb-2">
-          Trends
+          CS 학회 채택률 및 키워드 트렌드
         </h1>
         <p className="text-sm text-zinc-500 mb-6">
-          Acceptance rates &amp; keyword trends across top CS venues.
+          209개 주요 CS 학회의 acceptance rate, 논문 수, 연구 키워드 흐름을 비교하세요.
         </p>
 
         <TrendsTabs

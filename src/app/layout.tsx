@@ -22,16 +22,20 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
+    default: "CS-Pedia | CS 학회 데드라인, BK21 우수학회, Best Paper",
     template: "%s | CS-Pedia",
   },
-  description: "한국 CS 연구자를 위한 학회 일정, BK21 우수학회 목록, Best Paper 통합 플랫폼. Track CS conference deadlines, acceptance rates, and best paper awards.",
+  description: "BK21 기반 209개 CS 학회의 CFP 마감일, 학회 랭킹, 채택률, Best Paper 기록을 한 곳에서 확인하세요. AAAI, NeurIPS, ICML, ACL 등 주요 컴퓨터공학 학회 일정 제공.",
   keywords: [
     "CS conference deadline",
+    "CS 학회 데드라인",
     "학회 데드라인",
+    "컴퓨터공학 학회",
+    "BK21 우수학회",
     "computer science conference",
     "acceptance rate",
     "best paper award",
+    "Best Paper 목록",
     "call for papers",
     "BK21 학회",
     "CORE ranking",
@@ -45,8 +49,8 @@ export const metadata: Metadata = {
     "google-adsense-account": "ca-pub-7036136026593965",
   },
   openGraph: {
-    title: "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
-    description: "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,650+ best papers.",
+    title: "CS-Pedia | CS 학회 데드라인, BK21 우수학회, Best Paper",
+    description: "BK21 기반 209개 CS 학회의 CFP 마감일, 랭킹, 채택률, Best Paper 기록을 한 곳에서 확인하세요.",
     url: "https://cs-pedia.io",
     siteName: "CS-Pedia",
     locale: "ko_KR",
@@ -55,8 +59,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CS-Pedia - CS Conference Deadlines, Acceptance Rates & Best Papers",
-    description: "Track 209 CS conference deadlines with CORE/CCF rankings, acceptance rates, and 1,650+ best papers.",
+    title: "CS-Pedia | CS 학회 데드라인, BK21 우수학회, Best Paper",
+    description: "BK21 기반 209개 CS 학회의 CFP 마감일, 랭킹, 채택률, Best Paper 기록을 한 곳에서 확인하세요.",
   },
 };
 

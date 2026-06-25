@@ -14,7 +14,7 @@ export default async function HomePage() {
     "@type": "WebSite",
     name: "CS-Pedia",
     url: "https://cs-pedia.io",
-    description: "CS conference deadlines, acceptance rates, and best paper awards for researchers",
+    description: "BK21 기반 209개 CS 학회의 CFP 마감일, 학회 랭킹, 채택률, Best Paper 기록을 제공하는 연구자용 학회 플랫폼",
     potentialAction: {
       "@type": "SearchAction",
       target: {
@@ -34,6 +34,14 @@ export default async function HomePage() {
       <SiteHeader />
 
       <main className="max-w-6xl mx-auto px-4 py-4 sm:px-6 sm:py-6">
+        <section className="mb-4">
+          <h1 className="text-2xl font-bold tracking-tight text-zinc-900">
+            CS 학회 데드라인
+          </h1>
+          <p className="mt-1 text-sm text-zinc-500">
+            BK21 기반 209개 컴퓨터공학 학회의 CFP 마감일, 학회 랭킹, 채택률, Best Paper 기록을 확인하세요.
+          </p>
+        </section>
         <UpdateBanner />
         <ConferenceClientSection
           conferences={conferences}

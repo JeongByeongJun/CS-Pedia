@@ -60,29 +60,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     : new Date().getFullYear();
   const venue = detail?.venue as string | null;
   const descEn = detail?.descriptionEn as string | null;
-
-  const titleParts = [`${acronym} ${year}`];
-  if (venue) {
-    // Extract city only (e.g., "Denver, USA" → "Denver")
-    const city = venue.split(",")[0].trim();
-    titleParts.push(city);
-  }
-  titleParts.push("Deadline & Acceptance Rate");
-  const title = titleParts.join(" | ");
+  const timezone = (detail?.deadlineTimezone as string | null) ?? "AoE";
+  const deadlineText = paperDl ? new Date(paperDl).toISOString().slice(0, 10) : null;
+  const city = venue ? venue.split(",")[0].trim() : null;
+  const title = `${acronym} ${year} Deadline, CFP, Acceptance Rate & Ranking`;
 
   const venueStr = venue ? ` in ${venue}` : "";
-  const description = descEn ?? `${acronym} ${year} (${nameEn})${venueStr}. Check paper submission deadline, CFP details, acceptance rate history, best paper awards, and CORE/CCF rankings on CS-Pedia.`;
+  const description = descEn ?? `${acronym} ${year} (${nameEn})${venueStr}. ${deadlineText ? `Paper deadline: ${deadlineText} ${timezone}. ` : ""}Check CFP details, acceptance rate history, Best Paper awards, and BK21/CORE/CCF rankings on CS-Pedia.`;
 
   return {
     title,
     description,
-    keywords: [`${acronym} deadline`, `${acronym} ${year}`, `${acronym} acceptance rate`, `${acronym} CFP`, `${acronym} 데드라인`],
+    keywords: [`${acronym} deadline`, `${acronym} ${year}`, `${acronym} acceptance rate`, `${acronym} CFP`, `${acronym} 데드라인`, `${acronym} 랭킹`, city ? `${acronym} ${city}` : ""].filter(Boolean) as string[],
     openGraph: {
       title,
       description,
       url: `https://cs-pedia.io/conferences/${slug}`,
       siteName: "CS-Pedia",
-      locale: "en_US",
+      locale: "ko_KR",
+      alternateLocale: "en_US",
       type: "article",
     },
     twitter: {

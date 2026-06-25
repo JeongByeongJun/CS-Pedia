@@ -4,20 +4,20 @@ import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { BestPaperClientSection } from "@/presentation/components/best-papers/best-paper-client-section";
 
 export const metadata: Metadata = {
-  title: "Best Papers",
-  description: "Browse 1,650+ Best Paper and Distinguished Paper awards across 209 top CS conferences. Filter by year, venue, and research field to discover award-winning research.",
+  title: "CS Best Paper 수상 논문 목록",
+  description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 1,687건을 연도와 학회별로 확인하세요.",
   openGraph: {
-    title: "Best Papers — CS-Pedia",
-    description: "Browse 1,650+ Best Paper and Distinguished Paper awards across 209 top CS conferences. Filter by year, venue, and research field to discover award-winning research.",
+    title: "CS Best Paper 수상 논문 목록 — CS-Pedia",
+    description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 1,687건을 연도와 학회별로 확인하세요.",
     url: "https://cs-pedia.io/best-papers",
     siteName: "CS-Pedia",
-    locale: "en_US",
+    locale: "ko_KR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Papers — CS-Pedia",
-    description: "Browse 1,650+ Best Paper and Distinguished Paper awards across 209 top CS conferences. Filter by year, venue, and research field to discover award-winning research.",
+    title: "CS Best Paper 수상 논문 목록 — CS-Pedia",
+    description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 1,687건을 연도와 학회별로 확인하세요.",
   },
   alternates: {
     canonical: "https://cs-pedia.io/best-papers",
@@ -55,8 +55,11 @@ export default async function BestPapersPage() {
             Best Papers
           </div>
           <h1 className="font-bold text-2xl tracking-[-0.025em] text-zinc-900">
-            Best Paper Archive
+            CS Best Paper Archive
           </h1>
+          <p className="mt-1 text-sm text-zinc-500">
+            209개 주요 CS 학회의 Best Paper 수상 논문 1,687건을 연도와 학회별로 탐색하세요.
+          </p>
         </div>
 
         <BestPaperClientSection papers={papers} />

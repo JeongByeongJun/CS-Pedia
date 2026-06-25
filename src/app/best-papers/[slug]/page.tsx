@@ -55,8 +55,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const years = [...new Set(papers.map((p) => p.year))].sort((a, b) => b - a);
   const yearRange = years.length > 0 ? `${years[years.length - 1]}–${years[0]}` : "";
 
-  const title = `${info.acronym} Best Papers ${yearRange}`;
-  const description = `${info.acronym} (${info.nameEn}) Best Paper Award winners and distinguished papers. ${papers.length} papers from ${yearRange}.`;
+  const title = `${info.acronym} Best Papers ${yearRange} | 수상 논문 목록`;
+  const description = `${info.acronym} (${info.nameEn}) Best Paper Award, Distinguished Paper, Honorable Mention 수상 논문 ${papers.length}건을 ${yearRange} 연도별로 확인하세요.`;
 
   return {
     title,
@@ -66,7 +66,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description,
       url: `https://cs-pedia.io/best-papers/${slug}`,
       siteName: "CS-Pedia",
-      locale: "en_US",
+      locale: "ko_KR",
+      alternateLocale: "en_US",
       type: "website",
     },
     twitter: { card: "summary_large_image", title, description },
