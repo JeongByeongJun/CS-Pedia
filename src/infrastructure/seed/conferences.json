@@ -57,7 +57,7 @@
     "field": "AI/ML",
     "sub_field": "Data Mining",
     "dblp_key": "conf/kdd",
-    "website_url": "https://kdd2026.kdd.org/research-track-call-for-papers/"
+    "website_url": "https://kdd2027.kdd.org/research-track-call-for-papers/"
   },
   {
     "slug": "www",
@@ -637,7 +637,7 @@
     "field": "Security",
     "sub_field": "Cryptography",
     "dblp_key": "conf/eurocrypt",
-    "website_url": "https://eurocrypt.iacr.org/2026/"
+    "website_url": "https://eurocrypt.iacr.org/2027/"
   },
   {
     "slug": "asiacrypt",
@@ -777,7 +777,7 @@
     "field": "DB",
     "sub_field": "Database",
     "dblp_key": "conf/dasfaa",
-    "website_url": "https://dasfaa2026.github.io/"
+    "website_url": "https://dasfaa2027.github.io/ImportantDates/list.htm"
   },
   {
     "slug": "mdm",
@@ -857,7 +857,7 @@
     "field": "HCI",
     "sub_field": "Interactive Design",
     "dblp_key": "conf/dis",
-    "website_url": "https://dis.acm.org/2026/"
+    "website_url": "https://dis.acm.org/2027/contributing/"
   },
   {
     "slug": "mobilehci",
@@ -1057,7 +1057,7 @@
     "field": "Theory",
     "sub_field": "Theory of Computation",
     "dblp_key": "conf/innovations",
-    "website_url": "https://cs.unibocconi.eu/itcs2026"
+    "website_url": "https://itcsconf.github.io/index.html"
   },
   {
     "slug": "esa",
@@ -1147,7 +1147,7 @@
     "field": "Networks",
     "sub_field": "Computer Communications",
     "dblp_key": "conf/infocom",
-    "website_url": null
+    "website_url": "https://infocom2027.ieee-infocom.org/call-papers"
   },
   {
     "slug": "imc",
@@ -1577,7 +1577,7 @@
     "field": "Theory",
     "sub_field": "Parallel Algorithms",
     "dblp_key": "conf/spaa",
-    "website_url": "https://spaa.acm.org/"
+    "website_url": "https://spaa.acm.org/spaa-2027-call-for-papers/"
   },
   {
     "slug": "cases",
@@ -1637,7 +1637,7 @@
     "field": "PL",
     "sub_field": "Object-Oriented Programming",
     "dblp_key": "conf/ecoop",
-    "website_url": "https://2026.ecoop.org/"
+    "website_url": "https://2027.ecoop.org/track/ecoop-2027-technical-papers"
   },
   {
     "slug": "emsoft",
@@ -1817,7 +1817,7 @@
     "field": "Security",
     "sub_field": "Financial Cryptography",
     "dblp_key": "conf/fc",
-    "website_url": "https://ifca.ai/fc26/"
+    "website_url": "https://ifca.ai/fc27/"
   },
   {
     "slug": "hipc",
@@ -1997,7 +1997,7 @@
     "field": "SE",
     "sub_field": "Applied Computing",
     "dblp_key": "conf/sac",
-    "website_url": "https://www.sigapp.org/sac/sac2026/"
+    "website_url": "https://www.sigapp.org/sac/sac2027/"
   },
   {
     "slug": "sas",
@@ -2067,7 +2067,7 @@
     "field": "Theory",
     "sub_field": "Theoretical CS",
     "dblp_key": "conf/stacs",
-    "website_url": "https://stacs2026.imag.fr/"
+    "website_url": "https://events.gwdg.de/e/stacs2027"
   },
   {
     "slug": "tcc",

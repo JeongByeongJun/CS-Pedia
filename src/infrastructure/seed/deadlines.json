@@ -422,6 +422,19 @@
     "timezone": "AoE"
   },
   {
+    "conference_slug": "dasfaa",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2027-06-07T11:59:00Z",
+    "notification_date": "2027-08-16T00:00:00Z",
+    "conference_start": "2027-05-28",
+    "conference_end": "2027-05-30",
+    "venue": "Shenyang, China",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
+  },
+  {
     "conference_slug": "date",
     "year": 2026,
     "cycle": "main",
@@ -444,6 +457,19 @@
     "conference_end": "2026-06-17",
     "venue": "Singapore",
     "timezone": "AoE"
+  },
+  {
+    "conference_slug": "dis",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": "2027-01-11T23:59:00Z",
+    "paper_deadline": "2027-01-18T23:59:00Z",
+    "notification_date": "2027-03-19T00:00:00Z",
+    "conference_start": "2027-06-28",
+    "conference_end": "2027-07-02",
+    "venue": "Stockholm, Sweden",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
   },
   {
     "conference_slug": "dsn",
@@ -1172,13 +1198,14 @@
     "conference_slug": "infocom",
     "year": 2027,
     "cycle": "main",
-    "abstract_deadline": "2026-07-17T23:59:00Z",
-    "paper_deadline": "2026-07-24T23:59:00Z",
+    "abstract_deadline": "2026-07-25T11:59:00Z",
+    "paper_deadline": "2026-08-01T11:59:00Z",
     "notification_date": "2026-12-01T00:00:00Z",
-    "conference_start": "2027-05-17",
-    "conference_end": "2027-05-20",
-    "venue": "Honolulu, HI, USA",
-    "timezone": "AoE"
+    "conference_start": "2027-05-24",
+    "conference_end": "2027-05-27",
+    "venue": "Hawaii, USA",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
   },
   {
     "conference_slug": "interact",
@@ -1282,6 +1309,19 @@
     "updated_at": "2026-05-31"
   },
   {
+    "conference_slug": "itcs",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": "2026-09-02T23:59:00Z",
+    "paper_deadline": "2026-09-04T23:59:00Z",
+    "notification_date": "2026-11-06T00:00:00Z",
+    "conference_start": "2027-01-12",
+    "conference_end": "2027-01-15",
+    "venue": "Berkeley, CA, USA",
+    "timezone": "PDT",
+    "updated_at": "2026-07-06"
+  },
+  {
     "conference_slug": "iui",
     "year": 2026,
     "cycle": "main",
@@ -1317,6 +1357,19 @@
     "venue": "Jeju, Korea",
     "timezone": "AoE",
     "updated_at": "2026-06-25"
+  },
+  {
+    "conference_slug": "kdd",
+    "year": 2027,
+    "cycle": "first",
+    "abstract_deadline": "2026-07-20T11:59:00Z",
+    "paper_deadline": "2026-07-27T11:59:00Z",
+    "notification_date": null,
+    "conference_start": null,
+    "conference_end": null,
+    "venue": "San Jose, CA, USA",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
   },
   {
     "conference_slug": "lics",
@@ -2252,19 +2305,6 @@
     "updated_at": "2026-05-16"
   },
   {
-    "conference_slug": "ubicomp",
-    "year": 2026,
-    "cycle": "R4",
-    "abstract_deadline": null,
-    "paper_deadline": "2026-11-01T23:59:00Z",
-    "notification_date": null,
-    "conference_start": "2026-10-13",
-    "conference_end": "2026-10-15",
-    "venue": "Shanghai, China",
-    "timezone": "AoE",
-    "updated_at": "2026-05-16"
-  },
-  {
     "conference_slug": "uist",
     "year": 2026,
     "cycle": "main",
@@ -2436,6 +2476,32 @@
     "updated_at": "2026-06-25"
   },
   {
+    "conference_slug": "spaa",
+    "year": 2027,
+    "cycle": "cycle1",
+    "abstract_deadline": "2026-09-19T11:59:00Z",
+    "paper_deadline": "2026-09-26T11:59:00Z",
+    "notification_date": null,
+    "conference_start": "2027-06-05",
+    "conference_end": "2027-06-11",
+    "venue": "Atlanta, GA, USA",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
+  },
+  {
+    "conference_slug": "spaa",
+    "year": 2027,
+    "cycle": "cycle2",
+    "abstract_deadline": "2027-01-23T11:59:00Z",
+    "paper_deadline": "2027-01-30T11:59:00Z",
+    "notification_date": null,
+    "conference_start": "2027-06-05",
+    "conference_end": "2027-06-11",
+    "venue": "Atlanta, GA, USA",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
+  },
+  {
     "conference_slug": "cases",
     "year": 2026,
     "cycle": "main",
@@ -2497,6 +2563,19 @@
     "timezone": "AoE"
   },
   {
+    "conference_slug": "eurocrypt",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-09-18T11:59:00Z",
+    "notification_date": "2027-01-18T00:00:00Z",
+    "conference_start": "2027-04-11",
+    "conference_end": "2027-04-15",
+    "venue": "Eindhoven, Netherlands",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
+  },
+  {
     "conference_slug": "ecoop",
     "year": 2026,
     "cycle": "main",
@@ -2507,6 +2586,32 @@
     "conference_end": "2026-07-03",
     "venue": "Brussels, Belgium",
     "timezone": "AoE"
+  },
+  {
+    "conference_slug": "ecoop",
+    "year": 2027,
+    "cycle": "round1",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-11-20T11:59:00Z",
+    "notification_date": "2027-01-28T00:00:00Z",
+    "conference_start": "2027-06-28",
+    "conference_end": "2027-07-02",
+    "venue": "Turin, Italy",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
+  },
+  {
+    "conference_slug": "ecoop",
+    "year": 2027,
+    "cycle": "round2",
+    "abstract_deadline": null,
+    "paper_deadline": "2027-02-12T11:59:00Z",
+    "notification_date": "2027-04-08T00:00:00Z",
+    "conference_start": "2027-06-28",
+    "conference_end": "2027-07-02",
+    "venue": "Turin, Italy",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
   },
   {
     "conference_slug": "emsoft",
@@ -2730,6 +2835,19 @@
     "updated_at": "2026-06-25"
   },
   {
+    "conference_slug": "fc",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-09-18T11:59:00Z",
+    "notification_date": null,
+    "conference_start": "2027-02-08",
+    "conference_end": "2027-02-12",
+    "venue": "Barbados (tentative)",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
+  },
+  {
     "conference_slug": "hipeac",
     "year": 2026,
     "cycle": "main",
@@ -2916,6 +3034,19 @@
     "updated_at": "2026-06-25"
   },
   {
+    "conference_slug": "sac",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-10-03T04:59:00Z",
+    "notification_date": "2026-11-13T00:00:00Z",
+    "conference_start": "2027-04-05",
+    "conference_end": "2027-04-09",
+    "venue": "Gwangju, South Korea",
+    "timezone": "EST",
+    "updated_at": "2026-07-06"
+  },
+  {
     "conference_slug": "sas",
     "year": 2026,
     "cycle": "main",
@@ -3004,6 +3135,19 @@
     "conference_end": "2026-03-13",
     "venue": "Grenoble, France",
     "timezone": "AoE"
+  },
+  {
+    "conference_slug": "stacs",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-10-12T11:59:00Z",
+    "notification_date": "2026-12-22T00:00:00Z",
+    "conference_start": "2027-03-08",
+    "conference_end": "2027-03-12",
+    "venue": "Gottingen, Germany",
+    "timezone": "AoE",
+    "updated_at": "2026-07-06"
   },
   {
     "conference_slug": "tcc",
@@ -3547,13 +3691,13 @@
     "year": 2026,
     "cycle": "main",
     "abstract_deadline": "2026-05-15T23:59:00Z",
-    "paper_deadline": "2026-05-22T23:59:00Z",
+    "paper_deadline": "2026-05-31T11:59:59Z",
     "notification_date": null,
     "conference_start": "2026-11-03",
     "conference_end": "2026-11-05",
     "venue": "Ghent, Belgium",
     "timezone": "AoE",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-07-06"
   },
   {
     "conference_slug": "pets",
@@ -3666,11 +3810,11 @@
     "abstract_deadline": "2026-06-19T23:59:00Z",
     "paper_deadline": "2026-06-26T23:59:00Z",
     "notification_date": null,
-    "conference_start": "2027-01-05",
-    "conference_end": "2027-01-09",
+    "conference_start": "2027-01-04",
+    "conference_end": "2027-01-08",
     "venue": "Disney Springs, Buena Vista, FL, USA",
     "timezone": "AoE",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-07-06"
   },
   {
     "conference_slug": "wacv",
@@ -3679,11 +3823,11 @@
     "abstract_deadline": "2026-08-21T23:59:00Z",
     "paper_deadline": "2026-08-28T23:59:00Z",
     "notification_date": null,
-    "conference_start": "2027-01-05",
-    "conference_end": "2027-01-09",
+    "conference_start": "2027-01-04",
+    "conference_end": "2027-01-08",
     "venue": "Disney Springs, Buena Vista, FL, USA",
     "timezone": "AoE",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-07-06"
   },
   {
     "conference_slug": "wsdm",
