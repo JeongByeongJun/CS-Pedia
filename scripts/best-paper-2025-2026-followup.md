@@ -1,5 +1,34 @@
 # Best Paper 2025-2026 Follow-up
 
+## 2026-07-09 Recent Conference Awards Update
+
+최근 종료 학회 중심으로 공식 awards 페이지를 재확인하고, 공식 페이지에서 제목/저자/award가 명확한 항목을 seed에 반영.
+
+### Seed Applied
+
+Applied to `src/infrastructure/seed/best-papers.json` on 2026-07-09.
+
+| Status | Entries | Conferences | Source / Notes |
+|--------|---------|-------------|----------------|
+| applied | 10 | ICML 2026 | Official ICML Blog lists 2 Outstanding Papers, 1 Outstanding Position Paper, 5 Outstanding Paper Honorable Mentions, 1 Position Paper Honorable Mention, and 1 Test of Time Award. Paper URLs use official ICML virtual pages or PMLR for Test of Time. Source: https://blog.icml.cc/2026/07/05/announcing-the-icml-2026-awards/ |
+| applied | 33 | ACL 2026 | Official ACL Best Paper Awards page lists Best Papers, Best Theme/Resource/Social Impact papers, Outstanding Papers, Best Demonstration Paper, and SRW Best Papers. ACL Anthology links were not yet exposed on the awards/accepted pages, so `paper_url` uses official awards section anchors for now. Source: https://2026.aclweb.org/program/best_papers/ |
+| applied | 2 | ISCA 2026 | Official ISCA homepage announcement lists two 2026 Best Paper Awards. Source: https://www.iscaconf.org/isca2026/ |
+| applied | 3 | WWW 2026 | Official WWW 2026 homepage lists Best Paper, Best Short Paper, and Seoul Test of Time winners. Source: https://www2026.thewebconf.org/ |
+| applied | 2 | COLT 2026 | Official COLT awards page lists Best Paper and Best Student Paper. Proceedings links were not yet available from the accepted/awards pages, so `paper_url` uses the official awards page for now. Source: https://learningtheory.org/colt2026/awards.html |
+
+### Hold / Recheck
+
+| Status | Conference | Year | Reason | Source |
+|--------|------------|------|--------|--------|
+| hold | SIGMOD | 2026 | `sigmod_awards.shtml` exists and has an official page title, but the fetched page currently exposes no award body/title rows. Recheck later before seed insertion. | https://2026.sigmod.org/sigmod_awards.shtml |
+| hold | PODS | 2026 | `pods_awards.shtml` exists and has an official page title, but the fetched page currently exposes no award body/title rows. Recheck later before seed insertion. | https://2026.sigmod.org/pods_awards.shtml |
+| hold | CVPR | 2026 | Official site did not expose a main Best Paper Award page in this pass. Avoid seeding unofficial/social-only claims. | https://cvpr.thecvf.com/Conferences/2026 |
+| hold | PLDI | 2026 | Researchr/program data likely marks Distinguished Papers, but needs careful extraction and verification before bulk seed insertion. | https://pldi26.sigplan.org/ |
+| hold | STOC | 2026 | No official final Best Paper Award winner page found in this pass. | https://acm-stoc.org/stoc2026/ |
+| hold | FSE | 2026 | Conference ends on 2026-07-09; final awards page not found yet. Recheck after conference pages settle. | https://conf.researchr.org/home/fse-2026 |
+
+---
+
 Generated: 2026-06-01 KST
 Scope: ended conferences missing best-paper seed data as of 2026-06-01.
 

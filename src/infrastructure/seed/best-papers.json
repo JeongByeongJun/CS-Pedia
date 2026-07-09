@@ -21963,5 +21963,621 @@
       "Tiered Memory"
     ],
     "paper_url": "https://dbx.snu.ac.kr/publications"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "The Flexibility Trap: Rethinking the Value of Arbitrary Order in Diffusion Language Models",
+    "authors": "Zanlin Ni, Shenzhi Wang, Yang Yue, Tianyu Yu, Weilin Zhao, Yeguo Hua, Tianyi Chen, Jun Song, Cheng Yu, Bo Zheng, Gao Huang",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Diffusion Language Models",
+      "Reinforcement Learning"
+    ],
+    "paper_url": "https://icml.cc/virtual/2026/oral/71086"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "High-Accuracy Sampling for Diffusion Models and Log-Concave Distributions",
+    "authors": "Fan Chen, Sinho Chewi, Constantinos Daskalakis, Alexander Rakhlin",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Diffusion Models",
+      "Sampling Theory"
+    ],
+    "paper_url": "https://icml.cc/virtual/2026/oral/71132"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "Position: The Alignment Community is Unintentionally Building a Censor’s Toolkit",
+    "authors": "Sarah Ball, Phil Hackemann",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Position Paper",
+      "AI Alignment"
+    ],
+    "paper_url": "https://icml.cc/virtual/2026/oral/71119"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes",
+    "authors": "Mohammad Taufeeque, Stefan Heimersheim, Adam Gleave, Chris Cundy",
+    "award_type": "honorable_mention",
+    "tags": [
+      "RLVR",
+      "AI Alignment"
+    ],
+    "paper_url": "https://icml.cc/virtual/2026/oral/71065"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "Motion Attribution for Video Generation",
+    "authors": "Xindi Wu, Despoina Paschalidou, Jun Gao, Antonio Torralba, Laura Leal-Taixé, Olga Russakovsky, Sanja Fidler, Jonathan Lorraine",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Video Generation",
+      "Data Attribution"
+    ],
+    "paper_url": "https://icml.cc/virtual/2026/oral/71049"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "How much can language models memorize?",
+    "authors": "John Xavier Morris, Chawin Sitawarin, Narine Kokhlikyan, Chuan Guo, G. Edward Suh, Alexander M Rush, Kamalika Chaudhuri, Saeed Mahloujifar",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Language Models",
+      "Memorization"
+    ],
+    "paper_url": "https://icml.cc/virtual/2026/oral/71168"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "A Random Matrix Perspective on the Consistency of Diffusion Models",
+    "authors": "Binxu Wang, Jacob A Zavatone-Veth, Cengiz Pehlevan",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Diffusion Models",
+      "Random Matrix Theory"
+    ],
+    "paper_url": "https://icml.cc/virtual/2026/oral/71191"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "To Grok Grokking: Provable Grokking in Ridge Regression",
+    "authors": "Mingyue Xu, Gal Vardi, Itay Safran",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Grokking",
+      "Theory"
+    ],
+    "paper_url": "https://icml.cc/virtual/2026/oral/71134"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "Position: AI/ML Deepfake Research is Misaligned with AI Generated Non-Consensual Intimate Imagery (AIG-NCII)",
+    "authors": "Li Qiwei, Wells Lucas Santo, Sarita Schoenebeck, Eric Gilbert",
+    "award_type": "honorable_mention",
+    "tags": [
+      "Position Paper",
+      "Deepfakes",
+      "AI Safety"
+    ],
+    "paper_url": "https://icml.cc/virtual/2026/oral/71187"
+  },
+  {
+    "conference_slug": "icml",
+    "year": 2026,
+    "paper_title": "Asynchronous Methods for Deep Reinforcement Learning",
+    "authors": "Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, Koray Kavukcuoglu",
+    "award_type": "test_of_time",
+    "tags": [
+      "Reinforcement Learning",
+      "Asynchronous Learning"
+    ],
+    "paper_url": "https://proceedings.mlr.press/v48/mniha16.html"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "The Imperfective Paradox in Large Language Models",
+    "authors": "Bolei Ma, Yusuke Miyao",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Paper",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Memory Efficiency and Resource-Rational Encoding in Sentence Processing",
+    "authors": "Weijie Xu, Brian Dillon, Richard Futrell",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Paper",
+      "Sentence Processing"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Characterizing the Expressivity of Local Attention in Transformers",
+    "authors": "Jiaoda Li, Ryan Cotterell",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Paper",
+      "Transformers"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "CoSToM: Causal-oriented Steering for Intrinsic Theory-of-Mind Alignment in Large Language Models",
+    "authors": "Mengfan Li, Xuanhua Shi, Yang Deng",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Theme Paper",
+      "Theory of Mind",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-theme-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Mapping the Circumplex of Affect: Geometric Analysis of Emotion Representations via Hyperspherical Contrastive Learning",
+    "authors": "Yusuke Yamauchi, Akiko Aizawa",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Theme Paper",
+      "Emotion Representations"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-theme-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "HSCodeComp: A Realistic and Expert-level Agent Benchmark for Hierarchical Rule Application",
+    "authors": "Tian Lan, Yiqian Yang, Qianghuai Jia, Li Zhu, Hui Jiang, Hang Zhu, Weihua Luo, Longyue Wang",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Resource Paper",
+      "Benchmark",
+      "Agents"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-resource-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models",
+    "authors": "Chonghan Qin, Xiachong Feng, Weitao Ma, Xiaocheng Feng, Lingpeng Kong",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Resource Paper",
+      "Benchmark",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-resource-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction",
+    "authors": "Advait Gosai, Tyler Vuong, Utkarsh Tyagi, Steven Li, Wenjia You, Miheer Bavare, Arda Ucar, Zhongwang Fang, Brian Jang, Bing Liu, Yunzhong He",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Resource Paper",
+      "Spoken Dialogue",
+      "Benchmark"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-resource-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "VeriTaS: The First Dynamic Benchmark for Multimodal Automated Fact-Checking",
+    "authors": "Mark Rothermel, Marcus Kornmann, Marcus Rohrbach, Anna Rohrbach",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Resource Paper",
+      "Fact Checking",
+      "Multimodal"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-resource-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects",
+    "authors": "Jason S Lucas, Matt Murtagh White, Ali Al-Lawati, Uchendu Uchendu, Adaku Uchendu, Dongwon Lee",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Social Impact Paper",
+      "Fairness",
+      "Content Moderation"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-social-impact-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Your Students Don’t Use LLMs Like You Wish They Did",
+    "authors": "Sebastian Kobler, Matthew Clemson, Angela Sun, Jonathan K. Kummerfeld",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Social Impact Paper",
+      "Education",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-social-impact-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Afri-MCQA: Multimodal Cultural Question Answering for African Languages",
+    "authors": "Atnafu Lambebo Tonja, Srija Anand, Emilio Villa-Cueva, Israel Abebe Azime, Jesujoba Oluwadara Alabi, Muhidin A Mohamed, Debela Desalegn Yadeta, Negasi Haile Abadi, Abigail Oppong, Nnaemeka Casmir Obiefuna, Idris Abdulmumin, Naome A Etori, Eric Peter Wairagala, Kanda Patrick Tshinu, Imanigirimbabazi Emmanuel, Gabofetswe Malema, Alham Fikri Aji, David Ifeoluwa Adelani, Thamar Solorio",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Social Impact Paper",
+      "Multilingual NLP",
+      "Multimodal QA"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-social-impact-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "MauBERT: Universal Phonetic Inductive Biases for Few-Shot Acoustic Units Discovery",
+    "authors": "Angelo Ortiz Tandazo, Manel Khentout, Youssef Benchekroun, Thomas Hueber, Emmanuel Dupoux",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Phonetics",
+      "Speech"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Evolutionary Guided Decoding: Iterative Value Refinement for LLMs",
+    "authors": "Zhenhua Liu, Lijun Li, Ruizhe Chen, Yuxian Jiang, Tong Zhu, Zhaochen Su, Wenliang Chen, Jing Shao",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Decoding",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection",
+    "authors": "Yang Li, Qiang Sheng, Zhengjia Wang, Yehan Yang, Danding Wang, Juan Cao",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Generated Text Detection",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Lying with Truths: Open-Channel Multi-Agent Collusion for Belief Manipulation via Generative Montage",
+    "authors": "Jinwei Hu, Xinmiao Huang, Youcheng Sun, Yi Dong, Xiaowei Huang",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Multi-Agent Systems",
+      "Belief Manipulation"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs",
+    "authors": "Zhenyu Liu, Xuanyu Zhang, Yunxin Li, Qixun Teng, Shenyuan Jiang, Haolan Chen, Minjun Zhao, Fanbo Meng, Yu Xu, Yancheng He, Baotian Hu, Haizhou Li, Min Zhang",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Speech Language Models",
+      "Multimodal"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Mind the (DH) Gap! A Contrast in Risky Choices Between Reasoning and Conversational LLMs",
+    "authors": "Luise Ge, Yongyan Zhang, Yevgeniy Vorobeychik",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Reasoning Models",
+      "Risky Choices"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "MediEval: A Unified Medical Benchmark for Patient-Contextual and Knowledge-Grounded Reasoning in LLMs",
+    "authors": "Zhan Qu, Michael Farber",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Medical NLP",
+      "Benchmark",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning",
+    "authors": "Naixin Zhai, Pengyang Shao, Binbin Zheng, Yonghui Yang, Fei Shen, Long Bai, Xun Yang",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Unlearning",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "GeoRA: Geometry-Aware Low-Rank Adaptation for RLVR",
+    "authors": "Jiaying Zhang, Lei Shi, Jiguo Li, Jun Xu, Jiuchong Gao, Jinghua Hao, Renqing He",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Low-Rank Adaptation",
+      "RLVR"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "CURE: Critique-Driven Unified Reinforcement Learning for Test-Time Self-Improvement",
+    "authors": "Guirong Chen, Shuqi Ye, Wenkai Yang, Shiqi Shen, Guangyao Shen, Yankai Lin",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Reinforcement Learning",
+      "Test-Time Improvement"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Systematicity between Forms and Meanings across Languages Supports Efficient Communication",
+    "authors": "Doreen Osmelak, Yang Xu, Michael Hahn, Kate McCurdy",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Linguistics",
+      "Efficient Communication"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Rethinking Entropy Interventions in RLVR: An Entropy Change Perspective",
+    "authors": "Zhezheng Hao, Hong Wang, Haoyang Liu, Jian Luo, Jiarui Yu, Hande Dong, Qiang Lin, Can Wang, Jiawei Chen",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "RLVR",
+      "Entropy"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "From Local to Global: Revisiting Structured Pruning Paradigms for Large Language Models",
+    "authors": "Ziyan Wang, Enmao Diao, Qi Le, Pu Wang, Minwoo Lee, Shu-ping Yeh, Evgeny Stupachenko, Hao Feng, Li Yang",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Model Pruning",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Massively Multilingual Joint Segmentation and Glossing",
+    "authors": "Michael Ginn, Lindia Tjuatja, Enora Rice, Ali Marashian, Maria Valentini, Jasmine Xu, Graham Neubig, Alexis Palmer",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Multilingual NLP",
+      "Segmentation"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "CAR-bench: Evaluating the Consistency and Limit-Awareness of LLM Agents under Real-World Uncertainty",
+    "authors": "Johannes Kirmayr, Lukas Stappen, Elisabeth Andre",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Benchmark",
+      "LLM Agents"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "ViLL-E: Video LLM Embeddings for Retrieval",
+    "authors": "Rohit Gupta, Jayakrishnan Unnikrishnan, Fan Fei, Sheng Liu, Son Tran, Mubarak Shah",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Video Retrieval",
+      "Embeddings"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "CxMP: A Linguistic Minimal-Pair Benchmark for Evaluating Constructional Understanding in Language Models",
+    "authors": "Miyu Oba, Saku Sugawara",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Benchmark",
+      "Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "CIG: Measuring Conversational Information Gain in Deliberative Dialogues with Semantic Memory Dynamics",
+    "authors": "Ming-Bin Chen, Jey Han Lau, Lea Frermann",
+    "award_type": "outstanding_paper",
+    "tags": [
+      "Dialogue",
+      "Information Gain"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#outstanding-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "The olmOCR Project: Building Fully Open OCR using VLMs",
+    "authors": "Jake Poznanski, Kyle Lo, Luca Soldaini",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Demonstration Paper",
+      "OCR",
+      "Vision-Language Models"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#best-demonstration-paper"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "Evaluation of Multilingual Ability to Use Spatial Deictic Expressions in Vision-Language Models",
+    "authors": "Kaito Watanabe, Taisei Yamamoto, Tomoki Doi, Hitomi Yanaka",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Student Research Workshop",
+      "Vision-Language Models",
+      "Multilingual NLP"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#student-research-workshop-best-papers"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2026,
+    "paper_title": "BanglaSocialBench: A Benchmark for Evaluating Sociopragmatic and Cultural Alignment of LLMs in Bangladeshi Social Interaction",
+    "authors": "Tanvir Ahmed Sijan, S. M Golam Rifat, Pankaj Chowdhury Partha, Md. Tanjeed Islam, Md. Musfique Anwar",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Student Research Workshop",
+      "Benchmark",
+      "Cultural Alignment"
+    ],
+    "paper_url": "https://2026.aclweb.org/program/best_papers/#student-research-workshop-best-papers"
+  },
+  {
+    "conference_slug": "isca",
+    "year": 2026,
+    "paper_title": "Patterns Behind Chaos: Forecasting Data Movement for Efficient Large-Scale MoE LLM Inference",
+    "authors": "Zhongkai Yu, Yue Guan, Zihao Yu, Chenyang Zhou, Zhengding Hu, Shuyi Pei, Yangwook Kang, Yufei Ding, Po-An Tsai",
+    "award_type": "best_paper",
+    "tags": [
+      "MoE",
+      "LLM Inference",
+      "Architecture"
+    ],
+    "paper_url": "https://www.iscaconf.org/isca2026/"
+  },
+  {
+    "conference_slug": "isca",
+    "year": 2026,
+    "paper_title": "Cerberus: Cross-Layer ECC Co-Design for Robust and Efficient Memory Protection",
+    "authors": "Junhwan Kim, Seunghyun Kim, Yesin Ryu, Saeid Gorgin, Jungrae Kim",
+    "award_type": "best_paper",
+    "tags": [
+      "Memory Protection",
+      "ECC",
+      "Architecture"
+    ],
+    "paper_url": "https://www.iscaconf.org/isca2026/"
+  },
+  {
+    "conference_slug": "www",
+    "year": 2026,
+    "paper_title": "From Retrieval to Generation: Unifying External and Parametric Knowledge for Medical Question Answering",
+    "authors": "Lei Li, Xiao Zhou, Yingying Zhang, Xian Wu",
+    "award_type": "best_paper",
+    "tags": [
+      "Medical QA",
+      "Retrieval-Augmented Generation"
+    ],
+    "paper_url": "https://www2026.thewebconf.org/"
+  },
+  {
+    "conference_slug": "www",
+    "year": 2026,
+    "paper_title": "DualGR: Generative Retrieval with Long and Short-Term Interests Modeling",
+    "authors": "Zhongchao Yi, Kai Feng, Xiaojian Ma, Yalong Wang, Yongqi Liu, Han Li, Zhengyang Zhou, Yang Wang",
+    "award_type": "best_paper",
+    "tags": [
+      "Best Short Paper",
+      "Generative Retrieval",
+      "Recommender Systems"
+    ],
+    "paper_url": "https://www2026.thewebconf.org/"
+  },
+  {
+    "conference_slug": "www",
+    "year": 2026,
+    "paper_title": "LINE: Large-scale information network embedding",
+    "authors": "Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, Qiaozhu Mei",
+    "award_type": "test_of_time",
+    "tags": [
+      "Network Embedding",
+      "Test of Time"
+    ],
+    "paper_url": "https://doi.org/10.1145/2736277.2741093"
+  },
+  {
+    "conference_slug": "colt",
+    "year": 2026,
+    "paper_title": "Optimal Reconstruction from Linear Queries",
+    "authors": "Yuval Filmus, Shay Moran, Elizaveta Nesterova",
+    "award_type": "best_paper",
+    "tags": [
+      "Learning Theory",
+      "Linear Queries"
+    ],
+    "paper_url": "https://learningtheory.org/colt2026/awards.html"
+  },
+  {
+    "conference_slug": "colt",
+    "year": 2026,
+    "paper_title": "Minimax Limits of k-Fold Cross-Validation via Majority",
+    "authors": "Ido Nachum, Rudiger Urbanke, Thomas Weinberger",
+    "award_type": "best_student_paper",
+    "tags": [
+      "Learning Theory",
+      "Cross-Validation"
+    ],
+    "paper_url": "https://learningtheory.org/colt2026/awards.html"
   }
 ]
