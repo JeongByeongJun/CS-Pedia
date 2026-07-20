@@ -155,3 +155,38 @@ Status meanings:
 Continue checking the remaining ended-missing queue from `scripts/post-conf-report.md`, prioritizing older conferences first:
 
 SODA, POPL, HiPEAC, ITCS, CC, CGO, HPCA, PPoPP, FC, WACV, STACS, HRI, PerCom, SANER, 3DV, IEEE VR, ASPLOS, EDBT, SAC, EACL, NOSSDAV, MSR, ESOP, FASE, TACAS, DATE, ISPASS, DASFAA, EuroSys, NSDI, Eurographics, ICDE, EUROCRYPT, RTAS, SenSys, I3D, LREC, CCGrid, INFOCOM, S&P, ICST, NOMS, AAMAS, IPDPS, RECOMB.
+
+## 2026-07-20 Recent Conference Sweep
+
+- 조사 범위: 2026-01-21 이후 종료 학회 76개 후보 중 최근/미수록 학회 우선
+- seed 반영: 14개 학회, 58개 수상 논문
+- 링크: 반영 58개 전부 개별 DOI, proceedings, CVF, ACL Anthology 또는 USENIX paper URL 보유
+- 제외: 데모/포스터/워크숍, 후보만 공개된 논문, 현재 award schema와 의미가 다른 Dijkstra/Impact 상
+
+| 학회 | 반영 수 | 반영 유형 | 수상 출처 |
+|------|--------:|-----------|-----------|
+| CVPR | 5 | Best, Best Student, Honorable Mention | https://cvpr.thecvf.com/Conferences/2026/News/Best_Papers |
+| PLDI | 11 | Distinguished, Most Influential→Test of Time | https://pldi26.sigplan.org/track/pldi-2026-papers |
+| SIGMOD | 5 | Best, Honorable Mention, Test of Time | https://2026.sigmod.org/sigmod_awards.shtml |
+| PODS | 4 | Best, Distinguished, Test of Time | https://2026.sigmod.org/pods_awards.shtml |
+| PODC | 2 | Best, Best Student | https://www.podc.org/podc2026/ |
+| SPAA | 3 | Best, Outstanding | https://spaa.acm.org/best-paper-award/ |
+| FSE | 10 | Distinguished | https://conf.researchr.org/track/fse-2026/fse-2026-plenary-events |
+| OSDI | 3 | Best | https://www.usenix.org/conference/osdi26/technical-sessions |
+| ICALP | 4 | Best, Best Student | https://icalppodcspaa2026.cs.rhul.ac.uk/icalp/ |
+| CoNLL | 3 | Best, Outstanding | https://www.conll.org/2026 |
+| ECOOP | 4 | Distinguished, Test of Time | https://2026.ecoop.org/track/ecoop-2026-awards |
+| EGSR | 1 | Best | https://egsr2026.inria.fr/programme/ |
+| SGP | 1 | Test of Time | https://awards.geometryprocessing.org/ |
+| DSN | 2 | Test of Time | https://www.dependability.org/?page_id=373 |
+
+### 2026 보류
+
+| 학회 | 사유 |
+|------|------|
+| CLOUD, ICWS, GECCO, RSS, HPDC | 2026 최종 수상 결과 미게시 또는 후보만 공개 |
+| IUI, ICS, ICMR | 공식 프로그램에 후보만 있고 최종 winner 미확인 |
+| SCA | 1차 awards 자료와 독립 재검증에서 공식 공개 여부가 충돌 |
+| ECRTS | Outstanding Papers 세션은 후보/최종 수상 구분이 불명확 |
+| ICAPS, MDM, MobiSys, DSN Best/Distinguished | 수상 정보는 발견했으나 독립 DOI/award type 재검증이 미완료 |
+| STOC Best/Student | 합동 수상 세션만 공개되어 논문별 유형 미확정 |

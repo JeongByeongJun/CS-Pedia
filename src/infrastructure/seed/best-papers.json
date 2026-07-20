@@ -22579,5 +22579,527 @@
       "Cross-Validation"
     ],
     "paper_url": "https://learningtheory.org/colt2026/awards.html"
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2026,
+    "paper_title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+    "authors": "Chuhan Zhang; Guillaume Le Moing; Skanda Koppula; Ignacio Rocco; Liliane Momeni; Junyu Xie; Shuyang Sun; Rahul Sukthankar; Joelle K. Barral; Raia Hadsell; Zoubin Ghahramani; Andrew Zisserman; Junlin Zhang; Mehdi S. M. Sajjadi",
+    "award_type": "best_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Efficiently_Reconstructing_Dynamic_Scenes_One_D4RT_at_a_Time_CVPR_2026_paper.html",
+    "tags": []
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2026,
+    "paper_title": "Native and Compact Structured Latents for 3D Generation",
+    "authors": "Jianfeng Xiang; Xiaoxue Chen; Sicheng Xu; Ruicheng Wang; Zelong Lv; Yu Deng; Hongyuan Zhu; Yue Dong; Hao Zhao; Nicholas Jing Yuan; Jiaolong Yang",
+    "award_type": "best_student_paper",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xiang_Native_and_Compact_Structured_Latents_for_3D_Generation_CVPR_2026_paper.html",
+    "tags": []
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2026,
+    "paper_title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+    "authors": "Loic Magne; Anas Awadalla; Guanzhi Wang; Yinzhen Xu; Joshua Belofsky; Fengyuan Hu; Joohwan Kim; Ludwig Schmidt; Georgia Gkioxari; Jan Kautz; Yisong Yue; Yejin Choi; Yuke Zhu; Linxi Fan",
+    "award_type": "honorable_mention",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Magne_NitroGen_An_Open_Foundation_Model_for_Generalist_Gaming_Agents_CVPR_2026_paper.html",
+    "tags": []
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2026,
+    "paper_title": "SAM 3D: 3Dfy Anything in Images",
+    "authors": "Xingyu Chen; FU-JEN CHU; Pierre Gleize; Kevin J Liang; Alexander Sax; Hao Tang; Weiyao Wang; Michelle Guo; Thibaut Hardin; Xiang Li; Aohan Lin; Jia-Wei Liu; Ziqi Ma; Anushka Sagar; Bowen Song; Xiaodong Wang; Jianing Yang; Bowen Zhang; Piotr Dollar; Georgia Gkioxari; Matt Feiszli; Jitendra Malik",
+    "award_type": "honorable_mention",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_SAM_3D_3Dfy_Anything_in_Images_CVPR_2026_paper.html",
+    "tags": []
+  },
+  {
+    "conference_slug": "cvpr",
+    "year": 2026,
+    "paper_title": "ChordEdit: One-Step Low-Energy Transport for Image Editing",
+    "authors": "Liangsi Lu; Xuhang Chen; Minzhe Guo; Shichu Li; Jingchao Wang; Yang Shi",
+    "award_type": "honorable_mention",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_ChordEdit_One-Step_Low-Energy_Transport_for_Image_Editing_CVPR_2026_paper.html",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "Verification of Recursively Defined Quantum Circuits",
+    "authors": "Mingsheng Ying; Zhicheng Zhang",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808273",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "Cobble: Compiling Block Encodings for Quantum Computational Linear Algebra",
+    "authors": "Charles Yuan",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808255",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "MatchBox: A Semantic Foundation for Data Plane Portability",
+    "authors": "Eric Hayden Campbell; Robert Zhang; Divyanshu Saxena; Aditya Akella; Isil Dillig",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808277",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "Modular GPU Programming with Typed Perspectives",
+    "authors": "Manya Bansal; Daniel Sainati; Joseph W. Cutler; Saman Amarasinghe; Jonathan Ragan-Kelley",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808290",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "Towards Removing Undef Values from LLVM IR",
+    "authors": "Pedro Lobo; John McIver; George Mitenkov; Juneyoung Lee; Kirshanthan Sundararajah; Nuno P. Lopes",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808250",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "Synthesizing Backward Error Bounds, Backward",
+    "authors": "Laura Zielinski; Justin Hsu",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808333",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "Categorical Semantics of Probabilistic Symbolic Execution",
+    "authors": "John M. Li; Jack Czenszak; Steven Holtzen",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808343",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "Enumerating Ill-Typed Programs for Testing Type Analyzers",
+    "authors": "Thodoris Sotiropoulos; Zhendong Su",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808320",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "VerusBelt: A Semantic Foundation for Verus's Proof-Oriented Extensions to the Rust Type System",
+    "authors": "Travis Hance; Laila Elbeheiry; Yusuke Matsushita; Derek Dreyer",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808325",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "Bonsai: Compiling Queries to Pruned Tree Traversals",
+    "authors": "Alexander J Root; Christophe Gyurgyik; Purvi Goel; Kayvon Fatahalian; Jonathan Ragan-Kelley; Andrew Adams; Fredrik Kjolstad",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808256",
+    "tags": []
+  },
+  {
+    "conference_slug": "pldi",
+    "year": 2026,
+    "paper_title": "Ivy: Safety Verification by Interactive Generalization",
+    "authors": "Oded Padon; Kenneth Lauchlin McMillan; Aurojit Panda; Mooly Sagiv; Sharon Shoham",
+    "award_type": "test_of_time",
+    "paper_url": "https://doi.org/10.1145/2908080.2908118",
+    "tags": []
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2026,
+    "paper_title": "GPM: The Gaussian Pancake Mechanism for Planting Undetectable Backdoors in Differential Privacy",
+    "authors": "Haochen Sun; Xi He",
+    "award_type": "best_paper",
+    "paper_url": "https://doi.org/10.1145/3802068",
+    "tags": []
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2026,
+    "paper_title": "F3: The Open-Source Data File Format for the Future",
+    "authors": "Xinyu Zeng; Ruijun Meng; Martin Prammer; Wes McKinney; Jignesh M. Patel; Andrew Pavlo; Huanchen Zhang",
+    "award_type": "honorable_mention",
+    "paper_url": "https://doi.org/10.1145/3749163",
+    "tags": []
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2026,
+    "paper_title": "Integrating Vector Databases across Embedding Models",
+    "authors": "Beining Yang; Yang Cao; Yang Ren",
+    "award_type": "honorable_mention",
+    "paper_url": "https://doi.org/10.1145/3769803",
+    "tags": []
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2026,
+    "paper_title": "Sublime: Sublinear Error & Space for Unbounded Skewed Streams",
+    "authors": "Navid Eslami; Ioana Bercea; Rasmus Pagh; Niv Dayan",
+    "award_type": "honorable_mention",
+    "paper_url": "https://doi.org/10.1145/3802116",
+    "tags": []
+  },
+  {
+    "conference_slug": "sigmod",
+    "year": 2026,
+    "paper_title": "The Snowflake Elastic Data Warehouse",
+    "authors": "Benoit Dageville; Thierry Cruanes; Marcin Zukowski; Vadim Antonov; Artin Avanes; Jon Bock; Jonathan Claybaugh; Daniel Engovatov; Martin Hentschel; Jiansheng Huang; Allison W. Lee; Ashish Motivala; Abdul Q. Munir; Steven Pelley; Peter Povinec; Greg Rahn; Spyridon Triantafyllis; Philipp Unterbrunner",
+    "award_type": "test_of_time",
+    "paper_url": "https://doi.org/10.1145/2882903.2903741",
+    "tags": []
+  },
+  {
+    "conference_slug": "pods",
+    "year": 2026,
+    "paper_title": "Unbiased Insights: Optimal Streaming Algorithms for l_p Sampling, the Forget Model, and Beyond",
+    "authors": "Honghao Lin; Hoai-An Nguyen; William Swartworth; David P. Woodruff",
+    "award_type": "best_paper",
+    "paper_url": "https://doi.org/10.1145/3801918",
+    "tags": []
+  },
+  {
+    "conference_slug": "pods",
+    "year": 2026,
+    "paper_title": "FPT Parameterisations of Fractional and Generalised Hypertree Width",
+    "authors": "Matthias Lanzinger; Igor Razgon; Daniel Unterberger",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3801900",
+    "tags": []
+  },
+  {
+    "conference_slug": "pods",
+    "year": 2026,
+    "paper_title": "PANDAExpress: a Simpler and Faster PANDA Algorithm",
+    "authors": "Mahmoud Abo Khamis; Hung Q. Ngo; Dan Suciu",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3801910",
+    "tags": []
+  },
+  {
+    "conference_slug": "pods",
+    "year": 2026,
+    "paper_title": "FAQ: Questions Asked Frequently",
+    "authors": "Mahmoud Abo Khamis; Hung Q. Ngo; Atri Rudra",
+    "award_type": "test_of_time",
+    "paper_url": "https://doi.org/10.1145/2902251.2902280",
+    "tags": []
+  },
+  {
+    "conference_slug": "podc",
+    "year": 2026,
+    "paper_title": "Simple and Efficient Randomized Wait-Free Locks",
+    "authors": "Kahbod Aeini; Dante Bencivenga; George Giakkoupis; Philipp Woelfel",
+    "award_type": "best_paper",
+    "paper_url": "https://doi.org/10.1145/3796701.3815952",
+    "tags": []
+  },
+  {
+    "conference_slug": "podc",
+    "year": 2026,
+    "paper_title": "Efficient Counting and Simulation in Content-Oblivious Rings",
+    "authors": "Jeremie Chalopin; Yi-Jun Chang; Giuseppe Antonio Di Luna; Haoran Zhou",
+    "award_type": "best_student_paper",
+    "paper_url": "https://doi.org/10.1145/3796701.3815917",
+    "tags": []
+  },
+  {
+    "conference_slug": "spaa",
+    "year": 2026,
+    "paper_title": "Scheduler Augmentation: A Lightweight, Customizable, Low-Cost Profiling Technique for Fork-Join Parallel Programs",
+    "authors": "Sam Westrick; Darshan Dinesh Kumar; Seong-Heon Jung",
+    "award_type": "best_paper",
+    "paper_url": "https://doi.org/10.1145/3816782.3819212",
+    "tags": []
+  },
+  {
+    "conference_slug": "spaa",
+    "year": 2026,
+    "paper_title": "Energy-Efficient Aggregation and Minimum-Degree Spanning Trees in Radio Networks",
+    "authors": "Yi-Jun Chang; Yang Ze Guan",
+    "award_type": "outstanding_paper",
+    "paper_url": "https://doi.org/10.1145/3816782.3819229",
+    "tags": []
+  },
+  {
+    "conference_slug": "spaa",
+    "year": 2026,
+    "paper_title": "The Local/Global Disk Problem: How to Use Shared High-Bandwidth Storage Economically",
+    "authors": "Michael A. Bender; Philip Bille; Martin Farach-Colton; Jeremy Fineman; Michael T. Goodrich; Hanna Komlos; Inge Li Gortz; Bradley C. Kuszmaul; William Kuszmaul; Rose Silver; Todd Veldhuizen; Renfei Zhou",
+    "award_type": "outstanding_paper",
+    "paper_url": "https://doi.org/10.1145/3816782.3819205",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "A Grounded Theory of Debugging in Professional Software Engineering Practice",
+    "authors": "Haolin Li; Michael Coblenz",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3797077",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "An Empirical Study of Fuzz Harness Degradation",
+    "authors": "Philipp Gorz; Joschua Schilling; Nicolai Bissantz; Thorsten Holz",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808172",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "Building Software by Rolling the Dice: A Qualitative Study of Vibe Coding",
+    "authors": "Yi-Hung Chou; Boyuan Jiang; Yi Wen Chen; Mingyue Weng; Victoria Jackson; Thomas Zimmermann; James A. Jones",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3797105",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "Carbon-Taxed Transformers: A Green Compression Pipeline for Overgrown Language Models",
+    "authors": "Ajmain Inqiad Alam; Palash Roy; Chanchal K. Roy; Banani Roy; Kevin A. Schneider",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3797075",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "Clotho: Measuring Task-Specific Pre-Generation Test Adequacy for LLM Inputs",
+    "authors": "Juyeon Yoon; Somin Kim; Robert Feldt; Shin Yoo",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3797114",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",
+    "authors": "Jiahong Xiang; Xiaoyang Xu; Xiaopan Chu; Hongliang Tian; Yuqun Zhang",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3797126",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "GraphLocator: Graph-Guided Causal Reasoning for Issue Localization",
+    "authors": "Wei Liu; Chao Peng; Pengfei Gao; Aofan Liu; Wei Zhang; Haiyan Zhao; Zhi Jin",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3797079",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "One Size Does Fit All: Exploring Model Fusion for Software Engineering Tasks",
+    "authors": "Yinggang Qiu; Yihao Qin; Mingyang Geng; Shangwen Wang; Dezun Dong",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3808198",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "Pig: Leveraging Large Language Models for Python Library Migrations",
+    "authors": "Miryeong Kang; Wonseok Oh; Gabin An; Hakjoo Oh",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3797072",
+    "tags": []
+  },
+  {
+    "conference_slug": "fse",
+    "year": 2026,
+    "paper_title": "Understanding Binary Code Similarity for Real-World Vulnerability Detection: A Large-Scale Empirical Study",
+    "authors": "Jingdong Guo; Chaopeng Dong; Yimo Ren; Siyuan Li; Jie Liu; Hong Li; Hongsong Zhu",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.1145/3797125",
+    "tags": []
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2026,
+    "paper_title": "Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training (Operational Systems)",
+    "authors": "Luofan Chen; Chenhan Wang; Weidong Zhang; Jinxin Chi; Hequan Zhang; Zanbo Wang; Chenyuan Wang; Lishu Luo; Sijin Wu; Junqi Hu; Jun Wang; Cheng Chen; Lixin Huang; Liyang Zhao; Yong Tian; Jun Guo; Youhui Bai; Wencong Xiao; Kang Chen; Cheng Li",
+    "award_type": "best_paper",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/chen-luofan",
+    "tags": []
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2026,
+    "paper_title": "ValScope: Value-Semantics-Aware Metamorphic Testing for Detecting Logical Bugs in DBMSs",
+    "authors": "Li Lin; Liehang Chen; Rongxin Wu",
+    "award_type": "best_paper",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/lin-li",
+    "tags": []
+  },
+  {
+    "conference_slug": "osdi",
+    "year": 2026,
+    "paper_title": "Controlling Opaque-Component Effects with Semisolates and Try",
+    "authors": "Evangelos Lamprou; Tianyu (Ezri) Zhu; Di Jin; Grigoris Ntousakis; Georgios Liargkovas; Calvin Eng; Konstantinos Kallas; Michael Greenberg; Nikos Vasilakis",
+    "award_type": "best_paper",
+    "paper_url": "https://www.usenix.org/conference/osdi26/presentation/lamprou",
+    "tags": []
+  },
+  {
+    "conference_slug": "icalp",
+    "year": 2026,
+    "paper_title": "Canonical Labelling of Random Regular Graphs",
+    "authors": "Mikhail Isaev; Tamas Makai; Brendan D. McKay; Pawel Pralat; Jane Tan; Maksim Zhukovskii",
+    "award_type": "best_paper",
+    "paper_url": "https://doi.org/10.4230/LIPIcs.ICALP.2026.114",
+    "tags": []
+  },
+  {
+    "conference_slug": "icalp",
+    "year": 2026,
+    "paper_title": "Optimal Lower Bounds for Symmetric Modular Circuits",
+    "authors": "Benedikt Pago",
+    "award_type": "best_paper",
+    "paper_url": "https://doi.org/10.4230/LIPIcs.ICALP.2026.187",
+    "tags": []
+  },
+  {
+    "conference_slug": "icalp",
+    "year": 2026,
+    "paper_title": "Recursive Jump Operators and Optimal Proof Systems",
+    "authors": "Fabian Egidy",
+    "award_type": "best_student_paper",
+    "paper_url": "https://doi.org/10.4230/LIPIcs.ICALP.2026.88",
+    "tags": []
+  },
+  {
+    "conference_slug": "icalp",
+    "year": 2026,
+    "paper_title": "Deciding DFA-Primality Is NP-Hard",
+    "authors": "Daniel Alexander Spenner",
+    "award_type": "best_student_paper",
+    "paper_url": "https://doi.org/10.4230/LIPIcs.ICALP.2026.192",
+    "tags": []
+  },
+  {
+    "conference_slug": "conll",
+    "year": 2026,
+    "paper_title": "When transformers learn \"impossible\" languages, what do they learn?",
+    "authors": "Ram Janarthan; Coleman Haley; Sharon Goldwater",
+    "award_type": "best_paper",
+    "paper_url": "https://aclanthology.org/2026.conll-main.24/",
+    "tags": []
+  },
+  {
+    "conference_slug": "conll",
+    "year": 2026,
+    "paper_title": "Readers make targeted regressions to plausible errors in reanalysis of \"noisy-channel garden-path\" sentences",
+    "authors": "Thomas Hikaru Clark; Roger P. Levy; Edward Gibson",
+    "award_type": "outstanding_paper",
+    "paper_url": "https://aclanthology.org/2026.conll-main.25/",
+    "tags": []
+  },
+  {
+    "conference_slug": "conll",
+    "year": 2026,
+    "paper_title": "Presupposition and Reasoning in Conditionals: A Theory-Based Study of Humans and LLMs",
+    "authors": "Tara Azin; Yongan Yu; Raj Singh; Olessia Jouravlev",
+    "award_type": "outstanding_paper",
+    "paper_url": "https://aclanthology.org/2026.conll-main.26/",
+    "tags": []
+  },
+  {
+    "conference_slug": "ecoop",
+    "year": 2026,
+    "paper_title": "Beyond k-Limiting: Pointer-Flow-Guided Context Sensitivity for Scalable and Precise Rust Pointer Analysis",
+    "authors": "Wenyao Chen; Wei Li; Jingling Xue",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.4230/LIPIcs.ECOOP.2026.1",
+    "tags": []
+  },
+  {
+    "conference_slug": "ecoop",
+    "year": 2026,
+    "paper_title": "A Complete Program Logic for Compositional Linearizability",
+    "authors": "Eashan Hatti; Arthur Oliveira Vale; Zhongye Wang; Yueyang Feng; Zhong Shao",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.4230/LIPIcs.ECOOP.2026.11",
+    "tags": []
+  },
+  {
+    "conference_slug": "ecoop",
+    "year": 2026,
+    "paper_title": "Language-Integrated Recursive Queries",
+    "authors": "Anna Herlihy; Amir Shaikhha; Anastasia Ailamaki; Martin Odersky",
+    "award_type": "distinguished_paper",
+    "paper_url": "https://doi.org/10.4230/LIPIcs.ECOOP.2026.12",
+    "tags": []
+  },
+  {
+    "conference_slug": "ecoop",
+    "year": 2026,
+    "paper_title": "Automated Detection of Refactorings in Evolving Components",
+    "authors": "Danny Dig; Can Comertoglu; Darko Marinov; Ralph Johnson",
+    "award_type": "test_of_time",
+    "paper_url": "https://doi.org/10.1007/11785477_24",
+    "tags": []
+  },
+  {
+    "conference_slug": "egsr",
+    "year": 2026,
+    "paper_title": "Volumetric Inverse Rendering via Neural Radiative Transfer",
+    "authors": "Ntumba Elie Nsampi; Adarsh Djeacoumar; Hans-Peter Seidel; Tobias Ritschel; Thomas Leimkuhler",
+    "award_type": "best_paper",
+    "paper_url": "https://doi.org/10.1111/cgf.70541",
+    "tags": []
+  },
+  {
+    "conference_slug": "sgp",
+    "year": 2026,
+    "paper_title": "Laplace-Beltrami Eigenfunctions for Deformation Invariant Shape Representation",
+    "authors": "Raif M. Rustamov",
+    "award_type": "test_of_time",
+    "paper_url": "https://doi.org/10.2312/SGP/SGP07/225-233",
+    "tags": []
+  },
+  {
+    "conference_slug": "dsn",
+    "year": 2026,
+    "paper_title": "Targeted Attacks on Teleoperated Surgical Robots: Dynamic Model-Based Detection and Mitigation",
+    "authors": "Homa Alemzadeh; Daniel Chen; Xiao Li; Thenkurussi Kesavadas; Zbigniew T. Kalbarczyk; Ravishankar K. Iyer",
+    "award_type": "test_of_time",
+    "paper_url": "https://doi.org/10.1109/DSN.2016.43",
+    "tags": []
+  },
+  {
+    "conference_slug": "dsn",
+    "year": 2026,
+    "paper_title": "PARBOR: An Efficient System-Level Technique to Detect Data-Dependent Failures in DRAM",
+    "authors": "Samira Khan; Donghyuk Lee; Onur Mutlu",
+    "award_type": "test_of_time",
+    "paper_url": "https://doi.org/10.1109/DSN.2016.30",
+    "tags": []
   }
 ]

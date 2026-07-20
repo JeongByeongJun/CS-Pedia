@@ -24,6 +24,7 @@ export function parseOptionalDate(value: string | null): Date | null {
 // Timezone abbreviation → UTC offset in hours
 const TZ_OFFSETS: Record<string, number> = {
   "AoE": -12,
+  "UTC-11": -11,
   "HST": -10,
   "PST": -8,
   "PT": -8,    // Pacific Time (standard)

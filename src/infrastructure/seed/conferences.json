@@ -167,7 +167,7 @@
     "field": "AI/ML",
     "sub_field": "Machine Learning",
     "dblp_key": "conf/acml",
-    "website_url": "https://www.acml-conf.org/2026/"
+    "website_url": "https://www.acml-conf.org/2026/calls/papers/"
   },
   {
     "slug": "pakdd",
@@ -437,7 +437,7 @@
     "field": "Systems",
     "sub_field": "Operating Systems",
     "dblp_key": "conf/osdi",
-    "website_url": "https://www.usenix.org/conference/osdi26/call-for-papers"
+    "website_url": "https://www.usenix.org/conference/osdi27/call-for-papers"
   },
   {
     "slug": "eurosys",
@@ -1237,7 +1237,7 @@
     "field": "Architecture",
     "sub_field": "Computer Architecture",
     "dblp_key": "conf/hpca",
-    "website_url": "https://2026.hpca-conf.org/"
+    "website_url": "https://2027.hpca-conf.org/"
   },
   {
     "slug": "asplos",
@@ -1817,7 +1817,7 @@
     "field": "Security",
     "sub_field": "Financial Cryptography",
     "dblp_key": "conf/fc",
-    "website_url": "https://ifca.ai/fc27/"
+    "website_url": "https://ifca.ai/fc27/cfp.html"
   },
   {
     "slug": "hipc",

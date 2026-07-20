@@ -3,6 +3,40 @@
 
 ---
 
+## 2026-07-20 전수 재검증 및 반영
+
+- 범위: 209개 학회, Phase 1~7 전수 확인
+- 반영: 59개 학회 75개 deadline 레코드 수정/추가
+- 신규 레코드: HPCA 2027, OSDI 2027, SIGMETRICS 2027 fall/winter
+- 저장 규칙: 공식 source timezone의 wall-clock을 ISO `Z`에 그대로 저장하고 UTC 환산 금지
+- 독립 재검증: AAAI, KDD, INFOCOM, HPCA 등 임박 일정과 주요 보정값을 별도 공식 CFP로 재확인
+
+### 주요 신규/임박 일정
+
+| 학회 | 일정 | 시간대 | 공식 출처 |
+|------|------|--------|----------|
+| AAAI 2027 | abstract 2026-07-21, paper 2026-07-28 | AoE | https://aaai.org/conference/aaai/aaai-27/ |
+| HPCA 2027 | abstract 2026-07-24, paper 2026-07-31 | AoE | https://2027.hpca-conf.org/ |
+| INFOCOM 2027 | abstract 2026-07-24, paper 2026-07-31 | AoE | https://infocom2027.ieee-infocom.org/call-papers |
+| KDD 2027 Cycle 1 | abstract 2026-07-19, paper 2026-07-26 | AoE | https://kdd2027.kdd.org/research-track-call-for-papers/ |
+| IEEE VR 2027 | abstract 2026-08-24, paper 2026-08-31 | AoE | https://ieeevr.org/2027/ |
+| OSDI 2027 | abstract 2026-12-01, paper 2026-12-08 | EST | https://www.usenix.org/conference/osdi27/call-for-papers |
+
+### 보류/충돌
+
+| 학회 | 사유 |
+|------|------|
+| AAMAS/ACL 2027 | 개최 정보만 있고 메인 CFP deadline 미발표 |
+| ATC 2026 | USENIX ATC 종료와 ACM SIGOPS 후속 ATC 명칭 전환을 메타데이터 정책과 함께 재검토 필요 |
+| CASE/CSF/DSN/HRI 2027 | 날짜는 확인됐으나 이번 독립 검증 범위 밖 신규 cycle은 다음 회차로 보류 |
+| CoNEXT 2026 | 공식 `24:00 AoE`를 seed 시각으로 표현하는 정책 결정 필요 |
+| DASFAA/NOMS/PERFORMANCE/SGP/WWW | 공식 페이지 사이 날짜 또는 장소 충돌 |
+| EGSR/ESA 2026 | 재검증에서 현재 seed 값이 맞아 추가 변경하지 않음 |
+| MASCOTS 2026 | 1차 조사와 재검증 결과가 2026-06-05/2026-05-17로 충돌해 보류 |
+| UbiComp/VLDB 2027 | rolling cycle 일부 누락 가능성이 있으나 정확한 시각/포함 범위를 확정하지 못함 |
+
+---
+
 ## 재검증 판정 (2026-07-06)
 
 2026-07-06 조사 결과 중 seed 반영 후보를 공식 페이지 원문으로 재검증. 신규 추가 후보는 대부분 확인됐고, proposal/페이지 내부 충돌/정책성 항목은 HOLD로 분리.
