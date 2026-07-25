@@ -257,7 +257,7 @@
     "field": "NLP",
     "sub_field": "Natural Language Processing",
     "dblp_key": "conf/naacl",
-    "website_url": "https://naacl.org"
+    "website_url": "https://2027.naacl.org/"
   },
   {
     "slug": "coling",
@@ -407,7 +407,7 @@
     "field": "CV",
     "sub_field": "Pattern Recognition",
     "dblp_key": "conf/icpr",
-    "website_url": "https://icpr2026.org/"
+    "website_url": "https://www.icpr2027.com/web/dates"
   },
   {
     "slug": "fg",
@@ -417,7 +417,7 @@
     "field": "CV",
     "sub_field": "Face Recognition",
     "dblp_key": "conf/fgr",
-    "website_url": "https://fg2026.ieee-biometrics.org/cfp/"
+    "website_url": "https://fg2027.ieee-biometrics.org/dates/"
   },
   {
     "slug": "sosp",
@@ -451,13 +451,13 @@
   },
   {
     "slug": "atc",
-    "name_en": "USENIX Annual Technical Conference",
+    "name_en": "ACM SIGOPS Annual Technical Conference",
     "name_kr": null,
-    "acronym": "USENIX ATC",
+    "acronym": "ATC",
     "field": "Systems",
     "sub_field": "Systems",
     "dblp_key": "conf/usenix",
-    "website_url": "https://usenix.org/conference/atc"
+    "website_url": "https://sigops.org/s/conferences/atc/2026/"
   },
   {
     "slug": "ppopp",
@@ -697,7 +697,7 @@
     "field": "Security",
     "sub_field": "Dependable Systems",
     "dblp_key": "conf/dsn",
-    "website_url": "https://dsn2026.github.io/"
+    "website_url": "https://dsn2027-berlin.github.io/call-for-contributions/"
   },
   {
     "slug": "csf",
@@ -707,7 +707,7 @@
     "field": "Security",
     "sub_field": "Security Foundations",
     "dblp_key": "conf/csfw",
-    "website_url": "https://csf2026.ieee-security.org/"
+    "website_url": "https://www.ieee-security.org/TC/CSF2027/cfp.html"
   },
   {
     "slug": "sigmod",
@@ -937,7 +937,7 @@
     "field": "SE",
     "sub_field": "Mining SE",
     "dblp_key": "conf/msr",
-    "website_url": "https://2026.msrconf.org"
+    "website_url": "https://conf.researchr.org/track/msr-2027/msr-2027-technical-papers"
   },
   {
     "slug": "icsme",
@@ -1137,7 +1137,7 @@
     "field": "Networks",
     "sub_field": "Mobile Computing",
     "dblp_key": "conf/mobicom",
-    "website_url": "https://www.sigmobile.org/mobicom/2026/"
+    "website_url": "https://www.sigmobile.org/mobicom/2027/cfp.html"
   },
   {
     "slug": "infocom",
@@ -1327,7 +1327,7 @@
     "field": "Graphics",
     "sub_field": "Computer Graphics",
     "dblp_key": "conf/eurographics",
-    "website_url": "https://eg2026.github.io/call_for_full_papers/"
+    "website_url": "https://eg2027.isti.cnr.it/call-for-papers/"
   },
   {
     "slug": "pg",
@@ -1407,7 +1407,7 @@
     "field": "Robotics",
     "sub_field": "Robot Learning",
     "dblp_key": "conf/corl",
-    "website_url": "https://corl.org"
+    "website_url": "https://2026.corl.org/contributions/instruction-for-authors"
   },
   {
     "slug": "hri",
@@ -1477,7 +1477,7 @@
     "field": "Systems",
     "sub_field": "Embedded Systems",
     "dblp_key": "conf/rtas",
-    "website_url": "https://2026.rtas.org/cfp/"
+    "website_url": "https://2027.rtas.org/cfp/"
   },
   {
     "slug": "sigmetrics",
@@ -1507,7 +1507,7 @@
     "field": "Theory",
     "sub_field": "Formal Verification",
     "dblp_key": "conf/cav",
-    "website_url": "http://conferences.i-cav.org/2026/cfp/"
+    "website_url": "https://conferences.i-cav.org/2027/cfp/"
   },
   {
     "slug": "ieee-vr",
@@ -1687,7 +1687,7 @@
     "field": "Architecture",
     "sub_field": "Parallel & Distributed Processing",
     "dblp_key": "conf/ipdps",
-    "website_url": "https://www.ipdps.org/ipdps2026/2026-call-for-papers.html"
+    "website_url": "https://www.ipdps.org/"
   },
   {
     "slug": "lctes",
@@ -1797,7 +1797,7 @@
     "field": "Theory",
     "sub_field": "Concurrency Theory",
     "dblp_key": "conf/concur",
-    "website_url": "https://confest-2026.github.io/"
+    "website_url": "https://confest-2026.github.io/concur/"
   },
   {
     "slug": "cseet",
@@ -2027,7 +2027,7 @@
     "field": "Networks",
     "sub_field": "Sensor Networks",
     "dblp_key": "conf/secon",
-    "website_url": "https://secon2026.ieee-secon.org/"
+    "website_url": "https://secon2027.ieee-secon.org/call-papers"
   },
   {
     "slug": "sgp",

@@ -3,6 +3,88 @@
 
 ---
 
+## 2026-07-25 Phase 1~7 전수 조사 및 독립 재검증
+
+- 범위: seed에 등록된 209개 학회, Phase 1~7
+- 방식: 공식 CFP/학회/학회 주관 단체 페이지 우선, 공식 source timezone의 wall-clock 날짜 유지
+- seed 상태: 독립 재검증을 통과한 52개 레코드를 `deadlines.json`에 반영함
+- 독립 재검증: 신규 연도, cycle 누락, 날짜 변경처럼 영향이 큰 24개 항목을 별도 frontier 모델로 재확인
+- Phase 2 최초 실패 그룹도 직접 재확인: CONCUR, CoNEXT, CoNLL, CoRL, CRYPTO
+
+### 독립 재검증 완료: seed 반영 후보
+
+| Phase | 학회 | 판정 | 확인된 변경 | 공식 출처 |
+|------:|------|------|-------------|-----------|
+| 1 | ATC 2026 | APPLY | ACM SIGOPS 주관으로 전환, 동일 커뮤니티/범위. paper `2026-06-10`, notification `2026-09-18`; 학회명/URL 갱신 | https://sigops.org/s/conferences/atc/2026/cfp.html |
+| 1 | CAV 2027 | APPLY | paper `2027-01-20 23:59 AoE`, notification `2027-04-23`, conf `2027-07-19~23` | https://conferences.i-cav.org/2027/cfp/ |
+| 1 | CCGrid 2027 | APPLY | abstract `2026-11-24`, paper `2026-12-01`, notification `2027-02-01`, conf `2027-05-24~27` | https://hpcclab.org/ccgrid27/ |
+| 2 | CSF 2027 | APPLY | paper/notif 3 cycles: `08-03→10-07`, `10-15→12-14`, `01-28→04-05`, AoE | https://www.ieee-security.org/TC/CSF2027/cfp.html |
+| 2 | DSN 2027 | APPLY | abstract `2026-11-25`, paper `12-02`, notification `2027-03-18`, conf `06-22~25` | https://dsn2027-berlin.github.io/call-for-contributions/ |
+| 2 | ECOOP 2027 | APPLY | wall-clock paper R1 `2026-11-19`, R2 `2027-02-11`; 현재 seed는 하루씩 UTC shift됨 | https://2027.ecoop.org/track/ecoop-2027-technical-papers |
+| 2 | EDBT 2027 | APPLY | cycle paper `2026-02-04`, `06-10`, `10-07`, 모두 `17:00 PST`; cycle 1 누락 | https://edbticdt2027.github.io/?contents=EDBT_CFP.html |
+| 3 | Eurographics 2027 | APPLY | abstract `2026-09-25`, paper `10-01` 23:59 UTC, notifications `12-18`/`2027-02-09`, Lucca | https://eg2027.isti.cnr.it/call-for-papers/ |
+| 3 | FASE/iFS | APPLY 구조변경 | FASE와 iFM이 2027년부터 iFS로 통합. FASE 2027 row 추가 금지 | https://etaps.org/2027/conferences/ifs/ |
+| 3 | FG 2027 | APPLY | abstract `2026-10-09`, paper `10-16` AoE, notification `12-20`, conf `2027-04-26~30` | https://fg2027.ieee-biometrics.org/dates/ |
+| 4 | ICPR 2027 | APPLY | paper `2027-03-01 23:59 AoE`, notification `05-24`, virtual sessions `10-04~15` | https://www.icpr2027.com/web/dates |
+| 4 | IPDPS 2027 | APPLY | abstract `2026-10-01`, paper `10-08`, conf `2027-06-01~05`; clock/TZ 미발표 | https://www.ipdps.org/ |
+| 4 | IROS 2027 | APPLY | paper `2027-03-01`; clock/TZ 미발표라 AoE 추정 금지 | https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/ |
+| 5 | MobiCom 2027 | APPLY | summer abstract `2026-08-26`, paper `09-02` AoE, notification `11-19`, conf `2027-10-18~22` | https://www.sigmobile.org/mobicom/2027/cfp.html |
+| 5 | MSR 2027 | APPLY | abstract `2026-10-20`, paper `10-23` AoE, notification `2027-01-08`, conf `04-26~27` | https://conf.researchr.org/track/msr-2027/msr-2027-technical-papers |
+| 5 | NAACL 2027 | APPLY | ARR paper `2026-10-12 23:59 AoE`, conf `2027-06-01~05`, San Francisco | https://2027.naacl.org/ |
+| 5 | RTAS 2027 | APPLY | paper `2026-11-05 23:59 AoE`, tentative notification `2027-01-28`, conf `05-11~14` | https://2027.rtas.org/cfp/ |
+| 5 | SECON 2027 | APPLY | paper `2026-11-30`, notification `2027-02-15`, conf `05-05~07`; clock/TZ 미발표 | https://secon2027.ieee-secon.org/call-papers |
+| 7 | SenSys | APPLY | 2026 round1 누락, 기존 main→round2; 2027 final notification `2026-08-31` | https://sensys.acm.org/2027/cfp.html |
+| 7 | SIGMETRICS | APPLY | 2026 summer/fall cycle 누락, 2027 3개 cycle notification 누락 | https://www.sigmetrics.org/sigmetrics2027/pages/cfp.html |
+| 7 | SPAA 2026 | APPLY | abstract `2026-02-20`, paper `02-27` 23:59 AoE, notification `05-15`; 현재 하루 shift | https://spaa.acm.org/cfp/ |
+| 7 | USENIX Security | APPLY | 2026 cycle1 누락 및 main→cycle2, 2027 cycle notifications 누락 | https://www.usenix.org/conference/usenixsecurity27/call-for-papers |
+| 7 | VLDB 2027 | APPLY | `2026-04`~`2027-03` 월별 cycle, abstract 전월 25일/paper 1일 `17:00 PT`, notification 익월 15일 | https://vldb.org/2027/important-dates.html |
+| 7 | WWW 2026 | APPLY | venue `Dubai, UAE` → `Virtual`; 일정은 유지 | https://www2026.thewebconf.org/attending/registration-virtual.html |
+
+### Phase 2 실패 그룹 직접 보완
+
+| 학회 | 판정 | 확인 내용 | 공식 출처 |
+|------|------|-----------|-----------|
+| CONCUR 2026 | APPLY 보완 | abstract `2026-04-20`, paper `04-27`, notification `06-15`, conf `09-01~04`, AoE | https://confest-2026.github.io/concur/ |
+| CoNEXT 2026 | APPLY 보완 | seed의 December cycle 외 June cycle registration `05-29`, paper `06-05`, notification `09-11`, 24:00 AoE 누락 | https://conferences.sigcomm.org/co-next/2026/ |
+| CoNLL 2026 | OK | paper/notification 및 `2026-07-03~04` 일정 유지; 종료 후 공식 award session도 게시됨 | https://www.conll.org/ |
+| CoRL 2026 | APPLY 수정 | wall-clock abstract `2026-05-25`, paper `05-28`; 현재 seed는 UTC 환산값으로 날짜/시간이 틀림 | https://2026.corl.org/contributions/instruction-for-authors |
+| CRYPTO 2026 | APPLY 수정 | paper `2026-02-12 23:59 AoE`; timezone `PST` → `AoE` | https://crypto.iacr.org/2026/ |
+
+### 추가 보완 후보
+
+아래 항목은 1차 공식 소스 조사에서 확인됐지만, 이번 독립 재검증은 신규 연도와 큰 날짜 변경을 우선해 notification/venue 보완까지 전부 반복 검증하지는 않았다.
+
+| Phase | 보완 후보 |
+|------:|-----------|
+| 1 | 3DV, AACL, ACSAC, ASE, ASIACCS, ASIACRYPT, ASSETS, AVSS, BIBM, CASE, CASES, CC, CGO, CHI, CIKM, CLOUD |
+| 2 | CLUSTER, CODES-ISSS, CSEET, DATE, DISC, EACL, ECAI, ECML-PKDD, EGSR, EMSOFT |
+| 3 | ESA, ESOP, EuroSys, FG 2026, FSE, GECCO, HiPC, HPCA, HPDC, HRI, I3D, ICALP, ICCAD, ICCD, ICDCS, ICFP |
+| 4 | ICPP, ICRA, ICS, ICSOC, ICST, ICWS, IEEE VIS, IEEE VR, IISWC, IJCAR, IMC, INTERACT, ISRR, ISWC, ISMAR, ISPASS |
+| 5~6 | LCTES, MASCOTS, MASS, MDM, Middleware, NDSS, NOSSDAV, OOPSLA, OSDI, PETS, PG, PPoPP, RE, RECOMB, RTSS, SAC, SANER, SEC |
+| 7 | SIGGRAPH, SIGGRAPH Asia, SOUPS, IEEE S&P, SRDS, STACS, STOC, TACAS, TCC, UAI, VRST, WSDM |
+
+### 보류/충돌
+
+| 학회 | 사유 |
+|------|------|
+| COLING 2027 | `2026-10-12`는 ARR cycle이지만 COLING이 공식 연결하지 않아 paper deadline으로 확정하지 않음 |
+| AAMAS/ACL/CVPR/ICCV/LICS 2027 | 개최 정보만 있고 메인 CFP deadline 미발표 |
+| DASFAA/NOMS/PERFORMANCE/SGP | 공식 페이지 또는 1차/재검증 결과 사이 날짜·시간대 충돌 |
+| WACV 2026/2027 | 공식 CFP, reviewer guide, live dates 사이 notification 날짜 충돌 |
+| UbiComp | IMWUT rolling cycle 범위와 seed 정책 미확정 |
+| UIST | conditional decision과 final acceptance 중 `notification_date` 의미 결정 필요 |
+| MASCOTS | paper deadline `2026-06-05`와 기존 재검증 `2026-05-17` 충돌 |
+| SCA/SDM | notification 또는 award 공개 의미가 불명확 |
+
+### 저장 정책 메모
+
+- Eurographics 2027 `notification_date`는 최초 accept/reject 결정일인 `2026-12-18`을 저장하고, 최종 수정 승인일 `2027-02-09`는 단일 필드에 중복 저장하지 않음.
+- CoNEXT 2026 June cycle의 공식 `24:00 AoE`는 분 단위 UI에서 같은 날 마감으로 표시하기 위해 `23:59 AoE`로 정규화함.
+
+*2026-07-25 seed 반영 전 날짜·cycle·중복 검사를 완료했으며, 보류/충돌 항목은 제외함.*
+
+---
+
 ## 2026-07-20 전수 재검증 및 반영
 
 - 범위: 209개 학회, Phase 1~7 전수 확인

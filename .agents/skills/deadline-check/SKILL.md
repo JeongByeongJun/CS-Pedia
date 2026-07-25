@@ -88,7 +88,10 @@ Codex 환경에서 `run_in_background`가 없고 `multi_agent_v1` 도구가 노�
 
 조사 소스: 제공된 CFP URL → 공식 웹사이트 → wikicfp, conf.researchr 등
 
-중요: ATC는 2025년에 영구 폐지됨.
+중요: ATC는 2026년부터 USENIX가 아닌 ACM SIGOPS 주관의
+`ACM SIGOPS Annual Technical Conference`로 전환됐다. 공식 CFP는 이전과 같은
+커뮤니티와 범위라고 명시한다. `atc`를 조사할 때는 폐지 처리하지 말고 연도별 주최
+단체와 공식 CFP를 확인한다.
 
 **중요: 마감 시간과 timezone도 반드시 확인해줘.**
 - 대부분 학회는 AoE (Anywhere on Earth) = UTC-12
