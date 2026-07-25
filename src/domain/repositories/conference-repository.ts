@@ -9,6 +9,7 @@ export interface ConferenceFilters {
 
 export interface ConferenceWithRelations extends Conference {
   nextDeadline: Date | null;
+  deadlineYear: number | null;
   daysUntilDeadline: number | null;
   deadlineTimezone: string;
   abstractDeadline: Date | null;

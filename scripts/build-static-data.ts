@@ -116,6 +116,7 @@ async function main() {
       dblpKey: c.dblp_key,
       websiteUrl: c.website_url,
       nextDeadline: paperDeadline,
+      deadlineYear: dl?.year ?? null,
       daysUntilDeadline: daysUntil,
       deadlineTimezone: dl?.timezone ?? "AoE",
       venue: dl?.venue ?? null,
@@ -159,7 +160,7 @@ async function main() {
   }
 
   // Keyword trends from Supabase (if available)
-  let keywordsByConfId = new Map<string, Array<Record<string, unknown>>>();
+  const keywordsByConfId = new Map<string, Array<Record<string, unknown>>>();
   if (supabaseUrl && serviceRoleKey) {
     const supabase = createClient(supabaseUrl, serviceRoleKey);
     // Fetch all keyword trends (paginated, Supabase default limit is 1000)
@@ -182,7 +183,7 @@ async function main() {
   }
 
   // Also fetch acceptance rates from Supabase (pipeline adds more than seed)
-  let dbRatesByConfId = new Map<string, Array<Record<string, unknown>>>();
+  const dbRatesByConfId = new Map<string, Array<Record<string, unknown>>>();
   if (supabaseUrl && serviceRoleKey) {
     const supabase = createClient(supabaseUrl, serviceRoleKey);
     const { data: arData } = await supabase.from("acceptance_rates").select("conference_id, year, accepted, submitted, rate, notes").limit(10000);
@@ -276,6 +277,7 @@ async function main() {
       descriptionEn,
       descriptionKo,
       nextDeadline: dl?.paper_deadline ?? null,
+      deadlineYear: dl?.year ?? null,
       daysUntilDeadline: dl?.paper_deadline ? Math.floor((new Date(dl.paper_deadline).getTime() - now.getTime()) / (1000 * 60 * 60 * 24)) : null,
       deadlineTimezone: dl?.timezone ?? "AoE",
       venue: dl?.venue ?? null,

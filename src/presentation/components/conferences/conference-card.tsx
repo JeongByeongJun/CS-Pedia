@@ -36,6 +36,7 @@ export function ConferenceCard({
   }, [conference.nextDeadline, conference.deadlineTimezone, conference.daysUntilDeadline]);
 
   const editionYear =
+    conference.deadlineYear ??
     conference.conferenceStart?.getFullYear() ??
     conference.nextDeadline?.getFullYear() ??
     null;

@@ -98,6 +98,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
         return {
           ...toDomainConference(row),
           nextDeadline: parseOptionalDate(row.next_deadline),
+          deadlineYear: row.deadline_year,
           daysUntilDeadline: row.days_until_deadline,
           deadlineTimezone: tzByConf.get(row.id ?? "") ?? "AoE",
           abstractDeadline: parseOptionalDate(abstractByConf.get(row.id ?? "") ?? null),
@@ -150,6 +151,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
     return {
       ...toDomainConference(row),
       nextDeadline: parseOptionalDate(row.next_deadline),
+      deadlineYear: row.deadline_year,
       daysUntilDeadline: row.days_until_deadline,
       deadlineTimezone: tz,
       abstractDeadline: parseOptionalDate(dlRow?.abstract_deadline ?? null),

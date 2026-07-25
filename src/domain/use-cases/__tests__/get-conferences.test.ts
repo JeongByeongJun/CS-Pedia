@@ -1,7 +1,6 @@
 import { describe, it, expect } from "vitest";
 import {
   createGetConferencesUseCase,
-  type SortMode,
 } from "../get-conferences";
 import type {
   ConferenceRepository,
@@ -23,6 +22,7 @@ function makeConference(
     websiteUrl: "https://test.conf",
     description: null,
     nextDeadline: null,
+    deadlineYear: null,
     daysUntilDeadline: null,
     deadlineTimezone: "AoE",
     abstractDeadline: null,

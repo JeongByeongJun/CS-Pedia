@@ -12,6 +12,7 @@ interface StaticConference {
   dblpKey: string;
   websiteUrl: string;
   nextDeadline: string | null;
+  deadlineYear: number | null;
   daysUntilDeadline: number | null;
   deadlineTimezone: string;
   abstractDeadline: string | null;
@@ -68,6 +69,7 @@ export function createGetConferencesFromStatic() {
       websiteUrl: c.websiteUrl,
       description: null,
       nextDeadline: toDate(c.nextDeadline),
+      deadlineYear: c.deadlineYear,
       daysUntilDeadline: recalcDaysUntil(c.nextDeadline, c.deadlineTimezone),
       deadlineTimezone: c.deadlineTimezone,
       abstractDeadline: toDate(c.abstractDeadline),

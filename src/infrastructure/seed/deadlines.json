@@ -1878,13 +1878,13 @@
     "year": 2027,
     "cycle": "main",
     "abstract_deadline": null,
-    "paper_deadline": "2026-08-04T11:59:00Z",
-    "notification_date": null,
-    "conference_start": null,
-    "conference_end": null,
+    "paper_deadline": "2026-08-03T23:59:00Z",
+    "notification_date": "2026-10-26T00:00:00Z",
+    "conference_start": "2027-03-20",
+    "conference_end": "2027-03-24",
     "venue": "Salt Lake City, UT, USA",
     "timezone": "AoE",
-    "updated_at": "2026-06-25"
+    "updated_at": "2026-07-25"
   },
   {
     "conference_slug": "raid",

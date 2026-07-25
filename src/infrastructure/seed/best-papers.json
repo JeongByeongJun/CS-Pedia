@@ -23292,11 +23292,33 @@
     "tags": []
   },
   {
+    "conference_slug": "kr",
+    "year": 2026,
+    "paper_title": "Logic of Hypotheses: from Zero to Full Knowledge in Neurosymbolic Integration",
+    "authors": "Davide Bizzaro; Alessandro Daniele",
+    "award_type": "best_student_paper",
+    "paper_url": "https://proceedings.kr.org/2026/81/",
+    "tags": [
+      "Marco Cadoli Award"
+    ]
+  },
+  {
+    "conference_slug": "kr",
+    "year": 2026,
+    "paper_title": "Splitting Argumentation Frameworks with Collective Attacks and Supports",
+    "authors": "Matti Berthold; Lydia Blümel; Giovanni Buraglio; Anna Rapberger",
+    "award_type": "best_student_paper_runner_up",
+    "paper_url": "https://proceedings.kr.org/2026/16/",
+    "tags": [
+      "Marco Cadoli Award"
+    ]
+  },
+  {
     "conference_slug": "cogsci",
     "year": 2026,
     "paper_title": "Neuro-Composer: Bridging Intention and Articulation via Dual-Stream Predictive Coding and Metacognitive Feedback",
     "authors": "Liying Zhang; Qi Zhu; Peiliang Gong; Chuhang Zheng; Kun Wang; Daoqiang Zhang",
-    "award_type": "best_paper",
+    "award_type": "computational_modeling_prize",
     "paper_url": "https://escholarship.org/uc/item/3gv1w1kc",
     "tags": [
       "Computational Modeling Prize",
@@ -23308,7 +23330,7 @@
     "year": 2026,
     "paper_title": "A rational cascade from teaching explains strategy discovery in development: The case of early addition",
     "authors": "Merrick Giles; Andrew Perfors; Francis Mollica",
-    "award_type": "best_paper",
+    "award_type": "computational_modeling_prize",
     "paper_url": "https://doi.org/10.31234/osf.io/snzm9_v1",
     "tags": [
       "Computational Modeling Prize",
@@ -23320,11 +23342,24 @@
     "year": 2026,
     "paper_title": "On convexity and efficiency in semantic systems",
     "authors": "Nathaniel Imel; Noga Zaslavsky",
-    "award_type": "best_paper",
+    "award_type": "computational_modeling_prize",
     "paper_url": "https://arxiv.org/abs/2602.08238",
     "tags": [
       "Computational Modeling Prize",
       "Language"
+    ]
+  },
+  {
+    "conference_slug": "cogsci",
+    "year": 2026,
+    "paper_title": "Developmental Analysis of Drawing Sequences: How Young Children and Adults Organize Object Parts in Line Drawing",
+    "authors": "Zijian Tian; Takeshi Kishiyama; Tzu-Yin Chen; Yuki Hirose; Michiru Makuuchi",
+    "award_type": "computational_modeling_prize",
+    "paper_url": "https://fliphtml5.com/ebtyf/CogSci-2026-program/66/",
+    "tags": [
+      "Computational Modeling Prize",
+      "Perception & Action",
+      "Official Program"
     ]
   },
   {

@@ -52,12 +52,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   } catch { /* ignore */ }
   const acronym = (detail?.acronym as string) ?? slug.toUpperCase();
   const nameEn = (detail?.nameEn as string) ?? "";
-  // Use actual conference year from data, not current year
+  // Prefer the edition year attached to the selected deadline.
+  const deadlineYear = detail?.deadlineYear as number | null;
   const confStart = detail?.conferenceStart as string | null;
   const paperDl = detail?.nextDeadline as string | null;
-  const year = confStart ? new Date(confStart).getFullYear()
+  const year = deadlineYear
+    ?? (confStart ? new Date(confStart).getFullYear()
     : paperDl ? new Date(paperDl).getFullYear()
-    : new Date().getFullYear();
+    : new Date().getFullYear());
   const venue = detail?.venue as string | null;
   const descEn = detail?.descriptionEn as string | null;
   const timezone = (detail?.deadlineTimezone as string | null) ?? "AoE";

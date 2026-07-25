@@ -17,8 +17,10 @@ const AWARD_COLORS: Record<string, string> = {
   best_paper: "#f59e0b",
   best_paper_runner_up: "#a78bfa",
   best_student_paper: "#34d399",
+  best_student_paper_runner_up: "#6ee7b7",
   best_paper_early_career: "#2dd4bf",
   best_paper_applied_ds: "#38bdf8",
+  computational_modeling_prize: "#22c55e",
   distinguished_paper: "#6366f1",
   outstanding_paper: "#60a5fa",
   honorable_mention: "#f472b6",
@@ -27,6 +29,7 @@ const AWARD_COLORS: Record<string, string> = {
 
 export function BestPaperList({ papers }: BestPaperListProps) {
   const { isKorean } = useLocale();
+  const [visibleYears, setVisibleYears] = useState(INITIAL_YEARS);
 
   if (papers.length === 0) {
     return (
@@ -70,7 +73,6 @@ export function BestPaperList({ papers }: BestPaperListProps) {
     .map(Number)
     .sort((a, b) => b - a);
 
-  const [visibleYears, setVisibleYears] = useState(INITIAL_YEARS);
   const displayedYears = sortedYears.slice(0, visibleYears);
   const hasMoreYears = visibleYears < sortedYears.length;
 

@@ -10,6 +10,13 @@
 - seed 상태: 독립 재검증을 통과한 52개 레코드를 `deadlines.json`에 반영함
 - 독립 재검증: 신규 연도, cycle 누락, 날짜 변경처럼 영향이 큰 24개 항목을 별도 frontier 모델로 재확인
 - Phase 2 최초 실패 그룹도 직접 재확인: CONCUR, CoNEXT, CoNLL, CoRL, CRYPTO
+- 표시 교차 검증: PPoPP 2027 공식 CFP 기준 paper `2026-08-03 23:59 AoE`,
+  notification `2026-10-26`, conf `2027-03-20~24`로 정정. 카드의 연도는
+  paper deadline의 달력 연도가 아니라 deadline 레코드의 학회 연도를 사용함.
+- 2026 Best Paper 시점 정밀검증: 47개 학회 211건을 개최 일정과 대조했으며
+  미개최 학회의 미래 수상작으로 잘못 등록된 사례는 0건. PPoPP 수상작은 공식
+  프로그램에서 확인됨. 추가로 CogSci 3건의 수상 유형을 분야별
+  `Computational Modeling Prize`로 정정하고 누락 1건, KR 공식 수상 2건을 보완함.
 
 ### 독립 재검증 완료: seed 반영 후보
 
