@@ -57,12 +57,12 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
     if (error) throw error;
 
     // Map conference_id → timezone + abstract/notification (from the nearest deadline)
-    const tzByConf = new Map<string, string>();
+    const tzByConf = new Map<string, string | null>();
     const abstractByConf = new Map<string, string | null>();
     const notifByConf = new Map<string, string | null>();
-    for (const d of (deadlineTzData ?? []) as Array<{ conference_id: string; timezone: string; paper_deadline: string; abstract_deadline: string | null; notification_date: string | null }>) {
+    for (const d of (deadlineTzData ?? []) as Array<{ conference_id: string; timezone: string | null; paper_deadline: string; abstract_deadline: string | null; notification_date: string | null }>) {
       if (!tzByConf.has(d.conference_id)) {
-        tzByConf.set(d.conference_id, d.timezone ?? "AoE");
+        tzByConf.set(d.conference_id, d.timezone);
         abstractByConf.set(d.conference_id, d.abstract_deadline);
         notifByConf.set(d.conference_id, d.notification_date);
       }
@@ -100,7 +100,7 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
           nextDeadline: parseOptionalDate(row.next_deadline),
           deadlineYear: row.deadline_year,
           daysUntilDeadline: row.days_until_deadline,
-          deadlineTimezone: tzByConf.get(row.id ?? "") ?? "AoE",
+          deadlineTimezone: tzByConf.get(row.id ?? "") ?? null,
           abstractDeadline: parseOptionalDate(abstractByConf.get(row.id ?? "") ?? null),
           notificationDate: parseOptionalDate(notifByConf.get(row.id ?? "") ?? null),
           venue: row.next_venue,
@@ -145,8 +145,8 @@ export class SupabaseConferenceRepository implements ConferenceRepository {
         .limit(1),
     ]);
 
-    const dlRow = ((tzData ?? []) as Array<{ timezone: string; abstract_deadline: string | null; notification_date: string | null }>)[0];
-    const tz = dlRow?.timezone ?? "AoE";
+    const dlRow = ((tzData ?? []) as Array<{ timezone: string | null; abstract_deadline: string | null; notification_date: string | null }>)[0];
+    const tz = dlRow?.timezone ?? null;
 
     return {
       ...toDomainConference(row),

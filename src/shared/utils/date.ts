@@ -24,6 +24,7 @@ export function parseOptionalDate(value: string | null): Date | null {
 // Timezone abbreviation → UTC offset in hours
 const TZ_OFFSETS: Record<string, number> = {
   "AoE": -12,
+  "UTC-12": -12,
   "UTC-11": -11,
   "HST": -10,
   "PST": -8,
@@ -46,13 +47,17 @@ const TZ_OFFSETS: Record<string, number> = {
   "AEST": 10,  // Australian Eastern Standard Time
 };
 
+export function isKnownDeadlineTimezone(timezone: string | null): timezone is string {
+  return timezone !== null && timezone in TZ_OFFSETS;
+}
+
 /**
  * DB의 deadline (timezone의 로컬 시간으로 저장됨)을 실제 UTC Date로 변환.
  * 예: "2026-03-16T23:59:00Z" + timezone="AoE"(UTC-12) → UTC 2026-03-17T11:59:00Z
  */
-export function deadlineToUTC(deadline: Date | string, timezone: string): Date {
+export function deadlineToUTC(deadline: Date | string, timezone: string | null): Date {
   const d = typeof deadline === "string" ? new Date(deadline) : new Date(deadline.getTime());
-  const offset = TZ_OFFSETS[timezone] ?? -12; // default AoE
+  const offset = isKnownDeadlineTimezone(timezone) ? TZ_OFFSETS[timezone] : 0;
   // DB stores local time as if UTC → subtract offset to get real UTC
   return new Date(d.getTime() - offset * 60 * 60 * 1000);
 }

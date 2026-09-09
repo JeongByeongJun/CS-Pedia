@@ -8,7 +8,7 @@ import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { FieldBadge } from "@/presentation/components/conferences/field-badge";
 import { DeadlineBadge } from "@/presentation/components/conferences/deadline-badge";
 import { BookmarkButton } from "@/presentation/components/conferences/bookmark-button";
-import { formatDate } from "@/shared/utils/date";
+import { deadlineToUTC, formatDate, isKnownDeadlineTimezone } from "@/shared/utils/date";
 
 const AcceptanceRateChart = dynamic(
   () => import("@/presentation/components/charts/acceptance-rate-chart").then((m) => m.AcceptanceRateChart),
@@ -62,13 +62,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     : new Date().getFullYear());
   const venue = detail?.venue as string | null;
   const descEn = detail?.descriptionEn as string | null;
-  const timezone = (detail?.deadlineTimezone as string | null) ?? "AoE";
+  const rawTimezone = detail?.deadlineTimezone as string | null;
+  const timezone = isKnownDeadlineTimezone(rawTimezone) ? rawTimezone : null;
   const deadlineText = paperDl ? new Date(paperDl).toISOString().slice(0, 10) : null;
   const city = venue ? venue.split(",")[0].trim() : null;
   const title = `${acronym} ${year} Deadline, CFP, Acceptance Rate & Ranking`;
 
   const venueStr = venue ? ` in ${venue}` : "";
-  const description = descEn ?? `${acronym} ${year} (${nameEn})${venueStr}. ${deadlineText ? `Paper deadline: ${deadlineText} ${timezone}. ` : ""}Check CFP details, acceptance rate history, Best Paper awards, and BK21/CORE/CCF rankings on CS-Pedia.`;
+  const description = descEn ?? `${acronym} ${year} (${nameEn})${venueStr}. ${deadlineText ? `Paper deadline: ${deadlineText}${timezone ? ` ${timezone}` : ""}. ` : ""}Check CFP details, acceptance rate history, Best Paper awards, and BK21/CORE/CCF rankings on CS-Pedia.`;
 
   return {
     title,
@@ -125,15 +126,14 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
     daysUntilDeadline: (() => {
       if (!detail.nextDeadline) return null;
       const d = new Date(detail.nextDeadline as string);
-      const TZ: Record<string, number> = { AoE: -12, HST: -10, PST: -8, PT: -8, PDT: -7, EST: -5, EDT: -4, UTC: 0, GMT: 0, CET: 1 };
-      const offset = TZ[(detail.deadlineTimezone as string) ?? "AoE"] ?? -12;
-      const utc = new Date(d.getTime() - offset * 60 * 60 * 1000);
+      const timezone = detail.deadlineTimezone as string | null;
+      const utc = deadlineToUTC(d, timezone);
       const deadlineDate = new Date(utc.getFullYear(), utc.getMonth(), utc.getDate());
       const now = new Date();
       const todayDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
       return Math.round((deadlineDate.getTime() - todayDate.getTime()) / (1000 * 60 * 60 * 24));
     })(),
-    deadlineTimezone: detail.deadlineTimezone as string,
+    deadlineTimezone: detail.deadlineTimezone as string | null,
     venue: detail.venue as string | null,
     conferenceStart: detail.conferenceStart ? new Date(detail.conferenceStart as string) : null,
     conferenceEnd: detail.conferenceEnd ? new Date(detail.conferenceEnd as string) : null,
@@ -147,7 +147,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
     conferenceStart: d.conferenceStart ? new Date(d.conferenceStart as string) : null,
     conferenceEnd: d.conferenceEnd ? new Date(d.conferenceEnd as string) : null,
     venue: d.venue as string | null,
-    timezone: d.timezone as string,
+    timezone: d.timezone as string | null,
   }));
   const bestPapers = (detail.bestPapers as Array<Record<string, unknown>> ?? []).map((bp) => ({
     year: bp.year as number,

@@ -9,7 +9,7 @@ interface DeadlineBadgeProps {
   ddays: number | null;
   /** 실시간 재계산용 (optional) — 전달하면 ddays 대신 클라이언트 시간 기준으로 계산 */
   deadline?: Date | string | null;
-  timezone?: string;
+  timezone?: string | null;
 }
 
 export function DeadlineBadge({ ddays, deadline, timezone }: DeadlineBadgeProps) {
@@ -17,7 +17,7 @@ export function DeadlineBadge({ ddays, deadline, timezone }: DeadlineBadgeProps)
 
   const resolvedDdays = useMemo(() => {
     if (deadline) {
-      const utc = deadlineToUTC(deadline, timezone ?? "AoE");
+      const utc = deadlineToUTC(deadline, timezone ?? null);
       // 날짜(일) 단위로만 비교 — 시간 무시
       const deadlineDate = new Date(utc.getFullYear(), utc.getMonth(), utc.getDate());
       const now = new Date();

@@ -25,7 +25,7 @@ interface Deadline {
   conference_start: string;
   conference_end: string;
   venue: string;
-  timezone: string;
+  timezone: string | null;
 }
 
 async function main() {
@@ -118,7 +118,7 @@ async function main() {
       nextDeadline: paperDeadline,
       deadlineYear: dl?.year ?? null,
       daysUntilDeadline: daysUntil,
-      deadlineTimezone: dl?.timezone ?? "AoE",
+      deadlineTimezone: dl?.timezone ?? null,
       venue: dl?.venue ?? null,
       abstractDeadline: dl?.abstract_deadline ?? null,
       notificationDate: dl?.notification_date ?? null,
@@ -279,7 +279,7 @@ async function main() {
       nextDeadline: dl?.paper_deadline ?? null,
       deadlineYear: dl?.year ?? null,
       daysUntilDeadline: dl?.paper_deadline ? Math.floor((new Date(dl.paper_deadline).getTime() - now.getTime()) / (1000 * 60 * 60 * 24)) : null,
-      deadlineTimezone: dl?.timezone ?? "AoE",
+      deadlineTimezone: dl?.timezone ?? null,
       venue: dl?.venue ?? null,
       conferenceStart: dl?.conference_start ?? null,
       conferenceEnd: dl?.conference_end ?? null,

@@ -8,8 +8,8 @@ import { InstitutionBadges } from "./institution-badges";
 import { BestPaperAccordion } from "./best-paper-accordion";
 import { DeadlineTimeline } from "./deadline-timeline";
 import { BookmarkButton } from "./bookmark-button";
-import { useState, useEffect, useMemo } from "react";
-import { formatDate, formatDeadlineLocal, deadlineToUTC } from "@/shared/utils/date";
+import { useMemo, useSyncExternalStore } from "react";
+import { deadlineToUTC, formatDate, formatDeadlineLocal, isKnownDeadlineTimezone } from "@/shared/utils/date";
 import { conferenceUrl } from "@/shared/utils/url";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
@@ -28,7 +28,7 @@ export function ConferenceCard({
   // 클라이언트 실시간 D-day 재계산 (ISR 캐시와 무관하게 정확한 값)
   const ddays = useMemo(() => {
     if (!conference.nextDeadline) return conference.daysUntilDeadline;
-    const utc = deadlineToUTC(conference.nextDeadline, conference.deadlineTimezone ?? "AoE");
+    const utc = deadlineToUTC(conference.nextDeadline, conference.deadlineTimezone);
     const deadlineDate = new Date(utc.getFullYear(), utc.getMonth(), utc.getDate());
     const now = new Date();
     const todayDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
@@ -133,12 +133,19 @@ export function ConferenceCard({
   );
 }
 
-function DeadlineTime({ deadline, timezone }: { deadline: Date; timezone: string }) {
-  const [local, setLocal] = useState<{ dateTime: string; tzAbbr: string } | null>(null);
+function DeadlineTime({ deadline, timezone }: { deadline: Date; timezone: string | null }) {
+  const { isKorean } = useLocale();
+  const isHydrated = useSyncExternalStore(subscribeToHydration, () => true, () => false);
+  const hasKnownTimezone = isKnownDeadlineTimezone(timezone);
+  const local = isHydrated && hasKnownTimezone ? formatDeadlineLocal(deadline, timezone) : null;
 
-  useEffect(() => {
-    setLocal(formatDeadlineLocal(deadline, timezone));
-  }, [deadline, timezone]);
+  if (!hasKnownTimezone) {
+    return (
+      <span className="whitespace-nowrap">
+        ⏰ {formatDate(deadline)} ({isKorean ? "시간대 미공개" : "timezone TBA"})
+      </span>
+    );
+  }
 
   if (!local) {
     // SSR fallback: show date only
@@ -150,4 +157,8 @@ function DeadlineTime({ deadline, timezone }: { deadline: Date; timezone: string
       ⏰ {local.dateTime} <span className="font-bold">{local.tzAbbr}</span>
     </span>
   );
+}
+
+function subscribeToHydration() {
+  return () => {};
 }

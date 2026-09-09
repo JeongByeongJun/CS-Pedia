@@ -122,7 +122,7 @@ export function ConferenceClientSection({
 
     const liveDdays = (c: ConferenceWithRelations) => {
       if (!c.nextDeadline) return Infinity;
-      const utc = deadlineToUTC(c.nextDeadline, c.deadlineTimezone ?? "AoE");
+      const utc = deadlineToUTC(c.nextDeadline, c.deadlineTimezone);
       const deadlineDate = new Date(utc.getFullYear(), utc.getMonth(), utc.getDate());
       const now = new Date();
       const todayDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
@@ -179,7 +179,7 @@ export function ConferenceClientSection({
             : `${filtered.length} conferences`}
         </p>
         <p className="text-xs text-zinc-400">
-          {isKorean ? "데이터 업데이트: 2026.07.25" : "Updated: 2026.07.25"}
+          {isKorean ? "데이터 업데이트: 2026.09.09" : "Updated: 2026.09.09"}
         </p>
       </div>
       <ConferenceList

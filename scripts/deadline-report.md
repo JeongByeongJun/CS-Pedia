@@ -3,6 +3,172 @@
 
 ---
 
+## 2026-09-09 Phase 1~7 전수 재조사
+
+- 범위: 등록 학회 209개 전부. Phase별 전담 sub-agent가 현재 max-year와 다음 유효 연도를 공식 사이트 우선으로 재검증함.
+- 기준선: 2026-07-25 전수 조사 결과. 아래에는 그 이후 새로 공개되었거나 seed 보완이 필요한 항목을 중심으로 기록함.
+- 적용 정책: 공식 원문으로 확정된 항목만 `deadlines.json`과 `conferences.json`에 반영함. 검색 결과 snippet만으로 확정하지 않았고, 공식 페이지 내부 충돌은 HOLD로 유지함.
+
+### 임박 마감 및 연장
+
+| 학회 | 마감 | 판정 | 공식 근거 |
+|------|------|------|-----------|
+| ASPLOS 2027 cycle2 | paper 2026-09-09 23:59 AoE | 유지, 연장 없음 | https://www.asplos-conference.org/asplos2027/cfp/ |
+| CGO 2027 round2 | paper 2026-09-10 23:59 AoE | 유지, 연장 없음 | https://2027.cgo.org/track/cgo-2027-papers |
+| CHI 2027 | paper 2026-09-10 23:59 AoE | 유지, 공식적으로 no extensions | https://chi2027.acm.org/authors/papers/ |
+| HRI 2027 | abstract 09-11, paper 09-18 AoE | 신규 CFP, 연장 없음 | https://humanrobotinteraction.org/2027/full-papers/ |
+| DATE 2027 | abstract 09-13, paper 09-20 AoE | 유지, strict/no extensions | https://www.date-conference.com/call-for-papers |
+| FAST 2027 fall | paper 2026-09-15 23:59 AoE | 유지, 연장 없음 | https://www.usenix.org/conference/fast27/call-for-papers |
+| ICRA 2027 | paper 2026-09-15 23:59 PST | 유지, 공식 FAQ상 연장 계획 없음 | https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/ |
+| EUROCRYPT 2027 | paper 2026-09-17 23:59 AoE | 유지, 연장 없음 | https://eurocrypt.iacr.org/2027/callforpapers.php |
+| NSDI 2027 fall | abstract 09-10, paper 09-17 23:59 EDT | 유지, 연장 없음 | https://www.usenix.org/conference/nsdi27/call-for-papers |
+| ICLR 2027 | abstract 09-18, paper 09-25 AoE | 신규 CFP, final/no exceptions | https://www.iclr.cc/Conferences/2027/CallForPapers |
+| SPAA 2027 cycle1 | abstract 09-18, paper 09-25 AoE | 유지, 연장 없음 | https://spaa.acm.org/spaa-2027-call-for-papers/ |
+| **FC 2027** | paper **09-17 → 09-24** AoE | **공식 연장**, notification 11-05 → 11-12 | https://ifca.ai/fc27/cfp.html |
+| **PerCom 2027** | abstract **09-04 → 09-11**, paper **09-11 → 09-18** AoE | **공식 연장**, notification 12-18 | https://percom.org/call-for-papers/ |
+
+### Phase 1 결과
+
+| 학회 | 판정 | 확인된 변경 |
+|------|------|-------------|
+| 3DV 2027 | FIX | abstract/paper 08-28 23:59 AoE, final notification 12-02. seed의 PDT/11:00Z 오류 |
+| AACL/ACML 2026 | 보완/FIX | AACL notification 09-07; ACML notification 09-15→09-22 |
+| AAMAS 2027 | ADD | abstract 10-01, paper 10-08 AoE, notification 12-21; 05-03~07 Hanoi |
+| AISTATS 2027 | ADD | abstract 09-29, paper 10-06 AoE; notification 2027-01-20 tentative |
+| CASE 2027 | ADD/TZ HOLD | paper 2027-03-01, clock/TZ 미발표; 08-23~27 Linz |
+| CCC/CCS 2027 | 일정만 | CCC 07-19~22 Seattle, CCS 10-11~15 Atlanta; CFP 미발표 |
+| CGO/CHI 2027 | 보완 | CGO conf/R1 notif, CHI notification 12-17. CGO R2 notif은 공식 내부 충돌 |
+| ATC 2026 | 정책 HOLD | main 11-16~18 vs workshop 포함 전체 11-15~18 |
+
+Phase 1 checked 30/30. 공식 근거: 3DV/AAMAS/AISTATS/CASE/CGO/CHI 각 공식 CFP. 그 외 다음 CFP 미발표 또는 기존값 유지.
+
+### Phase 2 결과
+
+| 학회 | 판정 | 확인된 변경 |
+|------|------|-------------|
+| COLING 2027 | ADD | paper 10-12 AoE, notification 2027-02-10; 05-09~14 Macau |
+| CVPR 2027 | ADD | abstract 11-10, paper 11-16 AoE, notification 02-25; 06-20~25 Seattle |
+| ECAI 2027 | ADD/TZ HOLD | paper 2027-04-14, final notification 07-15; 10-02~07 Athens |
+| EACL 2027 | 보완 | notification 2026-11-12 |
+| EGSR/ECRTS 2027 | 일정만 | EGSR 07-05~07 Lugano; ECRTS Prague. CFP 미발표 |
+| DAC 2027 | HOLD | paper 11-17, notification 03-08이나 CFP/TZ 미완성 |
+| DASFAA 2027 | 충돌/FIX 후보 | Research CFP paper 11-25 AoE, notification 01-25. stale page의 2027-06-06과 충돌 |
+| CoNEXT 2027 | HOLD | 공식 디렉터리만 생성, 내용 없음 |
+
+Phase 2 checked 30/30. 공식 CFP: COLING/CVPR/ECAI/EACL/DASFAA/DATE. CSF/DIS/DSN/ECOOP/EDBT는 기존값 일치. ECCV 다음 유효 연도는 2028.
+
+### Phase 3 결과
+
+| 학회 | 판정 | 확인된 변경 |
+|------|------|-------------|
+| FC 2027 | FIX/연장 | paper 09-24 AoE, notification 11-12 |
+| HRI 2027 | 기존 row 보완 | abstract 09-11, paper 09-18, notification 11-30 AoE; 03-08~12 Santa Clara |
+| ICAPS 2027 | 기존 row 보완 | abstract 12-07, paper 12-14, notification 02-26 UTC-12; Columbia, SC |
+| ICFP 2027 | ADD | paper 02-25 AoE, conditional notification 05-07/final 06-11; Nijmegen |
+| FG 2026 | FIX | r1 paper 2025-10-06; r2 abstract/paper 2026-01-25; conf 05-25~29 Kyoto |
+| ESOP/EuroSys/FSE/GECCO/HPCA/HPDC/ICCAD/ICCD/ICDCS | 보완 | 공식 notification 누락값 보완 후보 |
+| ICALP 2027 | HOLD | Track B 1차 09-15만 발표; TZ/notification 및 다른 track 미완성 |
+| FASE 2027 | 구조 변경 | FASE+iFM→iFS 통합. FASE 2027 row 추가 금지 |
+
+Phase 3 checked 30/30. 공식 CFP: FC/HRI/ICAPS/ICFP/FG. EUROCRYPT/FAST/EuroSys는 연장 없이 유지.
+
+### Phase 4 결과
+
+| 학회 | 판정 | 확인된 변경 |
+|------|------|-------------|
+| ICLR 2027 | ADD | abstract 09-18, paper 09-25 AoE, notification 12-16; 04-26~30 California |
+| ICSME 2027 | ADD | paper 03-05 AoE, final notification 05-28; 09-07~11 Toronto |
+| ISMB/ECCB 2027 | 기존 row 보완 | paper 01-14 AoE, final notification 03-30; 07-18~22 Copenhagen |
+| ICRA 2027 | 보완 | notification 01-31; deadline 연장 없음 |
+| ICLP/ICS/ICSOC 2026 | cycle 보완 | ICLP tc-rpr, ICS cycle1/2, ICSOC early/regular 분리 필요 |
+| ICPP/ICST/ICWS/IEEE VR/IISWC/IJCAR/IMC/INTERACT/IPDPS/ISMAR/ISPASS | 보완 | notification/cycle/timezone 및 IJCAR paper 02-13→02-15 보정 |
+| ICMR 2027 | URL-only HOLD | 공식 call 공개, main 일정은 미발표 |
+| ICIP 2027 | 충돌 HOLD | 공식 도메인 내부 행사일/타 학회 문구 혼재 |
+| IJCAI 2027 | 구조 HOLD | Kyoto/Hengqin 분할 개최만 발표, CFP 없음 |
+
+Phase 4 checked 30/30. 공식 CFP: ICLR/ICSME/ISMB/ICRA 및 각 current-year CFP.
+
+### Phase 5 결과
+
+| 학회 | 판정 | 확인된 변경 |
+|------|------|-------------|
+| ISSTA 2027 | ADD | abstract 01-08, paper 01-11 AoE, final notification 06-17; 09-07~10 Singapore |
+| MobileHCI 2027 | ADD/TZ HOLD | abstract 02-10, paper 02-17, final notification 06-17; 09-20~23 Limassol |
+| MASCOTS 2026 | FIX | paper 05-18→06-05 AoE, notification 08-07 |
+| NDSS 2027 | FIX | notifications 07-29/11-04; major-revision final 09-16/12-16 별도 |
+| Middleware 2026 | cycle 보완 | winter research cycle 추가; Industry 09-28 연장은 별도 track |
+| ISRR/ISSTA 2026/IUI/KR/LCTES/MASS/MDM/MSST | 보완 | notification, conference 범위, wall-clock 날짜 보정 후보 |
+| MICCAI 2027 | 충돌 HOLD | 공식 페이지끼리 시작일 09-26/09-27 충돌 |
+
+Phase 5 checked 30/30. 공식 CFP: ISSTA/MobileHCI/MASCOTS/NDSS/Middleware. 14일 내 신규 main paper 마감 없음.
+
+### Phase 6 결과
+
+| 학회 | 판정 | 확인된 변경 |
+|------|------|-------------|
+| PerCom 2027 | FIX/연장 | abstract 09-11, paper 09-18, notification 12-18 AoE |
+| OOPSLA 2027 | ADD | round1 paper 10-14, round2 04-07 AoE; initial notifications 12-18/07-02 |
+| PLDI 2027 | ADD | paper 11-12 AoE, initial notification 03-04; 06-05~11 Atlanta |
+| OSDI/SANER 2027 | 보완 | OSDI notification 03-16, SANER notification 12-01 |
+| NSDI 2028/RECOMB 2027/RSS 2027/RE 2027 | 일정만 | 차기 일정·장소만 발표, CFP 미발표 |
+| PERFORMANCE/SAC/RTSS/SCA/SDM | 충돌·정책 HOLD | submission system/CFP, wall-clock, notification 의미 충돌 |
+
+Phase 6 checked 30/30. 공식 CFP: PerCom/OOPSLA/PLDI/OSDI/SANER/NSDI.
+
+### Phase 7 결과
+
+| 학회 | 판정 | 확인된 변경 |
+|------|------|-------------|
+| SenSys 2027 round2 | ADD | abstract 10-29, paper 11-05, notification 01-28 AoE. 행사 날짜/venue는 공식 페이지 간 충돌로 HOLD |
+| WWW 2027 | ADD | abstract 10-18, paper 10-25 AoE, result 12-21/final notification 01-04; 05-10~14 Dublin |
+| SIGCOMM/SIGGRAPH/SIGGRAPH Asia/SIGIR/SoCG/SOUPS/STOC 2027 | 일정만 | 차기 개최 일정·장소 발표, main CFP 미발표 |
+| SGP 2026 | cycle 보완 | round1 신규, 기존 main→round2; notification 보완. clock/TZ는 HOLD |
+| S&P/SPAA/SRDS/TACAS/WACV/WSDM | 보완 | notification와 venue 누락값 보완 후보 |
+| SODA/TCC/UbiComp/UIST/VRST | 정책 HOLD | notification, rolling issue 범위 또는 conditional/final 의미 미확정 |
+
+Phase 7 checked 29/29. SIGMETRICS/SIGMOD/SoCC/SOSP/STACS/UAI/USENIX Security/VLDB는 기존 max-year 구조와 일치.
+
+### 신규 full CFP 추가/기존 row 보완 대상
+
+18개 학회, 19개 deadline row 작업: 신규 16개 row + 기존 conference-only row 3개(`hri`, `icaps`, `ismb`) 보완. OOPSLA는 2개 cycle이다.
+
+`aamas 2027`, `aistats 2027`, `case 2027`, `coling 2027`, `cvpr 2027`, `ecai 2027`, `hri 2027` 보완, `icaps 2027` 보완, `icfp 2027`, `iclr 2027`, `icsme 2027`, `ismb 2027` 보완, `issta 2027`, `mobilehci 2027`, `oopsla 2027` 2개 cycle, `pldi 2027`, `www 2027`, `sensys 2027 round2`.
+
+### `website_url` 갱신 후보
+
+| 학회 | 새 공식 URL |
+|------|-------------|
+| aamas | https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/ |
+| aistats | https://virtual.aistats.org/ |
+| case | https://2027.ieeecase.org/ |
+| coling | https://2027.coling-iccl.org/ |
+| cvpr | https://cvpr.thecvf.com/Conferences/2027/CallForPapers |
+| ecai | https://ecai2027.org/ |
+| dasfaa | https://dasfaa2027.github.io/CallforResearchTrack/list.htm |
+| egsr | https://egsr2027.usi.ch/ |
+| icaps | https://icaps27.icaps-conference.org/calls/cfp/ |
+| icfp | https://icfp27.sigplan.org/track/icfp-2027-icfp-papers |
+| iclr | https://www.iclr.cc/Conferences/2027/CallForPapers |
+| icra | https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/ |
+| icsme | https://conf.researchr.org/track/icsme-2027/icsme-2027-papers |
+| ismb | https://www.iscb.org/ismbeccb2027/key-dates |
+| issta | https://conf.researchr.org/track/issta-2027/issta-2027-research-papers |
+| mobilehci | https://mobilehci.acm.org/2027/ |
+| oopsla | https://2027.splashcon.org/track/splashoopsla2027 |
+| pldi | https://pldi27.sigplan.org/track/pldi-2027-papers |
+| www | https://www2027.thewebconf.org/important-dates/ |
+
+### Seed 반영 결과
+
+- `deadlines.json`: 344 → 368개(`+24` 순증). 신규 CFP 16개 row, 기존 conference-only CFP 3개 보완, 신규 cycle 5개, 일정-only 3개, cycle rename 4개, 기존 키 61개 보정.
+- 이번에 추가·수정한 89개 row의 `updated_at`을 `2026-09-09`로 통일.
+- `conferences.json`: 새 공식 CFP/일정 URL 19개 갱신.
+- FC 2027과 PerCom 2027의 공식 연장 포함. CASE/ECAI/MobileHCI처럼 clock/timezone 미공개인 값은 추정하지 않고 `timezone: null`로 보존.
+- CGO round2 notification, DAC/DASFAA deadline 충돌, SenSys 행사 장소·일정 등 HOLD 항목은 미반영.
+- 반영일: 2026-09-09. `public/data/**`는 기존 UUID·채택률·키워드 캐시를 보존해 재생성함. Supabase upsert는 설정된 프로젝트 도메인의 DNS `NXDOMAIN`으로 실행되지 않아 환경 URL 복구 후 재시도가 필요함.
+
+---
+
 ## 2026-07-25 Phase 1~7 전수 조사 및 독립 재검증
 
 - 범위: seed에 등록된 209개 학회, Phase 1~7

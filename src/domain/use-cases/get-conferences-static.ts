@@ -14,7 +14,7 @@ interface StaticConference {
   nextDeadline: string | null;
   deadlineYear: number | null;
   daysUntilDeadline: number | null;
-  deadlineTimezone: string;
+  deadlineTimezone: string | null;
   abstractDeadline: string | null;
   notificationDate: string | null;
   venue: string | null;
@@ -30,7 +30,7 @@ function toDate(v: string | null): Date | null {
   return isNaN(d.getTime()) ? null : d;
 }
 
-function recalcDaysUntil(deadline: string | null, timezone?: string): number | null {
+function recalcDaysUntil(deadline: string | null, timezone?: string | null): number | null {
   if (!deadline) return null;
   const d = new Date(deadline);
   if (isNaN(d.getTime())) return null;
@@ -39,7 +39,7 @@ function recalcDaysUntil(deadline: string | null, timezone?: string): number | n
     AoE: -12, HST: -10, PST: -8, PT: -8, PDT: -7, MST: -7, MDT: -6,
     CST: -6, CDT: -5, EST: -5, EDT: -4, UTC: 0, GMT: 0, CET: 1, CEST: 2,
   };
-  const offset = TZ_OFFSETS[timezone ?? "AoE"] ?? -12;
+  const offset = timezone ? (TZ_OFFSETS[timezone] ?? 0) : 0;
   const utcDeadline = new Date(d.getTime() - offset * 60 * 60 * 1000);
   return Math.ceil((utcDeadline.getTime() - Date.now()) / (1000 * 60 * 60 * 24));
 }

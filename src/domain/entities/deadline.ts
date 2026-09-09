@@ -12,7 +12,7 @@ export const DeadlineSchema = z.object({
   conferenceStart: z.date().nullable(),
   conferenceEnd: z.date().nullable(),
   venue: z.string().nullable(),
-  timezone: z.string(),
+  timezone: z.string().nullable(),
   notes: z.string().nullable(),
 });
 

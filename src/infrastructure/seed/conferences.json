@@ -27,7 +27,7 @@
     "field": "AI/ML",
     "sub_field": "Machine Learning",
     "dblp_key": "conf/iclr",
-    "website_url": "https://iclr.cc/Conferences/2026/CallForPapers"
+    "website_url": "https://www.iclr.cc/Conferences/2027/CallForPapers"
   },
   {
     "slug": "aaai",
@@ -67,7 +67,7 @@
     "field": "AI/ML",
     "sub_field": "Web Mining",
     "dblp_key": "conf/www",
-    "website_url": "https://www2026.thewebconf.org/calls.html"
+    "website_url": "https://www2027.thewebconf.org/important-dates/"
   },
   {
     "slug": "wsdm",
@@ -97,7 +97,7 @@
     "field": "AI/ML",
     "sub_field": "Machine Learning",
     "dblp_key": "conf/aistats",
-    "website_url": "https://virtual.aistats.org/Conferences/2026/CallForPapers"
+    "website_url": "https://virtual.aistats.org/"
   },
   {
     "slug": "uai",
@@ -137,7 +137,7 @@
     "field": "AI/ML",
     "sub_field": "Artificial Intelligence",
     "dblp_key": "conf/ecai",
-    "website_url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/"
+    "website_url": "https://ecai2027.org/"
   },
   {
     "slug": "aamas",
@@ -147,7 +147,7 @@
     "field": "AI/ML",
     "sub_field": "Multi-Agent Systems",
     "dblp_key": "conf/atal",
-    "website_url": "https://cyprusconferences.org/aamas2026/call-for-papers-main-track/"
+    "website_url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/"
   },
   {
     "slug": "icaps",
@@ -157,7 +157,7 @@
     "field": "AI/ML",
     "sub_field": "Planning",
     "dblp_key": "conf/aips",
-    "website_url": "https://icaps26.icaps-conference.org/calls/cfp/"
+    "website_url": "https://icaps27.icaps-conference.org/calls/cfp/"
   },
   {
     "slug": "acml",
@@ -267,7 +267,7 @@
     "field": "NLP",
     "sub_field": "Computational Linguistics",
     "dblp_key": "conf/coling",
-    "website_url": null
+    "website_url": "https://2027.coling-iccl.org/"
   },
   {
     "slug": "eacl",
@@ -317,7 +317,7 @@
     "field": "CV",
     "sub_field": "Computer Vision",
     "dblp_key": "conf/cvpr",
-    "website_url": "https://cvpr.thecvf.com/Conferences/2026/CallForPapers"
+    "website_url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
   },
   {
     "slug": "iccv",
@@ -557,7 +557,7 @@
     "field": "PL",
     "sub_field": "Programming Languages",
     "dblp_key": "conf/pldi",
-    "website_url": "https://pldi26.sigplan.org/track/pldi-2026-papers"
+    "website_url": "https://pldi27.sigplan.org/track/pldi-2027-papers"
   },
   {
     "slug": "popl",
@@ -577,7 +577,7 @@
     "field": "PL",
     "sub_field": "Programming Languages",
     "dblp_key": "conf/oopsla",
-    "website_url": "https://2026.splashcon.org/track/oopsla-2026"
+    "website_url": "https://2027.splashcon.org/track/splashoopsla2027"
   },
   {
     "slug": "ccs",
@@ -777,7 +777,7 @@
     "field": "DB",
     "sub_field": "Database",
     "dblp_key": "conf/dasfaa",
-    "website_url": "https://dasfaa2027.github.io/ImportantDates/list.htm"
+    "website_url": "https://dasfaa2027.github.io/CallforResearchTrack/list.htm"
   },
   {
     "slug": "mdm",
@@ -867,7 +867,7 @@
     "field": "HCI",
     "sub_field": "Mobile HCI",
     "dblp_key": "conf/mhci",
-    "website_url": "https://mobilehci.acm.org/2026/"
+    "website_url": "https://mobilehci.acm.org/2027/"
   },
   {
     "slug": "assets",
@@ -927,7 +927,7 @@
     "field": "SE",
     "sub_field": "Software Testing",
     "dblp_key": "conf/issta",
-    "website_url": "https://conf.researchr.org/home/issta-2026"
+    "website_url": "https://conf.researchr.org/track/issta-2027/issta-2027-research-papers"
   },
   {
     "slug": "msr",
@@ -947,7 +947,7 @@
     "field": "SE",
     "sub_field": "Software Maintenance",
     "dblp_key": "conf/icsm",
-    "website_url": "https://conf.researchr.org/home/icsme-2026"
+    "website_url": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers"
   },
   {
     "slug": "saner",
@@ -1367,7 +1367,7 @@
     "field": "Graphics",
     "sub_field": "Rendering",
     "dblp_key": "conf/rt",
-    "website_url": "https://egsr2026.inria.fr/"
+    "website_url": "https://egsr2027.usi.ch/"
   },
   {
     "slug": "icra",
@@ -1377,7 +1377,7 @@
     "field": "Robotics",
     "sub_field": "Robotics",
     "dblp_key": "conf/icra",
-    "website_url": "https://www.ieee-ras.org/event/2027-ieee-international-conference-on-robotics-and-automation-icra-64212/"
+    "website_url": "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/"
   },
   {
     "slug": "iros",
@@ -1427,7 +1427,7 @@
     "field": "Robotics",
     "sub_field": "Automation",
     "dblp_key": "conf/case",
-    "website_url": "https://2026.ieeecase.org/"
+    "website_url": "https://2027.ieeecase.org/"
   },
   {
     "slug": "isrr",
@@ -1497,7 +1497,7 @@
     "field": "PL",
     "sub_field": "Programming Languages",
     "dblp_key": "conf/icfp",
-    "website_url": "https://icfp26.sigplan.org/track/icfp-2026-icfp-papers"
+    "website_url": "https://icfp27.sigplan.org/track/icfp-2027-icfp-papers"
   },
   {
     "slug": "cav",
@@ -1917,7 +1917,7 @@
     "field": "AI/ML",
     "sub_field": "Computational Biology",
     "dblp_key": "conf/ismb",
-    "website_url": "https://transition.iscb.org/about-ismb"
+    "website_url": "https://www.iscb.org/ismbeccb2027/key-dates"
   },
   {
     "slug": "ispass",

@@ -91,7 +91,7 @@ export interface Database {
           conference_start: string | null;
           conference_end: string | null;
           venue: string | null;
-          timezone: string;
+          timezone: string | null;
           notes: string | null;
         };
         Insert: {
@@ -106,7 +106,7 @@ export interface Database {
           conference_start?: string | null;
           conference_end?: string | null;
           venue?: string | null;
-          timezone?: string;
+          timezone?: string | null;
           notes?: string | null;
         };
         Update: {
@@ -121,7 +121,7 @@ export interface Database {
           conference_start?: string | null;
           conference_end?: string | null;
           venue?: string | null;
-          timezone?: string;
+          timezone?: string | null;
           notes?: string | null;
         };
       };
