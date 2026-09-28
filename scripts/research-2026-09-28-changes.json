@@ -1,0 +1,3282 @@
+{
+  "summary": {
+    "asOf": "2026-09-28",
+    "deadlineRowsBefore": 368,
+    "deadlineRowsAfter": 403,
+    "newDeadlineRows": 35,
+    "changedDeadlineRows": 53,
+    "changedDeadlineConferences": 74,
+    "officialUrlChanges": 10,
+    "newAwards": 42,
+    "correctedAwards": 2,
+    "totalAwards": 2022,
+    "awardConferences": 8
+  },
+  "deadlineResearch": [
+    {
+      "date": "2026-09-28",
+      "phase": 1,
+      "attempted": 30,
+      "proposedChanges": [
+        {
+          "conference_slug": "aistats",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "conference_start": "2027-05-03",
+            "conference_end": "2027-05-06",
+            "venue": "Montreal, Canada"
+          },
+          "sources": [
+            "https://virtual.aistats.org/Conferences/2027/CallForPapers"
+          ],
+          "reason": "Official CFP now confirms venue and conference dates; abstract September 29 and paper October 6 remain 23:59 AoE."
+        },
+        {
+          "conference_slug": "acl",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-08-17",
+            "conference_end": "2027-08-22",
+            "venue": "Kyoto, Japan",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://2027.aclweb.org/"
+          ],
+          "reason": "New conference-only row. Official welcome confirms dates; all submission deadlines are TBA. No invented January day."
+        },
+        {
+          "conference_slug": "acsac",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-09-08T00:00:00Z"
+          },
+          "sources": [
+            "https://www.acsac.org/2026/submissions/papers/"
+          ],
+          "reason": "Missing acceptance notification September 8; existing May 26 23:59 AoE paper deadline confirmed."
+        },
+        {
+          "conference_slug": "asiaccs",
+          "year": 2027,
+          "cycle": "cycle1",
+          "changes": {
+            "notification_date": "2026-11-13T00:00:00Z"
+          },
+          "sources": [
+            "https://asiaccs2027.cityu.edu.mo/call-for-papers/index.html"
+          ],
+          "reason": "Explicit Author Notification, distinct from shepherded approval December 4."
+        },
+        {
+          "conference_slug": "asiaccs",
+          "year": 2027,
+          "cycle": "cycle2",
+          "changes": {
+            "notification_date": "2027-03-31T00:00:00Z"
+          },
+          "sources": [
+            "https://asiaccs2027.cityu.edu.mo/call-for-papers/index.html"
+          ],
+          "reason": "Explicit Author Notification, distinct from shepherded approval April 21."
+        },
+        {
+          "conference_slug": "asiacrypt",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-08-14T00:00:00Z"
+          },
+          "sources": [
+            "https://asiacrypt.iacr.org/2026/"
+          ],
+          "reason": "Explicit final notification August 14; May 21 23:59 AoE deadline confirmed."
+        },
+        {
+          "conference_slug": "assets",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-06-24T00:00:00Z"
+          },
+          "sources": [
+            "https://assets26.sigaccess.org/call_for_papers.html"
+          ],
+          "reason": "Technical-paper acceptance decisions June 24; April 22 23:59 AoE confirmed."
+        },
+        {
+          "conference_slug": "avss",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-06-05T00:00:00Z"
+          },
+          "sources": [
+            "https://www.avss2026.org/"
+          ],
+          "reason": "Existing main row corresponds to round 2 May 4; round 2 author notification explicitly June 5. Conference range and time zone not altered due incomplete/conflicting text."
+        },
+        {
+          "conference_slug": "cases",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-07-17T00:00:00Z"
+          },
+          "sources": [
+            "https://esweek.org/cases_cfp/"
+          ],
+          "reason": "Final notification July 17, after revised submission; first-round notification May 22 kept out of final field."
+        },
+        {
+          "conference_slug": "cikm",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-08-07T00:00:00Z"
+          },
+          "sources": [
+            "https://cikm2026.diag.uniroma1.it/"
+          ],
+          "reason": "Official home Important Dates confirms main/full paper notification August 7."
+        },
+        {
+          "conference_slug": "cloud",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-05-10T00:00:00Z"
+          },
+          "sources": [
+            "https://services.conferences.computer.org/2026/cloud/cloud-call-for-papers/"
+          ],
+          "reason": "Explicit acceptance notification May 10. Paper March 22 confirmed but exact clock/TZ not restated by this source."
+        }
+      ],
+      "urlChanges": [],
+      "holds": [
+        {
+          "conference_slug": "case",
+          "reason": "Current official URL failed web fetch and DNS in this environment; existing March 1 date/time not reverified. 2028 secondary listings only; no official CFP."
+        },
+        {
+          "conference_slug": "bibm",
+          "reason": "Official URL redirects to Stony Brook JavaScript-only shell; dates and time zone not reverified."
+        },
+        {
+          "conference_slug": "cc",
+          "reason": "2026 page confirms event dates; paper deadline not located in rendered CFP. CC 2027 Researchr URL inaccessible; secondary collocation calendar insufficient."
+        },
+        {
+          "conference_slug": "cgo",
+          "reason": "Official same page still conflicts: text round2 notification November 2 versus Important Dates November 9. Keep null."
+        },
+        {
+          "conference_slug": "avss",
+          "reason": "2027 site explicitly says dates come from proposal and await final confirmation; no clock/TZ. Do not import tentative March5/March12 or July15–17."
+        },
+        {
+          "conference_slug": "atc",
+          "reason": "CFP main event November16–18 versus home November15–18 including workshops. Keep existing main scope; exact submission clock/TZ not found in CFP."
+        },
+        {
+          "conference_slug": "cikm",
+          "reason": "2027 Sydney shown by official-series search snippet but direct page timed out; dates/CFP unverified, no new row."
+        },
+        {
+          "conference_slug": "chi",
+          "reason": "2028 South Africa/Cape Town announced by steering committee, no exact event dates or CFP; no row."
+        }
+      ],
+      "imminent": [
+        {
+          "conference_slug": "aistats",
+          "year": 2027,
+          "abstract": "2026-09-29 23:59 AoE",
+          "paper": "2026-10-06 23:59 AoE",
+          "extensionFound": false,
+          "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers"
+        },
+        {
+          "conference_slug": "aamas",
+          "year": 2027,
+          "abstract": "2026-10-01 23:59 AoE",
+          "paper": "2026-10-08 23:59 AoE",
+          "extensionFound": false,
+          "source": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-09-28",
+      "phase": 2,
+      "scope": "30 slugs; current max year and next valid edition; six sequential logical batches because shared slots limited",
+      "timestamp_convention": "Local wall-clock encoded with Z plus separate timezone retained.",
+      "changes": [
+        {
+          "conference_slug": "cluster",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-07-05T00:00:00Z"
+          },
+          "sources": [
+            "https://clustercomp.org/2026/papers/"
+          ],
+          "reason": "Official CFP gives July 5 acceptance notification; existing field null."
+        },
+        {
+          "conference_slug": "codes-isss",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-07-17T00:00:00Z"
+          },
+          "sources": [
+            "https://esweek.org/codes_isss_cfp/"
+          ],
+          "reason": "Official full-paper CFP gives July 17 notification."
+        },
+        {
+          "conference_slug": "conext",
+          "year": 2026,
+          "cycle": "december",
+          "changes": {
+            "notification_date": "2026-03-31T00:00:00Z"
+          },
+          "sources": [
+            "https://conferences.sigcomm.org/co-next/2026/partials/cfp.html"
+          ],
+          "reason": "Official CFP explicitly lists initial acceptance notification March 31; revision final June 22 is a different milestone."
+        },
+        {
+          "conference_slug": "crypto",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "timezone": "PST"
+          },
+          "sources": [
+            "https://crypto.iacr.org/2026/"
+          ],
+          "reason": "Official homepage specifies Feb 12 23:59 US Pacific time, not AoE. February is PST; keep wall-clock timestamp unchanged."
+        },
+        {
+          "conference_slug": "cseet",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-05-10T00:00:00Z"
+          },
+          "sources": [
+            "https://cseet26.techconf.org/"
+          ],
+          "reason": "Official research-track notification May 10."
+        },
+        {
+          "conference_slug": "csf",
+          "year": 2027,
+          "cycle": "summer",
+          "changes": {
+            "conference_start": "2027-09-13",
+            "conference_end": "2027-09-17"
+          },
+          "sources": [
+            "https://www.ieee-security.org/TC/CSF2027/cfp.html"
+          ],
+          "reason": "Official CFP now confirms Sept 13–17 Tokyo; all three cycle dates were null."
+        },
+        {
+          "conference_slug": "csf",
+          "year": 2027,
+          "cycle": "fall",
+          "changes": {
+            "conference_start": "2027-09-13",
+            "conference_end": "2027-09-17"
+          },
+          "sources": [
+            "https://www.ieee-security.org/TC/CSF2027/cfp.html"
+          ],
+          "reason": "Official CFP now confirms Sept 13–17 Tokyo; all three cycle dates were null."
+        },
+        {
+          "conference_slug": "csf",
+          "year": 2027,
+          "cycle": "winter",
+          "changes": {
+            "conference_start": "2027-09-13",
+            "conference_end": "2027-09-17"
+          },
+          "sources": [
+            "https://www.ieee-security.org/TC/CSF2027/cfp.html"
+          ],
+          "reason": "Official CFP now confirms Sept 13–17 Tokyo; all three cycle dates were null."
+        },
+        {
+          "conference_slug": "dac",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": "2026-11-11T17:00:00Z",
+            "paper_deadline": "2026-11-18T17:00:00Z",
+            "notification_date": "2027-03-08T00:00:00Z",
+            "conference_start": "2027-07-11",
+            "conference_end": "2027-07-14",
+            "venue": "San Jose, CA, USA",
+            "timezone": "PST"
+          },
+          "sources": [
+            "https://dac.com/2027/program/research-manuscript-submissions",
+            "https://dac.com/2027"
+          ],
+          "reason": "New official 2027 research CFP, both submission clocks explicitly 5 PM PST. March 8 is notification; February 22 is accepted manuscript IDs posting."
+        },
+        {
+          "conference_slug": "disc",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-08-05T00:00:00Z"
+          },
+          "sources": [
+            "https://www.disc-conference.org/wp/disc2026/call-for-papers/"
+          ],
+          "reason": "Official CFP gives Aug 5 notification."
+        },
+        {
+          "conference_slug": "ecml-pkdd",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-05-27T00:00:00Z"
+          },
+          "sources": [
+            "https://ecmlpkdd.org/2026/submissions-research-track/"
+          ],
+          "reason": "Official research-track key dates list May 27 author notification."
+        },
+        {
+          "conference_slug": "edbt",
+          "year": 2027,
+          "cycle": "cycle2",
+          "changes": {
+            "timezone": "PDT"
+          },
+          "sources": [
+            "https://edbticdt2027.github.io/contents/important_dates.html"
+          ],
+          "reason": "Official dates specify 5 PM PT (Pacific Time), not fixed PST. June 10 and October 7 2026 fall in daylight time; retain 17:00 wall-clock."
+        },
+        {
+          "conference_slug": "edbt",
+          "year": 2027,
+          "cycle": "cycle3",
+          "changes": {
+            "timezone": "PDT"
+          },
+          "sources": [
+            "https://edbticdt2027.github.io/contents/important_dates.html"
+          ],
+          "reason": "Official dates specify 5 PM PT (Pacific Time), not fixed PST. June 10 and October 7 2026 fall in daylight time; retain 17:00 wall-clock."
+        },
+        {
+          "conference_slug": "emsoft",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-07-17T00:00:00Z"
+          },
+          "sources": [
+            "https://esweek.org/emsoft_cfp/"
+          ],
+          "reason": "Official CFP gives July 17 notification."
+        },
+        {
+          "conference_slug": "cogsci",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-07-28",
+            "conference_end": "2027-07-31",
+            "venue": "Bilbao, Spain",
+            "timezone": null
+          },
+          "sources": [
+            "https://cognitivesciencesociety.org/cogsci-2027/"
+          ],
+          "reason": "Schedule-only official page: Bilbao July 28–31. CFP/deadlines not published; do not fabricate."
+        },
+        {
+          "conference_slug": "colt",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-06-28",
+            "conference_end": "2027-07-02",
+            "venue": "Tokyo, Japan",
+            "timezone": null
+          },
+          "sources": [
+            "https://learningtheory.org/colt2027/"
+          ],
+          "reason": "Official introduction confirms June 28–July 2 Tokyo; deadline table TBD. Schedule only."
+        },
+        {
+          "conference_slug": "ecml-pkdd",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-08-30",
+            "conference_end": "2027-09-03",
+            "venue": "Eindhoven, The Netherlands",
+            "timezone": null
+          },
+          "sources": [
+            "https://ecmlpkdd.org/2027/"
+          ],
+          "reason": "Official homepage confirms event dates and city; no CFP deadlines yet."
+        },
+        {
+          "conference_slug": "ecai",
+          "year": 2028,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2028-10-07",
+            "conference_end": "2028-10-12",
+            "venue": "Helsinki, Finland",
+            "timezone": null
+          },
+          "sources": [
+            "https://ecai2028.fi/",
+            "https://www.stes.fi/2024/10/28/finnish-a-i-society-will-organize-ecai28-in-helsinki-in-autumn-2028/"
+          ],
+          "reason": "Official edition site dates, corroborated host society; schedule only, no deadline."
+        }
+      ],
+      "urlChanges": [
+        {
+          "conference_slug": "dac",
+          "website_url": "https://dac.com/2027/program/research-manuscript-submissions",
+          "previous_url": "https://dac.com/2026",
+          "reason": "2026 paper deadline passed and full 2027 CFP is now published."
+        },
+        {
+          "conference_slug": "date",
+          "website_url": "https://www.date-conference.com/call-for-papers",
+          "previous_url": "https://www.date-conference.com/date-2027-call-papers",
+          "reason": "Repair same-edition link: stored URL redirects to login, public official CFP confirms existing dates."
+        }
+      ],
+      "holds": [
+        {
+          "conference_slug": "dasfaa",
+          "year": 2027,
+          "reason": "Official-source conflict remains: homepage + Research CFP paper 2026-11-25 23:59 AoE / notification 2027-01-25; Important Dates page paper 2027-06-06 / notification 2027-08-16. Existing paper timestamp 2027-06-07 11:59 is also inconsistent with wall-clock convention. Do not silently claim resolved.",
+          "candidate_changes": {
+            "paper_deadline": "2026-11-25T23:59:00Z",
+            "notification_date": "2027-01-25T00:00:00Z"
+          },
+          "sources": [
+            "https://dasfaa2027.github.io/CallforResearchTrack/list.htm",
+            "https://dasfaa2027.github.io/index.html",
+            "https://dasfaa2027.github.io/dates/list.htm"
+          ]
+        },
+        {
+          "conference_slug": "cseet",
+          "year": 2027,
+          "reason": "Official site says July 8–9 in main content but Nov 10–13 footer; all deadlines TBA. Hold dates.",
+          "sources": [
+            "https://cyprusconferences.org/csee-t2027/"
+          ]
+        },
+        {
+          "conference_slug": "conext",
+          "year": 2027,
+          "reason": "Official JS says Rio de Janeiro and Dec 6–9 explicitly to be confirmed; CFP is placeholder. Do not add tentative dates as confirmed.",
+          "sources": [
+            "https://conferences.sigcomm.org/co-next/2027/js/variables.js",
+            "https://conferences.sigcomm.org/co-next/2027/partials/cfp.html"
+          ]
+        },
+        {
+          "conference_slug": "concur",
+          "year": 2027,
+          "reason": "Steering chair personal institutional page says Lucca Sept 6–10 for CONQEST umbrella; no main-conference CFP/date separation.",
+          "sources": [
+            "https://www.cs.vu.nl/~wanf/profactivities.html"
+          ]
+        },
+        {
+          "conference_slug": "cscw",
+          "year": 2027,
+          "reason": "Published official rolling-journal model has no annual conference submission deadline. Do not invent cycle.",
+          "sources": [
+            "https://cscw.acm.org/2026/rolling.html"
+          ]
+        },
+        {
+          "conference_slug": "cseet",
+          "year": 2026,
+          "reason": "Official current page confirms submission dates but does not state clock/timezone; existing AoE not independently confirmed.",
+          "sources": [
+            "https://cseet26.techconf.org/"
+          ]
+        },
+        {
+          "conference_slug": "ecai",
+          "year": 2027,
+          "reason": "Official date April 14 confirmed but clock/timezone remain absent; existing null timezone correctly retained.",
+          "sources": [
+            "https://ecai2027.org/"
+          ]
+        }
+      ],
+      "near_deadlines": [
+        {
+          "conference_slug": "edbt",
+          "cycle": "cycle3",
+          "deadline": "2026-10-07 17:00 PT (PDT)",
+          "status": "No extension displayed on official dates page; timezone correction required."
+        },
+        {
+          "conference_slug": "coling",
+          "deadline": "2026-10-12 23:59 AoE",
+          "status": "No extension displayed on homepage and main CFP."
+        },
+        {
+          "conference_slug": "eacl",
+          "deadline": "2026-10-11 23:59 AoE",
+          "status": "Commitment deadline only; ARR paper deadline remains August 3. Do not replace paper_deadline."
+        },
+        {
+          "conference_slug": "date",
+          "deadline": "2026-09-20 AoE",
+          "status": "Recently passed; public CFP retains strict no-extension policy."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "phase": 3,
+      "attempted": 30,
+      "proposedChanges": [
+        {
+          "conference_slug": "fast",
+          "year": 2028,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2028-02-28",
+            "conference_end": "2028-03-01",
+            "venue": "Seattle, WA, USA",
+            "timezone": null
+          },
+          "sources": [
+            "https://www.usenix.org/conferences?order=title&page=1&sort=desc"
+          ],
+          "reason": "Official USENIX future event list; event-only row, no CFP/deadline/timezone announced."
+        },
+        {
+          "conference_slug": "gecco",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-07-12",
+            "conference_end": "2027-07-16",
+            "venue": "Krakow, Poland",
+            "timezone": null
+          },
+          "sources": [
+            "https://gecco-2027.sigevo.org/HomePage"
+          ],
+          "reason": "Official next-edition event dates; no paper CFP found."
+        },
+        {
+          "conference_slug": "hipc",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": "2026-07-01T23:59:00Z",
+            "paper_deadline": "2026-07-08T23:59:00Z",
+            "notification_date": "2026-09-18T00:00:00Z"
+          },
+          "sources": [
+            "https://hipc.org/papers/"
+          ],
+          "reason": "Official July1 abstract/July8 paper AoE. Existing July2/9 11:59Z appears UTC-converted despite separate AoE timezone; restore wall-clock convention (end-of-day AoE). Author notification September18; final shepherded notification October9 is separate."
+        },
+        {
+          "conference_slug": "hipeac",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-01-18",
+            "conference_end": "2027-01-20",
+            "venue": "Glasgow, UK",
+            "timezone": null
+          },
+          "sources": [
+            "https://www.hipeac.net/news/7142/hipeac-2027-call-workshops/"
+          ],
+          "reason": "Official event date confirmed. Main journal-first CFP timed out; workshop submission date not used as paper deadline."
+        },
+        {
+          "conference_slug": "icalp",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-04-20T00:00:00Z"
+          },
+          "sources": [
+            "https://icalppodcspaa2026.cs.rhul.ac.uk/icalp/"
+          ],
+          "reason": "Missing notification explicitly April20."
+        },
+        {
+          "conference_slug": "iccv",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-10-02",
+            "conference_end": "2027-10-08",
+            "venue": "Hong Kong",
+            "timezone": null
+          },
+          "sources": [
+            "https://iccv.thecvf.com/Conferences/2027"
+          ],
+          "reason": "Official CVF conference-only row; no deadlines on page. Biennial next year is 2027, not 2026."
+        },
+        {
+          "conference_slug": "icdcs",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-07-05",
+            "conference_end": "2027-07-08",
+            "venue": "Melbourne, Australia",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://icdcs2027.icdcs.org/"
+          ],
+          "reason": "Official new edition explicitly dates/location and AoE, research deadlines all TBD."
+        },
+        {
+          "conference_slug": "icdm",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": "2027-06-06T23:59:00Z",
+            "notification_date": "2027-08-16T00:00:00Z",
+            "conference_start": "2027-11-15",
+            "conference_end": "2027-11-18",
+            "venue": "Brisbane, Australia",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://icdm.zhonghuapu.com/menu.shtml",
+            "https://icdm2027-website.onrender.com/"
+          ],
+          "reason": "Official ICDM series links this 2027 site. Homepage publishes CFP, June6 full paper, August16 notification, 11:59PM AoE UTC-12 and November15–18 Brisbane. Separate full CFP link inaccessible, but dates independently readable on official-linked homepage."
+        }
+      ],
+      "urlChanges": [
+        {
+          "conference_slug": "icdm",
+          "old_url": "http://icdm2026.neu.edu.cn/",
+          "new_url": "https://icdm2027-website.onrender.com/",
+          "reason": "2026 paper deadline passed; official-series-linked 2027 site publishes CFP and submission dates."
+        }
+      ],
+      "holds": [
+        {
+          "conference_slug": "fg",
+          "reason": "Current official site robots/access failure; cannot claim current deadline reverified. 2028 only site-proposal call."
+        },
+        {
+          "conference_slug": "hpca",
+          "reason": "Current home and CFP inaccessible, official search no indexed dates; current dates unverified."
+        },
+        {
+          "conference_slug": "icalp",
+          "reason": "2027 Track B round1 announcement located (Sep15 AoE, Dec8 notification), but official site timed out and other tracks/round2 TBA. Do not insert a generic main deadline."
+        },
+        {
+          "conference_slug": "eurographics",
+          "reason": "CFP has struck Sep26 abstract line versus explicit submission form deadline Sep25 later on page. Keep Sep25 pending clarification; Oct1 23:59UTC full-paper confirmed. Notification Dec18 is conditional; final Feb9 remains report-only."
+        },
+        {
+          "conference_slug": "i3d",
+          "reason": "2026 official CFP says 23:59 Pacific Time (UTC-7) even for January; seed PST means UTC-8. Hold inconsistent official offset rather than silently changing."
+        },
+        {
+          "conference_slug": "hipeac",
+          "reason": "2027 main CFP timeout; no verification of secondary June1 2026 AoE deadline."
+        },
+        {
+          "conference_slug": "esop",
+          "reason": "ETAPS2028 Apr2–7 Karlsruhe umbrella event confirmed, constituent ESOP dates and CFP absent; do not copy umbrella dates into ESOP."
+        },
+        {
+          "conference_slug": "fase",
+          "reason": "2027 FASE+iFM merge into iFS; no fake FASE2027 row."
+        }
+      ],
+      "imminent": [
+        {
+          "conference_slug": "eurographics",
+          "year": 2027,
+          "paper": "2026-10-01 23:59 UTC",
+          "extensionFound": false,
+          "source": "https://eg2027.isti.cnr.it/call-for-papers/"
+        },
+        {
+          "conference_slug": "fse",
+          "year": 2027,
+          "paper": "2026-10-02 AoE",
+          "extensionFound": false,
+          "source": "https://conf.researchr.org/track/fse-2027/fse-2027-papers"
+        },
+        {
+          "conference_slug": "fg",
+          "year": 2027,
+          "abstract": "2026-10-09 23:59 AoE (seed, unverified)",
+          "extensionFound": null,
+          "source": "https://fg2027.ieee-biometrics.org/dates/"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-09-28",
+      "phase": 4,
+      "scope": "30 slugs; current max year and next edition; six sequential logical batches with shared slots limited",
+      "timestamp_convention": "Local wall-clock encoded with Z plus separate timezone retained; notification date-only values use midnight.",
+      "changes": [
+        {
+          "conference_slug": "icmr",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "paper_deadline": "2027-01-31T23:59:59Z",
+            "notification_date": "2027-04-01T00:00:00Z",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://www.icmr2027.org/date",
+            "https://www.icmr2027.org/cfc"
+          ],
+          "reason": "Official important dates now publish regular full/short paper Jan 31 2027 at 23:59:59 AoE and acceptance Apr 1. Former September 9 missing-deadline hold resolved. No separate abstract registration date stated."
+        },
+        {
+          "conference_slug": "icra",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "paper_deadline": "2026-09-16T23:59:00Z"
+          },
+          "sources": [
+            "https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/"
+          ],
+          "reason": "Official CFP now explicitly says submission deadline extended to Sep 16 2026 23:59 PST and submission closed. Seed Sep 15 outdated. Preserve PST exactly as official source; video window Sep 18-22 is not paper deadline."
+        },
+        {
+          "conference_slug": "icse",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": "2026-06-23T23:59:59Z",
+            "paper_deadline": "2026-06-30T23:59:59Z"
+          },
+          "sources": [
+            "https://conf.researchr.org/track/icse-2027/icse-2027-research-track"
+          ],
+          "reason": "Official CFP explicitly states 23:59:59 AoE, whereas seed has 23:59:00. Dates/initial notification unchanged."
+        },
+        {
+          "conference_slug": "interact",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2027-04-22T00:00:00Z"
+          },
+          "sources": [
+            "https://interact2027.org/full-papers/"
+          ],
+          "reason": "Detailed full-paper CFP distinguishes reviews sent March 8, rebuttal March 22, and acceptance notification April 22. Seed March 8 and simplified homepage label refer to reviews, not acceptance."
+        },
+        {
+          "conference_slug": "ipdps",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": "2026-10-01T23:59:00Z",
+            "paper_deadline": "2026-10-08T23:59:00Z",
+            "notification_date": "2027-02-02T00:00:00Z"
+          },
+          "sources": [
+            "https://www.ipdps.org/ipdps2027/2027-call-for-papers.html"
+          ],
+          "reason": "CFP explicitly end-of-day AoE, so replace midnight timestamps with repository end-of-day 23:59 convention. Firm Oct 8, no extensions. Final decisions Feb 2 2027; first-round accept/revise/reject Dec 18 2026 is separate milestone."
+        },
+        {
+          "conference_slug": "isaac",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-09-07T00:00:00Z"
+          },
+          "sources": [
+            "https://www.algo-door.com/isaac2026/",
+            "https://www.algo-door.com/isaac2026/call-for-papers.html"
+          ],
+          "reason": "Official homepage and CFP indexed copies (crawled two weeks ago) both state acceptance notification Sep 7. Live web/curl timeout, so evidence freshness is indexed not direct live. Paper June 29 AoE unchanged."
+        },
+        {
+          "conference_slug": "ijcai",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-08-07",
+            "conference_end": "2027-08-13",
+            "venue": "Kyoto, Japan",
+            "timezone": null
+          },
+          "sources": [
+            "https://www.ijcai.org/node/8",
+            "https://2026.ijcai.org/press/"
+          ],
+          "reason": "Official future list gives Kyoto Aug 7-13 and Hengqin Aug 15-17; official closing-conference press explicitly identifies Hengqin as a satellite event. Add main Kyoto event only, no CFP or invented deadlines."
+        },
+        {
+          "conference_slug": "iros",
+          "year": 2028,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2028-10-02",
+            "conference_end": "2028-10-06",
+            "venue": "Sydney, Australia",
+            "timezone": null
+          },
+          "sources": [
+            "https://www.besydney.com.au/news-insights/australia-s-robotics-research-credentials-open-door-to-20b-global-ai-robotics-industry/",
+            "https://www.ieee-ras.org/wp-content/uploads/2026/01/APPROVED_Minutes__March_28th__2025.pdf"
+          ],
+          "reason": "Official bid partner BESydney confirms ICC Sydney Oct 2-6 2028; IEEE RAS approved minutes confirm Sydney selection. Schedule-only, no CFP/deadline."
+        }
+      ],
+      "urlChanges": [
+        {
+          "conference_slug": "icmr",
+          "website_url": "https://www.icmr2027.org/cfc",
+          "previous_url": "https://www.icmr2026.org/calls.html",
+          "reason": "2026 passed; 2027 regular CFP and exact dates now published."
+        }
+      ],
+      "holds": [
+        {
+          "conference_slug": "icra",
+          "year": 2028,
+          "reason": "Conflicting official RAS event records: record 64236 says Guadalajara and paper Aug 16 2027; record 74101 says Rio de Janeiro and Sep 15. Both agree May 15-19 event, but no authoritative current CFP resolved the venue/deadline conflict. Do not add row or switch URL.",
+          "sources": [
+            "https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-64236/",
+            "https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-74101/"
+          ]
+        },
+        {
+          "conference_slug": "icpr",
+          "year": 2028,
+          "reason": "IAPR newsletter gives Sydney Aug 7-11 while official appointed organizer ICMS event calendar gives Aug 6-10. Event-site attempts failed. Keep dates out pending authoritative schedule clarification.",
+          "sources": [
+            "https://iapr.org/docs/newsletters/2025-Vol-47-No-1.pdf",
+            "https://www.icmsaust.com.au/calendar-of-events/2028"
+          ]
+        },
+        {
+          "conference_slug": "icse",
+          "year": 2028,
+          "reason": "IEEE Hawaii calendar indexed Apr 30-May 6 Waikoloa, while chair announcement gives broader Apr 27-May 7. Main researchr site access denied and event calendar live fetch failed. Record known host but do not add exact event range yet.",
+          "sources": [
+            "https://r6.ieee.org/hawaii/event/2028-ieee-acm-50th-international-conference-on-software-engineering-icse/",
+            "https://conf.researchr.org/home/icse-2028"
+          ]
+        },
+        {
+          "conference_slug": "icmr",
+          "year": 2028,
+          "reason": "Steering committee confirms Dublin and explicitly tentative June 6-9. No CFP. Do not add tentative dates.",
+          "sources": [
+            "https://www.acmicmr.org/"
+          ]
+        },
+        {
+          "conference_slug": "ics",
+          "year": 2026,
+          "reason": "Both cycles' calendar dates verified; CFP does not specify clock/timezone. Preserve null timezone rather than invent AoE.",
+          "sources": [
+            "https://dipsa-qub.github.io/ICS2026-webpage/call-for/call-for-papers.html"
+          ]
+        },
+        {
+          "conference_slug": "iros",
+          "year": 2027,
+          "reason": "Official RAS date March 1 verified but clock/timezone absent. Keep existing date-only/midnight and TBD timezone; no exact countdown claim.",
+          "sources": [
+            "https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/"
+          ]
+        },
+        {
+          "conference_slug": "infocom",
+          "year": 2028,
+          "reason": "Secondary calendar mentions May 15-18 Santa Clara, but official CFP/event evidence not found. Not integrated."
+        }
+      ],
+      "near_deadlines": [
+        {
+          "conference_slug": "ipdps",
+          "year": 2027,
+          "deadline": "2026-10-01",
+          "type": "abstract",
+          "time": "end of day AoE",
+          "extension": "No extension stated; official unchanged."
+        },
+        {
+          "conference_slug": "ipdps",
+          "year": 2027,
+          "deadline": "2026-10-08",
+          "type": "paper",
+          "time": "end of day AoE",
+          "extension": "Explicitly firm and no extensions."
+        },
+        {
+          "conference_slug": "iclr",
+          "year": 2027,
+          "deadline": "2026-09-25",
+          "type": "recently passed paper",
+          "time": "23:59 AoE",
+          "extension": "No extension shown on current CFP."
+        },
+        {
+          "conference_slug": "icra",
+          "year": 2027,
+          "deadline": "2026-09-16",
+          "type": "recently passed paper",
+          "time": "23:59 PST",
+          "extension": "Confirmed one-day extension from Sep 15; now closed."
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-09-28",
+      "phase": 5,
+      "scope": "30 slugs, current max edition and next valid edition, including incomplete rows. Six logical batches researched by assigned phase agent due shared concurrency limit.",
+      "timestamp_convention": "Local wall-clock encoded with Z and separate timezone retained. Date-only unknown clock uses00:00/null; never infer AoE.",
+      "summary": {
+        "conferences_checked": 30,
+        "existing_changes": 5,
+        "new_cfp_entries": 2,
+        "new_schedule_only_entries": 5,
+        "url_changes": 2
+      },
+      "changes": [
+        {
+          "conference_slug": "its",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-03-30T00:00:00Z"
+          },
+          "sources": [
+            "https://iis-international.org/its2026/"
+          ],
+          "reason": "Official CFP states notification by March30."
+        },
+        {
+          "conference_slug": "ndss",
+          "year": 2027,
+          "cycle": "second",
+          "changes": {
+            "notification_date": "2026-11-24T00:00:00Z"
+          },
+          "sources": [
+            "https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/"
+          ],
+          "reason": "Updated fall-cycle timeline now specifies Nov24 author notification, replacing Nov4."
+        },
+        {
+          "conference_slug": "iswc",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-07-16T00:00:00Z"
+          },
+          "sources": [
+            "https://iswc2026.semanticweb.org/#/calls/research",
+            "https://iswc2026.semanticweb.org/assets/Research-BeW5LXE0.js",
+            "https://iswc2026.semanticweb.org/assets/ImportantDates-B3ojtear.js"
+          ],
+          "reason": "Official rendered-content bundle and common dates agree July16 research notifications; existing null."
+        },
+        {
+          "conference_slug": "kr",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": "2026-02-08T23:59:00Z",
+            "paper_deadline": "2026-02-13T23:59:00Z"
+          },
+          "sources": [
+            "https://kr.org/KR2026/call_main_track.html",
+            "https://kr.org/KR2026/dates.html"
+          ],
+          "reason": "Official local deadlines Feb8/13 AoE. Existing Feb9/14 11:59Z are absolute UTC instants inconsistent with repo wall-clock-plus-timezone encoding; normalize without changing intended instant."
+        },
+        {
+          "conference_slug": "middleware",
+          "year": 2026,
+          "cycle": "winter",
+          "changes": {
+            "abstract_deadline": "2025-12-09T23:59:00Z",
+            "paper_deadline": "2025-12-12T23:59:00Z",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://middleware-conf.github.io/2026/important-dates/"
+          ],
+          "reason": "Official winter dates now explicitly Anywhere on Earth. Replace date-only midnight/null timezone with end-of-day AoE under repository convention."
+        },
+        {
+          "conference_slug": "issre",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-10-19",
+            "conference_end": "2027-10-22",
+            "venue": "Taipa, Macao SAR China",
+            "timezone": null
+          },
+          "sources": [
+            "https://conf.researchr.org/home/issre-2027",
+            "https://conf.researchr.org/track/issre-2027/issre-2027-papers"
+          ],
+          "reason": "Official home announces event; research CFP is explicitly placeholder with no dates."
+        },
+        {
+          "conference_slug": "its",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-06-16",
+            "conference_end": "2027-06-18",
+            "venue": "Rome, Italy",
+            "timezone": null
+          },
+          "sources": [
+            "https://iis-international.org/its2026/"
+          ],
+          "reason": "Official current homepage NEWS explicitly announces Rome June16–18 2027; no new submission dates. Do not carry 2026 dates over."
+        },
+        {
+          "conference_slug": "lics",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-06-21",
+            "conference_end": "2027-06-24",
+            "venue": "Montreal, Canada",
+            "timezone": null
+          },
+          "sources": [
+            "https://lics.siglog.org/lics27/"
+          ],
+          "reason": "Official edition home confirms main conference June21–24; workshops June19–20 separate, CFP not yet published."
+        },
+        {
+          "conference_slug": "miccai",
+          "year": 2028,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2028-10-16",
+            "conference_end": "2028-10-20",
+            "venue": "São Paulo, Brazil",
+            "timezone": null
+          },
+          "sources": [
+            "https://miccai.org/upcoming-conferences/"
+          ],
+          "reason": "Official society future editions list São Paulo Oct16–20 2028; paper submission TBA."
+        },
+        {
+          "conference_slug": "msst",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-05-17",
+            "conference_end": "2027-05-21",
+            "venue": null,
+            "timezone": null
+          },
+          "sources": [
+            "https://msstconference.org/2026/index.html"
+          ],
+          "reason": "Official save-the-date gives week May17–21 2027 only; no confirmed new venue or CFP."
+        },
+        {
+          "conference_slug": "mobisys",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": "2026-11-27T23:59:00Z",
+            "paper_deadline": "2026-12-04T23:59:00Z",
+            "notification_date": "2027-03-06T00:00:00Z",
+            "conference_start": "2027-06-21",
+            "conference_end": "2027-06-25",
+            "venue": "Ho Chi Minh City, Vietnam",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://www.sigmobile.org/mobisys/2027/call_for_papers/",
+            "https://www.sigmobile.org/mobisys/2027/"
+          ],
+          "reason": "CFP announced today Sep28; both deadlines explicitly23:59AoE, dates and location in homepage header."
+        },
+        {
+          "conference_slug": "noms",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": "2026-11-09T00:00:00Z",
+            "notification_date": null,
+            "conference_start": "2027-05-10",
+            "conference_end": "2027-05-14",
+            "venue": "Montreal, Quebec, Canada",
+            "timezone": null
+          },
+          "sources": [
+            "https://noms2027.ieee-noms.org/authors/call-technical-session-paper",
+            "https://www.comsoc.org/conferences-events/ieeeifip-network-operations-and-management-symposium-2027"
+          ],
+          "reason": "NOMS/IM merged series has 2027 edition. Technical paper date Nov9 confirmed by two official sources, clock/timezone absent so00:00/null sentinel. Notification conflicts Feb15 CFP body vs Jan15 sidebar/Authors page, held null."
+        }
+      ],
+      "urlChanges": [
+        {
+          "conference_slug": "mobisys",
+          "previous_url": "https://www.sigmobile.org/mobisys/2026/",
+          "website_url": "https://www.sigmobile.org/mobisys/2027/call_for_papers/",
+          "reason": "2026 paper deadline passed; 2027 full CFP now official."
+        },
+        {
+          "conference_slug": "noms",
+          "previous_url": "https://noms2026.ieee-noms.org/",
+          "website_url": "https://noms2027.ieee-noms.org/authors/call-technical-session-paper",
+          "reason": "2026 deadline passed; 2027 technical CFP official. HTTP curl succeeds, web extractor does not."
+        }
+      ],
+      "coverage": [
+        {
+          "conference_slug": "isrr",
+          "current_year": 2026,
+          "verify": "ok_dates_clock_unverified",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "Dates/May31 paper/Aug1 notification match; source omits clock/timezone, existing AoE not re-proven. IFRR confirms even-year recent series.",
+          "sources": [
+            "https://isrr2026.su.domains/",
+            "https://ifrr.org/isrr"
+          ]
+        },
+        {
+          "conference_slug": "issre",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "schedule_only",
+          "notes": "Current Apr24 both/AoE/Jul8 notification match. Next Oct19–22 Macau; research CFP placeholder.",
+          "sources": [
+            "https://cyprusconferences.org/issre2026/",
+            "https://conf.researchr.org/home/issre-2027",
+            "https://conf.researchr.org/track/issre-2027/issre-2027-papers"
+          ]
+        },
+        {
+          "conference_slug": "issta",
+          "current_year": 2027,
+          "verify": "ok",
+          "next_year": 2028,
+          "status": "location_only",
+          "notes": "Jan8/11 AoE, final Jun17 match. Next Shanghai confirmed by series, no dates/CFP.",
+          "sources": [
+            "https://conf.researchr.org/track/issta-2027/issta-2027-research-papers",
+            "https://www.issta.org/"
+          ]
+        },
+        {
+          "conference_slug": "iswc",
+          "current_year": 2026,
+          "verify": "updated",
+          "next_year": 2027,
+          "status": "not_announced",
+          "notes": "May2/7 23:59AoE match; add July16 notification from official JS content. SWSA 2027 location TBA, Oct/Nov only.",
+          "sources": [
+            "https://iswc2026.semanticweb.org/#/calls/research",
+            "https://swsa.semanticweb.org/conferences/"
+          ]
+        },
+        {
+          "conference_slug": "itcs",
+          "current_year": 2027,
+          "verify": "ok",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "Sep2/4 16:59PDT, Nov6 notification, Jan12–15 Berkeley match; seed URL inaccessible in web but canonical official domain works.",
+          "sources": [
+            "https://itcs-conf.org/"
+          ]
+        },
+        {
+          "conference_slug": "its",
+          "current_year": 2026,
+          "verify": "updated_clock_unverified",
+          "next_year": 2027,
+          "status": "schedule_only",
+          "notes": "Feb28 paper matches; add Mar30 notification. Current source no clock; new Rome Jun16–18 announced in current homepage NEWS, no CFP.",
+          "sources": [
+            "https://iis-international.org/its2026/"
+          ]
+        },
+        {
+          "conference_slug": "iui",
+          "current_year": 2027,
+          "verify": "ok",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "Aug13/20 end-of-day AoE; Nov23 final notification; Feb8–11 Helsinki match.",
+          "sources": [
+            "https://iui.acm.org/2027/call-for-papers/",
+            "https://iui.acm.org/2027/"
+          ]
+        },
+        {
+          "conference_slug": "kdd",
+          "current_year": 2027,
+          "verify": "ok",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "First cycle Jul19/26 end-of-day AoE, Nov14 notification, Aug1–5 San Jose match. Cycle2 only February reference, no exact dates.",
+          "sources": [
+            "https://kdd2027.kdd.org/research-track-call-for-papers/",
+            "https://kdd2027.kdd.org/"
+          ]
+        },
+        {
+          "conference_slug": "kr",
+          "current_year": 2026,
+          "verify": "updated_encoding",
+          "next_year": 2027,
+          "status": "location_only",
+          "notes": "Official Feb8/13 AoE vs stored absolute UTC Feb9/14 11:59; normalize to repository local wall-clock encoding. Next Buenos Aires, no dates/CFP.",
+          "sources": [
+            "https://kr.org/KR2026/call_main_track.html",
+            "https://kr.org/KR2026/dates.html",
+            "https://kr.org/"
+          ]
+        },
+        {
+          "conference_slug": "lctes",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "not_announced",
+          "notes": "Extended Mar13/20 AoE and May1 notification match. Old CFP body retains unextended dates; latest header/sidebar authoritative.",
+          "sources": [
+            "https://pldi26.sigplan.org/home/LCTES-2026"
+          ]
+        },
+        {
+          "conference_slug": "lics",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "schedule_only",
+          "notes": "Jan15/22 AoE, Apr16 notification match. Next main Jun21–24 Montreal, no CFP.",
+          "sources": [
+            "https://lics.siglog.org/lics26/cfp.php",
+            "https://lics.siglog.org/lics27/"
+          ]
+        },
+        {
+          "conference_slug": "lrec",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "Oct24 2025 23:59UTC-12/Feb13 2026 notification and event match. Biennial, 2028/2030 host call only.",
+          "sources": [
+            "https://lrec2026.info/third-call-for-papers/",
+            "https://www.elra.info/elra-events/lrec/"
+          ]
+        },
+        {
+          "conference_slug": "mascots",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "not_announced",
+          "notes": "Extended June5 AoE/Aug7 notification/Oct20–22 Genova match; next not found.",
+          "sources": [
+            "https://mascots26.iitis.pl/",
+            "https://mascots26.iitis.pl/dates/"
+          ]
+        },
+        {
+          "conference_slug": "mass",
+          "current_year": 2026,
+          "verify": "ok_dates_clock_unverified",
+          "next_year": 2027,
+          "status": "not_announced",
+          "notes": "Extended May24 paper/Aug14 notification/Oct21–23 Hong Kong match. Current CFP no clock; existing AoE not re-proven.",
+          "sources": [
+            "https://mass-conf.github.io/2026/",
+            "https://mass-conf.github.io/2026/callforpapers.html"
+          ]
+        },
+        {
+          "conference_slug": "mdm",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "not_announced",
+          "notes": "Extended March6 23:59AoE/April17 notification/June29–July2 Athens match.",
+          "sources": [
+            "https://mdm-2026.github.io/callsResearch.html"
+          ]
+        },
+        {
+          "conference_slug": "mfcs",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "not_announced",
+          "notes": "Apr24 AoE, Jun19 notification, Aug24–28 Paris match; no 2027 CFP confirmed.",
+          "sources": [
+            "https://mfcs2026.irif.fr/"
+          ]
+        },
+        {
+          "conference_slug": "miccai",
+          "current_year": 2027,
+          "verify": "incomplete",
+          "next_year": 2028,
+          "status": "schedule_only",
+          "notes": "2027 Auckland Sep26–Oct1 match; submission TBA. 2028 São Paulo Oct16–20 schedule. Also 2026 Strasbourg relocation/revised dates explicitly confirmed, not error.",
+          "sources": [
+            "https://miccai.org/upcoming-conferences/"
+          ]
+        },
+        {
+          "conference_slug": "micro",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "not_announced",
+          "notes": "Mar31/Apr7 23:59EDT, Jul7 notification, Athens match. Next not found.",
+          "sources": [
+            "https://www.microarch.org/micro59/submit/papers.php",
+            "https://www.microarch.org/micro59/"
+          ]
+        },
+        {
+          "conference_slug": "middleware",
+          "current_year": 2026,
+          "verify": "updated",
+          "next_year": 2027,
+          "status": "not_announced",
+          "notes": "Both cycles match dates; winter explicitly AoE now, replace null timezone/midnight. Next only host-bid page, no CFP.",
+          "sources": [
+            "https://middleware-conf.github.io/2026/important-dates/",
+            "https://middleware-conf.github.io/hosting/"
+          ]
+        },
+        {
+          "conference_slug": "mobicom",
+          "current_year": 2027,
+          "verify": "ok",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "Summer Aug26/Sep2 23:59AoE, Nov19 notification, Oct18–22 event match. Venue still not stated, winter exact dates TBD.",
+          "sources": [
+            "https://www.sigmobile.org/mobicom/2027/cfp.html",
+            "https://www.sigmobile.org/mobicom/2027/"
+          ]
+        },
+        {
+          "conference_slug": "mobihoc",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "not_announced",
+          "notes": "Apr13/20 23:59AoE, Aug23 notification, Nov23–26 Tokyo match; no next CFP.",
+          "sources": [
+            "https://www.sigmobile.org/mobihoc/2026/cfp.html"
+          ]
+        },
+        {
+          "conference_slug": "mobilehci",
+          "current_year": 2027,
+          "verify": "ok_clock_unverified",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "Feb10/17 dates and Jun17 final match; current home and submission no clock/timezone, keep date-only sentinel/null. Camera-ready Jun15 preceding final Jun17 is official inconsistency, not modeled.",
+          "sources": [
+            "https://mobilehci.acm.org/2027/",
+            "https://mobilehci.acm.org/2027/submission/"
+          ]
+        },
+        {
+          "conference_slug": "mobisys",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "found",
+          "notes": "Current verified. New CFP published Sep28: Nov27/Dec4 23:59AoE, Mar6 notification, Jun21–25 HCMC.",
+          "sources": [
+            "https://www.sigmobile.org/mobisys/2026/",
+            "https://www.sigmobile.org/mobisys/2027/call_for_papers/",
+            "https://www.sigmobile.org/mobisys/2027/"
+          ]
+        },
+        {
+          "conference_slug": "models",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "unavailable",
+          "notes": "Mar20/27 23:59AoE, Jun17 notification, Oct4–9 Málaga match. 2027 Researchr endpoint access-denied; no public exact CFP.",
+          "sources": [
+            "https://conf.researchr.org/track/models-2026/models-2026-research-papers",
+            "https://conf.researchr.org/home/models-2027"
+          ]
+        },
+        {
+          "conference_slug": "msr",
+          "current_year": 2027,
+          "verify": "ok",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "Oct20/23 AoE and Jan8 notification match. CFP weekday labels typo but sidebar dates align. Next no CFP.",
+          "sources": [
+            "https://conf.researchr.org/track/msr-2027/msr-2027-technical-papers"
+          ]
+        },
+        {
+          "conference_slug": "msst",
+          "current_year": 2026,
+          "verify": "ok_dates_clock_unverified",
+          "next_year": 2027,
+          "status": "schedule_only",
+          "notes": "Extended Apr14 paper, May1 notification, Jun1–5 Santa Clara match; source omits clock. Next May17–21 official week, no confirmed new venue or CFP.",
+          "sources": [
+            "https://www.msstconference.org/2026/research-cfp.html",
+            "https://msstconference.org/2026/index.html"
+          ]
+        },
+        {
+          "conference_slug": "naacl",
+          "current_year": 2027,
+          "verify": "ok",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "Oct12 ARR deadline 23:59AoE (14 days away), Feb10 notification, Jun1–5 SF match. Dec23 commitment separate; do not replace ARR deadline.",
+          "sources": [
+            "https://2027.naacl.org/"
+          ]
+        },
+        {
+          "conference_slug": "ndss",
+          "current_year": 2027,
+          "verify": "updated",
+          "next_year": 2028,
+          "status": "not_announced",
+          "notes": "Summer May6/Jul29 match; fall Aug19 23:59AoE matches, updated author notification Nov24 not Nov4. Major revision Jan11 separate.",
+          "sources": [
+            "https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/"
+          ]
+        },
+        {
+          "conference_slug": "neurips",
+          "current_year": 2026,
+          "verify": "ok",
+          "next_year": 2027,
+          "status": "region_only",
+          "notes": "May4/6 AoE, Sep24 notification, Dec6–12 Sydney match. Official future meetings says only Europe 2027, no exact date/CFP.",
+          "sources": [
+            "https://neurips.cc/Conferences/2026/CallForPapers",
+            "https://neurips.cc/Conferences/FutureMeetings"
+          ]
+        },
+        {
+          "conference_slug": "noms",
+          "current_year": 2026,
+          "verify": "partial_conflict",
+          "next_year": 2027,
+          "status": "found",
+          "notes": "2026 Nov10 final extension/event match, notification Jan18 body vs Jan21 sidebar unresolved. 2027 Montreal May10–14, Nov9 paper confirmed; time/timezone missing, notification Feb15 body vs Jan15 dates conflict. IM merge means annual2027 exists, not skip to2028.",
+          "sources": [
+            "https://noms2026.ieee-noms.org/call-technical-session-paper",
+            "https://noms2027.ieee-noms.org/authors/call-technical-session-paper",
+            "https://noms2027.ieee-noms.org/authors",
+            "https://www.comsoc.org/conferences-events/ieeeifip-network-operations-and-management-symposium-2027"
+          ]
+        }
+      ],
+      "holds": [
+        {
+          "conference_slug": "noms",
+          "year": 2026,
+          "field": "notification_date",
+          "values": [
+            "2026-01-18",
+            "2026-01-21"
+          ],
+          "sources": [
+            "https://noms2026.ieee-noms.org/call-technical-session-paper"
+          ],
+          "reason": "Body vs sidebar conflict; leave null."
+        },
+        {
+          "conference_slug": "noms",
+          "year": 2027,
+          "field": "notification_date",
+          "values": [
+            "2027-02-15",
+            "2027-01-15"
+          ],
+          "sources": [
+            "https://noms2027.ieee-noms.org/authors/call-technical-session-paper",
+            "https://noms2027.ieee-noms.org/authors"
+          ],
+          "reason": "Technical CFP body vs dates/sidebar conflict; leave null."
+        },
+        {
+          "conference_slug": "mobilehci",
+          "year": 2027,
+          "field": "timezone",
+          "reason": "No explicit deadline clock or timezone in current home/submission; keep null and midnight date-only sentinel."
+        },
+        {
+          "conference_slug": "kdd",
+          "year": 2027,
+          "field": "second_cycle",
+          "reason": "CFP refers to February2027 cycle but no exact registration/paper date, do not extrapolate."
+        },
+        {
+          "conference_slug": "mobicom",
+          "year": 2027,
+          "field": "winter",
+          "reason": "Official winter deadlines TBD."
+        },
+        {
+          "conference_slug": "issta",
+          "year": 2028,
+          "field": "schedule",
+          "reason": "Shanghai confirmed but no event dates/CFP. No empty deadline row."
+        },
+        {
+          "conference_slug": "kr",
+          "year": 2027,
+          "field": "schedule",
+          "reason": "Buenos Aires confirmed but no event dates/CFP. No empty deadline row."
+        },
+        {
+          "conference_slug": "neurips",
+          "year": 2027,
+          "field": "schedule",
+          "reason": "Europe only on official future meetings; no exact dates/city."
+        },
+        {
+          "conference_slug": "models",
+          "year": 2027,
+          "field": "all",
+          "reason": "Researchr endpoint access denied, public CFP not confirmed."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "phase": 6,
+      "attempted": 30,
+      "proposedChanges": [
+        {
+          "conference_slug": "nossdav",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-02-13T00:00:00Z"
+          },
+          "sources": [
+            "https://nossdav.org/2026/"
+          ],
+          "reason": "Official notification date February13."
+        },
+        {
+          "conference_slug": "nossdav",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-04-02",
+            "conference_end": "2027-04-02",
+            "venue": "Ghent, Belgium",
+            "timezone": null
+          },
+          "sources": [
+            "https://www.nossdav.org/",
+            "https://2027.acmmmsys.org/workshop-track.html"
+          ],
+          "reason": "Series confirms Ghent; co-located official MMSys explicitly names NOSSDAV workshop April2. Generic workshop submission deadlines not copied into NOSSDAV without its own CFP."
+        },
+        {
+          "conference_slug": "pakdd",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": "2026-11-20T23:59:00Z",
+            "notification_date": "2027-02-26T00:00:00Z",
+            "conference_start": "2027-06-29",
+            "conference_end": "2027-07-02",
+            "venue": "Wellington, New Zealand",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://www.pakdd2027.org/pages/calls/research",
+            "https://www.pakdd2027.org/pages/dates"
+          ],
+          "reason": "Official next-edition CFP; 23:59 AoE explicit."
+        },
+        {
+          "conference_slug": "performance",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-08-07T00:00:00Z"
+          },
+          "sources": [
+            "https://performance2026.github.io/call/"
+          ],
+          "reason": "Notification extended July17 to August7. Paper deadline held: previous report records official HotCRP extension beyond current CFP May22, but HotCRP inaccessible today."
+        },
+        {
+          "conference_slug": "pets",
+          "year": 2027,
+          "cycle": "Q1",
+          "changes": {
+            "notification_date": "2026-08-01T00:00:00Z"
+          },
+          "sources": [
+            "https://petsymposium.org/cfp27.php"
+          ],
+          "reason": "Missing official Issue1 notification."
+        },
+        {
+          "conference_slug": "pets",
+          "year": 2027,
+          "cycle": "Q2",
+          "changes": {
+            "notification_date": "2026-11-01T00:00:00Z"
+          },
+          "sources": [
+            "https://petsymposium.org/cfp27.php"
+          ],
+          "reason": "Missing official Issue2 notification."
+        },
+        {
+          "conference_slug": "pets",
+          "year": 2027,
+          "cycle": "Q3",
+          "changes": {
+            "notification_date": "2027-02-01T00:00:00Z"
+          },
+          "sources": [
+            "https://petsymposium.org/cfp27.php"
+          ],
+          "reason": "Missing official Issue3 notification."
+        },
+        {
+          "conference_slug": "pets",
+          "year": 2027,
+          "cycle": "Q4",
+          "changes": {
+            "notification_date": "2027-05-01T00:00:00Z"
+          },
+          "sources": [
+            "https://petsymposium.org/cfp27.php"
+          ],
+          "reason": "Missing official Issue4 notification."
+        },
+        {
+          "conference_slug": "pg",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": "2026-06-01T23:59:00Z",
+            "paper_deadline": "2026-06-08T23:59:00Z",
+            "notification_date": "2026-08-04T00:00:00Z"
+          },
+          "sources": [
+            "https://pacificgraphics2026.github.io/cfp.html"
+          ],
+          "reason": "Official June1/8 AoE; restore local-wallclock end-of-day AoE convention instead of June2/9 UTC-converted 11:59+AoE. Initial notification July31 struck and replaced August4; final acceptance August25 is separate."
+        },
+        {
+          "conference_slug": "podc",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-06-21",
+            "conference_end": "2027-06-25",
+            "venue": "Reykjavik, Iceland",
+            "timezone": null
+          },
+          "sources": [
+            "https://www.podc.org/"
+          ],
+          "reason": "Official series announcement; 2027 CFP link blocked by challenge, no submission dates inferred."
+        },
+        {
+          "conference_slug": "re",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-05-08T00:00:00Z"
+          },
+          "sources": [
+            "https://conf.researchr.org/track/RE-2026/RE-2026-Research-Papers"
+          ],
+          "reason": "Missing research-track author notification."
+        },
+        {
+          "conference_slug": "re",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-08-23",
+            "conference_end": "2027-08-27",
+            "venue": "Milan, Italy",
+            "timezone": null
+          },
+          "sources": [
+            "https://conf.researchr.org/home/RE-2027"
+          ],
+          "reason": "Official next-edition event dates; explicitly no calls yet."
+        },
+        {
+          "conference_slug": "recomb",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-01-16T00:00:00Z"
+          },
+          "sources": [
+            "https://recomb.org/recomb2026/keydates_and_deadlines"
+          ],
+          "reason": "Missing official author notification."
+        },
+        {
+          "conference_slug": "recomb",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": "2026-10-28T23:59:00Z",
+            "paper_deadline": "2026-11-04T23:59:00Z",
+            "notification_date": "2026-12-22T00:00:00Z",
+            "conference_start": "2027-05-17",
+            "conference_end": "2027-05-20",
+            "venue": "Toronto, Canada",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://recomb.org/recomb2027/call_for_papers",
+            "https://recomb.org/recomb2027/keydates_and_deadlines"
+          ],
+          "reason": "Official CFP explicit 23:59 AoE. May15–16 satellites excluded from main conference dates."
+        },
+        {
+          "conference_slug": "recsys",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-08-23",
+            "conference_end": "2027-08-27",
+            "venue": "Honolulu, HI, USA",
+            "timezone": null
+          },
+          "sources": [
+            "https://recsys.acm.org/recsys27/"
+          ],
+          "reason": "Official event-only announcement, no CFP dates or deadline timezone."
+        },
+        {
+          "conference_slug": "rss",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": "2026-12-04T23:59:00Z",
+            "notification_date": "2027-04-30T00:00:00Z",
+            "conference_start": "2027-07-06",
+            "conference_end": "2027-07-11",
+            "venue": "Athens, Greece",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://roboticsconference.org/",
+            "https://roboticsconference.org/information/cfp/"
+          ],
+          "reason": "New two-stage process. December4 is required initial 6-page extended-abstract manuscript, stored as main paper deadline so newcomers cannot mistake April16 invited final-paper deadline for open submission. Explicit 11:59pm AoE. Stage1 decision Feb5, extension charter Feb26, invited final submission Apr16, final acceptance Apr30."
+        },
+        {
+          "conference_slug": "rtas",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "conference_start": "2027-05-17",
+            "conference_end": "2027-05-20",
+            "venue": "Boulder, CO, USA"
+          },
+          "sources": [
+            "https://2027.rtas.org/cfp/"
+          ],
+          "reason": "Official CFP has May17–20 Boulder, not seed May11–14 New York. Paper November5 UTC-12 and tentative January28 notification unchanged."
+        },
+        {
+          "conference_slug": "rtss",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-07-25T00:00:00Z"
+          },
+          "sources": [
+            "https://2026.rtss.org/submissions/dates/"
+          ],
+          "reason": "Official main author notification July25; September15 is only final shepherding notification."
+        },
+        {
+          "conference_slug": "sas",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-07-04T00:00:00Z"
+          },
+          "sources": [
+            "https://conf.researchr.org/home/splash-issta-2026/sas-2026"
+          ],
+          "reason": "Missing author notification July4."
+        },
+        {
+          "conference_slug": "sec",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "paper_deadline": "2025-12-19T23:59:00Z",
+            "notification_date": "2026-02-22T00:00:00Z"
+          },
+          "sources": [
+            "https://ifipsec.org/dates.html"
+          ],
+          "reason": "Official December19 AoE, not UTC-converted December20 11:59+AoE. Restore end-of-day AoE local-wallclock convention. Notification delayed to February22."
+        }
+      ],
+      "urlChanges": [
+        {
+          "conference_slug": "pakdd",
+          "old_url": "https://www.pakdd2026.org/",
+          "new_url": "https://www.pakdd2027.org/pages/calls/research",
+          "reason": "2026 submission passed and official2027 CFP published."
+        },
+        {
+          "conference_slug": "recomb",
+          "old_url": "https://recomb.org/recomb2026/",
+          "new_url": "https://recomb.org/recomb2027/call_for_papers",
+          "reason": "2026 submission passed and official2027 CFP published."
+        },
+        {
+          "conference_slug": "rss",
+          "old_url": "https://roboticsconference.org",
+          "new_url": "https://roboticsconference.org/information/cfp/",
+          "reason": "Root now serves2027; explicit2027 CFP is the next-edition authoritative destination."
+        }
+      ],
+      "holds": [
+        {
+          "conference_slug": "sac",
+          "reason": "IMMINENT: official October2 2026 EST, but exact cutoff clock/end-of-day policy not stated. Seed October3 04:59Z+EST appears UTC-converted; do not infer23:59 or claim clock verified. Main site EST takes precedence over one track page AoE conflict."
+        },
+        {
+          "conference_slug": "performance",
+          "reason": "Official CFP May22 paper vs prior report official HotCRP May31 07:59:59EDT (11:59:59UTC). HotCRP now inaccessible. Seed May31 11:59:59+AoE has convention concern but do not roll back confirmed earlier extension from stale CFP."
+        },
+        {
+          "conference_slug": "rss",
+          "reason": "2027 structural change: initial6-page extended abstract Dec4 is required manuscript; Apr16 final paper is invited-only. Schema lacks stage/invitation metadata. Proposed main deadline deliberately initial manuscript, with final deadline report-only."
+        },
+        {
+          "conference_slug": "podc",
+          "reason": "2027 official CFP link anti-bot challenge. Event dates confirmed, paper dates unverified."
+        },
+        {
+          "conference_slug": "sca",
+          "reason": "2026 website event confirmed; author instructions important-dates section blank in fetched content. Seed April10/17 UTC deadline not independently reverified."
+        },
+        {
+          "conference_slug": "secon",
+          "reason": "2027 official home/CFP inaccessible and official search empty. Existing November30 00:00 timezoneTBD unverified; no guessed clock/timezone. Unrelated SECON cybersecurity expo excluded."
+        },
+        {
+          "conference_slug": "sdm",
+          "reason": "2026 official submissions page says both earlyJuly and lateJuly notification. Leave notification null."
+        },
+        {
+          "conference_slug": "sc",
+          "reason": "2027 dates/Denver only secondary tentative listings located; no new row. 2026 deadline dates confirmed but exact clock/AoE policy not recovered in current fetch."
+        },
+        {
+          "conference_slug": "pact",
+          "reason": "2026 dates verified; exact cutoff clock/timezone not recovered from homepage, no unsupported time correction."
+        },
+        {
+          "conference_slug": "sec",
+          "reason": "2027 Linkoping host announcement only; dates/CFP not found, no invented new row."
+        }
+      ],
+      "imminent": [
+        {
+          "conference_slug": "sac",
+          "year": 2027,
+          "paper": "2026-10-02 EST; exact clock unverified",
+          "extensionFound": false,
+          "source": "https://www.sigapp.org/sac/sac2027/",
+          "warning": "Seed October3 04:59+EST should not be treated as a verified cutoff."
+        }
+      ]
+    },
+    {
+      "asOf": "2026-09-28",
+      "phase": 7,
+      "changes": [
+        {
+          "conference_slug": "sensys",
+          "year": 2027,
+          "cycle": "round1",
+          "changes": {
+            "conference_start": "2027-05-17",
+            "conference_end": "2027-05-20",
+            "venue": "Boulder, CO, USA"
+          },
+          "sources": [
+            "https://sensys.acm.org/2027/"
+          ],
+          "reason": "Official homepage replaces previous New York location and supplies event dates"
+        },
+        {
+          "conference_slug": "sensys",
+          "year": 2027,
+          "cycle": "round2",
+          "changes": {
+            "conference_start": "2027-05-17",
+            "conference_end": "2027-05-20",
+            "venue": "Boulder, CO, USA"
+          },
+          "sources": [
+            "https://sensys.acm.org/2027/"
+          ],
+          "reason": "Official homepage confirms both cycles share Boulder event"
+        },
+        {
+          "conference_slug": "stoc",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": "2026-11-02T23:59:00Z",
+            "notification_date": "2027-02-01T00:00:00Z",
+            "conference_start": "2027-06-06",
+            "conference_end": "2027-06-11",
+            "venue": "Atlanta, GA, USA",
+            "timezone": "AoE"
+          },
+          "sources": [
+            "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+            "https://acm-stoc.org/stoc2027/"
+          ],
+          "reason": "New official CFP; event window includes June 11 AI day as homepage lists June 6–11"
+        },
+        {
+          "conference_slug": "sigcomm",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-08-08",
+            "conference_end": "2027-08-12",
+            "venue": "Bangkok, Thailand",
+            "timezone": null
+          },
+          "sources": [
+            "https://conferences.sigcomm.org/sigcomm/2027/"
+          ],
+          "reason": "Official event only; CFP not found"
+        },
+        {
+          "conference_slug": "siggraph",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-08-08",
+            "conference_end": "2027-08-12",
+            "venue": "Anaheim, CA, USA",
+            "timezone": null
+          },
+          "sources": [
+            "https://www.siggraph.org/siggraph-events/conferences/"
+          ],
+          "reason": "Official event only; no technical paper CFP verified"
+        },
+        {
+          "conference_slug": "socg",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-06-21",
+            "conference_end": "2027-06-25",
+            "venue": "Bengaluru, India",
+            "timezone": null
+          },
+          "sources": [
+            "https://cgweek27.computational-geometry.org/"
+          ],
+          "reason": "Official CG Week window only; contribute disabled"
+        },
+        {
+          "conference_slug": "soups",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-08-08",
+            "conference_end": "2027-08-10",
+            "venue": "Denver, CO, USA",
+            "timezone": null
+          },
+          "sources": [
+            "https://www.usenix.org/conferences/byname/884"
+          ],
+          "reason": "Official organizer event listing; no CFP"
+        },
+        {
+          "conference_slug": "ubicomp",
+          "year": 2027,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2027-10-03",
+            "conference_end": "2027-10-07",
+            "venue": "Seoul, Republic of Korea",
+            "timezone": null
+          },
+          "sources": [
+            "https://sigchi.org/events/ubicomp-2027/"
+          ],
+          "reason": "Official SIGCHI event window; IMWUT cycle mapping not yet verified"
+        },
+        {
+          "conference_slug": "usenix-security",
+          "year": 2028,
+          "cycle": "main",
+          "changes": {
+            "abstract_deadline": null,
+            "paper_deadline": null,
+            "notification_date": null,
+            "conference_start": "2028-08-16",
+            "conference_end": "2028-08-18",
+            "venue": "Seattle, WA, USA",
+            "timezone": null
+          },
+          "sources": [
+            "https://www.usenix.org/CONFERENCES?page=1"
+          ],
+          "reason": "Official future event listing; preserve active 2027 CFP URL"
+        },
+        {
+          "conference_slug": "soups",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-05-19T00:00:00Z"
+          },
+          "sources": [
+            "https://soups.page/"
+          ],
+          "reason": "Official paper notification fills missing field"
+        },
+        {
+          "conference_slug": "vrst",
+          "year": 2026,
+          "cycle": "main",
+          "changes": {
+            "notification_date": "2026-09-13T00:00:00Z"
+          },
+          "sources": [
+            "https://vrst.acm.org/vrst2026/cfp/"
+          ],
+          "reason": "Missing notification filled with explicitly extended final notification, not Aug 28 preliminary"
+        }
+      ],
+      "urlChanges": [
+        {
+          "conference_slug": "stoc",
+          "website_url": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html",
+          "reason": "2026 submission closed, confirmed 2027 CFP"
+        }
+      ]
+    }
+  ],
+  "bestPaperResearch": {
+    "checked_at": "2026-09-28",
+    "scope": "Sep1–28 and Aug31 overlap conferences; prior Sep9 17 unresolved conferences; CSCW/DISC/CoNLL announced awards",
+    "summary": {
+      "conferences_checked": 39,
+      "additions": 42,
+      "corrections": 2,
+      "addition_conferences": 8,
+      "unknown_paper_urls": 31
+    },
+    "additions": [
+      {
+        "conference_slug": "crypto",
+        "year": 2026,
+        "paper_title": "CORAL: Faster Isogeny Group Action for Post-Quantum NIKE",
+        "authors": "Andrea Basso; Giacomo Borin; Ryan Rueger; Sina Schaeffler",
+        "award_type": "best_paper_early_career",
+        "tags": [],
+        "paper_url": "https://doi.org/10.1007/978-3-032-35398-6_17"
+      },
+      {
+        "conference_slug": "noms",
+        "year": 2026,
+        "paper_title": "Rethinking Telemetry Design for Fine-Grained Anomaly Detection in 5G User Planes",
+        "authors": "Niloy Saha; Noura Limam; Yang Xiao; Raouf Boutaba",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "noms",
+        "year": 2026,
+        "paper_title": "A Discrete-Time Model of the Token Bucket Shaper for Real-Time Networking",
+        "authors": "David Raunecker; Stefan Geißler; Alexej Grigorjew; Philip Diederich; Wolfgang Kellerer; Tobias Hoßfeld",
+        "award_type": "best_student_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "concur",
+        "year": 2026,
+        "paper_title": "Reachability in Fixed-Dimensional Continuous VASS",
+        "authors": "Michal Ajdarów; A. R. Balasubramanian; Łukasz Orlikowski",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": "https://doi.org/10.4230/LIPIcs.CONCUR.2026.7"
+      },
+      {
+        "conference_slug": "srds",
+        "year": 2026,
+        "paper_title": "Cerberus: Latency-Aware Scheduling with Graceful Degradation for Constrained Edge Infrastructures",
+        "authors": "Yinan Cao; Etienne Rivière; Ramin Sadre",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "srds",
+        "year": 2026,
+        "paper_title": "Assessing the Effect of Timing Faults in Edge AI Accelerators via Driver-Level Fault Injection",
+        "authors": "Marcello Cinque; Luigi De Simone; Nike Di Giacomo",
+        "award_type": "best_student_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "To Copilot and Beyond: 22 AI Systems Developers Want Built",
+        "authors": "Rudrajit Choudhuri; Christian Bird; Carmen Badea; Anita Sarma",
+        "award_type": "distinguished_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Code Review is a Conversation: Toward Conversational AI Review Assistants",
+        "authors": "Rosalia Tufano",
+        "award_type": "distinguished_paper",
+        "tags": [],
+        "paper_url": "https://arxiv.org/abs/2607.22095"
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Towards Knowledge Alignment in Code LLMs: Contrastive Unlearning for Evolving APIs",
+        "authors": "Huy Q. Tran; Dang H. Vu; Tuyen N. Dinh; Anh H. D. Nguyen; Anh N. H. Vu; Anh M. T. Bui; Phuong T. Nguyen",
+        "award_type": "distinguished_paper",
+        "tags": [],
+        "paper_url": "https://arxiv.org/pdf/2606.30810"
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Question Answering for Diagram-Rich Technical Meeting Videos",
+        "authors": "Zhuoran Xu; Jia Li; Dayuan Tan; Mark Cole; Ish Ashraf; Sandeep Puri; Mehrdad Sabetzadeh; Shiva Nejati",
+        "award_type": "distinguished_paper",
+        "tags": [],
+        "paper_url": "https://arxiv.org/pdf/2607.10494"
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Optimizing Spectral Signature in Code Backdoor Detection",
+        "authors": "Quoc Hung Le; Thanh Le-Cong; Xuan-Bach D. Le; Bowen Xu",
+        "award_type": "distinguished_paper",
+        "tags": [],
+        "paper_url": "https://arxiv.org/pdf/2510.13992"
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "\"It Comes in Notebooks\": Changes and Challenges When Operationalizing ML Prototypes",
+        "authors": "Arumoy Shome; Luís Cruz; Diomidis Spinellis; Arie van Deursen",
+        "award_type": "distinguished_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "DebTrace: Tracing, Verifying, and Revisiting a Decade of Debian Reproducibility",
+        "authors": "Abhishek Reddypalle; William Boulton; Sabine Brunswicker; Santiago Torres-Arias",
+        "award_type": "distinguished_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Smelly Bad Practices in Performance System Tests: Detection, Prevalence, and Lifetime",
+        "authors": "Sergio Di Meglio; Valeria Pontillo; Luigi Libero Lucio Starace; Luana Martins; Dario Di Nucci; Fabio Palomba",
+        "award_type": "distinguished_paper",
+        "tags": [],
+        "paper_url": "https://valeriapontillo.github.io/documents/conference/C14.pdf"
+      },
+      {
+        "conference_slug": "crypto",
+        "year": 2026,
+        "paper_title": "An attack on the CFS scheme and on TII McEliece challenges",
+        "authors": "Magali Bardet; Axel Lemoine; Jean-Pierre Tillich",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": "https://doi.org/10.1007/978-3-032-35398-6_13"
+      },
+      {
+        "conference_slug": "pakdd",
+        "year": 2026,
+        "paper_title": "From Soft Logic to Hard Rules: A Differentiable Boolean Framework for Interpretable and Balanced Classification",
+        "authors": "Jiayu Xue; Bowen Shen; Haoran Liu; Shuo Guan; Lijing Wei; Hejia Cao; Yuangang Wang",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": "https://doi.org/10.1007/978-981-92-1465-5_27"
+      },
+      {
+        "conference_slug": "disc",
+        "year": 2026,
+        "paper_title": "Non-Leaking Concurrent Objects",
+        "authors": "Hagit Attiya; Rotem Oshman; Noa Schiller; Corentin Travers",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": "https://arxiv.org/abs/2608.22288"
+      },
+      {
+        "conference_slug": "disc",
+        "year": 2026,
+        "paper_title": "Solvability of Approximate Agreement on Graphs and Simplicial Complexes",
+        "authors": "Joel Rybicki; Yaroslav Verbitsky",
+        "award_type": "best_student_paper",
+        "tags": [],
+        "paper_url": "https://arxiv.org/abs/2606.24666"
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Bridging Instead of Replacing Online Coding Communities with AI through Community-Enriched Chatbot Designs",
+        "authors": "Junling Wang; Lahari Goswami; Gustavo Kreia Umbelino; Kiara Chau; Mrinmaya Sachan; April Yi Wang",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Voice to Vision: Enabling Shared Understanding in Civic Decision-Making through Participatory Data Infrastructure",
+        "authors": "Margaret Hughes; Cassandra Overney; Ashima Kamra; Jasmin Tepale; Elizabeth Hamby; Mahmood Jasim; Deb Roy",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Impasse of Data-Drivenness: Bureaucratic Data Work and Reproduced Siloed Governance in Coordinating Smart Cities",
+        "authors": "Alex Jiahong Lu; Yuling Sun",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Expecting Too Much, Getting Too Little: Exploring the Challenges and Design Opportunities of Asynchronous AI Interviewers",
+        "authors": "Md. Nazmus Sakib; Naga Manogna Rayasam; Sanorita Dey",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "We Need Granular Sharing of De-Identified Data—But Will Patients Engage? Investigating Health System Leaders' and Patients' Perspectives on A Patient-Controlled Data-Sharing Platform",
+        "authors": "Xi Lu; Di Hu; An T Nguyen; Brad Morse; Lisa M. Schilling; Kai Zheng; Michelle S Keller; Lucila Ohno-Machado; Yunan Chen",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "From Mediation to Escalation: Buffer Spaces for Workplace Concern Reporting",
+        "authors": "Peiyao Liu; Lynn Dombrowski; Norman Makoto Su",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Postphenomenological Insights from an In-the-Wild Collective Sensing System Deployment for PTSD Therapy",
+        "authors": "Nathaniel Swinger; Myeonghan Ryu; Cynthia M Baseman; Kefan Xu; Andrew M Sherrill; Rosa I. Arriaga",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "YouCred: An Online Tool Co-Designed with Fact-Checkers for Misinformation Discovery on YouTube",
+        "authors": "Prerna Juneja; Dongkai Xie; Guangyin Ye; Tanushree Mitra",
+        "award_type": "best_paper",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Shaping Collaborations with Algorithms: How Agency and Diversity Criteria Influence Team Formation and Outcomes",
+        "authors": "Diego Gómez-Zará; Victoria A Kam; Charles Chiang; Jiarui Xia; Ploenta Voraprukpisut; Leslie A. DeChurch; Noshir Contractor",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Making the Internet Work: Case Study in a Socialist, Low-Income Country Under US Sanctions",
+        "authors": "Clara Rosa Cardoso; Peter Tolmie; Kaoru Misaki; Volker Wulf",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Beyond the Signature: Addressing Informed Consent Challenges in Dementia Technology-Based Research",
+        "authors": "Yvon Ruitenburg; Minha Lee; Wijnand IJsselsteijn; Panos Markopoulos",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Designing Accessible Interfaces to Enhance Collective Musical Engagement for and with Children with Autism",
+        "authors": "Théo Jourdan; Baptiste Caramiaux; Alejandro VanZandt-Escobar",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Teacher-AI Collaboration for Curating and Customizing Lesson Plans in Low-Resource Schools",
+        "authors": "Deepak Varuvel Dennison; Bakhtawar Ahtisham; Kavyansh Chourasia; Nirmit Arora; Rahul Singh; Rene F. Kizilcec; Akshay Nambi; Tanuja Ganu; Aditya Vashistha",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "\"I Just Don't Want My Work Being Fed Into The AI Blender\": Queer Artists on Refusing and Resisting Generative AI",
+        "authors": "Jordan Taylor; Joel Mire; Alicia DeVrio; Maarten Sap; Haiyi Zhu; Sarah E Fox",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Keeping Societies in the Loop: Citizen Dialogues on Facial Processing Technologies in Bolivia, India, Nigeria, Japan, and Germany",
+        "authors": "Chiara Ullstein; Michel Hohendanner; Jens Grossklags; Olusola Babalola; Bukola Abimbola Onyekwelu; Amelia Katirai; Aimi Ozaki; Jun Kuribayashi; Arisa Ema; Nikhil Sharma; Srija Naskar; Nidhi Singh; Indiana Karina Jordan Barros; Naira Paola Arnez Jordan",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Situated Practice Systems: A Computational System for Supporting the Coaching and Practice of Self-Regulation Skills for Innovation Work",
+        "authors": "Kapil Garg; Darren Gergle; Haoqi Zhang",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Constructing Algorithmic Authority: How Multi-Channel Networks (MCNs) Govern Live-Streaming Labor in China",
+        "authors": "Qing Xiao; Rongyi Chen; Jingjia Xiao; Tianyang Fu; Alice Qian; Xianzhe Fan; Bingbing Zhang; Zhicong Lu; Hong Shen",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Re-Tell the Fortune so I Can Believe It: How Chinese User Communities Engage with and Interpret GenAI-based Fortune Telling",
+        "authors": "Long Ling; Xiyu Zheng; Gengchen Cao; RAY LC",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "To Tango or to Disentangle? Making Ethnography Public in the Digital Age",
+        "authors": "Daniel Mwesigwa; Cyan DeVeaux; Palashi Vaghela",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "CoNewsReader: Supporting Comprehensive Understanding and Raising Critical Thoughts on Social Media News Through Comments",
+        "authors": "Kangyu Yuan; Guanzheng Chen; Sizhe Liang; Hehai Lin; Qingyu Guo; Dingdong Liu; Xiaojuan Ma; Zhenhui Peng",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Feeling that I was Collaborating with Them: A 20-year Scoping Review of Social Virtual Reality Leveraging Collaboration",
+        "authors": "Niloofar Sayadi; Sadie Co; Diego Gómez-Zará",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "FareShare: A Tool for Labor Organizers to Estimate Lost Wages and Contest Arbitrary AI and Algorithmic Deactivations",
+        "authors": "Varun Nagaraj Rao; Samantha Dalal; Andrew Schwartz; Amna Liaqat; Dana Calacci; Andrés Monroy-Hernández",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Gaze-to-Body: Addressing Expressive Gaps of Desktop Users in Hybrid VR Meetings through Gaze-Driven Head-Controlled Avatars",
+        "authors": "Ching Huang; Meng Ting Shih; Yu Chuan Chen; Rong-Hao Liang; Liwei Chan",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Toward the Development of Online Spiritual Care Communities: A Large-Scale Survey of Spiritual Care Stakeholders to Establish Initial Design Directions, Acceptability, and Feasibility",
+        "authors": "Jesan Ahammed Ovi; Alemitu Bezabih; Anne-Marie Snider; Shadi Nourriz; Daniel McKenzie; C. Estelle Smith",
+        "award_type": "honorable_mention",
+        "tags": [],
+        "paper_url": null
+      }
+    ],
+    "corrections": [
+      {
+        "match": {
+          "conference_slug": "concur",
+          "year": 2026,
+          "paper_title": "A New Type System for Deadlock-Free Processes",
+          "award_type": "test_of_time"
+        },
+        "changes": {
+          "paper_url": "https://doi.org/10.1007/11817949_16"
+        },
+        "source_url": "https://confest-2026.github.io/concur/",
+        "notes": "Official Test-of-Time entry hyperlinks publisher DOI."
+      },
+      {
+        "match": {
+          "conference_slug": "concur",
+          "year": 2026,
+          "paper_title": "Strategy Logic",
+          "award_type": "test_of_time"
+        },
+        "changes": {
+          "paper_url": "https://doi.org/10.1007/978-3-540-74407-8_5"
+        },
+        "source_url": "https://confest-2026.github.io/concur/",
+        "notes": "Official Test-of-Time entry hyperlinks publisher DOI."
+      }
+    ],
+    "evidence": [
+      {
+        "conference_slug": "crypto",
+        "year": 2026,
+        "paper_title": "CORAL: Faster Isogeny Group Action for Post-Quantum NIKE",
+        "award_type": "best_paper_early_career",
+        "source_url": "https://crypto.iacr.org/2026/json/program.json",
+        "quote": "Best Paper Authored by Early Career Researchers",
+        "notes": "Independent review identified paperId 425, talk-164. Direct live official JSON recheck confirms exact talkNote, title, four authors and DOI. Corrects prior false hold caused by incomplete award extraction."
+      },
+      {
+        "conference_slug": "noms",
+        "year": 2026,
+        "paper_title": "Rethinking Telemetry Design for Fine-Grained Anomaly Detection in 5G User Planes",
+        "award_type": "best_paper",
+        "source_url": "https://noms2026.ieee-noms.org/",
+        "quote": "Best Paper Award",
+        "notes": "Live official homepage award section explicitly pairs this title with all four authors; affiliations stripped. curl access works where web/urllib returned errors."
+      },
+      {
+        "conference_slug": "noms",
+        "year": 2026,
+        "paper_title": "A Discrete-Time Model of the Token Bucket Shaper for Real-Time Networking",
+        "award_type": "best_student_paper",
+        "source_url": "https://noms2026.ieee-noms.org/",
+        "quote": "Best Student Paper Award",
+        "notes": "Live official homepage award section explicitly pairs this title with all six authors; affiliations stripped. Demo and personal service award excluded."
+      },
+      {
+        "conference_slug": "concur",
+        "year": 2026,
+        "paper_title": "Reachability in Fixed-Dimensional Continuous VASS",
+        "award_type": "best_paper",
+        "source_url": "https://confest-2026.github.io/concur/",
+        "quote": "The winner (highlighted above)",
+        "notes": "Official HTML bolds only this nominee; publisher corroborates full title, authors and DOI."
+      },
+      {
+        "conference_slug": "srds",
+        "year": 2026,
+        "paper_title": "Cerberus: Latency-Aware Scheduling with Graceful Degradation for Constrained Edge Infrastructures",
+        "award_type": "best_paper",
+        "source_url": "https://srds-conference.org/index.php/awards/",
+        "quote": "Best Paper Award",
+        "notes": "Live official HTML verifies title/authors beneath this award heading; web open cached content was stale."
+      },
+      {
+        "conference_slug": "srds",
+        "year": 2026,
+        "paper_title": "Assessing the Effect of Timing Faults in Edge AI Accelerators via Driver-Level Fault Injection",
+        "award_type": "best_student_paper",
+        "source_url": "https://srds-conference.org/index.php/awards/",
+        "quote": "Best Student Paper Award",
+        "notes": "Live official HTML verifies title/authors beneath this award heading; web open cached content was stale."
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "To Copilot and Beyond: 22 AI Systems Developers Want Built",
+        "award_type": "distinguished_paper",
+        "source_url": "https://conf.researchr.org/program/icsme-2026/program-icsme-2026/",
+        "quote": "Distinguished Paper Award",
+        "notes": "Official program data-facet-badge and image alt explicitly mark this entry Distinguished Paper Award; not inferred from session position."
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Code Review is a Conversation: Toward Conversational AI Review Assistants",
+        "award_type": "distinguished_paper",
+        "source_url": "https://conf.researchr.org/program/icsme-2026/program-icsme-2026/",
+        "quote": "Distinguished Paper Award",
+        "notes": "Official program data-facet-badge and image alt explicitly mark this entry Distinguished Paper Award; not inferred from session position."
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Towards Knowledge Alignment in Code LLMs: Contrastive Unlearning for Evolving APIs",
+        "award_type": "distinguished_paper",
+        "source_url": "https://conf.researchr.org/program/icsme-2026/program-icsme-2026/",
+        "quote": "Distinguished Paper Award",
+        "notes": "Official program data-facet-badge and image alt explicitly mark this entry Distinguished Paper Award; not inferred from session position."
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Question Answering for Diagram-Rich Technical Meeting Videos",
+        "award_type": "distinguished_paper",
+        "source_url": "https://conf.researchr.org/program/icsme-2026/program-icsme-2026/",
+        "quote": "Distinguished Paper Award",
+        "notes": "Official program data-facet-badge and image alt explicitly mark this entry Distinguished Paper Award; not inferred from session position."
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Optimizing Spectral Signature in Code Backdoor Detection",
+        "award_type": "distinguished_paper",
+        "source_url": "https://conf.researchr.org/program/icsme-2026/program-icsme-2026/",
+        "quote": "Distinguished Paper Award",
+        "notes": "Official program data-facet-badge and image alt explicitly mark this entry Distinguished Paper Award; not inferred from session position."
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "\"It Comes in Notebooks\": Changes and Challenges When Operationalizing ML Prototypes",
+        "award_type": "distinguished_paper",
+        "source_url": "https://conf.researchr.org/program/icsme-2026/program-icsme-2026/",
+        "quote": "Distinguished Paper Award",
+        "notes": "Official program data-facet-badge and image alt explicitly mark this entry Distinguished Paper Award; not inferred from session position."
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "DebTrace: Tracing, Verifying, and Revisiting a Decade of Debian Reproducibility",
+        "award_type": "distinguished_paper",
+        "source_url": "https://conf.researchr.org/program/icsme-2026/program-icsme-2026/",
+        "quote": "Distinguished Paper Award",
+        "notes": "Official program data-facet-badge and image alt explicitly mark this entry Distinguished Paper Award; not inferred from session position."
+      },
+      {
+        "conference_slug": "icsme",
+        "year": 2026,
+        "paper_title": "Smelly Bad Practices in Performance System Tests: Detection, Prevalence, and Lifetime",
+        "award_type": "distinguished_paper",
+        "source_url": "https://conf.researchr.org/program/icsme-2026/program-icsme-2026/",
+        "quote": "Distinguished Paper Award",
+        "notes": "Official program data-facet-badge and image alt explicitly mark this entry Distinguished Paper Award; not inferred from session position."
+      },
+      {
+        "conference_slug": "crypto",
+        "year": 2026,
+        "paper_title": "An attack on the CFS scheme and on TII McEliece challenges",
+        "award_type": "best_paper",
+        "source_url": "https://crypto.iacr.org/2026/json/program.json",
+        "quote": "Best Paper Award",
+        "notes": "Public JSON loaded by official program.php; paperId 711 talkNote explicitly Best Paper Award."
+      },
+      {
+        "conference_slug": "pakdd",
+        "year": 2026,
+        "paper_title": "From Soft Logic to Hard Rules: A Differentiable Boolean Framework for Interpretable and Balanced Classification",
+        "award_type": "best_paper",
+        "source_url": "https://pakdd.org/awards.html",
+        "quote": "Best Paper Award",
+        "notes": "Official 2026 award section and Springer chapter corroborate title/authors/DOI."
+      },
+      {
+        "conference_slug": "disc",
+        "year": 2026,
+        "paper_title": "Non-Leaking Concurrent Objects",
+        "award_type": "best_paper",
+        "source_url": "https://www.disc-conference.org/wp/disc2026/best-paper-award/",
+        "quote": "Best Paper Award",
+        "notes": "Official committee has already selected awards despite November event; arXiv corroborates titles/authors."
+      },
+      {
+        "conference_slug": "disc",
+        "year": 2026,
+        "paper_title": "Solvability of Approximate Agreement on Graphs and Simplicial Complexes",
+        "award_type": "best_student_paper",
+        "source_url": "https://www.disc-conference.org/wp/disc2026/best-paper-award/",
+        "quote": "Best Student Paper Award",
+        "notes": "Official committee has already selected awards despite November event; arXiv corroborates titles/authors."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Bridging Instead of Replacing Online Coding Communities with AI through Community-Enriched Chatbot Designs",
+        "award_type": "best_paper",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Best Paper Award",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Voice to Vision: Enabling Shared Understanding in Civic Decision-Making through Participatory Data Infrastructure",
+        "award_type": "best_paper",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Best Paper Award",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Impasse of Data-Drivenness: Bureaucratic Data Work and Reproduced Siloed Governance in Coordinating Smart Cities",
+        "award_type": "best_paper",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Best Paper Award",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Expecting Too Much, Getting Too Little: Exploring the Challenges and Design Opportunities of Asynchronous AI Interviewers",
+        "award_type": "best_paper",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Best Paper Award",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "We Need Granular Sharing of De-Identified Data—But Will Patients Engage? Investigating Health System Leaders' and Patients' Perspectives on A Patient-Controlled Data-Sharing Platform",
+        "award_type": "best_paper",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Best Paper Award",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "From Mediation to Escalation: Buffer Spaces for Workplace Concern Reporting",
+        "award_type": "best_paper",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Best Paper Award",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Postphenomenological Insights from an In-the-Wild Collective Sensing System Deployment for PTSD Therapy",
+        "award_type": "best_paper",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Best Paper Award",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "YouCred: An Online Tool Co-Designed with Fact-Checkers for Misinformation Discovery on YouTube",
+        "award_type": "best_paper",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Best Paper Award",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Shaping Collaborations with Algorithms: How Agency and Diversity Criteria Influence Team Formation and Outcomes",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Making the Internet Work: Case Study in a Socialist, Low-Income Country Under US Sanctions",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Beyond the Signature: Addressing Informed Consent Challenges in Dementia Technology-Based Research",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Designing Accessible Interfaces to Enhance Collective Musical Engagement for and with Children with Autism",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Teacher-AI Collaboration for Curating and Customizing Lesson Plans in Low-Resource Schools",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "\"I Just Don't Want My Work Being Fed Into The AI Blender\": Queer Artists on Refusing and Resisting Generative AI",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Keeping Societies in the Loop: Citizen Dialogues on Facial Processing Technologies in Bolivia, India, Nigeria, Japan, and Germany",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Situated Practice Systems: A Computational System for Supporting the Coaching and Practice of Self-Regulation Skills for Innovation Work",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Constructing Algorithmic Authority: How Multi-Channel Networks (MCNs) Govern Live-Streaming Labor in China",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Re-Tell the Fortune so I Can Believe It: How Chinese User Communities Engage with and Interpret GenAI-based Fortune Telling",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "To Tango or to Disentangle? Making Ethnography Public in the Digital Age",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "CoNewsReader: Supporting Comprehensive Understanding and Raising Critical Thoughts on Social Media News Through Comments",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Feeling that I was Collaborating with Them: A 20-year Scoping Review of Social Virtual Reality Leveraging Collaboration",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "FareShare: A Tool for Labor Organizers to Estimate Lost Wages and Contest Arbitrary AI and Algorithmic Deactivations",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Gaze-to-Body: Addressing Expressive Gaps of Desktop Users in Hybrid VR Meetings through Gaze-Driven Head-Controlled Avatars",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      },
+      {
+        "conference_slug": "cscw",
+        "year": 2026,
+        "paper_title": "Toward the Development of Online Spiritual Care Communities: A Large-Scale Survey of Spiritual Care Stakeholders to Establish Initial Design Directions, Acceptability, and Feasibility",
+        "award_type": "honorable_mention",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "quote": "Honorable Mentions",
+        "notes": "Exact title and authors parsed from corresponding official award section; affiliations stripped, terminal title punctuation normalized. Paper link not supplied, retained null."
+      }
+    ],
+    "coverage": [
+      {
+        "conference_slug": "noms",
+        "status": "add_2",
+        "source_url": "https://noms2026.ieee-noms.org/",
+        "notes": "Overall and student winners explicit; demo/person award excluded. Initial access failure resolved using curl."
+      },
+      {
+        "conference_slug": "isca",
+        "status": "existing",
+        "source_url": "https://www.iscaconf.org/isca2026/",
+        "notes": "Two Best Paper winners already match seed."
+      },
+      {
+        "conference_slug": "ics",
+        "status": "existing",
+        "source_url": "https://dipsa-qub.github.io/ICS2026-webpage/",
+        "notes": "OCTANE Best Paper already matches seed, including verified DOI."
+      },
+      {
+        "conference_slug": "mfcs",
+        "status": "existing",
+        "source_url": "https://mfcs2026.irif.fr/",
+        "notes": "Best Paper1 and Student2 all match seed."
+      },
+      {
+        "conference_slug": "cluster",
+        "status": "hold",
+        "source_url": "https://clustercomp.org/2026/program/",
+        "notes": "Official home/program/news contain no final paper award winner."
+      },
+      {
+        "conference_slug": "eccv",
+        "status": "hold",
+        "source_url": "https://eccv.ecva.net/Conferences/2026",
+        "notes": "Official live awards navigation says coming soon with empty href; workshop results excluded."
+      },
+      {
+        "conference_slug": "ecml-pkdd",
+        "status": "hold",
+        "source_url": "https://ecmlpkdd.org/2026/",
+        "notes": "2026 navigation still points awards to 2025; 2026 awards path unavailable."
+      },
+      {
+        "conference_slug": "esorics",
+        "status": "hold",
+        "source_url": "https://sites.google.com/di.uniroma1.it/esorics2026/",
+        "notes": "Official award policy found, no final winner list."
+      },
+      {
+        "conference_slug": "icip",
+        "status": "hold",
+        "source_url": "https://2026.ieeeicip.org/",
+        "notes": "No final main award winners found; WIP/sponsor and industry finalists not treated as main winners."
+      },
+      {
+        "conference_slug": "icsme",
+        "status": "add_8",
+        "source_url": "https://conf.researchr.org/program/icsme-2026/program-icsme-2026/",
+        "notes": "8 supported award badges; excluded collocated SCAM 2 and ICSME tool/demo 2 under existing scope convention."
+      },
+      {
+        "conference_slug": "iros",
+        "status": "hold_ongoing",
+        "source_url": "https://2026.ieee-iros.org/",
+        "notes": "Sep27–Oct1 event ongoing; no final main awards confirmed; finalists and workshop awards excluded."
+      },
+      {
+        "conference_slug": "miccai",
+        "status": "hold_unavailable",
+        "source_url": "https://conferences.miccai.org/2026/",
+        "notes": "Edition website returned 520. Followup society page https://miccai.org/upcoming-conferences/ explicitly confirms relocation Abu Dhabi to Strasbourg and revised Sep27–Oct1 dates; seed is correct, older sponsor metadata stale. No final paper winners confirmed."
+      },
+      {
+        "conference_slug": "recsys",
+        "status": "hold_ongoing",
+        "source_url": "https://recsys.acm.org/recsys26/recsys-26-lasting-impact-award/",
+        "notes": "Sep28–Oct2 event ongoing; lasting-impact page is nomination call, not winner announcement."
+      },
+      {
+        "conference_slug": "icpp",
+        "status": "hold_ongoing",
+        "source_url": "https://icpp2026.github.io/",
+        "notes": "Sep28–Oct1 event ongoing; no final winners."
+      },
+      {
+        "conference_slug": "avss",
+        "status": "hold",
+        "source_url": "https://www.avss2026.org/",
+        "notes": "No final award winner text; keynote biography awards not conference winners."
+      },
+      {
+        "conference_slug": "concur",
+        "status": "add_1_correct_2",
+        "source_url": "https://confest-2026.github.io/concur/",
+        "notes": "1 Best Paper explicit highlighted winner among 5 nominees; 2 existing Test-of-Time DOI links recovered."
+      },
+      {
+        "conference_slug": "iiswc",
+        "status": "hold_ongoing",
+        "source_url": "https://iiswc.org/iiswc2026/program.html",
+        "notes": "Best Paper Session contains 7 papers and award ceremony; no final winner designation."
+      },
+      {
+        "conference_slug": "srds",
+        "status": "add_2",
+        "source_url": "https://srds-conference.org/index.php/awards/",
+        "notes": "2 current official winners; live HTML and search agree, web-open snapshot stale."
+      },
+      {
+        "conference_slug": "esa",
+        "status": "hold",
+        "source_url": "https://algo-conference.org/2026/esa/",
+        "notes": "Award policy found; no final winner designation."
+      },
+      {
+        "conference_slug": "vldb",
+        "status": "existing_plus_hold",
+        "source_url": "https://www.vldb.org/2026/conference-awards.html",
+        "notes": "Existing Best1/HM3/Test-of-Time1 complete. OmniTable best industry and FastCompose industry honorable mention held for exact subtype."
+      },
+      {
+        "conference_slug": "mobilehci",
+        "status": "hold",
+        "source_url": "https://mobilehci.acm.org/2026/program/program-at-a-glance.html",
+        "notes": "4 generic Award Winning badges still lack award subtype."
+      },
+      {
+        "conference_slug": "soups",
+        "status": "hold",
+        "source_url": "https://soups.page/2026/program.html",
+        "notes": "Opening awards session only; USENIX proceedings also lack winner markers."
+      },
+      {
+        "conference_slug": "icpr",
+        "status": "hold",
+        "source_url": "https://www.icpr2026.org/program.html",
+        "notes": "Awards sessions only; independent author claims not official winner list."
+      },
+      {
+        "conference_slug": "case",
+        "status": "hold",
+        "source_url": "https://ras.papercept.net/conferences/scripts/rtf/CASE26_ProgramAtAGlanceWeb.html",
+        "notes": "Award sessions only, not final title-author winners; workshop poster/presentation awards excluded."
+      },
+      {
+        "conference_slug": "re",
+        "status": "hold",
+        "source_url": "https://conf.researchr.org/home/RE-2026",
+        "notes": "No exact winner list. History site is empty JS shell."
+      },
+      {
+        "conference_slug": "crypto",
+        "status": "add_2",
+        "source_url": "https://crypto.iacr.org/2026/json/program.json",
+        "notes": "Best paper and CORAL Early Career award both explicit in live program JSON (paperId 711 and 425). Independent review resolved prior incomplete extraction."
+      },
+      {
+        "conference_slug": "kdd",
+        "status": "hold",
+        "source_url": "https://kdd2026.kdd.org/papers/",
+        "notes": "No final official winner list; institutional/author claims alone not used."
+      },
+      {
+        "conference_slug": "csf",
+        "status": "hold",
+        "source_url": "https://program.floc26.org/CSF-index",
+        "notes": "Official accepted list and detailed program have no winner badges."
+      },
+      {
+        "conference_slug": "ijcar",
+        "status": "hold",
+        "source_url": "https://program.floc26.org/IJCAR-2026-07-26",
+        "notes": "Award presentations identify chairs, not awarded title/authors; no inference."
+      },
+      {
+        "conference_slug": "sigir",
+        "status": "hold",
+        "source_url": "https://sigir.org/awards/best-paper-awards/",
+        "notes": "Official historical list stops at 2025."
+      },
+      {
+        "conference_slug": "cloud",
+        "status": "hold_stale",
+        "source_url": "https://services.conferences.computer.org/2026/awards/",
+        "notes": "Path 2026 but live heading explicitly SERVICES 2025 AWARDS; do not relabel."
+      },
+      {
+        "conference_slug": "icws",
+        "status": "hold_stale",
+        "source_url": "https://services.conferences.computer.org/2026/awards/",
+        "notes": "Path 2026 but live heading explicitly SERVICES 2025 AWARDS; do not relabel."
+      },
+      {
+        "conference_slug": "iui",
+        "status": "hold",
+        "source_url": "https://iui.acm.org/2026/",
+        "notes": "Official Best Paper Award video link exists but video unavailable; no title/authors accessible. Institutional OntoScope HM claim not independently official."
+      },
+      {
+        "conference_slug": "icdcs",
+        "status": "hold",
+        "source_url": "https://icdcs2026.icdcs.org/",
+        "notes": "No official final awards found; prior incomplete third-party list still not sufficient."
+      },
+      {
+        "conference_slug": "lctes",
+        "status": "hold",
+        "source_url": "https://pldi26.sigplan.org/home/LCTES-2026",
+        "notes": "Distinguished award policy and artifact badges only, no final winner marker."
+      },
+      {
+        "conference_slug": "pakdd",
+        "status": "add_1_plus_hold",
+        "source_url": "https://pakdd.org/awards.html",
+        "notes": "2026 Best verified against publisher. Student title repeats 2025 with conflicting authors; influential/survey exact subtypes unsupported."
+      },
+      {
+        "conference_slug": "cscw",
+        "status": "add_24_plus_hold",
+        "source_url": "https://cscw.acm.org/2026/awards.html",
+        "notes": "8 Best +16 Honorable Mention. Lasting Impact subtype held; Impact5/Methods4/DEI7 recognitions excluded."
+      },
+      {
+        "conference_slug": "disc",
+        "status": "add_2",
+        "source_url": "https://www.disc-conference.org/wp/disc2026/best-paper-award/",
+        "notes": "Best1/Student1 selected officially before November event."
+      },
+      {
+        "conference_slug": "conll",
+        "status": "existing",
+        "source_url": "https://www.conll.org/2026",
+        "notes": "Best1/Outstanding2 official award session matches all 3 existing rows."
+      }
+    ],
+    "holds": [
+      {
+        "conference_slug": "cscw",
+        "award": "Lasting Impact Award",
+        "paper_title": "Harnessing the wisdom of crowds in wikipedia: quality through coordination",
+        "authors": "Aniket Kittur; Robert E. Kraut",
+        "paper_url": "https://dl.acm.org/doi/abs/10.1145/1460563.1460572",
+        "reason": "No exact Lasting Impact enum; do not silently map to test_of_time.",
+        "source_url": "https://cscw.acm.org/2026/awards.html"
+      },
+      {
+        "conference_slug": "pakdd",
+        "award": "Best Student Paper",
+        "reason": "2026 official student entry repeats DiPPSI title from 2025 with authors Yujin Park; Haejun Chung; Ikbeom Jang, contradicting prior title-author pairing. Hold pending corrected official source.",
+        "source_url": "https://pakdd.org/awards.html"
+      },
+      {
+        "conference_slug": "pakdd",
+        "award": "Most Influential Paper; Best Survey Paper",
+        "reason": "DeepCare influential and Memory in LLM-based Multi-agent Systems survey awards have no exact domain enum.",
+        "source_url": "https://pakdd.org/awards.html"
+      }
+    ]
+  }
+}

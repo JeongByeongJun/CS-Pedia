@@ -1,64 +1,75 @@
-## 주간 업데이트 결과 (2026-09-09)
+## 업데이트 결과 (2026-09-28)
 
-### ✅ 데드라인 연장 확인
+### 적용 요약
 
-- **FC 2027**: paper `2026-09-17 → 2026-09-24 23:59 AoE`, notification `11-05 → 11-12` 공식 연장.
-- **PerCom 2027**: abstract `09-04 → 09-11`, paper `09-11 → 09-18 23:59 AoE`, notification `12-18` 공식 연장.
-- 변경 없음: ASPLOS, CGO, CHI, HRI, DATE, FAST, ICRA, EUROCRYPT, NSDI, ICLR abstract, SPAA abstract, EuroSys fall, SANER abstract.
-- 상세/공식 URL: `scripts/deadline-report.md`의 `2026-09-09 Phase 1~7 전수 재조사` 참조.
+- Deadline Check: Phase 1–7, 등록 학회 209개 모두 조사 시도. 접근 실패·잠정 일정·공식 문서 충돌은 확정 검증과 구분해 기록했다.
+- Deadline: 368 → 403행. 새 행 35개(제출 일정 8개, 행사 일정만 27개), 기존 53행 보정. 총 74개 학회 관련 변경.
+- 기존 행사-only ICMR 2027에 확정 CFP를 보완했다. 따라서 새 CFP/마감 확보는 9개 학회.
+- 공식 홈페이지/CFP 링크 10개 갱신.
+- Best Paper: 39개 회차 확인, 8개 학회 수상작 42편 추가. 기존 CONCUR DOI 링크 2건 보강. 전체 1,980 → 2,022편.
+- 화면 업데이트 일자: 2026.09.28. Best Paper 화면·메타데이터 건수도 2,022로 수정.
 
-### 📋 새 CFP / deadline 업데이트
+### Phase별 적용
 
-- Phase 1~7의 209개 학회를 phase별 sub-agent로 전수 확인.
-- 신규 full CFP/새 cycle 작업: **18개 학회, 19개 deadline row** — 신규 16개 row + 기존 conference-only row 3개(HRI, ICAPS, ISMB/ECCB) 보완. OOPSLA는 2개 cycle.
-- 주요 FIX: 3DV timezone/시간, ACML notification, FG 2026 cycles, MASCOTS 연장, NDSS notifications, FC/PerCom 연장. DASFAA deadline 충돌은 HOLD하고 공식 Research Track URL만 갱신함.
-- 공식 페이지 내부 충돌 항목은 HOLD로 유지했고, clock/timezone만 미공개인 확정 일정은 값을 추정하지 않고 `timezone: null`로 반영함.
+| Phase | 조사 대상 | 신규 행 | 기존 수정 |
+| --- | ---: | ---: | ---: |
+| 1 | 30 | 1 | 10 |
+| 2 | 30 | 5 | 13 |
+| 3 | 30 | 6 | 2 |
+| 4 | 30 | 2 | 6 |
+| 5 | 30 | 7 | 5 |
+| 6 | 30 | 7 | 13 |
+| 7 | 29 | 7 | 4 |
+| 합계 | 209 | 35 | 53 |
 
-### 🏆 Best Paper 발표
+### 주요 deadline 변경
 
-- 최근 90일 종료 학회 중 seed 미반영 후보 **40개**를 공식 awards/program/proceedings 페이지로 확인.
-- 공식 발표 확인: **23개 slug, 중복 제거 후 144개 고유 award-paper 후보**.
-- 현재 enum에 정확히 맞아 반영한 후보: **135개**. award subtype 정책 결정 필요: **9개**.
-  - VLDB Best Industry Paper/Industry HM 2
-  - MobileHCI `Award Winning Paper` 4
-  - DAC Most Influential Paper 1
-  - ISMB Outstanding Student Paper 1
-  - SIGMETRICS Outstanding Student Paper 1
-- IJCAI/ECAI 공동 Distinguished Paper 3편은 한 세트만 저장해야 중복되지 않음.
-- ICDCS는 공식 전체 5편 중 4편만 외부 기관 페이지로 확인돼 전부 HOLD.
+- 새 CFP: DAC, ICDM, ICMR, MobiSys, NOMS, PAKDD, RECOMB, RSS, STOC의 2027 회차.
+- ICRA 2027: paper 9월 15일 → 16일 23:59 PST 공식 연장.
+- HiPC·KR·Pacific Graphics·IFIP SEC: UTC로 변환된 값을 다시 현지 시각으로 해석하던 seed 값을 공식 현지 날짜 + 별도 timezone 관례로 보정.
+- IPDPS: 자정 값 → 공식 end-of-day AoE, notification 2027-02-02 보완.
+- CRYPTO: AoE → 공식 US Pacific/PST. EDBT 6월·10월 cycle: 공식 PT에 맞춰 PDT.
+- SenSys·RTAS 2027: Boulder, 2027-05-17–20 개최 정보 반영.
+- NDSS fall notification 11월 4일 → 24일, INTERACT는 reviews 발송일 대신 실제 acceptance notification 4월 22일 반영.
+- RSS 2027: 신규 투고 진입 마감인 2026-12-04 6쪽 extended-abstract manuscript를 paper deadline으로 저장. 2027-04-16은 초청된 final paper만 제출 가능하므로 신규 투고 마감으로 표시하지 않음.
+- NOMS 2027: IM 통합 후 2027 회차 존재 확인. paper 2026-11-09는 날짜만 확정되어 자정 sentinel + timezone null; 마감 시각을 추정하지 않음.
 
-| 학회 | 신규 후보 | award 구성 | 공식 출처 |
-|------|----------:|-------------|-----------|
-| CONCUR | 2 | Test of Time 2; main winner는 강조표시 추출 불가로 HOLD | https://confest-2026.github.io/concur/ |
-| VLDB | 7 | Best 1, HM 3, Industry 2, Test of Time 1 | https://www.vldb.org/2026/conference-awards.html |
-| MobileHCI | 4 | Award Winning Paper 4, subtype 미공개 | https://mobilehci.acm.org/2026/program/program-at-a-glance.html |
-| ICFP | 4 | Distinguished 4 | https://icfp26.sigplan.org/track/icfp-2026-icfp-papers |
-| MFCS | 3 | Best 1, Best Student 2 | https://mfcs2026.irif.fr/ |
-| IJCAI/ECAI | 3 | 공동 Distinguished 3, 중복 저장 금지 | https://2026.ijcai.org/press/ |
-| SIGCOMM | 2 | 공동 Best Paper 2 | https://conferences.sigcomm.org/sigcomm/2026/program/papers/ |
-| UAI | 3 | Best 1, Runner-Up 1, HM 1 | https://www.auai.org/uai2026/schedule |
-| USENIX Security | 9 | Distinguished 9 | https://www.usenix.org/conference/usenixsecurity26/technical-sessions |
-| CCC | 3 | Best 1, Best Student 1, Test of Time 1 | https://computationalcomplexity.org/Archive/2026/program.html |
-| CAV | 8 | Distinguished 8 | https://program.floc26.org/CAV-index |
-| DAC | 2 | Best 1, Most Influential 1 | https://dac.com/dac-2026-general-society-awards |
-| ICLP | 5 | Best 1, Best Student 1, Test of Time 3 | https://logicprogramming.org/2026/09/iclp-2026-report/ |
-| CSEET | 2 | Best 2 | https://cseet26.techconf.org/track/award |
-| GECCO | 10 | Best 10 | https://prod-www.acm.bloomreach.cloud/conferences/best-paper-awards |
-| ISMB | 1 | Outstanding Student 1 | https://www.iscb.org/?id=122&view=category |
-| SCA | 3 | Best 1, HM 2 | https://computeranimation.org/awards.html |
-| ICS | 1 | Best 1 | https://dipsa-qub.github.io/ICS2026-webpage/ |
-| MDM | 2 | Best 1, Test of Time 1 | https://mdm-2026.github.io/program.html |
-| DIS | 63 | Best 16, HM 47 | https://dis.acm.org/2026/dis-2026-awards-and-recognition/ |
-| SIGMETRICS | 5 | Best 1, Outstanding Student 1, Runner-Up 3 | https://sigmetrics.hosting.acm.org/awards.shtml |
-| SEC | 2 | Best 1, Best Student 1 | https://www.ifipnews.org/ifip-tc11-brings-the-global-cybersecurity-community-to-perth-2/ |
+### Best Paper
 
-재확인 HOLD 17개: ESA, AVSS, SOUPS, ICPR, CASE, RE, CRYPTO, KDD, CSF, IJCAR, SIGIR, CLOUD, ICWS, IUI, ICDCS, LCTES, PAKDD.
+| 학회 | 추가 |
+| --- | ---: |
+| CSCW | 24 |
+| ICSME | 8 |
+| SRDS | 2 |
+| DISC | 2 |
+| NOMS | 2 |
+| CRYPTO | 2 |
+| CONCUR | 1 |
+| PAKDD | 1 |
 
-### 적용 상태
+구성: Best 14, Best Student 3, Distinguished 8, Honorable Mention 16, Early Career 1.
+직접 논문 URL을 확인하지 못한 31편은 null 유지. nominee/finalist, 워크숍·도구·데모 상, 불명확한 세부 수상 분류는 임의 반영하지 않았다.
+독립 리뷰에서 누락된 CRYPTO CORAL Early Career 수상을 발견해 최종 반영했다.
 
-- `deadlines.json`: 344 → 368개(`+24` 순증). 신규 CFP·cycle·일정 row를 추가하고 기존 61개 row를 보정함.
-- `conferences.json`: 공식 URL 19개를 최신 CFP/일정 페이지로 갱신함.
-- `best-papers.json`: 2026 공식 수상작 135편을 추가함. 신규 논리 중복 0, enum/schema 오류 0.
-- Best Paper 반영 구성: Best 41, Runner-Up 4, Best Student 5, Distinguished 24, Honorable Mention 53, Test of Time 8.
-- IJCAI/ECAI 공동 3편은 `ijcai`에만 저장했고, subtype 정책이 필요한 9편과 HOLD 17개 학회는 제외함.
-- 반영일: 2026-09-09. `public/data/**`는 기존 UUID·채택률·키워드 캐시를 보존해 재생성함. Supabase upsert는 설정된 프로젝트 도메인의 DNS `NXDOMAIN`으로 실행되지 않아 환경 URL 복구 후 재시도가 필요함.
+### 보류·검증 한계
+
+- DASFAA 2027: 공식 Research CFP/홈과 Important Dates가 서로 충돌. 기존 날짜도 행사 이후로 표시되는 문제가 있어 신뢰 가능한 마감으로 간주하면 안 되며, 이번에는 값 보류.
+- SIGIR 2027: 공식 일정이 PROPOSED. AVSS 2027도 잠정 일정으로 명시되어 미반영.
+- SAC 2027: 공식 날짜 10월 2일 EST는 확인했으나 정확한 cutoff clock은 확인하지 못했다. 기존 10월 3일 04:59 + EST 인코딩은 재검증 필요하며 이번에는 보류.
+- CGO notification, ICRA/ICPR 2028 행사 날짜, NOMS notification 등 공식 문서 충돌은 보류.
+- ISAAC notification은 공식 도메인의 검색 색인 자료로 확인했으며 실시간 페이지 접근은 실패했다.
+- ECCV awards coming soon, ECML-PKDD 링크는 2025 자료, CLOUD/ICWS의 2026 URL도 2025 awards를 제공하므로 새로운 2026 수상작으로 가져오지 않았다.
+- PAKDD 학생상 제목·저자 모순, MobileHCI 수상 subtype, CSCW Lasting Impact 등은 보류.
+- 세부 209개 coverage 및 접근 실패는 각 phase 보고서에 명시.
+
+### 저장·검증 상태
+
+- seed 및 배포용 public/data 정적 데이터 반영 완료. 기존 209개 UUID와 개별 학회 채택률·키워드 배열 보존.
+- acceptance-rates.json(사용자 기존 수정 포함), keyword-trends.json, top-keywords.json 원본 바이트 보존.
+- Supabase 프로젝트 도메인 DNS가 ENOTFOUND여서 DB upsert는 미실행. URL/프로젝트 복구 후 DB 동기화 필요.
+- 데이터 검증: 신규 논리 중복 0, 변경 행 날짜 순서·enum·정적 데이터 일치 검사 통과. 기존 author 배열형 546건은 수정하지 않고 검증 과정에서만 문자열로 정규화.
+- 자동 테스트 26개, TypeScript, 변경 화면 ESLint 통과. 프로덕션 빌드는 네트워크 제한 밖 재시도로 통과(기존 chart/middleware 경고는 유지).
+- 최종 별도 리뷰: review-2026-09-28-best-papers.md 및 review-2026-09-28-data.md 참조.
+- 2026-09-28 사용자 승인으로 이번 데이터 변경의 main 커밋·푸시 및 배포 빌드를 진행한다. DB 동기화는 위 DNS 문제로 별도 미완료 상태다.
+
+상세: [Deadline 보고서](deadline-report.md), [Best Paper 조사](research-2026-09-28-best-papers.md), [전체 변경 근거 JSON](research-2026-09-28-changes.json), [종료 학회 후속 목록](post-conf-report.md).

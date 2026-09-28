@@ -5,10 +5,10 @@ import { BestPaperClientSection } from "@/presentation/components/best-papers/be
 
 export const metadata: Metadata = {
   title: "CS Best Paper 수상 논문 목록",
-  description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 1,687건을 연도와 학회별로 확인하세요.",
+  description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 2,022건을 연도와 학회별로 확인하세요.",
   openGraph: {
     title: "CS Best Paper 수상 논문 목록 — CS-Pedia",
-    description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 1,687건을 연도와 학회별로 확인하세요.",
+    description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 2,022건을 연도와 학회별로 확인하세요.",
     url: "https://cs-pedia.io/best-papers",
     siteName: "CS-Pedia",
     locale: "ko_KR",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "CS Best Paper 수상 논문 목록 — CS-Pedia",
-    description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 1,687건을 연도와 학회별로 확인하세요.",
+    description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 2,022건을 연도와 학회별로 확인하세요.",
   },
   alternates: {
     canonical: "https://cs-pedia.io/best-papers",
@@ -58,7 +58,7 @@ export default async function BestPapersPage() {
             CS Best Paper Archive
           </h1>
           <p className="mt-1 text-sm text-zinc-500">
-            209개 주요 CS 학회의 Best Paper 수상 논문 1,687건을 연도와 학회별로 탐색하세요.
+            209개 주요 CS 학회의 Best Paper 수상 논문 2,022건을 연도와 학회별로 탐색하세요.
           </p>
         </div>
 

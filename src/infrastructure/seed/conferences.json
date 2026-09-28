@@ -177,7 +177,7 @@
     "field": "AI/ML",
     "sub_field": "Data Mining",
     "dblp_key": "conf/pakdd",
-    "website_url": "https://www.pakdd2026.org/"
+    "website_url": "https://www.pakdd2027.org/pages/calls/research"
   },
   {
     "slug": "ecml-pkdd",
@@ -217,7 +217,7 @@
     "field": "AI/ML",
     "sub_field": "Data Mining",
     "dblp_key": "conf/icdm",
-    "website_url": "http://icdm2026.neu.edu.cn/"
+    "website_url": "https://icdm2027-website.onrender.com/"
   },
   {
     "slug": "sdm",
@@ -1027,7 +1027,7 @@
     "field": "Theory",
     "sub_field": "Theory of Computation",
     "dblp_key": "conf/stoc",
-    "website_url": "https://acm-stoc.org/stoc2026/stoc2026-cfp.html"
+    "website_url": "https://acm-stoc.org/stoc2027/stoc2027-cfp.html"
   },
   {
     "slug": "soda",
@@ -1177,7 +1177,7 @@
     "field": "Networks",
     "sub_field": "Mobile Systems",
     "dblp_key": "conf/mobisys",
-    "website_url": "https://www.sigmobile.org/mobisys/2026/"
+    "website_url": "https://www.sigmobile.org/mobisys/2027/call_for_papers/"
   },
   {
     "slug": "sensys",
@@ -1257,7 +1257,7 @@
     "field": "Architecture",
     "sub_field": "Design Automation",
     "dblp_key": "conf/dac",
-    "website_url": "https://dac.com/2026"
+    "website_url": "https://dac.com/2027/program/research-manuscript-submissions"
   },
   {
     "slug": "date",
@@ -1267,7 +1267,7 @@
     "field": "Architecture",
     "sub_field": "Design Automation",
     "dblp_key": "conf/date",
-    "website_url": "https://www.date-conference.com/date-2027-call-papers"
+    "website_url": "https://www.date-conference.com/call-for-papers"
   },
   {
     "slug": "iccad",
@@ -1397,7 +1397,7 @@
     "field": "Robotics",
     "sub_field": "Robotics",
     "dblp_key": "conf/rss",
-    "website_url": "https://roboticsconference.org"
+    "website_url": "https://roboticsconference.org/information/cfp/"
   },
   {
     "slug": "corl",
@@ -1867,7 +1867,7 @@
     "field": "CV",
     "sub_field": "Multimedia Retrieval",
     "dblp_key": "conf/mir",
-    "website_url": "https://www.icmr2026.org/calls.html"
+    "website_url": "https://www.icmr2027.org/cfc"
   },
   {
     "slug": "icsoc",
@@ -1967,7 +1967,7 @@
     "field": "Networks",
     "sub_field": "Network Management",
     "dblp_key": "conf/noms",
-    "website_url": "https://noms2026.ieee-noms.org/"
+    "website_url": "https://noms2027.ieee-noms.org/authors/call-technical-session-paper"
   },
   {
     "slug": "nossdav",
@@ -1987,7 +1987,7 @@
     "field": "AI/ML",
     "sub_field": "Computational Biology",
     "dblp_key": "conf/recomb",
-    "website_url": "https://recomb.org/recomb2026/"
+    "website_url": "https://recomb.org/recomb2027/call_for_papers"
   },
   {
     "slug": "sac",

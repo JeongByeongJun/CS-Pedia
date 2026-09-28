@@ -1,5 +1,13 @@
 # Best Paper 2025-2026 Follow-up
 
+## 2026-09-28 반영
+
+- 39개 회차를 확인하고 8개 학회 공식 수상작 42편 추가, CONCUR 기존 DOI 2건 보강. 전체 1,980 → 2,022편.
+- CSCW 24, ICSME 8, SRDS/DISC/NOMS/CRYPTO 각 2, CONCUR/PAKDD 각 1.
+- 독립 검토에서 CRYPTO CORAL의 Early Career 수상을 추가 발견해 반영했다. 기존 CoNLL/ISCA/ICS/MFCS/ISPASS 수상작은 중복 추가하지 않았다.
+- 직접 논문 링크 미확인 31편은 null. 날짜 경로가 2026이어도 실제 2025 수상 목록인 CLOUD/ICWS 등은 제외했다.
+- [조사 및 보류 근거](research-2026-09-28-best-papers.md), [독립 리뷰](review-2026-09-28-best-papers.md), [정확한 항목·공식 출처 JSON](research-2026-09-28-changes.json).
+
 ## 2026-07-25 종료 학회 수상 결과 조사
 
 - 조사 대상: 2026-07-25까지 종료된 학회 중 2026 Best Paper seed가 없거나 이전 회차에서 보류된 학회

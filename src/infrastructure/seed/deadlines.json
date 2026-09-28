@@ -162,11 +162,12 @@
     "cycle": "main",
     "abstract_deadline": null,
     "paper_deadline": "2026-04-22T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-06-24T00:00:00Z",
     "conference_start": "2026-10-25",
     "conference_end": "2026-10-28",
     "venue": "Porto, Portugal",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "atc",
@@ -283,11 +284,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-05-16T23:59:00Z",
     "paper_deadline": "2026-05-23T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-08-07T00:00:00Z",
     "conference_start": "2026-11-07",
     "conference_end": "2026-11-11",
     "venue": "Rome, Italy",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "cluster",
@@ -295,12 +297,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-05-07T23:59:00Z",
     "paper_deadline": "2026-05-07T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-07-05T00:00:00Z",
     "conference_start": "2026-09-22",
     "conference_end": "2026-09-25",
     "venue": "Alexandria, VA, USA",
     "timezone": "AoE",
-    "updated_at": "2026-05-16"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "colt",
@@ -349,8 +351,8 @@
     "conference_start": "2026-08-17",
     "conference_end": "2026-08-20",
     "venue": "Santa Barbara, USA",
-    "timezone": "AoE",
-    "updated_at": "2026-07-25"
+    "timezone": "PST",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "cscw",
@@ -507,11 +509,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-03-05T23:59:00Z",
     "paper_deadline": "2026-03-12T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-05-27T00:00:00Z",
     "conference_start": "2026-09-07",
     "conference_end": "2026-09-11",
     "venue": "Naples, Italy",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "ecrts",
@@ -834,11 +837,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-02-03T23:59:00Z",
     "paper_deadline": "2026-02-06T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-04-20T00:00:00Z",
     "conference_start": "2026-07-07",
     "conference_end": "2026-07-10",
     "venue": "Egham, UK",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "icaps",
@@ -1081,13 +1085,14 @@
     "conference_slug": "icse",
     "year": 2027,
     "cycle": "main",
-    "abstract_deadline": "2026-06-23T23:59:00Z",
-    "paper_deadline": "2026-06-30T23:59:00Z",
+    "abstract_deadline": "2026-06-23T23:59:59Z",
+    "paper_deadline": "2026-06-30T23:59:59Z",
     "notification_date": "2026-10-20T00:00:00Z",
     "conference_start": "2027-04-25",
     "conference_end": "2027-05-01",
     "venue": "Dublin, Ireland",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "icsme",
@@ -1219,12 +1224,12 @@
     "cycle": "main",
     "abstract_deadline": "2027-01-25T23:59:00Z",
     "paper_deadline": "2027-02-01T23:59:00Z",
-    "notification_date": "2027-03-08T00:00:00Z",
+    "notification_date": "2027-04-22T00:00:00Z",
     "conference_start": "2027-08-23",
     "conference_end": "2027-08-27",
     "venue": "Tallinn, Estonia",
     "timezone": "AoE",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "iros",
@@ -1295,11 +1300,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-05-02T23:59:00Z",
     "paper_deadline": "2026-05-07T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-07-16T00:00:00Z",
     "conference_start": "2026-10-25",
     "conference_end": "2026-10-29",
     "venue": "Bari, Italy",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "itcs",
@@ -1587,12 +1593,12 @@
     "cycle": "second",
     "abstract_deadline": null,
     "paper_deadline": "2026-08-19T23:59:00Z",
-    "notification_date": "2026-11-04T00:00:00Z",
+    "notification_date": "2026-11-24T00:00:00Z",
     "conference_start": "2027-03-22",
     "conference_end": "2027-03-26",
     "venue": "Seoul, South Korea",
     "timezone": "AoE",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "neurips",
@@ -1773,14 +1779,14 @@
     "conference_slug": "pg",
     "year": 2026,
     "cycle": "main",
-    "abstract_deadline": "2026-06-02T11:59:00Z",
-    "paper_deadline": "2026-06-09T11:59:00Z",
-    "notification_date": "2026-07-31T00:00:00Z",
+    "abstract_deadline": "2026-06-01T23:59:00Z",
+    "paper_deadline": "2026-06-08T23:59:00Z",
+    "notification_date": "2026-08-04T00:00:00Z",
     "conference_start": "2026-10-06",
     "conference_end": "2026-10-09",
     "venue": "Singapore, Singapore",
     "timezone": "AoE",
-    "updated_at": "2026-06-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "pldi",
@@ -1946,12 +1952,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-05-21T23:59:00Z",
     "paper_deadline": "2026-05-26T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-07-25T00:00:00Z",
     "conference_start": "2026-12-09",
     "conference_end": "2026-12-11",
     "venue": "Yokohama, Japan",
     "timezone": "AoE",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "saner",
@@ -1997,11 +2003,11 @@
     "abstract_deadline": "2026-05-29T23:59:00Z",
     "paper_deadline": "2026-06-05T23:59:00Z",
     "notification_date": "2026-08-31T00:00:00Z",
-    "conference_start": null,
-    "conference_end": null,
-    "venue": "New York, USA",
+    "conference_start": "2027-05-17",
+    "conference_end": "2027-05-20",
+    "venue": "Boulder, CO, USA",
     "timezone": "AoE",
-    "updated_at": "2026-07-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "sigcomm",
@@ -2404,14 +2410,14 @@
     "conference_slug": "kr",
     "year": 2026,
     "cycle": "main",
-    "abstract_deadline": "2026-02-09T11:59:00Z",
-    "paper_deadline": "2026-02-14T11:59:00Z",
+    "abstract_deadline": "2026-02-08T23:59:00Z",
+    "paper_deadline": "2026-02-13T23:59:00Z",
     "notification_date": "2026-04-13T00:00:00Z",
     "conference_start": "2026-07-18",
     "conference_end": "2026-07-25",
     "venue": "Lisbon, Portugal",
     "timezone": "AoE",
-    "updated_at": "2026-06-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "percom",
@@ -2482,11 +2488,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-03-23T23:59:00Z",
     "paper_deadline": "2026-03-30T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-07-17T00:00:00Z",
     "conference_start": "2026-10-04",
     "conference_end": "2026-10-09",
     "venue": "Barcelona, Spain",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "cc",
@@ -2506,11 +2513,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-03-23T23:59:00Z",
     "paper_deadline": "2026-03-30T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-07-17T00:00:00Z",
     "conference_start": "2026-10-04",
     "conference_end": "2026-10-09",
     "venue": "Barcelona, Spain",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "cogsci",
@@ -2531,11 +2539,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-05-27T23:59:00Z",
     "paper_deadline": "2026-06-01T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-08-05T00:00:00Z",
     "conference_start": "2026-11-09",
     "conference_end": "2026-11-13",
     "venue": "Rome, Italy",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "eurocrypt",
@@ -2594,11 +2603,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-03-23T23:59:00Z",
     "paper_deadline": "2026-03-30T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-07-17T00:00:00Z",
     "conference_start": "2026-10-04",
     "conference_end": "2026-10-09",
     "venue": "Barcelona, Spain",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "esop",
@@ -2682,11 +2692,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-02-16T23:59:00Z",
     "paper_deadline": "2026-02-23T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-05-08T00:00:00Z",
     "conference_start": "2026-08-17",
     "conference_end": "2026-08-21",
     "venue": "Montreal, Canada",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "tacas",
@@ -2718,11 +2729,12 @@
     "cycle": "main",
     "abstract_deadline": null,
     "paper_deadline": "2026-05-04T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-06-05T00:00:00Z",
     "conference_start": "2026-09-01",
     "conference_end": "2026-09-03",
     "venue": "Lecce, Italy",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "bibm",
@@ -2767,11 +2779,12 @@
     "cycle": "main",
     "abstract_deadline": null,
     "paper_deadline": "2026-03-22T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-05-10T00:00:00Z",
     "conference_start": "2026-07-13",
     "conference_end": "2026-07-18",
     "venue": "Sydney, Australia",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "concur",
@@ -2792,12 +2805,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-02-20T23:59:00Z",
     "paper_deadline": "2026-03-01T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-05-10T00:00:00Z",
     "conference_start": "2026-07-20",
     "conference_end": "2026-07-22",
     "venue": "Florence, Italy",
     "timezone": "AoE",
-    "updated_at": "2026-06-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "fc",
@@ -2946,12 +2959,12 @@
     "cycle": "main",
     "abstract_deadline": null,
     "paper_deadline": "2026-02-28T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-03-30T00:00:00Z",
     "conference_start": "2026-06-03",
     "conference_end": "2026-06-05",
     "venue": "Pafos, Cyprus",
     "timezone": "AoE",
-    "updated_at": "2026-06-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "msst",
@@ -2984,12 +2997,12 @@
     "cycle": "main",
     "abstract_deadline": null,
     "paper_deadline": "2026-01-16T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-02-13T00:00:00Z",
     "conference_start": "2026-04-08",
     "conference_end": "2026-04-08",
     "venue": "Hong Kong SAR",
     "timezone": "AoE",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "recomb",
@@ -2997,11 +3010,12 @@
     "cycle": "main",
     "abstract_deadline": "2025-11-07T23:59:00Z",
     "paper_deadline": "2025-11-20T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-01-16T00:00:00Z",
     "conference_start": "2026-05-26",
     "conference_end": "2026-05-29",
     "venue": "Thessaloniki, Greece",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "sac",
@@ -3035,25 +3049,25 @@
     "cycle": "main",
     "abstract_deadline": "2026-05-01T23:59:00Z",
     "paper_deadline": "2026-05-07T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-07-04T00:00:00Z",
     "conference_start": "2026-10-06",
     "conference_end": "2026-10-08",
     "venue": "Oakland, CA, USA",
     "timezone": "AoE",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "sec",
     "year": 2026,
     "cycle": "main",
     "abstract_deadline": null,
-    "paper_deadline": "2025-12-20T11:59:00Z",
-    "notification_date": null,
+    "paper_deadline": "2025-12-19T23:59:00Z",
+    "notification_date": "2026-02-22T00:00:00Z",
     "conference_start": "2026-06-09",
     "conference_end": "2026-06-11",
     "venue": "Perth, Australia",
     "timezone": "AoE",
-    "updated_at": "2026-06-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "secon",
@@ -3087,12 +3101,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-02-12T23:59:00Z",
     "paper_deadline": "2026-02-19T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-05-19T00:00:00Z",
     "conference_start": "2026-08-23",
     "conference_end": "2026-08-26",
     "venue": "Hannover, Germany",
     "timezone": "AoE",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "srds",
@@ -3150,12 +3164,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-06-17T23:59:59Z",
     "paper_deadline": "2026-06-24T23:59:59Z",
-    "notification_date": null,
+    "notification_date": "2026-09-13T00:00:00Z",
     "conference_start": "2026-11-16",
     "conference_end": "2026-11-18",
     "venue": "Sendai, Japan",
     "timezone": "AoE",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "acsac",
@@ -3163,11 +3177,12 @@
     "cycle": "main",
     "abstract_deadline": null,
     "paper_deadline": "2026-05-26T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-09-08T00:00:00Z",
     "conference_start": "2026-12-07",
     "conference_end": "2026-12-11",
     "venue": "Los Angeles, CA, USA",
-    "timezone": "AoE"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "cgo",
@@ -3289,12 +3304,12 @@
     "cycle": "main",
     "abstract_deadline": null,
     "paper_deadline": "2026-05-21T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-08-14T00:00:00Z",
     "conference_start": "2026-12-07",
     "conference_end": "2026-12-11",
     "venue": "Hong Kong, China",
     "timezone": "AoE",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "isaac",
@@ -3302,12 +3317,12 @@
     "cycle": "main",
     "abstract_deadline": null,
     "paper_deadline": "2026-06-29T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-09-07T00:00:00Z",
     "conference_start": "2026-12-06",
     "conference_end": "2026-12-09",
     "venue": "Hangzhou, China",
     "timezone": "AoE",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "ieee-vr",
@@ -3370,8 +3385,8 @@
     "conference_start": "2027-04-06",
     "conference_end": "2027-04-09",
     "venue": "Lille, France",
-    "timezone": "PST",
-    "updated_at": "2026-07-25"
+    "timezone": "PDT",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "edbt",
@@ -3383,8 +3398,8 @@
     "conference_start": "2027-04-06",
     "conference_end": "2027-04-09",
     "venue": "Lille, France",
-    "timezone": "PST",
-    "updated_at": "2026-07-25"
+    "timezone": "PDT",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "hri",
@@ -3431,12 +3446,12 @@
     "cycle": "cycle1",
     "abstract_deadline": null,
     "paper_deadline": "2026-08-21T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-11-13T00:00:00Z",
     "conference_start": "2027-07-12",
     "conference_end": "2027-07-16",
     "venue": "Macau",
     "timezone": "AoE",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "asiaccs",
@@ -3444,12 +3459,12 @@
     "cycle": "cycle2",
     "abstract_deadline": null,
     "paper_deadline": "2026-12-11T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2027-03-31T00:00:00Z",
     "conference_start": "2027-07-12",
     "conference_end": "2027-07-16",
     "venue": "Macau",
     "timezone": "AoE",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "cgo",
@@ -3533,14 +3548,14 @@
     "conference_slug": "hipc",
     "year": 2026,
     "cycle": "main",
-    "abstract_deadline": "2026-07-02T11:59:00Z",
-    "paper_deadline": "2026-07-09T11:59:00Z",
-    "notification_date": null,
+    "abstract_deadline": "2026-07-01T23:59:00Z",
+    "paper_deadline": "2026-07-08T23:59:00Z",
+    "notification_date": "2026-09-18T00:00:00Z",
     "conference_start": "2026-12-16",
     "conference_end": "2026-12-19",
     "venue": "Bengaluru, India",
     "timezone": "AoE",
-    "updated_at": "2026-06-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "icaps",
@@ -3586,26 +3601,26 @@
     "year": 2027,
     "cycle": "main",
     "abstract_deadline": null,
-    "paper_deadline": "2026-09-15T23:59:00Z",
+    "paper_deadline": "2026-09-16T23:59:00Z",
     "notification_date": "2027-01-31T00:00:00Z",
     "conference_start": "2027-05-24",
     "conference_end": "2027-05-28",
     "venue": "Seoul, South Korea",
     "timezone": "PST",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "icmr",
     "year": 2027,
     "cycle": "main",
     "abstract_deadline": null,
-    "paper_deadline": null,
-    "notification_date": null,
+    "paper_deadline": "2027-01-31T23:59:59Z",
+    "notification_date": "2027-04-01T00:00:00Z",
     "conference_start": "2027-06-07",
     "conference_end": "2027-06-10",
     "venue": "Singapore",
     "timezone": "AoE",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "iros",
@@ -3678,12 +3693,12 @@
     "cycle": "main",
     "abstract_deadline": "2026-05-15T23:59:00Z",
     "paper_deadline": "2026-05-31T11:59:59Z",
-    "notification_date": null,
+    "notification_date": "2026-08-07T00:00:00Z",
     "conference_start": "2026-11-03",
     "conference_end": "2026-11-05",
     "venue": "Ghent, Belgium",
     "timezone": "AoE",
-    "updated_at": "2026-07-06"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "pets",
@@ -3691,12 +3706,12 @@
     "cycle": "Q1",
     "abstract_deadline": null,
     "paper_deadline": "2026-05-31T23:59:59Z",
-    "notification_date": null,
+    "notification_date": "2026-08-01T00:00:00Z",
     "conference_start": "2027-07-19",
     "conference_end": "2027-07-24",
     "venue": "Delft, Netherlands",
     "timezone": "AoE",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "pets",
@@ -3704,12 +3719,12 @@
     "cycle": "Q2",
     "abstract_deadline": null,
     "paper_deadline": "2026-08-31T23:59:59Z",
-    "notification_date": null,
+    "notification_date": "2026-11-01T00:00:00Z",
     "conference_start": "2027-07-19",
     "conference_end": "2027-07-24",
     "venue": "Delft, Netherlands",
     "timezone": "AoE",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "pets",
@@ -3717,12 +3732,12 @@
     "cycle": "Q3",
     "abstract_deadline": null,
     "paper_deadline": "2026-11-30T23:59:59Z",
-    "notification_date": null,
+    "notification_date": "2027-02-01T00:00:00Z",
     "conference_start": "2027-07-19",
     "conference_end": "2027-07-24",
     "venue": "Delft, Netherlands",
     "timezone": "AoE",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "pets",
@@ -3730,12 +3745,12 @@
     "cycle": "Q4",
     "abstract_deadline": null,
     "paper_deadline": "2027-02-28T23:59:59Z",
-    "notification_date": null,
+    "notification_date": "2027-05-01T00:00:00Z",
     "conference_start": "2027-07-19",
     "conference_end": "2027-07-24",
     "venue": "Delft, Netherlands",
     "timezone": "AoE",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "sdm",
@@ -3900,11 +3915,11 @@
     "abstract_deadline": null,
     "paper_deadline": "2026-08-03T23:59:00Z",
     "notification_date": "2026-10-07T00:00:00Z",
-    "conference_start": null,
-    "conference_end": null,
+    "conference_start": "2027-09-13",
+    "conference_end": "2027-09-17",
     "venue": "Tokyo, Japan",
     "timezone": "AoE",
-    "updated_at": "2026-07-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "csf",
@@ -3913,11 +3928,11 @@
     "abstract_deadline": null,
     "paper_deadline": "2026-10-15T23:59:00Z",
     "notification_date": "2026-12-14T00:00:00Z",
-    "conference_start": null,
-    "conference_end": null,
+    "conference_start": "2027-09-13",
+    "conference_end": "2027-09-17",
     "venue": "Tokyo, Japan",
     "timezone": "AoE",
-    "updated_at": "2026-07-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "csf",
@@ -3926,11 +3941,11 @@
     "abstract_deadline": null,
     "paper_deadline": "2027-01-28T23:59:00Z",
     "notification_date": "2027-04-05T00:00:00Z",
-    "conference_start": null,
-    "conference_end": null,
+    "conference_start": "2027-09-13",
+    "conference_end": "2027-09-17",
     "venue": "Tokyo, Japan",
     "timezone": "AoE",
-    "updated_at": "2026-07-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "dsn",
@@ -4001,14 +4016,14 @@
     "conference_slug": "ipdps",
     "year": 2027,
     "cycle": "main",
-    "abstract_deadline": "2026-10-01T00:00:00Z",
-    "paper_deadline": "2026-10-08T00:00:00Z",
-    "notification_date": null,
+    "abstract_deadline": "2026-10-01T23:59:00Z",
+    "paper_deadline": "2026-10-08T23:59:00Z",
+    "notification_date": "2027-02-02T00:00:00Z",
     "conference_start": "2027-06-01",
     "conference_end": "2027-06-05",
     "venue": "Seattle, WA, USA",
     "timezone": "AoE",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "mobicom",
@@ -4056,11 +4071,11 @@
     "abstract_deadline": null,
     "paper_deadline": "2026-11-05T23:59:00Z",
     "notification_date": "2027-01-28T00:00:00Z",
-    "conference_start": "2027-05-11",
-    "conference_end": "2027-05-14",
-    "venue": "New York City, NY, USA",
+    "conference_start": "2027-05-17",
+    "conference_end": "2027-05-20",
+    "venue": "Boulder, CO, USA",
     "timezone": "AoE",
-    "updated_at": "2026-07-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "secon",
@@ -4159,12 +4174,12 @@
     "cycle": "december",
     "abstract_deadline": "2025-12-05T23:59:00Z",
     "paper_deadline": "2025-12-12T23:59:00Z",
-    "notification_date": null,
+    "notification_date": "2026-03-31T00:00:00Z",
     "conference_start": "2026-12-07",
     "conference_end": "2026-12-10",
     "venue": "Utrecht, The Netherlands",
     "timezone": "AoE",
-    "updated_at": "2026-07-25"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "conext",
@@ -4355,11 +4370,11 @@
     "abstract_deadline": "2026-09-29T23:59:00Z",
     "paper_deadline": "2026-10-06T23:59:00Z",
     "notification_date": "2027-01-20T00:00:00Z",
-    "conference_start": null,
-    "conference_end": null,
-    "venue": null,
+    "conference_start": "2027-05-03",
+    "conference_end": "2027-05-06",
+    "venue": "Montreal, Canada",
     "timezone": "AoE",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "case",
@@ -4537,11 +4552,11 @@
     "abstract_deadline": "2026-10-29T23:59:00Z",
     "paper_deadline": "2026-11-05T23:59:00Z",
     "notification_date": "2027-01-28T00:00:00Z",
-    "conference_start": null,
-    "conference_end": null,
-    "venue": null,
+    "conference_start": "2027-05-17",
+    "conference_end": "2027-05-20",
+    "venue": "Boulder, CO, USA",
     "timezone": "AoE",
-    "updated_at": "2026-09-09"
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "iclp",
@@ -4586,14 +4601,14 @@
     "conference_slug": "middleware",
     "year": 2026,
     "cycle": "winter",
-    "abstract_deadline": "2025-12-09T00:00:00Z",
-    "paper_deadline": "2025-12-12T00:00:00Z",
+    "abstract_deadline": "2025-12-09T23:59:00Z",
+    "paper_deadline": "2025-12-12T23:59:00Z",
     "notification_date": "2026-03-06T00:00:00Z",
     "conference_start": "2026-12-14",
     "conference_end": "2026-12-18",
     "venue": "Tarragona, Spain",
-    "timezone": null,
-    "updated_at": "2026-09-09"
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
   },
   {
     "conference_slug": "sgp",
@@ -4646,5 +4661,460 @@
     "venue": "Lugano, Switzerland",
     "timezone": null,
     "updated_at": "2026-09-09"
+  },
+  {
+    "conference_slug": "acl",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-08-17",
+    "conference_end": "2027-08-22",
+    "venue": "Kyoto, Japan",
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "dac",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": "2026-11-11T17:00:00Z",
+    "paper_deadline": "2026-11-18T17:00:00Z",
+    "notification_date": "2027-03-08T00:00:00Z",
+    "conference_start": "2027-07-11",
+    "conference_end": "2027-07-14",
+    "venue": "San Jose, CA, USA",
+    "timezone": "PST",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "cogsci",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-07-28",
+    "conference_end": "2027-07-31",
+    "venue": "Bilbao, Spain",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "colt",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-06-28",
+    "conference_end": "2027-07-02",
+    "venue": "Tokyo, Japan",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "ecml-pkdd",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-08-30",
+    "conference_end": "2027-09-03",
+    "venue": "Eindhoven, The Netherlands",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "ecai",
+    "year": 2028,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2028-10-07",
+    "conference_end": "2028-10-12",
+    "venue": "Helsinki, Finland",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "fast",
+    "year": 2028,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2028-02-28",
+    "conference_end": "2028-03-01",
+    "venue": "Seattle, WA, USA",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "gecco",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-07-12",
+    "conference_end": "2027-07-16",
+    "venue": "Krakow, Poland",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "hipeac",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-01-18",
+    "conference_end": "2027-01-20",
+    "venue": "Glasgow, UK",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "iccv",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-10-02",
+    "conference_end": "2027-10-08",
+    "venue": "Hong Kong",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "icdcs",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-07-05",
+    "conference_end": "2027-07-08",
+    "venue": "Melbourne, Australia",
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "icdm",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2027-06-06T23:59:00Z",
+    "notification_date": "2027-08-16T00:00:00Z",
+    "conference_start": "2027-11-15",
+    "conference_end": "2027-11-18",
+    "venue": "Brisbane, Australia",
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "ijcai",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-08-07",
+    "conference_end": "2027-08-13",
+    "venue": "Kyoto, Japan",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "iros",
+    "year": 2028,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2028-10-02",
+    "conference_end": "2028-10-06",
+    "venue": "Sydney, Australia",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-10-19",
+    "conference_end": "2027-10-22",
+    "venue": "Taipa, Macao SAR China",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "its",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-06-16",
+    "conference_end": "2027-06-18",
+    "venue": "Rome, Italy",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "lics",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-06-21",
+    "conference_end": "2027-06-24",
+    "venue": "Montreal, Canada",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "miccai",
+    "year": 2028,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2028-10-16",
+    "conference_end": "2028-10-20",
+    "venue": "São Paulo, Brazil",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "msst",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-05-17",
+    "conference_end": "2027-05-21",
+    "venue": null,
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "mobisys",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": "2026-11-27T23:59:00Z",
+    "paper_deadline": "2026-12-04T23:59:00Z",
+    "notification_date": "2027-03-06T00:00:00Z",
+    "conference_start": "2027-06-21",
+    "conference_end": "2027-06-25",
+    "venue": "Ho Chi Minh City, Vietnam",
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "noms",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-11-09T00:00:00Z",
+    "notification_date": null,
+    "conference_start": "2027-05-10",
+    "conference_end": "2027-05-14",
+    "venue": "Montreal, Quebec, Canada",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "nossdav",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-04-02",
+    "conference_end": "2027-04-02",
+    "venue": "Ghent, Belgium",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "pakdd",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-11-20T23:59:00Z",
+    "notification_date": "2027-02-26T00:00:00Z",
+    "conference_start": "2027-06-29",
+    "conference_end": "2027-07-02",
+    "venue": "Wellington, New Zealand",
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "podc",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-06-21",
+    "conference_end": "2027-06-25",
+    "venue": "Reykjavik, Iceland",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "re",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-08-23",
+    "conference_end": "2027-08-27",
+    "venue": "Milan, Italy",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "recomb",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": "2026-10-28T23:59:00Z",
+    "paper_deadline": "2026-11-04T23:59:00Z",
+    "notification_date": "2026-12-22T00:00:00Z",
+    "conference_start": "2027-05-17",
+    "conference_end": "2027-05-20",
+    "venue": "Toronto, Canada",
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "recsys",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-08-23",
+    "conference_end": "2027-08-27",
+    "venue": "Honolulu, HI, USA",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "rss",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-12-04T23:59:00Z",
+    "notification_date": "2027-04-30T00:00:00Z",
+    "conference_start": "2027-07-06",
+    "conference_end": "2027-07-11",
+    "venue": "Athens, Greece",
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "stoc",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": "2026-11-02T23:59:00Z",
+    "notification_date": "2027-02-01T00:00:00Z",
+    "conference_start": "2027-06-06",
+    "conference_end": "2027-06-11",
+    "venue": "Atlanta, GA, USA",
+    "timezone": "AoE",
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "sigcomm",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-08-08",
+    "conference_end": "2027-08-12",
+    "venue": "Bangkok, Thailand",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "siggraph",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-08-08",
+    "conference_end": "2027-08-12",
+    "venue": "Anaheim, CA, USA",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "socg",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-06-21",
+    "conference_end": "2027-06-25",
+    "venue": "Bengaluru, India",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "soups",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-08-08",
+    "conference_end": "2027-08-10",
+    "venue": "Denver, CO, USA",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "ubicomp",
+    "year": 2027,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2027-10-03",
+    "conference_end": "2027-10-07",
+    "venue": "Seoul, Republic of Korea",
+    "timezone": null,
+    "updated_at": "2026-09-28"
+  },
+  {
+    "conference_slug": "usenix-security",
+    "year": 2028,
+    "cycle": "main",
+    "abstract_deadline": null,
+    "paper_deadline": null,
+    "notification_date": null,
+    "conference_start": "2028-08-16",
+    "conference_end": "2028-08-18",
+    "venue": "Seattle, WA, USA",
+    "timezone": null,
+    "updated_at": "2026-09-28"
   }
 ]

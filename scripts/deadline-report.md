@@ -1,6 +1,18 @@
 # Deadline Check Report
 <!-- /deadline-check 스킬 자동 관리 -->
 
+## 2026-09-28 Phase 1–7 재조사 및 반영
+
+- 등록 209개 학회 모두 조사 시도. 현재 회차와 다음 유효 회차를 점검하되, 접근 실패·잠정 일정·공식 문서 충돌은 확인 완료와 구분했다.
+- 368 → 403행: 신규 35행(제출 일정 8, 행사-only 27), 기존 53행 수정, 74개 학회 관련 변경. 공식 URL 10개 갱신.
+- 새 CFP/마감 확보: DAC, ICDM, ICMR(기존 행사-only 보완), MobiSys, NOMS, PAKDD, RECOMB, RSS, STOC 2027.
+- ICRA 하루 연장, HiPC/KR/PG/SEC의 UTC·현지 시각 혼용, IPDPS 자정, EDBT/CRYPTO timezone, SenSys/RTAS 개최 정보 등을 보정했다.
+- RSS는 12월 4일 initial manuscript를 신규 투고 마감으로 저장하고, 초청 전용 4월 16일 final-paper 마감은 별도로 설명했다.
+- DASFAA/SAC 등 기존 데이터의 미해결 오류와 SIGIR/AVSS 잠정 날짜는 보류했다. 공식 페이지에서 미확정인 시간대·notification은 추정하지 않았다.
+- 반영일 2026-09-28. seed/public 정적 데이터 반영, DB는 Supabase DNS 실패로 동기화하지 못했다.
+- 각 phase의 209개 coverage와 출처: [1](research-2026-09-28-phase1.md), [2](research-2026-09-28-phase2.md), [3](research-2026-09-28-phase3.md), [4](research-2026-09-28-phase4.md), [5](research-2026-09-28-phase5.md), [6](research-2026-09-28-phase6.md), [7](research-2026-09-28-phase7.md).
+- [적용 요약·보류 목록](maintenance-report.md), [전체 구조화 근거](research-2026-09-28-changes.json).
+
 ---
 
 ## 2026-09-09 Phase 1~7 전수 재조사

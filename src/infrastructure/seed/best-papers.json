@@ -23576,7 +23576,7 @@
     "authors": "Naoki Kobayashi",
     "award_type": "test_of_time",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://doi.org/10.1007/11817949_16"
   },
   {
     "conference_slug": "concur",
@@ -23585,7 +23585,7 @@
     "authors": "Krishnendu Chatterjee; Thomas A. Henzinger; Nir Piterman",
     "award_type": "test_of_time",
     "tags": [],
-    "paper_url": null
+    "paper_url": "https://doi.org/10.1007/978-3-540-74407-8_5"
   },
   {
     "conference_slug": "vldb",
@@ -24783,5 +24783,383 @@
     "award_type": "distinguished_paper",
     "tags": [],
     "paper_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/mbabazi"
+  },
+  {
+    "conference_slug": "noms",
+    "year": 2026,
+    "paper_title": "Rethinking Telemetry Design for Fine-Grained Anomaly Detection in 5G User Planes",
+    "authors": "Niloy Saha; Noura Limam; Yang Xiao; Raouf Boutaba",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "noms",
+    "year": 2026,
+    "paper_title": "A Discrete-Time Model of the Token Bucket Shaper for Real-Time Networking",
+    "authors": "David Raunecker; Stefan Geißler; Alexej Grigorjew; Philip Diederich; Wolfgang Kellerer; Tobias Hoßfeld",
+    "award_type": "best_student_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "concur",
+    "year": 2026,
+    "paper_title": "Reachability in Fixed-Dimensional Continuous VASS",
+    "authors": "Michal Ajdarów; A. R. Balasubramanian; Łukasz Orlikowski",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.4230/LIPIcs.CONCUR.2026.7"
+  },
+  {
+    "conference_slug": "srds",
+    "year": 2026,
+    "paper_title": "Cerberus: Latency-Aware Scheduling with Graceful Degradation for Constrained Edge Infrastructures",
+    "authors": "Yinan Cao; Etienne Rivière; Ramin Sadre",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "srds",
+    "year": 2026,
+    "paper_title": "Assessing the Effect of Timing Faults in Edge AI Accelerators via Driver-Level Fault Injection",
+    "authors": "Marcello Cinque; Luigi De Simone; Nike Di Giacomo",
+    "award_type": "best_student_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icsme",
+    "year": 2026,
+    "paper_title": "To Copilot and Beyond: 22 AI Systems Developers Want Built",
+    "authors": "Rudrajit Choudhuri; Christian Bird; Carmen Badea; Anita Sarma",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icsme",
+    "year": 2026,
+    "paper_title": "Code Review is a Conversation: Toward Conversational AI Review Assistants",
+    "authors": "Rosalia Tufano",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2607.22095"
+  },
+  {
+    "conference_slug": "icsme",
+    "year": 2026,
+    "paper_title": "Towards Knowledge Alignment in Code LLMs: Contrastive Unlearning for Evolving APIs",
+    "authors": "Huy Q. Tran; Dang H. Vu; Tuyen N. Dinh; Anh H. D. Nguyen; Anh N. H. Vu; Anh M. T. Bui; Phuong T. Nguyen",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/pdf/2606.30810"
+  },
+  {
+    "conference_slug": "icsme",
+    "year": 2026,
+    "paper_title": "Question Answering for Diagram-Rich Technical Meeting Videos",
+    "authors": "Zhuoran Xu; Jia Li; Dayuan Tan; Mark Cole; Ish Ashraf; Sandeep Puri; Mehrdad Sabetzadeh; Shiva Nejati",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/pdf/2607.10494"
+  },
+  {
+    "conference_slug": "icsme",
+    "year": 2026,
+    "paper_title": "Optimizing Spectral Signature in Code Backdoor Detection",
+    "authors": "Quoc Hung Le; Thanh Le-Cong; Xuan-Bach D. Le; Bowen Xu",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/pdf/2510.13992"
+  },
+  {
+    "conference_slug": "icsme",
+    "year": 2026,
+    "paper_title": "\"It Comes in Notebooks\": Changes and Challenges When Operationalizing ML Prototypes",
+    "authors": "Arumoy Shome; Luís Cruz; Diomidis Spinellis; Arie van Deursen",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icsme",
+    "year": 2026,
+    "paper_title": "DebTrace: Tracing, Verifying, and Revisiting a Decade of Debian Reproducibility",
+    "authors": "Abhishek Reddypalle; William Boulton; Sabine Brunswicker; Santiago Torres-Arias",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "icsme",
+    "year": 2026,
+    "paper_title": "Smelly Bad Practices in Performance System Tests: Detection, Prevalence, and Lifetime",
+    "authors": "Sergio Di Meglio; Valeria Pontillo; Luigi Libero Lucio Starace; Luana Martins; Dario Di Nucci; Fabio Palomba",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://valeriapontillo.github.io/documents/conference/C14.pdf"
+  },
+  {
+    "conference_slug": "crypto",
+    "year": 2026,
+    "paper_title": "An attack on the CFS scheme and on TII McEliece challenges",
+    "authors": "Magali Bardet; Axel Lemoine; Jean-Pierre Tillich",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1007/978-3-032-35398-6_13"
+  },
+  {
+    "conference_slug": "pakdd",
+    "year": 2026,
+    "paper_title": "From Soft Logic to Hard Rules: A Differentiable Boolean Framework for Interpretable and Balanced Classification",
+    "authors": "Jiayu Xue; Bowen Shen; Haoran Liu; Shuo Guan; Lijing Wei; Hejia Cao; Yuangang Wang",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1007/978-981-92-1465-5_27"
+  },
+  {
+    "conference_slug": "disc",
+    "year": 2026,
+    "paper_title": "Non-Leaking Concurrent Objects",
+    "authors": "Hagit Attiya; Rotem Oshman; Noa Schiller; Corentin Travers",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2608.22288"
+  },
+  {
+    "conference_slug": "disc",
+    "year": 2026,
+    "paper_title": "Solvability of Approximate Agreement on Graphs and Simplicial Complexes",
+    "authors": "Joel Rybicki; Yaroslav Verbitsky",
+    "award_type": "best_student_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2606.24666"
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Bridging Instead of Replacing Online Coding Communities with AI through Community-Enriched Chatbot Designs",
+    "authors": "Junling Wang; Lahari Goswami; Gustavo Kreia Umbelino; Kiara Chau; Mrinmaya Sachan; April Yi Wang",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Voice to Vision: Enabling Shared Understanding in Civic Decision-Making through Participatory Data Infrastructure",
+    "authors": "Margaret Hughes; Cassandra Overney; Ashima Kamra; Jasmin Tepale; Elizabeth Hamby; Mahmood Jasim; Deb Roy",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Impasse of Data-Drivenness: Bureaucratic Data Work and Reproduced Siloed Governance in Coordinating Smart Cities",
+    "authors": "Alex Jiahong Lu; Yuling Sun",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Expecting Too Much, Getting Too Little: Exploring the Challenges and Design Opportunities of Asynchronous AI Interviewers",
+    "authors": "Md. Nazmus Sakib; Naga Manogna Rayasam; Sanorita Dey",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "We Need Granular Sharing of De-Identified Data—But Will Patients Engage? Investigating Health System Leaders' and Patients' Perspectives on A Patient-Controlled Data-Sharing Platform",
+    "authors": "Xi Lu; Di Hu; An T Nguyen; Brad Morse; Lisa M. Schilling; Kai Zheng; Michelle S Keller; Lucila Ohno-Machado; Yunan Chen",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "From Mediation to Escalation: Buffer Spaces for Workplace Concern Reporting",
+    "authors": "Peiyao Liu; Lynn Dombrowski; Norman Makoto Su",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Postphenomenological Insights from an In-the-Wild Collective Sensing System Deployment for PTSD Therapy",
+    "authors": "Nathaniel Swinger; Myeonghan Ryu; Cynthia M Baseman; Kefan Xu; Andrew M Sherrill; Rosa I. Arriaga",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "YouCred: An Online Tool Co-Designed with Fact-Checkers for Misinformation Discovery on YouTube",
+    "authors": "Prerna Juneja; Dongkai Xie; Guangyin Ye; Tanushree Mitra",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Shaping Collaborations with Algorithms: How Agency and Diversity Criteria Influence Team Formation and Outcomes",
+    "authors": "Diego Gómez-Zará; Victoria A Kam; Charles Chiang; Jiarui Xia; Ploenta Voraprukpisut; Leslie A. DeChurch; Noshir Contractor",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Making the Internet Work: Case Study in a Socialist, Low-Income Country Under US Sanctions",
+    "authors": "Clara Rosa Cardoso; Peter Tolmie; Kaoru Misaki; Volker Wulf",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Beyond the Signature: Addressing Informed Consent Challenges in Dementia Technology-Based Research",
+    "authors": "Yvon Ruitenburg; Minha Lee; Wijnand IJsselsteijn; Panos Markopoulos",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Designing Accessible Interfaces to Enhance Collective Musical Engagement for and with Children with Autism",
+    "authors": "Théo Jourdan; Baptiste Caramiaux; Alejandro VanZandt-Escobar",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Teacher-AI Collaboration for Curating and Customizing Lesson Plans in Low-Resource Schools",
+    "authors": "Deepak Varuvel Dennison; Bakhtawar Ahtisham; Kavyansh Chourasia; Nirmit Arora; Rahul Singh; Rene F. Kizilcec; Akshay Nambi; Tanuja Ganu; Aditya Vashistha",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "\"I Just Don't Want My Work Being Fed Into The AI Blender\": Queer Artists on Refusing and Resisting Generative AI",
+    "authors": "Jordan Taylor; Joel Mire; Alicia DeVrio; Maarten Sap; Haiyi Zhu; Sarah E Fox",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Keeping Societies in the Loop: Citizen Dialogues on Facial Processing Technologies in Bolivia, India, Nigeria, Japan, and Germany",
+    "authors": "Chiara Ullstein; Michel Hohendanner; Jens Grossklags; Olusola Babalola; Bukola Abimbola Onyekwelu; Amelia Katirai; Aimi Ozaki; Jun Kuribayashi; Arisa Ema; Nikhil Sharma; Srija Naskar; Nidhi Singh; Indiana Karina Jordan Barros; Naira Paola Arnez Jordan",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Situated Practice Systems: A Computational System for Supporting the Coaching and Practice of Self-Regulation Skills for Innovation Work",
+    "authors": "Kapil Garg; Darren Gergle; Haoqi Zhang",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Constructing Algorithmic Authority: How Multi-Channel Networks (MCNs) Govern Live-Streaming Labor in China",
+    "authors": "Qing Xiao; Rongyi Chen; Jingjia Xiao; Tianyang Fu; Alice Qian; Xianzhe Fan; Bingbing Zhang; Zhicong Lu; Hong Shen",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Re-Tell the Fortune so I Can Believe It: How Chinese User Communities Engage with and Interpret GenAI-based Fortune Telling",
+    "authors": "Long Ling; Xiyu Zheng; Gengchen Cao; RAY LC",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "To Tango or to Disentangle? Making Ethnography Public in the Digital Age",
+    "authors": "Daniel Mwesigwa; Cyan DeVeaux; Palashi Vaghela",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "CoNewsReader: Supporting Comprehensive Understanding and Raising Critical Thoughts on Social Media News Through Comments",
+    "authors": "Kangyu Yuan; Guanzheng Chen; Sizhe Liang; Hehai Lin; Qingyu Guo; Dingdong Liu; Xiaojuan Ma; Zhenhui Peng",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Feeling that I was Collaborating with Them: A 20-year Scoping Review of Social Virtual Reality Leveraging Collaboration",
+    "authors": "Niloofar Sayadi; Sadie Co; Diego Gómez-Zará",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "FareShare: A Tool for Labor Organizers to Estimate Lost Wages and Contest Arbitrary AI and Algorithmic Deactivations",
+    "authors": "Varun Nagaraj Rao; Samantha Dalal; Andrew Schwartz; Amna Liaqat; Dana Calacci; Andrés Monroy-Hernández",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Gaze-to-Body: Addressing Expressive Gaps of Desktop Users in Hybrid VR Meetings through Gaze-Driven Head-Controlled Avatars",
+    "authors": "Ching Huang; Meng Ting Shih; Yu Chuan Chen; Rong-Hao Liang; Liwei Chan",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "cscw",
+    "year": 2026,
+    "paper_title": "Toward the Development of Online Spiritual Care Communities: A Large-Scale Survey of Spiritual Care Stakeholders to Establish Initial Design Directions, Acceptability, and Feasibility",
+    "authors": "Jesan Ahammed Ovi; Alemitu Bezabih; Anne-Marie Snider; Shadi Nourriz; Daniel McKenzie; C. Estelle Smith",
+    "award_type": "honorable_mention",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "crypto",
+    "year": 2026,
+    "paper_title": "CORAL: Faster Isogeny Group Action for Post-Quantum NIKE",
+    "authors": "Andrea Basso; Giacomo Borin; Ryan Rueger; Sina Schaeffler",
+    "award_type": "best_paper_early_career",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1007/978-3-032-35398-6_17"
   }
 ]
