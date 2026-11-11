@@ -61,7 +61,22 @@ async function main() {
         if (aFuture === 0) return aDate.getTime() - bDate.getTime(); // future: earliest first
         return bDate.getTime() - aDate.getTime(); // past: latest first
       });
-    if (confDeadlines.length > 0) {
+    // 앞으로 올 마감이 없으면, 일정만 공개된(CFP 미발표) 다음 회차를 카드에 보여준다
+    const hasFutureDeadline = confDeadlines.some((d: Deadline) => new Date(d.paper_deadline!) >= now);
+    const latestDeadlineYear = Math.max(0, ...confDeadlines.map((d: Deadline) => d.year));
+    const upcomingEventOnly = hasFutureDeadline
+      ? undefined
+      : deadlines
+          .filter((d: Deadline) =>
+            d.conference_slug === slug &&
+            !d.paper_deadline &&
+            d.year > latestDeadlineYear &&
+            d.conference_start &&
+            new Date(d.conference_start) > now)
+          .sort((a: Deadline, b: Deadline) => a.year - b.year)[0];
+    if (upcomingEventOnly) {
+      deadlineBySlug.set(slug, upcomingEventOnly);
+    } else if (confDeadlines.length > 0) {
       deadlineBySlug.set(slug, confDeadlines[0]);
     }
   }

@@ -96,6 +96,13 @@ export function ConferenceCard({
                   {conference.venue && <span className="truncate max-w-[200px] sm:max-w-none sm:whitespace-nowrap">📍 {conference.venue}</span>}
                   <DeadlineTime deadline={conference.nextDeadline!} timezone={conference.deadlineTimezone} />
                 </>
+              ) : conference.conferenceStart ? (
+                <>
+                  <span className="whitespace-nowrap">
+                    📅 {formatDate(conference.conferenceStart)}
+                  </span>
+                  {conference.venue && <span className="truncate max-w-[200px] sm:max-w-none sm:whitespace-nowrap">📍 {conference.venue}</span>}
+                </>
               ) : (
                 <span className="text-zinc-400">
                   {isKorean ? "다음 일정이 공개되지 않았습니다." : "Next schedule not announced."}
