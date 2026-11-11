@@ -47,7 +47,7 @@
     "field": "AI/ML",
     "sub_field": "Artificial Intelligence",
     "dblp_key": "conf/ijcai",
-    "website_url": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/"
+    "website_url": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/"
   },
   {
     "slug": "kdd",
@@ -87,7 +87,7 @@
     "field": "AI/ML",
     "sub_field": "Information Retrieval",
     "dblp_key": "conf/sigir",
-    "website_url": "https://sigir.org"
+    "website_url": "https://sigir2027.org/pages/submit-full.html"
   },
   {
     "slug": "aistats",
@@ -117,7 +117,7 @@
     "field": "AI/ML",
     "sub_field": "Learning Theory",
     "dblp_key": "conf/colt",
-    "website_url": "https://learningtheory.org/colt2026/cfp.html"
+    "website_url": "https://learningtheory.org/colt2027/cfp.html"
   },
   {
     "slug": "recsys",
@@ -197,7 +197,7 @@
     "field": "AI/ML",
     "sub_field": "Evolutionary Computation",
     "dblp_key": "conf/gecco",
-    "website_url": "https://gecco-2026.sigevo.org"
+    "website_url": "https://gecco-2027.sigevo.org"
   },
   {
     "slug": "bigdata",
@@ -237,7 +237,7 @@
     "field": "NLP",
     "sub_field": "Natural Language Processing",
     "dblp_key": "conf/acl",
-    "website_url": "https://2026.aclweb.org/calls/main_conference_papers/"
+    "website_url": "https://2027.aclweb.org/calls/main/"
   },
   {
     "slug": "emnlp",
@@ -327,7 +327,7 @@
     "field": "CV",
     "sub_field": "Computer Vision",
     "dblp_key": "conf/iccv",
-    "website_url": "https://iccv2025.thecvf.com"
+    "website_url": "https://iccv.thecvf.com/Conferences/2027"
   },
   {
     "slug": "eccv",
@@ -457,7 +457,7 @@
     "field": "Systems",
     "sub_field": "Systems",
     "dblp_key": "conf/usenix",
-    "website_url": "https://sigops.org/s/conferences/atc/2026/"
+    "website_url": "https://atc.sigops.org/2027/call-for-papers/"
   },
   {
     "slug": "ppopp",
@@ -517,7 +517,7 @@
     "field": "Systems",
     "sub_field": "Middleware",
     "dblp_key": "conf/middleware",
-    "website_url": "https://middleware-conf.github.io/2026/"
+    "website_url": "https://middleware-conf.github.io/2027/call-for-papers/"
   },
   {
     "slug": "icdcs",
@@ -527,7 +527,7 @@
     "field": "Systems",
     "sub_field": "Distributed Computing",
     "dblp_key": "conf/icdcs",
-    "website_url": "https://icdcs2026.icdcs.org/calls/call-for-papers/"
+    "website_url": "https://icdcs2027.icdcs.org/"
   },
   {
     "slug": "cluster",
@@ -787,7 +787,7 @@
     "field": "DB",
     "sub_field": "Mobile Data",
     "dblp_key": "conf/mdm",
-    "website_url": "https://mdm-2026.github.io/"
+    "website_url": "https://mdm2027.github.io/"
   },
   {
     "slug": "er",
@@ -817,7 +817,7 @@
     "field": "HCI",
     "sub_field": "User Interfaces",
     "dblp_key": "conf/uist",
-    "website_url": "https://uist.acm.org/2026/cfp/"
+    "website_url": "https://uist.acm.org/2027/"
   },
   {
     "slug": "cscw",
@@ -857,7 +857,7 @@
     "field": "HCI",
     "sub_field": "Interactive Design",
     "dblp_key": "conf/dis",
-    "website_url": "https://dis.acm.org/2027/contributing/"
+    "website_url": "https://dis.acm.org/2027/call-for-papers/"
   },
   {
     "slug": "mobilehci",
@@ -907,7 +907,7 @@
     "field": "SE",
     "sub_field": "Software Engineering",
     "dblp_key": "conf/sigsoft",
-    "website_url": "https://www.esec-fse.org/"
+    "website_url": "https://conf.researchr.org/home/fse-2027"
   },
   {
     "slug": "ase",
@@ -997,7 +997,7 @@
     "field": "SE",
     "sub_field": "Model-Driven Engineering",
     "dblp_key": "conf/models",
-    "website_url": "https://conf.researchr.org/home/models-2026"
+    "website_url": "https://conf.researchr.org/home/models-2027"
   },
   {
     "slug": "fase",
@@ -1047,7 +1047,7 @@
     "field": "Theory",
     "sub_field": "Automata Theory",
     "dblp_key": "conf/icalp",
-    "website_url": "https://icalppodcspaa2026.cs.rhul.ac.uk/icalp/"
+    "website_url": "https://icalp.uj.edu.pl/home/"
   },
   {
     "slug": "itcs",
@@ -1057,7 +1057,7 @@
     "field": "Theory",
     "sub_field": "Theory of Computation",
     "dblp_key": "conf/innovations",
-    "website_url": "https://itcsconf.github.io/index.html"
+    "website_url": "https://itcs-conf.org/"
   },
   {
     "slug": "esa",
@@ -1077,7 +1077,7 @@
     "field": "Theory",
     "sub_field": "Computational Geometry",
     "dblp_key": "conf/compgeom",
-    "website_url": "https://cgweek26.computational-geometry.org/"
+    "website_url": "https://cgweek27.computational-geometry.org/"
   },
   {
     "slug": "ccc",
@@ -1117,7 +1117,7 @@
     "field": "Networks",
     "sub_field": "Networking",
     "dblp_key": "conf/sigcomm",
-    "website_url": "https://conferences.sigcomm.org/sigcomm/2026/cfp/"
+    "website_url": "https://conferences.sigcomm.org/sigcomm/2027/cfp/"
   },
   {
     "slug": "nsdi",
@@ -1157,7 +1157,7 @@
     "field": "Networks",
     "sub_field": "Internet Measurement",
     "dblp_key": "conf/imc",
-    "website_url": "https://conferences.sigcomm.org/imc/2026/"
+    "website_url": "https://conferences.sigcomm.org/imc/2027/cfp/"
   },
   {
     "slug": "conext",
@@ -1167,7 +1167,7 @@
     "field": "Networks",
     "sub_field": "Networking",
     "dblp_key": "conf/conext",
-    "website_url": "https://conferences.sigcomm.org/co-next/2026/"
+    "website_url": "https://conferences.sigcomm.org/co-next/2027/#!/cfp"
   },
   {
     "slug": "mobisys",
@@ -1217,7 +1217,7 @@
     "field": "Architecture",
     "sub_field": "Computer Architecture",
     "dblp_key": "conf/isca",
-    "website_url": "https://www.iscaconf.org/isca2026/"
+    "website_url": "https://www.iscaconf.org/isca2027/submit/callforpapers.php"
   },
   {
     "slug": "micro",
@@ -1307,7 +1307,7 @@
     "field": "Graphics",
     "sub_field": "Computer Graphics",
     "dblp_key": "conf/siggraph",
-    "website_url": "https://s2026.siggraph.org/program/technical-papers/"
+    "website_url": "https://s2027.siggraph.org/submit-to-siggraph/"
   },
   {
     "slug": "siggraph-asia",
@@ -1447,7 +1447,7 @@
     "field": "Theory",
     "sub_field": "Logic in Computer Science",
     "dblp_key": "conf/lics",
-    "website_url": "https://lics.siglog.org/lics26/cfp.php"
+    "website_url": "https://lics.siglog.org/lics27/cfp.php"
   },
   {
     "slug": "ieee-vis",
@@ -1537,7 +1537,7 @@
     "field": "Systems",
     "sub_field": "Real-Time Systems",
     "dblp_key": "conf/ecrts",
-    "website_url": "https://www.ecrts.org"
+    "website_url": "https://www.ecrts.org/call-for-papers/"
   },
   {
     "slug": "kr",
@@ -1547,7 +1547,7 @@
     "field": "AI/ML",
     "sub_field": "Knowledge Representation",
     "dblp_key": "conf/kr",
-    "website_url": "https://kr.org/KR2026/"
+    "website_url": "https://kr.org/KR2027/"
   },
   {
     "slug": "percom",
@@ -1567,7 +1567,7 @@
     "field": "Theory",
     "sub_field": "Distributed Computing",
     "dblp_key": "conf/podc",
-    "website_url": "https://www.podc.org/podc2026/"
+    "website_url": "https://www.podc.org/podc2027/"
   },
   {
     "slug": "spaa",
@@ -1617,7 +1617,7 @@
     "field": "AI/ML",
     "sub_field": "Cognitive Science",
     "dblp_key": "conf/cogsci",
-    "website_url": "https://cognitivesciencesociety.org/cogsci-2026/"
+    "website_url": "https://cognitivesciencesociety.org/cogsci-2027/"
   },
   {
     "slug": "disc",
@@ -1727,7 +1727,7 @@
     "field": "SE",
     "sub_field": "Requirements Engineering",
     "dblp_key": "conf/re",
-    "website_url": "https://conf.researchr.org/home/RE-2026"
+    "website_url": "https://conf.researchr.org/track/RE-2027/RE-2027-papers"
   },
   {
     "slug": "tacas",
@@ -1807,7 +1807,7 @@
     "field": "SE",
     "sub_field": "SE Education",
     "dblp_key": "conf/cseet",
-    "website_url": "https://cseet26.techconf.org/"
+    "website_url": "https://easychair.org/cfp/cseet2027"
   },
   {
     "slug": "fc",
@@ -1927,7 +1927,7 @@
     "field": "Architecture",
     "sub_field": "Performance Analysis",
     "dblp_key": "conf/ispass",
-    "website_url": "https://ispass.org/ispass2026/"
+    "website_url": "https://ispass.org/2027/cfp/"
   },
   {
     "slug": "its",
@@ -1937,7 +1937,7 @@
     "field": "AI/ML",
     "sub_field": "Intelligent Tutoring",
     "dblp_key": "conf/its",
-    "website_url": "https://iis-international.org/its2026/"
+    "website_url": "https://its2027.iis-international.org/"
   },
   {
     "slug": "mass",
@@ -1977,7 +1977,7 @@
     "field": "Networks",
     "sub_field": "Multimedia Networking",
     "dblp_key": "conf/nossdav",
-    "website_url": "https://nossdav.org/2026/"
+    "website_url": "https://nossdav.org/2027/"
   },
   {
     "slug": "recomb",
@@ -2017,7 +2017,7 @@
     "field": "Security",
     "sub_field": "Information Security",
     "dblp_key": "conf/sec",
-    "website_url": "https://ifipsec.org/"
+    "website_url": "https://ifipsec.org/cfp.html"
   },
   {
     "slug": "secon",

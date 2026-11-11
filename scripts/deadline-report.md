@@ -1,6 +1,367 @@
 # Deadline Check Report
 <!-- /deadline-check 스킬 자동 관리 -->
 
+## 2026-11-11 Phase 1–7 전수 조사
+
+- 범위: 등록 209개 학회 전부. 42개 그룹(opus 조사 에이전트)이 DB 최신 회차 검증 + 다음 회차 CFP를 공식 사이트 우선으로 조사했고, 판정은 별도로 수행했다.
+- 기준선: 2026-09-28 반영분. 리포트 작성 시점(11-11)에는 seed를 수정하지 않았다.
+- **2026-11-12 반영**: 사용자 확인 후 seed에 적용 (deadlines.json 403 → 424행: 신규 21행, 수정 44행 / conferences.json website_url 33개). 결정 사항: fase는 2026을 마지막 회차로 두고 종료 처리(행 추가 없음), neurips 2026 venue → "Sydney / Atlanta / Paris", 잠정값 3건(icpr 2027, conext 2027 일정, uist 2027 마감)은 넣고 다음 점검 때 재확인, esop/tacas 2028은 ETAPS 전체 기간만 공개돼 미반영, secon 2027 시각 표기는 유지.
+- 정책: 공식 원문으로 읽은 값만 확정. tentative/TBC/페이지 간 충돌은 HOLD. timezone 미표기는 AoE로 가정하지 않는다.
+- 직접 재확인한 항목: SAC notification(취소선), FG dates 페이지, CGO/HPCA/PPoPP 2027 공동 개최 일정(3/20–24 일치), UIST 2027, MODELS 2027.
+- 원본 조사 결과·출처: [1](research-2026-11-11-phase1.md), [2](research-2026-11-11-phase2.md), [3](research-2026-11-11-phase3.md), [4](research-2026-11-11-phase4.md), [5](research-2026-11-11-phase5.md), [6](research-2026-11-11-phase6.md), [7](research-2026-11-11-phase7.md).
+
+### 임박 마감 (14일 이내, ~2026-11-25)
+
+| 학회 | 마감 | 판정 |
+|------|------|------|
+| ICDE 2027 round2 | paper 11-11 17:00 PT | 유지, 연장 공지 없음 |
+| DAC 2027 | abstract 11-11 / paper 11-18 17:00 PT | 유지, 연장 공지 없음 |
+| PLDI 2027 | paper 11-12 AoE | 유지 (firm) |
+| CVPR 2027 | paper 11-16 AoE | 유지, 연장 없음 명시 |
+| ISCA 2027 | paper 11-16 23:59 AoE | **신규 행** (abstract 11-09 마감) |
+| IMC 2027 cycle1 | paper 11-17 | **신규 행** (abstract 등록 11-10 마감, timezone 미표기) |
+| S&P 2027 cycle2 | paper 11-17 AoE | 유지, 연장 공지 없음 |
+| ECOOP 2027 round1 | paper 11-19 AoE | 유지, 연장 공지 없음 |
+| PAKDD 2027 | paper 11-20 23:59 AoE | 유지, 연장 공지 없음 |
+| CCGrid 2027 | abstract 11-24 / paper 12-01 | 유지, 연장 공지 없음 |
+| DASFAA 2027 | paper 11-25 23:59 AoE | **DB 오류 수정** (기존 2027-06-07) |
+| DSN 2027 | abstract 11-25 / paper 12-02 AoE | 유지, 연장 공지 없음 |
+| VLDB 2027 (12월 cycle) | abstract 11-25 / paper 12-01 17:00 PT | 유지 |
+| SoCG 2027 | 등록 11-25 / paper 12-02 23:59 AoE | **행사-only 보완** |
+
+그 직후: CoNEXT 2027·Middleware 2027·MobiSys 2027 (abstract 11-27, paper 12-04), NOMS 2027 (11-30, 연장됨), PETS Q3·SECON (11-30), OSDI abstract 12-01, RSS Stage 1 12-04.
+
+### ✅ 추가 대상 — 신규 회차 (13개 학회, 16행)
+
+atc 2027, conext 2027 (december/june), cseet 2027, ecrts 2027, icalp 2027 (Track B round1), imc 2027 (cycle1/cycle2), isca 2027, ispass 2027, mdm 2027, middleware 2027 (winter/summer), sec 2027, sigir 2027, uist 2027
+
+### ➕ 행사-only 신규 행 후보 (7개)
+
+icml 2027, kr 2027, models 2027, siggraph-asia 2027, vldb 2028, esop 2028, tacas 2028
+
+### ➕ 행사-only → 마감 보완 (11개)
+
+acl 2027, cogsci 2027, colt 2027, gecco 2027, ijcai 2027, its 2027, lics 2027, nossdav 2027, re 2027, sigcomm 2027, socg 2027
+
+### ⚠️ DB 수정 필요 (14개)
+
+dasfaa 2027 (paper·notification·일정), noms 2027 (연장 11-30), fse 2027 (10-03), fg 2027 (10-23/10-30), eurographics 2027 (10-02 00:59 AoE), sac 2027 (10-16 EST, notif 11-20), ndss 2027 fall (notif 12-02), sigmetrics 2027 (종료일 06-10), sigmod 2027 (종료일 06-18), pods 2027 (종료일 06-18), iros 2027 (시작일 09-27), mobicom 2027 (venue Athens), mobilehci 2027 (tz AoE, T23:59), secon 2027 (시각 표기, 선택)
+
+### ➕ notification 보완 (9개)
+
+cgo 2027 round2 (11-09), case 2027 (05-15), edbt 2027 (04-04 / 08-08 / 12-05), cc 2026 (2025-12-10), csf 2026 (04-01), corl 2026 (09-04), bibm 2026 (09-25), egsr 2026 (05-25), tcc 2026 (08-20)
+
+### ⏸ 보류 (HOLD)
+
+| 학회 | 사유 |
+|------|------|
+| avss 2027 | 사이트가 "유치 제안서 기준, 확정 후 갱신"이라고 명시 (03-05/03-12, 07-19~21 Macau) |
+| cc 2027 | CC 2027 페이지 비공개. 공동 개최 주간(3/20–24 Salt Lake City)은 CGO/PPoPP에서 확인 |
+| crypto 2027 | 날짜·CFP TBD |
+| emnlp 2027 | "11월 초 잠정, 멕시코/중미" |
+| iccv 2027 | 일정 10/3–7 vs 10/2–8 공식 페이지 내 충돌 (DB 10/2–8 유지) |
+| icpr 2027 | 공식 잠정값이 03-01(등록)/03-08/05-31로 변경, "All dates are tentative" |
+| ismar 2027 | 10-11~15 Kobe "subject to change" |
+| kdd 2027 cycle2 | "February 2027"만 공지 |
+| cikm 2027 | Sydney만 공식 확인, 날짜 미확정 |
+| conext 2027 일정 | 12-06~09 Rio "To be confirmed" (마감은 확정) |
+| cscw 2027 | rolling 제출 전환, 날짜·장소 미발표 |
+| ecml-pkdd 2027 | Research track 미발표 (Journal track 예비 공지만) |
+| icip 2028, miccai 2029/2030 | 먼 회차 일정만 공개 또는 출처 충돌 — 미반영 |
+| sdm, soda | siam.org 403으로 공식 페이지 미확인 |
+| performance 2026, sca 2026, wacv 2027 notif, www 2026 venue, ase 2026 notif | 지난 날짜의 출처 불일치 — 기록만 |
+
+### ❓ 사용자 결정 필요
+
+1. **fase**: 2026이 마지막 회차. ETAPS 2027부터 iFM과 합쳐 iFS로 대체됨 — slug 종료 처리 vs iFS 전환.
+2. **neurips 2026 venue**: Sydney·Atlanta·Paris 분산 개최인데 DB는 Sydney만.
+3. **icpr 2027**: 잠정값을 최신 잠정값(03-08 / 05-31)으로 갱신할지.
+4. **conext 2027**: "To be confirmed" 일정·장소를 넣을지 비울지.
+5. **uist 2027**: 연도·timezone 미표기 상태의 마감(03-31 / 04-07)을 지금 넣을지.
+6. **스킬 문구**: "ATC는 2025년에 영구 폐지됨"은 더 이상 맞지 않음 (ACM SIGOPS ATC로 존속, 2027 CFP 발표).
+
+### 🔗 website_url 업데이트 대상
+
+| 학회 | 현재 URL | → 새 URL | 사유 |
+|------|----------|----------|------|
+| acl | https://2026.aclweb.org/calls/main_conference_papers/ | https://2027.aclweb.org/calls/main/ | 2026 마감 + 2027 CFP 발표 |
+| atc | https://sigops.org/s/conferences/atc/2026/ | https://atc.sigops.org/2027/call-for-papers/ | 2026 마감 + 2027 CFP 발표 |
+| cogsci | https://cognitivesciencesociety.org/cogsci-2026/ | https://cognitivesciencesociety.org/?p=216392 | 2027 Submissions 페이지 (permalink 형태, 교체 전 확인) |
+| colt | https://learningtheory.org/colt2026/cfp.html | https://learningtheory.org/colt2027/cfp.html | 2026 마감 + 2027 CFP 발표 |
+| conext | https://conferences.sigcomm.org/co-next/2026/ | https://conferences.sigcomm.org/co-next/2027/#!/cfp | 2026 마감 + 2027 CFP 발표 |
+| cseet | https://cseet26.techconf.org/ | https://easychair.org/cfp/cseet2027 | 2027 CFP (공식 사이트 DNS 실패) |
+| ecrts | https://www.ecrts.org | https://www.ecrts.org/call-for-papers/ | 2027 CFP 페이지 |
+| gecco | https://gecco-2026.sigevo.org | https://gecco-2027.sigevo.org | 2026 마감 + 2027 CFP 발표 |
+| icalp | https://icalppodcspaa2026.cs.rhul.ac.uk/icalp/ | https://icalp.uj.edu.pl/home/ | 2026 마감 + 2027 사이트 |
+| ijcai | https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/ | https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/ | 2026 마감 + 2027 CFP 발표 |
+| imc | https://conferences.sigcomm.org/imc/2026/ | https://conferences.sigcomm.org/imc/2027/cfp/ | 2026 마감 + 2027 CFP 발표 |
+| isca | https://www.iscaconf.org/isca2026/ | https://www.iscaconf.org/isca2027/submit/callforpapers.php | 2026 마감 + 2027 CFP 발표 |
+| ispass | https://ispass.org/ispass2026/ | https://ispass.org/2027/cfp/ | 2026 마감 + 2027 CFP 발표 |
+| its | https://iis-international.org/its2026/ | https://its2027.iis-international.org/ | 2026 마감 + 2027 CFP 발표 |
+| lics | https://lics.siglog.org/lics26/cfp.php | https://lics.siglog.org/lics27/cfp.php | 2026 마감 + 2027 CFP 발표 |
+| mdm | https://mdm-2026.github.io/ | https://mdm2027.github.io/ | 2026 마감 + 2027 CFP 발표 |
+| middleware | https://middleware-conf.github.io/2026/ | https://middleware-conf.github.io/2027/call-for-papers/ | 2026 마감 + 2027 CFP 발표 |
+| nossdav | https://nossdav.org/2026/ | https://nossdav.org/2027/ | 2026 마감 + 2027 CFP 발표 |
+| re | https://conf.researchr.org/home/RE-2026 | https://conf.researchr.org/track/RE-2027/RE-2027-papers | 2026 마감 + 2027 CFP 발표 |
+| sec | https://ifipsec.org/ | https://ifipsec.org/cfp.html | 2027 CFP 페이지 |
+| sigcomm | https://conferences.sigcomm.org/sigcomm/2026/cfp/ | https://conferences.sigcomm.org/sigcomm/2027/cfp/ | 2026 마감 + 2027 CFP 발표 |
+| sigir | https://sigir.org | https://sigir2027.org/pages/submit-full.html | 2027 CFP 발표 |
+| socg | https://cgweek26.computational-geometry.org/ | https://cgweek27.computational-geometry.org/ | 2026 마감 + 2027 CFP 발표 |
+| uist | https://uist.acm.org/2026/cfp/ | https://uist.acm.org/2027/ | 2026 마감 + 2027 사이트 |
+
+URL 정비(마감 규칙과 무관, 링크 깨짐·이전): iccv → https://iccv.thecvf.com/Conferences/2027 (현재 URL DNS 실패), itcs → https://itcs-conf.org/ (리다이렉트), fse → https://conf.researchr.org/home/fse-2027, icdcs → https://icdcs2027.icdcs.org/, podc → https://www.podc.org/podc2027/, siggraph → https://s2027.siggraph.org/submit-to-siggraph/, dis → https://dis.acm.org/2027/call-for-papers/, kr → https://kr.org/KR2027/, models → https://conf.researchr.org/home/models-2027 (kr·models는 행사-only 행을 추가할 때만).
+
+*conferences.json 업데이트: 위 학회들의 website_url 교체 후 `npx pnpm seed`*
+
+
+### Phase 1 결과 (2026-11-11)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| 3dv | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| aaai | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| aacl | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| aamas | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| accv | 2026 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| acl | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 paper 2027-01-04 23:59 AoE (ARR) 보완, notification TBD |
+| acml | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| acsac | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| aistats | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| ase | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2026 notification DB 07-29 vs 공식 07-28 (지난 회차, 유지) |
+| asiaccs | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| asiacrypt | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| asplos | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| assets | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| atc | 2026 | ✅ OK | 2027 | ✅ | - | 2027-01-19 | 2027-06-28~07-01 Rennes | ACM SIGOPS ATC로 존속. 2027 AoE, 연장 없음, notif 04-27 |
+| avss | 2026 | ✅ OK | 2027 | ⚠️ | 2027-03-05 | 2027-03-12 | 2027-07-19~21 Macau | HOLD: 사이트가 유치 제안서 기준 잠정 날짜라고 명시. 2026 Round1 cycle 누락(지난 회차) |
+| bibm | 2026 | ➕ 보완 | 2027 | ❌ | - | - | - | 2026 notification 2026-09-25 |
+| bigdata | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| bmvc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| case | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 notification 2027-05-15 |
+| cases | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| cav | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| cc | 2026 | ➕ 보완 | 2027 | ❌ | - | - | - | 2026 notification 2025-12-10. CC 2027 페이지 비공개 → HOLD |
+| ccc | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 CFP 미발표, 행사-only 유지 |
+| ccgrid | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 abstract 11-24 ← 임박, paper 12-01. 연장 공지 없음 |
+| ccs | 2027 | ✅ OK | 2027 | ❌ | - | - | - | 2027 CFP "Coming Soon", 행사-only 유지 |
+| cgo | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 round2 notification 2026-11-09 |
+| chi | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| cikm | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 Sydney만 공식 확인, 날짜 미확정 |
+| cloud | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+
+### Phase 2 결과 (2026-11-11)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| cluster | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| codes-isss | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| cogsci | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 paper 2027-02-01 자정 UTC-11 보완, notification "Early April" |
+| coling | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| colt | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 paper 2027-01-29 AoE, notification 2027-05-03 보완 |
+| concur | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| conext | 2026 | ✅ OK | 2027 | ✅ | 2026-11-27 / 2027-05-28 | 2026-12-04 / 2027-06-04 | 2027-12-06~09 Rio de Janeiro (TBC) | december·june 2 cycle, 23:59 AoE. notif 03-31 / 09-10. 일정·장소는 "To be confirmed" |
+| conll | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| corl | 2026 | ➕ 보완 | 2027 | ❌ | - | - | - | 2026 notification 2026-09-04 |
+| crypto | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 날짜·CFP TBD (UCSB) |
+| cscw | 2026 | ✅ OK | 2027 | ⚠️ | - | - | - | rolling 제출로 전환, 고정 마감 없음. 2027 날짜·장소 미발표 |
+| cseet | 2026 | ✅ OK | 2027 | ✅ | 2027-02-19 | 2027-02-26 | 2027-07-08~09 Limassol | AoE, notif 04-19. 공식 사이트 DNS 실패 → EasyChair CFP + 메일링 공지 근거 |
+| csf | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2026 notification 2026-04-01. 2027 3 cycle 일치 |
+| cvpr | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 paper 11-16 ← 임박, 연장 없음 명시 |
+| dac | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 abstract 11-11 / paper 11-18 ← 임박 (17:00 PT), 연장 공지 없음 |
+| dasfaa | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 paper 2027-06-07 → 2026-11-25 23:59 AoE ← 임박, notif → 2027-01-25, conf 05-27~30 |
+| date | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| dis | 2027 | ✅ OK | 2028 | ❌ | - | - | - | website_url을 CFP 페이지로 교체 후보 |
+| disc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| dsn | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 abstract 11-25 ← 임박, paper 12-02. 연장 공지 없음 |
+| eacl | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| ecai | 2028 | ✅ OK | 2029 | ❌ | - | - | - | 2028 행사-only 유지 (9/28 ecai2028.fi 근거). 2029 Dublin |
+| eccv | 2026 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| ecml-pkdd | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 Research track 미발표. Journal track 예비 공지(~2027-01-31)는 미반영 |
+| ecoop | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 round1 11-19 ← 임박, 연장 공지 없음 |
+| ecrts | 2026 | ✅ OK | 2027 | ✅ | - | 2027-02-26 | 2027-07-13~16 Prague | AoE, notification tba |
+| edbt | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 notification 3건: 2026-04-04 / 08-08 / 12-05. tz PDT 유지 |
+| egsr | 2027 | ➕ 보완 | 2027 | ❌ | - | - | - | 2026 notification 2026-05-25. 2027 CFP 미발표 |
+| emnlp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 "11월 초 잠정, 멕시코/중미" → HOLD |
+| emsoft | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+
+### Phase 3 결과 (2026-11-11)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| er | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| esa | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| esem | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| esop | 2027 | ✅ OK | 2028 | ❌ | - | - | 2028-04-02~07 Karlsruhe | ETAPS 2028 일정만 공개 → 행사-only 추가 후보 |
+| esorics | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 winter CFP 곧 나올 가능성, 다음 점검 대상 |
+| eurocrypt | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| eurographics | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 paper 10-01 23:59 UTC → 10-02 00:59 AoE, abstract tz UTC → AoE (마감) |
+| eurosys | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| fase | 2026 | ✅ OK | 2027 | ⚠️ | - | - | - | ⚠️ 2026이 마지막. ETAPS 2027부터 iFM과 합쳐 iFS로 대체 — slug 처리 결정 필요 |
+| fast | 2028 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| fc | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| fg | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 abstract 10-09 → 10-23, paper 10-16 → 10-30 (마감). dates 페이지 직접 확인 |
+| focs | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| fse | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 paper 10-02 → 10-03 AoE (마감, HotCRP 장애로 연장) |
+| gecco | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 abstract 2027-01-18, paper 01-25, notif 03-19 보완. timezone 미표기 |
+| hipc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| hipeac | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 마감은 2차 소스뿐, 행사-only 유지 |
+| hpca | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| hpdc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| hri | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| i3d | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| icalp | 2026 | ✅ OK | 2027 | ✅ | - | 2026-09-15 (마감) | 2027-07-05~09 Kraków | Track B round1만 확정(notif 12-08). Track A·Track B round2 TBA |
+| icaps | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| iccad | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| iccd | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| iccv | 2027 | ✅ OK | 2029 | ❌ | - | - | - | HOLD: 2027 일정 10/3–7 vs 10/2–8 공식 페이지 내 충돌. 현재 URL 접근 불가 → 교체 |
+| icdcs | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 CFP 미발표. website_url 2027 사이트로 교체 후보 |
+| icde | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 round2 11-11 17:00 PT ← 임박, 연장 공지 없음 |
+| icdm | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| icfp | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+
+### Phase 4 결과 (2026-11-11)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| icip | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 CFP 미발표. 2028 종료일 출처 충돌 |
+| iclp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| iclr | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| icml | 2026 | ✅ OK | 2027 | ❌ | - | - | 2027-07-31~08-06 Rio de Janeiro | CFP "posted soon" → 행사-only 추가 후보 |
+| icmr | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| icnp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| icpp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| icpr | 2027 | ✅ OK | 2028 | ❌ | - | - | - | HOLD(잠정): 공식 잠정값이 등록 03-01 / paper 03-08 / notif 05-31로 바뀜. "All dates are tentative" |
+| icra | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| ics | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| icse | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| icsme | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| icsoc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| icst | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| icws | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| ieee-vis | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| ieee-vr | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| iiswc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| ijcai | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 abstract 2027-01-04, paper 01-11 23:59 AoE, notif 04-21 보완 |
+| ijcar | 2026 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| imc | 2026 | ✅ OK | 2027 | ✅ | 2026-11-10 (마감) / 2027-03-31 | 2026-11-17 ← 임박 / 2027-04-07 | 2027-10-25~29 Atlanta | 2 cycle, notif 02-25 / 07-22. timezone 미표기 |
+| infocom | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| interact | 2027 | ✅ OK | 2029 | ❌ | - | - | - | 2029 미발표 |
+| ipdps | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| iros | 2028 | ⚠️ 수정 | 2029 | ❌ | - | - | - | 2027 conf 시작일 09-26 → 09-27. 2028 행(Sydney)은 유치 기관 발표 근거로 유지 |
+| isaac | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| isca | 2026 | ✅ OK | 2027 | ✅ | 2026-11-09 (마감) | 2026-11-16 ← 임박 | 2027-06-05~09 Atlanta | 23:59 AoE, notif 03-26. Industry track(12-06/12-13)은 미반영 |
+| ismar | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 10-11~15 Kobe "subject to change" → HOLD |
+| ismb | 2028 | ✅ OK | 2029 | ❌ | - | - | - | 2028 행사-only 유지 (9/28 ISCB future list 근거). 2027 일치 |
+| ispass | 2026 | ✅ OK | 2027 | ✅ | 2026-12-11 | 2026-12-18 | 2027-05-09~11 New York | AoE (작년 EST에서 변경), notif 03-08 |
+
+### Phase 5 결과 (2026-11-11)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| isrr | 2026 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| issre | 2027 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| issta | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| iswc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| itcs | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 사이트 itcs-conf.org로 이전 → website_url 교체 후보 |
+| its | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 paper 2027-01-10 23:59 Pacific Time, notif 03-08 보완 |
+| iui | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| kdd | 2027 | ✅ OK | 2027 | ❌ | - | - | - | 2027 second cycle "February 2027"만 공지, 날짜 미정 |
+| kr | 2026 | ✅ OK | 2027 | ❌ | - | - | 2027-09-21~24 Buenos Aires | CFP 미발표 → 행사-only 추가 후보 |
+| lctes | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| lics | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 abstract 2027-01-14, paper 01-21 AoE, notif 04-15 보완 |
+| lrec | 2026 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| mascots | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| mass | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| mdm | 2026 | ✅ OK | 2027 | ✅ | - | 2027-01-25 | 2027-06-28~07-01 Hamilton, NZ | 23:59 AoE, notif 03-25 |
+| mfcs | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| miccai | 2028 | ✅ OK | 2029 | ❌ | - | - | - | 2027·2028 마감 TBA. 2029 Abu Dhabi·2030 Rotterdam 일정 공개(미반영) |
+| micro | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| middleware | 2026 | ✅ OK | 2027 | ✅ | 2026-11-27 / 2027-05-28 | 2026-12-04 / 2027-06-04 | 2027-12-13~17 Kyoto | winter·summer 2 cycle, notif 03-29 / 09-13. timezone 미표기 |
+| mobicom | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 summer venue TBA → Athens, Greece. winter cycle TBD |
+| mobihoc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| mobilehci | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 tz 빈값 → AoE, abstract/paper 시각 T00:00 → T23:59 |
+| mobisys | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 abstract 11-27, paper 12-04. 연장 없음 명시 |
+| models | 2026 | ✅ OK | 2027 | ❌ | - | - | 2027-09-26~10-01 Budapest | CFP 미발표 → 행사-only 추가 후보 |
+| msr | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| msst | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 CFP 미발표, 행사-only 유지 (05-17~21) |
+| naacl | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| ndss | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 fall cycle notification 2026-11-24 → 2026-12-02 |
+| neurips | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2026은 Sydney·Atlanta·Paris 분산 개최, DB venue는 Sydney만 — 표기 결정 필요 |
+| noms | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 paper 11-09 → 2026-11-30 (firm), notif 2027-02-15 보완. timezone 미표기 |
+
+### Phase 6 결과 (2026-11-11)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| nossdav | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 paper 2027-01-11 AoE, notif 02-01 보완 |
+| nsdi | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| oopsla | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| osdi | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 abstract 12-01, 연장 없음 명시 |
+| pact | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| pakdd | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 paper 11-20 ← 임박, 연장 공지 없음 |
+| percom | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| performance | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2026 paper 마감 출처 충돌(사이트 05-22 vs HotCRP 05-31 UTC), 지난 회차 |
+| pets | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 Q3 11-30 (firm) |
+| pg | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| pldi | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 paper 11-12 ← 임박 (firm) |
+| podc | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 CFP 날짜 미게시. website_url 2027로 교체 후보 |
+| pods | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 conf 종료일 06-19 → 06-18 (두 round) |
+| popl | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| ppopp | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| raid | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| re | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 abstract 2027-02-22, paper 03-01 AoE, notif 05-14 보완 |
+| recomb | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| recsys | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| rss | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 12-04 = Stage 1(신규 투고 마감), Stage 2 04-16은 초청 전용 — 9/28 방침 유지 |
+| rtas | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| rtss | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| sac | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 paper 10-02 → 10-16 EST (마감), notification 11-13 → 11-20 (취소선 직접 확인) |
+| saner | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| sas | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| sc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| sca | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2026 notification 공식 페이지 내 불일치(05-29/06-12/06-16), 지난 회차 |
+| sdm | 2026 | ✅ OK | 2027 | ❌ | - | - | - | siam.org 403 — 공식 페이지 미확인 |
+| sec | 2026 | ✅ OK | 2027 | ✅ | - | 2026-12-15 | 2027-06-14~16 Linköping | AoE, notif 02-18 |
+| secon | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 paper 11-30, 시각·timezone 미표기 (DB T00:00). 연장 공지 없음 |
+
+### Phase 7 결과 (2026-11-11)
+
+| 학회 | DB 최신 | 검증 | 다음연도 | 상태 | Abstract | Paper | 학회 일정 | 비고 |
+|------|--------|------|---------|------|----------|-------|----------|------|
+| sensys | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| sgp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| sigcomm | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 paper 2027-02-02 보완, 연장 없음 명시. timezone 미표기 |
+| siggraph | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 마감 TBA. website_url s2027로 교체 후보 |
+| siggraph-asia | 2026 | ✅ OK | 2027 | ❌ | - | - | 2027-11-30~12-03 Tokyo | CFP 미발표 → 행사-only 추가 후보 |
+| sigir | 2026 | ✅ OK | 2027 | ✅ | 2027-01-14 | 2027-01-21 | 2027-07-19~24 San Jose | AoE, notif 04-05. 2026 사이트는 JS 셸이라 재검증 불가 |
+| sigmetrics | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 conf 종료일 06-11 → 06-10 |
+| sigmod | 2027 | ⚠️ 수정 | 2028 | ❌ | - | - | - | 2027 conf 종료일 06-19 → 06-18 |
+| socc | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| socg | 2027 | ➕ 보완 | 2028 | ❌ | - | - | - | 2027 등록 2026-11-25 ← 임박, paper 12-02 23:59 AoE, notif 2027-02-05 보완 |
+| soda | 2027 | ✅ OK | 2028 | ❌ | - | - | - | siam.org 403 — HotCRP로 마감만 검증 |
+| sosp | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| soups | 2027 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| sp | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 cycle2 paper 11-17 ← 임박, 연장 공지 없음 |
+| spaa | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| srds | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| stacs | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| stoc | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| tacas | 2027 | ✅ OK | 2028 | ❌ | - | - | 2028-04-02~07 Karlsruhe | ETAPS 2028 일정만 공개 → 행사-only 추가 후보 |
+| tcc | 2026 | ➕ 보완 | 2027 | ❌ | - | - | - | 2026 notification 2026-08-20 |
+| uai | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| ubicomp | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 IMWUT 마감 공식 페이지 403, 행사-only 유지 |
+| uist | 2026 | ✅ OK | 2027 | ✅ | 2027-03-31 | 2027-04-07 | 2027-10-26~29 Vienna | 공식 페이지에 월·일만 표기(연도·timezone 없음), notification 미표기 |
+| usenix-security | 2028 | ✅ OK | 2029 | ❌ | - | - | - | 2029 미발표 |
+| vldb | 2027 | ✅ OK | 2028 | ❌ | - | - | 2028-08-28~09-01 Marrakech | 2027 abstract 11-25 ← 임박 / paper 12-01. 2028 행사-only 추가 후보 |
+| vrst | 2026 | ✅ OK | 2027 | ❌ | - | - | - | 2027 미발표 |
+| wacv | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2027 notification 공식 페이지 간 불일치(10-09 vs 10-14), 지난 날짜 |
+| wsdm | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2028 미발표 |
+| www | 2027 | ✅ OK | 2028 | ❌ | - | - | - | 2026 venue DB "Virtual" vs 공식 사이트 Dubai — 확인 필요 |
+
+*deadlines.json 업데이트: 해당 ✅ 항목 추가 + ⚠️/➕ 항목 수정 후 `npx pnpm seed`*
+
+---
+
 ## 2026-09-28 Phase 1–7 재조사 및 반영
 
 - 등록 209개 학회 모두 조사 시도. 현재 회차와 다음 유효 회차를 점검하되, 접근 실패·잠정 일정·공식 문서 충돌은 확인 완료와 구분했다.
