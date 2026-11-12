@@ -1,36 +1,45 @@
 import type { Metadata } from "next";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
+import type { BestPaperWithConference } from "@/domain/repositories/best-paper-repository";
 import { BestPaperClientSection } from "@/presentation/components/best-papers/best-paper-client-section";
 
-export const metadata: Metadata = {
-  title: "CS Best Paper 수상 논문 목록",
-  description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 2,022건을 연도와 학회별로 확인하세요.",
-  openGraph: {
-    title: "CS Best Paper 수상 논문 목록 — CS-Pedia",
-    description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 2,022건을 연도와 학회별로 확인하세요.",
-    url: "https://cs-pedia.io/best-papers",
-    siteName: "CS-Pedia",
-    locale: "ko_KR",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "CS Best Paper 수상 논문 목록 — CS-Pedia",
-    description: "209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 2,022건을 연도와 학회별로 확인하세요.",
-  },
-  alternates: {
-    canonical: "https://cs-pedia.io/best-papers",
-  },
-};
+async function loadBestPapers(): Promise<BestPaperWithConference[]> {
+  const fs = await import("fs/promises");
+  const path = await import("path");
+  const raw = await fs.readFile(path.join(process.cwd(), "public/data/best-papers.json"), "utf8");
+  return JSON.parse(raw);
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  const count = (await loadBestPapers()).length.toLocaleString("en-US");
+  const description = `209개 주요 CS 학회의 Best Paper, Distinguished Paper, Honorable Mention 수상 논문 ${count}건을 연도와 학회별로 확인하세요.`;
+  return {
+    title: "CS Best Paper 수상 논문 목록",
+    description,
+    openGraph: {
+      title: "CS Best Paper 수상 논문 목록 — CS-Pedia",
+      description,
+      url: "https://cs-pedia.io/best-papers",
+      siteName: "CS-Pedia",
+      locale: "ko_KR",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "CS Best Paper 수상 논문 목록 — CS-Pedia",
+      description,
+    },
+    alternates: {
+      canonical: "https://cs-pedia.io/best-papers",
+    },
+  };
+}
 
 export const revalidate = 86400;
 
 export default async function BestPapersPage() {
-  const fs = await import("fs/promises");
-  const path = await import("path");
-  const raw = await fs.readFile(path.join(process.cwd(), "public/data/best-papers.json"), "utf8");
-  const papers = JSON.parse(raw);
+  const papers = await loadBestPapers();
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
@@ -58,7 +67,7 @@ export default async function BestPapersPage() {
             CS Best Paper Archive
           </h1>
           <p className="mt-1 text-sm text-zinc-500">
-            209개 주요 CS 학회의 Best Paper 수상 논문 2,022건을 연도와 학회별로 탐색하세요.
+            209개 주요 CS 학회의 Best Paper 수상 논문 {papers.length.toLocaleString("en-US")}건을 연도와 학회별로 탐색하세요.
           </p>
         </div>
 
