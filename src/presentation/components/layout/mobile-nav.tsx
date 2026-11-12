@@ -2,13 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { CalendarDays, BookOpen, ChartNoAxesColumnIncreasing, UserRound } from "lucide-react";
 import { useLocale } from "@/presentation/hooks/use-locale";
+import styles from "./shell.module.css";
 
 const NAV_ITEMS = [
-  { href: "/", label: "홈", labelEn: "Home", icon: "🏠" },
-  { href: "/trends", label: "트렌드", labelEn: "Trends", icon: "📊" },
-  { href: "/best-papers", label: "논문", labelEn: "Papers", icon: "🏆" },
-  { href: "/mypage", label: "마이", labelEn: "My", icon: "👤" },
+  { href: "/", label: "데드라인", labelEn: "Deadlines", icon: CalendarDays },
+  { href: "/best-papers", label: "수상 논문", labelEn: "Papers", icon: BookOpen },
+  { href: "/trends", label: "트렌드", labelEn: "Trends", icon: ChartNoAxesColumnIncreasing },
+  { href: "/mypage", label: "마이페이지", labelEn: "My page", icon: UserRound },
 ];
 
 export function MobileNav() {
@@ -16,30 +18,26 @@ export function MobileNav() {
   const { isKorean } = useLocale();
 
   return (
-    <nav className="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-zinc-200 px-2 pb-[env(safe-area-inset-bottom)]">
-      <div className="flex items-center justify-around h-14">
+    <nav className={styles.mobileNav} aria-label={isKorean ? "모바일 주요 메뉴" : "Mobile navigation"}>
         {NAV_ITEMS.map((item) => {
           const isActive =
             item.href === "/"
-              ? pathname === "/"
+              ? pathname === "/" || pathname.startsWith("/conferences/")
               : pathname.startsWith(item.href);
 
+          const Icon = item.icon;
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`flex flex-col items-center gap-0.5 px-3 py-3 rounded-lg transition-colors ${
-                isActive
-                  ? "text-indigo-600"
-                  : "text-zinc-400 hover:text-zinc-600"
-              }`}
+              className={styles.mobileLink}
+              aria-current={isActive ? "page" : undefined}
             >
-              <span className="text-lg leading-none">{item.icon}</span>
-              <span className="text-[10px] font-medium">{isKorean ? item.label : item.labelEn}</span>
+              <Icon size={18} strokeWidth={1.5} aria-hidden="true" />
+              <span>{isKorean ? item.label : item.labelEn}</span>
             </Link>
           );
         })}
-      </div>
     </nav>
   );
 }

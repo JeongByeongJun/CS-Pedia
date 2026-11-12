@@ -5,6 +5,8 @@ import type { ConferenceWithRelations } from "@/domain/repositories/conference-r
 import { ConferenceCard } from "./conference-card";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
+import styles from "./conference-index.module.css";
+
 const PAGE_SIZE = 30;
 
 interface ConferenceListProps {
@@ -33,9 +35,9 @@ export function ConferenceList({
 
   if (conferences.length === 0) {
     return (
-      <div className="text-center py-16 text-zinc-400">
-        <div className="text-4xl mb-3">🔍</div>
-        <div className="text-sm">{isKorean ? "검색 결과가 없습니다" : "No results found"}</div>
+      <div className={styles.empty}>
+        <h2>{isKorean ? "일치하는 학회가 없습니다." : "No matching conferences."}</h2>
+        <p>{isKorean ? "검색어를 바꾸거나 분야·평가 기관 필터를 전체로 설정해 보세요." : "Try another search or set the field and ranking filters to All."}</p>
       </div>
     );
   }
@@ -44,7 +46,12 @@ export function ConferenceList({
   const hasMore = visibleCount < conferences.length;
 
   return (
-    <div className="space-y-3">
+    <div className={styles.list}>
+      <div className={styles.columnHead} aria-hidden="true">
+        <span>{isKorean ? "학회 / 연구 분야" : "Conference / field"}</span>
+        <span>{isKorean ? "논문 제출 마감" : "Submission deadline"}</span>
+        <span>{isKorean ? "기관별 평가" : "Venue rankings"}</span>
+      </div>
       {visible.map((conf) => (
         <ConferenceCard
           key={conf.id}
@@ -56,7 +63,7 @@ export function ConferenceList({
       {hasMore && (
         <button
           onClick={showMore}
-          className="w-full py-3 text-sm font-medium text-zinc-500 hover:text-zinc-700 bg-zinc-50 hover:bg-zinc-100 rounded-xl transition-colors"
+          className={styles.showMore}
         >
           {isKorean
             ? `더보기 (${conferences.length - visibleCount}개 남음)`

@@ -51,26 +51,14 @@ export default async function BestPapersPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="desk-page">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <SiteHeader />
 
-      <main className="max-w-6xl mx-auto px-4 py-8 sm:px-6">
-        <div className="mb-6">
-          <div className="text-[11px] tracking-[0.12em] uppercase text-indigo-400 mb-1.5 font-mono font-medium">
-            Best Papers
-          </div>
-          <h1 className="font-bold text-2xl tracking-[-0.025em] text-zinc-900">
-            CS Best Paper Archive
-          </h1>
-          <p className="mt-1 text-sm text-zinc-500">
-            209개 주요 CS 학회의 Best Paper 수상 논문 {papers.length.toLocaleString("en-US")}건을 연도와 학회별로 탐색하세요.
-          </p>
-        </div>
-
+      <main id="main-content" className="desk-container">
         <BestPaperClientSection papers={papers} />
 
         <SiteFooter />

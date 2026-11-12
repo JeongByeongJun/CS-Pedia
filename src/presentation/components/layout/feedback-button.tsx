@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { useLocale } from "@/presentation/hooks/use-locale";
+import styles from "./shell.module.css";
 
 const CONTACT_OPTIONS = [
   {
@@ -34,6 +35,7 @@ export function FeedbackButton() {
   const { isKorean } = useLocale();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     if (!open) return;
@@ -42,21 +44,38 @@ export function FeedbackButton() {
         setOpen(false);
       }
     }
+    function handleKey(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setOpen(false);
+        triggerRef.current?.focus();
+      }
+    }
     document.addEventListener("pointerdown", handleClick);
-    return () => document.removeEventListener("pointerdown", handleClick);
+    document.addEventListener("keydown", handleKey);
+    return () => {
+      document.removeEventListener("pointerdown", handleClick);
+      document.removeEventListener("keydown", handleKey);
+    };
   }, [open]);
 
   return (
-    <div ref={ref}>
+    <div className={styles.feedback}>
+    <div ref={ref} className={styles.feedbackWrap} onBlur={(event) => {
+      if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
+    }}>
       <button
-        onClick={() => setOpen(true)}
-        className="fixed bottom-[6rem] right-4 sm:bottom-6 sm:right-6 z-50 flex items-center gap-1.5 sm:gap-2 bg-indigo-600 text-white text-xs sm:text-sm font-medium px-4 py-3 sm:px-5 sm:py-3 rounded-full shadow-lg shadow-indigo-500/25 hover:bg-indigo-500 hover:shadow-indigo-500/40 hover:scale-105 cursor-pointer transition-all"
+        ref={triggerRef}
+        type="button"
+        aria-expanded={open}
+        aria-controls="feedback-options"
+        onClick={() => setOpen(!open)}
+        className={styles.authButton}
       >
-        💬 {isKorean ? "문의" : "Contact"}
+        {isKorean ? "의견 보내기" : "Send feedback"} <span aria-hidden="true">↗</span>
       </button>
 
       {open && (
-        <div className="fixed bottom-[9rem] right-4 sm:bottom-20 sm:right-6 z-50 bg-white rounded-xl shadow-xl border border-zinc-200 p-3 w-48 max-h-[60vh] overflow-y-auto">
+        <div id="feedback-options" className={styles.feedbackPanel}>
           <div className="space-y-1">
             {CONTACT_OPTIONS.map((opt, i) => (
               <a
@@ -65,7 +84,7 @@ export function FeedbackButton() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
-                className="block px-3 py-2 rounded-lg text-xs font-medium text-zinc-500 hover:text-indigo-600 hover:bg-indigo-50 transition-all"
+                className={styles.feedbackOption}
               >
                 {isKorean ? opt.kr : opt.en}
               </a>
@@ -73,6 +92,7 @@ export function FeedbackButton() {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 }
