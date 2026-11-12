@@ -342,7 +342,7 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
         {deadlines.length > 0 && (
           <Section title={<LocaleText ko="데드라인" en="Deadlines" />}>
             <div className="space-y-3">
-              {deadlines.map((d) => (
+              {[...deadlines].sort((a, b) => b.year - a.year || (a.paperDeadline?.getTime() ?? Infinity) - (b.paperDeadline?.getTime() ?? Infinity)).map((d) => (
                 <div
                   key={`${d.year}-${d.cycle}`}
                   className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5 sm:gap-0 p-3 rounded-xl bg-zinc-50 border border-zinc-100"
