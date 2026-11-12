@@ -7,13 +7,11 @@ import { FieldBadge } from "./field-badge";
 import { InstitutionBadges } from "./institution-badges";
 import { BestPaperAccordion } from "./best-paper-accordion";
 import { DeadlineTimeline } from "./deadline-timeline";
-import { DeadlineLocalTime } from "./deadline-local-time";
 import { BookmarkButton } from "./bookmark-button";
 import { useMemo, useSyncExternalStore } from "react";
 import { deadlineToUTC, formatDate, formatDeadlineLocal, isKnownDeadlineTimezone } from "@/shared/utils/date";
 import { conferenceUrl } from "@/shared/utils/url";
 import { useLocale } from "@/presentation/hooks/use-locale";
-import styles from "./conference-index.module.css";
 
 interface ConferenceCardProps {
   conference: ConferenceWithRelations;
@@ -21,7 +19,11 @@ interface ConferenceCardProps {
   isLoggedIn: boolean;
 }
 
-export function ConferenceCard({ conference, isBookmarked, isLoggedIn }: ConferenceCardProps) {
+export function ConferenceCard({
+  conference,
+  isBookmarked,
+  isLoggedIn,
+}: ConferenceCardProps) {
   const { isKorean } = useLocale();
   // 클라이언트 실시간 D-day 재계산 (ISR 캐시와 무관하게 정확한 값)
   const ddays = useMemo(() => {
@@ -39,93 +41,128 @@ export function ConferenceCard({ conference, isBookmarked, isLoggedIn }: Confere
     conference.nextDeadline?.getFullYear() ??
     null;
 
-
-  const completed = ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date();
+  let borderClass = "border-zinc-200/80";
+  if (ddays !== null && ddays >= 0 && ddays <= 14) {
+    borderClass = "border-rose-200 shadow-sm shadow-rose-100";
+  } else if (ddays !== null && ddays >= 0 && ddays <= 30) {
+    borderClass = "border-orange-200";
+  }
 
   return (
-    <article className={styles.conferenceRow} aria-label={conference.acronym}>
-      <div className={styles.rowGrid}>
-        <div className={styles.identity}>
-          <div className={styles.identityTop}>
-            <Link href={conferenceUrl(conference.slug)} className={styles.acronym}>{conference.acronym}</Link>
-            {editionYear && <span className={styles.edition}>{editionYear}</span>}
-            <FieldBadge field={conference.field} />
-          </div>
-          <p className={styles.conferenceName}>{conference.nameEn}</p>
-          <div className={styles.eventMeta}>
-            {conference.conferenceStart && <span>{isKorean ? "개최" : "Event"} {formatDate(conference.conferenceStart)}</span>}
-            {conference.venue && <span>{conference.venue}</span>}
-          </div>
-        </div>
-        <div className={styles.deadlineColumn}>
-          <span className={styles.mobileColumnLabel}>{isKorean ? "논문 제출 마감" : "Submission deadline"}</span>
-          {completed ? (
-            <p className={styles.unannounced}>{isKorean ? "다음 일정 미발표" : "Next edition TBA"}</p>
-          ) : conference.nextDeadline ? (
-            <>
-              <DeadlineTime deadline={conference.nextDeadline} timezone={conference.deadlineTimezone} critical={ddays !== null && ddays >= 0 && ddays <= 3} />
-              <DeadlineBadge ddays={ddays} />
-            </>
-          ) : (
-            <p className={styles.unannounced}>{isKorean ? "CFP 미발표" : "CFP to be announced"}</p>
-          )}
-        </div>
-        <div className={styles.ratingsColumn}>
-          <InstitutionBadges ratings={conference.institutionRatings} isKorean={isKorean} />
-        </div>
-        <div className={styles.bookmark}>
-          <BookmarkButton conferenceId={conference.id} initialBookmarked={isBookmarked} isLoggedIn={isLoggedIn} />
-        </div>
-      </div>
-      <div className={styles.rowExtras}>
-        {conference.latestBestPapers.length > 0 && <BestPaperAccordion papers={conference.latestBestPapers} />}
-        {(conference.nextDeadline || conference.abstractDeadline) && (
-          <details className={styles.schedule}>
-            <summary>{isKorean ? "주요 일정" : "Key dates"}</summary>
-            <div className={styles.scheduleContent}>
-              <DeadlineTimeline abstractDeadline={conference.abstractDeadline} paperDeadline={conference.nextDeadline} notificationDate={conference.notificationDate} />
-              <dl className={styles.scheduleDates}>
-                {conference.abstractDeadline && (
-                  <div>
-                    <dt>{isKorean ? "초록 제출" : "Abstract"}</dt>
-                    <dd><DeadlineLocalTime deadline={conference.abstractDeadline} timezone={conference.deadlineTimezone} /></dd>
-                  </div>
-                )}
-                {conference.nextDeadline && (
-                  <div>
-                    <dt>{isKorean ? "논문 제출" : "Paper"}</dt>
-                    <dd><DeadlineLocalTime deadline={conference.nextDeadline} timezone={conference.deadlineTimezone} /></dd>
-                  </div>
-                )}
-                {conference.notificationDate && (
-                  <div>
-                    <dt>{isKorean ? "결과 통보" : "Notification"}</dt>
-                    <dd>{formatDate(conference.notificationDate)}</dd>
-                  </div>
-                )}
-              </dl>
+    <div
+      className={`bg-white rounded-2xl border transition-all hover:shadow-md ${borderClass}`}
+    >
+      <div className="p-5">
+        <div className="flex items-start justify-between gap-4">
+          {/* 왼쪽 */}
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+              <Link
+                href={conferenceUrl(conference.slug)}
+                className="text-lg font-bold text-zinc-900 hover:text-indigo-600 transition-colors whitespace-nowrap"
+              >
+                {conference.acronym}
+              </Link>
+              <FieldBadge field={conference.field} />
+              {editionYear && (
+                <span className="text-xs px-1.5 py-0.5 bg-indigo-50 text-indigo-400 rounded font-medium">
+                  {editionYear}
+                </span>
+              )}
+              {conference.nextDeadline === null && (
+                <span className="text-xs px-1.5 py-0.5 bg-zinc-100 text-zinc-400 rounded font-medium border border-zinc-200">
+                  {isKorean ? "CFP 미발표" : "CFP TBA"}
+                </span>
+              )}
+              {!(ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date()) && (
+                <DeadlineBadge ddays={ddays} />
+              )}
             </div>
-          </details>
+            <div className="text-sm text-zinc-500 mb-2 truncate">
+              {conference.nameEn}
+            </div>
+            <div className="flex items-center gap-4 text-xs text-zinc-400 flex-wrap">
+              {ddays !== null && ddays < 0 && conference.conferenceEnd && new Date(conference.conferenceEnd) < new Date() ? (
+                <span className="text-zinc-400">
+                  {isKorean ? "다음 일정이 공개되지 않았습니다." : "Next schedule not announced."}
+                </span>
+              ) : conference.nextDeadline ? (
+                <>
+                  {conference.conferenceStart && (
+                    <span className="whitespace-nowrap">
+                      📅 {formatDate(conference.conferenceStart)}
+                    </span>
+                  )}
+                  {conference.venue && <span className="truncate max-w-[200px] sm:max-w-none sm:whitespace-nowrap">📍 {conference.venue}</span>}
+                  <DeadlineTime deadline={conference.nextDeadline!} timezone={conference.deadlineTimezone} />
+                </>
+              ) : conference.conferenceStart ? (
+                <>
+                  <span className="whitespace-nowrap">
+                    📅 {formatDate(conference.conferenceStart)}
+                  </span>
+                  {conference.venue && <span className="truncate max-w-[200px] sm:max-w-none sm:whitespace-nowrap">📍 {conference.venue}</span>}
+                </>
+              ) : (
+                <span className="text-zinc-400">
+                  {isKorean ? "다음 일정이 공개되지 않았습니다." : "Next schedule not announced."}
+                </span>
+              )}
+            </div>
+          </div>
+
+          {/* 오른쪽 - 기관 인정 뱃지(데스크탑) + 북마크 */}
+          <div className="flex flex-col items-end gap-2 shrink-0">
+            <div className="hidden sm:block">
+              <InstitutionBadges ratings={conference.institutionRatings} isKorean={isKorean} />
+            </div>
+            <div className="flex items-center gap-2">
+              <DeadlineTimeline
+                abstractDeadline={conference.abstractDeadline}
+                paperDeadline={conference.nextDeadline}
+                notificationDate={conference.notificationDate}
+              />
+              <BookmarkButton
+                conferenceId={conference.id}
+                initialBookmarked={isBookmarked}
+                isLoggedIn={isLoggedIn}
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Best Paper */}
+        {conference.latestBestPapers.length > 0 && (
+          <BestPaperAccordion papers={conference.latestBestPapers} />
         )}
       </div>
-    </article>
+    </div>
   );
 }
 
-function DeadlineTime({ deadline, timezone, critical = false }: { deadline: Date; timezone: string | null; critical?: boolean }) {
+function DeadlineTime({ deadline, timezone }: { deadline: Date; timezone: string | null }) {
   const { isKorean } = useLocale();
   const isHydrated = useSyncExternalStore(subscribeToHydration, () => true, () => false);
   const hasKnownTimezone = isKnownDeadlineTimezone(timezone);
   const local = isHydrated && hasKnownTimezone ? formatDeadlineLocal(deadline, timezone) : null;
-  const [date, time] = local ? local.dateTime.split(" ") : [formatDate(deadline), null];
+
+  if (!hasKnownTimezone) {
+    return (
+      <span className="whitespace-nowrap">
+        ⏰ {formatDate(deadline)} ({isKorean ? "시간대 미공개" : "timezone TBA"})
+      </span>
+    );
+  }
+
+  if (!local) {
+    // SSR fallback: show date only
+    return <span className="whitespace-nowrap">⏰ {formatDate(deadline)}</span>;
+  }
 
   return (
-    <div className={styles.deadlineTime}>
-      <span className={`${styles.deadlineDate} ${critical ? styles.deadlineDateCritical : ""}`}>{date}</span>
-      <span className={styles.deadlineZone}>
-        {local ? `${time} ${local.tzAbbr}` : hasKnownTimezone ? (isKorean ? "현지 시간으로 변환 중" : "Converting to local time") : (isKorean ? "시간대 미공개" : "Timezone TBA")}
-      </span>
-    </div>
+    <span className="whitespace-nowrap">
+      ⏰ {local.dateTime} <span className="font-bold">{local.tzAbbr}</span>
+    </span>
   );
 }
 

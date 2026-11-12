@@ -6,7 +6,6 @@ import type { BestPaperWithConference } from "@/domain/repositories/best-paper-r
 import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 import { conferenceUrl, formatAuthors } from "@/shared/utils/url";
 import { useLocale } from "@/presentation/hooks/use-locale";
-import styles from "./paper-archive.module.css";
 
 const INITIAL_YEARS = 3;
 
@@ -14,58 +13,245 @@ interface BestPaperListProps {
   papers: BestPaperWithConference[];
 }
 
+const AWARD_COLORS: Record<string, string> = {
+  best_paper: "#f59e0b",
+  best_paper_runner_up: "#a78bfa",
+  best_student_paper: "#34d399",
+  best_student_paper_runner_up: "#6ee7b7",
+  best_paper_early_career: "#2dd4bf",
+  best_paper_applied_ds: "#38bdf8",
+  computational_modeling_prize: "#22c55e",
+  distinguished_paper: "#6366f1",
+  outstanding_paper: "#60a5fa",
+  honorable_mention: "#f472b6",
+  test_of_time: "#f97316",
+};
+
 export function BestPaperList({ papers }: BestPaperListProps) {
   const { isKorean } = useLocale();
   const [visibleYears, setVisibleYears] = useState(INITIAL_YEARS);
 
-  if (papers.length === 0) return (
-    <div className={styles.empty}>
-      <h2>{isKorean ? "조건에 맞는 논문이 없습니다." : "No papers match these filters."}</h2>
-      <p>{isKorean ? "연도나 분야를 바꾸거나 필터를 초기화해 주세요." : "Try another year or field, or clear your filters."}</p>
-    </div>
+  if (papers.length === 0) {
+    return (
+      <div
+        className="flex flex-col items-center justify-center"
+        style={{ padding: "64px 20px", textAlign: "center" }}
+      >
+        <div
+          style={{
+            width: "56px",
+            height: "56px",
+            borderRadius: "16px",
+            background: "linear-gradient(135deg, #fef3c7, #fde68a)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: "24px",
+            marginBottom: "16px",
+          }}
+        >
+          🏆
+        </div>
+        <div style={{ fontSize: "14px", color: "#71717a" }}>
+          {isKorean ? "해당 조건의 Best Paper가 없습니다" : "No Best Papers match the selected filters"}
+        </div>
+      </div>
+    );
+  }
+
+  const grouped = papers.reduce(
+    (acc, paper) => {
+      const year = paper.year;
+      if (!acc[year]) acc[year] = [];
+      acc[year].push(paper);
+      return acc;
+    },
+    {} as Record<number, BestPaperWithConference[]>,
   );
 
-  const grouped = papers.reduce((acc, paper) => {
-    if (!acc[paper.year]) acc[paper.year] = [];
-    acc[paper.year].push(paper);
-    return acc;
-  }, {} as Record<number, BestPaperWithConference[]>);
-  const sortedYears = Object.keys(grouped).map(Number).sort((a, b) => b - a);
+  const sortedYears = Object.keys(grouped)
+    .map(Number)
+    .sort((a, b) => b - a);
+
+  const displayedYears = sortedYears.slice(0, visibleYears);
+  const hasMoreYears = visibleYears < sortedYears.length;
 
   return (
-    <div className={styles.archive}>
-      {sortedYears.slice(0, visibleYears).map((year) => (
-        <section key={year} className={styles.yearSection} aria-labelledby={`paper-year-${year}`}>
-          <header className={styles.yearHeading}>
-            <h2 id={`paper-year-${year}`}>{year}</h2>
-            <span>{grouped[year].length}{isKorean ? "편" : " papers"}</span>
-          </header>
-          <ol className={styles.paperList}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "32px" }}>
+      {displayedYears.map((year) => (
+        <div key={year}>
+          <div className="flex items-center gap-3 mb-4">
+            <h2
+              className="font-bold"
+              style={{
+                fontSize: "20px",
+                color: "#18181b",
+                fontFamily: "var(--font-geist-mono), monospace",
+                letterSpacing: "-0.02em",
+              }}
+            >
+              {year}
+            </h2>
+            <span
+              style={{
+                fontSize: "11px",
+                color: "#a1a1aa",
+                fontFamily: "var(--font-geist-mono), monospace",
+              }}
+            >
+              {grouped[year].length} papers
+            </span>
+            <div
+              style={{
+                flex: 1,
+                height: "1px",
+                background: "rgba(0,0,0,0.06)",
+              }}
+            />
+          </div>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(min(340px, 100%), 1fr))",
+              gap: "12px",
+            }}
+          >
             {grouped[year].map((paper) => (
-              <li key={paper.id ?? JSON.stringify([paper.conferenceSlug, paper.year, paper.awardType, paper.paperTitle])} className={styles.paper}>
-                <div className={styles.attribution}>
-                  <Link href={conferenceUrl(paper.conferenceSlug)} className={styles.conference}>{paper.conferenceAcronym}</Link>
-                  <span className={styles.award}>{AWARD_TYPE_LABELS[paper.awardType as keyof typeof AWARD_TYPE_LABELS] ?? paper.awardType}</span>
+              <div
+                key={paper.id}
+                className="best-paper-card-hover"
+                style={{
+                  background: "white",
+                  borderRadius: "14px",
+                  border: "1px solid rgba(0,0,0,0.06)",
+                  padding: "18px 20px",
+                  transition: "border-color 0.2s, box-shadow 0.2s",
+                }}
+              >
+                {/* Header: conference + award */}
+                <div
+                  className="flex items-center justify-between"
+                  style={{ marginBottom: "10px" }}
+                >
+                  <Link
+                    href={conferenceUrl(paper.conferenceSlug)}
+                    className="font-bold"
+                    style={{
+                      fontSize: "13px",
+                      color: "#6366f1",
+                      textDecoration: "none",
+                    }}
+                  >
+                    {paper.conferenceAcronym}
+                  </Link>
+                  <span
+                    className="flex items-center"
+                    style={{
+                      fontSize: "10px",
+                      fontWeight: 600,
+                      color: AWARD_COLORS[paper.awardType] ?? "#a1a1aa",
+                      fontFamily: "var(--font-geist-mono), monospace",
+                      letterSpacing: "0.04em",
+                      textTransform: "uppercase",
+                      gap: "4px",
+                    }}
+                  >
+                    <span
+                      style={{
+                        display: "inline-block",
+                        width: "5px",
+                        height: "5px",
+                        borderRadius: "50%",
+                        backgroundColor:
+                          AWARD_COLORS[paper.awardType] ?? "#a1a1aa",
+                      }}
+                    />
+                    {AWARD_TYPE_LABELS[paper.awardType as keyof typeof AWARD_TYPE_LABELS] ?? paper.awardType}
+                  </span>
                 </div>
-                <article className={styles.paperContent}>
-                  <h3 className={styles.paperTitle}>
-                    {paper.paperUrl
-                      ? <a href={paper.paperUrl} target="_blank" rel="noopener noreferrer">{paper.paperTitle}{"\u00A0"}<span className={styles.external} aria-label={isKorean ? "새 탭에서 열기" : "Opens in a new tab"}>↗</span></a>
-                      : paper.paperTitle}
-                  </h3>
-                  {paper.authors && <p className={styles.authors}>{formatAuthors(paper.authors)}</p>}
-                  {paper.tags.length > 0 && <p className={styles.tags}>{paper.tags.join(" / ")}</p>}
-                </article>
-              </li>
+
+                {/* Title */}
+                {paper.paperUrl ? (
+                  <a
+                    href={paper.paperUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium hover:text-indigo-600 transition-colors"
+                    style={{
+                      fontSize: "14px",
+                      color: "#18181b",
+                      lineHeight: 1.5,
+                      display: "block",
+                      textDecoration: "none",
+                    }}
+                  >
+                    {paper.paperTitle}
+                  </a>
+                ) : (
+                  <div
+                    className="font-medium"
+                    style={{
+                      fontSize: "14px",
+                      color: "#18181b",
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    {paper.paperTitle}
+                  </div>
+                )}
+
+                {/* Authors */}
+                {paper.authors && (
+                  <div
+                    style={{
+                      fontSize: "12px",
+                      color: "#a1a1aa",
+                      marginTop: "6px",
+                    }}
+                  >
+                    {formatAuthors(paper.authors)}
+                  </div>
+                )}
+
+                {/* Tags */}
+                {paper.tags.length > 0 && (
+                  <div
+                    className="flex flex-wrap"
+                    style={{ gap: "4px", marginTop: "10px" }}
+                  >
+                    {paper.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        style={{
+                          fontSize: "11px",
+                          padding: "2px 8px",
+                          borderRadius: "6px",
+                          background: "#f4f4f5",
+                          color: "#71717a",
+                          fontWeight: 500,
+                        }}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
             ))}
-          </ol>
-        </section>
+          </div>
+        </div>
       ))}
-      {visibleYears < sortedYears.length && <button
-        type="button"
-        onClick={() => setVisibleYears((previous) => previous + INITIAL_YEARS)}
-        className={styles.showMore}
-      >{isKorean ? `이전 연도 더 보기 · ${sortedYears.length - visibleYears}년 남음` : `Earlier years · ${sortedYears.length - visibleYears} years remaining`}<span aria-hidden="true">↓</span></button>}
+      {hasMoreYears && (
+        <button
+          onClick={() => setVisibleYears((prev) => prev + INITIAL_YEARS)}
+          className="w-full py-3 text-sm font-medium text-zinc-500 hover:text-zinc-700 bg-zinc-50 hover:bg-zinc-100 rounded-xl transition-colors"
+        >
+          {isKorean
+            ? `더보기 (${sortedYears.length - visibleYears}년 남음)`
+            : `Show more (${sortedYears.length - visibleYears} years remaining)`}
+        </button>
+      )}
     </div>
   );
 }

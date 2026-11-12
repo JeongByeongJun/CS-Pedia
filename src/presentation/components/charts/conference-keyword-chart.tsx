@@ -17,7 +17,7 @@ import {
 import type { KeywordTrend } from "@/domain/entities/keyword-trend";
 
 const COLORS = [
-  "#913e30", "#ec4899", "#f59e0b", "#10b981", "#ef4444",
+  "#6366f1", "#ec4899", "#f59e0b", "#10b981", "#ef4444",
   "#8b5cf6", "#06b6d4", "#f97316", "#84cc16", "#e879f9",
   "#14b8a6", "#fb923c",
 ];
@@ -89,7 +89,7 @@ export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
                 width={140}
               />
               <Tooltip
-                contentStyle={{ borderRadius: 12, border: "1px solid #d9d5ca", fontSize: 13 }}
+                contentStyle={{ borderRadius: 12, border: "1px solid #e4e4e7", fontSize: 13 }}
                 formatter={(value) => [`${Number(value).toLocaleString()}`, isKorean ? "논문 수" : "Papers"]}
               />
               <Bar dataKey="totalCount" radius={[0, 6, 6, 0]} barSize={18}>
@@ -122,10 +122,10 @@ export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
           <button
             key={k.keyword}
             onClick={() => toggleKeyword(k.keyword)}
-            className={`px-2.5 py-1 text-xs transition-colors border ${
+            className={`px-2.5 py-1 text-xs rounded-md transition-colors border ${
               selectedKeywords.has(k.keyword)
                 ? "border-indigo-300 text-indigo-700"
-                : "border-[var(--desk-rule)] text-[var(--desk-muted)] hover:border-[var(--desk-muted)]"
+                : "bg-white border-zinc-200 text-zinc-400 hover:border-zinc-300"
             }`}
             style={
               selectedKeywords.has(k.keyword)
@@ -143,7 +143,7 @@ export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
         <div style={{ width: "100%", height: 300 }}>
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={chartData} margin={{ top: 5, right: 5, left: -20, bottom: 5 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#d9d5ca" />
+              <CartesianGrid strokeDasharray="3 3" stroke="#e4e4e7" />
               <XAxis dataKey="year" tick={{ fontSize: 12, fill: "#71717a" }} tickLine={false} />
               <YAxis
                 tick={{ fontSize: 12, fill: "#71717a" }}
@@ -151,7 +151,7 @@ export function ConferenceKeywordChart({ data }: ConferenceKeywordChartProps) {
                 label={{ value: isKorean ? "논문 수" : "Papers", angle: -90, position: "insideLeft", offset: 30, style: { fontSize: 11, fill: "#a1a1aa" } }}
               />
               <Tooltip
-                contentStyle={{ borderRadius: 12, border: "1px solid #d9d5ca", fontSize: 13 }}
+                contentStyle={{ borderRadius: 12, border: "1px solid #e4e4e7", fontSize: 13 }}
                 labelFormatter={(label) => isKorean ? `${label}년` : String(label)}
               />
               {activeKeywords.map((k, i) => (

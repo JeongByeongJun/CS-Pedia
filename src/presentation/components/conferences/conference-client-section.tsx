@@ -8,7 +8,6 @@ import { ConferenceList } from "./conference-list";
 import { useLocale } from "@/presentation/hooks/use-locale";
 import { useAuth } from "@/presentation/providers/auth-provider";
 import { deadlineToUTC } from "@/shared/utils/date";
-import styles from "./conference-index.module.css";
 
 const STORAGE_KEY = "cs-pedia-filters";
 
@@ -144,34 +143,25 @@ export function ConferenceClientSection({
 
   return (
     <>
-      <section className={styles.masthead} aria-labelledby="conference-heading">
-        <div>
-          <p className="desk-kicker">THE CONFERENCE INDEX</p>
-          <h1 id="conference-heading" className="desk-title">{isKorean ? "학회 탐색" : "Conference index"}</h1>
-          <p className="desk-intro">{isKorean ? "다음 연구가 향할 곳. 마감일과 학회 정보, 주목할 논문을 한곳에서." : "Find the next home for your research. Deadlines, venue rankings, and notable papers."}</p>
-        </div>
-        <div className={styles.indexNote}>
-          <span>{isKorean ? "컴퓨터공학 학회" : "Computer science venues"}</span>
-          <strong>{conferences.length}<span> / CS</span></strong>
-        </div>
-      </section>
-      <section className={styles.controls} aria-label={isKorean ? "학회 검색 및 필터" : "Search and filter conferences"}>
-        <div className={styles.searchRow}>
-          <div className={styles.searchWrap}>
+      <div className="mb-4">
+        <div className="flex items-center gap-2 mb-3">
+          <div className="flex-1">
             <ConferenceSearch value={search} onChange={setSearch} />
           </div>
           <button
-            className={styles.filterToggle}
+            className="md:hidden flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-medium bg-zinc-100 text-zinc-500 hover:bg-zinc-200 transition-all shrink-0"
             onClick={() => setShowFilters((v) => !v)}
-            aria-expanded={showFilters}
-            aria-controls="conference-filters"
           >
             {isKorean ? "필터" : "Filter"}
-            {activeFilterCount > 0 && <span> ({activeFilterCount})</span>}
-            <span aria-hidden="true"> {showFilters ? "−" : "+"}</span>
+            {activeFilterCount > 0 && (
+              <span className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-indigo-600 text-white text-[10px]">
+                {activeFilterCount}
+              </span>
+            )}
+            <span className="text-[10px]">{showFilters ? "▲" : "▼"}</span>
           </button>
         </div>
-        <div id="conference-filters" className={`${styles.filterPanel} ${showFilters ? styles.filterPanelOpen : ""}`}>
+        <div className={`${showFilters ? "block" : "hidden"} md:block`}>
           <ConferenceFilters
             selectedField={field}
             selectedInstitution={institution}
@@ -181,14 +171,14 @@ export function ConferenceClientSection({
             onSortChange={setSort}
           />
         </div>
-      </section>
-      <div className={styles.resultBar}>
-        <p aria-live="polite" aria-atomic="true">
+      </div>
+      <div className="flex items-center justify-between mb-3 px-1">
+        <p className="text-xs text-zinc-400">
           {isKorean
             ? `${filtered.length}개 학회`
             : `${filtered.length} conferences`}
         </p>
-        <p>
+        <p className="text-xs text-zinc-400">
           {isKorean ? "데이터 업데이트: 2026.11.12" : "Updated: 2026.11.12"}
         </p>
       </div>

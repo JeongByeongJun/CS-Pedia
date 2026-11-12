@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { getConferences } from "@/infrastructure/container";
 import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
+import { FieldBadge } from "@/presentation/components/conferences/field-badge";
 import { DeadlineBadge } from "@/presentation/components/conferences/deadline-badge";
 import { BookmarkButton } from "@/presentation/components/conferences/bookmark-button";
 import { deadlineToUTC, formatDate, isKnownDeadlineTimezone } from "@/shared/utils/date";
@@ -12,14 +13,14 @@ import { deadlineToUTC, formatDate, isKnownDeadlineTimezone } from "@/shared/uti
 const AcceptanceRateChart = dynamic(
   () => import("@/presentation/components/charts/acceptance-rate-chart").then((m) => m.AcceptanceRateChart),
   {
-    loading: () => <div className={styles.chartLoading} style={{ height: 250 }} />,
+    loading: () => <div className="w-full h-[250px] bg-zinc-50 rounded-xl animate-pulse" />,
   }
 );
 
 const ConferenceKeywordChart = dynamic(
   () => import("@/presentation/components/charts/conference-keyword-chart").then((m) => m.ConferenceKeywordChart),
   {
-    loading: () => <div className={styles.chartLoading} style={{ height: 300 }} />,
+    loading: () => <div className="w-full h-[300px] bg-zinc-50 rounded-xl animate-pulse" />,
   }
 );
 import { formatAuthors } from "@/shared/utils/url";
@@ -27,7 +28,6 @@ import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 import { LocaleText } from "@/presentation/components/ui/locale-text";
 import { InstitutionRatings } from "@/presentation/components/conferences/institution-ratings";
-import styles from "./detail.module.css";
 import { DeadlineLocalTime } from "@/presentation/components/conferences/deadline-local-time";
 
 interface PageProps {
@@ -218,20 +218,10 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
     ],
   };
 
-  const rateRows = (detail.acceptanceRates as Array<{ year: number; rate: number | null; accepted: number | null; submitted: number | null }>) ?? [];
-  const latestRate = rateRows.filter((r) => r.rate != null && r.submitted != null).sort((a, b) => b.year - a.year)[0] ?? null;
-  const trendRows = (detail.keywordTrends as Array<{ year: number; keyword: string; count: number }>) ?? [];
-  const latestTrendYear = trendRows.length > 0 ? Math.max(...trendRows.map((t) => t.year)) : 0;
-  const topKeywords = trendRows.filter((t) => t.year === latestTrendYear).sort((a, b) => b.count - a.count).slice(0, 5);
-  const acceptanceTooltip = (
-    <InfoTooltip
-      text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다."
-      textEn="Calculated from accepted paper counts collected from DBLP / OpenAlex. Rate = accepted ÷ submitted. If submission count is unavailable, only accepted count is shown."
-    />
-  );
-
   return (
-    <div className="desk-page">
+    <div
+      className="min-h-screen bg-white"
+    >
       {jsonLd && (
         <script
           type="application/ld+json"
@@ -244,226 +234,267 @@ export default async function ConferenceDetailPage({ params }: PageProps) {
       />
       <SiteHeader />
 
-      <main id="main-content" className="desk-container">
-        <div className={styles.detail}>
-          <Link href="/" className={styles.back}>
-            <LocaleText ko="← 학회 목록으로" en="← Back to list" />
-          </Link>
+      <main className="max-w-4xl mx-auto px-4 py-8 sm:px-6">
+        {/* 뒤로가기 */}
+        <Link
+          href="/"
+          className="inline-flex items-center gap-1 text-sm text-zinc-500 hover:text-zinc-700 mb-6"
+        >
+          <LocaleText ko="← 학회 목록으로" en="← Back to list" />
+        </Link>
 
-          {/* 학회 헤더 */}
-          <header className={styles.head}>
-            <div className={styles.headMain}>
-              <p className="desk-kicker">
-                {conference.field}
-                {conference.subField && conference.subField !== conference.field ? ` · ${conference.subField}` : ""}
-              </p>
-              <div className={styles.titleRow}>
-                <h1 className={styles.title}>{conference.acronym}</h1>
+        {/* 학회 헤더 */}
+        <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6 mb-6">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <div className="flex items-center gap-3 mb-2 flex-wrap">
+                <h1 className="text-2xl sm:text-3xl font-bold text-zinc-900">
+                  {conference.acronym}
+                </h1>
+                <FieldBadge field={conference.field} />
                 <DeadlineBadge ddays={conference.daysUntilDeadline} deadline={conference.nextDeadline} timezone={conference.deadlineTimezone} />
               </div>
-              <p className={styles.name}>{conference.nameEn}</p>
+              <p className="text-zinc-500 mb-1">{conference.nameEn}</p>
               {(resolvedVenue || resolvedStartDate) && (
-                <p className={styles.meta}>
+                <p className="text-sm text-zinc-400 mb-3">
+                  {resolvedVenue && <span>📍 {resolvedVenue}</span>}
+                  {resolvedVenue && resolvedStartDate && <span> · </span>}
                   {resolvedStartDate && (
                     <span>
                       {formatDate(resolvedStartDate)}
-                      {conference.conferenceEnd && ` ~ ${formatDate(conference.conferenceEnd).replace(/^\d{4}\.\s*/, "")}`}
+                      {conference.conferenceEnd && ` ~ ${formatDate(conference.conferenceEnd).replace(/^\d{4}\.\s*/, '')}`}
                     </span>
                   )}
-                  {resolvedVenue && <span>{resolvedVenue}</span>}
                 </p>
               )}
-              <div className={styles.actions}>
+              {!resolvedVenue && !resolvedStartDate && <div className="mb-3" />}
+              <div className="flex items-center gap-3 flex-wrap">
                 {conference.websiteUrl && (
-                  <a href={conference.websiteUrl} target="_blank" rel="noopener noreferrer" className={`${styles.action} ${styles.actionPrimary}`}>
-                    <LocaleText ko="공식 웹사이트 ↗" en="Official website ↗" />
+                  <a
+                    href={conference.websiteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-xs px-3 py-2 rounded-lg border border-indigo-200 text-indigo-500 hover:text-indigo-700 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
+                  >
+                    <LocaleText ko="공식 웹사이트" en="Official Website" />
                   </a>
                 )}
                 {conference.dblpKey && (
-                  <a href={`https://dblp.org/db/${conference.dblpKey}/`} target="_blank" rel="noopener noreferrer" className={styles.action}>
-                    DBLP ↗
+                  <a
+                    href={`https://dblp.org/db/${conference.dblpKey}/`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-xs px-3 py-2 rounded-lg border border-zinc-200 text-zinc-500 hover:text-zinc-700 hover:border-zinc-300 hover:bg-zinc-50 transition-all"
+                  >
+                    DBLP
                   </a>
                 )}
                 <a
                   href={`https://mail.google.com/mail/?view=cm&to=contact@cs-pedia.io&su=${encodeURIComponent(`[Error Report] ${conference.acronym}`)}&body=${encodeURIComponent(`Conference: ${conference.acronym} (${conference.nameEn})\nPage: https://cs-pedia.io/conferences/${slug}\n\nError details:\n`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={styles.report}
+                  className="inline-flex items-center gap-1 text-xs px-3 py-2 rounded-lg border border-red-200 text-red-400 hover:text-red-600 hover:border-red-300 hover:bg-red-50 transition-all"
                 >
-                  <LocaleText ko="정보 오류 신고" en="Report an error" />
+                  <LocaleText ko="정보 오류 신고" en="Report Error" />
                 </a>
               </div>
             </div>
-            <div className={styles.bookmark}>
-              <BookmarkButton conferenceId={conference.id} initialBookmarked={false} isLoggedIn={false} />
-            </div>
-          </header>
-
-          {(latestRate || topKeywords.length > 0) && (
-            <dl className={styles.facts}>
-              {latestRate && (
-                <div className={styles.fact}>
-                  <dt><LocaleText ko="채택률" en="Acceptance" /></dt>
-                  <dd>
-                    {latestRate.rate}%
-                    <span className={styles.factNote}>
-                      {latestRate.year} · {latestRate.accepted?.toLocaleString()} / {latestRate.submitted?.toLocaleString()}
-                    </span>
-                  </dd>
-                </div>
-              )}
-              {topKeywords.length > 0 && (
-                <div className={styles.fact}>
-                  <dt><LocaleText ko="키워드" en="Topics" /></dt>
-                  <dd>{topKeywords.map((k) => k.keyword).join(" / ")}</dd>
-                </div>
-              )}
-            </dl>
-          )}
-
-          {/* 기관 인정 현황 / Rankings */}
-          <InstitutionRatings ratings={ratings} />
-
-          {/* 데드라인 이력 */}
-          {deadlines.length > 0 && (
-            <Section title={<LocaleText ko="데드라인" en="Deadlines" />}>
-              <div className={styles.deadlines}>
-                {[...deadlines].sort((a, b) => b.year - a.year || (a.paperDeadline?.getTime() ?? Infinity) - (b.paperDeadline?.getTime() ?? Infinity)).map((d) => (
-                  <div key={`${d.year}-${d.cycle}`} className={styles.deadline}>
-                    <div>
-                      <div className={styles.edition}>
-                        {d.year}
-                        {d.cycle && d.cycle !== "main" && <span className={styles.cycle}>{d.cycle}</span>}
-                      </div>
-                      {d.venue && <div className={styles.venue}>{d.venue}</div>}
-                    </div>
-                    <dl className={styles.dates}>
-                      {d.abstractDeadline && (
-                        <div>
-                          <dt><LocaleText ko="초록 제출" en="Abstract" /></dt>
-                          <dd><DeadlineLocalTime deadline={d.abstractDeadline} timezone={d.timezone} /></dd>
-                        </div>
-                      )}
-                      {d.paperDeadline ? (
-                        <div>
-                          <dt><LocaleText ko="논문 제출" en="Paper" /></dt>
-                          <dd><DeadlineLocalTime deadline={d.paperDeadline} timezone={d.timezone} /></dd>
-                        </div>
-                      ) : (
-                        <div>
-                          <dt><LocaleText ko="논문 제출" en="Paper" /></dt>
-                          <dd className={styles.pending}><LocaleText ko="CFP 미발표" en="CFP to be announced" /></dd>
-                        </div>
-                      )}
-                      {d.notificationDate && (
-                        <div>
-                          <dt><LocaleText ko="결과 통보" en="Notification" /></dt>
-                          <dd>{formatDate(d.notificationDate)}</dd>
-                        </div>
-                      )}
-                      {d.conferenceStart && (
-                        <div>
-                          <dt><LocaleText ko="학회 일정" en="Conference" /></dt>
-                          <dd>
-                            {formatDate(d.conferenceStart)}
-                            {d.conferenceEnd && ` ~ ${formatDate(d.conferenceEnd).replace(/^\d{4}\.\s*/, "")}`}
-                          </dd>
-                        </div>
-                      )}
-                    </dl>
+            <BookmarkButton
+              conferenceId={conference.id}
+              initialBookmarked={false}
+              isLoggedIn={false}
+            />
+          </div>
+          {(() => {
+            const rates = (detail.acceptanceRates as Array<{year: number; rate: number | null; accepted: number | null; submitted: number | null}>) ?? [];
+            const validRates = rates.filter(r => r.rate != null && r.submitted != null).sort((a, b) => b.year - a.year);
+            const latestRate = validRates[0] ?? null;
+            const trends = (detail.keywordTrends as Array<{year: number; keyword: string; count: number}>) ?? [];
+            const latestYear = trends.length > 0 ? Math.max(...trends.map(t => t.year)) : 0;
+            const topKeywords = trends.filter(t => t.year === latestYear).sort((a, b) => b.count - a.count).slice(0, 5);
+            if (!latestRate && topKeywords.length === 0) return null;
+            return (
+              <div className="mt-4 border-t border-zinc-100 pt-4 space-y-2.5">
+                {latestRate && (
+                  <div className="flex items-center gap-2 text-sm">
+                    <span className="text-zinc-400 shrink-0"><LocaleText ko="채택률" en="Acceptance" /></span>
+                    <span className="font-medium text-zinc-700">{latestRate.rate}%</span>
+                    <span className="text-xs text-zinc-400">({latestRate.year}, {latestRate.accepted?.toLocaleString()}/{latestRate.submitted?.toLocaleString()})</span>
                   </div>
-                ))}
+                )}
+                {topKeywords.length > 0 && (
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="text-sm text-zinc-400 shrink-0"><LocaleText ko="키워드" en="Topics" /></span>
+                    {topKeywords.map(k => (
+                      <span key={k.keyword} className="text-xs px-2 py-0.5 bg-indigo-50 text-indigo-500 rounded-full">{k.keyword}</span>
+                    ))}
+                  </div>
+                )}
               </div>
-              <p className={styles.note}>
-                <LocaleText
-                  ko="데드라인은 변경될 수 있습니다. 제출 전 공식 웹사이트에서 최종 일정을 확인하세요."
-                  en="Deadlines may change. Always verify on the official website before submitting."
-                />
-              </p>
-            </Section>
-          )}
-
-          {/* Acceptance Rate */}
-          {acceptanceRates.length === 0 && (
-            <Section title={<><LocaleText ko="채택률" en="Acceptance rate" />{acceptanceTooltip}</>}>
-              <p className={styles.emptyNote}><LocaleText ko="채택률 데이터가 없습니다." en="No acceptance rate data available." /></p>
-            </Section>
-          )}
-          {acceptanceRates.length > 0 && (
-            <Section title={<><LocaleText ko="채택률" en="Acceptance rate" />{acceptanceTooltip}</>}>
-              <AcceptanceRateChart data={acceptanceRates} />
-              <div className={styles.tableWrap}>
-                <table className={styles.table}>
-                  <thead>
-                    <tr>
-                      <th><LocaleText ko="연도" en="Year" /></th>
-                      <th className={styles.num}><LocaleText ko="제출" en="Submitted" /></th>
-                      <th className={styles.num}><LocaleText ko="채택" en="Accepted" /></th>
-                      <th className={styles.num}><LocaleText ko="채택률" en="Rate" /></th>
-                      <th className={styles.barCell} aria-hidden="true"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {acceptanceRates.map((ar) => {
-                      const computedRate = ar.rate ?? (ar.submitted && ar.accepted ? Math.round((ar.accepted / ar.submitted) * 100 * 10) / 10 : null);
-                      return (
-                        <tr key={ar.year}>
-                          <td>{ar.year}</td>
-                          <td className={styles.num}>{ar.submitted?.toLocaleString() ?? "—"}</td>
-                          <td className={styles.num}>{ar.accepted?.toLocaleString() ?? "—"}</td>
-                          <td className={styles.rate}>{computedRate != null ? `${computedRate}%` : "—"}</td>
-                          <td className={styles.barCell} aria-hidden="true">
-                            {computedRate != null && (
-                              <div className={styles.bar}>
-                                <div className={styles.barFill} style={{ width: `${Math.min(computedRate, 100)}%` }} />
-                              </div>
-                            )}
-                          </td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </div>
-            </Section>
-          )}
-
-          {/* Research Trend */}
-          {keywordTrends.length > 0 && (
-            <Section title={<><LocaleText ko="연구 트렌드" en="Research trend" /><InfoTooltip text="Semantic Scholar에서 수집한 채택 논문 제목 기반으로 CS 키워드 빈도를 분석합니다. 2년 이상 데이터가 있을 경우 연도별 추이를 확인할 수 있습니다." textEn="Analyzes CS keyword frequency from accepted paper titles collected via Semantic Scholar. Year-over-year trends are shown when data spans 2+ years." /></>}>
-              <ConferenceKeywordChart data={keywordTrends} />
-            </Section>
-          )}
-
-          {/* Best Papers */}
-          {bestPapers.length > 0 && (
-            <Section title="Best Papers">
-              <ol className={styles.papers}>
-                {[...bestPapers].sort((a, b) => b.year - a.year).map((bp) => (
-                  <li key={`${bp.year}-${bp.awardType}-${bp.paperTitle}`} className={styles.paper}>
-                    <div className={styles.paperHead}>
-                      <div className={styles.paperYear}>{bp.year}</div>
-                      <div className={styles.paperAward}>
-                        {AWARD_TYPE_LABELS[bp.awardType as keyof typeof AWARD_TYPE_LABELS] ?? bp.awardType}
-                      </div>
-                    </div>
-                    <div>
-                      {bp.paperUrl ? (
-                        <a href={bp.paperUrl} target="_blank" rel="noopener noreferrer" className={styles.paperTitle}>
-                          {bp.paperTitle}
-                        </a>
-                      ) : (
-                        <div className={styles.paperTitle}>{bp.paperTitle}</div>
-                      )}
-                      {bp.authors && <div className={styles.paperAuthors}>{formatAuthors(bp.authors)}</div>}
-                      {bp.tags.length > 0 && <div className={styles.paperTags}>{bp.tags.join(" / ")}</div>}
-                    </div>
-                  </li>
-                ))}
-              </ol>
-            </Section>
-          )}
+            );
+          })()}
         </div>
+
+        {/* 기관 인정 현황 / Rankings */}
+        <InstitutionRatings ratings={ratings} />
+
+        {/* 데드라인 이력 */}
+        {deadlines.length > 0 && (
+          <Section title={<LocaleText ko="데드라인" en="Deadlines" />}>
+            <div className="space-y-3">
+              {deadlines.map((d) => (
+                <div
+                  key={`${d.year}-${d.cycle}`}
+                  className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5 sm:gap-0 p-3 rounded-xl bg-zinc-50 border border-zinc-100"
+                >
+                  <div>
+                    <div className="text-sm font-medium text-zinc-800">
+                      {d.year} {d.cycle && `(${d.cycle})`}
+                    </div>
+                    <div className="text-xs text-zinc-400 mt-0.5">
+                      {d.venue && `📍 ${d.venue}`}
+                    </div>
+                  </div>
+                  <div className="text-xs text-zinc-500 sm:text-right space-y-0.5">
+                    {d.abstractDeadline && (
+                      <div>📋 Abstract: <DeadlineLocalTime deadline={d.abstractDeadline} timezone={d.timezone} /></div>
+                    )}
+                    {d.paperDeadline && (
+                      <div>📝 Paper: <DeadlineLocalTime deadline={d.paperDeadline} timezone={d.timezone} /></div>
+                    )}
+                    {d.notificationDate && (
+                      <div>📬 Notification: {formatDate(d.notificationDate)}</div>
+                    )}
+                    {d.conferenceStart && (
+                      <div>📅 <LocaleText ko="학회" en="Conference" />: {formatDate(d.conferenceStart)}{d.conferenceEnd && ` ~ ${formatDate(d.conferenceEnd).replace(/^\d{4}\.\s*/, '')}`}</div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="mt-3 text-xs text-zinc-400">
+              <LocaleText
+                ko="데드라인은 변경될 수 있습니다. 제출 전 공식 웹사이트에서 최종 일정을 확인하세요."
+                en="Deadlines may change. Always verify on the official website before submitting."
+              />
+            </p>
+          </Section>
+        )}
+
+        {/* Acceptance Rate */}
+        {acceptanceRates.length === 0 && (
+          <Section title={<>Acceptance Rate<InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." textEn="Calculated from accepted paper counts collected from DBLP / OpenAlex. Rate = accepted ÷ submitted. If submission count is unavailable, only accepted count is shown." /></>}>
+            <p className="text-sm text-zinc-400"><LocaleText ko="채택률 데이터가 없습니다." en="No acceptance rate data available." /></p>
+          </Section>
+        )}
+        {acceptanceRates.length > 0 && (
+          <Section title={<>Acceptance Rate<InfoTooltip text="DBLP / OpenAlex에서 수집한 채택 논문 수 기반으로 산출합니다. 채택률 = 채택 수 ÷ 제출 수이며, 제출 수가 없는 경우 채택 수만 표시됩니다." textEn="Calculated from accepted paper counts collected from DBLP / OpenAlex. Rate = accepted ÷ submitted. If submission count is unavailable, only accepted count is shown." /></>}>
+            <AcceptanceRateChart data={acceptanceRates} />
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="text-left text-zinc-500 border-b border-zinc-100">
+                    <th className="pb-2 font-medium"><LocaleText ko="연도" en="Year" /></th>
+                    <th className="pb-2 font-medium text-right"><LocaleText ko="제출" en="Submitted" /></th>
+                    <th className="pb-2 font-medium text-right"><LocaleText ko="채택" en="Accepted" /></th>
+                    <th className="pb-2 font-medium text-right"><LocaleText ko="채택률" en="Rate" /></th>
+                    <th className="pb-2 font-medium" style={{ width: "40%" }}></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {acceptanceRates.map((ar) => {
+                    const computedRate = ar.rate ?? (ar.submitted && ar.accepted ? Math.round((ar.accepted / ar.submitted) * 100 * 10) / 10 : null);
+                    return (
+                    <tr key={ar.year} className="border-b border-zinc-50">
+                      <td className="py-2.5 font-medium text-zinc-800">{ar.year}</td>
+                      <td className="py-2.5 text-right text-zinc-600">
+                        {ar.submitted?.toLocaleString() ?? "—"}
+                      </td>
+                      <td className="py-2.5 text-right text-zinc-600">
+                        {ar.accepted?.toLocaleString() ?? "—"}
+                      </td>
+                      <td className="py-2.5 text-right font-medium text-indigo-600">
+                        {computedRate != null ? `${computedRate}%` : "—"}
+                      </td>
+                      <td className="py-2.5 pl-3">
+                        {computedRate != null && (
+                          <div className="w-full bg-zinc-100 rounded-full h-2">
+                            <div
+                              className="bg-indigo-500 h-2 rounded-full transition-all"
+                              style={{ width: `${Math.min(computedRate, 100)}%` }}
+                            />
+                          </div>
+                        )}
+                      </td>
+                    </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </Section>
+        )}
+
+        {/* Research Trend */}
+        {keywordTrends.length > 0 && (
+          <Section title={<>Research Trend<InfoTooltip text="Semantic Scholar에서 수집한 채택 논문 제목 기반으로 CS 키워드 빈도를 분석합니다. 2년 이상 데이터가 있을 경우 연도별 추이를 확인할 수 있습니다." textEn="Analyzes CS keyword frequency from accepted paper titles collected via Semantic Scholar. Year-over-year trends are shown when data spans 2+ years." /></>}>
+            <ConferenceKeywordChart data={keywordTrends} />
+          </Section>
+        )}
+
+        {/* Best Papers */}
+        {bestPapers.length > 0 && (
+          <Section title="Best Papers">
+            <div className="space-y-3">
+              {[...bestPapers].sort((a, b) => b.year - a.year).map((bp) => (
+                <div
+                  key={`${bp.year}-${bp.paperTitle.slice(0, 20)}`}
+                  className="p-4 rounded-xl bg-indigo-50 border border-indigo-100"
+                >
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-xs font-medium text-indigo-600">
+                      🏆 {bp.year}
+                    </span>
+                    <span className="text-xs text-zinc-400">
+                      {AWARD_TYPE_LABELS[bp.awardType as keyof typeof AWARD_TYPE_LABELS] ?? bp.awardType}
+                    </span>
+                  </div>
+                  {bp.paperUrl ? (
+                    <a
+                      href={bp.paperUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-zinc-800 hover:text-indigo-600 transition-colors"
+                    >
+                      {bp.paperTitle}
+                    </a>
+                  ) : (
+                    <div className="font-medium text-zinc-800">
+                      {bp.paperTitle}
+                    </div>
+                  )}
+                  {bp.authors && (
+                    <div className="text-sm text-zinc-500 mt-1">
+                      {formatAuthors(bp.authors)}
+                    </div>
+                  )}
+                  {bp.tags.length > 0 && (
+                    <div className="flex gap-1 mt-2">
+                      {bp.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="text-xs px-2 py-0.5 bg-white rounded-md text-zinc-500 border border-zinc-200"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </Section>
+        )}
 
         <SiteFooter />
       </main>
@@ -479,9 +510,9 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className={styles.section}>
-      <h2 className={styles.sectionTitle}>{title}</h2>
+    <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6 mb-6">
+      <h2 className="text-lg font-bold text-zinc-900 mb-4 flex items-center">{title}</h2>
       {children}
-    </section>
+    </div>
   );
 }

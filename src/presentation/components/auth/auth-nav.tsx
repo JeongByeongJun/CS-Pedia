@@ -3,29 +3,28 @@
 import Link from "next/link";
 import { AuthButton } from "./auth-button";
 import { useAuth } from "@/presentation/providers/auth-provider";
-import { useLocale } from "@/presentation/hooks/use-locale";
-import styles from "../layout/shell.module.css";
 
 export function AuthNav() {
   const { user, isLoading } = useAuth();
-  const { isKorean } = useLocale();
 
   if (isLoading) {
-    return <div className={styles.authPlaceholder} aria-hidden="true" />;
+    return <div className="w-20 h-8" />;
   }
 
   if (user) {
     return (
       <Link
         href="/mypage"
-        className={styles.authButton}
+        className="hidden sm:flex items-center nav-link-hover px-3 py-1.5 text-[13px] text-zinc-300 rounded-md"
       >
-        {isKorean ? "마이페이지" : "My page"}
+        My Page
       </Link>
     );
   }
 
   return (
-    <AuthButton user={null} />
+    <div className="ml-1">
+      <AuthButton user={null} />
+    </div>
   );
 }
