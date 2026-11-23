@@ -2509,6 +2509,24 @@
     "paper_url": "https://doi.org/10.1145/3597638.3608422"
   },
   {
+    "conference_slug": "assets",
+    "year": 2026,
+    "paper_title": "Invoking Nemo: Designing and Evaluating a Custom Voice Assistant for People with Intellectual and Developmental Disabilities",
+    "authors": "Madhuka Nadeeshani; Jacqueline Johnstone; Kirsten Ellis; Swamy Ananthanarayan",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3797867.3828995"
+  },
+  {
+    "conference_slug": "assets",
+    "year": 2026,
+    "paper_title": "\"It's Like Drinking from a Fire Hose\": Understanding and Characterizing Video Learning Experiences for Individuals with ADHD",
+    "authors": "Hanxiu 'Hazel' Zhu; Weiyu Zhang; Ru Wang; Yuhang Zhao",
+    "award_type": "best_student_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3797867.3829061"
+  },
+  {
     "conference_slug": "atc",
     "year": 2021,
     "paper_title": "Argus: Debugging Performance Issues in Modern Desktop Applications with Annotated Causal Tracing",
@@ -2731,6 +2749,60 @@
       "systems"
     ],
     "paper_url": "https://www.semanticscholar.org/paper/2eefe4aee7b4a085068168d875e73343fca1f87a"
+  },
+  {
+    "conference_slug": "atc",
+    "year": 2026,
+    "paper_title": "SwiftBaton: Dependency-Aware Staged Reconstruction for Live Migration of Stateful Containers",
+    "authors": "Xianzhi Zhu; Gonggu Chen; Yancan Mao; Richard T. B. Ma; Lulu Yao; Yongkun Li; Yinlong Xu; John C. S. Lui",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3828523.3857009"
+  },
+  {
+    "conference_slug": "atc",
+    "year": 2026,
+    "paper_title": "DeltaBox: Millisecond-Scale Sandbox Checkpoint and Rollback for Stateful AI Agents",
+    "authors": "Yunpeng Dong; Jingkai He; Shiqi Liu; Yuze Hou; Dong Du; Zhonghu Xu; Si Yu; Baochuan Yang; Yubin Xia; Haibo Chen",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3828523.3857015"
+  },
+  {
+    "conference_slug": "atc",
+    "year": 2026,
+    "paper_title": "Model-as-a-Service in the Wild: Characterizing Production LLM Inference Clusters at Scale",
+    "authors": "Yiyun Zheng; Lingyun Yang; Yinghao Yu; Guodong Yang; Liping Zhang; Minchen Yu",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3828523.3857044"
+  },
+  {
+    "conference_slug": "atc",
+    "year": 2026,
+    "paper_title": "Lean: Saving OSS Network Cost by Application-Infrastructure Coordination",
+    "authors": "Qiankun Yue; Kun Qian; Jiashi Lu; Xue Li; Qingchao Luo; Weibin Yan; Zhihong Li; Jianyao Sun; Junping Liang; Yuyao Chen; Liefeng Rong; Jing Zhang; Ensheng Xu; Boyu Ying; Fanghu Zheng; Guangren Chai; Erci Xu; Yuanchao Su; Dennis Cai",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3828523.3857056"
+  },
+  {
+    "conference_slug": "atc",
+    "year": 2026,
+    "paper_title": "Understanding and Detecting Performance Regressions in Modern Open-Source Server Applications",
+    "authors": "Jinze Si; Xiaoqian Ma; Mingyu Wu; Haibo Chen",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3828523.3857106"
+  },
+  {
+    "conference_slug": "atc",
+    "year": 2026,
+    "paper_title": "Lightweight Memory Tracing via General Binary Analysis and Offline Reconstruction",
+    "authors": "Ziheng Liu; Steven Swanson",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3828523.3857141"
   },
   {
     "conference_slug": "bmvc",
@@ -3077,6 +3149,213 @@
       "Cryptography"
     ],
     "paper_url": "http://arxiv.org/abs/2509.09331v1"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "On the Pitfalls of Modeling Individual Knowledge",
+    "authors": "Wojciech Ciszewski; Stefan Dziembowski; Tomasz Lizurej; Marcin Mielniczuk",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3832752"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Delegating Email Encryption to Gateways: Why Johnny Should Not",
+    "authors": "Andris Suter-Dörig; Matteo Scarlata; Kenneth Paterson",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "New IND-CPA-D Attacks on BFV and BGV",
+    "authors": "Hyeongmin Choe; Minsik Kang; Damien Stehlé",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846665"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Duty-Free Bits: Projectivizing Garbling Schemes",
+    "authors": "Nakul Khambhati; Anwesh Bhattacharya; David Heath",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846724"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "BABE: Verifying Proofs on Bitcoin Made 1000x Cheaper",
+    "authors": "Sanjam Garg; Dimitris Kolonelos; Mikhail Sergeevitch; Srivatsan Sridhar; David Tse",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3832596"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Prefix Consensus For Censorship Resilient BFT",
+    "authors": "Zhuolun Xiang; Andrei Tonkikh; Alexander Spiegelman",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "GPUThor: Amplifying Rowhammer Attacks via Non-Uniform Patterns to Exploit ECC-Protected GPUs",
+    "authors": "Chris S. Lin; Joyce Qu; Aditya Rajeev; Gururaj Saileshwar",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846620"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Hello Again: Exploiting Replay Protected Monotonic Counters to Bruteforce Windows Hello PINs",
+    "authors": "Christian Werling; Matti Finder; Hans Niklas Jacob; Julian Prein; Niclas Kühnapfel; Jean-Pierre Seifert",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846631"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Automated Side-Channel Analysis of Cryptographic Protocol Implementations",
+    "authors": "Faezeh Nasrabadi; Robert Künnemann; Hamed Nemati",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3832676"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Fundamental Limitations of Favorable Privacy–Utility Guarantees for DP-SGD",
+    "authors": "Murat Bilgehan Ertan; Marten van Dijk",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3832629"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "MetaMancer: Practical Tool Selection Attacks against LLM Agents",
+    "authors": "Wenbin Zhai; Yihao Liu; Dong Wang; Hao Chen; Bin Xiao",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846793"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Azkaban: Zero-Knowledge Abstract Analysis for Neural Networks",
+    "authors": "Sankha Das; Lucien K. L. Ng; Yibin Yang; Vladimir Kolesnikov; Teodora Baluta",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Good Cache, BAD Cache: Exploiting DNSSEC Validation Failures for DNS Cache Poisoning Attacks",
+    "authors": "Shiming Liu; Yunyi Zhang; Chaoyi Lu; Baojun Liu; Shuhan Zhang; Donghong Sun; Yong Ma; Linjian Song",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3832699"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "VUPER: Verified ASN.1 UPER Parser",
+    "authors": "Xiaotian Zhou; Kai Tu; Ali Ranjbar; Yilu Dong; Gang Tan; Syed Rafiul Hussain",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3832737"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Brewing Under Pressure: More Realistic Tor Flow Correlation Considering Low FPRs",
+    "authors": "Haeseung Jeon; Yeonseo Cho; Nate Mathews; Rob Jansen; Marc Juarez; Se Eun Oh",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846708"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "You Can't Talk Your Way Out of Cyber Extortion: An Empirical Study of Ransomware Negotiations",
+    "authors": "Tom Meurs; Edward Cartwright; Anna Cartwright; Harold Houba; Daniel W. Woods",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3832611"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Blue Bubbles, Red Flags: Investigating Privacy Leakage in Apple iMessage",
+    "authors": "Viktor E. Garske; Swantje Lange; Gabriel K. Gegenhuber; David Schmidt; Andreas Noack; Jiska Classen",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3832689"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Keys on Doormats: Exposed API Credentials on the Web",
+    "authors": "Nurullah Demir; Yash Vekaria; Georgios Smaragdakis; Zakir Durumeric",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846651"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "\"Only This Time\" Illusion: Exposing and Mitigating Stealth Location Tracking in Android's One-Time Permission Modal",
+    "authors": "Shahriar Rahman Khan; Tariqul Islam; Raiful Hasan",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846811"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Forced Execution for Malware Protected by Commercial Virtualization Obfuscators",
+    "authors": "Yifei Zhan; Yukun Cui; Shuofeng Hao; Dongnan He; Wei You; Bin Liang; Jianjun Huang",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3832741"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "MTEscape: Bypassing Asynchronous Kernel MTE via Conventional Memory Corruption Vulnerabilities",
+    "authors": "Kyeongmin Kim; Insu Yun",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846722"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "Characterizing and Detecting Bugs at the Interfaces of OpenBSD Privilege-Separated Programs",
+    "authors": "Shibo Ai; Shao Chen Zhang; Hugo Lefeuvre; Margo Seltzer",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846768"
+  },
+  {
+    "conference_slug": "ccs",
+    "year": 2026,
+    "paper_title": "From Payload to Plugin: Web-Scale Ecosystem Attribution of JavaScript Injection Campaigns",
+    "authors": "Ravindu De Silva; Nicholas Shao; Yigitcan Kaya; Mingxuan Yao; Yanick Fratantonio; Luca Invernizzi; Christopher Kruegel; Giovanni Vigna",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3830454.3846686"
   },
   {
     "conference_slug": "cgo",
@@ -7691,6 +7970,24 @@
     "paper_url": "https://doi.org/10.1109/ICCAD66269.2025.11240747"
   },
   {
+    "conference_slug": "iccad",
+    "year": 2026,
+    "paper_title": "Adapting DNNs to Embrace Voltage Scaling Induced Errors via Accumulation-Aware Quantization",
+    "authors": "Alexis Maras; Panagiotis Chaidos; Georgios Alexandris; Dimitrios Soudris; Sotirios Xydis",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2610.33824"
+  },
+  {
+    "conference_slug": "iccad",
+    "year": 2026,
+    "paper_title": "NeuroAbs: A Neuro-Symbolic RTL Abstraction Framework for Property Checking Acceleration",
+    "authors": "Zhiyuan Yan; Xiaofeng Zhou; Ziyue Zheng; Ziyi Yang; Wenbin Che; Wei Zhang; Yangdi Lyu; Hongce Zhang",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2608.17304"
+  },
+  {
     "conference_slug": "iccv",
     "year": 2021,
     "paper_title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
@@ -9114,6 +9411,105 @@
       "reliability"
     ],
     "paper_url": "https://doi.org/10.1109/ISSRE55969.2022.00014"
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2025,
+    "paper_title": "Understanding Recommendation System Robustness Against Silent Data Corruption: An Empirical Study",
+    "authors": "Dongning Ma; Xun Jiao; Fred Lin; Daniel Moore; Sriram Sankar",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://ieeexplore.ieee.org/document/11229674/"
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2025,
+    "paper_title": "V-Models: LLMs for the Development Lifecycle of Safety-Critical Systems",
+    "authors": "Amel Jelidi; Amer Kajmakovic; Alexander Palmisano; Franz Sentobe; Kay Römer",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://ieeexplore.ieee.org/document/11262339"
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2026,
+    "paper_title": "Calibration Without Comprehension: Diagnosing the Limits of Fine-Tuning LLMs for Vulnerability Detection in Systems Software",
+    "authors": "Arastoo Zibaeirad; Marco Vieira",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2606.20502"
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2026,
+    "paper_title": "ProvScope: A tool to assist cybersecurity analysts in identifying information flows in complex systems",
+    "authors": "Loic Robert; Vincent Nicomette; Eric Lacombe; Marie-José Huguet; Emmanuel Hebrard",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2026,
+    "paper_title": "Resilient Page Table Management under ECC-uncorrectable Memory Errors",
+    "authors": "Kazuki Takeda; Hiroshi Yamada",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2026,
+    "paper_title": "RotDroid: Cross-Orientation State Equivalence Testing for Detecting GUI Rotation Bugs in Android Apps",
+    "authors": "Mengdi Qin; Bo Jiang",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2608.25425"
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2026,
+    "paper_title": "When Agents Fail: A Comprehensive Study of Bugs in LLM Agents with Automated Labeling",
+    "authors": "Niful Islam; Ragib Shahriar Ayon; Deepak George Thomas; Shibbir Ahmed; Mohammad Wardat",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2601.15232"
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2026,
+    "paper_title": "From Benchmark Accuracy to Diagnostic Boundaries: A Time-Aware Replication of DEST",
+    "authors": "Hang Cui; Cenjie Hu; Changhua Pei; Juncheng Hu; Haotian Si; Zihan Liu; Ke Xiang; Yuxuan Li; Quan Zhou; Xiaohui Nie; Zexin Wang; Jingjing Li; Dan Pei; Gaogang Xie",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2026,
+    "paper_title": "Bridging the Mitigation Gap: A Taxonomy-Driven Empirical Study of Incident Recovery in Production LLM Serving",
+    "authors": "Bhala Ranganathan; Minghua Ma",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2026,
+    "paper_title": "Making Deployments Safe at Meta: Health Checks for Continuous Change-Safety",
+    "authors": "Prakash Kl; Anton Korenkov; Uttam Thakore; Christopher Hegre",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "issre",
+    "year": 2026,
+    "paper_title": "The Prover Is the Judge: Verified Security Software from AI Coding Agents in Ada/SPARK",
+    "authors": "Tobias Philipp",
+    "award_type": "distinguished_paper",
+    "tags": [],
+    "paper_url": null
   },
   {
     "conference_slug": "issta",
@@ -14076,6 +14472,15 @@
       "serverless"
     ],
     "paper_url": "https://doi.org/10.1145/3620678.3624645"
+  },
+  {
+    "conference_slug": "socc",
+    "year": 2026,
+    "paper_title": "Helix: A Flexible and Scalable NextGen Cellular Core",
+    "authors": "Bilal Saleem; Omar Basit; Jiayi Meng; Ajay Lotan Thakur; Iftekhar Alam; Christian Maciocco; Y. Charlie Hu; Larry Peterson; Muhammad Shahbaz",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
   },
   {
     "conference_slug": "socg",
@@ -21915,6 +22320,24 @@
     "paper_url": "https://doi.org/10.1145/3756884.3766034"
   },
   {
+    "conference_slug": "vrst",
+    "year": 2026,
+    "paper_title": "SpatialSlides: Integrating Presentation Software with Extended Reality for Contextualized 3D Exploration",
+    "authors": "Jung Who Nam; Vuthea Chheang; Haichao Miao",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3822517.3848671"
+  },
+  {
+    "conference_slug": "vrst",
+    "year": 2026,
+    "paper_title": "Your Place or Mine? The Influence of Sharing Environmental Context on Social Presence in Remote Extended Reality Interaction",
+    "authors": "Jonah-Noël Kaiser; Elias Scharlach; Jonathan Kutter; Eric Landwehr; Simon Kimmel; Wilko Heuten",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1145/3822517.3848687"
+  },
+  {
     "conference_slug": "soups",
     "year": 2024,
     "paper_title": "Beyond Fear and Frustration - Towards a Holistic Understanding of Emotions in Cybersecurity",
@@ -22146,6 +22569,69 @@
       "Visualization"
     ],
     "paper_url": "https://arxiv.org/abs/2508.03876"
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "year": 2026,
+    "paper_title": "Multimodal Data Comprehension: Understanding How Visual-Textual Chains of Information Influence Data Interpretation",
+    "authors": "Arran Zeyu Wang; Fuling Sun; Danielle Albers Szafir",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2607.23489"
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "year": 2026,
+    "paper_title": "CellPrism: A Visual Analytics System for Exploring AI-Driven Virtual Cells in Drug Discovery",
+    "authors": "Chuhan Shi; Zijian Guo; Zelin Zang; Chengbo Zheng; Ding Ding; Rui Sheng",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2608.01669"
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "year": 2026,
+    "paper_title": "Skeleton: Visual Authoring of Non-visual Data Experiences",
+    "authors": "Frank Elavsky; Chieri J Nnadozie; Lucas Nadolskis; Patrick Carrington; Dominik Moritz",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2607.14579"
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "year": 2026,
+    "paper_title": "EXaCTz: Guaranteed Extremum Graph and Contour Tree Preservation for Distributed and GPU-Parallel Lossy Compression",
+    "authors": "Yuxiao Li; Mingze Xia; Xin Liang; Bei Wang; Hanqi Guo",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2604.01397"
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "year": 2026,
+    "paper_title": "ProgressiVis: A Language and Environment for Progressive Data Analysis and Visualization",
+    "authors": "Jean-Daniel Fekete; Christian Poli",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "year": 2026,
+    "paper_title": "Made to Feel: How Designers Bring Emotions into Affective Visualization",
+    "authors": "Yixin Bai; Ziyi Wang; Keke Wu; Fumeng Yang",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2607.01593"
+  },
+  {
+    "conference_slug": "ieee-vis",
+    "year": 2026,
+    "paper_title": "Visualization Color Repair: A Browser Extension for Colorblind Users",
+    "authors": "Ayan Nath; Alex Kale",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": null
   },
   {
     "conference_slug": "ieee-vr",
@@ -22523,6 +23009,24 @@
       "Distributed Systems"
     ],
     "paper_url": "https://doi.org/10.1109/ICCD65941.2025.00017"
+  },
+  {
+    "conference_slug": "iccd",
+    "year": 2026,
+    "paper_title": "High-Performance Low-Power Adiabatic Systolic Array Design in Advanced FinFET Nodes",
+    "authors": "Jun Yin; Liangtao Dai; Yimin Gao; Mircea R. Stan",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2608.30058"
+  },
+  {
+    "conference_slug": "iccd",
+    "year": 2026,
+    "paper_title": "TileCache: Hardware-Software Co-design for Tile-wise Selective Cache Reuse in Video Diffusion Transformers",
+    "authors": "Huayang Yuan; Boyin Jin; Guowei Zhu; Yunkai Zhu; Liming Deng; Wei Cao; Fan Zhang",
+    "award_type": "best_paper_runner_up",
+    "tags": [],
+    "paper_url": null
   },
   {
     "conference_slug": "msst",
@@ -23477,6 +23981,51 @@
     "award_type": "best_paper",
     "tags": [],
     "paper_url": "https://arxiv.org/abs/2404.03847"
+  },
+  {
+    "conference_slug": "focs",
+    "year": 2026,
+    "paper_title": "Rational degree is polynomially related to degree",
+    "authors": "Robin Kothari; Matt Kovacs-Deak; Daochen Wang; Rain Zimin Yang",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2601.08727"
+  },
+  {
+    "conference_slug": "focs",
+    "year": 2026,
+    "paper_title": "Approximation Algorithms for Matroid-Intersection Coloring with Applications to Rota's Basis Conjecture",
+    "authors": "Stephen Arndt; Benjamin Moseley; Kirk Pruhs; Chaitanya Swamy; Michael Zlatin",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2604.03735"
+  },
+  {
+    "conference_slug": "focs",
+    "year": 2026,
+    "paper_title": "The Four Color Theorem with Linearly Many Reducible Configurations and Near-Linear Time Coloring",
+    "authors": "Yuta Inoue; Ken-ichi Kawarabayashi; Atsuyuki Miyashita; Bojan Mohar; Carsten Thomassen; Mikkel Thorup",
+    "award_type": "best_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2603.24880"
+  },
+  {
+    "conference_slug": "focs",
+    "year": 2026,
+    "paper_title": "Flip Distance Between Triangulations of Convex Polygons is NP-Complete",
+    "authors": "Joseph Dorfer",
+    "award_type": "best_student_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2602.22874"
+  },
+  {
+    "conference_slug": "focs",
+    "year": 2026,
+    "paper_title": "Parity ∉ QAC0 ⇔ QAC0 is Fourier-Concentrated",
+    "authors": "Lucas Gretta; Meghal Gupta; Malvika Raj Joshi",
+    "award_type": "best_student_paper",
+    "tags": [],
+    "paper_url": "https://arxiv.org/abs/2604.02793"
   },
   {
     "conference_slug": "fse",
@@ -29139,5 +29688,41 @@
       "Pseudorandomness"
     ],
     "paper_url": "https://doi.org/10.4230/LIPIcs.ITCS.2026.111"
+  },
+  {
+    "conference_slug": "tcc",
+    "year": 2026,
+    "paper_title": "Field Switching in Learning Parity with Noise",
+    "authors": "Marshall Ball; Saroja Erabelli; Mingyuan Wang; Zhiheng Wang",
+    "award_type": "outstanding_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1007/978-3-032-43588-0_14"
+  },
+  {
+    "conference_slug": "tcc",
+    "year": 2026,
+    "paper_title": "A Complexity-Theoretic Approach to Proofs of Space",
+    "authors": "Marshall Ball; Jiaxin Guan",
+    "award_type": "outstanding_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1007/978-3-032-43617-7_16"
+  },
+  {
+    "conference_slug": "tcc",
+    "year": 2026,
+    "paper_title": "A Simplified Round-by-round Soundness Proof of FRI",
+    "authors": "Albert Garreta; Nicolas Mohnblatt; Benedikt Wagner",
+    "award_type": "outstanding_paper",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1007/978-3-032-43624-5_12"
+  },
+  {
+    "conference_slug": "tcc",
+    "year": 2026,
+    "paper_title": "Certified-Everlasting Quantum NIZK Proofs",
+    "authors": "Nikhil Pappu",
+    "award_type": "best_paper_early_career",
+    "tags": [],
+    "paper_url": "https://doi.org/10.1007/978-3-032-43624-5_8"
   }
 ]

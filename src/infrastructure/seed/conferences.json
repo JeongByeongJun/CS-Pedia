@@ -497,7 +497,7 @@
     "field": "Systems",
     "sub_field": "Distributed Computing",
     "dblp_key": "conf/hpdc",
-    "website_url": "https://hpdc.sci.utah.edu/2026/"
+    "website_url": "https://hpdc.sci.utah.edu/2027/calls-cfp.html"
   },
   {
     "slug": "sc",
@@ -507,7 +507,7 @@
     "field": "Systems",
     "sub_field": "High Performance Computing",
     "dblp_key": "conf/sc",
-    "website_url": "https://sc26.supercomputing.org/program/papers/"
+    "website_url": "https://sc27.supercomputing.org/program/papers/"
   },
   {
     "slug": "middleware",
@@ -547,7 +547,7 @@
     "field": "Systems",
     "sub_field": "Supercomputing",
     "dblp_key": "conf/ics",
-    "website_url": "https://dipsa-qub.github.io/ICS2026-webpage/"
+    "website_url": "https://klab-ai3.github.io/ics2027/calls-cfp.html"
   },
   {
     "slug": "pldi",
@@ -687,7 +687,7 @@
     "field": "Security",
     "sub_field": "Intrusion Detection",
     "dblp_key": "conf/raid",
-    "website_url": "https://raid2026.org/"
+    "website_url": "https://raid2027.org/"
   },
   {
     "slug": "dsn",
@@ -897,7 +897,7 @@
     "field": "SE",
     "sub_field": "Software Engineering",
     "dblp_key": "conf/icse",
-    "website_url": "https://conf.researchr.org/track/icse-2027/icse-2027-research-track"
+    "website_url": "https://conf.researchr.org/track/icse-2028/icse-2028-papers"
   },
   {
     "slug": "fse",
@@ -917,7 +917,7 @@
     "field": "SE",
     "sub_field": "Automated SE",
     "dblp_key": "conf/kbse",
-    "website_url": "https://conf.researchr.org/home/ase-2026"
+    "website_url": "https://conf.researchr.org/track/ase-2027/ase-2027-research-track"
   },
   {
     "slug": "issta",
@@ -1527,7 +1527,7 @@
     "field": "DB",
     "sub_field": "Semantic Web",
     "dblp_key": "conf/semweb",
-    "website_url": "https://iswc2026.semanticweb.org"
+    "website_url": "https://iswc2027.semanticweb.org/"
   },
   {
     "slug": "ecrts",
@@ -1597,7 +1597,7 @@
     "field": "PL",
     "sub_field": "Compiler Construction",
     "dblp_key": "conf/cc",
-    "website_url": "https://conf.researchr.org/home/CC-2026"
+    "website_url": "https://conf.researchr.org/track/CC-2027/CC-2027-research-papers"
   },
   {
     "slug": "codes-isss",
@@ -1667,7 +1667,7 @@
     "field": "Architecture",
     "sub_field": "Parallel Processing",
     "dblp_key": "conf/icpp",
-    "website_url": "https://icpp2026.github.io/"
+    "website_url": "https://icpp2027.github.io/"
   },
   {
     "slug": "icws",
@@ -2007,7 +2007,7 @@
     "field": "PL",
     "sub_field": "Static Analysis",
     "dblp_key": "conf/sas",
-    "website_url": "https://conf.researchr.org/home/splash-issta-2026/sas-2026"
+    "website_url": "https://2027.splashcon.org/home/sas-2027"
   },
   {
     "slug": "sec",
