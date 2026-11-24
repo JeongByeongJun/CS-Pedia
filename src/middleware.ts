@@ -6,6 +6,10 @@ export async function middleware(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith("/lab")) {
     return NextResponse.redirect(new URL("/", request.url));
   }
+  // Retired pages (stale third-party feeds) — permanent redirect so they drop out of the index
+  if (/^\/(pulse|releases)(\/|$)/.test(request.nextUrl.pathname)) {
+    return NextResponse.redirect(new URL("/", request.url), 308);
+  }
 
   let response = NextResponse.next({ request });
 

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getConferences } from "@/infrastructure/container";
-import { SITE } from "@/shared/constants/site";
+import { SITE, BEST_PAPER_MIN_INDEXABLE } from "@/shared/constants/site";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const conferences = await getConferences();
@@ -19,7 +19,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const raw = await fs.readFile(path.join(process.cwd(), "public/data/best-papers.json"), "utf8");
     const papers = JSON.parse(raw) as Array<{ conferenceSlug: string }>;
-    bestPaperSlugs = [...new Set(papers.map((p) => p.conferenceSlug))];
+    const counts = new Map<string, number>();
+    for (const p of papers) counts.set(p.conferenceSlug, (counts.get(p.conferenceSlug) ?? 0) + 1);
+    bestPaperSlugs = [...counts].filter(([, n]) => n >= BEST_PAPER_MIN_INDEXABLE).map(([slug]) => slug);
   } catch { /* ignore */ }
 
   const bestPaperUrls = bestPaperSlugs.map((slug) => ({

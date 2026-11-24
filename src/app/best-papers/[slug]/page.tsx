@@ -5,6 +5,7 @@ import { SiteHeader } from "@/presentation/components/layout/site-header";
 import { SiteFooter } from "@/presentation/components/layout/site-footer";
 import { AWARD_TYPE_LABELS } from "@/domain/entities/best-paper";
 import { conferenceUrl } from "@/shared/utils/url";
+import { BEST_PAPER_MIN_INDEXABLE } from "@/shared/constants/site";
 
 interface BestPaperEntry {
   conferenceSlug: string;
@@ -72,6 +73,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     },
     twitter: { card: "summary_large_image", title, description },
     alternates: { canonical: `https://cs-pedia.io/best-papers/${slug}` },
+    // Small archives duplicate the conference detail page — keep them out of the index
+    ...(papers.length < BEST_PAPER_MIN_INDEXABLE && { robots: { index: false, follow: true } }),
   };
 }
 
