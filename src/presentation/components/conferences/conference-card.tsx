@@ -121,6 +121,7 @@ export function ConferenceCard({
                 abstractDeadline={conference.abstractDeadline}
                 paperDeadline={conference.nextDeadline}
                 notificationDate={conference.notificationDate}
+                timezone={conference.deadlineTimezone}
               />
               <BookmarkButton
                 conferenceId={conference.id}
