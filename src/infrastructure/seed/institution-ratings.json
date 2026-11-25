@@ -3356,7 +3356,7 @@
   {
     "conference_slug": "aamas",
     "institution": "CORE",
-    "tier": "A*",
+    "tier": "A",
     "year": 2023
   },
   {
@@ -3410,7 +3410,7 @@
   {
     "conference_slug": "acml",
     "institution": "CORE",
-    "tier": null,
+    "tier": "C",
     "year": 2023
   },
   {
@@ -3536,19 +3536,19 @@
   {
     "conference_slug": "atc",
     "institution": "CORE",
-    "tier": null,
+    "tier": "A",
     "year": 2023
   },
   {
     "conference_slug": "atc",
     "institution": "CCF",
-    "tier": null,
+    "tier": "A",
     "year": 2022
   },
   {
     "conference_slug": "atc",
     "institution": "CSRankings",
-    "tier": null,
+    "tier": "Included",
     "year": 2025
   },
   {
@@ -3716,7 +3716,7 @@
   {
     "conference_slug": "cluster",
     "institution": "CORE",
-    "tier": "B",
+    "tier": "C",
     "year": 2023
   },
   {
@@ -3896,7 +3896,7 @@
   {
     "conference_slug": "dac",
     "institution": "CORE",
-    "tier": null,
+    "tier": "A*",
     "year": 2023
   },
   {
@@ -3932,7 +3932,7 @@
   {
     "conference_slug": "date",
     "institution": "CORE",
-    "tier": "B",
+    "tier": "A",
     "year": 2023
   },
   {
@@ -4076,7 +4076,7 @@
   {
     "conference_slug": "edbt",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "B",
     "year": 2023
   },
   {
@@ -4262,7 +4262,7 @@
   {
     "conference_slug": "fase",
     "institution": "CCF",
-    "tier": null,
+    "tier": "B",
     "year": 2022
   },
   {
@@ -4400,7 +4400,7 @@
   {
     "conference_slug": "hri",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "A*",
     "year": 2023
   },
   {
@@ -4436,7 +4436,7 @@
   {
     "conference_slug": "icalp",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "A*",
     "year": 2023
   },
   {
@@ -4886,7 +4886,7 @@
   {
     "conference_slug": "isaac",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "B",
     "year": 2023
   },
   {
@@ -5102,7 +5102,7 @@
   {
     "conference_slug": "mfcs",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "B",
     "year": 2023
   },
   {
@@ -5138,7 +5138,7 @@
   {
     "conference_slug": "micro",
     "institution": "CORE",
-    "tier": null,
+    "tier": "A*",
     "year": 2023
   },
   {
@@ -5192,7 +5192,7 @@
   {
     "conference_slug": "mobihoc",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "B",
     "year": 2023
   },
   {
@@ -5606,7 +5606,7 @@
   {
     "conference_slug": "rtss",
     "institution": "CORE",
-    "tier": "A*",
+    "tier": "A",
     "year": 2023
   },
   {
@@ -5696,7 +5696,7 @@
   {
     "conference_slug": "sensys",
     "institution": "CORE",
-    "tier": "A*",
+    "tier": null,
     "year": 2023
   },
   {
@@ -5840,7 +5840,7 @@
   {
     "conference_slug": "socg",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "A*",
     "year": 2023
   },
   {
@@ -5870,7 +5870,7 @@
   {
     "conference_slug": "soda",
     "institution": "CSRankings",
-    "tier": null,
+    "tier": "Included",
     "year": 2025
   },
   {
@@ -7670,7 +7670,7 @@
   {
     "conference_slug": "cc",
     "institution": "CCF",
-    "tier": "B",
+    "tier": null,
     "year": 2022
   },
   {
@@ -7712,7 +7712,7 @@
   {
     "conference_slug": "codes-isss",
     "institution": "CORE",
-    "tier": "C",
+    "tier": null,
     "year": 2023
   },
   {
@@ -8624,7 +8624,7 @@
   {
     "conference_slug": "concur",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "B",
     "year": 2023
   },
   {
@@ -9206,7 +9206,7 @@
   {
     "conference_slug": "ismb",
     "institution": "CCF",
-    "tier": null,
+    "tier": "B",
     "year": 2022
   },
   {
@@ -9392,7 +9392,7 @@
   {
     "conference_slug": "msst",
     "institution": "CORE",
-    "tier": "B",
+    "tier": null,
     "year": 2023
   },
   {
@@ -9542,7 +9542,7 @@
   {
     "conference_slug": "recomb",
     "institution": "CCF",
-    "tier": null,
+    "tier": "B",
     "year": 2022
   },
   {
@@ -9824,7 +9824,7 @@
   {
     "conference_slug": "soups",
     "institution": "CORE",
-    "tier": "B",
+    "tier": "A",
     "year": 2023
   },
   {
@@ -9968,7 +9968,7 @@
   {
     "conference_slug": "tcc",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "B",
     "year": 2023
   },
   {
@@ -10016,7 +10016,7 @@
   {
     "conference_slug": "vrst",
     "institution": "CORE",
-    "tier": "A",
+    "tier": "B",
     "year": 2023
   },
   {

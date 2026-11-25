@@ -125,32 +125,47 @@ const KOREAN_SOURCES: Source[] = [
 const INTL_SOURCES: Source[] = [
   {
     id: "CORE",
-    name: { ko: "CORE (호주)", en: "CORE (Australia)" },
-    document: { ko: "CORE Conference Ranking", en: "CORE Conference Ranking" },
-    version: "2023",
+    name: { ko: "ICORE (구 CORE, 호주)", en: "ICORE (formerly CORE, Australia)" },
+    document: { ko: "ICORE Conference Ranking", en: "ICORE Conference Ranking" },
+    version: "ICORE2026",
     tiers: { ko: "A* · A · B · C", en: "A* · A · B · C" },
-    listSize: { ko: "공식 포털에서 검색", en: "Searchable on the official portal" },
-    notes: [],
+    listSize: { ko: "등급 부여 800개 (A* 62 · A 108 · B 249 · C 381)", en: "800 ranked (62 A* · 108 A · 249 B · 381 C)" },
+    notes: [
+      {
+        ko: "Journal Published, National, Unranked 등 A*~C가 아닌 분류는 미등재(—)로 표시합니다. 예: SenSys는 ICORE2026에서 'unranked: merged'입니다.",
+        en: "Non-letter categories such as Journal Published, National, or Unranked are shown as not listed (—). For example, SenSys is 'unranked: merged' in ICORE2026.",
+      },
+    ],
     official: { href: "https://portal.core.edu.au/conf-ranks/", label: "portal.core.edu.au" },
   },
   {
     id: "CCF",
     name: { ko: "CCF (중국컴퓨터학회)", en: "CCF (China Computer Federation)" },
-    document: { ko: "CCF 추천 국제학술대회 목록", en: "CCF Recommended International Conferences" },
-    version: "2022",
+    document: { ko: "CCF 추천 국제학술회의·저널 목록 (제7판)", en: "CCF Recommended International Conferences and Journals (7th ed.)" },
+    version: "2026.03.31",
     tiers: { ko: "A · B · C", en: "A · B · C" },
-    listSize: { ko: "분야별 목록", en: "Listed by area" },
-    notes: [],
+    listSize: { ko: "학술대회 364개 (A 58 · B 126 · C 180)", en: "364 conferences (58 A · 126 B · 180 C)" },
+    notes: [
+      {
+        ko: "CCF는 ESOP, TACAS, FASE를 개별 학회가 아니라 ETAPS(B)로 묶어 등재합니다. CS-Pedia는 이 세 학회에 ETAPS 등급을 표시합니다.",
+        en: "CCF lists ESOP, TACAS, and FASE together as ETAPS (B); CS-Pedia shows the ETAPS rating for each.",
+      },
+    ],
     official: { href: "https://www.ccf.org.cn/Academic_Evaluation/By_category/", label: "ccf.org.cn" },
   },
   {
     id: "CSRankings",
     name: { ko: "CSRankings", en: "CSRankings" },
     document: { ko: "CSRankings 집계 대상 학회", en: "Venues counted by CSRankings" },
-    version: "2025",
+    version: "2026.11",
     tiers: { ko: "포함 / 미포함", en: "Included / not included" },
-    listSize: { ko: "분야별 대표 학회", en: "Flagship venues per area" },
-    notes: [],
+    listSize: { ko: "27개 분야 77개 학회", en: "77 venues across 27 areas" },
+    notes: [
+      {
+        ko: "기본으로 집계되는 학회와 'next tier'(기본 꺼짐) 학회를 모두 포함으로 표시합니다. 기준은 공식 GitHub 저장소의 venue 목록입니다.",
+        en: "Venues counted by default and 'next tier' venues (off by default) are both shown as included, per the venue list in the official GitHub repository.",
+      },
+    ],
     official: { href: "https://csrankings.org", label: "csrankings.org" },
   },
 ];

@@ -1,0 +1,2550 @@
+[
+ {
+  "acr": "AAAI",
+  "name": "AAAI Conference on Artificial Intelligence",
+  "tier": "A",
+  "dblp": "aaai",
+  "page": "AI"
+ },
+ {
+  "acr": "NeurIPS",
+  "name": "Conference on Neural Information Processing Systems",
+  "tier": "A",
+  "dblp": "nips",
+  "page": "AI"
+ },
+ {
+  "acr": "ACL",
+  "name": "Annual Meeting of the Association for Computational Linguistics",
+  "tier": "A",
+  "dblp": "acl",
+  "page": "AI"
+ },
+ {
+  "acr": "CVPR",
+  "name": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+  "tier": "A",
+  "dblp": "cvpr",
+  "page": "AI"
+ },
+ {
+  "acr": "ICCV",
+  "name": "International Conference on Computer Vision",
+  "tier": "A",
+  "dblp": "iccv",
+  "page": "AI"
+ },
+ {
+  "acr": "ICML",
+  "name": "International Conference on Machine Learning",
+  "tier": "A",
+  "dblp": "icml",
+  "page": "AI"
+ },
+ {
+  "acr": "IJCAI",
+  "name": "International Joint Conference on Artificial Intelligence",
+  "tier": "A",
+  "dblp": "ijcai",
+  "page": "AI"
+ },
+ {
+  "acr": "COLT",
+  "name": "Annual Conference on Computational Learning Theory",
+  "tier": "B",
+  "dblp": "colt",
+  "page": "AI"
+ },
+ {
+  "acr": "EMNLP",
+  "name": "Conference on Empirical Methods in Natural Language Processing",
+  "tier": "B",
+  "dblp": "emnlp",
+  "page": "AI"
+ },
+ {
+  "acr": "ECAI",
+  "name": "European Conference on Artificial Intelligence",
+  "tier": "B",
+  "dblp": "ecai",
+  "page": "AI"
+ },
+ {
+  "acr": "ECCV",
+  "name": "European Conference on Computer Vision",
+  "tier": "B",
+  "dblp": "eccv",
+  "page": "AI"
+ },
+ {
+  "acr": "ICRA",
+  "name": "IEEE International Conference on Robotics and Automation",
+  "tier": "B",
+  "dblp": "icra",
+  "page": "AI"
+ },
+ {
+  "acr": "ICAPS",
+  "name": "International Conference on Automated Planning and Scheduling",
+  "tier": "B",
+  "dblp": "aips",
+  "page": "AI"
+ },
+ {
+  "acr": "ICCBR",
+  "name": "International Conference on Case-Based Reasoning",
+  "tier": "B",
+  "dblp": "iccbr",
+  "page": "AI"
+ },
+ {
+  "acr": "COLING",
+  "name": "International Conference on Computational Linguistics",
+  "tier": "B",
+  "dblp": "coling",
+  "page": "AI"
+ },
+ {
+  "acr": "KR",
+  "name": "International Conference on Principles of Knowledge Representation and Reasoning",
+  "tier": "B",
+  "dblp": "kr",
+  "page": "AI"
+ },
+ {
+  "acr": "UAI",
+  "name": "Conference on Uncertainty in ArtificialIntelligence",
+  "tier": "B",
+  "dblp": "uai",
+  "page": "AI"
+ },
+ {
+  "acr": "AAMAS",
+  "name": "International Joint Conference on Autonomous Agents and Multi-agent Systems",
+  "tier": "B",
+  "dblp": "atal",
+  "page": "AI"
+ },
+ {
+  "acr": "PPSN",
+  "name": "Parallel Problem Solving from Nature",
+  "tier": "B",
+  "dblp": "ppsn",
+  "page": "AI"
+ },
+ {
+  "acr": "NAACL",
+  "name": "North   American Chapter of the Associationfor Computational Linguistics",
+  "tier": "B",
+  "dblp": "naacl",
+  "page": "AI"
+ },
+ {
+  "acr": "AISTATS",
+  "name": "International Conference on Artificial Intelligence and Statistics",
+  "tier": "C",
+  "dblp": "aistats",
+  "page": "AI"
+ },
+ {
+  "acr": "ACCV",
+  "name": "Asian Conference on Computer Vision",
+  "tier": "C",
+  "dblp": "accv",
+  "page": "AI"
+ },
+ {
+  "acr": "ACML",
+  "name": "Asian Conference on Machine Learning",
+  "tier": "C",
+  "dblp": "acml",
+  "page": "AI"
+ },
+ {
+  "acr": "BMVC",
+  "name": "British Machine Vision Conference",
+  "tier": "C",
+  "dblp": "bmvc",
+  "page": "AI"
+ },
+ {
+  "acr": "NLPCC",
+  "name": "CCF International Conference on Natural Language Processing and Chinese Computing",
+  "tier": "C",
+  "dblp": "nlpcc",
+  "page": "AI"
+ },
+ {
+  "acr": "CoNLL",
+  "name": "Conference on Computational Natural Language Learning",
+  "tier": "C",
+  "dblp": "conll",
+  "page": "AI"
+ },
+ {
+  "acr": "GECCO",
+  "name": "Genetic and Evolutionary Computation Conference",
+  "tier": "C",
+  "dblp": "gecco",
+  "page": "AI"
+ },
+ {
+  "acr": "ICTAI",
+  "name": "IEEE International Conference on Tools with Artificial Intelligence",
+  "tier": "C",
+  "dblp": "ictai",
+  "page": "AI"
+ },
+ {
+  "acr": "IROS",
+  "name": "IEEE\\RSJ International Conference on Intelligent Robots and Systems",
+  "tier": "C",
+  "dblp": "iros",
+  "page": "AI"
+ },
+ {
+  "acr": "ALT",
+  "name": "International Conference on Algorithmic Learning Theory",
+  "tier": "C",
+  "dblp": "alt",
+  "page": "AI"
+ },
+ {
+  "acr": "ICANN",
+  "name": "International Conference on Artificial Neural Networks",
+  "tier": "C",
+  "dblp": "icann",
+  "page": "AI"
+ },
+ {
+  "acr": "FG",
+  "name": "IEEE International Conference on AutomaticFace and Gesture Recognition",
+  "tier": "C",
+  "dblp": "fgr",
+  "page": "AI"
+ },
+ {
+  "acr": "ICDAR",
+  "name": "International Conference on Document Analysis and Recognition",
+  "tier": "C",
+  "dblp": "icdar",
+  "page": "AI"
+ },
+ {
+  "acr": "ILP",
+  "name": "International Conference on Inductive Logic Programming",
+  "tier": "C",
+  "dblp": "ilp",
+  "page": "AI"
+ },
+ {
+  "acr": "KSEM",
+  "name": "International conference on Knowledge Science,Engineering and Management",
+  "tier": "C",
+  "dblp": "ksem",
+  "page": "AI"
+ },
+ {
+  "acr": "ICONIP",
+  "name": "International Conference on Neural Information Processing",
+  "tier": "C",
+  "dblp": "iconip",
+  "page": "AI"
+ },
+ {
+  "acr": "ICPR",
+  "name": "International Conference on Pattern Recognition",
+  "tier": "C",
+  "dblp": "icpr",
+  "page": "AI"
+ },
+ {
+  "acr": "IJCB",
+  "name": "International Joint Conference onBiometrics",
+  "tier": "C",
+  "dblp": "icb",
+  "page": "AI"
+ },
+ {
+  "acr": "IJCNN",
+  "name": "International Joint Conference on Neural Networks",
+  "tier": "C",
+  "dblp": "ijcnn",
+  "page": "AI"
+ },
+ {
+  "acr": "PRICAI",
+  "name": "Pacific Rim International Conference on Artificial Intelligence",
+  "tier": "C",
+  "dblp": "pricai",
+  "page": "AI"
+ },
+ {
+  "acr": "PPoPP",
+  "name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+  "tier": "A",
+  "dblp": "ppopp",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "FAST",
+  "name": "USENIX Conference on File and Storage Technologies",
+  "tier": "A",
+  "dblp": "fast",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "DAC",
+  "name": "Design Automation Conference",
+  "tier": "A",
+  "dblp": "dac",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "HPCA",
+  "name": "IEEE International Symposium on High Performance Computer Architecture",
+  "tier": "A",
+  "dblp": "cnhpca",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "MICRO",
+  "name": "IEEE/ACM International Symposium on Microarchitecture",
+  "tier": "A",
+  "dblp": "micro",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "SC",
+  "name": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+  "tier": "A",
+  "dblp": "sc",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ASPLOS",
+  "name": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+  "tier": "A",
+  "dblp": "asplos",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ISCA",
+  "name": "International Symposium on Computer Architecture",
+  "tier": "A",
+  "dblp": "isca",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "USENIX ATC",
+  "name": "USENIX Annual Technical Conference",
+  "tier": "A",
+  "dblp": "usenix",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "EuroSys",
+  "name": "European Conference on Computer Systems",
+  "tier": "A",
+  "dblp": "eurosys",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "SOCC",
+  "name": "ACM Symposium on Cloud Computing",
+  "tier": "B",
+  "dblp": "cloud",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "SPAA",
+  "name": "ACM Symposium on Parallelism in Algorithms and Architectures",
+  "tier": "B",
+  "dblp": "spaa",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "PODC",
+  "name": "ACM Symposium on Principles of Distributed Computing",
+  "tier": "B",
+  "dblp": "podc",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "FPGA",
+  "name": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+  "tier": "B",
+  "dblp": "fpga",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "CGO",
+  "name": "The International Symposium on Code Generation and Optimization",
+  "tier": "B",
+  "dblp": "cgo",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "DATE",
+  "name": "Design, Automation & Test in Europe",
+  "tier": "B",
+  "dblp": "date",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "HOT CHIPS",
+  "name": "Hot Chips: A Symposium on High Performance Chips",
+  "tier": "B",
+  "dblp": "hotchips",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "CLUSTER",
+  "name": "IEEE International Conference on Cluster Computing",
+  "tier": "B",
+  "dblp": "cluster",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ICCD",
+  "name": "International Conference on Computer Design",
+  "tier": "B",
+  "dblp": "iccd",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ICCAD",
+  "name": "International Conference on Computer-Aided Design",
+  "tier": "B",
+  "dblp": "iccad",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ICDCS",
+  "name": "IEEE International Conference on Distributed Computing Systems",
+  "tier": "B",
+  "dblp": "icdcs",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "CODES+ISSS",
+  "name": "International Conference on Hardware/Software Co-design and System Synthesis",
+  "tier": "B",
+  "dblp": "codesisss",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "HiPEAC",
+  "name": "International Conference on High Performance and Embedded Architectures and Compilers",
+  "tier": "B",
+  "dblp": "hipeac",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "SIGMETRICS",
+  "name": "International Conference on Measurement and Modeling of Computer Systems",
+  "tier": "B",
+  "dblp": "sigmetrics",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "PACT",
+  "name": "International Conference on Parallel Architectures and Compilation Techniques",
+  "tier": "B",
+  "dblp": "IEEEpact",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ICPP",
+  "name": "International Conference on Parallel Processing",
+  "tier": "B",
+  "dblp": "icpp",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ICS",
+  "name": "International Conference on Supercomputing",
+  "tier": "B",
+  "dblp": "ics",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "VEE",
+  "name": "International Conference on Virtual Execution Environments",
+  "tier": "B",
+  "dblp": "vee",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "IPDPS",
+  "name": "IEEE International Parallel & Distributed Processing Symposium",
+  "tier": "B",
+  "dblp": "ipps",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "Performance",
+  "name": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+  "tier": "B",
+  "dblp": "performance",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "HPDC",
+  "name": "The International ACM Symposium on High-Performance Parallel and Distributed Computing",
+  "tier": "B",
+  "dblp": "hpdc",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ITC",
+  "name": "International Test Conference",
+  "tier": "B",
+  "dblp": "itc",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "LISA",
+  "name": "Large Installation system Administration Conference",
+  "tier": "B",
+  "dblp": "lisa",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "MSST",
+  "name": "Mass Storage Systems and Technologies",
+  "tier": "B",
+  "dblp": "mss",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "RTAS",
+  "name": "IEEE Real-Time and Embedded Technology and ApplicationsSymposium",
+  "tier": "B",
+  "dblp": "rtas",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "Euro-Par",
+  "name": "European Conference on Parallel and Distributed Computing",
+  "tier": "B",
+  "dblp": "europar",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "CF",
+  "name": "ACM International Conference on Computing Frontiers",
+  "tier": "C",
+  "dblp": "cf",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "SYSTOR",
+  "name": "ACM International Systems and Storage Conference",
+  "tier": "C",
+  "dblp": "systor",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "NOCS",
+  "name": "ACM/IEEE International Symposium on Networks-on-Chip",
+  "tier": "C",
+  "dblp": "nocs",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ASAP",
+  "name": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors",
+  "tier": "C",
+  "dblp": "asap",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ASP-DAC",
+  "name": "Asia and South Pacific Design Automation Conference",
+  "tier": "C",
+  "dblp": "aspdac",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ETS",
+  "name": "IEEE European Test Symposium",
+  "tier": "C",
+  "dblp": "ets",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "FPL",
+  "name": "International Conference on Field-Programmable Logic and Applications",
+  "tier": "C",
+  "dblp": "fpl",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "FCCM",
+  "name": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+  "tier": "C",
+  "dblp": "fccm",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "GLSVLSI",
+  "name": "Great Lakes Symposium on VLSI",
+  "tier": "C",
+  "dblp": "glvlsi",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ATS",
+  "name": "IEEE Asian Test Symposium",
+  "tier": "C",
+  "dblp": "ats",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "HPCC",
+  "name": "IEEE International Conference on High Performance Computing and Communications",
+  "tier": "C",
+  "dblp": "hpcc",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "HiPC",
+  "name": "IEEE International Conference on High Performance Computing, Data and Analytics",
+  "tier": "C",
+  "dblp": "hipc",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "MASCOTS",
+  "name": "International Symposium on Modeling, Analysis, andSimulation of Computer and Telecommunication Systems",
+  "tier": "C",
+  "dblp": "mascots",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ISPA",
+  "name": "IEEE International Symposium on Parallel and Distributed Processing with Applications",
+  "tier": "C",
+  "dblp": "ispa",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "CCGRID",
+  "name": "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",
+  "tier": "C",
+  "dblp": "ccgrid",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "NPC",
+  "name": "IFIP International Conference on Network and Parallel Computing",
+  "tier": "C",
+  "dblp": "npc",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ICA3PP",
+  "name": "International Conference on Algorithms and Architectures for Parallel Processing",
+  "tier": "C",
+  "dblp": "ica3pp",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "CASES",
+  "name": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems",
+  "tier": "C",
+  "dblp": "cases",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "FPT",
+  "name": "International Conference on Field-Programmable Technology",
+  "tier": "C",
+  "dblp": "fpt",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ICPADS",
+  "name": "International Conference on Parallel and Distributed Systems",
+  "tier": "C",
+  "dblp": "icpads",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ISCAS",
+  "name": "IEEE International Symposium on Circuits and Systems",
+  "tier": "C",
+  "dblp": "iscas",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ISLPED",
+  "name": "International Symposium on Low Power Electronics and Design",
+  "tier": "C",
+  "dblp": "islped",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ISPD",
+  "name": "International Symposium on Physical Design",
+  "tier": "C",
+  "dblp": "ispd",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "HOTI",
+  "name": "IEEE Symposium on High-Performance Interconnects",
+  "tier": "C",
+  "dblp": "hoti",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "VTS",
+  "name": "IEEE VLSI Test Symposium",
+  "tier": "C",
+  "dblp": "vts",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ITC-Asia",
+  "name": "International Test Conference in Asia",
+  "tier": "C",
+  "dblp": "itc-asia",
+  "page": "ARCH_DCP_SS"
+ },
+ {
+  "acr": "ACM MM",
+  "name": "ACM International Conference on Multimedia",
+  "tier": "A",
+  "dblp": "mm",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "SIGGRAPH",
+  "name": "ACM Special Interest Group on Computer Graphics",
+  "tier": "A",
+  "dblp": "siggraph",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "VR",
+  "name": "IEEE Virtual Reality",
+  "tier": "A",
+  "dblp": "vr",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "IEEE VIS",
+  "name": "IEEE Visualization Conference",
+  "tier": "A",
+  "dblp": "visualization",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "ICMR",
+  "name": "ACM SIGMM International Conference on Multimedia Retrieval",
+  "tier": "B",
+  "dblp": "mir",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "I3D",
+  "name": "ACM SIGGRAPH Symposium onInteractive 3D Graphics and Games",
+  "tier": "B",
+  "dblp": "si3d",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "SCA",
+  "name": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
+  "tier": "B",
+  "dblp": "sca",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "DCC",
+  "name": "Data Compression Conference",
+  "tier": "B",
+  "dblp": "dcc",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "Eurographics",
+  "name": "Annual Conference of the European Association for Computer Graphics",
+  "tier": "B",
+  "dblp": "eurographics",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "EuroVis",
+  "name": "Eurographics Conference on Visualization",
+  "tier": "B",
+  "dblp": "vissym",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "SGP",
+  "name": "Eurographics Symposium on Geometry Processing",
+  "tier": "B",
+  "dblp": "sgp",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "EGSR",
+  "name": "Eurographics Symposium on Rendering",
+  "tier": "B",
+  "dblp": "rt",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "ICASSP",
+  "name": "IEEE International Conference on Acoustics,Speech and Signal Processing",
+  "tier": "B",
+  "dblp": "icassp",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "ICME",
+  "name": "IEEE International Conference on Multimedia& Expo",
+  "tier": "B",
+  "dblp": "icmcs",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "ISMAR",
+  "name": "International Symposium on Mixed and Augmented Reality",
+  "tier": "B",
+  "dblp": "ismar",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "PG",
+  "name": "Pacific Conference on Computer Graphics and Applications",
+  "tier": "B",
+  "dblp": "pg",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "SPM",
+  "name": "Symposium on Solid and Physical Modeling",
+  "tier": "B",
+  "dblp": "sma",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "VRST",
+  "name": "ACM Symposium on Virtual Reality Software and Technology",
+  "tier": "C",
+  "dblp": "vrst",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "CASA",
+  "name": "International Conference on Computer Animation and Social Agents",
+  "tier": "C",
+  "dblp": "ca",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "CGI",
+  "name": "Computer Graphics International",
+  "tier": "C",
+  "dblp": "cgi",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "INTERSPEECH",
+  "name": "Conference of the International Speech\nCommunication Association",
+  "tier": "C",
+  "dblp": "interspeech",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "GMP",
+  "name": "Geometric Modeling and Processing",
+  "tier": "C",
+  "dblp": "gmp",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "PacificVis",
+  "name": "IEEE Pacific Visualization Symposium",
+  "tier": "C",
+  "dblp": "apvis",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "3DV",
+  "name": "International Conference on 3D Vision",
+  "tier": "C",
+  "dblp": "3dim",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "CAD/Graphics",
+  "name": "International Conference on Computer-Aided Design and Computer Graphics",
+  "tier": "C",
+  "dblp": "cadgraphics",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "ICIP",
+  "name": "IEEE International Conference on Image Processing",
+  "tier": "C",
+  "dblp": "icip",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "MMM",
+  "name": "International Conference on Multimedia Modeling",
+  "tier": "C",
+  "dblp": "mmm",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "MMAsia",
+  "name": "ACM Multimedia Asia",
+  "tier": "C",
+  "dblp": "mmasia",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "SMI",
+  "name": "Shape Modeling International",
+  "tier": "C",
+  "dblp": "smi",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "ICVRV",
+  "name": "International Conference on Virtual Reality and Visualization",
+  "tier": "C",
+  "dblp": null,
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "CVM",
+  "name": "Computational Visual Media",
+  "tier": "C",
+  "dblp": "cvm",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "PRCV",
+  "name": "Chinese Conference on Pattern Recognition and Computer Vision",
+  "tier": "C",
+  "dblp": "prcv",
+  "page": "CGAndMT"
+ },
+ {
+  "acr": "SIGCOMM",
+  "name": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+  "tier": "A",
+  "dblp": "sigcomm",
+  "page": "CN"
+ },
+ {
+  "acr": "MobiCom",
+  "name": "ACM International Conference on Mobile Computing and Networking",
+  "tier": "A",
+  "dblp": "mobicom",
+  "page": "CN"
+ },
+ {
+  "acr": "INFOCOM",
+  "name": "IEEE International Conference on Computer Communications",
+  "tier": "A",
+  "dblp": "infocom",
+  "page": "CN"
+ },
+ {
+  "acr": "NSDI",
+  "name": "Symposium on Network System Design and Implementation",
+  "tier": "A",
+  "dblp": "nsdi",
+  "page": "CN"
+ },
+ {
+  "acr": "SenSys",
+  "name": "ACM Conference on Embedded Networked Sensor Systems",
+  "tier": "B",
+  "dblp": "sensys",
+  "page": "CN"
+ },
+ {
+  "acr": "CoNEXT",
+  "name": "ACM International Conference on emerging Networking EXperiments and Technologies",
+  "tier": "B",
+  "dblp": "conext",
+  "page": "CN"
+ },
+ {
+  "acr": "SECON",
+  "name": "IEEE International Conference on Sensing, Communication, and Networking",
+  "tier": "B",
+  "dblp": "secon",
+  "page": "CN"
+ },
+ {
+  "acr": "IPSN",
+  "name": "International Conference on Information Processing in Sensor Networks",
+  "tier": "B",
+  "dblp": "ipsn",
+  "page": "CN"
+ },
+ {
+  "acr": "MobiSys",
+  "name": "ACM International Conference on Mobile Systems, Applications, and Services",
+  "tier": "B",
+  "dblp": "mobisys",
+  "page": "CN"
+ },
+ {
+  "acr": "ICNP",
+  "name": "IEEE International Conference on Network Protocols",
+  "tier": "B",
+  "dblp": "icnp",
+  "page": "CN"
+ },
+ {
+  "acr": "MobiHoc",
+  "name": "International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+  "tier": "B",
+  "dblp": "mobihoc",
+  "page": "CN"
+ },
+ {
+  "acr": "NOSSDAV",
+  "name": "International Workshop on Network and Operating System Support for Digital Audio and Video",
+  "tier": "B",
+  "dblp": "nossdav",
+  "page": "CN"
+ },
+ {
+  "acr": "IWQoS",
+  "name": "IEEE/ACM International Workshop on Quality of Service",
+  "tier": "B",
+  "dblp": "iwqos",
+  "page": "CN"
+ },
+ {
+  "acr": "IMC",
+  "name": "ACM Internet Measurement Conference",
+  "tier": "B",
+  "dblp": "imc",
+  "page": "CN"
+ },
+ {
+  "acr": "ANCS",
+  "name": "ACM/IEEE Symposium on Architectures for Networking and Communication Systems",
+  "tier": "C",
+  "dblp": "ancs",
+  "page": "CN"
+ },
+ {
+  "acr": "APNOMS",
+  "name": "Asia-Pacific Network Operations and Management Symposium",
+  "tier": "C",
+  "dblp": "apnoms",
+  "page": "CN"
+ },
+ {
+  "acr": "FORTE",
+  "name": "International Conference on Formal Techniques for Distributed Objects, Components, and Systems",
+  "tier": "C",
+  "dblp": "forte",
+  "page": "CN"
+ },
+ {
+  "acr": "LCN",
+  "name": "IEEE Conference on Local Computer Networks",
+  "tier": "C",
+  "dblp": "lcn",
+  "page": "CN"
+ },
+ {
+  "acr": "GLOBECOM",
+  "name": "IEEE Global Communications Conference",
+  "tier": "C",
+  "dblp": "globecom",
+  "page": "CN"
+ },
+ {
+  "acr": "ICC",
+  "name": "IEEE International Conference on Communications",
+  "tier": "C",
+  "dblp": "icc",
+  "page": "CN"
+ },
+ {
+  "acr": "ICCCN",
+  "name": "IEEE International Conference on Computer Communications and Networks",
+  "tier": "C",
+  "dblp": "icccn",
+  "page": "CN"
+ },
+ {
+  "acr": "MASS",
+  "name": "IEEE International Conference on Mobile Ad-hoc and Sensor Systems",
+  "tier": "C",
+  "dblp": "mass",
+  "page": "CN"
+ },
+ {
+  "acr": "P2P",
+  "name": "IEEE International Conference on P2P Computing",
+  "tier": "C",
+  "dblp": "p2p",
+  "page": "CN"
+ },
+ {
+  "acr": "IPCCC",
+  "name": "IEEE International Performance Computing and Communications Conference",
+  "tier": "C",
+  "dblp": "ipccc",
+  "page": "CN"
+ },
+ {
+  "acr": "WoWMoM",
+  "name": "IEEE International Symposium on a World of Wireless Mobile and Multimedia Networks",
+  "tier": "C",
+  "dblp": "wowmom",
+  "page": "CN"
+ },
+ {
+  "acr": "ISCC",
+  "name": "IEEE Symposium on Computers and Communications",
+  "tier": "C",
+  "dblp": "iscc",
+  "page": "CN"
+ },
+ {
+  "acr": "WCNC",
+  "name": "IEEE Wireless Communications and Networking Conference",
+  "tier": "C",
+  "dblp": "wcnc",
+  "page": "CN"
+ },
+ {
+  "acr": "Networking",
+  "name": "IFIP International Conferences on Networking",
+  "tier": "C",
+  "dblp": "networking",
+  "page": "CN"
+ },
+ {
+  "acr": "IM",
+  "name": "IFIP/IEEE International Symposium on Integrated NetworkManagement",
+  "tier": "C",
+  "dblp": "im",
+  "page": "CN"
+ },
+ {
+  "acr": "MSN",
+  "name": "International Conference on Mobility, Sensing and Networking",
+  "tier": "C",
+  "dblp": "msn",
+  "page": "CN"
+ },
+ {
+  "acr": "MSWiM",
+  "name": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
+  "tier": "C",
+  "dblp": "mswim",
+  "page": "CN"
+ },
+ {
+  "acr": "WASA",
+  "name": "The International Conference on Wireless Artificial Intelligent Computing Systems and Applications",
+  "tier": "C",
+  "dblp": "wasa",
+  "page": "CN"
+ },
+ {
+  "acr": "HotNets",
+  "name": "ACM The Workshop on Hot Topics in Networks",
+  "tier": "C",
+  "dblp": "hotnets",
+  "page": "CN"
+ },
+ {
+  "acr": "APNet",
+  "name": "Asia-Pacific Workshop on Networking",
+  "tier": "C",
+  "dblp": "apnet",
+  "page": "CN"
+ },
+ {
+  "acr": "WWW",
+  "name": "International World Wide Web Conference",
+  "tier": "A",
+  "dblp": "www",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "RTSS",
+  "name": "IEEE Real-Time Systems Symposium",
+  "tier": "A",
+  "dblp": "rtss",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "WINE",
+  "name": "Conference on Web and Internet Economics",
+  "tier": "A",
+  "dblp": "wine",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "CogSci",
+  "name": "Annual Meeting of the Cognitive Science Society",
+  "tier": "B",
+  "dblp": null,
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "BIBM",
+  "name": "IEEE International Conference on Bioinformatics and Biomedicine",
+  "tier": "B",
+  "dblp": "bibm",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "EMSOFT",
+  "name": "International Conference on Embedded Software",
+  "tier": "B",
+  "dblp": "emsoft",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "ISMB",
+  "name": "International conference on Intelligent Systems for Molecular Biology",
+  "tier": "B",
+  "dblp": "ismb",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "RECOMB",
+  "name": "Annual International Conference on Research inComputational Molecular Biology",
+  "tier": "B",
+  "dblp": "recomb",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "MICCAI",
+  "name": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+  "tier": "B",
+  "dblp": "miccai",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "AMIA",
+  "name": "American Medical Informatics Association Annual Symposium",
+  "tier": "C",
+  "dblp": "amia",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "APBC",
+  "name": "Asia Pacific Bioinformatics Conference",
+  "tier": "C",
+  "dblp": "apbc",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "IEEE BigData",
+  "name": "IEEE International Conference on Big Data",
+  "tier": "C",
+  "dblp": "bigdataconf",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "IEEE CLOUD",
+  "name": "IEEE International Conference on Cloud Computing",
+  "tier": "C",
+  "dblp": "IEEEcloud",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "SMC",
+  "name": "IEEE International Conference on Systems, Man, and Cybernetics",
+  "tier": "C",
+  "dblp": "smc",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "COSIT",
+  "name": "International Conference on Spatial Information Theory",
+  "tier": "C",
+  "dblp": "cosit",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "ISBRA",
+  "name": "International Symposium on Bioinformatics Research and Applications",
+  "tier": "C",
+  "dblp": "isbra",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "SAGT",
+  "name": "International Symposium on Algorithmic Game Theory",
+  "tier": "C",
+  "dblp": "sagt",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "SIGSPATIAL",
+  "name": "ACM Special Interest Group on Spatial Information",
+  "tier": "C",
+  "dblp": null,
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "ICIC",
+  "name": "International Conference on Intelligent Computing",
+  "tier": "C",
+  "dblp": "icic",
+  "page": "Cross_Compre_Emerging"
+ },
+ {
+  "acr": "SIGMOD",
+  "name": "ACM SIGMOD Conference",
+  "tier": "A",
+  "dblp": "sigmod",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "SIGKDD",
+  "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+  "tier": "A",
+  "dblp": "kdd",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "ICDE",
+  "name": "IEEE International Conference on Data Engineering",
+  "tier": "A",
+  "dblp": "icde",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "SIGIR",
+  "name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+  "tier": "A",
+  "dblp": "sigir",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "VLDB",
+  "name": "International Conference on Very Large Data Bases",
+  "tier": "A",
+  "dblp": "vldb",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "CIKM",
+  "name": "ACM International Conference on Information and Knowledge Management",
+  "tier": "B",
+  "dblp": "cikm",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "WSDM",
+  "name": "ACM International Conference on Web Search and Data Mining",
+  "tier": "B",
+  "dblp": "wsdm",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "PODS",
+  "name": "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems",
+  "tier": "B",
+  "dblp": "pods",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "DASFAA",
+  "name": "International Conference on Database Systems for Advanced Applications",
+  "tier": "B",
+  "dblp": "dasfaa",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "ECML-PKDD",
+  "name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+  "tier": "B",
+  "dblp": "ecml",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "ISWC",
+  "name": "IEEE International Semantic Web Conference",
+  "tier": "B",
+  "dblp": "semweb",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "ICDM",
+  "name": "IEEE International Conference on Data Mining",
+  "tier": "B",
+  "dblp": "icdm",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "ICDT",
+  "name": "International Conference on Database Theory",
+  "tier": "B",
+  "dblp": "icdt",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "EDBT",
+  "name": "International Conference on Extending DatabaseTechnology",
+  "tier": "B",
+  "dblp": "edbt",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "CIDR",
+  "name": "Conference on Innovative DataSystems Research",
+  "tier": "B",
+  "dblp": "cidr",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "SDM",
+  "name": "SIAM International Conference on Data Mining",
+  "tier": "B",
+  "dblp": "sdm",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "RecSys",
+  "name": "ACM Conference on Recommender Systems",
+  "tier": "B",
+  "dblp": "recsys",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "APWeb",
+  "name": "Asia Pacific Web Conference",
+  "tier": "C",
+  "dblp": "apweb",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "DEXA",
+  "name": "International Conference on Database and Expert System Applications",
+  "tier": "C",
+  "dblp": "dexa",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "ECIR",
+  "name": "European Conference on Information Retrieval",
+  "tier": "C",
+  "dblp": "ecir",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "ESWC",
+  "name": "Extended Semantic Web Conference",
+  "tier": "C",
+  "dblp": "esws",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "WebDB",
+  "name": "International Workshop on Web andDatabases",
+  "tier": "C",
+  "dblp": "webdb",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "ER",
+  "name": "International Conference on Conceptual Modeling",
+  "tier": "C",
+  "dblp": "er",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "MDM",
+  "name": "International Conference on Mobile Data Management",
+  "tier": "C",
+  "dblp": "mdm",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "SSDBM",
+  "name": "International Conference on Scientific andStatistical Database Management",
+  "tier": "C",
+  "dblp": "ssdbm",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "WAIM",
+  "name": "International Conference on Web Age Information Management",
+  "tier": "C",
+  "dblp": "waim",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "SSTD",
+  "name": "International Symposium on Spatial and Temporal Databases",
+  "tier": "C",
+  "dblp": "ssd",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "PAKDD",
+  "name": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+  "tier": "C",
+  "dblp": "pakdd",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "WISE",
+  "name": "Web Information Systems Engineering",
+  "tier": "C",
+  "dblp": "wise",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "ADMA",
+  "name": "International Conference on Advanced Data Mining and Applications",
+  "tier": "C",
+  "dblp": "adma",
+  "page": "DM_CS"
+ },
+ {
+  "acr": "CSCW",
+  "name": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+  "tier": "A",
+  "dblp": "cscw",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "CHI",
+  "name": "ACM Conference on Human Factors in Computing Systems",
+  "tier": "A",
+  "dblp": "chi",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "UbiComp/IMWUT",
+  "name": "ACM international joint conference on Pervasive and Ubiquitous Computing/ Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+  "tier": "A",
+  "dblp": null,
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "UIST",
+  "name": "ACM Symposium on User Interface Software and Technology",
+  "tier": "A",
+  "dblp": "uist",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "GROUP",
+  "name": "ACM International Conference on Supporting Group Work",
+  "tier": "B",
+  "dblp": "group",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "IUI",
+  "name": "ACM International Conference on Intelligent User Interfaces",
+  "tier": "B",
+  "dblp": "iui",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "ISS",
+  "name": "ACM International Conference on Interactive Surfaces and Spaces",
+  "tier": "B",
+  "dblp": "tabletop",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "ECSCW",
+  "name": "European Conference on Computer Supported Cooperative Work",
+  "tier": "B",
+  "dblp": "ecscw",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "PERCOM",
+  "name": "IEEE International Conference on Pervasive Computing and Communications",
+  "tier": "B",
+  "dblp": "percom",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "MobileHCI",
+  "name": "ACM International Conference on Mobile Human-Computer Interaction",
+  "tier": "B",
+  "dblp": "mhci",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "ICWSM",
+  "name": "The International AAAI Conference on Web and Social Media",
+  "tier": "B",
+  "dblp": "icwsm",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "DIS",
+  "name": "ACM SIGCHI Conference on Designing Interactive Systems",
+  "tier": "C",
+  "dblp": "ACMdis",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "ICMI",
+  "name": "ACM International Conference on Multimodal Interaction",
+  "tier": "C",
+  "dblp": "icmi",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "ASSETS",
+  "name": "International ACM SIGACCESS Conference on Computers and Accessibility",
+  "tier": "C",
+  "dblp": "assets",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "GI",
+  "name": "Graphics Interface",
+  "tier": "C",
+  "dblp": "graphicsinterface",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "UIC",
+  "name": "IEEE International Conference on Ubiquitous Intelligence and Computing",
+  "tier": "C",
+  "dblp": "uic",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "",
+  "name": "IEEE World Haptics Conference",
+  "tier": "C",
+  "dblp": "haptics",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "INTERACT",
+  "name": "International Conference on Human- Computer Interaction of International Federation for Information Processing",
+  "tier": "C",
+  "dblp": "interact",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "IDC",
+  "name": "ACM Interaction Design and Children",
+  "tier": "C",
+  "dblp": "acmidc",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "CollaborateCom",
+  "name": "International Conference on Collaborative Computing:Networking, Applications and Worksharing",
+  "tier": "C",
+  "dblp": "colcom",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "CSCWD",
+  "name": "International Conference on Computer Supported Cooperative Work in Design",
+  "tier": "C",
+  "dblp": "cscwd",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "CoopIS",
+  "name": "International Conference on Cooperative Information Systems",
+  "tier": "C",
+  "dblp": "coopis",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "MobiQuitous",
+  "name": "International Conference on Mobile and Ubiquitous Systems: Computing,Networking and Services",
+  "tier": "C",
+  "dblp": "mobiquitous",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "AVI",
+  "name": "International Working Conference on Advanced Visual Interfaces",
+  "tier": "C",
+  "dblp": "avi",
+  "page": "HCIAndPC"
+ },
+ {
+  "acr": "CCS",
+  "name": "ACM Conference on Computer and Communications Security",
+  "tier": "A",
+  "dblp": "ccs",
+  "page": "NIS"
+ },
+ {
+  "acr": "EUROCRYPT",
+  "name": "International Conference on the Theory and Applications of Cryptographic Techniques",
+  "tier": "A",
+  "dblp": "eurocrypt",
+  "page": "NIS"
+ },
+ {
+  "acr": "S&P",
+  "name": "IEEE Symposium on Security and Privacy",
+  "tier": "A",
+  "dblp": "sp",
+  "page": "NIS"
+ },
+ {
+  "acr": "CRYPTO",
+  "name": "International Cryptology Conference",
+  "tier": "A",
+  "dblp": "crypto",
+  "page": "NIS"
+ },
+ {
+  "acr": "USENIX Security",
+  "name": "USENIX Security Symposium",
+  "tier": "A",
+  "dblp": "uss",
+  "page": "NIS"
+ },
+ {
+  "acr": "NDSS",
+  "name": "Network and Distributed System Security Symposium",
+  "tier": "A",
+  "dblp": "ndss",
+  "page": "NIS"
+ },
+ {
+  "acr": "ACSAC",
+  "name": "Annual Computer Security Applications Conference",
+  "tier": "B",
+  "dblp": "acsac",
+  "page": "NIS"
+ },
+ {
+  "acr": "ASIACRYPT",
+  "name": "Annual International Conference on the Theory and Application of Cryptology and Information Security",
+  "tier": "B",
+  "dblp": "asiacrypt",
+  "page": "NIS"
+ },
+ {
+  "acr": "ESORICS",
+  "name": "European Symposium on Research in Computer Security",
+  "tier": "B",
+  "dblp": "esorics",
+  "page": "NIS"
+ },
+ {
+  "acr": "FSE",
+  "name": "Fast Software Encryption",
+  "tier": "B",
+  "dblp": "fse",
+  "page": "NIS"
+ },
+ {
+  "acr": "CSFW",
+  "name": "IEEE Computer Security Foundations Workshop",
+  "tier": "B",
+  "dblp": "csfw",
+  "page": "NIS"
+ },
+ {
+  "acr": "SRDS",
+  "name": "IEEE International Symposium on Reliable Distributed Systems",
+  "tier": "B",
+  "dblp": "srds",
+  "page": "NIS"
+ },
+ {
+  "acr": "CHES",
+  "name": "International Conference on Cryptographic Hardware and Embedded Systems",
+  "tier": "B",
+  "dblp": "ches",
+  "page": "NIS"
+ },
+ {
+  "acr": "DSN",
+  "name": "International Conference on Dependable Systems and Networks",
+  "tier": "B",
+  "dblp": "dsn",
+  "page": "NIS"
+ },
+ {
+  "acr": "RAID",
+  "name": "International Symposium on Recent Advances in Intrusion Detection",
+  "tier": "B",
+  "dblp": "raid",
+  "page": "NIS"
+ },
+ {
+  "acr": "PKC",
+  "name": "International Workshop on Practice and Theory in Public Key Cryptography",
+  "tier": "B",
+  "dblp": "pkc",
+  "page": "NIS"
+ },
+ {
+  "acr": "TCC",
+  "name": "Theory of Cryptography Conference",
+  "tier": "B",
+  "dblp": "tcc",
+  "page": "NIS"
+ },
+ {
+  "acr": "WiSec",
+  "name": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+  "tier": "C",
+  "dblp": "wisec",
+  "page": "NIS"
+ },
+ {
+  "acr": "SACMAT",
+  "name": "ACM Symposium on Access Control Models and Technologies",
+  "tier": "C",
+  "dblp": "sacmat",
+  "page": "NIS"
+ },
+ {
+  "acr": "DRM",
+  "name": "ACM Workshop on Digital Rights Management",
+  "tier": "C",
+  "dblp": "drm",
+  "page": "NIS"
+ },
+ {
+  "acr": "IH&MMSec",
+  "name": "ACM Workshop on Information Hiding and Multimedia Security",
+  "tier": "C",
+  "dblp": "ih",
+  "page": "NIS"
+ },
+ {
+  "acr": "ACNS",
+  "name": "International Conference on Applied Cryptography and Network Security",
+  "tier": "C",
+  "dblp": "acns",
+  "page": "NIS"
+ },
+ {
+  "acr": "AsiaCCS",
+  "name": "ACM Asia Conference on Computer and Communications Security",
+  "tier": "C",
+  "dblp": "ccs",
+  "page": "NIS"
+ },
+ {
+  "acr": "ACISP",
+  "name": "AustralasiaConferenceonInformation SecurityandPrivacy",
+  "tier": "C",
+  "dblp": "acisp",
+  "page": "NIS"
+ },
+ {
+  "acr": "CT-RSA",
+  "name": "The Cryptographer's Track at RSA Conference",
+  "tier": "C",
+  "dblp": "ctrsa",
+  "page": "NIS"
+ },
+ {
+  "acr": "DIMVA",
+  "name": "Conference on Detection of Intrusions and Malware & VulnerabilityAssessment",
+  "tier": "C",
+  "dblp": "dimva",
+  "page": "NIS"
+ },
+ {
+  "acr": "DFRWS",
+  "name": "Digital Forensic Research Workshop",
+  "tier": "C",
+  "dblp": "dfrws",
+  "page": "NIS"
+ },
+ {
+  "acr": "FC",
+  "name": "Financial Cryptography and Data Security",
+  "tier": "C",
+  "dblp": "fc",
+  "page": "NIS"
+ },
+ {
+  "acr": "TrustCom",
+  "name": "IEEE International Conference on Trust,Security and Privacy in Computing and Communications",
+  "tier": "C",
+  "dblp": "trustcom",
+  "page": "NIS"
+ },
+ {
+  "acr": "SEC",
+  "name": "IFIP International Information Security Conference",
+  "tier": "C",
+  "dblp": "sec",
+  "page": "NIS"
+ },
+ {
+  "acr": "IFIP WG 11.9",
+  "name": "IFIP Working Group 11.9 International Conference on Digital Forensics",
+  "tier": "C",
+  "dblp": "ifip11-9",
+  "page": "NIS"
+ },
+ {
+  "acr": "ISC",
+  "name": "Information Security Conference",
+  "tier": "C",
+  "dblp": "isw",
+  "page": "NIS"
+ },
+ {
+  "acr": "ICDF2C",
+  "name": "International Conference on Digital Forensics & Cyber Crime",
+  "tier": "C",
+  "dblp": "icdf2c",
+  "page": "NIS"
+ },
+ {
+  "acr": "ICICS",
+  "name": "International Conference on Information and Communications Security",
+  "tier": "C",
+  "dblp": "icics",
+  "page": "NIS"
+ },
+ {
+  "acr": "SecureComm",
+  "name": "International Conference on Security and Privacy in Communication Networks",
+  "tier": "C",
+  "dblp": "securecomm",
+  "page": "NIS"
+ },
+ {
+  "acr": "NSPW",
+  "name": "New Security Paradigms Workshop",
+  "tier": "C",
+  "dblp": "nspw",
+  "page": "NIS"
+ },
+ {
+  "acr": "PAM",
+  "name": "Passive and Active Measurement Conference",
+  "tier": "C",
+  "dblp": "pam",
+  "page": "NIS"
+ },
+ {
+  "acr": "PETS",
+  "name": "Privacy Enhancing Technologies Symposium",
+  "tier": "C",
+  "dblp": "pet",
+  "page": "NIS"
+ },
+ {
+  "acr": "SAC",
+  "name": "Selected Areas in Cryptography",
+  "tier": "C",
+  "dblp": "sacrypt",
+  "page": "NIS"
+ },
+ {
+  "acr": "SOUPS",
+  "name": "Symposium On Usable Privacy and Security",
+  "tier": "C",
+  "dblp": "soups",
+  "page": "NIS"
+ },
+ {
+  "acr": "HotSec",
+  "name": "",
+  "tier": "C",
+  "dblp": null,
+  "page": "NIS"
+ },
+ {
+  "acr": "EuroS&P",
+  "name": "IEEE European Symposium on Security and Privacy",
+  "tier": "C",
+  "dblp": "eurosp",
+  "page": "NIS"
+ },
+ {
+  "acr": "Inscrypt",
+  "name": "International Conference on Information Security and Cryptology",
+  "tier": "C",
+  "dblp": "cisc",
+  "page": "NIS"
+ },
+ {
+  "acr": "STOC",
+  "name": "ACM Symposium on Theory of Computing",
+  "tier": "A",
+  "dblp": "stoc",
+  "page": "TCS"
+ },
+ {
+  "acr": "SODA",
+  "name": "ACM-SIAM Symposium on Discrete Algorithms",
+  "tier": "A",
+  "dblp": "soda",
+  "page": "TCS"
+ },
+ {
+  "acr": "CAV",
+  "name": "International Conference on Computer Aided Verification",
+  "tier": "A",
+  "dblp": "cav",
+  "page": "TCS"
+ },
+ {
+  "acr": "FOCS",
+  "name": "IEEE Annual Symposium on Foundations of Computer Science",
+  "tier": "A",
+  "dblp": "focs",
+  "page": "TCS"
+ },
+ {
+  "acr": "LICS",
+  "name": "ACM/IEEE Symposium on Logic in Computer Science",
+  "tier": "A",
+  "dblp": "lics",
+  "page": "TCS"
+ },
+ {
+  "acr": "SoCG",
+  "name": "International Symposium on Computational Geometry",
+  "tier": "B",
+  "dblp": "compgeom",
+  "page": "TCS"
+ },
+ {
+  "acr": "ESA",
+  "name": "European Symposium on Algorithms",
+  "tier": "B",
+  "dblp": "esa",
+  "page": "TCS"
+ },
+ {
+  "acr": "CCC",
+  "name": "Conference on Computational Complexity",
+  "tier": "B",
+  "dblp": "coco",
+  "page": "TCS"
+ },
+ {
+  "acr": "ICALP",
+  "name": "International Colloquium on Automata, Languages and Programming",
+  "tier": "B",
+  "dblp": "icalp",
+  "page": "TCS"
+ },
+ {
+  "acr": "",
+  "name": "International Conference on Automated Deduction/International Joint Conference on Automated Reasoning",
+  "tier": "B",
+  "dblp": "cade",
+  "page": "TCS"
+ },
+ {
+  "acr": "CONCUR",
+  "name": "International Conference on Concurrency Theory",
+  "tier": "B",
+  "dblp": "concur",
+  "page": "TCS"
+ },
+ {
+  "acr": "HSCC",
+  "name": "International Conference on Hybrid Systems: Computation and Control",
+  "tier": "B",
+  "dblp": "hybrid",
+  "page": "TCS"
+ },
+ {
+  "acr": "SAT",
+  "name": "International Conference on Theory and Applications of Satisfiability Testing",
+  "tier": "B",
+  "dblp": "sat",
+  "page": "TCS"
+ },
+ {
+  "acr": "COCOON",
+  "name": "International Computing and Combinatorics Conference",
+  "tier": "B",
+  "dblp": "cocoon",
+  "page": "TCS"
+ },
+ {
+  "acr": "CSL",
+  "name": "Computer Science Logic",
+  "tier": "C",
+  "dblp": "csl",
+  "page": "TCS"
+ },
+ {
+  "acr": "FMCAD",
+  "name": "Formal Method in Computer-Aided Design",
+  "tier": "C",
+  "dblp": "fmcad",
+  "page": "TCS"
+ },
+ {
+  "acr": "FSTTCS",
+  "name": "Foundations of Software Technology and Theoretical Computer Science",
+  "tier": "C",
+  "dblp": "fsttcs",
+  "page": "TCS"
+ },
+ {
+  "acr": "DSAA",
+  "name": "IEEE International Conference on Data Science and Advanced Analytics",
+  "tier": "C",
+  "dblp": "dsaa",
+  "page": "TCS"
+ },
+ {
+  "acr": "ICTAC",
+  "name": "International Colloquium on Theoretical Aspects of Computing",
+  "tier": "C",
+  "dblp": "ictac",
+  "page": "TCS"
+ },
+ {
+  "acr": "IPCO",
+  "name": "International Conference on Integer Programming and Combinatorial Optimization",
+  "tier": "C",
+  "dblp": "ipco",
+  "page": "TCS"
+ },
+ {
+  "acr": "RTA",
+  "name": "International Conference on Rewriting Techniques and Applications",
+  "tier": "C",
+  "dblp": "rta",
+  "page": "TCS"
+ },
+ {
+  "acr": "ISAAC",
+  "name": "International Symposium on Algorithms and Computation",
+  "tier": "C",
+  "dblp": "isaac",
+  "page": "TCS"
+ },
+ {
+  "acr": "MFCS",
+  "name": "International Conference on Mathematical Foundations of Computer Science",
+  "tier": "C",
+  "dblp": "mfcs",
+  "page": "TCS"
+ },
+ {
+  "acr": "STACS",
+  "name": "Symposium on Theoretical Aspects of Computer Science",
+  "tier": "C",
+  "dblp": "stacs",
+  "page": "TCS"
+ },
+ {
+  "acr": "SETTA",
+  "name": "International Symposium on Dependable Software Engineering: Theories, Tools, and Applications",
+  "tier": "C",
+  "dblp": "setta",
+  "page": "TCS"
+ },
+ {
+  "acr": "PLDI",
+  "name": "ACM SIGPLAN Conference on Programming Language Design and   Implementation",
+  "tier": "A",
+  "dblp": "pldi",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "POPL",
+  "name": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+  "tier": "A",
+  "dblp": "popl",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "FSE",
+  "name": "ACM International Conference on the Foundations of Software Engineering",
+  "tier": "A",
+  "dblp": "sigsoft",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "SOSP",
+  "name": "ACM Symposium on Operating Systems Principles",
+  "tier": "A",
+  "dblp": "sosp",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "OOPSLA",
+  "name": "Conference on Object-Oriented Programming Systems, Languages,and Applications",
+  "tier": "A",
+  "dblp": "oopsla",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ASE",
+  "name": "International Conference on Automated Software Engineering",
+  "tier": "A",
+  "dblp": "kbse",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICSE",
+  "name": "International Conference on Software Engineering",
+  "tier": "A",
+  "dblp": "icse",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ISSTA",
+  "name": "International Symposium on Software Testing and Analysis",
+  "tier": "A",
+  "dblp": "issta",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "OSDI",
+  "name": "USENIX Symposium on Operating Systems Design and Implementations",
+  "tier": "A",
+  "dblp": "osdi",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "FM",
+  "name": "International Symposium on Formal Methods",
+  "tier": "A",
+  "dblp": "fm",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ECOOP",
+  "name": "European Conference on Object-Oriented Programming",
+  "tier": "B",
+  "dblp": "ecoop",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ETAPS",
+  "name": "European Joint Conferences on Theory and Practice of Software",
+  "tier": "B",
+  "dblp": "etaps",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICPC",
+  "name": "IEEE International Conference on Program Comprehension",
+  "tier": "B",
+  "dblp": "iwpc",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "RE",
+  "name": "IEEE International Requirements Engineering Conference",
+  "tier": "B",
+  "dblp": "re",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "CAiSE",
+  "name": "International Conference on Advanced Information Systems Engineering",
+  "tier": "B",
+  "dblp": "caise",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICFP",
+  "name": "ACM SIGPLAN International Conference on Function Programming",
+  "tier": "B",
+  "dblp": "icfp",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "LCTES",
+  "name": "ACM SIGPLAN/SIGBED International Conference on Languages, Compilers andTools for Embedded Systems",
+  "tier": "B",
+  "dblp": "lctrts",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "MoDELS",
+  "name": "ACM/IEEE International Conference on Model Driven Engineering Languages and Systems",
+  "tier": "B",
+  "dblp": "models",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "CP",
+  "name": "International Conference on Principles and Practice of Constraint Programming",
+  "tier": "B",
+  "dblp": "cp",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICSOC",
+  "name": "International Conference on Service Oriented Computing",
+  "tier": "B",
+  "dblp": "icsoc",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "SANER",
+  "name": "IEEE International Conference on Software Analysis, Evolution,and Reengineering",
+  "tier": "B",
+  "dblp": "wcre",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICSME",
+  "name": "International Conference on Software Maintenance and Evolution",
+  "tier": "B",
+  "dblp": "icsm",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "VMCAI",
+  "name": "International Conference on Verification,Model Checking, and Abstract Interpretation",
+  "tier": "B",
+  "dblp": "vmcai",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICWS",
+  "name": "IEEE International Conference on Web Services",
+  "tier": "B",
+  "dblp": "icws",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "Middleware",
+  "name": "International Middleware Conference",
+  "tier": "B",
+  "dblp": "middleware",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "SAS",
+  "name": "International Static Analysis Symposium",
+  "tier": "B",
+  "dblp": "sas",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ESEM",
+  "name": "International Symposium on Empirical Software Engineering and Measurement",
+  "tier": "B",
+  "dblp": "esem",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ISSRE",
+  "name": "IEEE International Symposium on Software Reliability Engineering",
+  "tier": "B",
+  "dblp": "issre",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "HotOS",
+  "name": "USENIX Workshop on Hot Topics in Operating Systems",
+  "tier": "B",
+  "dblp": "hotos",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "PEPM",
+  "name": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
+  "tier": "C",
+  "dblp": "pepm",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "PASTE",
+  "name": "ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering",
+  "tier": "C",
+  "dblp": "paste",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "APLAS",
+  "name": "Asian Symposium on Programming Languages and Systems",
+  "tier": "C",
+  "dblp": "aplas",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "APSEC",
+  "name": "Asia-Pacific Software Engineering Conference",
+  "tier": "C",
+  "dblp": "apsec",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "EASE",
+  "name": "International Conference on Evaluation and Assessment in Software Engineering",
+  "tier": "C",
+  "dblp": "ease",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICECCS",
+  "name": "International Conference on Engineering of Complex Computer Systems",
+  "tier": "C",
+  "dblp": "iceccs",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICST",
+  "name": "IEEE International Conference on Software Testing, Verification and Validation",
+  "tier": "C",
+  "dblp": "icst",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ISPASS",
+  "name": "IEEE International Symposium on Performance Analysis of Systems and Software",
+  "tier": "C",
+  "dblp": "ispass",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "SCAM",
+  "name": "IEEE International Working Conference on Source Code Analysis and Manipulation",
+  "tier": "C",
+  "dblp": "scam",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "COMPSAC",
+  "name": "International Computer Software and Applications Conference",
+  "tier": "C",
+  "dblp": "compsac",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICFEM",
+  "name": "International Conference on Formal Engineering Methods",
+  "tier": "C",
+  "dblp": "icfem",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "SSE",
+  "name": "IEEE International Conference on Software Services Engineering",
+  "tier": "C",
+  "dblp": "IEEEscc",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICSSP",
+  "name": "International Conference on Software and System Process",
+  "tier": "C",
+  "dblp": "ispw",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "SEKE",
+  "name": "International Conference on Software Engineering and Knowledge Engineering",
+  "tier": "C",
+  "dblp": "seke",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "QRS",
+  "name": "International Conference on Software Quality, Reliability and Security",
+  "tier": "C",
+  "dblp": null,
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICSR",
+  "name": "International Conference on Software Reuse",
+  "tier": "C",
+  "dblp": "icsr",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ICWE",
+  "name": "International Conference on Web Engineering",
+  "tier": "C",
+  "dblp": "icwe",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "SPIN",
+  "name": "International Symposium on Model Checking of Software",
+  "tier": "C",
+  "dblp": "spin",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "ATVA",
+  "name": "International Symposium on Automated Technology for Verification and Analysis",
+  "tier": "C",
+  "dblp": "atva",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "LOPSTR",
+  "name": "International Symposium on Logic-based Program Synthesis and Transformation",
+  "tier": "C",
+  "dblp": "lopstr",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "TASE",
+  "name": "Theoretical Aspects of Software Engineering Conference",
+  "tier": "C",
+  "dblp": "tase",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "MSR",
+  "name": "Mining Software Repositories",
+  "tier": "C",
+  "dblp": "msr",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "REFSQ",
+  "name": "Requirements Engineering: Foundation for Software Quality",
+  "tier": "C",
+  "dblp": "refsq",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "WICSA",
+  "name": "Working IEEE/IFIP Conference on Software Architecture",
+  "tier": "C",
+  "dblp": "wicsa",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "Internetware",
+  "name": "Asia-Pacific Symposium on Internetware",
+  "tier": "C",
+  "dblp": "internetware",
+  "page": "TCSE_SS_PDL"
+ },
+ {
+  "acr": "RV",
+  "name": "International Conference on Runtime Verification",
+  "tier": "C",
+  "dblp": "rv",
+  "page": "TCSE_SS_PDL"
+ }
+]
