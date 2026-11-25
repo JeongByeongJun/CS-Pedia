@@ -4,15 +4,15 @@ import { useState } from "react";
 import { useLocale } from "@/presentation/hooks/use-locale";
 
 const UPDATES_KR = [
-  { date: "2026.03.25", text: "BK21 학회 55개 추가 — 총 209개 학회 (PODC, ECOOP, IPDPS, TACAS 등)" },
-  { date: "2026.03.25", text: "Best Paper 논문 제목 클릭 시 원문 링크 연결 (1,650+ 논문)" },
-  { date: "2026.03.17", text: "마감 시간이 내 현지 시간으로 표시됩니다" },
+  { date: "2026.11.25", text: "기관 인정 등급 전면 재검토 — 공식 목록과 대조해 오류 수정, CORE는 ICORE2026·CCF는 제7판(2026)으로 갱신" },
+  { date: "2026.11.25", text: "우수학회 목록 출처 페이지 추가 — BK21·KIISE·KAIST·POSTECH 원본 파일 제공" },
+  { date: "2026.11.25", text: "카드의 데드라인 바가 60일 기준으로 남은 기간을 보여줍니다" },
 ];
 
 const UPDATES_EN = [
-  { date: "2026.03.25", text: "55 new conferences added — now tracking 209 venues (PODC, ECOOP, IPDPS, TACAS, etc.)" },
-  { date: "2026.03.25", text: "Best Paper titles now link to the original paper (1,650+ papers)" },
-  { date: "2026.03.17", text: "Deadlines now shown in your local timezone" },
+  { date: "2026.11.25", text: "All rankings re-checked against official lists — CORE updated to ICORE2026, CCF to the 7th edition (2026)" },
+  { date: "2026.11.25", text: "New sources page with the original ranking documents" },
+  { date: "2026.11.25", text: "Card deadline bars now show time remaining on a fixed 60-day scale" },
 ];
 
 export function UpdateBanner() {
