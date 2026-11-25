@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useLocale } from "@/presentation/hooks/use-locale";
 import { InfoTooltip } from "@/presentation/components/ui/info-tooltip";
 import { INSTITUTIONS_KR, INSTITUTIONS_INTL } from "@/shared/constants/institutions";
@@ -17,7 +18,7 @@ export function InstitutionRatings({ ratings }: InstitutionRatingsProps) {
     <div className="bg-white rounded-2xl shadow-sm border border-zinc-200/80 p-6 mb-6">
       <h2 className="text-lg font-bold text-zinc-900 mb-4 flex items-center">
         {isKorean
-          ? <>{`기관 인정 현황`}<InfoTooltip text="BK21: 2018년 BK21플러스 점수 기준 (1~4점) · KIISE: 2024년 한국정보과학회 기준 (최우수/우수) · POSTECH: 2026년 기준 (최우수/우수) · KAIST: 2022년 인정 기준 · SNU: 2024년 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>
+          ? <>{`기관 인정 현황`}<InfoTooltip text="BK21: 2018년 BK21플러스 점수 기준 (1~4점) · KIISE: 2024년 한국정보과학회 기준 (최우수/우수) · POSTECH: 2026년 기준 (최우수/우수) · KAIST: 전산학부 인정 목록 (2014.11 한국정보과학회 작성, 최우수/우수) · SNU: 2024년 인정 기준. 기준이 개정될 수 있으니 중요한 사항은 소속 기관에 직접 확인하세요." /></>
           : <>{`Rankings`}<InfoTooltip text="CORE: Australian Research Council 2023 ranking (A*/A/B/C) · CCF: China Computer Federation 2022 ranking (A/B/C) · CSRankings: Included in csrankings.org venue list for university rankings." /></>
         }
       </h2>
@@ -69,6 +70,12 @@ export function InstitutionRatings({ ratings }: InstitutionRatingsProps) {
           );
         })}
       </div>
+      <Link
+        href="/references"
+        className="inline-block mt-3 text-xs text-zinc-400 hover:text-indigo-500 underline underline-offset-2 transition-colors"
+      >
+        {isKorean ? "기관별 원본 목록 보기 →" : "View source lists →"}
+      </Link>
     </div>
   );
 }

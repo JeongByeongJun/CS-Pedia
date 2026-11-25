@@ -962,13 +962,13 @@
   {
     "conference_slug": "atc",
     "institution": "KIISE",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
     "conference_slug": "atc",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -1238,7 +1238,7 @@
   {
     "conference_slug": "siggraph-asia",
     "institution": "BK21",
-    "tier": "1",
+    "tier": null,
     "year": 2025
   },
   {
@@ -1844,7 +1844,7 @@
   {
     "conference_slug": "gecco",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -2462,7 +2462,7 @@
   {
     "conference_slug": "atc",
     "institution": "SNU",
-    "tier": null,
+    "tier": "인정",
     "year": 2025
   },
   {
@@ -3224,7 +3224,7 @@
   {
     "conference_slug": "ieee-vr",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -6230,7 +6230,7 @@
   {
     "conference_slug": "atc",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "최우수",
     "year": 2025
   },
   {
@@ -6350,7 +6350,7 @@
   {
     "conference_slug": "conll",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -6506,7 +6506,7 @@
   {
     "conference_slug": "ecml-pkdd",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -6644,7 +6644,7 @@
   {
     "conference_slug": "fase",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -7118,7 +7118,7 @@
   {
     "conference_slug": "msr",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -7160,7 +7160,7 @@
   {
     "conference_slug": "pakdd",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -7226,7 +7226,7 @@
   {
     "conference_slug": "recsys",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -7400,7 +7400,7 @@
   {
     "conference_slug": "kr",
     "institution": "KIISE",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -7502,7 +7502,7 @@
   {
     "conference_slug": "podc",
     "institution": "KAIST",
-    "tier": "최우수",
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -7550,7 +7550,7 @@
   {
     "conference_slug": "spaa",
     "institution": "KAIST",
-    "tier": "최우수",
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -7706,7 +7706,7 @@
   {
     "conference_slug": "codes-isss",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -7742,7 +7742,7 @@
   {
     "conference_slug": "cogsci",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -7844,13 +7844,13 @@
   {
     "conference_slug": "ecoop",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "ecoop",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -7892,13 +7892,13 @@
   {
     "conference_slug": "emsoft",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "emsoft",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -7940,13 +7940,13 @@
   {
     "conference_slug": "esop",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "esop",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -7988,13 +7988,13 @@
   {
     "conference_slug": "icpp",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "icpp",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8084,13 +8084,13 @@
   {
     "conference_slug": "ipdps",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "ipdps",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8132,13 +8132,13 @@
   {
     "conference_slug": "lctes",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "lctes",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8180,13 +8180,13 @@
   {
     "conference_slug": "mascots",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "mascots",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8222,19 +8222,19 @@
   {
     "conference_slug": "performance",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
     "conference_slug": "performance",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "performance",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8276,13 +8276,13 @@
   {
     "conference_slug": "re",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "re",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8318,23 +8318,23 @@
   {
     "conference_slug": "tacas",
     "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "tacas",
+    "institution": "POSTECH",
     "tier": "최우수",
     "year": 2025
   },
   {
     "conference_slug": "tacas",
-    "institution": "SNU",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "tacas",
-    "institution": "POSTECH",
-    "tier": "최우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "tacas",
     "institution": "CORE",
     "tier": "A",
     "year": 2023
@@ -8366,19 +8366,19 @@
   {
     "conference_slug": "asiaccs",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "asiaccs",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "asiaccs",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8414,7 +8414,7 @@
   {
     "conference_slug": "avss",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8462,7 +8462,7 @@
   {
     "conference_slug": "bibm",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -8516,13 +8516,13 @@
   {
     "conference_slug": "ccgrid",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "ccgrid",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8533,59 +8533,59 @@
   },
   {
     "conference_slug": "ccgrid",
-    "institution": "CCF",
-    "tier": "C",
-    "year": 2022
-  },
-  {
-    "conference_slug": "ccgrid",
-    "institution": "CSRankings",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "cloud",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cloud",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cloud",
-    "institution": "KAIST",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cloud",
-    "institution": "SNU",
-    "tier": "인정",
-    "year": 2025
-  },
-  {
-    "conference_slug": "cloud",
-    "institution": "POSTECH",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "cloud",
-    "institution": "CORE",
-    "tier": "B",
-    "year": 2023
-  },
-  {
-    "conference_slug": "cloud",
     "institution": "CCF",
     "tier": "C",
     "year": 2022
   },
   {
+    "conference_slug": "ccgrid",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "cloud",
+    "institution": "CCF",
+    "tier": "C",
+    "year": 2022
+  },
+  {
     "conference_slug": "cloud",
     "institution": "CSRankings",
     "tier": null,
@@ -8612,13 +8612,13 @@
   {
     "conference_slug": "concur",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "concur",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8654,7 +8654,7 @@
   {
     "conference_slug": "cseet",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8702,19 +8702,19 @@
   {
     "conference_slug": "fc",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "fc",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "fc",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8756,13 +8756,13 @@
   {
     "conference_slug": "hipc",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
     "conference_slug": "hipc",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8810,7 +8810,7 @@
   {
     "conference_slug": "hipeac",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8840,7 +8840,7 @@
   {
     "conference_slug": "iccd",
     "institution": "KIISE",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8858,7 +8858,7 @@
   {
     "conference_slug": "iccd",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8894,7 +8894,7 @@
   {
     "conference_slug": "iclp",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -8990,7 +8990,7 @@
   {
     "conference_slug": "icsoc",
     "institution": "KAIST",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9050,7 +9050,7 @@
   {
     "conference_slug": "ijcar",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -9098,7 +9098,7 @@
   {
     "conference_slug": "iiswc",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -9134,7 +9134,7 @@
   {
     "conference_slug": "ismar",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -9146,7 +9146,7 @@
   {
     "conference_slug": "ismar",
     "institution": "POSTECH",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -9236,7 +9236,7 @@
   {
     "conference_slug": "ispass",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9278,7 +9278,7 @@
   {
     "conference_slug": "its",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -9332,7 +9332,7 @@
   {
     "conference_slug": "mass",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9380,157 +9380,157 @@
   {
     "conference_slug": "msst",
     "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "msst",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "CCF",
+    "tier": null,
+    "year": 2022
+  },
+  {
+    "conference_slug": "noms",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "KIISE",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "KAIST",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "SNU",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "POSTECH",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "CORE",
+    "tier": "B",
+    "year": 2023
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "CCF",
+    "tier": "B",
+    "year": 2022
+  },
+  {
+    "conference_slug": "nossdav",
+    "institution": "CSRankings",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "BK21",
+    "tier": "1",
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "KIISE",
+    "tier": "우수",
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "KAIST",
+    "tier": null,
+    "year": 2025
+  },
+  {
+    "conference_slug": "recomb",
+    "institution": "SNU",
     "tier": "인정",
     "year": 2025
   },
   {
-    "conference_slug": "msst",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "msst",
-    "institution": "CORE",
-    "tier": "B",
-    "year": 2023
-  },
-  {
-    "conference_slug": "msst",
-    "institution": "CCF",
-    "tier": "B",
-    "year": 2022
-  },
-  {
-    "conference_slug": "msst",
-    "institution": "CSRankings",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "noms",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "noms",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "noms",
-    "institution": "KAIST",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "noms",
-    "institution": "SNU",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "noms",
-    "institution": "POSTECH",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "noms",
-    "institution": "CORE",
-    "tier": "B",
-    "year": 2023
-  },
-  {
-    "conference_slug": "noms",
-    "institution": "CCF",
-    "tier": null,
-    "year": 2022
-  },
-  {
-    "conference_slug": "noms",
-    "institution": "CSRankings",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "nossdav",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "nossdav",
-    "institution": "KIISE",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "nossdav",
-    "institution": "KAIST",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "nossdav",
-    "institution": "SNU",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "nossdav",
-    "institution": "POSTECH",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "nossdav",
-    "institution": "CORE",
-    "tier": "B",
-    "year": 2023
-  },
-  {
-    "conference_slug": "nossdav",
-    "institution": "CCF",
-    "tier": "B",
-    "year": 2022
-  },
-  {
-    "conference_slug": "nossdav",
-    "institution": "CSRankings",
-    "tier": null,
-    "year": 2025
-  },
-  {
-    "conference_slug": "recomb",
-    "institution": "BK21",
-    "tier": "1",
-    "year": 2025
-  },
-  {
-    "conference_slug": "recomb",
-    "institution": "KIISE",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "recomb",
-    "institution": "KAIST",
-    "tier": "우수",
-    "year": 2025
-  },
-  {
-    "conference_slug": "recomb",
-    "institution": "SNU",
-    "tier": "인정",
-    "year": 2025
-  },
-  {
     "conference_slug": "recomb",
     "institution": "POSTECH",
-    "tier": "우수",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9620,7 +9620,7 @@
   {
     "conference_slug": "sas",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9662,13 +9662,13 @@
   {
     "conference_slug": "sec",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
     "conference_slug": "sec",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9716,7 +9716,7 @@
   {
     "conference_slug": "secon",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9764,7 +9764,7 @@
   {
     "conference_slug": "sgp",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9806,13 +9806,13 @@
   {
     "conference_slug": "soups",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
     "conference_slug": "soups",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9860,7 +9860,7 @@
   {
     "conference_slug": "srds",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9908,7 +9908,7 @@
   {
     "conference_slug": "stacs",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {
@@ -9950,7 +9950,7 @@
   {
     "conference_slug": "tcc",
     "institution": "KAIST",
-    "tier": null,
+    "tier": "우수",
     "year": 2025
   },
   {
@@ -10004,7 +10004,7 @@
   {
     "conference_slug": "vrst",
     "institution": "SNU",
-    "tier": "인정",
+    "tier": null,
     "year": 2025
   },
   {

@@ -23,6 +23,10 @@ export function SiteFooter() {
             {isKorean ? "소개" : "About"}
           </Link>
           <span className="text-zinc-300">·</span>
+          <Link href="/references" className="underline underline-offset-2 hover:text-zinc-600 transition-colors py-2 inline-block">
+            {isKorean ? "출처" : "Sources"}
+          </Link>
+          <span className="text-zinc-300">·</span>
           <Link href="/privacy" className="underline underline-offset-2 hover:text-zinc-600 transition-colors py-2 inline-block">
             {isKorean ? "개인정보 처리방침" : "Privacy"}
           </Link>
